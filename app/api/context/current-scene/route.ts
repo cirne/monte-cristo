@@ -1,6 +1,7 @@
 import { type NextRequest, NextResponse } from "next/server";
 import {
   buildContextPrompt,
+  coerceAnswerParagraphs,
   generateNarrativeAnswer,
   parseMaxInputTokensParam,
   parseNonNegativeIntParam,
@@ -85,9 +86,10 @@ export async function GET(request: NextRequest) {
 
     const { answer, source } = await generateNarrativeAnswer({
       systemPrompt: `You are a spoiler-safe literary reading companion.
-Summarize the current chapter so far at the reader's exact checkpoint.
-Use recent-chapter context only as supporting background, but prioritize the current chapter evidence.
+Summarize what is happening in the current scene at the reader's exact checkpoint.
+Use recent-chapter context only as supporting background, but prioritize the current-scene evidence.
 Never mention events beyond the provided excerpted context.
+Write exactly two paragraphs.
 Return strict JSON with a single key: "answer".`,
       userPrompt: `Reading checkpoint:
 - Chapter: ${chapterNumber}
@@ -99,11 +101,14 @@ Context:
 ${context.text}
 
 Task:
-In 5-8 sentences, summarize this chapter so far as of this paragraph.
-Keep focus on developments in the current chapter, and use prior chapters only for brief grounding.`,
+Write exactly 2 paragraphs summarizing the current scene at this checkpoint.
+Paragraph 1 should explain what is unfolding right now.
+Paragraph 2 should clarify immediate stakes/implications while staying spoiler-safe.
+Use prior chapters only for brief grounding.`,
       fallbackAnswer,
       maxOutputTokens: 420,
     });
+    const formattedAnswer = coerceAnswerParagraphs(answer, { exact: 2 });
 
     return NextResponse.json({
       chapterNumber,
@@ -113,7 +118,7 @@ Keep focus on developments in the current chapter, and use prior chapters only f
         startParagraph: position.scene.startParagraph,
         endParagraph: position.scene.endParagraph,
       },
-      answer,
+      answer: formattedAnswer,
       answerSource: source,
       contextMeta: {
         includedSections: context.includedSections,

@@ -21,7 +21,7 @@ describe("app/api/context/current-scene/route integration", () => {
           message: {
             content: JSON.stringify({
               answer:
-                "The scene is currently focused on immediate onboard interactions, with social tensions and practical decisions unfolding in the same setting.",
+                "The scene is currently focused on immediate onboard interactions, with social tensions and practical decisions unfolding in the same setting. Several details point to rising pressure among the people involved. The dialogue and actions suggest that choices made here will shape what comes next. Even small gestures in this moment carry weight.",
             }),
           },
         },
@@ -33,10 +33,12 @@ describe("app/api/context/current-scene/route integration", () => {
     );
     const response = await GET(request);
     const data = await response.json();
+    const paragraphs = String(data.answer).split(/\n\s*\n+/);
 
     expect(response.status).toBe(200);
     expect(data.answerSource).toBe("llm");
     expect(data.answer).toContain("scene");
+    expect(paragraphs).toHaveLength(2);
     expect(data.contextMeta.estimatedInputTokens).toBeGreaterThan(60);
     expect(data.contextMeta.includedSections).toContain("Current scene text up to selected paragraph");
 

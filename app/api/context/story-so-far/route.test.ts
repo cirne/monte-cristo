@@ -50,16 +50,28 @@ describe("app/api/context/story-so-far/route", () => {
     mockGetSceneSummariesBeforeCurrent.mockReturnValue(["Scene 1: A conflict escalates."]);
     mockGetSceneTextUpToParagraph.mockReturnValue("Current chapter excerpt through this checkpoint.");
     mockCreateChatCompletion.mockResolvedValue({
-      choices: [{ message: { content: JSON.stringify({ answer: "So far, alliances tighten while hidden motives sharpen." }) } }],
+      choices: [
+        {
+          message: {
+            content: JSON.stringify({
+              answer:
+                "So far, alliances tighten while hidden motives sharpen.\n\nA second thread develops around social pressure.\n\nA third thread emphasizes consequences already in motion.\n\nA fourth paragraph should be merged to stay within limits.",
+            }),
+          },
+        },
+      ],
     });
 
     const request = new NextRequest("http://localhost/api/context/story-so-far?chapter=8&paragraph=22");
     const response = await GET(request);
     const data = await response.json();
+    const paragraphs = String(data.answer).split(/\n\s*\n+/);
 
     expect(response.status).toBe(200);
     expect(data.answer).toContain("So far");
     expect(data.answerSource).toBe("llm");
+    expect(paragraphs.length).toBeLessThanOrEqual(3);
+    expect(paragraphs).toHaveLength(3);
     expect(data.sceneIndex).toBe(1);
     expect(Array.isArray(data.contextMeta.includedSections)).toBe(true);
   });

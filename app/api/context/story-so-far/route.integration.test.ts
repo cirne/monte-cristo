@@ -21,7 +21,7 @@ describe("app/api/context/story-so-far/route integration", () => {
           message: {
             content: JSON.stringify({
               answer:
-                "So far, the narrative has established key relationships and tensions, and this checkpoint sits in the middle of those developing threads.",
+                "So far, the narrative has established key relationships and tensions, and this checkpoint sits in the middle of those developing threads.\n\nA second paragraph adds concise continuity details.\n\nA third paragraph explains how the present moment fits into prior developments.\n\nA fourth paragraph should be merged by post-processing.",
             }),
           },
         },
@@ -33,10 +33,13 @@ describe("app/api/context/story-so-far/route integration", () => {
     );
     const response = await GET(request);
     const data = await response.json();
+    const paragraphs = String(data.answer).split(/\n\s*\n+/);
 
     expect(response.status).toBe(200);
     expect(data.answerSource).toBe("llm");
     expect(data.answer).toContain("So far");
+    expect(paragraphs.length).toBeLessThanOrEqual(3);
+    expect(paragraphs).toHaveLength(3);
     expect(data.contextMeta.estimatedInputTokens).toBeGreaterThan(60);
     expect(data.contextMeta.includedSections).toContain("Current scene excerpt up to selected paragraph");
 
