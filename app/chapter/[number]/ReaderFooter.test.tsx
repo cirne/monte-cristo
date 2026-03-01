@@ -43,7 +43,7 @@ describe("app/chapter/[number]/ReaderFooter", () => {
         (query: string) => {
           const isLargeQuery = query === LARGE_SCREEN_MQ;
           const listeners: Array<() => void> = [];
-          let matches = false; // small by default
+          const matches = false; // small by default
           return {
             get matches() {
               return isLargeQuery ? matches : false;
