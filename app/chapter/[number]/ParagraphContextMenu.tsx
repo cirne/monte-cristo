@@ -38,12 +38,13 @@ function actionEndpoint(action: ContextAction): string {
 }
 
 export function ParagraphContextMenu({ anchor, chapterNumber, onClose }: ParagraphContextMenuProps) {
-  const popoverRef = React.useRef<HTMLDivElement>(null);
+  const menuPopoverRef = React.useRef<HTMLDivElement>(null);
   const requestIdRef = React.useRef(0);
   const [mode, setMode] = React.useState<ContextPopoverMode>("menu");
   const [action, setAction] = React.useState<ContextAction | undefined>(undefined);
   const [answer, setAnswer] = React.useState<string | undefined>(undefined);
   const [error, setError] = React.useState<string | undefined>(undefined);
+  const isSummaryDialogOpen = mode === "loading" || mode === "result" || mode === "error";
 
   const layout = React.useMemo(() => {
     if (!anchor || typeof window === "undefined") {
@@ -97,11 +98,11 @@ export function ParagraphContextMenu({ anchor, chapterNumber, onClose }: Paragra
   }, [anchor]);
 
   React.useEffect(() => {
-    if (!anchor) return;
+    if (!anchor || mode !== "menu") return;
     const onPointerDown = (event: PointerEvent) => {
       const target = event.target as Node | null;
       if (!target) return;
-      if (popoverRef.current?.contains(target)) return;
+      if (menuPopoverRef.current?.contains(target)) return;
       closeMenu();
     };
     const onKeyDown = (event: KeyboardEvent) => {
@@ -118,7 +119,19 @@ export function ParagraphContextMenu({ anchor, chapterNumber, onClose }: Paragra
       document.removeEventListener("keydown", onKeyDown);
       window.removeEventListener("scroll", onScroll, true);
     };
-  }, [anchor, closeMenu]);
+  }, [anchor, closeMenu, mode]);
+
+  React.useEffect(() => {
+    if (!anchor || !isSummaryDialogOpen) return;
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key !== "Escape") return;
+      closeMenu();
+    };
+    document.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.removeEventListener("keydown", onKeyDown);
+    };
+  }, [anchor, closeMenu, isSummaryDialogOpen]);
 
   const runContextAction = React.useCallback(
     async (nextAction: ContextAction) => {
@@ -157,20 +170,20 @@ export function ParagraphContextMenu({ anchor, chapterNumber, onClose }: Paragra
 
   return (
     <div className="fixed inset-0 z-40 pointer-events-none">
-      <div
-        ref={popoverRef}
-        role="dialog"
-        aria-label="Reading context menu"
-        className="pointer-events-auto fixed overflow-hidden rounded-lg border border-stone-200 bg-white shadow-xl"
-        style={{
-          left: layout.left,
-          top: layout.top,
-          width: layout.width,
-          maxHeight: layout.maxHeight,
-        }}
-      >
-        <div data-testid="paragraph-context-scroll" className="max-h-full overflow-y-auto overscroll-contain">
-          {mode === "menu" && (
+      {mode === "menu" && (
+        <div
+          ref={menuPopoverRef}
+          role="dialog"
+          aria-label="Reading context menu"
+          className="pointer-events-auto fixed overflow-hidden rounded-lg border border-stone-200 bg-white shadow-xl"
+          style={{
+            left: layout.left,
+            top: layout.top,
+            width: layout.width,
+            maxHeight: layout.maxHeight,
+          }}
+        >
+          <div data-testid="paragraph-context-scroll" className="max-h-full overflow-y-auto overscroll-contain">
             <div className="p-2">
               <button
                 type="button"
@@ -187,23 +200,37 @@ export function ParagraphContextMenu({ anchor, chapterNumber, onClose }: Paragra
                 {actionButtonLabel("story-so-far")}
               </button>
             </div>
-          )}
+          </div>
+        </div>
+      )}
 
-          {mode === "loading" && (
+      {isSummaryDialogOpen && (
+        <div
+          className="pointer-events-auto fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/40"
+          onClick={closeMenu}
+        >
+          <div
+            role="dialog"
+            aria-label="Reading context summary"
+            className="bg-white rounded-xl shadow-xl w-full max-w-5xl max-h-[90vh] overflow-y-auto border border-stone-200 p-4 sm:p-6"
+            onClick={(e) => e.stopPropagation()}
+            data-testid="paragraph-context-scroll"
+          >
+            {mode === "loading" && (
             <div className="p-3">
               <p className="text-xs uppercase tracking-widest text-stone-400 mb-1">
                 {actionLabel(action ?? "current-scene")}
               </p>
               <p className="text-sm text-stone-700">Preparing your summary…</p>
             </div>
-          )}
+            )}
 
-          {mode === "result" && (
+            {mode === "result" && (
             <div className="p-3">
               <p className="text-xs uppercase tracking-widest text-stone-400 mb-1">
                 {actionLabel(action ?? "current-scene")}
               </p>
-              <p className="text-sm text-stone-700 leading-relaxed whitespace-pre-wrap">{answer}</p>
+              <p className="text-base text-stone-700 leading-relaxed whitespace-pre-wrap">{answer}</p>
               <div className="mt-3 flex items-center justify-end gap-2">
                 <button
                   type="button"
@@ -214,7 +241,7 @@ export function ParagraphContextMenu({ anchor, chapterNumber, onClose }: Paragra
                   }}
                   className="px-2.5 py-1.5 text-xs rounded-md border border-stone-300 text-stone-600 hover:bg-stone-50"
                 >
-                  Menu
+                  Back to menu
                 </button>
                 <button
                   type="button"
@@ -225,9 +252,9 @@ export function ParagraphContextMenu({ anchor, chapterNumber, onClose }: Paragra
                 </button>
               </div>
             </div>
-          )}
+            )}
 
-          {mode === "error" && (
+            {mode === "error" && (
             <div className="p-3">
               <p className="text-xs uppercase tracking-widest text-red-400 mb-1">Context unavailable</p>
               <p className="text-sm text-stone-700">{error}</p>
@@ -245,9 +272,10 @@ export function ParagraphContextMenu({ anchor, chapterNumber, onClose }: Paragra
                 </button>
               </div>
             </div>
-          )}
+            )}
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }
