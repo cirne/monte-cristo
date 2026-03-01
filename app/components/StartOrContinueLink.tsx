@@ -7,19 +7,30 @@ import { TOTAL_CHAPTERS, LAST_CHAPTER_STORAGE_KEY } from "@/lib/constants";
 const linkClassName =
   "inline-flex items-center gap-2 px-6 py-2.5 bg-stone-800 text-white rounded-full text-sm font-medium hover:bg-stone-700 transition-colors";
 
+const SERVER_SNAPSHOT = { href: "/chapter/1", label: "Start Reading" } as const;
+
+const startSnapshot = { href: "/chapter/1", label: "Start Reading" };
+const continueSnapshotByChapter: Record<number, { href: string; label: string }> = {};
+
 function getSnapshot(): { href: string; label: string } {
   if (typeof window === "undefined") {
-    return { href: "/chapter/1", label: "Start Reading" };
+    return SERVER_SNAPSHOT;
   }
   try {
     const raw = window.localStorage.getItem(LAST_CHAPTER_STORAGE_KEY);
     const n = raw != null ? parseInt(raw, 10) : NaN;
     if (Number.isNaN(n) || n < 1 || n > TOTAL_CHAPTERS || n === 1) {
-      return { href: "/chapter/1", label: "Start Reading" };
+      return startSnapshot;
     }
-    return { href: `/chapter/${n}`, label: "Continue Reading" };
+    if (!continueSnapshotByChapter[n]) {
+      continueSnapshotByChapter[n] = {
+        href: `/chapter/${n}`,
+        label: "Continue Reading",
+      };
+    }
+    return continueSnapshotByChapter[n];
   } catch {
-    return { href: "/chapter/1", label: "Start Reading" };
+    return startSnapshot;
   }
 }
 
@@ -31,7 +42,7 @@ export function StartOrContinueLink() {
   const { href, label } = useSyncExternalStore(
     subscribe,
     getSnapshot,
-    () => ({ href: "/chapter/1", label: "Start Reading" })
+    () => SERVER_SNAPSHOT
   );
 
   return (
