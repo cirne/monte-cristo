@@ -206,7 +206,7 @@ function FooterAvatarSection({
   onCollapseLocation,
 }: FooterAvatarSectionProps) {
   return (
-    <div className="flex items-center gap-2 flex-wrap overflow-hidden min-w-0 flex-1 min-w-0 justify-start">
+    <div className="flex items-center gap-2 flex-wrap overflow-hidden min-w-0 shrink-0 justify-start">
       {isLargeScreen &&
         uniqueDisplayedIds.map((entityId) => (
           <AnimatedAvatar
