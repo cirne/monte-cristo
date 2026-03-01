@@ -1,15 +1,31 @@
 {
   "entities": {
-    "edmond_dants": {
-      "id": "edmond_dants",
+    "dantes": {
+      "id": "dantes",
       "name": "Edmond Dantès",
-      "aliases": [],
+      "aliases": [
+        "The Count of Monte Cristo",
+        "Sinbad the Sailor",
+        "Lord Wilmore",
+        "Abbé Busoni"
+      ],
       "type": "person",
       "firstSeenInChapter": 1,
+      "spoilerFreeIntro": "A young sailor, first mate of the Pharaon.",
       "searchTerms": [
-        "Edmond Dantès"
-      ],
-      "spoilerFreeIntro": "\"Edmond Dantès, an ambitious and devoted young sailor, was revered by his fellow crew members.\""
+        "Edmond Dantès",
+        "The Count of Monte Cristo",
+        "Sinbad the Sailor",
+        "Lord Wilmore",
+        "Abbé Busoni",
+        "Dantès",
+        "Dantes",
+        "Monte Cristo",
+        "Sinbad",
+        "Busoni",
+        "Wilmore",
+        "Edmond"
+      ]
     },
     "m_morrel": {
       "id": "m_morrel",
@@ -22,6 +38,11 @@
       "searchTerms": [
         "M. Morrel",
         "Monsieur Morrel"
+      ],
+      "matchPatterns": [
+        "M\\.?\\s*Morrel",
+        "Monsieur\\s+Morrel",
+        "\\bMorrel\\b"
       ],
       "spoilerFreeIntro": "\"M. Morrel, the esteemed shipowner with a furrowed brow, stood silently grappling with the weight of his concerns.\""
     },
@@ -36,19 +57,20 @@
       ],
       "spoilerFreeIntro": "\"The esteemed Captain Leclere, known for his bravery on the high seas, had just met an untimely fate.\""
     },
-    "m_danglars": {
-      "id": "m_danglars",
-      "name": "M. Danglars",
+    "danglars": {
+      "id": "danglars",
+      "name": "Danglars",
       "aliases": [
-        "Monsieur Danglars"
+        "Baron Danglars"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
+      "spoilerFreeIntro": "A sailor aboard the Pharaon.",
       "searchTerms": [
-        "M. Danglars",
-        "Monsieur Danglars"
-      ],
-      "spoilerFreeIntro": "\"M. Danglars, the supercargo, emerged from his cabin with an air of self-importance.\""
+        "Danglars",
+        "Baron Danglars",
+        "Danglars"
+      ]
     },
     "civita_vecchia": {
       "id": "civita_vecchia",
@@ -94,37 +116,45 @@
       ],
       "spoilerFreeIntro": "\"La Canebière, the bustling heart of Marseille, echoed with the sounds of commerce and conversation.\""
     },
-    "notredame_de_la_garde": {
-      "id": "notredame_de_la_garde",
+    "notre_dame_garde": {
+      "id": "notre_dame_garde",
       "name": "Notre-Dame de la Garde",
       "aliases": [],
       "type": "place",
       "firstSeenInChapter": 1,
+      "spoilerFreeIntro": "A lookout point above Marseilles harbor.",
       "searchTerms": [
-        "Notre-Dame de la Garde"
-      ],
-      "spoilerFreeIntro": "\"Perched high above the bustling port, Notre-Dame de la Garde stood as a sentinel over Marseille, its silhouette a comforting promise to weary sailors.\""
+        "Notre-Dame de la Garde",
+        "Notre-Dame de la Garde",
+        "la Garde"
+      ]
     },
-    "chteau_dif": {
-      "id": "chteau_dif",
+    "chateau_dif": {
+      "id": "chateau_dif",
       "name": "Château d'If",
       "aliases": [],
       "type": "place",
       "firstSeenInChapter": 1,
+      "spoilerFreeIntro": "A fortress and prison on an island off Marseilles.",
       "searchTerms": [
-        "Château d'If"
+        "Château d'If",
+        "Château d'If",
+        "Chateau d'If",
+        "d'If"
       ]
     },
-    "fort_saintjean": {
-      "id": "fort_saintjean",
+    "fort_saint_jean": {
+      "id": "fort_saint_jean",
       "name": "Fort Saint-Jean",
       "aliases": [],
       "type": "place",
       "firstSeenInChapter": 1,
+      "spoilerFreeIntro": "A fort at the entrance to the port of Marseilles.",
       "searchTerms": [
-        "Fort Saint-Jean"
-      ],
-      "spoilerFreeIntro": "\"Perched on the edge of the bustling harbor, Fort Saint-Jean stands as a sentinel overlooking the vibrant city of Marseille.\""
+        "Fort Saint-Jean",
+        "Fort Saint-Jean",
+        "Saint-Jean"
+      ]
     },
     "valence": {
       "id": "valence",
@@ -137,30 +167,34 @@
       ],
       "spoilerFreeIntro": "\"A bustling garrison town nestled on the banks of the river Rhône.\""
     },
-    "mercds": {
-      "id": "mercds",
+    "mercedes": {
+      "id": "mercedes",
       "name": "Mercédès",
-      "aliases": [],
+      "aliases": [
+        "Comtesse de Morcerf"
+      ],
       "type": "person",
       "firstSeenInChapter": 1,
+      "spoilerFreeIntro": "Dantès's beloved, from the Catalan quarter of Marseilles.",
       "searchTerms": [
-        "Mercédès"
-      ],
-      "spoilerFreeIntro": "\"An enchanting young woman, the captivating Mercédès.\""
+        "Mercédès",
+        "Comtesse de Morcerf",
+        "Mercédès",
+        "Mercedes",
+        "Comtesse de Morcerf"
+      ]
     },
-    "the_pharaon": {
-      "id": "the_pharaon",
-      "name": "the Pharaon",
-      "aliases": [
-        "ship"
-      ],
-      "type": "event",
+    "pharaon": {
+      "id": "pharaon",
+      "name": "Pharaon",
+      "aliases": [],
+      "type": "place",
       "firstSeenInChapter": 1,
+      "spoilerFreeIntro": "The merchant ship owned by Morrel; Dantès serves as first mate.",
       "searchTerms": [
-        "the Pharaon",
-        "ship"
-      ],
-      "spoilerFreeIntro": "\"The Pharaon, a grand three-masted ship, arrived in the bustling port, carrying the promise of adventure from distant lands.\""
+        "Pharaon",
+        "Pharaon"
+      ]
     },
     "marseilles": {
       "id": "marseilles",
@@ -168,10 +202,14 @@
       "aliases": [],
       "type": "place",
       "firstSeenInChapter": 1,
+      "spoilerFreeIntro": "A port city in the south of France where the story opens.",
       "searchTerms": [
-        "Marseilles"
-      ],
-      "spoilerFreeIntro": "\"The bustling port of Marseilles came alive as curious onlookers gathered to welcome the arrival of a grand ship.\""
+        "Marseilles",
+        "Marseilles",
+        "Marseille",
+        "Phocee",
+        "Phocea"
+      ]
     },
     "monte_cristo": {
       "id": "monte_cristo",

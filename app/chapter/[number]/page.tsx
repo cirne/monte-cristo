@@ -3,6 +3,7 @@ import Link from "next/link";
 import { getChapter, getBookIndex, VOLUME_LABELS } from "@/lib/book";
 import { getCharacter, CHARACTERS } from "@/lib/characters";
 import { getPlaceOrEvent } from "@/lib/entities";
+import { getStoredEntity } from "@/lib/entity-store";
 import { getChapterIndexEntry } from "@/lib/chapter-index";
 import { getParagraphs } from "@/lib/scenes";
 import { linkifyParagraph } from "@/lib/linkify";
@@ -51,25 +52,29 @@ function buildXRayData(
   for (const { entityId, type, firstSeenInChapter, excerpt } of entry.entities) {
     if (type === "person") {
       const c = getCharacter(entityId);
-      if (!c) continue;
+      const stored = getStoredEntity(entityId);
+      const source = c ?? stored;
+      if (!source) continue;
       data[entityId] = {
-        name: c.name,
-        aliases: c.aliases,
-        spoilerFreeIntro: c.spoilerFreeIntro,
+        name: source.name,
+        aliases: "aliases" in source ? source.aliases : [],
+        spoilerFreeIntro: source.spoilerFreeIntro,
         firstSeenInChapter,
         excerpt,
         type: "person",
       };
     } else {
       const e = getPlaceOrEvent(entityId);
-      if (!e) continue;
+      const stored = getStoredEntity(entityId);
+      const source = e ?? stored;
+      if (!source) continue;
       data[entityId] = {
-        name: e.name,
+        name: source.name,
         aliases: [],
-        spoilerFreeIntro: e.spoilerFreeIntro,
+        spoilerFreeIntro: source.spoilerFreeIntro,
         firstSeenInChapter,
         excerpt,
-        type: e.type,
+        type: source.type,
       };
     }
   }

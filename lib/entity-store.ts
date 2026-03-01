@@ -4,6 +4,8 @@
  * previously referenced entities instead of duplicating.
  */
 
+import { readFileSync, existsSync } from "fs";
+import { join } from "path";
 import type { EntityType } from "./chapter-index";
 
 export interface StoredEntity {
@@ -17,12 +19,34 @@ export interface StoredEntity {
   spoilerFreeIntro?: string;
   /** Terms to search for in text (name + aliases + extras) */
   searchTerms: string[];
+  /** Optional regex patterns for canonical matching (e.g. M. Morrel, Monsieur Morrel → same entity) */
+  matchPatterns?: string[];
 }
 
 export interface EntityStoreData {
   entities: Record<string, StoredEntity>;
   /** Last chapter number that was indexed (optional) */
   lastIndexedChapter?: number;
+}
+
+const DATA_DIR = join(process.cwd(), "data");
+let _store: EntityStoreData | null = null;
+
+export function getEntityStore(): EntityStoreData {
+  if (!_store) {
+    const path = join(DATA_DIR, "entity-store.json");
+    if (!existsSync(path)) {
+      _store = { entities: {} };
+    } else {
+      const raw = readFileSync(path, "utf-8");
+      _store = JSON.parse(raw) as EntityStoreData;
+    }
+  }
+  return _store;
+}
+
+export function getStoredEntity(id: string): StoredEntity | undefined {
+  return getEntityStore().entities[id];
 }
 
 /** Slug for entity id: lowercase, alphanumeric + underscore */

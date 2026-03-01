@@ -3,7 +3,7 @@
  * Generate entity images. By default only generates images that
  * don't already exist. Uses data/image-style.txt and data/entity-image-prompts.json.
  * With --chapter=N, ensures prompts exist for entities in that chapter (from entity store, via LLM), then generates images.
- * Runs multiple generations in parallel; default concurrency is 5.
+ * Runs multiple generations in parallel; default concurrency is 32.
  *
  * Usage:
  *   bun run scripts/generate-images.ts --entity=dantes
@@ -83,7 +83,7 @@ async function main() {
   const allEntities = args.includes("--all-entities");
   const force = args.includes("--force");
   const concurrencyArg = args.find((a) => a.startsWith("--workers="))?.split("=")[1];
-  const concurrency = concurrencyArg ? Math.max(1, parseInt(concurrencyArg, 10)) : 5;
+  const concurrency = concurrencyArg ? Math.max(1, parseInt(concurrencyArg, 10)) : 32;
 
   if (!entityId && !allEntities && chapterNum == null) {
     console.error(
