@@ -208,88 +208,357 @@
       "number": 2,
       "entities": [
         {
-          "entityId": "caderousse",
-          "type": "person",
-          "firstSeenInChapter": 2
-        },
-        {
-          "entityId": "marseilles",
-          "type": "place",
-          "firstSeenInChapter": 1
-        },
-        {
-          "entityId": "mercedes",
-          "type": "person",
-          "firstSeenInChapter": 1
-        },
-        {
           "entityId": "danglars",
           "type": "person",
-          "firstSeenInChapter": 1
-        },
-        {
-          "entityId": "pharaon",
-          "type": "place",
-          "firstSeenInChapter": 1
+          "firstSeenInChapter": 1,
+          "excerpt": "We will leave Danglars struggling with the demon of hatred, and endeavoring to insinuate in the ear of"
         },
         {
           "entityId": "dantes",
           "type": "person",
-          "firstSeenInChapter": 1
+          "firstSeenInChapter": 1,
+          "excerpt": "…picions against his comrade, and follow Dantès, who, after having traversed La Canebière, took the Rue de Noailles, and…"
         },
         {
-          "entityId": "maximilian",
+          "entityId": "la_canebire",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…low Dantès, who, after having traversed La Canebière, took the Rue de Noailles, and entering a small house, on the left…"
+        },
+        {
+          "entityId": "rue_de_noailles",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…having traversed La Canebière, took the Rue de Noailles, and entering a small house, on the left of the Allées de Meilh…"
+        },
+        {
+          "entityId": "alles_de_meilhan",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…ering a small house, on the left of the Allées de Meilhan, rapidly ascended four flights of a dark staircase, holding t…"
+        },
+        {
+          "entityId": "dants_father",
           "type": "person",
-          "firstSeenInChapter": 1
+          "firstSeenInChapter": 2,
+          "excerpt": "…small room.  This room was occupied by Dantès’ father. The news of the arrival of the Pharaon had not yet reached the o…"
+        },
+        {
+          "entityId": "nasturtiums",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…elf by training with trembling hand the nasturtiums and sprays of clematis that clambered over the trellis at his windo…"
+        },
+        {
+          "entityId": "clematis",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…ling hand the nasturtiums and sprays of clematis that clambered over the trellis at his window. Suddenly, he felt an ar…"
+        },
+        {
+          "entityId": "captain_leclere",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…y cannot pretend to lament it. The good Captain Leclere is dead, father, and it is probable that, with the aid of M. Mo…"
+        },
+        {
+          "entityId": "m_morrel",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…nd it is probable that, with the aid of M. Morrel, I shall have his place. Do you understand, father? Only imagine me a…"
+        },
+        {
+          "entityId": "caderousse",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…hat time a little debt to our neighbor, Caderousse. He reminded me of it, telling me if I did not pay for you, he would…"
+        },
+        {
+          "entityId": "pharaon",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…father. The news of the arrival of the Pharaon had not yet reached the old man, who, mounted on a chair, was amusing hi…"
+        },
+        {
+          "entityId": "saint_nicolas_citadel",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…s; and I know one down there behind the Saint Nicolas citadel who will not be sorry to hear it.”  “Mercédès?” said the …"
+        },
+        {
+          "entityId": "mercedes",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…el who will not be sorry to hear it.”  “Mercédès?” said the old man.  “Yes, my dear father, and with your permission, n…"
+        },
+        {
+          "entityId": "catalans",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…ur consent to go and pay a visit to the Catalans.”  “Go, my dear boy,” said old Dantès; “and Heaven bless you in your w…"
+        },
+        {
+          "entityId": "rue_senac",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…s, who awaited him at the corner of the Rue Senac.  “Well,” said Danglars, “did you see him?”  “I have just left him,” …"
+        },
+        {
+          "entityId": "la_rserve",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…Let us go the same way; we will stop at La Réserve, and we can drink a glass of La Malgue, whilst we wait for news.”  “…"
+        },
+        {
+          "entityId": "la_malgue",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…come,” said the young man, “a glass of wine, father, will revive you. Where do you keep your wine?”  “No, no; thanks. Y…"
+        },
+        {
+          "entityId": "pre_pamphile",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…for a bottle of wine, and two glasses.  Père Pamphile had seen Dantès pass not ten minutes before; and assured that he …"
+        },
+        {
+          "entityId": "marseilles",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…th, when I met friend Danglars. ‘You at Marseilles?’—‘Yes,’ says he.  “‘I thought you were at Smyrna.’—‘I was; but am n…"
         }
       ],
-      "scenes": []
+      "scenes": [
+        {
+          "startParagraph": 1,
+          "endParagraph": 2,
+          "locationDescription": "In Dantès' father's small room",
+          "imageDescription": "A dimly lit modest room in an old house with a trellis-covered window where clematis and nasturtiums grow. An old, frail man with trembling hands is standing on a chair tending the plants at the window. A young man, Edmond Dantès, embraces him from behind, showing a moment of tender reunion. The furnishings are simple, reflective of a humble 19th-century Marseille home. Light filters softly through the window, creating a subdued, intimate atmosphere of warmth and concern.",
+          "characterIds": [
+            "dantes",
+            "dants_father"
+          ]
+        },
+        {
+          "startParagraph": 3,
+          "endParagraph": 36,
+          "locationDescription": "Dantès’ father's small room, continuing conversation",
+          "imageDescription": "The same modest room with old Dantès sitting or reclining weakly while Edmond speaks anxiously. The table before them holds a scattered pile of gold coins that Edmond has just emptied from his pockets. The old man looks pale and fragile, with signs of distress, while Edmond shows a mixture of hope and worry. The light remains soft and natural, emphasizing the emotional depth of the reunion and the tension about the father’s hardship.",
+          "characterIds": [
+            "dantes",
+            "dants_father"
+          ]
+        },
+        {
+          "startParagraph": 37,
+          "endParagraph": 37,
+          "locationDescription": "Inside the small room as Caderousse arrives at the door",
+          "imageDescription": "In the cozy, humble room, the black-haired, bearded neighbor, Gaspard Caderousse, stands at the half-open doorway holding a piece of cloth, appearing somewhat sly but outwardly friendly. Edmond and his father remain near the table, facing Caderousse with polite but guarded expressions. The setting conveys a sense of neighborly interaction tinged with underlying wariness, with spring daylight filling the room.",
+          "characterIds": [
+            "dantes",
+            "dants_father",
+            "caderousse"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 103,
+          "locationDescription": "Small room, conversation between Edmond, his father, and Caderousse",
+          "imageDescription": "A triangular grouping around the table within the modest room: Edmond stands near his elderly father, who sits, while Caderousse, the tailor, sits or stands nearby with a grin and a somewhat greedy look in his eyes, glancing at Edmond’s money. The mood is convivial with subtle undercurrents of tension. The furnishings remain simple, period-appropriate, evoking mid-19th century Marseille atmosphere.",
+          "characterIds": [
+            "dantes",
+            "dants_father",
+            "caderousse"
+          ]
+        },
+        {
+          "startParagraph": 104,
+          "endParagraph": 104,
+          "locationDescription": "Room with Edmond, Caderousse, and old Dantès, discussing Mercédès",
+          "imageDescription": "The three men remain in the modest room, now deeply engaged in conversation about Mercédès and the surrounding social intrigues. Edmond looks confident yet shows a flicker of unease, Caderousse wears a knowing, somewhat sneering expression, and the elderly father observes quietly. The lighting highlights the earnestness of Edmond paired with the skepticism of Caderousse, emphasizing the social tension of the narrative.",
+          "characterIds": [
+            "dantes",
+            "dants_father",
+            "caderousse"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 115,
+          "locationDescription": "Outside on street corner near Rue Senac and later at La Réserve tavern",
+          "imageDescription": "Two men, Danglars and Caderousse, stand talking on a street corner dressed in 19th-century civilian clothing, with subtle shadows indicating an early spring afternoon. They move toward a small tavern, La Réserve, where they sit beneath budding plane and sycamore trees, brightened by lively bird songs. The atmosphere is one of casual scheming, with the contrasting light of the lively outdoors and shaded tavern creating a scene of conspiratorial discussion.",
+          "characterIds": [
+            "danglars",
+            "caderousse",
+            "pre_pamphile"
+          ]
+        }
+      ]
     },
     {
       "number": 3,
       "entities": [
         {
-          "entityId": "dantes",
-          "type": "person",
-          "firstSeenInChapter": 1
-        },
-        {
-          "entityId": "caderousse",
-          "type": "person",
-          "firstSeenInChapter": 2
-        },
-        {
-          "entityId": "marseilles",
-          "type": "place",
-          "firstSeenInChapter": 1
-        },
-        {
           "entityId": "mercedes",
           "type": "person",
-          "firstSeenInChapter": 1
-        },
-        {
-          "entityId": "danglars",
-          "type": "person",
-          "firstSeenInChapter": 1
+          "firstSeenInChapter": 1,
+          "excerpt": "…ng girl controlled his look.  “You see, Mercédès,” said the young man, “here is Easter come round again; tell me, is th…"
         },
         {
           "entityId": "fernand",
           "type": "person",
-          "firstSeenInChapter": 3
+          "firstSeenInChapter": 3,
+          "excerpt": "…“I have answered you a hundred times, Fernand, and really you must be very stupid to ask me again.”  “Well, repeat it,—…"
+        },
+        {
+          "entityId": "dantes",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…his your final determination?”  “I love Edmond Dantès,” the young girl calmly replied, “and none but Edmond shall ever …"
+        },
+        {
+          "entityId": "caderousse",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…denly, looked around him, and perceived Caderousse sitting at table with Danglars, under an arbor.  “Well”, said Cadero…"
+        },
+        {
+          "entityId": "danglars",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ceived Caderousse sitting at table with Danglars, under an arbor.  “Well”, said Caderousse, “why don’t you come? Are yo…"
         },
         {
           "entityId": "pharaon",
           "type": "place",
-          "firstSeenInChapter": 1
+          "firstSeenInChapter": 1,
+          "excerpt": "…ne girl is in love with the mate of the Pharaon; and as the Pharaon arrived today—why, you understand!”  “No; I do not …"
         },
         {
-          "entityId": "paris",
+          "entityId": "marseilles",
           "type": "place",
-          "firstSeenInChapter": 1
+          "firstSeenInChapter": 1,
+          "excerpt": "…rstood Provençal, begged the commune of Marseilles to give them this bare and barren promontory, where, like the sailor…"
+        },
+        {
+          "entityId": "the_village_of_the_catalans",
+          "type": "place",
+          "firstSeenInChapter": 3,
+          "excerpt": "…listening as they drank their wine, was the village of the Catalans. Long ago this mysterious colony quitted Spain, and…"
+        },
+        {
+          "entityId": "cape_de_morgiou",
+          "type": "place",
+          "firstSeenInChapter": 3,
+          "excerpt": "…I would ascend the highest point of the Cape de Morgiou and cast myself headlong from it.”  Fernand became deadly pale.…"
+        },
+        {
+          "entityId": "la_rserve",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…at latest, the wedding festival here at La Réserve. My friends will be there, I hope; that is to say, you are invited, …"
+        },
+        {
+          "entityId": "spain",
+          "type": "place",
+          "firstSeenInChapter": 3,
+          "excerpt": "…Long ago this mysterious colony quitted Spain, and settled on the tongue of land on which it is to this day. Whence it …"
         }
       ],
-      "scenes": []
+      "scenes": [
+        {
+          "startParagraph": 1,
+          "endParagraph": 15,
+          "locationDescription": "In the village of the Catalans, inside a rustic house",
+          "imageDescription": "A sunlit interior of a rustic whitewashed house with walls sunburned to a dead-leaf color. A young beautiful girl with black hair and velvety eyes sits leaning against a wainscot, picking flowers, barefoot in colorful stockings. A young tall man balances on two legs of a chair seated near an old wooden table. Their clothes reflect a mix of Moorish and Spanish style typical of a 19th-century Catalan fishing village. The atmosphere is charged with tension and unspoken emotion.",
+          "characterIds": [
+            "mercedes",
+            "fernand"
+          ]
+        },
+        {
+          "startParagraph": 16,
+          "endParagraph": 25,
+          "locationDescription": "Same rustic house in the village of the Catalans",
+          "imageDescription": "The same rustic house interior now filled with intense emotion. Mercédès and Fernand confront each other; Mercédès looks distressed yet resolute, tears in her eyes, while Fernand's expression is a mixture of jealousy, anger, and despair. Sunlight floods the open doorway, illuminating the three figures with brightness and casting sharp shadows. A tense, dramatic atmosphere of conflicted love and rivalry pervades the room. Period attire of sailors and villagers accentuates the setting.",
+          "characterIds": [
+            "mercedes",
+            "fernand",
+            "dantes"
+          ]
+        },
+        {
+          "startParagraph": 26,
+          "endParagraph": 35,
+          "locationDescription": "Inside the Catalan house, near the open door",
+          "imageDescription": "Inside the rustic Catalan house, Mercédès and Edmond Dantès embrace joyously near the open door, bathed in dazzling sunlight streaming in. Fernand stands slightly back, pale and trembling, his hand near a belt knife, tension visible in his posture. Edmond holds Mercédès' hand warmly and extends the other to Fernand, who recoils without returning the gesture. The distinct contrast between the lovers' joy and Fernand's looming menace fills the scene, rendered in rich 19th-century style.",
+          "characterIds": [
+            "mercedes",
+            "fernand",
+            "dantes"
+          ]
+        },
+        {
+          "startParagraph": 36,
+          "endParagraph": 36,
+          "locationDescription": "In the arbor outside the Catalan village house",
+          "imageDescription": "Shaded, leafy arbor with a rough wooden table where Fernand, Caderousse, and Danglars sit and stand. Fernand appears agitated and exhausted, having just entered from a hurried run. Caderousse laughs with a glass in hand, Danglars watches keenly. The three men wear 19th-century Provençal peasant and merchant attire. The atmosphere is one of casual drinking mixed with intrigue, as the men engage in animated conversation under the dappled light filtering through the foliage.",
+          "characterIds": [
+            "fernand",
+            "caderousse",
+            "danglars"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 66,
+          "locationDescription": "Same arbor in the Catalan village",
+          "imageDescription": "Close-up scene at the arbor table with the three men: Fernand, Caderousse, and Danglars. Fernand looks defeated and gloomy, head in hands on the table. Caderousse jovially teases him, glass in hand, while Danglars looks on with a mix of mock sympathy and sly calculation. The late afternoon sun casts warm light, highlighting the rough textures of clothes and wood. The mood is a blend of dark humor and brewing tension amid rustic simplicity.",
+          "characterIds": [
+            "fernand",
+            "caderousse",
+            "danglars"
+          ]
+        },
+        {
+          "startParagraph": 67,
+          "endParagraph": 73,
+          "locationDescription": "Outside near the Catalan village, looking towards the path",
+          "imageDescription": "An outdoor view capturing two lovers walking hand in hand along a seaside path near the village. Fernand, Caderousse, and Danglars watch from the arbor shaded by vines. Fernand’s face is strained with jealousy; Caderousse leans forward eagerly; Danglars observes coldly. The background shows the sunlit sea and small Catalan village houses. The setting evokes a vivid 19th-century Mediterranean coastal atmosphere, charged with silent rivalry and voyeurism.",
+          "characterIds": [
+            "fernand",
+            "caderousse",
+            "danglars",
+            "dantes",
+            "mercedes"
+          ]
+        },
+        {
+          "startParagraph": 74,
+          "endParagraph": 75,
+          "locationDescription": "Back in the arbor near the table under vines",
+          "imageDescription": "Fernand, visibly agitated and restless, rises from the seat as Danglars and Caderousse watch him with subtle smirks. Danglars projects cold amusement, while Caderousse gestures drunkenly. The late afternoon light and shadow interplay over their 19th-century rustic clothing. The mood is charged with impending conflict and concealed schemes, reflecting social tension and personal rivalries between the characters.",
+          "characterIds": [
+            "fernand",
+            "caderousse",
+            "danglars",
+            "mercedes"
+          ]
+        },
+        {
+          "startParagraph": 76,
+          "endParagraph": 95,
+          "locationDescription": "In the arbor under vines at the table",
+          "imageDescription": "Fernand, Caderousse, Danglars, and Mercédès gathered near the arbor table, with Edmond Dantès approaching. Mercédès curtsies politely, dressed simply and gracefully, her face showing calm dignity. Caderousse clumsily toasts, glass raised, Danglars bows with a calculating smile. Fernand sits silently with a grim expression. The scene is bathed in soft golden light filtering through leaves, capturing nuanced social dynamics and emerging alliances in a vibrant Mediterranean village setting, evocative of the 19th century.",
+          "characterIds": [
+            "fernand",
+            "caderousse",
+            "danglars",
+            "mercedes",
+            "dantes"
+          ]
+        }
+      ]
     },
     {
       "number": 4,

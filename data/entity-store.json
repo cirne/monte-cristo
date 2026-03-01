@@ -7,7 +7,9 @@
         "The Count of Monte Cristo",
         "Sinbad the Sailor",
         "Lord Wilmore",
-        "Abbé Busoni"
+        "Abbé Busoni",
+        "Dantès",
+        "Edmond, Dantès"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -24,7 +26,8 @@
         "Sinbad",
         "Busoni",
         "Wilmore",
-        "Edmond"
+        "Edmond",
+        "Edmond, Dantès"
       ]
     },
     "m_morrel": {
@@ -61,15 +64,15 @@
       "id": "danglars",
       "name": "Danglars",
       "aliases": [
-        "Baron Danglars"
+        "Baron Danglars",
+        "Danglars"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
       "spoilerFreeIntro": "A sailor aboard the Pharaon.",
       "searchTerms": [
         "Danglars",
-        "Baron Danglars",
-        "Danglars"
+        "Baron Danglars"
       ]
     },
     "civita_vecchia": {
@@ -171,7 +174,8 @@
       "id": "mercedes",
       "name": "Mercédès",
       "aliases": [
-        "Comtesse de Morcerf"
+        "Comtesse de Morcerf",
+        "Mercédès"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -179,9 +183,7 @@
       "searchTerms": [
         "Mercédès",
         "Comtesse de Morcerf",
-        "Mercédès",
-        "Mercedes",
-        "Comtesse de Morcerf"
+        "Mercedes"
       ]
     },
     "pharaon": {
@@ -199,12 +201,13 @@
     "marseilles": {
       "id": "marseilles",
       "name": "Marseilles",
-      "aliases": [],
+      "aliases": [
+        "Marseilles"
+      ],
       "type": "place",
       "firstSeenInChapter": 1,
       "spoilerFreeIntro": "A port city in the south of France where the story opens.",
       "searchTerms": [
-        "Marseilles",
         "Marseilles",
         "Marseille",
         "Phocee",
@@ -279,6 +282,208 @@
         "the old Phocee docks"
       ],
       "spoilerFreeIntro": "\"The salty air thickened with the scent of tar and adventure as the old Phocee docks creaked under the weight of ships from distant lands.\""
+    },
+    "rue_de_noailles": {
+      "id": "rue_de_noailles",
+      "name": "Rue de Noailles",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Rue de Noailles"
+      ],
+      "spoilerFreeIntro": "A narrow, bustling street branching off La Canebière in the heart of Marseille."
+    },
+    "alles_de_meilhan": {
+      "id": "alles_de_meilhan",
+      "name": "Allées de Meilhan",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Allées de Meilhan"
+      ],
+      "spoilerFreeIntro": "A quiet street lined with old houses, marked by a narrow staircase leading upward."
+    },
+    "dants_father": {
+      "id": "dants_father",
+      "name": "Dantès’ father",
+      "aliases": [
+        "old man"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Dantès’ father",
+        "old man"
+      ],
+      "spoilerFreeIntro": "Dantès’ frail and devoted father, quietly awaiting news of his son."
+    },
+    "nasturtiums": {
+      "id": "nasturtiums",
+      "name": "nasturtiums",
+      "aliases": [
+        "plants"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "nasturtiums",
+        "plants"
+      ],
+      "spoilerFreeIntro": "A sunlit window trellis lush with vibrant nasturtiums and clematis."
+    },
+    "clematis": {
+      "id": "clematis",
+      "name": "clematis",
+      "aliases": [
+        "plants"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "clematis",
+        "plants"
+      ],
+      "spoilerFreeIntro": "A delicate climbing plant with vibrant flowers twisting over the wooden trellis."
+    },
+    "caderousse": {
+      "id": "caderousse",
+      "name": "Gaspard Caderousse",
+      "aliases": [
+        "Caderousse"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "spoilerFreeIntro": "A neighbor and acquaintance of Dantès.",
+      "searchTerms": [
+        "Gaspard Caderousse",
+        "Caderousse"
+      ]
+    },
+    "saint_nicolas_citadel": {
+      "id": "saint_nicolas_citadel",
+      "name": "Saint Nicolas citadel",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Saint Nicolas citadel"
+      ],
+      "spoilerFreeIntro": "The imposing fortress of Saint Nicolas citadel, guarding the harbor’s entrance with its ancient stone walls."
+    },
+    "catalans": {
+      "id": "catalans",
+      "name": "Catalans",
+      "aliases": [
+        "cousin of Mercédès"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Catalans",
+        "cousin of Mercédès"
+      ],
+      "spoilerFreeIntro": "A group of Catalan people whom the characters plan to visit during their journey."
+    },
+    "rue_senac": {
+      "id": "rue_senac",
+      "name": "Rue Senac",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Rue Senac"
+      ],
+      "spoilerFreeIntro": "A narrow, bustling street where characters often meet and exchange secrets."
+    },
+    "la_rserve": {
+      "id": "la_rserve",
+      "name": "La Réserve",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "La Réserve"
+      ],
+      "spoilerFreeIntro": "La Réserve, a cozy local tavern where travelers gather to share stories over a glass of La Malgue."
+    },
+    "la_malgue": {
+      "id": "la_malgue",
+      "name": "La Malgue",
+      "aliases": [
+        "wine"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "La Malgue",
+        "wine"
+      ],
+      "spoilerFreeIntro": "La Malgue, a humble coastal village where the scent of salt mingles with the promise of rugged hospitality."
+    },
+    "pre_pamphile": {
+      "id": "pre_pamphile",
+      "name": "Père Pamphile",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Père Pamphile"
+      ],
+      "spoilerFreeIntro": "An elderly monk known for his quiet watchfulness at the local tavern."
+    },
+    "fernand": {
+      "id": "fernand",
+      "name": "Fernand Mondego",
+      "aliases": [
+        "Comte de Morcerf"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "spoilerFreeIntro": "A Catalan fisherman; rival for Mercédès's affection.",
+      "searchTerms": [
+        "Fernand Mondego",
+        "Comte de Morcerf",
+        "Fernand",
+        "Morcerf"
+      ]
+    },
+    "the_village_of_the_catalans": {
+      "id": "the_village_of_the_catalans",
+      "name": "the village of the Catalans",
+      "aliases": [
+        "Catalans"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "the village of the Catalans",
+        "Catalans"
+      ],
+      "spoilerFreeIntro": "A remote village settled by exiled Catalans, marked by its enduring heritage."
+    },
+    "cape_de_morgiou": {
+      "id": "cape_de_morgiou",
+      "name": "Cape de Morgiou",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Cape de Morgiou"
+      ],
+      "spoilerFreeIntro": "A rugged promontory known for its towering cliffs and dramatic sea views."
+    },
+    "spain": {
+      "id": "spain",
+      "name": "Spain",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Spain"
+      ],
+      "spoilerFreeIntro": "Spain—an ancient, rugged land steeped in history and the birthplace of distant colonial ventures."
     }
   },
   "lastIndexedChapter": 117
