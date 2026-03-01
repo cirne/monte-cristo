@@ -8,6 +8,7 @@ import {
 } from "@/lib/context-api";
 import {
   estimateTokens,
+  getChapterSummaryWindowBefore,
   getSceneSummariesBeforeCurrent,
   getSceneTextUpToParagraph,
   getStorySoFarBeforeChapter,
@@ -15,22 +16,28 @@ import {
 } from "@/lib/reading-context";
 
 function buildFallbackAnswer(params: {
+  chapterNumber: number;
+  priorChapterSummaries: string[];
+  priorSceneSummaries: string[];
+  storySoFarBefore?: string;
   sceneText: string;
-  locationDescription?: string;
-  characterIds?: string[];
 }): string {
-  const { sceneText, locationDescription, characterIds } = params;
-  const location = locationDescription?.trim()
-    ? `The action is currently in ${locationDescription.trim()}.`
-    : "The current action is unfolding in the same immediate setting as the surrounding paragraphs.";
-  const cast =
-    characterIds && characterIds.length > 0
-      ? ` Characters visible in the indexed scene: ${characterIds.join(", ")}.`
-      : "";
+  const { chapterNumber, priorChapterSummaries, priorSceneSummaries, storySoFarBefore, sceneText } = params;
+  const parts: string[] = [];
+  if (storySoFarBefore?.trim()) {
+    parts.push(`Story context before chapter ${chapterNumber}: ${storySoFarBefore.trim()}`);
+  }
+  if (priorChapterSummaries.length > 0) {
+    parts.push(`Supporting context from recent chapters:\n${priorChapterSummaries.join("\n")}`);
+  }
+  if (priorSceneSummaries.length > 0) {
+    parts.push(`Within chapter ${chapterNumber}, earlier scenes:\n${priorSceneSummaries.join("\n")}`);
+  }
   const excerpt = sceneText.replace(/\s+/g, " ").trim().slice(0, 480);
-  return `${location}${cast} Up to this paragraph, the scene centers on: ${excerpt}${
-    excerpt.length >= 480 ? "…" : ""
-  }`;
+  parts.push(
+    `Current chapter text up to this paragraph indicates: ${excerpt}${excerpt.length >= 480 ? "…" : ""}`
+  );
+  return parts.join("\n\n");
 }
 
 export async function GET(request: NextRequest) {
@@ -51,12 +58,14 @@ export async function GET(request: NextRequest) {
   try {
     const position = resolveReadingPosition(chapterNumber, paragraphIndex);
     const storySoFarBefore = getStorySoFarBeforeChapter(chapterNumber);
+    const priorChapterSummaries = getChapterSummaryWindowBefore(chapterNumber, 5);
     const priorSceneSummaries = getSceneSummariesBeforeCurrent(position);
     const sceneText = getSceneTextUpToParagraph(position, Math.floor(maxInputTokens * 0.65));
 
     const context = buildContextPrompt(
       [
         { label: "Story so far before this chapter", content: storySoFarBefore },
+        { label: "Supporting context from the last five chapters", content: priorChapterSummaries.join("\n") },
         { label: "Earlier scenes in current chapter", content: priorSceneSummaries.join("\n") },
         {
           label: "Current scene text up to selected paragraph",
@@ -67,15 +76,18 @@ export async function GET(request: NextRequest) {
     );
 
     const fallbackAnswer = buildFallbackAnswer({
+      chapterNumber,
+      priorChapterSummaries,
+      priorSceneSummaries,
+      storySoFarBefore,
       sceneText,
-      locationDescription: position.scene.locationDescription,
-      characterIds: position.scene.characterIds,
     });
 
     const { answer, source } = await generateNarrativeAnswer({
       systemPrompt: `You are a spoiler-safe literary reading companion.
-Explain what is currently happening in the scene at the user's exact reading checkpoint.
-Never mention events beyond the provided excerpt. Keep the explanation concrete and grounded in the text.
+Summarize the current chapter so far at the reader's exact checkpoint.
+Use recent-chapter context only as supporting background, but prioritize the current chapter evidence.
+Never mention events beyond the provided excerpted context.
 Return strict JSON with a single key: "answer".`,
       userPrompt: `Reading checkpoint:
 - Chapter: ${chapterNumber}
@@ -87,8 +99,8 @@ Context:
 ${context.text}
 
 Task:
-In 4-6 sentences, explain what is going on in the current scene right now.
-Emphasize immediate stakes, setting, and who appears to be involved.`,
+In 5-8 sentences, summarize this chapter so far as of this paragraph.
+Keep focus on developments in the current chapter, and use prior chapters only for brief grounding.`,
       fallbackAnswer,
       maxOutputTokens: 420,
     });
