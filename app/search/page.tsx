@@ -59,7 +59,10 @@ export default function SearchPage() {
     const parts = text.split(new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})`, "gi"));
     return parts.map((part, i) =>
       part.toLowerCase() === query.toLowerCase() ? (
-        <mark key={i} className="bg-amber-200 text-amber-900 rounded px-0.5">
+        <mark
+          key={i}
+          className="bg-amber-200 text-amber-900 dark:bg-amber-800 dark:text-amber-100 rounded px-0.5"
+        >
           {part}
         </mark>
       ) : (
@@ -71,10 +74,13 @@ export default function SearchPage() {
   return (
     <main className="max-w-3xl mx-auto px-4 py-8">
       <div className="mb-8">
-        <Link href="/" className="text-xs text-stone-400 hover:text-stone-600 mb-4 inline-block">
+        <Link
+          href="/"
+          className="text-xs text-stone-400 hover:text-stone-600 dark:text-stone-500 dark:hover:text-stone-300 mb-4 inline-block"
+        >
           ← Back to Home
         </Link>
-        <h1 className="text-3xl font-bold text-stone-900 mb-4">Search</h1>
+        <h1 className="text-3xl font-bold text-stone-900 dark:text-stone-100 mb-4">Search</h1>
 
         <div className="relative">
           <input
@@ -83,17 +89,17 @@ export default function SearchPage() {
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search chapters, characters, places…"
             autoFocus
-            className="w-full px-4 py-3 pr-10 border border-stone-300 rounded-xl text-stone-900 placeholder-stone-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:border-transparent text-base"
+            className="w-full px-4 py-3 pr-10 border border-stone-300 bg-white rounded-xl text-stone-900 placeholder-stone-400 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-100 dark:placeholder-stone-500 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:border-transparent dark:focus:ring-amber-300 text-base"
           />
           {loading && (
             <div className="absolute right-3 top-1/2 -translate-y-1/2">
-              <div className="w-4 h-4 border-2 border-amber-400 border-t-transparent rounded-full animate-spin" />
+              <div className="w-4 h-4 border-2 border-amber-400 dark:border-amber-300 border-t-transparent rounded-full animate-spin" />
             </div>
           )}
         </div>
 
         {query.length >= 2 && !loading && (
-          <p className="text-sm text-stone-500 mt-2">
+          <p className="text-sm text-stone-500 dark:text-stone-400 mt-2">
             {total === 0
               ? "No chapters found"
               : `Found in ${total} chapter${total !== 1 ? "s" : ""}`}
@@ -107,22 +113,22 @@ export default function SearchPage() {
             <Link
               key={result.number}
               href={`/chapter/${result.number}`}
-              className="block p-4 bg-white border border-stone-200 rounded-xl hover:border-amber-300 hover:shadow-sm transition-all group"
+              className="block p-4 bg-white border border-stone-200 dark:bg-stone-900 dark:border-stone-800 rounded-xl hover:border-amber-300 dark:hover:border-amber-700 hover:shadow-sm transition-all group"
             >
               <div className="flex items-start justify-between gap-2 mb-2">
                 <div>
-                  <span className="text-xs text-stone-400 font-mono mr-2">
+                  <span className="text-xs text-stone-400 dark:text-stone-500 font-mono mr-2">
                     Ch. {result.number}
                   </span>
-                  <span className="text-base font-semibold text-stone-800 group-hover:text-amber-700">
+                  <span className="text-base font-semibold text-stone-800 dark:text-stone-200 group-hover:text-amber-700 dark:group-hover:text-amber-300">
                     {highlight(result.title, query)}
                   </span>
                 </div>
-                <span className="text-xs text-stone-400 flex-shrink-0">
+                <span className="text-xs text-stone-400 dark:text-stone-500 flex-shrink-0">
                   {VOLUME_LABELS[result.volume]}
                 </span>
               </div>
-              <p className="text-sm text-stone-600 leading-relaxed">
+              <p className="text-sm text-stone-600 dark:text-stone-400 leading-relaxed">
                 {highlight(result.excerpt, query)}
               </p>
             </Link>
@@ -131,7 +137,7 @@ export default function SearchPage() {
       )}
 
       {query.length < 2 && (
-        <div className="text-center text-stone-400 mt-16">
+        <div className="text-center text-stone-400 dark:text-stone-500 mt-16">
           <p className="text-4xl mb-3">🔍</p>
           <p className="text-sm">Type at least 2 characters to search</p>
           <p className="text-xs mt-1">Search across all 117 chapters of the novel</p>

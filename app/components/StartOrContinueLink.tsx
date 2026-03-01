@@ -5,7 +5,7 @@ import { useSyncExternalStore } from "react";
 import { TOTAL_CHAPTERS, LAST_CHAPTER_STORAGE_KEY } from "@/lib/constants";
 
 const linkClassName =
-  "inline-flex items-center gap-2 px-6 py-2.5 bg-stone-800 text-white rounded-full text-sm font-medium hover:bg-stone-700 transition-colors";
+  "inline-flex items-center gap-2 px-6 py-2.5 bg-stone-800 text-white rounded-full text-sm font-medium hover:bg-stone-700 dark:bg-amber-400 dark:text-stone-950 dark:hover:bg-amber-300 transition-colors";
 
 const SERVER_SNAPSHOT = { href: "/chapter/1", label: "Start Reading" } as const;
 
