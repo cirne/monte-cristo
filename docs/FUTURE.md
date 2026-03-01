@@ -4,12 +4,12 @@
 
 **Implemented:**
 
-- **Scene delineation** (`lib/scenes.ts`): Chapters are split into paragraphs (`\n\n+`). Scenes are identified by **paragraph index** (not character offset) so boundaries stay stable under small edits. Regex-based starters: time transitions (“The next day”, “Some time later”), location (“In Paris,”, “Meanwhile”), etc. Use `getScenes(content)` or `getScenesFromRegex(content)`; optional `getSingleScene(content)` for no subdivision.
+- **Scene delineation** (`lib/scenes.ts`): Chapters are split into paragraphs (`\n\n+`). Scenes are identified by **paragraph index** (not character offset) so boundaries stay stable under small edits. Regex-based starters: time transitions ("The next day", "Some time later"), location ("In Paris,", "Meanwhile"), etc. Use `getScenes(content)` or `getScenesFromRegex(content)`; optional `getSingleScene(content)` for no subdivision.
 - **Index chapter** (`scripts/index-chapter.ts`): For a chapter (or `--all`):
   1. **Find entities**: LLM extracts people, places, events from the chapter text.
-  2. **Generate content**: Spoiler-free intro (on first appearance) and excerpt (“in this chapter”) from the text.
+  2. **Generate content**: Spoiler-free intro (on first appearance) and excerpt ("in this chapter") from the text.
   3. **Update if referenced previously**: Entity store (`data/entity-store.json`) keeps canonical entities; names are matched so the same character/place is reused and `firstSeenInChapter` / aliases are updated instead of duplicating.
-- **Scenes** are written into each chapter index entry (`scenes: [{ startParagraph, endParagraph }]`) for downstream use (e.g. per-scene context or viewport-based “current scene”).
+- **Scenes** are written into each chapter index entry (`scenes: [{ startParagraph, endParagraph }]`) for downstream use (e.g. per-scene context or viewport-based "current scene").
 
 **Usage:** `bun run index-chapter --chapter=1` or `bun run index-chapter --all`. Optional `--seed-from-curated` initializes the entity store from `lib/characters` and `lib/entities` so existing IDs stay stable.
 
