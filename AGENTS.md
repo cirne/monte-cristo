@@ -1,67 +1,46 @@
 # Agent guide — Monte Cristo Reader
 
-This file gives AI agents (and humans) enough context to work effectively on the codebase.
+Context for AI agents and humans working on this codebase.
+
+## Critical instructions
+
+- **Before every commit/push:** Run `bun run lint` and `bun run build`; fix any errors before pushing.
+- Never commit `.env` or put API keys in code.
 
 ## What this project is
 
-An immersive, X-Ray style reader for **The Count of Monte Cristo** (Dumas). Users read chapters and can click people, places, and events in the text to see spoiler-free context. Built with Next.js 16 (App Router), Bun, TypeScript, and Tailwind v4.
-
-## Tech stack
-
-- **Runtime / package manager**: Bun
-- **Framework**: Next.js 16, App Router
-- **Styling**: Tailwind CSS v4
-- **LLM (optional)**: OpenAI — used for indexing chapters, generating entity intros, and generating images. Requires `OPENAI_API_KEY` in `.env` (never commit `.env`).
+X-Ray style reader for **The Count of Monte Cristo**: read chapters, click people/places/events for spoiler-free context. Next.js 16 (App Router), Bun, TypeScript, Tailwind v4.
 
 ## Key paths
 
 | Path | Purpose |
-|------|--------|
-| `app/` | Next.js App Router pages and components |
-| `app/chapter/[number]/` | Chapter reader page + X-Ray panel |
-| `data/` | Generated JSON: book, chapter index, entity store. Do not hand-edit; produced by scripts. |
-| `lib/` | Server-side data loading, book/chapter/entity logic, linkify, LLM helpers |
-| `scripts/` | CLI scripts: parse-book, build-chapter-index, image generation, etc. |
-| `public/images/` | Static images (entities, scenes) |
+|------|---------|
+| `app/` | Pages and components |
+| `app/chapter/[number]/` | Chapter reader + X-Ray panel |
+| `data/` | Generated JSON (book, chapter index, entity store). Do not hand-edit. |
+| `lib/` | Data loading, book/chapter/entity logic, linkify |
+| `scripts/` | parse-book, build-chapter-index, image generation |
 
 ## Data flow
 
-1. **Book text**: `scripts/parse-book.ts` reads the Gutenberg source and writes `data/book.json` and `data/book-index.json`.
-2. **Chapter index (X-Ray)**: `scripts/build-chapter-index.ts` (and related index scripts) produces `data/chapter-index.json` — per-chapter entities (persons, places, events) and optional scene metadata. Depends on `data/entity-store.json`.
-3. **Entity store**: `data/entity-store.json` is the canonical list of people, places, and events; scripts update it when indexing so entities stay consistent across chapters.
-4. **Dev reload**: `lib/data-manifest.ts` is touched by `scripts/watch-data.ts` when `data/` files change so the dev server and in-memory caches pick up new data.
+1. `parse-book.ts` → `data/book.json`, `data/book-index.json`
+2. `build-chapter-index` → `data/chapter-index.json` (uses `data/entity-store.json`)
+3. `watch-data.ts` bumps `lib/data-manifest.ts` when `data/` changes so dev server picks up new data.
 
-When changing schema or scripts that write to `data/`, run the relevant script (e.g. `bun run parse-book`, `bun run build-chapter-index`) and ensure the app still reads the new shape.
+When you change schema or scripts that write to `data/`, run the relevant script and ensure the app still reads the new shape.
 
-## Scripts (package.json)
+## Scripts
 
-- `bun run dev` — Next dev server + `watch-data.ts` (watches `data/` and bumps `DATA_VERSION` in `lib/data-manifest.ts`).
-- `bun run parse-book` — Regenerate `data/book.json` and `data/book-index.json` from source.
-- `bun run build-chapter-index` — Regenerate `data/chapter-index.json` (run after parse-book when changing indexing).
-- `bun run index-chapter` — Index a single chapter (see script for usage).
-- `bun run generate-images` / `bun run generate-scene-images` — LLM/image generation for entities and scenes (need `OPENAI_API_KEY`).
+- `bun run dev` — Dev server + watch-data
+- `bun run parse-book` — Regenerate book JSON
+- `bun run build-chapter-index` — Regenerate chapter index
+- `bun run index-chapter` — Index one chapter
+- `bun run generate-images` / `generate-scene-images` — Entity/scene images (needs `OPENAI_API_KEY`)
 
 ## Conventions
 
-- **TypeScript**: Strict; prefer types from `lib/` (e.g. `Chapter`, `ChapterIndexEntry`, `StoredEntity`, `EntityType`).
-- **Data loading**: Server-side only for book/chapter/entity data; `lib/book.ts`, `lib/chapter-index.ts`, `lib/entity-store.ts` read from `data/` and are imported from App Router routes or server components.
-- **Linkify**: `lib/linkify.ts` turns paragraph text into clickable entity links using chapter-index and entity store; used in the chapter reader.
-- **Entities**: Types live in `lib/chapter-index.ts` (`EntityType`, `ChapterIndexEntity`) and `lib/entity-store.ts` (`StoredEntity`). IDs are stable slugs (e.g. `edmond_dantes`).
+- Types from `lib/` (`Chapter`, `StoredEntity`, `EntityType`, etc.). Data loading is server-side only.
+- Don’t change `data/*.json` shape without updating `lib/` loaders and scripts that write them.
+- Don’t assume `data/*.json` exists in CI; docs/scripts should mention running parse-book / build-chapter-index.
 
-## Before committing / pushing
-
-Always ensure there are no lint errors and the app builds before pushing:
-
-- Run `bun run lint` and fix any reported issues.
-- Run `bun run build` and fix any build errors.
-
-## Things to avoid
-
-- Do not commit `.env` or put API keys in code.
-- Do not assume `data/*.json` exists in CI or fresh clones; scripts or docs should mention running `parse-book` / `build-chapter-index` as needed.
-- Do not change the shape of `data/*.json` without updating the corresponding `lib/` loaders and any scripts that write them.
-
-## More
-
-- User-facing overview: `README.md`
-- Future/planned work: `docs/FUTURE.md` (e.g. scenes feature)
+More: `README.md`, `docs/FUTURE.md`.
