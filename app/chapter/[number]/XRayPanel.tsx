@@ -13,7 +13,6 @@ export interface XRayEntityData {
   excerpt?: string;
   type: EntityType;
 }
-
 /** Segment of the intro paragraph: plain text or a link to another entity */
 type IntroSegment =
   | { type: "text"; content: string }
@@ -200,6 +199,140 @@ function isPlaceholderParagraph(segments: Segment[]): boolean {
   return segments.length > 0 && /^[\s\u200B]*$/.test(text);
 }
 
+interface ReaderFooterProps {
+  /** Scene location label (from current scene in view). */
+  locationLabel: string | null;
+  /** Character entity IDs mentioned in the visible text (order preserved). */
+  visibleCharacterIds: string[];
+  xrayData: Record<string, XRayEntityData>;
+  onOpenEntity: (entityId: string) => void;
+}
+
+function ReaderFooter({ locationLabel, visibleCharacterIds, xrayData, onOpenEntity }: ReaderFooterProps) {
+  const hasContent = (locationLabel?.trim()?.length ?? 0) > 0 || visibleCharacterIds.length > 0;
+  if (!hasContent) return null;
+
+  /** IDs we still render for exit animation (fade out then remove). */
+  const [exitingIds, setExitingIds] = React.useState<string[]>([]);
+  const timeoutsRef = React.useRef<ReturnType<typeof setTimeout>[]>([]);
+  const prevVisibleRef = React.useRef<string[]>([]);
+
+  React.useEffect(() => {
+    const prev = prevVisibleRef.current;
+    const next = visibleCharacterIds;
+    prevVisibleRef.current = next;
+
+    timeoutsRef.current.forEach(clearTimeout);
+    timeoutsRef.current = [];
+
+    const nextSet = new Set(next);
+    const removed = prev.filter((id) => !nextSet.has(id));
+
+    if (removed.length > 0) {
+      setExitingIds((current) => {
+        const combined = [...new Set([...removed, ...current])];
+        removed.forEach((id) => {
+          const t = setTimeout(() => {
+            setExitingIds((c) => c.filter((x) => x !== id));
+          }, 500);
+          timeoutsRef.current.push(t);
+        });
+        return combined;
+      });
+    } else {
+      setExitingIds((c) => c.filter((id) => nextSet.has(id)));
+    }
+  }, [visibleCharacterIds]);
+
+  /** Display list: visible first (alphabetical by id), then exiting (alphabetical). */
+  const displayedIds = React.useMemo(() => {
+    const visibleSet = new Set(visibleCharacterIds);
+    const ordered = [...visibleCharacterIds];
+    const exiting = exitingIds.filter((id) => !visibleSet.has(id)).sort((a, b) => a.localeCompare(b));
+    return [...ordered, ...exiting];
+  }, [visibleCharacterIds, exitingIds]);
+
+  const isExiting = (id: string) => exitingIds.includes(id) && !visibleCharacterIds.includes(id);
+
+  return (
+    <footer
+      className="fixed bottom-0 left-0 right-0 z-40 border-t border-stone-200 bg-stone-50/95 backdrop-blur supports-[backdrop-filter]:bg-stone-50/90"
+      role="contentinfo"
+      aria-label="Current scene"
+    >
+      <div className="max-w-3xl mx-auto px-4 py-3 flex items-center justify-between gap-4 flex-wrap">
+        <div className="flex items-center gap-1.5 flex-wrap">
+          {displayedIds.map((entityId) => {
+            const data = xrayData[entityId];
+            const name = data?.name ?? entityId;
+            const leaving = isExiting(entityId);
+            return (
+              <FooterAvatar key={entityId} entityId={entityId} name={name} leaving={leaving} onOpenEntity={onOpenEntity} />
+            );
+          })}
+        </div>
+        {locationLabel?.trim() && (
+          <span className="text-sm text-stone-600 text-right ml-auto" title="Scene location">
+            {locationLabel}
+          </span>
+        )}
+      </div>
+    </footer>
+  );
+}
+
+/** Single avatar in footer: fades in on mount, fades out when leaving. */
+function FooterAvatar({
+  entityId,
+  name,
+  leaving,
+  onOpenEntity,
+}: {
+  entityId: string;
+  name: string;
+  leaving: boolean;
+  onOpenEntity: (entityId: string) => void;
+}) {
+  const [mounted, setMounted] = React.useState(false);
+  React.useEffect(() => {
+    if (mounted) return;
+    const t = requestAnimationFrame(() => setMounted(true));
+    return () => cancelAnimationFrame(t);
+  }, [mounted]);
+
+  return (
+    <button
+      type="button"
+      onClick={() => !leaving && onOpenEntity(entityId)}
+      disabled={leaving}
+      className={`rounded-full overflow-hidden w-8 h-8 flex-shrink-0 border border-stone-200 bg-stone-100 hover:ring-2 hover:ring-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-500 transition-opacity duration-500 ${mounted && !leaving ? "opacity-100" : "opacity-0 pointer-events-none"}`}
+      title={name}
+      aria-label={`View ${name}`}
+    >
+      <CharacterAvatar entityId={entityId} name={name} />
+    </button>
+  );
+}
+
+function CharacterAvatar({ entityId, name }: { entityId: string; name: string }) {
+  const [imgError, setImgError] = React.useState(false);
+  if (imgError) {
+    return (
+      <span className="w-full h-full flex items-center justify-center text-xs font-medium text-stone-500">
+        {name.charAt(0).toUpperCase()}
+      </span>
+    );
+  }
+  return (
+    <img
+      src={`/images/entities/${entityId}.webp`}
+      alt=""
+      className="w-full h-full object-cover object-top"
+      onError={() => setImgError(true)}
+    />
+  );
+}
+
 export function ChapterContent({
   paragraphSegments,
   scenes,
@@ -208,6 +341,63 @@ export function ChapterContent({
   baselineIntro,
 }: ChapterContentProps) {
   const [openEntityId, setOpenEntityId] = React.useState<string | null>(null);
+  const articleRef = React.useRef<HTMLDivElement>(null);
+  const [visibleParagraphIndices, setVisibleParagraphIndices] = React.useState<Set<number>>(() => new Set());
+
+  /** Track which paragraphs intersect the viewport; current scene = earliest scene that overlaps any visible paragraph. */
+  React.useEffect(() => {
+    const el = articleRef.current;
+    if (!el) return;
+    const paragraphs = el.querySelectorAll<HTMLElement>("[data-paragraph-index]");
+    if (paragraphs.length === 0) return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        setVisibleParagraphIndices((prev) => {
+          const next = new Set(prev);
+          for (const entry of entries) {
+            const idx = entry.target.getAttribute("data-paragraph-index");
+            if (idx === null) continue;
+            const n = parseInt(idx, 10);
+            if (isNaN(n)) continue;
+            if (entry.isIntersecting) next.add(n);
+            else next.delete(n);
+          }
+          return next;
+        });
+      },
+      { root: null, rootMargin: "0px", threshold: 0.1 }
+    );
+    paragraphs.forEach((p) => observer.observe(p));
+    return () => paragraphs.forEach((p) => observer.unobserve(p));
+  }, [paragraphSegments.length]);
+
+  /** Earliest scene (by startParagraph) that contains at least one visible paragraph. */
+  const currentScene = React.useMemo(() => {
+    if (visibleParagraphIndices.size === 0 || !scenes?.length) return null;
+    const visible = Array.from(visibleParagraphIndices);
+    const overlapping = scenes
+      .filter((s) => visible.some((i) => i >= s.startParagraph && i <= s.endParagraph))
+      .sort((a, b) => a.startParagraph - b.startParagraph);
+    return overlapping[0] ?? null;
+  }, [scenes, visibleParagraphIndices]);
+
+  /** Character entity IDs linked in the visible paragraphs (order: alphabetical by id). */
+  const visibleCharacterIds = React.useMemo(() => {
+    const seen = new Set<string>();
+    const ids: string[] = [];
+    const sortedIndices = Array.from(visibleParagraphIndices).sort((a, b) => a - b);
+    for (const i of sortedIndices) {
+      const segments = paragraphSegments[i];
+      if (!segments) continue;
+      for (const seg of segments) {
+        if (seg.type === "link" && seg.entityType === "person" && !seen.has(seg.entityId)) {
+          seen.add(seg.entityId);
+          ids.push(seg.entityId);
+        }
+      }
+    }
+    return ids.sort((a, b) => a.localeCompare(b));
+  }, [paragraphSegments, visibleParagraphIndices]);
 
   /** Map: paragraph index -> scene image key (e.g. ch1-scene0). Matches index format: scenes[i].startParagraph -> ch{N}-scene{i}. */
   const sceneKeyByParagraphStart = React.useMemo(() => {
@@ -224,7 +414,7 @@ export function ChapterContent({
 
   return (
     <>
-      <div className="prose prose-stone prose-xl max-w-none">
+      <div ref={articleRef} className="prose prose-stone prose-xl max-w-none pb-20">
         {paragraphSegments.map((segments, i) => (
           <React.Fragment key={i}>
             {sceneKeyByParagraphStart[i] != null && (
@@ -241,6 +431,7 @@ export function ChapterContent({
               </figure>
             )}
             <p
+              data-paragraph-index={i}
               className={
                 isPlaceholderParagraph(segments)
                   ? "text-xl leading-relaxed text-stone-800 mb-0 min-h-0 overflow-hidden"
@@ -273,6 +464,12 @@ export function ChapterContent({
         baselineIntro={baselineIntro}
         onClose={() => setOpenEntityId(null)}
         onSelectEntity={setOpenEntityId}
+      />
+      <ReaderFooter
+        locationLabel={currentScene?.locationDescription ?? null}
+        visibleCharacterIds={visibleCharacterIds}
+        xrayData={xrayData}
+        onOpenEntity={setOpenEntityId}
       />
     </>
   );
