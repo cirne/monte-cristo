@@ -1,0 +1,593 @@
+{
+  "title": "The Count of Monte Cristo",
+  "author": "Alexandre Dumas, père",
+  "source": "Project Gutenberg (https://www.gutenberg.org/ebooks/1184)",
+  "license": "Public Domain",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Marseilles—The Arrival",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 2,
+      "title": "Father and Son",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 3,
+      "title": "The Catalans",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 4,
+      "title": "Conspiracy",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 5,
+      "title": "The Marriage Feast",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 6,
+      "title": "The Deputy Procureur du Roi",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 7,
+      "title": "The Examination",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 8,
+      "title": "The Château d’If",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 9,
+      "title": "The Evening of the Betrothal",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 10,
+      "title": "The King’s Closet at the Tuileries",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 11,
+      "title": "The Corsican Ogre",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 12,
+      "title": "Father and Son",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 13,
+      "title": "The Hundred Days",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 14,
+      "title": "The Two Prisoners",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 15,
+      "title": "Number 34 and Number 27",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 16,
+      "title": "A Learned Italian",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 17,
+      "title": "The Abbé’s Chamber",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 18,
+      "title": "The Treasure",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 19,
+      "title": "The Third Attack",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 20,
+      "title": "The Cemetery of the Château d’If",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 21,
+      "title": "The Island of Tiboulen",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 22,
+      "title": "The Smugglers",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 23,
+      "title": "The Island of Monte Cristo",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 24,
+      "title": "The Secret Cave",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 25,
+      "title": "The Unknown",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 26,
+      "title": "The Pont du Gard Inn",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 27,
+      "title": "The Story",
+      "volume": "VOLUME ONE"
+    },
+    {
+      "number": 28,
+      "title": "The Prison Register",
+      "volume": "VOLUME TWO"
+    },
+    {
+      "number": 29,
+      "title": "The House of Morrel & Son",
+      "volume": "VOLUME TWO"
+    },
+    {
+      "number": 30,
+      "title": "The Fifth of September",
+      "volume": "VOLUME TWO"
+    },
+    {
+      "number": 31,
+      "title": "Italy: Sinbad the Sailor",
+      "volume": "VOLUME TWO"
+    },
+    {
+      "number": 32,
+      "title": "The Waking",
+      "volume": "VOLUME TWO"
+    },
+    {
+      "number": 33,
+      "title": "Roman Bandits",
+      "volume": "VOLUME TWO"
+    },
+    {
+      "number": 34,
+      "title": "The Colosseum",
+      "volume": "VOLUME TWO"
+    },
+    {
+      "number": 35,
+      "title": "La Mazzolata",
+      "volume": "VOLUME TWO"
+    },
+    {
+      "number": 36,
+      "title": "The Carnival at Rome",
+      "volume": "VOLUME TWO"
+    },
+    {
+      "number": 37,
+      "title": "The Catacombs of Saint Sebastian",
+      "volume": "VOLUME TWO"
+    },
+    {
+      "number": 38,
+      "title": "The Rendezvous",
+      "volume": "VOLUME TWO"
+    },
+    {
+      "number": 39,
+      "title": "The Guests",
+      "volume": "VOLUME TWO"
+    },
+    {
+      "number": 40,
+      "title": "The Breakfast",
+      "volume": "VOLUME TWO"
+    },
+    {
+      "number": 41,
+      "title": "The Presentation",
+      "volume": "VOLUME TWO"
+    },
+    {
+      "number": 42,
+      "title": "Monsieur Bertuccio",
+      "volume": "VOLUME TWO"
+    },
+    {
+      "number": 43,
+      "title": "The House at Auteuil",
+      "volume": "VOLUME TWO"
+    },
+    {
+      "number": 44,
+      "title": "The Vendetta",
+      "volume": "VOLUME TWO"
+    },
+    {
+      "number": 45,
+      "title": "The Rain of Blood",
+      "volume": "VOLUME TWO"
+    },
+    {
+      "number": 46,
+      "title": "Unlimited Credit",
+      "volume": "VOLUME TWO"
+    },
+    {
+      "number": 47,
+      "title": "The Dappled Grays",
+      "volume": "VOLUME TWO"
+    },
+    {
+      "number": 48,
+      "title": "Ideology",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 49,
+      "title": "Haydée",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 50,
+      "title": "The Morrel Family",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 51,
+      "title": "Pyramus and Thisbe",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 52,
+      "title": "Toxicology",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 53,
+      "title": "Robert le Diable",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 54,
+      "title": "A Flurry in Stocks",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 55,
+      "title": "Major Cavalcanti",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 56,
+      "title": "Andrea Cavalcanti",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 57,
+      "title": "In the Lucern Patch",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 58,
+      "title": "M. Noirtier de Villefort",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 59,
+      "title": "The Will",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 60,
+      "title": "The Telegraph",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 61,
+      "title": "How a Gardener May Get Rid of the Dormice that Eat His",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 62,
+      "title": "Ghosts",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 63,
+      "title": "The Dinner",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 64,
+      "title": "The Beggar",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 65,
+      "title": "A Conjugal Scene",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 66,
+      "title": "Matrimonial Projects",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 67,
+      "title": "The Office of the King’s Attorney",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 68,
+      "title": "A Summer Ball",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 69,
+      "title": "The Inquiry",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 70,
+      "title": "The Ball",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 71,
+      "title": "Bread and Salt",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 72,
+      "title": "Madame de Saint-Méran",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 73,
+      "title": "The Promise",
+      "volume": "VOLUME THREE"
+    },
+    {
+      "number": 74,
+      "title": "The Villefort Family Vault",
+      "volume": "VOLUME FOUR"
+    },
+    {
+      "number": 75,
+      "title": "A Signed Statement",
+      "volume": "VOLUME FOUR"
+    },
+    {
+      "number": 76,
+      "title": "Progress of Cavalcanti the Younger",
+      "volume": "VOLUME FOUR"
+    },
+    {
+      "number": 77,
+      "title": "Haydée",
+      "volume": "VOLUME FOUR"
+    },
+    {
+      "number": 78,
+      "title": "We hear From Yanina",
+      "volume": "VOLUME FOUR"
+    },
+    {
+      "number": 79,
+      "title": "The Lemonade",
+      "volume": "VOLUME FOUR"
+    },
+    {
+      "number": 80,
+      "title": "The Accusation",
+      "volume": "VOLUME FOUR"
+    },
+    {
+      "number": 81,
+      "title": "The Room of the Retired Baker",
+      "volume": "VOLUME FOUR"
+    },
+    {
+      "number": 82,
+      "title": "The Burglary",
+      "volume": "VOLUME FOUR"
+    },
+    {
+      "number": 83,
+      "title": "The Hand of God",
+      "volume": "VOLUME FOUR"
+    },
+    {
+      "number": 84,
+      "title": "Beauchamp",
+      "volume": "VOLUME FOUR"
+    },
+    {
+      "number": 85,
+      "title": "The Journey",
+      "volume": "VOLUME FOUR"
+    },
+    {
+      "number": 86,
+      "title": "The Trial",
+      "volume": "VOLUME FOUR"
+    },
+    {
+      "number": 87,
+      "title": "The Challenge",
+      "volume": "VOLUME FOUR"
+    },
+    {
+      "number": 88,
+      "title": "The Insult",
+      "volume": "VOLUME FOUR"
+    },
+    {
+      "number": 89,
+      "title": "The Night",
+      "volume": "VOLUME FOUR"
+    },
+    {
+      "number": 90,
+      "title": "The Meeting",
+      "volume": "VOLUME FOUR"
+    },
+    {
+      "number": 91,
+      "title": "Mother and Son",
+      "volume": "VOLUME FOUR"
+    },
+    {
+      "number": 92,
+      "title": "The Suicide",
+      "volume": "VOLUME FOUR"
+    },
+    {
+      "number": 93,
+      "title": "Valentine",
+      "volume": "VOLUME FOUR"
+    },
+    {
+      "number": 94,
+      "title": "Maximilian’s Avowal",
+      "volume": "VOLUME FOUR"
+    },
+    {
+      "number": 95,
+      "title": "Father and Daughter",
+      "volume": "VOLUME FOUR"
+    },
+    {
+      "number": 96,
+      "title": "The Contract",
+      "volume": "VOLUME FIVE"
+    },
+    {
+      "number": 97,
+      "title": "The Departure for Belgium",
+      "volume": "VOLUME FIVE"
+    },
+    {
+      "number": 98,
+      "title": "The Bell and Bottle Tavern",
+      "volume": "VOLUME FIVE"
+    },
+    {
+      "number": 99,
+      "title": "The Law",
+      "volume": "VOLUME FIVE"
+    },
+    {
+      "number": 100,
+      "title": "The Apparition",
+      "volume": "VOLUME FIVE"
+    },
+    {
+      "number": 101,
+      "title": "Locusta",
+      "volume": "VOLUME FIVE"
+    },
+    {
+      "number": 102,
+      "title": "Valentine",
+      "volume": "VOLUME FIVE"
+    },
+    {
+      "number": 103,
+      "title": "Maximilian",
+      "volume": "VOLUME FIVE"
+    },
+    {
+      "number": 104,
+      "title": "Danglars’ Signature",
+      "volume": "VOLUME FIVE"
+    },
+    {
+      "number": 105,
+      "title": "The Cemetery of Père-Lachaise",
+      "volume": "VOLUME FIVE"
+    },
+    {
+      "number": 106,
+      "title": "Dividing the Proceeds",
+      "volume": "VOLUME FIVE"
+    },
+    {
+      "number": 107,
+      "title": "The Lions’ Den",
+      "volume": "VOLUME FIVE"
+    },
+    {
+      "number": 108,
+      "title": "The Judge",
+      "volume": "VOLUME FIVE"
+    },
+    {
+      "number": 109,
+      "title": "The Assizes",
+      "volume": "VOLUME FIVE"
+    },
+    {
+      "number": 110,
+      "title": "The Indictment",
+      "volume": "VOLUME FIVE"
+    },
+    {
+      "number": 111,
+      "title": "Expiation",
+      "volume": "VOLUME FIVE"
+    },
+    {
+      "number": 112,
+      "title": "The Departure",
+      "volume": "VOLUME FIVE"
+    },
+    {
+      "number": 113,
+      "title": "The Past",
+      "volume": "VOLUME FIVE"
+    },
+    {
+      "number": 114,
+      "title": "Peppino",
+      "volume": "VOLUME FIVE"
+    },
+    {
+      "number": 115,
+      "title": "Luigi Vampa’s Bill of Fare",
+      "volume": "VOLUME FIVE"
+    },
+    {
+      "number": 116,
+      "title": "The Pardon",
+      "volume": "VOLUME FIVE"
+    },
+    {
+      "number": 117,
+      "title": "The Fifth of October",
+      "volume": "VOLUME FIVE"
+    }
+  ]
+}
