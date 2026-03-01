@@ -72,6 +72,7 @@ export function ReaderFooter({ locationLabel, visibleCharacterIds, xrayData, onO
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  /** Sync displayed/exiting avatars with visible characters; cleanup cancels pending exit timeouts to avoid leaks and setState-after-unmount. */
   React.useEffect(() => {
     const prev = prevVisibleRef.current;
     const next = dedupeIds(visibleCharacterIds);
