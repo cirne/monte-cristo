@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { MapPin } from "lucide-react";
 import type { XRayEntityData } from "./XRayPanel";
 
@@ -136,7 +137,13 @@ export function ReaderFooter({ locationLabel, visibleCharacterIds, xrayData, onO
               const name = data?.name ?? entityId;
               const leaving = isExiting(entityId);
               return (
-                <FooterAvatar key={entityId} entityId={entityId} name={name} leaving={leaving} onOpenEntity={onOpenEntity} />
+                <AnimatedAvatar
+                  key={entityId}
+                  entityId={entityId}
+                  name={name}
+                  leaving={leaving}
+                  onOpenEntity={onOpenEntity}
+                />
               );
             })}
           {isSmallScreen && uniqueDisplayedIds.length > 0 && (
@@ -233,14 +240,15 @@ function SmallScreenAvatarBlock({
           <div
             key={entityId}
             data-entity-id={entityId}
-            className="h-10 w-10 flex-shrink-0 rounded-full border-2 border-stone-50 overflow-hidden bg-stone-100 ring-1 ring-stone-200/80 transition-transform duration-300 ease-out"
+            className="flex-shrink-0 transition-transform duration-300 ease-out"
             style={{ transform: `translateX(${stackedOffset}px)` }}
-            title={!isStacked ? name : undefined}
-            role={!isStacked ? "button" : undefined}
-            tabIndex={!isStacked ? 0 : undefined}
-            aria-label={!isStacked ? `View ${name}` : undefined}
           >
-            <CharacterAvatar entityId={entityId} name={name} />
+            <AnimatedAvatar
+              entityId={entityId}
+              name={name}
+              leaving={isExiting(entityId)}
+              onOpenEntity={isStacked ? undefined : onAvatarClick}
+            />
           </div>
         );
       })}
@@ -248,8 +256,8 @@ function SmallScreenAvatarBlock({
   );
 }
 
-/** Single avatar in footer: fades/slides in on mount, fades/slides out when leaving. */
-function FooterAvatar({
+/** Single avatar in footer: fades/slides in on mount, fades/slides out when leaving. Shared for large and small screens. */
+function AnimatedAvatar({
   entityId,
   name,
   leaving,
@@ -258,7 +266,8 @@ function FooterAvatar({
   entityId: string;
   name: string;
   leaving: boolean;
-  onOpenEntity: (entityId: string) => void;
+  /** If provided, renders as button and calls on open; otherwise non-interactive div (e.g. stacked small screen). */
+  onOpenEntity?: (entityId: string) => void;
 }) {
   const [mounted, setMounted] = React.useState(false);
   React.useEffect(() => {
@@ -268,18 +277,31 @@ function FooterAvatar({
   }, [mounted]);
 
   const visible = mounted && !leaving;
-  return (
-    <button
-      type="button"
-      onClick={() => !leaving && onOpenEntity(entityId)}
-      disabled={leaving}
-      className={`h-10 min-w-0 overflow-hidden rounded-full border border-stone-200 bg-stone-100 hover:ring-2 hover:ring-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-500 transition-[opacity,width] duration-500 ${visible ? "w-10 opacity-100" : "w-0 opacity-0 pointer-events-none border-0"}`}
-      title={name}
-      aria-label={`View ${name}`}
-    >
-      <CharacterAvatar entityId={entityId} name={name} />
-    </button>
-  );
+  const baseClass =
+    "h-10 min-w-0 overflow-hidden rounded-full border border-stone-200 bg-stone-100 transition-[opacity,width] duration-500 " +
+    (visible ? "w-10 opacity-100" : "w-0 opacity-0 pointer-events-none border-0");
+  const interactiveClass =
+    "hover:ring-2 hover:ring-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-500";
+  const content = <CharacterAvatar entityId={entityId} name={name} />;
+
+  if (onOpenEntity != null) {
+    return (
+      <button
+        type="button"
+        onClick={(e) => {
+          e.stopPropagation();
+          if (!leaving) onOpenEntity(entityId);
+        }}
+        disabled={leaving}
+        className={`${baseClass} ${interactiveClass}`}
+        title={name}
+        aria-label={`View ${name}`}
+      >
+        {content}
+      </button>
+    );
+  }
+  return <div className={baseClass} aria-hidden>{content}</div>;
 }
 
 function CharacterAvatar({ entityId, name }: { entityId: string; name: string }) {
@@ -292,9 +314,11 @@ function CharacterAvatar({ entityId, name }: { entityId: string; name: string })
     );
   }
   return (
-    <img
+    <Image
       src={`/images/entities/${entityId}.webp`}
       alt=""
+      width={40}
+      height={40}
       className="w-full h-full object-cover object-top"
       onError={() => setImgError(true)}
     />

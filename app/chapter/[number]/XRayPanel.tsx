@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import type { EntityType } from "@/lib/chapter-index";
 
 export interface XRayEntityData {
@@ -127,11 +128,12 @@ export function XRayPanel({
           {/* Entity portrait when image exists (convention: /images/entities/{id}.webp) */}
           <div className="flex justify-center mb-4">
             {!imageError && (
-              <div className="rounded-lg overflow-hidden bg-stone-100 w-52 h-64 flex-shrink-0">
-                <img
+              <div className="rounded-lg overflow-hidden bg-stone-100 w-52 h-64 flex-shrink-0 relative">
+                <Image
                   src={`/images/entities/${entityId}.webp`}
                   alt=""
-                  className="w-full h-full object-cover object-top"
+                  fill
+                  className="object-cover object-top"
                   onError={() => setImageError(true)}
                 />
               </div>
