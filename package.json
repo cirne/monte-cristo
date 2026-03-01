@@ -10,7 +10,6 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "parse-book": "bun run scripts/parse-book.ts",
-    "build-chapter-index": "bun run scripts/build-chapter-index.ts",
     "index-chapter": "bun run scripts/index-chapter.ts",
     "generate-images": "bun run scripts/generate-images.ts",
     "generate-scene-images": "bun run scripts/generate-scene-images.ts"

@@ -701,6 +701,12 @@
           "excerpt": "…re their usual sinister smile.  Neither Mercédès nor Edmond observed the strange expression of his countenance; they we…"
         },
         {
+          "entityId": "m_morrel",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…fact, a moment later M. Morrel appeared and was saluted with an enthusiastic burst of applause from the assembled company."
+        },
+        {
           "entityId": "old_dants",
           "type": "person",
           "firstSeenInChapter": 5,
@@ -998,7 +1004,54 @@
       "scenes": [
         {
           "startParagraph": 0,
-          "endParagraph": 95
+          "endParagraph": 67,
+          "locationDescription": "Saint-Méran mansion dining hall",
+          "imageDescription": "A sumptuous candlelit dining hall in a grand Marseilles mansion, with ornate decorations and large windows draped in dark velvet curtains. Around an elegantly set table, well-dressed nobles sit and converse passionately; men in formal military or judicial dress—blue and red sashes, medals glinting, high collars—while women wear refined Empire gowns with lace and pearls. Marquis de Saint-Méran stands to propose a toast, glass raised; Marquise de Saint-Méran and Renée de Saint-Méran are seated close by, surrounded by guests, their faces animated by lively discussion. The overall atmosphere is tense but festive, capturing the political fervor and aristocratic splendor of post-Napoleonic France.",
+          "characterIds": [
+            "villefort",
+            "rene_de_saintmran",
+            "marquis_de_saintmran",
+            "marquise_de_saintmran",
+            "comte_de_salvieux"
+          ]
+        },
+        {
+          "startParagraph": 68,
+          "endParagraph": 68,
+          "locationDescription": "Saint-Méran mansion dining hall, Villefort receives urgent news",
+          "imageDescription": "The candlelit dining room, now hushed, as a uniformed servant discreetly leans toward Villefort to whisper urgent news. Villefort rises from his chair, serious and focused, drawing the attention of the elegantly dressed guests around the table. Renée looks at him with concern, while the other guests gaze curiously at the interruption. The rich colors and details of their evening attire stand out against the warm glow of the chandeliers and the polished wood and gold accents of the room, evoking an anxious but expectant atmosphere.",
+          "characterIds": [
+            "villefort",
+            "rene_de_saintmran",
+            "marquis_de_saintmran",
+            "marquise_de_saintmran",
+            "comte_de_salvieux"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 67,
+          "locationDescription": "Saint-Méran mansion dining hall, Villefort returns with news of an arrest",
+          "imageDescription": "Villefort re-enters the brightly lit dining hall, his face animated and triumphant, as the guests turn in interest toward him. Renée looks up with concern and tenderness. The marquise and marquis sit upright, their features attentive. The table is still set with fine china, crystal glasses, and remnants of a festive meal. The mood is now a mix of curiosity, tension, and apprehension, with the opulent background suggesting both the gravity of recent events and the privileged world of the assembled aristocracy.",
+          "characterIds": [
+            "villefort",
+            "rene_de_saintmran",
+            "marquis_de_saintmran",
+            "marquise_de_saintmran",
+            "comte_de_salvieux"
+          ]
+        },
+        {
+          "startParagraph": 68,
+          "endParagraph": 95,
+          "locationDescription": "Saint-Méran mansion dining hall, Villefort departs for official duties",
+          "imageDescription": "The formal dining room, chairs pushed back as Villefort takes leave of the table, preparing to depart for urgent business. The marquise gives him a pointed, formal farewell, while Renée watches anxiously, torn between love and dread. Around them, the guests murmur amongst themselves. The last gestures of affection and duty are exchanged in the stately candlelit room, with the glow casting deep shadows and highlighting the emotional contrasts of this moment, blending grandeur and foreboding.",
+          "characterIds": [
+            "villefort",
+            "rene_de_saintmran",
+            "marquis_de_saintmran",
+            "marquise_de_saintmran"
+          ]
         }
       ]
     },

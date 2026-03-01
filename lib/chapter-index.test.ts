@@ -23,5 +23,12 @@ describe("lib/chapter-index", () => {
         expect(Array.isArray(entry.entities)).toBe(true);
       }
     });
+
+    it("includes M. Morrel in chapter 1 and chapter 5 entity lists", () => {
+      const chapter1 = getChapterIndexEntry(1);
+      const chapter5 = getChapterIndexEntry(5);
+      expect(chapter1?.entities.some((e) => e.entityId === "m_morrel")).toBe(true);
+      expect(chapter5?.entities.some((e) => e.entityId === "m_morrel")).toBe(true);
+    });
   });
 });

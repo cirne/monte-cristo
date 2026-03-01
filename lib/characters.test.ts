@@ -29,4 +29,12 @@ describe("lib/characters", () => {
   it("getCharacter returns undefined for unknown id", () => {
     expect(getCharacter("unknown_char")).toBeUndefined();
   });
+
+  it("includes M. Morrel with common spelling variants", () => {
+    const morrel = getCharacter("m_morrel");
+    expect(morrel).toBeDefined();
+    expect(morrel?.name).toBe("M. Morrel");
+    expect(morrel?.searchTerms).toContain("Morrel");
+    expect(morrel?.searchTerms).toContain("Morel");
+  });
 });

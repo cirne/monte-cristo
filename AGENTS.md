@@ -21,12 +21,12 @@ X-Ray style reader for **The Count of Monte Cristo**: read chapters, click peopl
 | `app/chapter/[number]/` | Chapter reader + X-Ray panel |
 | `data/` | Generated JSON (book, chapter index, entity store). Do not hand-edit. |
 | `lib/` | Data loading, book/chapter/entity logic, linkify |
-| `scripts/` | parse-book, build-chapter-index, image generation |
+| `scripts/` | parse-book, index-chapter (canonical), image generation |
 
 ## Data flow
 
 1. `parse-book.ts` → `data/book.json`, `data/book-index.json`
-2. `build-chapter-index` → `data/chapter-index.json` (uses `data/entity-store.json`)
+2. `index-chapter --all` → `data/chapter-index.json` + updates `data/entity-store.json`
 3. `watch-data.ts` bumps `lib/data-manifest.ts` when `data/` changes so dev server picks up new data.
 
 When you change schema or scripts that write to `data/`, run the relevant script and ensure the app still reads the new shape.
@@ -36,14 +36,14 @@ When you change schema or scripts that write to `data/`, run the relevant script
 - `bun run test` / `npm run test` — Run test suite (Vitest)
 - `bun run dev` — Dev server + watch-data
 - `bun run parse-book` — Regenerate book JSON
-- `bun run build-chapter-index` — Regenerate chapter index
-- `bun run index-chapter` — Index one chapter
+- `bun run index-chapter --all` — Canonical full chapter index rebuild
+- `bun run index-chapter --chapter=N` — Incremental chapter patch/reindex (non-destructive by default)
 - `bun run generate-images` / `generate-scene-images` — Entity/scene images (needs `OPENAI_API_KEY`)
 
 ## Conventions
 
 - Types from `lib/` (`Chapter`, `StoredEntity`, `EntityType`, etc.). Data loading is server-side only.
 - Don’t change `data/*.json` shape without updating `lib/` loaders and scripts that write them.
-- Don’t assume `data/*.json` exists in CI; docs/scripts should mention running parse-book / build-chapter-index.
+- Don’t assume `data/*.json` exists in CI; docs/scripts should mention running parse-book / index-chapter.
 
 More: `README.md`, `docs/FUTURE.md`.

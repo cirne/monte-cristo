@@ -5,7 +5,7 @@ This doc describes how entity and scene images are generated, stored, and used i
 ## Overview
 
 - **Entity images** (characters, places, events): One image per entity. Prompts are stored in `data/entity-image-prompts.json`. Images appear in the X-Ray popup when you tap an entity link.
-- **Scene images**: One image per scene (regex-based scene boundaries). Scene text is sent to an LLM to produce an image prompt; prompts are stored in `data/scene-image-prompts.json`. Images appear at the start of each scene in the chapter view.
+- **Scene images**: One image per scene (LLM-delineated scene boundaries from chapter indexing). Scene text is sent to an LLM to produce an image prompt; prompts are stored in `data/scene-image-prompts.json`. Images appear at the start of each scene in the chapter view.
 - **Shared style**: All images use the same style guide in `data/image-style.txt`, which is prepended to every DALL·E prompt so the look is consistent (period-accurate 19th-century, fine-art illustration, etc.).
 - **Format**: Images are generated via OpenAI DALL·E 3 (PNG), then converted to WebP (quality 82) with sharp for smaller files. Stored in the repo so we avoid regenerating.
 
@@ -45,7 +45,7 @@ Used by both entity and scene CLIs.
 
 **CLI:** `bun run scripts/generate-scene-images.ts`
 
-- **Input:** `data/book.json` (from parse-book), `data/image-style.txt`, and optionally existing `data/scene-image-prompts.json`. Scenes come from the chapter index (`data/chapter-index.json`); run `bun run scripts/index-chapter.ts --chapter=N` or `--all` to populate scenes (LLM-based).
+- **Input:** `data/book.json` (from parse-book), `data/image-style.txt`, and optionally existing `data/scene-image-prompts.json`. Scenes come from the chapter index (`data/chapter-index.json`); run `bun run index-chapter --chapter=N` or `bun run index-chapter --all` to populate scenes.
 - **Prompt generation:** For each scene we slice the chapter paragraphs by `startParagraph`/`endParagraph`, cap at 4000 characters, and call the LLM (gpt-4o-mini) with the style guide and scene text. The model is instructed to produce a single DALL·E prompt: focus on what's visible (setting, lighting, dress, atmosphere), strip or compress dialogue. The returned prompt is saved to `scene-image-prompts.json` (key `ch{N}-scene{M}`).
 - **Image generation:** Same as entities: `buildFullPrompt(prompt, style)` → `generateImageToWebPBuffer` → write to `public/images/scenes/ch{N}-scene{M}.webp`.
 - **Behavior:** Skips scenes that already have an image (and optionally skips prompt generation if a prompt already exists). Use `--force` to regenerate images.
@@ -66,5 +66,5 @@ Used by both entity and scene CLIs.
 ## Counts for this book
 
 - **Entities:** 14 characters + 6 places + 1 event = 21 images.
-- **Scenes:** 245 (regex-based scene boundaries across 117 chapters).
+- **Scenes:** The current count depends on the latest `index-chapter --all` run (LLM scene delineation can evolve).
 - **Total:** 266 images if all are generated.
