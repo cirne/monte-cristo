@@ -115,10 +115,10 @@ function parseBook(raw: string): Book {
       .replace(/\n{3,}/g, "\n\n")
       .trim();
 
-    // Strip PG printed-edition page markers (e.g. 0267m, 20009m) so they don't
+    // Strip PG printed-edition page markers (e.g. 0267m, 20009m, 0065m) so they don't
     // appear in the UI. Replace with ZWS so paragraph boundaries (and thus
     // scene/entity indices) are unchanged and we don't need to re-run processors.
-    const pageMarkerLine = /^\d{4,6}m$/;
+    const pageMarkerLine = /^\d{3,6}m$/;
     content = content
       .split("\n")
       .map((line) => (pageMarkerLine.test(line.trim()) ? "\u200B" : line))
