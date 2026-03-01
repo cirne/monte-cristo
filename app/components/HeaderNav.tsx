@@ -1,21 +1,33 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { TOTAL_CHAPTERS } from "@/lib/constants";
-import { BookOpen, List, Search, ChevronLeft, ChevronRight } from "lucide-react";
+import { BookOpen, List, Search, ChevronLeft, ChevronRight, ArrowLeft } from "lucide-react";
 
 export function HeaderNav() {
   const pathname = usePathname();
+  const router = useRouter();
   const match = pathname?.match(/^\/chapter\/(\d+)\/?$/);
   const chapterNum = match ? parseInt(match[1], 10) : null;
   const prev = chapterNum != null && chapterNum > 1 ? chapterNum - 1 : null;
   const next =
     chapterNum != null && chapterNum < TOTAL_CHAPTERS ? chapterNum + 1 : null;
+  const showBack = pathname && pathname !== "/";
 
   return (
     <nav className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between gap-6 text-sm w-full">
       <div className="flex items-center gap-4 sm:gap-6">
+        {showBack ? (
+          <button
+            type="button"
+            onClick={() => router.back()}
+            className="flex items-center justify-center text-stone-500 hover:text-stone-700 transition-colors p-1 -m-1"
+            aria-label="Back"
+          >
+            <ArrowLeft className="size-5" aria-hidden />
+          </button>
+        ) : null}
         <Link
           href="/"
           className="flex items-center gap-2 font-semibold text-stone-800 hover:text-stone-600"
