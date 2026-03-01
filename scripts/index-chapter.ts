@@ -8,18 +8,17 @@
  * curated characters/entities so existing IDs stay stable.
  *
  * Usage:
- *   bun run scripts/index-chapter.ts --chapter 1
+ *   bun run scripts/index-chapter.ts --chapter=1
  *   bun run scripts/index-chapter.ts --all
  *   bun run scripts/index-chapter.ts --all --seed-from-curated
  *
- * Scene delineation: paragraph-index based (regex). Scenes are written into
- * each chapter index entry.
+ * Scenes are detected via LLM and written into each chapter index entry (data/chapter-index.json).
  */
 
 import "../lib/loadEnv";
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { join } from "path";
-import { requireOpenAIClient } from "../lib/env";
+import { createChatCompletion } from "../lib/llm";
 import type { ChapterIndex, ChapterIndexEntry, EntityType } from "../lib/chapter-index";
 import {
   type EntityStoreData,
@@ -27,7 +26,8 @@ import {
   slugifyEntityName,
   normalizeNameForMatch,
 } from "../lib/entity-store";
-import { getScenes } from "../lib/scenes";
+import { getSingleScene } from "../lib/scenes";
+import { getScenesFromLLM } from "../lib/scenes-llm";
 import { CHARACTERS } from "../lib/characters";
 import { PLACES_AND_EVENTS } from "../lib/entities";
 
@@ -125,14 +125,12 @@ async function extractEntities(
   chapterNumber: number,
   content: string
 ): Promise<ExtractedEntity[]> {
-  const openai = requireOpenAIClient();
   const text = content.slice(0, MAX_CHAPTER_CONTENT_CHARS);
   if (content.length > MAX_CHAPTER_CONTENT_CHARS) {
     console.warn(`Chapter ${chapterNumber} truncated to ${MAX_CHAPTER_CONTENT_CHARS} chars for extraction.`);
   }
 
-  const response = await openai.chat.completions.create({
-    model: "gpt-4o-mini",
+  const response = await createChatCompletion({
     messages: [
       {
         role: "system",
@@ -181,9 +179,7 @@ async function generateSpoilerFreeIntro(
   chapterNumber: number,
   excerpt: string
 ): Promise<string | undefined> {
-  const openai = requireOpenAIClient();
-  const response = await openai.chat.completions.create({
-    model: "gpt-4o-mini",
+  const response = await createChatCompletion({
     messages: [
       {
         role: "system",
@@ -208,7 +204,6 @@ async function indexChapter(
   store: EntityStoreData,
   index: ChapterIndex
 ): Promise<ChapterIndexEntry> {
-  const scenes = getScenes(content, { method: "regex" });
   const extracted = await extractEntities(chapterNumber, content);
 
   const entryEntities: ChapterIndexEntry["entities"] = [];
@@ -273,11 +268,26 @@ async function indexChapter(
     if (e && e.firstSeenInChapter > first) e.firstSeenInChapter = first;
   }
 
+  let scenes: ChapterIndexEntry["scenes"];
+
+  try {
+    const entityRefs = entryEntities.map((e) => ({
+      id: e.entityId,
+      name: store.entities[e.entityId]?.name ?? e.entityId,
+      type: e.type,
+    }));
+    scenes = await getScenesFromLLM(chapterNumber, content, entityRefs);
+  } catch (e) {
+    console.warn("LLM scene delineation failed, using single scene for chapter:", (e as Error).message);
+    const single = getSingleScene(content);
+    scenes = single.length > 0 ? single : undefined;
+  }
+
   return {
     number: chapterNumber,
     ...(chapterNumber === 1 ? { baselineIntro: BASELINE_INTRO } : {}),
     entities: entryEntities,
-    scenes: scenes.length > 0 ? scenes : undefined,
+    scenes,
   };
 }
 

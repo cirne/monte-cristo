@@ -4,7 +4,7 @@
 
 **Implemented:**
 
-- **Scene delineation** (`lib/scenes.ts`): Chapters are split into paragraphs (`\n\n+`). Scenes are identified by **paragraph index** (not character offset) so boundaries stay stable under small edits. Regex-based starters: time transitions ("The next day", "Some time later"), location ("In Paris,", "Meanwhile"), etc. Use `getScenes(content)` or `getScenesFromRegex(content)`; optional `getSingleScene(content)` for no subdivision.
+- **Scene delineation**: Scenes are detected at index time via LLM (`lib/scenes-llm.ts`, used by `scripts/index-chapter.ts`) and stored in each chapter index entry in `data/chapter-index.json`. Each scene has paragraph ranges, optional location/image description, and character IDs. The chapter page uses index scenes only; images are placed at each scene’s `startParagraph`. Fallback when LLM fails: single scene for the whole chapter (`getSingleScene(content)` in `lib/scenes.ts`).
 - **Index chapter** (`scripts/index-chapter.ts`): For a chapter (or `--all`):
   1. **Find entities**: LLM extracts people, places, events from the chapter text.
   2. **Generate content**: Spoiler-free intro (on first appearance) and excerpt ("in this chapter") from the text.
