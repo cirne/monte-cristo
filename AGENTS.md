@@ -4,7 +4,9 @@ Context for AI agents and humans working on this codebase.
 
 ## Critical instructions
 
-- **Before every commit/push:** Run `bun run lint`, `bun run build`, and `bun run test` (or `npm run test`); fix any errors before pushing.
+- **Before every commit/push:** Run `bun run lint`, `bun run build`, and `bun run test`; fix any errors before pushing.
+- **Test coverage:** Ensure any new code has test coverage; add or extend tests as needed.
+- **Test suite:** Ensure the entire test suite passes (`bun run test` or `./node_modules/.bin/vitest run`) before committing.
 - Never commit `.env` or put API keys in code.
 
 ## What this project is
