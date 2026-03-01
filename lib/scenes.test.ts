@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { getParagraphs, getSingleScene } from "./scenes";
+import { getParagraphs, getSingleScene, normalizeScenes } from "./scenes";
 
 describe("lib/scenes", () => {
   describe("getParagraphs", () => {
@@ -41,6 +41,48 @@ describe("lib/scenes", () => {
 
     it("returns empty array for empty content", () => {
       expect(getSingleScene("")).toEqual([]);
+    });
+  });
+
+  describe("normalizeScenes", () => {
+    it("returns one full-range scene when scenes are missing", () => {
+      expect(normalizeScenes(undefined, 4)).toEqual([{ startParagraph: 0, endParagraph: 3 }]);
+    });
+
+    it("normalizes unordered and overlapping starts into contiguous ranges", () => {
+      const normalized = normalizeScenes(
+        [
+          { startParagraph: 10, endParagraph: 20, locationDescription: "Late" },
+          { startParagraph: 0, endParagraph: 5, locationDescription: "Early" },
+          { startParagraph: 5, endParagraph: 9, locationDescription: "Middle" },
+        ],
+        12
+      );
+      expect(normalized).toEqual([
+        { startParagraph: 0, endParagraph: 4, locationDescription: "Early" },
+        { startParagraph: 5, endParagraph: 9, locationDescription: "Middle" },
+        { startParagraph: 10, endParagraph: 11, locationDescription: "Late" },
+      ]);
+    });
+
+    it("merges duplicate startParagraph scene metadata without clobbering existing fields", () => {
+      const normalized = normalizeScenes(
+        [
+          { startParagraph: 3, endParagraph: 4, locationDescription: "Dining room" },
+          { startParagraph: 3, endParagraph: 6, summary: "A tense discussion", characterIds: ["dantes"] },
+        ],
+        8
+      );
+      expect(normalized).toEqual([
+        { startParagraph: 0, endParagraph: 2 },
+        {
+          startParagraph: 3,
+          endParagraph: 7,
+          locationDescription: "Dining room",
+          summary: "A tense discussion",
+          characterIds: ["dantes"],
+        },
+      ]);
     });
   });
 });
