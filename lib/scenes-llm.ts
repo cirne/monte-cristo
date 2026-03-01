@@ -62,6 +62,19 @@ function findParagraphIndexByFragment(paragraphs: string[], fragment: string): n
 }
 
 /**
+ * Attempt to repair JSON truncated mid-string (common with "Unterminated string").
+ * Finds the last complete scene object (ending with "},") and truncates there.
+ */
+function tryRepairTruncatedJson(raw: string, errMsg: string): string | null {
+  if (!errMsg.toLowerCase().includes("unterminated") && !errMsg.toLowerCase().includes("unexpected end")) {
+    return null;
+  }
+  const lastComplete = raw.trim().lastIndexOf('},');
+  if (lastComplete < 0) return null;
+  return raw.slice(0, lastComplete + 1) + ']}';
+}
+
+/**
  * Call LLM to analyze the chapter and break it into logical scenes.
  * Returns scenes with startParagraph/endParagraph resolved from startTextFragment.
  * entityRefs: list of { id, name, type } for entities in this chapter so the LLM
@@ -89,12 +102,12 @@ export async function getScenesFromLLM(
 A new scene usually starts when the location or setting changes (e.g. moving from ship to shore, or to a different room), or when there is a clear time jump.
 
 For each scene you must provide:
-1. locationDescription: A short phrase for the setting (e.g. "On the deck of the Pharaon", "In Dantès' father's room").
+1. locationDescription: A short phrase for the setting (e.g. "On the deck of the Pharaon", "In Dantès' father's room"). Keep under 60 characters.
 2. startTextFragment: The exact first 6–12 words that begin this scene in the chapter text. This must appear verbatim (or nearly so) in the chapter so we can locate the scene. Use the opening sentence of the scene.
-3. imageDescription: A single paragraph description suitable for generating an illustration with DALL·E: setting, lighting, who is present and their positions, period-appropriate dress, atmosphere. No dialogue or non-visual detail. Fine-art illustration style, 19th-century novel aesthetic.
+3. imageDescription: A concise 2–3 sentence description for DALL·E: setting, lighting, who is present and their positions, period-appropriate dress, atmosphere. No dialogue. Fine-art illustration style, 19th-century novel aesthetic. Keep under 100 words.
 4. characterIds: An array of entity IDs from the list below for characters (persons) who appear or are clearly present in this scene. Use only IDs from the list. Omit if none apply.
 
-Return a JSON object with a single key "scenes" whose value is an array of objects, each with: locationDescription, startTextFragment, imageDescription, characterIds (array of strings). Order scenes in the same order they appear in the chapter.`;
+JSON rules: Return valid JSON only. Escape any double-quotes inside strings with backslash (e.g. \\"). Do not include newlines inside string values. Return a JSON object with a single key "scenes" whose value is an array of objects, each with: locationDescription, startTextFragment, imageDescription, characterIds (array of strings). Order scenes in the same order they appear in the chapter.`;
 
   const userPrompt = `Chapter ${chapterNumber} — entities to reference by ID in characterIds (use only these exact IDs):
 ${entityListText}
@@ -111,7 +124,7 @@ ${text}`;
       { role: "user", content: userPrompt },
     ],
     response_format: { type: "json_object" },
-    max_tokens: 2000,
+    max_tokens: 8000,
   });
 
   const raw = response.choices[0]?.message?.content;
@@ -121,7 +134,18 @@ ${text}`;
   try {
     parsed = JSON.parse(raw) as { scenes?: LLMSceneItem[] };
   } catch (e) {
-    throw new Error(`Invalid JSON from scene LLM: ${(e as Error).message}`);
+    const errMsg = (e as Error).message;
+    // Try to repair truncated JSON (common when max_tokens was hit or output cut off)
+    const repaired = tryRepairTruncatedJson(raw, errMsg);
+    if (repaired) {
+      try {
+        parsed = JSON.parse(repaired) as { scenes?: LLMSceneItem[] };
+      } catch {
+        throw new Error(`Invalid JSON from scene LLM: ${errMsg}`);
+      }
+    } else {
+      throw new Error(`Invalid JSON from scene LLM: ${errMsg}`);
+    }
   }
 
   const items = Array.isArray(parsed?.scenes) ? parsed.scenes : [];

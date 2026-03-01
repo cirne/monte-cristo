@@ -14,7 +14,9 @@
         "Edmond Dantès, mate of the ship Pharaon, accused Bonapartist hero",
         "Dantès, Edmond, Maltese",
         "Dantès, Edmond",
-        "Dantès, The Count of Monte Cristo, Sinbad the Sailor, Lord Wilmore, Abbé Busoni"
+        "Dantès, The Count of Monte Cristo, Sinbad the Sailor, Lord Wilmore, Abbé Busoni",
+        "Dantès, Edmond, poor Edmond",
+        "the abbé, priest, abbé"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -37,7 +39,9 @@
         "Edmond Dantès, mate of the ship Pharaon, accused Bonapartist hero",
         "Dantès, Edmond, Maltese",
         "Dantès, Edmond",
-        "Dantès, The Count of Monte Cristo, Sinbad the Sailor, Lord Wilmore, Abbé Busoni"
+        "Dantès, The Count of Monte Cristo, Sinbad the Sailor, Lord Wilmore, Abbé Busoni",
+        "Dantès, Edmond, poor Edmond",
+        "the abbé, priest, abbé"
       ]
     },
     "m_morrel": {
@@ -205,7 +209,8 @@
         "Comtesse de Morcerf",
         "Mercédès",
         "Mercédès, Comtesse de Morcerf",
-        "Mercedes, Mercédès"
+        "Mercedes, Mercédès",
+        "Mercédès, the Catalan"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -215,7 +220,8 @@
         "Comtesse de Morcerf",
         "Mercedes",
         "Mercédès, Comtesse de Morcerf",
-        "Mercedes, Mercédès"
+        "Mercedes, Mercédès",
+        "Mercédès, the Catalan"
       ]
     },
     "pharaon": {
@@ -278,14 +284,16 @@
       "name": "the emperor",
       "aliases": [
         "Napoleon Bonaparte",
-        "the usurper"
+        "the usurper",
+        "Napoleon, the emperor, the usurper, Napoleon the accursed"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
       "searchTerms": [
         "the emperor",
         "Napoleon Bonaparte",
-        "the usurper"
+        "the usurper",
+        "Napoleon, the emperor, the usurper, Napoleon the accursed"
       ],
       "spoilerFreeIntro": "\"The emperors grandeur loomed over the court, his presence commanding respect and intrigue.\""
     },
@@ -347,7 +355,9 @@
     "alles_de_meilhan": {
       "id": "alles_de_meilhan",
       "name": "Allées de Meilhan",
-      "aliases": [],
+      "aliases": [
+        "Allées de Meilhan"
+      ],
       "type": "place",
       "firstSeenInChapter": 2,
       "searchTerms": [
@@ -641,7 +651,8 @@
       "aliases": [
         "Reign of Terror, 9th Thermidor",
         "revolution",
-        "the emperor's return, the revolution"
+        "the emperor's return, the revolution",
+        "Reign of Terror"
       ],
       "type": "event",
       "firstSeenInChapter": 5,
@@ -652,7 +663,8 @@
         "Revolution",
         "Reign of Terror, 9th Thermidor",
         "revolution",
-        "the emperor's return, the revolution"
+        "the emperor's return, the revolution",
+        "Reign of Terror"
       ]
     },
     "villefort": {
@@ -698,13 +710,15 @@
       "id": "king_louis_xviii",
       "name": "King Louis XVIII",
       "aliases": [
-        "King Louis XVIII, the king"
+        "King Louis XVIII, the king",
+        "the king"
       ],
       "type": "person",
       "firstSeenInChapter": 6,
       "searchTerms": [
         "King Louis XVIII",
-        "King Louis XVIII, the king"
+        "King Louis XVIII, the king",
+        "the king"
       ],
       "spoilerFreeIntro": "The restored monarch of France, King Louis XVIII, whose reign marks a new chapter in the nation’s history."
     },
@@ -721,7 +735,8 @@
         "Marquis de Saint-Méran",
         "the marquis, old nobleman, Marquis de Saint-Méran",
         "the marquis"
-      ]
+      ],
+      "spoilerFreeIntro": "A dignified nobleman and supporter of King Louis XVIII, the Marquis de Saint-Méran is a guest at the dinner."
     },
     "marquise_de_saintmran": {
       "id": "marquise_de_saintmran",
@@ -752,7 +767,8 @@
         "Renée de Saint-Méran",
         "Renée, young and lovely girl, daughter of Marquis and Marquise de Saint-Méran",
         "Renée"
-      ]
+      ],
+      "spoilerFreeIntro": "Renée de Saint-Méran, the gentle and affectionate daughter of the Marquis and Marquise de Saint-Méran, enters the room quietly."
     },
     "comte_de_salvieux": {
       "id": "comte_de_salvieux",
@@ -772,7 +788,8 @@
       "id": "comte_dartois",
       "name": "Comte d’Artois",
       "aliases": [
-        "Comte d’Artois, associated with Comte de Salvieux"
+        "Comte d’Artois, associated with Comte de Salvieux",
+        "Comte d’Artois"
       ],
       "type": "person",
       "firstSeenInChapter": 6,
@@ -814,7 +831,8 @@
       "id": "murat",
       "name": "Murat",
       "aliases": [
-        "Murat, referred to as delivering letter to usurper"
+        "Murat, referred to as delivering letter to usurper",
+        "Murat"
       ],
       "type": "person",
       "firstSeenInChapter": 6,
@@ -963,7 +981,7 @@
         "Elba"
       ],
       "type": "place",
-      "firstSeenInChapter": 7,
+      "firstSeenInChapter": 6,
       "searchTerms": [
         "Island of Elba",
         "Elba"
@@ -991,7 +1009,7 @@
         "Paris"
       ],
       "type": "place",
-      "firstSeenInChapter": 7,
+      "firstSeenInChapter": 6,
       "spoilerFreeIntro": "The capital of France; much of the story later takes place here.",
       "searchTerms": [
         "Paris"
@@ -1385,13 +1403,15 @@
       "id": "noirtier",
       "name": "Noirtier",
       "aliases": [
-        "Noirtier the Girondin, Noirtier the senator"
+        "Noirtier the Girondin, Noirtier the senator",
+        "Citizen Noirtier, Count Noirtier"
       ],
       "type": "person",
-      "firstSeenInChapter": 10,
+      "firstSeenInChapter": 6,
       "searchTerms": [
         "Noirtier",
-        "Noirtier the Girondin, Noirtier the senator"
+        "Noirtier the Girondin, Noirtier the senator",
+        "Citizen Noirtier, Count Noirtier"
       ],
       "spoilerFreeIntro": "Noirtier, a venerable senator known for his influential past in the Girondin political circle."
     },
@@ -1747,20 +1767,24 @@
       "id": "madeleine_radelle",
       "name": "Madeleine Radelle",
       "aliases": [
-        "La Carconte"
+        "La Carconte",
+        "La Carconte, Madeleine Radelle, wife of Caderousse"
       ],
       "type": "person",
       "firstSeenInChapter": 26,
       "searchTerms": [
         "Madeleine Radelle",
-        "La Carconte"
+        "La Carconte",
+        "La Carconte, Madeleine Radelle, wife of Caderousse"
       ],
       "spoilerFreeIntro": "Madeleine Radelle is a pale, slender woman of delicate health, known for her quiet demeanor."
     },
     "pont_du_gard": {
       "id": "pont_du_gard",
       "name": "Pont du Gard",
-      "aliases": [],
+      "aliases": [
+        "Pont du Gard"
+      ],
       "type": "place",
       "firstSeenInChapter": 26,
       "searchTerms": [
@@ -1771,7 +1795,9 @@
     "arles": {
       "id": "arles",
       "name": "Arles",
-      "aliases": [],
+      "aliases": [
+        "Arles"
+      ],
       "type": "place",
       "firstSeenInChapter": 26,
       "searchTerms": [
@@ -1782,7 +1808,9 @@
     "beaucaire": {
       "id": "beaucaire",
       "name": "Beaucaire",
-      "aliases": [],
+      "aliases": [
+        "Beaucaire"
+      ],
       "type": "place",
       "firstSeenInChapter": 26,
       "searchTerms": [
@@ -1793,7 +1821,9 @@
     "bellegarde": {
       "id": "bellegarde",
       "name": "Bellegarde",
-      "aliases": [],
+      "aliases": [
+        "Bellegarde"
+      ],
       "type": "place",
       "firstSeenInChapter": 26,
       "searchTerms": [
@@ -1804,7 +1834,9 @@
     "aiguemortes": {
       "id": "aiguemortes",
       "name": "Aiguemortes",
-      "aliases": [],
+      "aliases": [
+        "Aiguemortes"
+      ],
       "type": "place",
       "firstSeenInChapter": 26,
       "searchTerms": [
@@ -1815,7 +1847,9 @@
     "rhne": {
       "id": "rhne",
       "name": "Rhône",
-      "aliases": [],
+      "aliases": [
+        "Rhône"
+      ],
       "type": "place",
       "firstSeenInChapter": 26,
       "searchTerms": [
@@ -1837,7 +1871,9 @@
     "salon": {
       "id": "salon",
       "name": "Salon",
-      "aliases": [],
+      "aliases": [
+        "Salon"
+      ],
       "type": "place",
       "firstSeenInChapter": 26,
       "searchTerms": [
@@ -1848,7 +1884,9 @@
     "lambesc": {
       "id": "lambesc",
       "name": "Lambesc",
-      "aliases": [],
+      "aliases": [
+        "Lambesc"
+      ],
       "type": "place",
       "firstSeenInChapter": 26,
       "searchTerms": [
@@ -1859,7 +1897,9 @@
     "camargue": {
       "id": "camargue",
       "name": "Camargue",
-      "aliases": [],
+      "aliases": [
+        "Camargue"
+      ],
       "type": "place",
       "firstSeenInChapter": 26,
       "searchTerms": [
@@ -1877,6 +1917,233 @@
         "Toulon"
       ],
       "spoilerFreeIntro": "Toulon, a grim port city known for its notorious prison galleys."
+    },
+    "mlle_de_salvieux": {
+      "id": "mlle_de_salvieux",
+      "name": "Mlle. de Salvieux",
+      "aliases": [
+        "the daughter of the Comte de Salvieux"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Mlle. de Salvieux",
+        "the daughter of the Comte de Salvieux"
+      ]
+    },
+    "josephine": {
+      "id": "josephine",
+      "name": "Josephine",
+      "aliases": [
+        "Josephine"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Josephine"
+      ],
+      "spoilerFreeIntro": "A once-empress of France, renowned for her elegance and strength."
+    },
+    "duc_denghien": {
+      "id": "duc_denghien",
+      "name": "Duc d’Enghien",
+      "aliases": [
+        "the poor Duc d’Enghien"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Duc d’Enghien",
+        "the poor Duc d’Enghien"
+      ],
+      "spoilerFreeIntro": "A young French nobleman whose tragic fate is often discussed in Parisian society."
+    },
+    "cond": {
+      "id": "cond",
+      "name": "Condé",
+      "aliases": [
+        "Duc de Condé"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Condé",
+        "Duc de Condé"
+      ],
+      "spoilerFreeIntro": "A renowned French nobleman and military leader, known for his opposition to Napoleon."
+    },
+    "saint_helena": {
+      "id": "saint_helena",
+      "name": "Saint Helena",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Saint Helena"
+      ],
+      "spoilerFreeIntro": "A remote island in the South Atlantic Ocean, known for its isolation."
+    },
+    "italy": {
+      "id": "italy",
+      "name": "Italy",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Italy"
+      ],
+      "spoilerFreeIntro": "A beautiful and politically complex country at the heart of 19th-century European intrigue."
+    },
+    "rue_du_grand_cours": {
+      "id": "rue_du_grand_cours",
+      "name": "Rue du Grand Cours",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Rue du Grand Cours"
+      ]
+    },
+    "medusa_fountain": {
+      "id": "medusa_fountain",
+      "name": "Medusa fountain",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Medusa fountain"
+      ],
+      "spoilerFreeIntro": "A well-known fountain in Marseille, adorned with the figure of Medusa, marking an elegant spot along the Rue du Grand Cours."
+    },
+    "moscow": {
+      "id": "moscow",
+      "name": "Moscow",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Moscow"
+      ],
+      "spoilerFreeIntro": "The bustling Russian capital, heart of society and power."
+    },
+    "leipsic": {
+      "id": "leipsic",
+      "name": "Leipsic",
+      "aliases": [
+        "Leipzig"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Leipsic",
+        "Leipzig"
+      ],
+      "spoilerFreeIntro": "A city in Germany mentioned in conversation among the guests."
+    },
+    "hartwell": {
+      "id": "hartwell",
+      "name": "Hartwell",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Hartwell"
+      ],
+      "spoilerFreeIntro": "Hartwell, a quiet English village known as the place of exile for a deposed French king."
+    },
+    "treaties_of_1814": {
+      "id": "treaties_of_1814",
+      "name": "treaties of 1814",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "treaties of 1814"
+      ],
+      "spoilerFreeIntro": "A series of international agreements that reshaped Europe after Napoleon’s initial defeat."
+    },
+    "the_bonapartist_club_in_paris": {
+      "id": "the_bonapartist_club_in_paris",
+      "name": "the Bonapartist club in Paris",
+      "aliases": [
+        "Bonapartist club in Paris"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "the Bonapartist club in Paris",
+        "Bonapartist club in Paris"
+      ],
+      "spoilerFreeIntro": "A secretive political meeting place for supporters of Napoleon in Paris."
+    },
+    "father_of_edmond_dants": {
+      "id": "father_of_edmond_dants",
+      "name": "father of Edmond Dantès",
+      "aliases": [
+        "elder Dantès, old man, Edmond's father"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 26,
+      "searchTerms": [
+        "father of Edmond Dantès",
+        "elder Dantès, old man, Edmond's father"
+      ]
+    },
+    "trinette": {
+      "id": "trinette",
+      "name": "Trinette",
+      "aliases": [
+        "Trinette, chambermaid"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 26,
+      "searchTerms": [
+        "Trinette",
+        "Trinette, chambermaid"
+      ],
+      "spoilerFreeIntro": "Trinette, the chambermaid, is one of the small household staff serving at the estate."
+    },
+    "pecaud": {
+      "id": "pecaud",
+      "name": "Pecaud",
+      "aliases": [
+        "Pecaud, hostler"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 26,
+      "searchTerms": [
+        "Pecaud",
+        "Pecaud, hostler"
+      ],
+      "spoilerFreeIntro": "Pecaud is the hostler working at the canal bank inn."
+    },
+    "margotin": {
+      "id": "margotin",
+      "name": "Margotin",
+      "aliases": [
+        "Margotin, black dog"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 26,
+      "searchTerms": [
+        "Margotin",
+        "Margotin, black dog"
+      ],
+      "spoilerFreeIntro": "Margotin, Caderousse’s energetic dog, is introduced as he makes his presence known."
+    },
+    "the_canal_between_beaucaire_and_aiguemortes": {
+      "id": "the_canal_between_beaucaire_and_aiguemortes",
+      "name": "the canal between Beaucaire and Aiguemortes",
+      "aliases": [
+        "canal between Beaucaire and Aiguemortes"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 26,
+      "searchTerms": [
+        "the canal between Beaucaire and Aiguemortes",
+        "canal between Beaucaire and Aiguemortes"
+      ],
+      "spoilerFreeIntro": "A man-made waterway linking Beaucaire and Aiguemortes, bustling with new commercial activity."
     }
   },
   "lastIndexedChapter": 117
