@@ -15,6 +15,10 @@ export interface ChapterIndexEntity {
 export interface ChapterIndexEntry {
   number: number;
   baselineIntro?: string;
+  /** One-paragraph summary of this chapter (spoiler-safe as of chapter end). */
+  chapterSummary?: string;
+  /** Rolling summary through the end of this chapter. */
+  storySoFarSummary?: string;
   entities: ChapterIndexEntity[];
   /** Paragraph-index based scenes; when from LLM, includes locationDescription, imageDescription, characterIds */
   scenes?: SceneWithDetails[];

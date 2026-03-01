@@ -89,6 +89,7 @@ export function mergeChapterScenes(
       imageDescription: current.imageDescription?.trim()
         ? current.imageDescription
         : next.imageDescription,
+      summary: current.summary?.trim() ? current.summary : next.summary,
       characterIds: current.characterIds?.length
         ? [...new Set(current.characterIds)]
         : (next.characterIds ? [...new Set(next.characterIds)] : undefined),
@@ -117,6 +118,12 @@ export function mergeChapterIndexEntry(
   return {
     number: incoming.number,
     baselineIntro: existing.baselineIntro ?? incoming.baselineIntro,
+    chapterSummary: existing.chapterSummary?.trim()
+      ? existing.chapterSummary
+      : incoming.chapterSummary,
+    storySoFarSummary: existing.storySoFarSummary?.trim()
+      ? existing.storySoFarSummary
+      : incoming.storySoFarSummary,
     entities: mergeChapterEntities(existing.entities, incoming.entities),
     scenes: mergeChapterScenes(existing.scenes, incoming.scenes),
   };
