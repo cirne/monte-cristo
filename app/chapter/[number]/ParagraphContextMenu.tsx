@@ -234,17 +234,6 @@ export function ParagraphContextMenu({ anchor, chapterNumber, onClose }: Paragra
               <div className="mt-3 flex items-center justify-end gap-2">
                 <button
                   type="button"
-                  onClick={() => {
-                    setMode("menu");
-                    setError(undefined);
-                    setAnswer(undefined);
-                  }}
-                  className="px-2.5 py-1.5 text-xs rounded-md border border-stone-300 text-stone-600 hover:bg-stone-50"
-                >
-                  Back to menu
-                </button>
-                <button
-                  type="button"
                   onClick={closeMenu}
                   className="px-2.5 py-1.5 text-xs rounded-md bg-stone-900 text-white hover:bg-stone-800"
                 >
