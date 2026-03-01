@@ -194,6 +194,12 @@ interface ChapterContentProps {
   baselineIntro?: string;
 }
 
+/** True if this paragraph is only a placeholder (e.g. stripped PG page marker). */
+function isPlaceholderParagraph(segments: Segment[]): boolean {
+  const text = segments.map((s) => s.content).join("");
+  return segments.length > 0 && /^[\s\u200B]*$/.test(text);
+}
+
 export function ChapterContent({
   paragraphSegments,
   scenes,
@@ -234,7 +240,13 @@ export function ChapterContent({
                 />
               </figure>
             )}
-            <p className="mb-4 leading-relaxed text-stone-800">
+            <p
+              className={
+                isPlaceholderParagraph(segments)
+                  ? "leading-relaxed text-stone-800 mb-0 min-h-0 overflow-hidden"
+                  : "mb-4 leading-relaxed text-stone-800"
+              }
+            >
             {segments.map((seg, j) =>
               seg.type === "text" ? (
                 <React.Fragment key={j}>{seg.content}</React.Fragment>

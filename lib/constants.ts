@@ -2,6 +2,8 @@
  * Constants that are safe to import on both server and client.
  */
 
+export const TOTAL_CHAPTERS = 117;
+
 export const VOLUMES = [
   "VOLUME ONE",
   "VOLUME TWO",

@@ -2891,67 +2891,150 @@
     },
     {
       "number": 26,
-      "entities": [],
+      "entities": [
+        {
+          "entityId": "caderousse",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…s man was our old acquaintance, Gaspard Caderousse.  His wife, on the contrary, whose maiden name had been Madeleine Ra…"
+        },
+        {
+          "entityId": "madeleine_radelle",
+          "type": "person",
+          "firstSeenInChapter": 26,
+          "excerpt": "…he contrary, whose maiden name had been Madeleine Radelle, was pale, meagre, and sickly-looking. Born in the neighborho…"
+        },
+        {
+          "entityId": "dantes",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…, know anything of a young sailor named Dantès?”  “Dantès? Did I know poor dear Edmond? Why, Edmond Dantès and myself w…"
+        },
+        {
+          "entityId": "mercedes",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…I have forgotten what he called her.”  “Mercédès,” said Caderousse eagerly.  “True,” said the abbé, with a stifled sigh…"
+        },
+        {
+          "entityId": "fernand",
+          "type": "person",
+          "firstSeenInChapter": 3,
+          "excerpt": "…, was much attached to me,—his name was Fernand; that of my betrothed was’—Stay, stay,” continued the abbé, “I have for…"
+        },
+        {
+          "entityId": "danglars",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…the emotion of Caderousse, “‘is called Danglars; and the third, in spite of being my rival, entertained a very sincere …"
+        },
+        {
+          "entityId": "faria",
+          "type": "person",
+          "firstSeenInChapter": 14,
+          "excerpt": "…t to say. However that might have been, the priest, dismounting, led his steed by the bridle in search of some place to…"
+        },
+        {
+          "entityId": "m_morrel",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…derousse, “for Mercédès the Catalan and Monsieur Morrel were very kind to him; but somehow the poor old man had contrac…"
+        },
+        {
+          "entityId": "pont_du_gard",
+          "type": "place",
+          "firstSeenInChapter": 26,
+          "excerpt": "…with a grotesque representation of the Pont du Gard. This modern place of entertainment stood on the left-hand side of …"
+        },
+        {
+          "entityId": "marseilles",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ill the trade fell off. It is so hot at Marseilles, that really I believe that the respectable inhabitants will in time…"
+        },
+        {
+          "entityId": "arles",
+          "type": "place",
+          "firstSeenInChapter": 26,
+          "excerpt": "…ly-looking. Born in the neighborhood of Arles, she had shared in the beauty for which its women are proverbial; but tha…"
+        },
+        {
+          "entityId": "beaucaire",
+          "type": "place",
+          "firstSeenInChapter": 26,
+          "excerpt": "…ticed, about midway between the town of Beaucaire and the village of Bellegarde,—a little nearer to the former than to …"
+        },
+        {
+          "entityId": "bellegarde",
+          "type": "place",
+          "firstSeenInChapter": 26,
+          "excerpt": "…he town of Beaucaire and the village of Bellegarde,—a little nearer to the former than to the latter,—a small roadside …"
+        },
+        {
+          "entityId": "aiguemortes",
+          "type": "place",
+          "firstSeenInChapter": 26,
+          "excerpt": "…ents, for a canal between Beaucaire and Aiguemortes had revolutionized transportation by substituting boats for the car…"
+        },
+        {
+          "entityId": "rhne",
+          "type": "place",
+          "firstSeenInChapter": 26,
+          "excerpt": "…e of the post road, and backed upon the Rhône. It also boasted of what in Languedoc is styled a garden, consisting of a…"
+        },
+        {
+          "entityId": "durance",
+          "type": "place",
+          "firstSeenInChapter": 26,
+          "excerpt": "…urses of Provence, the others being the Durance and the Parliament.  In the surrounding plain, which more resembled a d…"
+        },
+        {
+          "entityId": "provence",
+          "type": "place",
+          "firstSeenInChapter": 11,
+          "excerpt": "…stral blows, one of the three curses of Provence, the others being the Durance and the Parliament.  In the surrounding …"
+        },
+        {
+          "entityId": "salon",
+          "type": "place",
+          "firstSeenInChapter": 26,
+          "excerpt": "…a village, so called, situated between Salon and Lambesc; and as a custom existed among the inhabitants of that part of…"
+        },
+        {
+          "entityId": "lambesc",
+          "type": "place",
+          "firstSeenInChapter": 26,
+          "excerpt": "…, so called, situated between Salon and Lambesc; and as a custom existed among the inhabitants of that part of France w…"
+        },
+        {
+          "entityId": "languedoc",
+          "type": "place",
+          "firstSeenInChapter": 11,
+          "excerpt": "…n the Rhône. It also boasted of what in Languedoc is styled a garden, consisting of a small plot of ground, on the side…"
+        },
+        {
+          "entityId": "camargue",
+          "type": "place",
+          "firstSeenInChapter": 26,
+          "excerpt": "…ponds of Aiguemortes and the marshes of Camargue. She remained nearly always in her second- floor chamber, shivering in…"
+        },
+        {
+          "entityId": "alles_de_meilhan",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…e. You formerly lived, I believe in the Allées de Meilhan, on the fourth floor?”  0325m  “I did.”  “And you followed th…"
+        },
+        {
+          "entityId": "toulon",
+          "type": "place",
+          "firstSeenInChapter": 26,
+          "excerpt": "…nalty of their crimes at the galleys of Toulon.”  A deadly pallor followed the flush on the countenance of Caderousse, …"
+        }
+      ],
       "scenes": [
         {
           "startParagraph": 0,
-          "endParagraph": 3,
-          "locationDescription": "Outside the small roadside inn near Pont du Gard",
-          "imageDescription": "A dusty, sunlit roadside inn near the Rhône river, with a tin sign featuring a grotesque Pont du Gard hanging creakily in the wind. Sparse, struggling olive and fig trees and a tall, dried pine stand in an unkempt garden. The landscape is arid with a few wheat stalks and grasshoppers visible under strong sunlight in a late 18th to early 19th-century rural French setting. No people present in the view."
-        },
-        {
-          "startParagraph": 4,
-          "endParagraph": 11,
-          "locationDescription": "Before the inn’s main door",
-          "imageDescription": "Gaspard Caderousse, a tall, strong man in simple southern French attire with a red handkerchief wrapped around his head, stands at the inn’s sunlit threshold, watching the dusty road. His pale, sickly wife, La Carconte, is indoors, ill and feeble. The worn exterior of the inn shows the heat and weariness of the environment. A large, black dog is nearby. The scene conveys the contrast between the hardy innkeeper and his debilitated wife."
-        },
-        {
-          "startParagraph": 12,
-          "endParagraph": 16,
-          "locationDescription": "Inside the inn, combined parlor and kitchen",
-          "imageDescription": "An austere, dimly lit rustic room serving as both parlor and kitchen in a small French inn. Gaspard Caderousse opens the door to welcome a priest who has tied his horse outside. The priest is dressed in black cassock with a three-cornered hat, wiping his brow with a red handkerchief. The black dog Margotin approaches the priest cautiously but calms down near him. Simple wooden furniture is present, and the room feels quiet and hot under subdued daylight through the windows."
-        },
-        {
-          "startParagraph": 17,
-          "endParagraph": 27,
-          "locationDescription": "Inside the same room at the inn",
-          "imageDescription": "Gaspard Caderousse stands attentively, speaking with the priest seated on a wooden stool at a small table. The black dog rests between the priest’s knees, relaxed. The priest wears a solemn expression and holds a small black box which he opens to reveal a sparkling diamond ring that glints under soft daylight. Caderousse listens intently, a mixture of surprise and greed on his face. The interior is humble, with cracks in the walls and simple furnishings indicating modest means."
-        },
-        {
-          "startParagraph": 28,
-          "endParagraph": 41,
-          "locationDescription": "Inside the inn, continuation of the conversation",
-          "imageDescription": "The seated priest and Gaspard Caderousse continue their intense conversation about Edmond Dantès and his legacy. Caderousse appears nervous, wiping sweat from his brow and shaking his head while the priest remains calm and penetrating in gaze. La Carconte’s pale, sickly face is seen peering down faintly from the upper staircase, listening silently. The atmosphere is tense and secretive, illuminated by warm daylight filtering in but thick with emotion."
-        },
-        {
-          "startParagraph": 42,
-          "endParagraph": 67,
-          "locationDescription": "Inside the inn, extended discussion and reveal of diamond’s value",
-          "imageDescription": "The priest reveals a large, brilliant diamond set in a ring from the small box. Caderousse, astonished and breathless with eagerness, leans forward to examine it. The humble room contrasts with the grandeur of the jewel, casting glittering reflections on the faces of both men. La Carconte watches anxiously from the stairs. The mood is a mixture of curiosity, greed, and foreboding."
-        },
-        {
-          "startParagraph": 68,
-          "endParagraph": 68,
-          "locationDescription": "Inside the inn, conversation about Edmond Dantès and his friends",
-          "imageDescription": "The priest solemnly recounts Edmond’s bequest naming friends, including Caderousse, Danglars, Fernand, and Mercédès, while Caderousse shows signs of agitation and a fiendish smile briefly crosses his face. The room remains dimly lit, with the two men seated closely opposite each other, the priest calmly authoritative. La Carconte’s presence is quietly implied by shadows on the staircase, listening intently. The setting is fraught with tension and underlying menace."
-        },
-        {
-          "startParagraph": 60,
-          "endParagraph": 92,
-          "locationDescription": "Inside the inn, discussion about Edmond’s death and diamond",
-          "imageDescription": "Focus on the solemn priest explaining Dantès’s tragic fate and the hope his bequest represents, holding the diamond ring carefully. Caderousse listens with conflicting emotions of envy, sorrow, and greed, wiping tears with his red handkerchief. La Carconte rises weakly and descends to question him in a feeble voice from the stairs, adding tension to the room. The tight, humble interior envelops the complicated emotions of regret and suspicion."
-        },
-        {
-          "startParagraph": 93,
-          "endParagraph": 142,
-          "locationDescription": "Inside the inn, heated exchange and La Carconte’s warning",
-          "imageDescription": "La Carconte, pale and sickly, sits on the stairs glaring and scolding Gaspard, who stands quietly but with irritation inside the modest room. The priest remains calm and tries to soothe the dispute. The dank atmosphere of the inn feels uneasy and fraught with whispered threats and mistrust. The black dog is not visible in this section, the focus being on the tense domestic dynamic between husband, wife, and guest."
-        },
-        {
-          "startParagraph": 143,
-          "endParagraph": 153,
-          "locationDescription": "Inside the inn, closing discussion and decision to confide",
-          "imageDescription": "The priest and Caderousse sit closely in shadow and light contrast, the innkeeper having just secured the door quietly behind them. Caderousse prepares to relate his story while his wife listens faintly from above, her presence felt but not seen. The small scantily furnished room is intimate and charged with suspense. The priest appears patient and intense, ready to listen, while Caderousse looks nervous but resolved."
+          "endParagraph": 153
         }
       ]
     },

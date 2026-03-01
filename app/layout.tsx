@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Link from "next/link";
+import { HeaderNav } from "./components/HeaderNav";
+import { HeaderProgressBar } from "./components/HeaderProgressBar";
 
 export const metadata: Metadata = {
   title: "The Count of Monte Cristo",
@@ -18,21 +19,9 @@ export default function RootLayout({
       <body
         className="antialiased min-h-screen bg-stone-50 text-stone-900"
       >
-        <header className="border-b border-stone-200 bg-white sticky top-0 z-10">
-          <nav className="max-w-4xl mx-auto px-4 py-3 flex items-center gap-6 text-sm">
-            <Link href="/" className="font-semibold text-stone-800 hover:text-stone-600">
-              Monte Cristo
-            </Link>
-            <Link href="/chapters" className="text-stone-500 hover:text-stone-700">
-              Chapters
-            </Link>
-            <Link href="/characters" className="text-stone-500 hover:text-stone-700">
-              Characters
-            </Link>
-            <Link href="/search" className="text-stone-500 hover:text-stone-700">
-              Search
-            </Link>
-          </nav>
+        <header className="border-b border-stone-200 bg-white sticky top-0 z-10 flex flex-col">
+          <HeaderNav />
+          <HeaderProgressBar />
         </header>
         {children}
         <footer className="border-t border-stone-200 mt-16 py-6 text-center text-xs text-stone-400">

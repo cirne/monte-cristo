@@ -8,7 +8,7 @@ import type { OpenAI } from "openai";
 import { requireOpenAIClient } from "./openai";
 
 /** Default chat model for indexing, scene analysis, and prompt generation. */
-export const DEFAULT_CHAT_MODEL = "gpt-4.1-mini" as const;
+export const DEFAULT_CHAT_MODEL = "gpt-4.1" as const;
 
 /** Params to spread into chat.completions.create() so callers don't repeat model. */
 export function defaultChatParams(): { model: typeof DEFAULT_CHAT_MODEL } {
