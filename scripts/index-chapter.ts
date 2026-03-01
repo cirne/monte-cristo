@@ -28,8 +28,8 @@ import {
 } from "../lib/entity-store";
 import { getSingleScene } from "../lib/scenes";
 import { getScenesFromLLM } from "../lib/scenes-llm";
-import { CHARACTERS } from "../lib/characters";
-import { PLACES_AND_EVENTS } from "../lib/entities";
+import { CHARACTERS, getCharacter } from "../lib/characters";
+import { PLACES_AND_EVENTS, getPlaceOrEvent } from "../lib/entities";
 
 const DATA_DIR = join(import.meta.dir, "..", "data");
 const BASELINE_INTRO =
@@ -118,6 +118,26 @@ interface ExtractedEntity {
   type: EntityType;
   /** Optional alias or how they're referred to in this chapter */
   alias?: string;
+  /** When the entity is one of our canonical entities, use this exact id so links work */
+  id?: string;
+}
+
+/** Build canonical entity list for the LLM so it uses our ids and names */
+function buildCanonicalEntityList(): string {
+  const lines: string[] = [];
+  lines.push("Persons (use exact 'id' when the text refers to this person):");
+  for (const c of CHARACTERS) {
+    const terms = [c.name, ...c.aliases, ...c.searchTerms].filter(Boolean);
+    const also = terms.length > 1 ? ` (also: ${terms.slice(1, 6).join(", ")})` : "";
+    lines.push(`  ${c.id}: ${c.name}${also}`);
+  }
+  lines.push("Places and events (use exact 'id' when the text refers to this place/event):");
+  for (const e of PLACES_AND_EVENTS) {
+    const terms = [e.name, ...e.searchTerms].filter(Boolean);
+    const also = terms.length > 1 ? ` (also: ${terms.slice(1, 5).join(", ")})` : "";
+    lines.push(`  ${e.id}: ${e.name}${also}`);
+  }
+  return lines.join("\n");
 }
 
 /** Call LLM to extract people, places, and events from chapter text */
@@ -130,15 +150,23 @@ async function extractEntities(
     console.warn(`Chapter ${chapterNumber} truncated to ${MAX_CHAPTER_CONTENT_CHARS} chars for extraction.`);
   }
 
+  const canonicalList = buildCanonicalEntityList();
   const response = await createChatCompletion({
     messages: [
       {
         role: "system",
         content: `You extract people, places, and events from a chapter of "The Count of Monte Cristo".
+
+Canonical entities — when the text refers to someone/something in this list, use its exact "id" in your response so our links work. For anything not in the list, omit "id" and we will assign one.
+
+${canonicalList}
+
 Return a JSON array of objects. Each object has:
-- "name": canonical full name (e.g. "Edmond Dantès", "Château d'If")
+- "name": canonical full name (use the name from the list above when you use an id)
 - "type": "person" | "place" | "event"
 - "alias": optional string, how they are referred to in this chapter if different from name
+- "id": optional string, REQUIRED when the entity is in the canonical list above — use the exact id from that list
+
 Include every named person, place, or significant event mentioned. Use consistent canonical names.`,
       },
       {
@@ -210,36 +238,76 @@ async function indexChapter(
   const firstSeenUpdates = new Map<string, number>();
 
   for (const ex of extracted) {
-    const existing = findExistingEntity(store, ex.name, ex.type);
     let entityId: string;
     let firstSeenInChapter: number;
 
-    if (existing) {
-      entityId = existing.id;
-      firstSeenInChapter = Math.min(existing.firstSeenInChapter, chapterNumber);
-      firstSeenUpdates.set(entityId, firstSeenInChapter);
-      if (ex.alias && ex.alias.trim() && !existing.aliases.includes(ex.alias.trim())) {
-        existing.aliases = [...new Set([...existing.aliases, ex.alias.trim()])];
-        existing.searchTerms = [...new Set([...existing.searchTerms, ex.alias.trim()])];
+    const curatedPerson = ex.type === "person" && ex.id ? getCharacter(ex.id) : null;
+    const curatedPlaceOrEvent = ex.type !== "person" && ex.id ? getPlaceOrEvent(ex.id) : null;
+    const isCurated = !!(curatedPerson || curatedPlaceOrEvent);
+
+    if (isCurated && ex.id) {
+      entityId = ex.id;
+      const existing = store.entities[entityId];
+      if (existing) {
+        firstSeenInChapter = Math.min(existing.firstSeenInChapter, chapterNumber);
+        firstSeenUpdates.set(entityId, firstSeenInChapter);
+        if (ex.alias?.trim() && !existing.aliases.includes(ex.alias.trim())) {
+          existing.aliases = [...new Set([...existing.aliases, ex.alias.trim()])];
+          existing.searchTerms = [...new Set([...existing.searchTerms, ex.alias.trim()])];
+        }
+      } else {
+        firstSeenInChapter = chapterNumber;
+        if (curatedPerson) {
+          store.entities[entityId] = {
+            id: entityId,
+            name: curatedPerson.name,
+            aliases: curatedPerson.aliases,
+            type: "person",
+            firstSeenInChapter,
+            spoilerFreeIntro: curatedPerson.spoilerFreeIntro,
+            searchTerms: [curatedPerson.name, ...curatedPerson.aliases, ...curatedPerson.searchTerms],
+          };
+        } else if (curatedPlaceOrEvent) {
+          store.entities[entityId] = {
+            id: entityId,
+            name: curatedPlaceOrEvent.name,
+            aliases: [],
+            type: curatedPlaceOrEvent.type,
+            firstSeenInChapter,
+            spoilerFreeIntro: curatedPlaceOrEvent.spoilerFreeIntro,
+            searchTerms: [curatedPlaceOrEvent.name, ...curatedPlaceOrEvent.searchTerms],
+          };
+        }
       }
     } else {
-      entityId = slugifyEntityName(ex.name);
-      if (store.entities[entityId]) {
-        let suffix = 1;
-        while (store.entities[entityId + "_" + suffix]) suffix++;
-        entityId = entityId + "_" + suffix;
+      const existing = findExistingEntity(store, ex.name, ex.type);
+      if (existing) {
+        entityId = existing.id;
+        firstSeenInChapter = Math.min(existing.firstSeenInChapter, chapterNumber);
+        firstSeenUpdates.set(entityId, firstSeenInChapter);
+        if (ex.alias?.trim() && !existing.aliases.includes(ex.alias.trim())) {
+          existing.aliases = [...new Set([...existing.aliases, ex.alias.trim()])];
+          existing.searchTerms = [...new Set([...existing.searchTerms, ex.alias.trim()])];
+        }
+      } else {
+        entityId = slugifyEntityName(ex.name);
+        if (store.entities[entityId]) {
+          let suffix = 1;
+          while (store.entities[entityId + "_" + suffix]) suffix++;
+          entityId = entityId + "_" + suffix;
+        }
+        firstSeenInChapter = chapterNumber;
+        const searchTerms = [ex.name];
+        if (ex.alias?.trim()) searchTerms.push(ex.alias.trim());
+        store.entities[entityId] = {
+          id: entityId,
+          name: ex.name,
+          aliases: ex.alias?.trim() ? [ex.alias.trim()] : [],
+          type: ex.type,
+          firstSeenInChapter,
+          searchTerms: [...new Set(searchTerms)],
+        };
       }
-      firstSeenInChapter = chapterNumber;
-      const searchTerms = [ex.name];
-      if (ex.alias?.trim()) searchTerms.push(ex.alias.trim());
-      store.entities[entityId] = {
-        id: entityId,
-        name: ex.name,
-        aliases: ex.alias?.trim() ? [ex.alias.trim()] : [],
-        type: ex.type,
-        firstSeenInChapter,
-        searchTerms: [...new Set(searchTerms)],
-      };
     }
 
     const stored = store.entities[entityId];

@@ -11,6 +11,8 @@ export interface PlaceOrEvent {
   type: PlaceOrEventType;
   /** Terms used to detect presence in chapter text (case-insensitive match) */
   searchTerms: string[];
+  /** Optional regex patterns for canonical matching */
+  matchPatterns?: string[];
   /** Short spoiler-free intro for X-Ray when shown from a chapter */
   spoilerFreeIntro?: string;
 }

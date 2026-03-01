@@ -36,7 +36,7 @@ Used by both entity and scene CLIs.
 - **Options:**
   - `--entity=<id>` — Generate one entity (e.g. `--entity=dantes`).
   - `--all-entities` — Generate all entities that have a prompt and no existing image.
-  - `--workers=N` — Parallel requests (default 5; increase if your OpenAI tier allows).
+  - `--workers=N` — Parallel requests (default 32; lower if your OpenAI tier limits RPM).
   - `--force` — Overwrite existing images.
 
 **In the app:** The chapter page passes entity data to the X-Ray panel. The panel requests `/images/entities/{entityId}.webp` for the open entity; if the file is missing, the image fails to load and the portrait area is hidden (no broken image).
@@ -52,7 +52,7 @@ Used by both entity and scene CLIs.
 - **Options:**
   - `--scene=CHAPTER-SCENE` — e.g. `--scene=1-0` for chapter 1, scene 0.
   - `--all-scenes` — All chapters, all scenes.
-  - `--workers=N` — Parallel image generation (default 5).
+  - `--workers=N` — Parallel image generation (default 32).
   - `--force` — Overwrite existing scene images.
 
 **In the app:** The chapter page uses scenes from the chapter index (`indexEntry.scenes`) and passes them to `ChapterContent`. For each paragraph index that equals a scene's `startParagraph`, we render an image with `src=/images/scenes/ch{N}-scene{M}.webp` before that paragraph. If the file is missing, the figure is hidden on error.

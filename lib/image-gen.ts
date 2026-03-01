@@ -40,7 +40,9 @@ export async function generateImageToWebPBuffer(fullPrompt: string): Promise<Buf
     quality: "standard",
   });
 
-  const b64 = response.data[0]?.b64_json;
+  const data = response.data;
+  if (!data) throw new Error("No image data in response");
+  const b64 = data[0]?.b64_json;
   if (!b64) throw new Error("No image data in response");
   const pngBuffer = Buffer.from(b64, "base64");
   return sharp(pngBuffer)

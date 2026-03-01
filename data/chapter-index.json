@@ -5,7 +5,7 @@
       "baselineIntro": "The story opens in Marseilles. The following people, places, and events appear in this chapter.",
       "entities": [
         {
-          "entityId": "edmond_dants",
+          "entityId": "dantes",
           "type": "person",
           "firstSeenInChapter": 1,
           "excerpt": "…ade him as much disliked by the crew as Edmond Dantès was beloved by them.  “Well, M. Morrel,” said Danglars, “you have…"
@@ -23,7 +23,7 @@
           "excerpt": "…y! Off Civita Vecchia we lost our brave Captain Leclere.”  “And the cargo?” inquired the owner, eagerly.  “Is all safe,…"
         },
         {
-          "entityId": "m_danglars",
+          "entityId": "danglars",
           "type": "person",
           "firstSeenInChapter": 1,
           "excerpt": "…s impatience, “here is your supercargo, M. Danglars, coming out of his cabin, who will furnish you with every particula…"
@@ -53,18 +53,18 @@
           "excerpt": "…with the order that he be put ashore at La Canebière. The two oarsmen bent to their work, and the little boat glided aw…"
         },
         {
-          "entityId": "notredame_de_la_garde",
+          "entityId": "notre_dame_garde",
           "type": "place",
           "firstSeenInChapter": 1,
           "excerpt": "…24th of February, 1815, the look-out at Notre-Dame de la Garde signalled the three-master, the Pharaon from Smyrna, Tri…"
         },
         {
-          "entityId": "chteau_dif",
+          "entityId": "chateau_dif",
           "type": "place",
           "firstSeenInChapter": 1
         },
         {
-          "entityId": "fort_saintjean",
+          "entityId": "fort_saint_jean",
           "type": "place",
           "firstSeenInChapter": 1,
           "excerpt": "…nd according to custom, the ramparts of Fort Saint-Jean were covered with spectators; it is always an event at Marseill…"
@@ -76,13 +76,13 @@
           "excerpt": "…iment with me when I was in garrison at Valence.’”  “Pardieu! and that is true!” cried the owner, greatly delighted. “A…"
         },
         {
-          "entityId": "mercds",
+          "entityId": "mercedes",
           "type": "person",
           "firstSeenInChapter": 1,
           "excerpt": "…impatiently than your father—the lovely Mercédès.”  Dantès blushed.  “Ah, ha,” said the shipowner, “I am not in the lea…"
         },
         {
-          "entityId": "the_pharaon",
+          "entityId": "pharaon",
           "type": "event",
           "firstSeenInChapter": 1,
           "excerpt": "…de la Garde signalled the three-master, the Pharaon from Smyrna, Trieste, and Naples.  As usual, a pilot put off immedi…"
@@ -143,7 +143,7 @@
           "locationDescription": "Onboard the Pharaon",
           "imageDescription": "Onboard the Pharaon, a young sailor with dark hair leaning over the ship's bulwarks, gazing out at a small skiff approaching the vessel. The deck is bustling with crew members preparing to drop anchor, all dressed in mid-19th-century maritime attire. The sun sets on the horizon, casting a golden hue over the ship, enhancing the tension as the news of Captain Leclere's death is revealed. The atmosphere is rich with camaraderie and underlying concern.",
           "characterIds": [
-            "edmond_dants",
+            "dantes",
             "m_morrel",
             "captain_leclere"
           ]
@@ -154,7 +154,7 @@
           "locationDescription": "Onboard the Pharaon, near the pilot's station",
           "imageDescription": "A scene depicting the deck of the Pharaon where Dantès converses with M. Morrel, sunlight filtering through the sails above, casting shadows on the wooden deck. Dantès, visibly emotional after sharing the news of Captain Leclere's death, stands resolutely while Morrel listens intently, wearing a worried expression. The crew works diligently in the background, handling sails and rigging, their focus indicative of their respect for their young leader. The atmosphere is somber yet charged with anticipation for the future.",
           "characterIds": [
-            "edmond_dants",
+            "dantes",
             "m_morrel"
           ]
         },
@@ -164,9 +164,9 @@
           "locationDescription": "Onboard the Pharaon, as the crew prepares to dock",
           "imageDescription": "On the bustling deck of the Pharaon, Dantès gestures to M. Morrel to climb onboard as the ship approaches a docking area. The crew, young sailors with attentive expressions, follow orders to secure the vessel, all adorned in typical 19th-century nautical clothing. The harbor is alive with activity; ships bob along the water, and people gather to see the arrival. A sense of duty and pride fills the air, as Dantès manages the moment with both authority and respect.",
           "characterIds": [
-            "edmond_dants",
+            "dantes",
             "m_morrel",
-            "m_danglars"
+            "danglars"
           ]
         },
         {
@@ -175,9 +175,9 @@
           "locationDescription": "Onboard the Pharaon, in conversation with Danglars",
           "imageDescription": "The scene takes place on the bustling deck of the Pharaon, with Dantès, dressed in a captain's mate attire, attentively speaking to M. Morrel, who is gesturing towards him. Nearby, M. Danglars stands slightly apart, his demeanor indicating annoyance. The afternoon light reflects off the water, and the atmosphere is tense with competition. Sailors can be seen in the background, managing ropes and sails, their busy hands enhancing the sense of urgency in the situation.",
           "characterIds": [
-            "edmond_dants",
+            "dantes",
             "m_morrel",
-            "m_danglars"
+            "danglars"
           ]
         },
         {
@@ -186,9 +186,9 @@
           "locationDescription": "Onboard the Pharaon, discussing Captain Leclere",
           "imageDescription": "On the deck of the Pharaon, under a clear blue sky, Morrel speaks earnestly to Dantès about the responsibilities of command. Dantès, who embodies youthful determination, stands straight with a commanding demeanor, showcasing his resolve. The crew can be seen working the sails in the background, their loyalty and admiration for Dantès evident even at a distance. The scene encapsulates the balance between hope and pressure on the horizon of Dantès' future.",
           "characterIds": [
-            "edmond_dants",
+            "dantes",
             "m_morrel",
-            "m_danglars"
+            "danglars"
           ]
         },
         {
@@ -197,9 +197,9 @@
           "locationDescription": "On the quay at Marseilles",
           "imageDescription": "As the sun sets over the bustling quay of Marseilles, a young sailor, Dantès, sits in a small skiff with two oarsmen preparing to row him ashore. The crowds bustle around the harbor, a tapestry of merchants, sailors, and townspeople, all dressed in early 19th-century attire. The harbor is filled with ships and the sounds of commerce, capturing the essence of maritime life. The atmosphere is vibrant, charged with expectancy as Dantès heads towards his family and promised love.",
           "characterIds": [
-            "edmond_dants",
+            "dantes",
             "m_morrel",
-            "mercds"
+            "mercedes"
           ]
         }
       ]
@@ -242,7 +242,8 @@
           "type": "person",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 3,
@@ -287,7 +288,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 4,
@@ -332,7 +334,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 5,
@@ -387,7 +390,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 6,
@@ -422,7 +426,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 7,
@@ -467,7 +472,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 8,
@@ -497,7 +503,8 @@
           "type": "person",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 9,
@@ -547,7 +554,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 10,
@@ -567,7 +575,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 11,
@@ -592,7 +601,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 12,
@@ -612,7 +622,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 13,
@@ -662,7 +673,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 14,
@@ -692,7 +704,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 15,
@@ -717,7 +730,8 @@
           "type": "person",
           "firstSeenInChapter": 8
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 16,
@@ -732,7 +746,8 @@
           "type": "person",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 17,
@@ -792,7 +807,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 18,
@@ -807,7 +823,8 @@
           "type": "person",
           "firstSeenInChapter": 8
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 19,
@@ -822,7 +839,8 @@
           "type": "person",
           "firstSeenInChapter": 8
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 20,
@@ -837,7 +855,8 @@
           "type": "person",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 21,
@@ -877,7 +896,8 @@
           "type": "person",
           "firstSeenInChapter": 8
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 22,
@@ -897,7 +917,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 23,
@@ -912,7 +933,8 @@
           "type": "person",
           "firstSeenInChapter": 8
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 24,
@@ -927,7 +949,8 @@
           "type": "person",
           "firstSeenInChapter": 8
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 25,
@@ -962,7 +985,8 @@
           "type": "person",
           "firstSeenInChapter": 8
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 26,
@@ -1012,7 +1036,8 @@
           "type": "person",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 27,
@@ -1077,7 +1102,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 28,
@@ -1117,7 +1143,8 @@
           "type": "person",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 29,
@@ -1142,7 +1169,8 @@
           "type": "person",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 30,
@@ -1182,7 +1210,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 31,
@@ -1207,7 +1236,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 32,
@@ -1232,7 +1262,8 @@
           "type": "person",
           "firstSeenInChapter": 31
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 33,
@@ -1262,7 +1293,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 34,
@@ -1297,7 +1329,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 35,
@@ -1337,7 +1370,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 36,
@@ -1367,7 +1401,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 37,
@@ -1392,7 +1427,8 @@
           "type": "person",
           "firstSeenInChapter": 31
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 38,
@@ -1422,7 +1458,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 39,
@@ -1457,7 +1494,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 40,
@@ -1512,7 +1550,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 41,
@@ -1557,7 +1596,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 42,
@@ -1587,7 +1627,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 43,
@@ -1612,7 +1653,8 @@
           "type": "person",
           "firstSeenInChapter": 8
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 44,
@@ -1657,7 +1699,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 45,
@@ -1702,7 +1745,8 @@
           "type": "person",
           "firstSeenInChapter": 8
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 46,
@@ -1742,7 +1786,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 47,
@@ -1792,7 +1837,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 48,
@@ -1852,7 +1898,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 49,
@@ -1882,7 +1929,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 50,
@@ -1912,7 +1960,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 51,
@@ -1962,7 +2011,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 52,
@@ -1997,7 +2047,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 53,
@@ -2057,7 +2108,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 54,
@@ -2122,7 +2174,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 55,
@@ -2157,7 +2210,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 56,
@@ -2182,7 +2236,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 57,
@@ -2242,7 +2297,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 58,
@@ -2277,7 +2333,8 @@
           "type": "person",
           "firstSeenInChapter": 31
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 59,
@@ -2302,7 +2359,8 @@
           "type": "person",
           "firstSeenInChapter": 31
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 60,
@@ -2337,7 +2395,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 61,
@@ -2357,7 +2416,8 @@
           "type": "person",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 62,
@@ -2407,7 +2467,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 63,
@@ -2452,7 +2513,8 @@
           "type": "person",
           "firstSeenInChapter": 8
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 64,
@@ -2497,7 +2559,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 65,
@@ -2532,7 +2595,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 66,
@@ -2567,7 +2631,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 67,
@@ -2607,7 +2672,8 @@
           "type": "person",
           "firstSeenInChapter": 8
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 68,
@@ -2682,7 +2748,8 @@
           "type": "person",
           "firstSeenInChapter": 8
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 69,
@@ -2712,7 +2779,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 70,
@@ -2767,7 +2835,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 71,
@@ -2832,7 +2901,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 72,
@@ -2887,7 +2957,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 73,
@@ -2942,7 +3013,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 74,
@@ -2992,7 +3064,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 75,
@@ -3027,7 +3100,8 @@
           "type": "person",
           "firstSeenInChapter": 31
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 76,
@@ -3077,7 +3151,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 77,
@@ -3122,7 +3197,8 @@
           "type": "person",
           "firstSeenInChapter": 8
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 78,
@@ -3187,7 +3263,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 79,
@@ -3212,7 +3289,8 @@
           "type": "person",
           "firstSeenInChapter": 47
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 80,
@@ -3232,7 +3310,8 @@
           "type": "person",
           "firstSeenInChapter": 47
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 81,
@@ -3267,7 +3346,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 82,
@@ -3302,7 +3382,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 83,
@@ -3327,7 +3408,8 @@
           "type": "person",
           "firstSeenInChapter": 8
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 84,
@@ -3382,7 +3464,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 85,
@@ -3442,7 +3525,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 86,
@@ -3477,7 +3561,8 @@
           "type": "person",
           "firstSeenInChapter": 8
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 87,
@@ -3512,7 +3597,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 88,
@@ -3562,7 +3648,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 89,
@@ -3602,7 +3689,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 90,
@@ -3672,7 +3760,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 91,
@@ -3722,7 +3811,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 92,
@@ -3767,7 +3857,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 93,
@@ -3817,7 +3908,8 @@
           "type": "person",
           "firstSeenInChapter": 40
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 94,
@@ -3862,7 +3954,8 @@
           "type": "person",
           "firstSeenInChapter": 27
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 95,
@@ -3897,7 +3990,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 96,
@@ -3947,7 +4041,8 @@
           "type": "person",
           "firstSeenInChapter": 8
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 97,
@@ -3977,7 +4072,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 98,
@@ -4007,7 +4103,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 99,
@@ -4042,7 +4139,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 100,
@@ -4082,7 +4180,8 @@
           "type": "person",
           "firstSeenInChapter": 40
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 101,
@@ -4107,7 +4206,8 @@
           "type": "person",
           "firstSeenInChapter": 47
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 102,
@@ -4137,7 +4237,8 @@
           "type": "person",
           "firstSeenInChapter": 47
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 103,
@@ -4167,7 +4268,8 @@
           "type": "person",
           "firstSeenInChapter": 8
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 104,
@@ -4217,7 +4319,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 105,
@@ -4267,7 +4370,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 106,
@@ -4317,7 +4421,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 107,
@@ -4342,7 +4447,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 108,
@@ -4387,7 +4493,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 109,
@@ -4437,7 +4544,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 110,
@@ -4467,7 +4575,8 @@
           "type": "person",
           "firstSeenInChapter": 8
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 111,
@@ -4522,7 +4631,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 112,
@@ -4582,7 +4692,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 113,
@@ -4632,7 +4743,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 114,
@@ -4667,7 +4779,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 115,
@@ -4687,7 +4800,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 116,
@@ -4702,7 +4816,8 @@
           "type": "person",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     },
     {
       "number": 117,
@@ -4742,7 +4857,8 @@
           "type": "place",
           "firstSeenInChapter": 1
         }
-      ]
+      ],
+      "scenes": []
     }
   ]
 }

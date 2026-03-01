@@ -8,7 +8,7 @@
  *   bun run scripts/generate-scene-images.ts --scene=1-0
  *   bun run scripts/generate-scene-images.ts --chapter=1
  *   bun run scripts/generate-scene-images.ts --all-scenes
- *   bun run scripts/generate-scene-images.ts --all-scenes --workers=5
+ *   bun run scripts/generate-scene-images.ts --all-scenes --workers=32
  *   bun run scripts/generate-scene-images.ts --scene=1-0 --force
  */
 
@@ -137,7 +137,7 @@ async function main() {
   const allScenes = args.includes("--all-scenes");
   const force = args.includes("--force");
   const workersArg = args.find((a) => a.startsWith("--workers="))?.split("=")[1];
-  const workers = workersArg ? Math.max(1, parseInt(workersArg, 10)) : 5;
+  const workers = workersArg ? Math.max(1, parseInt(workersArg, 10)) : 32;
 
   if (!sceneArg && !chapterArg && !allScenes) {
     console.error(
