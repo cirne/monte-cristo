@@ -65,7 +65,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Planned: Scenes
 
-A **scenes** feature is planned: at any point in the book the user will be able to click a button and get a sense of the **current scene** based on the text visible at the top of the viewport. See [FUTURE.md](FUTURE.md) for notes.
+A **scenes** feature is planned: at any point in the book the user will be able to click a button and get a sense of the **current scene** based on the text visible at the top of the viewport. See [docs/FUTURE.md](docs/FUTURE.md) for notes.
 
 ## Tech Stack
 

@@ -1,0 +1,70 @@
+# Image generation
+
+This doc describes how entity and scene images are generated, stored, and used in the reader.
+
+## Overview
+
+- **Entity images** (characters, places, events): One image per entity. Prompts are stored in `data/entity-image-prompts.json`. Images appear in the X-Ray popup when you tap an entity link.
+- **Scene images**: One image per scene (regex-based scene boundaries). Scene text is sent to an LLM to produce an image prompt; prompts are stored in `data/scene-image-prompts.json`. Images appear at the start of each scene in the chapter view.
+- **Shared style**: All images use the same style guide in `data/image-style.txt`, which is prepended to every DALL·E prompt so the look is consistent (period-accurate 19th-century, fine-art illustration, etc.).
+- **Format**: Images are generated via OpenAI DALL·E 3 (PNG), then converted to WebP (quality 82) with sharp for smaller files. Stored in the repo so we avoid regenerating.
+
+## Files and paths
+
+| Purpose | Location |
+|--------|----------|
+| Shared style | `data/image-style.txt` |
+| Entity prompts | `data/entity-image-prompts.json` (keyed by entity id, e.g. `dantes`) |
+| Scene prompts | `data/scene-image-prompts.json` (keyed by `ch{N}-scene{M}`) |
+| Entity images | `public/images/entities/{id}.webp` |
+| Scene images | `public/images/scenes/ch{N}-scene{M}.webp` |
+
+## Shared library: `lib/image-gen.ts`
+
+- **`loadStyle(basePath?)`** — Reads `data/image-style.txt` (default base = cwd).
+- **`buildFullPrompt(prompt, style)`** — Returns `style + "\n\nImage prompt: " + prompt` for the API.
+- **`generateImageToWebPBuffer(fullPrompt)`** — Calls OpenAI Images API (DALL·E 3, 1024×1024, `b64_json`), decodes PNG, converts to WebP with sharp, returns a `Buffer`.
+
+Used by both entity and scene CLIs.
+
+## Entity images
+
+**CLI:** `bun run scripts/generate-images.ts`
+
+- **Input:** `data/image-style.txt` and `data/entity-image-prompts.json`. Entity ids match characters in `lib/characters.ts` and places/events in `lib/entities.ts`.
+- **Behavior:** By default only generates images that don't already exist at `public/images/entities/{id}.webp`. Use `--force` to regenerate.
+- **Options:**
+  - `--entity=<id>` — Generate one entity (e.g. `--entity=dantes`).
+  - `--all-entities` — Generate all entities that have a prompt and no existing image.
+  - `--workers=N` — Parallel requests (default 5; increase if your OpenAI tier allows).
+  - `--force` — Overwrite existing images.
+
+**In the app:** The chapter page passes entity data to the X-Ray panel. The panel requests `/images/entities/{entityId}.webp` for the open entity; if the file is missing, the image fails to load and the portrait area is hidden (no broken image).
+
+## Scene images
+
+**CLI:** `bun run scripts/generate-scene-images.ts`
+
+- **Input:** `data/book.json` (from parse-book), `data/image-style.txt`, and optionally existing `data/scene-image-prompts.json`. Scenes come from `lib/scenes.ts` (`getScenes(content)`).
+- **Prompt generation:** For each scene we slice the chapter paragraphs by `startParagraph`/`endParagraph`, cap at 4000 characters, and call the LLM (gpt-4o-mini) with the style guide and scene text. The model is instructed to produce a single DALL·E prompt: focus on what's visible (setting, lighting, dress, atmosphere), strip or compress dialogue. The returned prompt is saved to `scene-image-prompts.json` (key `ch{N}-scene{M}`).
+- **Image generation:** Same as entities: `buildFullPrompt(prompt, style)` → `generateImageToWebPBuffer` → write to `public/images/scenes/ch{N}-scene{M}.webp`.
+- **Behavior:** Skips scenes that already have an image (and optionally skips prompt generation if a prompt already exists). Use `--force` to regenerate images.
+- **Options:**
+  - `--scene=CHAPTER-SCENE` — e.g. `--scene=1-0` for chapter 1, scene 0.
+  - `--all-scenes` — All chapters, all scenes.
+  - `--workers=N` — Parallel image generation (default 5).
+  - `--force` — Overwrite existing scene images.
+
+**In the app:** The chapter page calls `getScenes(chapter.content)` and passes scene list to `ChapterContent`. For each paragraph index that equals a scene's `startParagraph`, we render an image with `src=/images/scenes/ch{N}-scene{M}.webp` before that paragraph. If the file is missing, the figure is hidden on error.
+
+## Requirements
+
+- **OPENAI_API_KEY** in `.env` (used by both CLIs and by `lib/image-gen`).
+- **Bun** (scripts are run with `bun run`).
+- **sharp** dependency (PNG → WebP).
+
+## Counts for this book
+
+- **Entities:** 14 characters + 6 places + 1 event = 21 images.
+- **Scenes:** 245 (regex-based scene boundaries across 117 chapters).
+- **Total:** 266 images if all are generated.

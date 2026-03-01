@@ -9,13 +9,16 @@
     "lint": "eslint",
     "parse-book": "bun run scripts/parse-book.ts",
     "build-chapter-index": "bun run scripts/build-chapter-index.ts",
-    "index-chapter": "bun run scripts/index-chapter.ts"
+    "index-chapter": "bun run scripts/index-chapter.ts",
+    "generate-images": "bun run scripts/generate-images.ts",
+    "generate-scene-images": "bun run scripts/generate-scene-images.ts"
   },
   "dependencies": {
     "next": "16.1.6",
     "openai": "^6.25.0",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

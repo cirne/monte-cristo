@@ -4,6 +4,7 @@ import { getChapter, getBookIndex, VOLUME_LABELS } from "@/lib/book";
 import { getCharacter, CHARACTERS } from "@/lib/characters";
 import { getPlaceOrEvent } from "@/lib/entities";
 import { getChapterIndexEntry } from "@/lib/chapter-index";
+import { getScenes } from "@/lib/scenes";
 import { linkifyParagraph } from "@/lib/linkify";
 import { ChapterContent } from "./XRayPanel";
 import type { Metadata } from "next";
@@ -89,6 +90,7 @@ export default async function ChapterPage({ params }: Props) {
   const indexEntry = getChapterIndexEntry(num);
   const paragraphStrings = formatContent(chapter.content);
   const paragraphSegments = paragraphStrings.map((p) => linkifyParagraph(p, num));
+  const scenes = getScenes(chapter.content);
   const xrayData = buildXRayData(num, indexEntry);
   const baselineIntro = indexEntry?.number === 1 ? indexEntry.baselineIntro : undefined;
 
@@ -137,8 +139,9 @@ export default async function ChapterPage({ params }: Props) {
         <article className="flex-1 min-w-0">
           <ChapterContent
             paragraphSegments={paragraphSegments}
-            xrayData={xrayData}
+            scenes={scenes}
             chapterNumber={num}
+            xrayData={xrayData}
             baselineIntro={baselineIntro}
           />
         </article>
