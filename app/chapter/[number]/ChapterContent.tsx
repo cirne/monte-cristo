@@ -7,6 +7,7 @@ import type { SceneWithDetails } from "@/lib/scenes";
 import { XRayPanel } from "./XRayPanel";
 import type { XRayEntityData } from "./XRayPanel";
 import { ReaderFooter } from "./ReaderFooter";
+import { ParagraphContextMenu, type ParagraphContextAnchor } from "./ParagraphContextMenu";
 
 export interface ChapterContentProps {
   paragraphSegments: Segment[][];
@@ -33,6 +34,7 @@ export function ChapterContent({
   const [openEntityId, setOpenEntityId] = React.useState<string | null>(null);
   const articleRef = React.useRef<HTMLDivElement>(null);
   const [visibleParagraphIndices, setVisibleParagraphIndices] = React.useState<Set<number>>(() => new Set());
+  const [contextMenuAnchor, setContextMenuAnchor] = React.useState<ParagraphContextAnchor | null>(null);
 
   /** Track which paragraphs intersect the viewport; current scene = earliest scene that overlaps any visible paragraph.
    * Depends on chapterNumber so the observer is recreated when switching chapters (DOM nodes change even if paragraph count is unchanged). */
@@ -109,6 +111,31 @@ export function ChapterContent({
     };
   }, [paragraphSegments]);
 
+  const openContextMenu = React.useCallback(
+    (event: React.MouseEvent<HTMLParagraphElement>, paragraphIndex: number) => {
+      const target = event.target as HTMLElement | null;
+      if (!target) return;
+      if (target.closest("[data-entity-link='true']")) return;
+      if (isPlaceholderParagraph(paragraphSegments[paragraphIndex] ?? [])) return;
+
+      const selection = window.getSelection();
+      if (selection && selection.toString().trim().length > 0) return;
+
+      const rect = event.currentTarget.getBoundingClientRect();
+      const x = event.clientX > 0 ? event.clientX : rect.left + rect.width / 2;
+      const y = event.clientY > 0 ? event.clientY : rect.top + 16;
+      const clampedX = Math.max(20, Math.min(x, window.innerWidth - 20));
+      const clampedY = Math.max(12, Math.min(y + 8, window.innerHeight - 16));
+
+      setContextMenuAnchor({
+        x: clampedX,
+        y: clampedY,
+        paragraphIndex,
+      });
+    },
+    [paragraphSegments]
+  );
+
   /** Map: paragraph index -> scene image key (e.g. ch1-scene0). Matches index format: scenes[i].startParagraph -> ch{N}-scene{i}. */
   const sceneKeyByParagraphStart = React.useMemo(() => {
     const map: Record<number, string> = {};
@@ -147,6 +174,7 @@ export function ChapterContent({
             )}
             <p
               data-paragraph-index={i}
+              onClick={(event) => openContextMenu(event, i)}
               className={
                 isPlaceholderParagraph(segments)
                   ? "text-xl leading-relaxed text-stone-800 dark:text-stone-300 mb-0 min-h-0 overflow-hidden"
@@ -160,8 +188,12 @@ export function ChapterContent({
                 <button
                   key={j}
                   type="button"
+                  data-entity-link="true"
                   {...(seg.entityType === "person" ? { "data-person-entity-id": seg.entityId } : {})}
-                  onClick={() => setOpenEntityId(seg.entityId)}
+                  onClick={() => {
+                    setContextMenuAnchor(null);
+                    setOpenEntityId(seg.entityId);
+                  }}
                   className="text-amber-700 hover:text-amber-800 dark:text-amber-300 dark:hover:text-amber-200 hover:underline font-medium cursor-pointer bg-transparent border-none p-0 align-baseline"
                 >
                   {seg.content}
@@ -186,6 +218,11 @@ export function ChapterContent({
         visibleCharacterIds={visibleCharacterIds}
         xrayData={xrayData}
         onOpenEntity={setOpenEntityId}
+      />
+      <ParagraphContextMenu
+        anchor={contextMenuAnchor}
+        chapterNumber={chapterNumber}
+        onClose={() => setContextMenuAnchor(null)}
       />
     </>
   );

@@ -28,10 +28,17 @@ describe("lib/chapter-index-merge", () => {
   it("backfills missing scene metadata without overwriting boundaries", () => {
     const merged = mergeChapterScenes(
       [{ startParagraph: 0, endParagraph: 95 }],
-      [{ startParagraph: 0, endParagraph: 67, locationDescription: "Dining hall" }]
+      [{ startParagraph: 0, endParagraph: 67, locationDescription: "Dining hall", summary: "Guests gather." }]
     );
 
-    expect(merged).toEqual([{ startParagraph: 0, endParagraph: 95, locationDescription: "Dining hall" }]);
+    expect(merged).toEqual([
+      {
+        startParagraph: 0,
+        endParagraph: 95,
+        locationDescription: "Dining hall",
+        summary: "Guests gather.",
+      },
+    ]);
   });
 
   it("appends additional incoming scenes additively", () => {
@@ -62,5 +69,41 @@ describe("lib/chapter-index-merge", () => {
 
     const merged = mergeChapterIndexEntry(existing, incoming, { overwriteExisting: true });
     expect(merged).toEqual(incoming);
+  });
+
+  it("preserves existing chapter summary metadata in patch mode", () => {
+    const existing: ChapterIndexEntry = {
+      number: 10,
+      chapterSummary: "Existing chapter summary",
+      storySoFarSummary: "Existing rolling summary",
+      entities: [{ entityId: "dantes", type: "person", firstSeenInChapter: 1 }],
+    };
+    const incoming: ChapterIndexEntry = {
+      number: 10,
+      chapterSummary: "New chapter summary",
+      storySoFarSummary: "New rolling summary",
+      entities: [{ entityId: "dantes", type: "person", firstSeenInChapter: 1 }],
+    };
+
+    const merged = mergeChapterIndexEntry(existing, incoming);
+    expect(merged.chapterSummary).toBe("Existing chapter summary");
+    expect(merged.storySoFarSummary).toBe("Existing rolling summary");
+  });
+
+  it("backfills missing chapter summary metadata from incoming entry", () => {
+    const existing: ChapterIndexEntry = {
+      number: 11,
+      entities: [{ entityId: "dantes", type: "person", firstSeenInChapter: 1 }],
+    };
+    const incoming: ChapterIndexEntry = {
+      number: 11,
+      chapterSummary: "Chapter eleven in one paragraph.",
+      storySoFarSummary: "Story so far through chapter eleven.",
+      entities: [{ entityId: "dantes", type: "person", firstSeenInChapter: 1 }],
+    };
+
+    const merged = mergeChapterIndexEntry(existing, incoming);
+    expect(merged.chapterSummary).toBe("Chapter eleven in one paragraph.");
+    expect(merged.storySoFarSummary).toBe("Story so far through chapter eleven.");
   });
 });

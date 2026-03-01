@@ -11,6 +11,7 @@ Built with **Next.js 16** + **Bun** runtime. Book text sourced from [Project Gut
 - 🗺️ **Character Guide** — X-Ray style character index showing every chapter each character appears in
 - 🔍 **Full-Text Search** — Search across all chapters with highlighted excerpts
 - 📊 **Reading Progress** — Visual progress bar as you read
+- 🧠 **Reading Context APIs** — Paragraph-indexed APIs for "current scene" and "story so far"
 
 ## Getting Started
 
@@ -29,6 +30,12 @@ bun run parse-book
 # (Optional) Rebuild chapter index for X-Ray links (persons, places, events) and scene metadata.
 bun run index-chapter --all
 
+# (Optional) Add chapter/scene summaries + rolling "story so far" metadata
+bun run index-chapter --all --with-summaries
+
+# (Optional) Refresh only summary metadata (non-destructive patch mode by default)
+bun run index-chapter --all --summaries-only
+
 # Start development server
 bun run dev
 ```
@@ -44,7 +51,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 │   ├── chapter/[number]/ # Individual chapter reader
 │   ├── characters/    # Character X-Ray guide
 │   ├── search/        # Full-text search
-│   └── api/search/    # Search API route
+│   └── api/           # API routes (search + reading-context endpoints)
 ├── data/
 │   ├── book.json      # Parsed book with full chapter text
 │   ├── book-index.json # Lightweight chapter index (no content)
@@ -72,3 +79,14 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 - [Tailwind CSS v4](https://tailwindcss.com/)
 - TypeScript
 - [OpenAI](https://github.com/openai/openai-node) for LLM features (indexing, characters, images) — set `OPENAI_API_KEY` in `.env` at dev time
+
+## Reading context APIs
+
+Both APIs accept `chapter` and `paragraph` (0-based paragraph index inside chapter text):
+
+- `GET /api/context/current-scene?chapter=12&paragraph=34`
+  - Returns a spoiler-safe answer for "what's going on right now in this scene?"
+- `GET /api/context/story-so-far?chapter=12&paragraph=34`
+  - Returns a spoiler-safe recap up to that exact reading checkpoint.
+
+Optional query param: `maxInputTokens` (default `40000`).

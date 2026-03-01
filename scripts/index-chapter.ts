@@ -12,6 +12,8 @@
  *   bun run scripts/index-chapter.ts --all
  *   bun run scripts/index-chapter.ts --all --seed-from-curated
  *   bun run scripts/index-chapter.ts --chapter=6 --overwrite-existing
+ *   bun run scripts/index-chapter.ts --all --with-summaries
+ *   bun run scripts/index-chapter.ts --chapter=6 --summaries-only
  *
  * Scenes are detected via LLM and written into each chapter index entry (data/chapter-index.json).
  */
@@ -27,17 +29,19 @@ import {
   slugifyEntityName,
   normalizeNameForMatch,
 } from "../lib/entity-store";
-import { getSingleScene } from "../lib/scenes";
+import { getSingleScene, getParagraphs, normalizeScenes, type SceneWithDetails } from "../lib/scenes";
 import { getScenesFromLLM } from "../lib/scenes-llm";
 import { CHARACTERS, getCharacter } from "../lib/characters";
 import { PLACES_AND_EVENTS, getPlaceOrEvent } from "../lib/entities";
-import { mergeChapterIndexEntry } from "../lib/chapter-index-merge";
+import { mergeChapterIndexEntry, mergeChapterScenes } from "../lib/chapter-index-merge";
 
 const DATA_DIR = join(import.meta.dir, "..", "data");
 const BASELINE_INTRO =
   "The story opens in Marseilles. The following people, places, and events appear in this chapter.";
 
 const MAX_CHAPTER_CONTENT_CHARS = 60_000;
+const MAX_SUMMARY_SOURCE_CHARS = 55_000;
+const MAX_SCENE_SUMMARY_CHARS = 8_000;
 
 /** Excerpt around first occurrence of a term in content */
 function getExcerpt(content: string, term: string, maxLen = 120): string {
@@ -227,6 +231,232 @@ async function generateSpoilerFreeIntro(
   return line && line.length < 200 ? line : undefined;
 }
 
+function normalizeSingleParagraphSummary(raw: string | undefined): string | undefined {
+  if (!raw) return undefined;
+  const text = raw
+    .trim()
+    .replace(/^"+|"+$/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (text.length < 24) return undefined;
+  return text;
+}
+
+function parseSummaryFieldFromRaw(
+  raw: string | undefined,
+  preferredKeys: string[]
+): string | undefined {
+  if (!raw?.trim()) return undefined;
+  const trimmed = raw.trim();
+  try {
+    const parsed = JSON.parse(trimmed) as Record<string, unknown>;
+    for (const key of preferredKeys) {
+      const value = parsed[key];
+      if (typeof value === "string") {
+        const normalized = normalizeSingleParagraphSummary(value);
+        if (normalized) return normalized;
+      }
+    }
+  } catch {
+    const normalized = normalizeSingleParagraphSummary(trimmed);
+    if (normalized) return normalized;
+  }
+  return undefined;
+}
+
+async function summarizeChapter(chapterNumber: number, content: string): Promise<string | undefined> {
+  const source = content.slice(0, MAX_SUMMARY_SOURCE_CHARS);
+  const response = await createChatCompletion({
+    messages: [
+      {
+        role: "system",
+        content: `You summarize one chapter of "The Count of Monte Cristo" for a reader.
+Return strict JSON with one key "summary".
+The summary must be exactly one paragraph, spoiler-safe relative to the chapter text provided, and written in clear modern prose.`,
+      },
+      {
+        role: "user",
+        content: `Chapter ${chapterNumber} text:\n\n${source}`,
+      },
+    ],
+    response_format: { type: "json_object" },
+    max_tokens: 220,
+  });
+
+  return parseSummaryFieldFromRaw(response.choices[0]?.message?.content, ["summary"]);
+}
+
+async function summarizeScene(
+  chapterNumber: number,
+  sceneIndex: number,
+  sceneText: string
+): Promise<string | undefined> {
+  const source = sceneText.slice(0, MAX_SCENE_SUMMARY_CHARS);
+  const response = await createChatCompletion({
+    messages: [
+      {
+        role: "system",
+        content: `You summarize one scene from "The Count of Monte Cristo".
+Return strict JSON with one key "summary".
+Output one concise paragraph (2-4 sentences), grounded only in the provided excerpt and without future spoilers.`,
+      },
+      {
+        role: "user",
+        content: `Chapter ${chapterNumber}, scene ${sceneIndex + 1} excerpt:\n\n${source}`,
+      },
+    ],
+    response_format: { type: "json_object" },
+    max_tokens: 160,
+  });
+  return parseSummaryFieldFromRaw(response.choices[0]?.message?.content, ["summary"]);
+}
+
+async function summarizeStorySoFar(
+  chapterNumber: number,
+  previousStorySoFar: string | undefined,
+  chapterSummary: string
+): Promise<string | undefined> {
+  const response = await createChatCompletion({
+    messages: [
+      {
+        role: "system",
+        content: `You maintain a rolling "story so far" summary for a serialized novel.
+Return strict JSON with one key "summary".
+Output one paragraph that captures the major threads through the current chapter, without adding details not present in context.`,
+      },
+      {
+        role: "user",
+        content: `Previous rolling summary (through chapter ${chapterNumber - 1}):
+${previousStorySoFar ?? "(none)"}
+
+Current chapter summary (chapter ${chapterNumber}):
+${chapterSummary}
+
+Produce the updated rolling summary through chapter ${chapterNumber}.`,
+      },
+    ],
+    response_format: { type: "json_object" },
+    max_tokens: 260,
+  });
+  return parseSummaryFieldFromRaw(response.choices[0]?.message?.content, ["summary"]);
+}
+
+interface SummaryBuildResult {
+  chapterSummary?: string;
+  storySoFarSummary?: string;
+  scenes?: SceneWithDetails[];
+}
+
+function getSceneTextByRange(
+  paragraphs: string[],
+  startParagraph: number,
+  endParagraph: number
+): string {
+  return paragraphs.slice(startParagraph, endParagraph + 1).join("\n\n");
+}
+
+function getPreviousStorySummaryForChapter(
+  index: ChapterIndex,
+  chapterNumber: number
+): string | undefined {
+  if (chapterNumber <= 1) return undefined;
+  const byNumber = new Map(index.chapters.map((entry) => [entry.number, entry]));
+  const previous = byNumber.get(chapterNumber - 1);
+  const rolling = previous?.storySoFarSummary?.trim();
+  if (rolling) return rolling;
+
+  const lines: string[] = [];
+  const start = Math.max(1, chapterNumber - 6);
+  for (let n = start; n <= chapterNumber - 1; n++) {
+    const chapterSummary = byNumber.get(n)?.chapterSummary?.trim();
+    if (!chapterSummary) continue;
+    lines.push(`Chapter ${n}: ${chapterSummary}`);
+  }
+  return lines.length > 0 ? lines.join("\n") : undefined;
+}
+
+async function buildChapterSummaries(params: {
+  chapterNumber: number;
+  content: string;
+  scenes: SceneWithDetails[] | undefined;
+  previousStorySoFar: string | undefined;
+}): Promise<SummaryBuildResult> {
+  const { chapterNumber, content, scenes, previousStorySoFar } = params;
+  const paragraphs = getParagraphs(content);
+  const normalizedScenes = normalizeScenes(scenes, paragraphs.length);
+  const scenesWithSummary = normalizedScenes.map((scene) => ({ ...scene }));
+
+  const chapterSummary = await summarizeChapter(chapterNumber, content);
+
+  for (let i = 0; i < scenesWithSummary.length; i++) {
+    const scene = scenesWithSummary[i];
+    if (scene.summary?.trim()) continue;
+    const sceneText = getSceneTextByRange(paragraphs, scene.startParagraph, scene.endParagraph);
+    if (!sceneText.trim()) continue;
+    try {
+      const summary = await summarizeScene(chapterNumber, i, sceneText);
+      if (summary) scenesWithSummary[i].summary = summary;
+    } catch (e) {
+      console.warn(`Skipping scene summary for chapter ${chapterNumber}, scene ${i}:`, e);
+    }
+  }
+
+  let storySoFarSummary: string | undefined;
+  if (chapterSummary) {
+    try {
+      storySoFarSummary = await summarizeStorySoFar(chapterNumber, previousStorySoFar, chapterSummary);
+    } catch (e) {
+      console.warn(`Skipping rolling story summary for chapter ${chapterNumber}:`, e);
+    }
+  }
+
+  return {
+    chapterSummary,
+    storySoFarSummary,
+    scenes: scenesWithSummary.length > 0 ? scenesWithSummary : undefined,
+  };
+}
+
+function applySummaryBuildResult(
+  entry: ChapterIndexEntry,
+  summary: SummaryBuildResult,
+  overwriteExisting: boolean
+): ChapterIndexEntry {
+  const next: ChapterIndexEntry = {
+    ...entry,
+    entities: entry.entities.map((entity) => ({ ...entity })),
+    scenes: entry.scenes?.map((scene) => ({
+      ...scene,
+      ...(scene.characterIds ? { characterIds: [...scene.characterIds] } : {}),
+    })),
+  };
+
+  if (summary.chapterSummary) {
+    if (overwriteExisting || !next.chapterSummary?.trim()) {
+      next.chapterSummary = summary.chapterSummary;
+    }
+  }
+
+  if (summary.storySoFarSummary) {
+    if (overwriteExisting || !next.storySoFarSummary?.trim()) {
+      next.storySoFarSummary = summary.storySoFarSummary;
+    }
+  }
+
+  if (summary.scenes?.length) {
+    if (overwriteExisting) {
+      next.scenes = summary.scenes.map((scene) => ({
+        ...scene,
+        ...(scene.characterIds ? { characterIds: [...scene.characterIds] } : {}),
+      }));
+    } else {
+      next.scenes = mergeChapterScenes(next.scenes, summary.scenes);
+    }
+  }
+
+  return next;
+}
+
 /** Index a single chapter: extract entities, merge into store, build index entry with scenes */
 async function indexChapter(
   chapterNumber: number,
@@ -367,16 +597,28 @@ async function main() {
   const all = args.includes("--all");
   const seedFromCurated = args.includes("--seed-from-curated");
   const overwriteExisting = args.includes("--overwrite-existing") || args.includes("--overwrite");
+  const withSummaries = args.includes("--with-summaries") || args.includes("--summaries");
+  const summariesOnly = args.includes("--summaries-only");
 
   if (!all && (chapterNum == null || isNaN(chapterNum))) {
     console.error(
-      "Usage: bun run scripts/index-chapter.ts --chapter=1 | --all [--seed-from-curated] [--overwrite-existing]"
+      "Usage: bun run scripts/index-chapter.ts --chapter=1 | --all [--seed-from-curated] [--overwrite-existing] [--with-summaries | --summaries-only]"
     );
     process.exit(1);
   }
 
+  if (summariesOnly && seedFromCurated) {
+    console.warn("Ignoring --seed-from-curated in --summaries-only mode.");
+  }
+
   if (!overwriteExisting) {
     console.log("Patch mode: preserving existing chapter data (use --overwrite-existing to replace).");
+  }
+  if (withSummaries || summariesOnly) {
+    console.log("Summary generation enabled.");
+  }
+  if (summariesOnly) {
+    console.log("Summaries-only mode: preserving existing entity and scene metadata.");
   }
 
   const bookPath = join(DATA_DIR, "book.json");
@@ -394,7 +636,7 @@ async function main() {
   if (existsSync(storePath)) {
     store = JSON.parse(readFileSync(storePath, "utf-8")) as EntityStoreData;
   }
-  if (seedFromCurated) {
+  if (seedFromCurated && !summariesOnly) {
     seedStoreFromCurated(store);
     console.log("Seeded entity store from curated characters and places/events.");
   }
@@ -405,9 +647,10 @@ async function main() {
     index = JSON.parse(readFileSync(indexPath, "utf-8")) as ChapterIndex;
   }
 
-  const toProcess = all
+  const toProcess = (all
     ? book.chapters
-    : book.chapters.filter((c) => c.number === chapterNum);
+    : book.chapters.filter((c) => c.number === chapterNum)
+  ).sort((a, b) => a.number - b.number);
 
   if (toProcess.length === 0) {
     console.error("No chapter to process.");
@@ -415,11 +658,35 @@ async function main() {
   }
 
   for (const ch of toProcess) {
-    console.log(`Indexing chapter ${ch.number}...`);
-    const entry = await indexChapter(ch.number, ch.content, store);
+    const modeLabel = summariesOnly ? "Summarizing" : "Indexing";
+    console.log(`${modeLabel} chapter ${ch.number}...`);
     const existingIdx = index.chapters.findIndex((c) => c.number === ch.number);
     const existingEntry = existingIdx >= 0 ? index.chapters[existingIdx] : undefined;
-    const mergedEntry = mergeChapterIndexEntry(existingEntry, entry, { overwriteExisting });
+
+    const indexedEntry = summariesOnly
+      ? ({
+          number: ch.number,
+          ...(ch.number === 1 ? { baselineIntro: BASELINE_INTRO } : {}),
+          entities: existingEntry?.entities ?? [],
+          scenes: existingEntry?.scenes ?? (getSingleScene(ch.content).length > 0 ? getSingleScene(ch.content) : []),
+          ...(existingEntry?.chapterSummary ? { chapterSummary: existingEntry.chapterSummary } : {}),
+          ...(existingEntry?.storySoFarSummary ? { storySoFarSummary: existingEntry.storySoFarSummary } : {}),
+        } satisfies ChapterIndexEntry)
+      : await indexChapter(ch.number, ch.content, store);
+
+    let mergedEntry = mergeChapterIndexEntry(existingEntry, indexedEntry, { overwriteExisting });
+
+    if (withSummaries || summariesOnly) {
+      const previousStorySoFar = getPreviousStorySummaryForChapter(index, ch.number);
+      const summaryBuild = await buildChapterSummaries({
+        chapterNumber: ch.number,
+        content: ch.content,
+        scenes: mergedEntry.scenes,
+        previousStorySoFar,
+      });
+      mergedEntry = applySummaryBuildResult(mergedEntry, summaryBuild, overwriteExisting);
+    }
+
     if (existingIdx >= 0) index.chapters[existingIdx] = mergedEntry;
     else index.chapters.push(mergedEntry);
     index.chapters.sort((a, b) => a.number - b.number);
