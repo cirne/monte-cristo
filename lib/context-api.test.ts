@@ -3,7 +3,7 @@ import { describe, expect, it, vi, beforeEach } from "vitest";
 const mockCreateChatCompletion = vi.fn();
 
 vi.mock("./llm", () => ({
-  createChatCompletion: (...args: unknown[]) => mockCreateChatCompletion(...args),
+  createFastChatCompletion: (...args: unknown[]) => mockCreateChatCompletion(...args),
 }));
 
 import {

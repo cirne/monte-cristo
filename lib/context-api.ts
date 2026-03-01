@@ -1,4 +1,4 @@
-import { createChatCompletion } from "./llm";
+import { createFastChatCompletion } from "./llm";
 import { estimateTokens, trimToTokenBudget } from "./reading-context";
 
 export const DEFAULT_MAX_INPUT_TOKENS = 40_000;
@@ -186,7 +186,7 @@ export async function generateNarrativeAnswer(params: {
 }): Promise<{ answer: string; source: "llm" | "fallback" }> {
   const { systemPrompt, userPrompt, fallbackAnswer, maxOutputTokens = DEFAULT_MAX_OUTPUT_TOKENS } = params;
   try {
-    const completion = await createChatCompletion({
+    const completion = await createFastChatCompletion({
       messages: [
         { role: "system", content: systemPrompt },
         { role: "user", content: userPrompt },
