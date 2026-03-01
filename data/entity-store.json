@@ -1109,7 +1109,8 @@
         "the abbé",
         "the abbé, Faria, abbé",
         "the Abbé, Faria, abbé, abbe",
-        "Faria, the abbé, abbe"
+        "Faria, the abbé, abbe",
+        "the priest"
       ],
       "type": "person",
       "firstSeenInChapter": 14,
@@ -1122,7 +1123,8 @@
         "abbe",
         "the abbé, Faria, abbé",
         "the Abbé, Faria, abbé, abbe",
-        "Faria, the abbé, abbe"
+        "Faria, the abbé, abbe",
+        "the priest"
       ]
     },
     "csar_borgia": {
@@ -1740,6 +1742,141 @@
         "cross of the Legion of Honor"
       ],
       "spoilerFreeIntro": "A distinguished French officer wearing the rosette of the Legion of Honor."
+    },
+    "madeleine_radelle": {
+      "id": "madeleine_radelle",
+      "name": "Madeleine Radelle",
+      "aliases": [
+        "La Carconte"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 26,
+      "searchTerms": [
+        "Madeleine Radelle",
+        "La Carconte"
+      ],
+      "spoilerFreeIntro": "Madeleine Radelle is a pale, slender woman of delicate health, known for her quiet demeanor."
+    },
+    "pont_du_gard": {
+      "id": "pont_du_gard",
+      "name": "Pont du Gard",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 26,
+      "searchTerms": [
+        "Pont du Gard"
+      ],
+      "spoilerFreeIntro": "A grand Roman aqueduct featured as a whimsical decoration in the lively Parisian establishment."
+    },
+    "arles": {
+      "id": "arles",
+      "name": "Arles",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 26,
+      "searchTerms": [
+        "Arles"
+      ],
+      "spoilerFreeIntro": "A picturesque town in southern France, renowned for the charm and beauty of its people."
+    },
+    "beaucaire": {
+      "id": "beaucaire",
+      "name": "Beaucaire",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 26,
+      "searchTerms": [
+        "Beaucaire"
+      ],
+      "spoilerFreeIntro": "A bustling town in southern France, known for its fairs and riverside location."
+    },
+    "bellegarde": {
+      "id": "bellegarde",
+      "name": "Bellegarde",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 26,
+      "searchTerms": [
+        "Bellegarde"
+      ],
+      "spoilerFreeIntro": "Bellegarde, a quiet village near Beaucaire, lies along the roadside in the southern French countryside."
+    },
+    "aiguemortes": {
+      "id": "aiguemortes",
+      "name": "Aiguemortes",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 26,
+      "searchTerms": [
+        "Aiguemortes"
+      ],
+      "spoilerFreeIntro": "Aiguemortes, a southern French town now connected by canal, bustling with new activity."
+    },
+    "rhne": {
+      "id": "rhne",
+      "name": "Rhône",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 26,
+      "searchTerms": [
+        "Rhône"
+      ],
+      "spoilerFreeIntro": "The Rhône, a wide and flowing river, borders the quiet property described in the countryside."
+    },
+    "durance": {
+      "id": "durance",
+      "name": "Durance",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 26,
+      "searchTerms": [
+        "Durance"
+      ],
+      "spoilerFreeIntro": "The Durance is a winding river flowing through the plains of Provence."
+    },
+    "salon": {
+      "id": "salon",
+      "name": "Salon",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 26,
+      "searchTerms": [
+        "Salon"
+      ],
+      "spoilerFreeIntro": "Salon, a village nestled in Provence, near Lambesc."
+    },
+    "lambesc": {
+      "id": "lambesc",
+      "name": "Lambesc",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 26,
+      "searchTerms": [
+        "Lambesc"
+      ],
+      "spoilerFreeIntro": "Lambesc, a town in southern France, lies on the road between Salon and Marseille."
+    },
+    "camargue": {
+      "id": "camargue",
+      "name": "Camargue",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 26,
+      "searchTerms": [
+        "Camargue"
+      ],
+      "spoilerFreeIntro": "A wild, marshy region in southern France known for its salt flats, ponds, and untamed landscapes."
+    },
+    "toulon": {
+      "id": "toulon",
+      "name": "Toulon",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 26,
+      "searchTerms": [
+        "Toulon"
+      ],
+      "spoilerFreeIntro": "Toulon, a grim port city known for its notorious prison galleys."
     }
   },
   "lastIndexedChapter": 117

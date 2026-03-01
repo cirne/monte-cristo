@@ -1,5 +1,6 @@
 import { readFileSync, existsSync } from "fs";
 import { join } from "path";
+import "./data-manifest";
 import type { SceneWithDetails } from "./scenes";
 
 export type EntityType = "person" | "place" | "event";

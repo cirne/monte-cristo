@@ -6,6 +6,7 @@
 
 import { readFileSync, existsSync } from "fs";
 import { join } from "path";
+import "./data-manifest";
 import type { EntityType } from "./chapter-index";
 
 export interface StoredEntity {

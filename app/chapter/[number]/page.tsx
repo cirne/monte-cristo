@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getChapter, getBookIndex, VOLUME_LABELS } from "@/lib/book";
-import { getCharacter, CHARACTERS } from "@/lib/characters";
+import { getCharacter } from "@/lib/characters";
 import { getPlaceOrEvent } from "@/lib/entities";
 import { getStoredEntity } from "@/lib/entity-store";
 import { getChapterIndexEntry } from "@/lib/chapter-index";
@@ -27,13 +27,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export async function generateStaticParams() {
   const book = getBookIndex();
   return book.chapters.map((c) => ({ number: String(c.number) }));
-}
-
-/** Returns which characters appear in the given chapter content */
-function getChapterCharacters(content: string) {
-  return CHARACTERS.filter((char) =>
-    char.searchTerms.some((term) => content.includes(term))
-  );
 }
 
 /** Format chapter content into paragraphs (same split as indexer uses for scene boundaries). */
@@ -100,31 +93,9 @@ export default async function ChapterPage({ params }: Props) {
   const total = book.chapters.length;
   const prev = num > 1 ? num - 1 : null;
   const next = num < total ? num + 1 : null;
-  const progress = Math.round((num / total) * 100);
-
-  const characters = getChapterCharacters(chapter.content);
 
   return (
     <main className="max-w-3xl mx-auto px-4 py-8">
-      {/* Progress bar */}
-      <div className="fixed top-[49px] left-0 right-0 h-0.5 bg-stone-200 z-10">
-        <div
-          className="h-full bg-amber-500 transition-all"
-          style={{ width: `${progress}%` }}
-        />
-      </div>
-
-      {/* Breadcrumb */}
-      <div className="text-xs text-stone-400 mb-6 flex items-center gap-2">
-        <Link href="/" className="hover:text-stone-600">Home</Link>
-        <span>›</span>
-        <Link href="/chapters" className="hover:text-stone-600">Chapters</Link>
-        <span>›</span>
-        <span className="text-stone-600">{VOLUME_LABELS[chapter.volume]}</span>
-        <span>›</span>
-        <span className="text-stone-600">Chapter {chapter.number}</span>
-      </div>
-
       {/* Chapter header */}
       <div className="mb-8">
         <p className="text-xs font-semibold uppercase tracking-widest text-amber-600 mb-1">
@@ -147,32 +118,6 @@ export default async function ChapterPage({ params }: Props) {
             baselineIntro={baselineIntro}
           />
         </article>
-
-        {/* Sidebar: Characters in this chapter */}
-        {characters.length > 0 && (
-          <aside className="lg:w-56 flex-shrink-0">
-            <div className="sticky top-16 bg-white border border-stone-200 rounded-xl p-4">
-              <h3 className="text-xs font-bold uppercase tracking-widest text-stone-400 mb-3">
-                Characters in this chapter
-              </h3>
-              <ul className="space-y-2">
-                {characters.map((char) => (
-                  <li key={char.id}>
-                    <Link
-                      href={`/characters#${char.id}`}
-                      className="text-sm text-stone-700 hover:text-amber-700 font-medium block"
-                    >
-                      {char.name}
-                    </Link>
-                    <p className="text-xs text-stone-400 leading-snug">
-                      {char.role}
-                    </p>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </aside>
-        )}
       </div>
 
       {/* Navigation */}

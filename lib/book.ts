@@ -1,5 +1,6 @@
 import { readFileSync } from "fs";
 import { join } from "path";
+import "./data-manifest";
 import { VOLUME_LABELS, VOLUMES } from "./constants";
 
 export { VOLUME_LABELS, VOLUMES };

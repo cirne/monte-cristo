@@ -110,10 +110,19 @@ function parseBook(raw: string): Book {
 
     // Content is everything after the chapter header line
     const contentStart = chapterText.indexOf("\n", chapterText.indexOf(header)) + 1;
-    const content = chapterText
+    let content = chapterText
       .slice(contentStart)
       .replace(/\n{3,}/g, "\n\n")
       .trim();
+
+    // Strip PG printed-edition page markers (e.g. 0267m, 20009m) so they don't
+    // appear in the UI. Replace with ZWS so paragraph boundaries (and thus
+    // scene/entity indices) are unchanged and we don't need to re-run processors.
+    const pageMarkerLine = /^\d{4,6}m$/;
+    content = content
+      .split("\n")
+      .map((line) => (pageMarkerLine.test(line.trim()) ? "\u200B" : line))
+      .join("\n");
 
     chapters.push({ number, title, volume: vol, content });
   }
