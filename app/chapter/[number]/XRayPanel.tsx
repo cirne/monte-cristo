@@ -2,8 +2,6 @@
 
 import React from "react";
 import type { EntityType } from "@/lib/chapter-index";
-import type { SceneWithDetails } from "@/lib/scenes";
-import type { Segment } from "@/lib/linkify";
 
 export interface XRayEntityData {
   name: string;
@@ -182,98 +180,5 @@ export function XRayPanel({
         </div>
       </div>
     </div>
-  );
-}
-
-interface ChapterContentProps {
-  paragraphSegments: Segment[][];
-  /** Scenes from chapter index (SceneWithDetails[]): startParagraph determines where each scene image is shown. */
-  scenes: SceneWithDetails[];
-  chapterNumber: number;
-  xrayData: Record<string, XRayEntityData>;
-  baselineIntro?: string;
-}
-
-/** True if this paragraph is only a placeholder (e.g. stripped PG page marker). */
-function isPlaceholderParagraph(segments: Segment[]): boolean {
-  const text = segments.map((s) => s.content).join("");
-  return segments.length > 0 && /^[\s\u200B]*$/.test(text);
-}
-
-export function ChapterContent({
-  paragraphSegments,
-  scenes,
-  chapterNumber,
-  xrayData,
-  baselineIntro,
-}: ChapterContentProps) {
-  const [openEntityId, setOpenEntityId] = React.useState<string | null>(null);
-
-  /** Map: paragraph index -> scene image key (e.g. ch1-scene0). Matches index format: scenes[i].startParagraph -> ch{N}-scene{i}. */
-  const sceneKeyByParagraphStart = React.useMemo(() => {
-    const map: Record<number, string> = {};
-    if (!Array.isArray(scenes)) return map;
-    scenes.forEach((scene, sceneIndex) => {
-      const start = scene?.startParagraph;
-      if (typeof start === "number" && start >= 0) {
-        map[start] = `ch${chapterNumber}-scene${sceneIndex}`;
-      }
-    });
-    return map;
-  }, [scenes, chapterNumber]);
-
-  return (
-    <>
-      <div className="prose prose-stone prose-xl max-w-none">
-        {paragraphSegments.map((segments, i) => (
-          <React.Fragment key={i}>
-            {sceneKeyByParagraphStart[i] != null && (
-              <figure className="my-6 -mx-2 rounded-lg overflow-hidden">
-                <img
-                  src={`/images/scenes/${sceneKeyByParagraphStart[i]}.webp`}
-                  alt=""
-                  className="w-full h-auto max-w-full"
-                  onError={(e) => {
-                    const fig = e.currentTarget.closest("figure");
-                    if (fig) (fig as HTMLElement).style.display = "none";
-                  }}
-                />
-              </figure>
-            )}
-            <p
-              className={
-                isPlaceholderParagraph(segments)
-                  ? "text-xl leading-relaxed text-stone-800 mb-0 min-h-0 overflow-hidden"
-                  : "text-xl mb-4 leading-relaxed text-stone-800"
-              }
-            >
-            {segments.map((seg, j) =>
-              seg.type === "text" ? (
-                <React.Fragment key={j}>{seg.content}</React.Fragment>
-              ) : (
-                <button
-                  key={j}
-                  type="button"
-                  onClick={() => setOpenEntityId(seg.entityId)}
-                  className="text-amber-700 hover:text-amber-800 hover:underline font-medium cursor-pointer bg-transparent border-none p-0 align-baseline"
-                >
-                  {seg.content}
-                </button>
-              )
-            )}
-            </p>
-          </React.Fragment>
-        ))}
-      </div>
-
-      <XRayPanel
-        entityId={openEntityId}
-        entityData={xrayData}
-        chapterNumber={chapterNumber}
-        baselineIntro={baselineIntro}
-        onClose={() => setOpenEntityId(null)}
-        onSelectEntity={setOpenEntityId}
-      />
-    </>
   );
 }

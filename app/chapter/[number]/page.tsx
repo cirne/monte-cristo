@@ -7,7 +7,7 @@ import { getStoredEntity } from "@/lib/entity-store";
 import { getChapterIndexEntry } from "@/lib/chapter-index";
 import { getParagraphs } from "@/lib/scenes";
 import { linkifyParagraph } from "@/lib/linkify";
-import { ChapterContent } from "./XRayPanel";
+import { ChapterContent } from "./ChapterContent";
 import type { Metadata } from "next";
 import type { XRayEntityData } from "./XRayPanel";
 
