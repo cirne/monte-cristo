@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getBookIndex, VOLUME_LABELS } from "@/lib/book";
+import { StartOrContinueLink } from "./components/StartOrContinueLink";
 
 export default function Home() {
   const book = getBookIndex();
@@ -27,12 +28,7 @@ export default function Home() {
         </p>
 
         <div className="mt-6 flex gap-3 justify-center flex-wrap">
-          <Link
-            href="/chapter/1"
-            className="inline-flex items-center gap-2 px-6 py-2.5 bg-stone-800 text-white rounded-full text-sm font-medium hover:bg-stone-700 transition-colors"
-          >
-            Start Reading
-          </Link>
+          <StartOrContinueLink />
           <Link
             href="/characters"
             className="inline-flex items-center gap-2 px-6 py-2.5 border border-stone-300 text-stone-700 rounded-full text-sm font-medium hover:bg-stone-100 transition-colors"
@@ -48,17 +44,16 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Synopsis */}
+      {/* Introduction */}
       <div className="mb-10 p-6 bg-amber-50 border border-amber-100 rounded-xl">
         <h2 className="text-sm font-semibold uppercase tracking-widest text-amber-700 mb-2">
-          Synopsis
+          Introduction
         </h2>
         <p className="text-stone-700 leading-relaxed">
-          A young sailor, Edmond Dantès, is falsely imprisoned in the Château d&apos;If on the eve of
-          his wedding. Befriended by the wise Abbé Faria in prison, he learns of a vast treasure
-          hidden on the island of Monte Cristo. After a daring escape, Dantès reinvents himself as
-          the wealthy and mysterious Count of Monte Cristo, returning to Paris to exact a precise and
-          elaborate revenge on the three men who destroyed his life.
+          Set in France and the Mediterranean in the early 19th century, Alexandre Dumas&apos;s
+          masterpiece follows Edmond Dantès, a young merchant sailor from Marseille on the eve of his
+          wedding. What begins as a story of love and promise soon becomes an epic of injustice,
+          transformation, and the enduring question of how far one man will go for justice.
         </p>
       </div>
 

@@ -224,7 +224,7 @@ export function ChapterContent({
 
   return (
     <>
-      <div className="prose prose-stone prose-lg max-w-none">
+      <div className="prose prose-stone prose-xl max-w-none">
         {paragraphSegments.map((segments, i) => (
           <React.Fragment key={i}>
             {sceneKeyByParagraphStart[i] != null && (
@@ -243,8 +243,8 @@ export function ChapterContent({
             <p
               className={
                 isPlaceholderParagraph(segments)
-                  ? "leading-relaxed text-stone-800 mb-0 min-h-0 overflow-hidden"
-                  : "mb-4 leading-relaxed text-stone-800"
+                  ? "text-xl leading-relaxed text-stone-800 mb-0 min-h-0 overflow-hidden"
+                  : "text-xl mb-4 leading-relaxed text-stone-800"
               }
             >
             {segments.map((seg, j) =>

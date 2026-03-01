@@ -4,6 +4,9 @@
 
 export const TOTAL_CHAPTERS = 117;
 
+/** localStorage key for the most recently viewed chapter number */
+export const LAST_CHAPTER_STORAGE_KEY = "monte-cristo-last-chapter";
+
 export const VOLUMES = [
   "VOLUME ONE",
   "VOLUME TWO",
