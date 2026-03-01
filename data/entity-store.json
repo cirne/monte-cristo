@@ -9,7 +9,9 @@
         "Lord Wilmore",
         "Abbé Busoni",
         "Dantès",
-        "Edmond, Dantès"
+        "Edmond, Dantès",
+        "Edmond Dantès, Dantès",
+        "Edmond Dantès, mate of the ship Pharaon, accused Bonapartist hero"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -27,7 +29,9 @@
         "Busoni",
         "Wilmore",
         "Edmond",
-        "Edmond, Dantès"
+        "Edmond, Dantès",
+        "Edmond Dantès, Dantès",
+        "Edmond Dantès, mate of the ship Pharaon, accused Bonapartist hero"
       ]
     },
     "m_morrel": {
@@ -65,14 +69,16 @@
       "name": "Danglars",
       "aliases": [
         "Baron Danglars",
-        "Danglars"
+        "Danglars",
+        "Danglars, Baron Danglars"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
       "spoilerFreeIntro": "A sailor aboard the Pharaon.",
       "searchTerms": [
         "Danglars",
-        "Baron Danglars"
+        "Baron Danglars",
+        "Danglars, Baron Danglars"
       ]
     },
     "civita_vecchia": {
@@ -100,7 +106,9 @@
     "portoferrajo": {
       "id": "portoferrajo",
       "name": "Porto-Ferrajo",
-      "aliases": [],
+      "aliases": [
+        "Porto-Ferrajo"
+      ],
       "type": "place",
       "firstSeenInChapter": 1,
       "searchTerms": [
@@ -149,14 +157,16 @@
     "fort_saint_jean": {
       "id": "fort_saint_jean",
       "name": "Fort Saint-Jean",
-      "aliases": [],
+      "aliases": [
+        "Fort Saint Nicholas"
+      ],
       "type": "place",
       "firstSeenInChapter": 1,
       "spoilerFreeIntro": "A fort at the entrance to the port of Marseilles.",
       "searchTerms": [
         "Fort Saint-Jean",
-        "Fort Saint-Jean",
-        "Saint-Jean"
+        "Saint-Jean",
+        "Fort Saint Nicholas"
       ]
     },
     "valence": {
@@ -175,7 +185,8 @@
       "name": "Mercédès",
       "aliases": [
         "Comtesse de Morcerf",
-        "Mercédès"
+        "Mercédès",
+        "Mercédès, Comtesse de Morcerf"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -183,26 +194,33 @@
       "searchTerms": [
         "Mercédès",
         "Comtesse de Morcerf",
-        "Mercedes"
+        "Mercedes",
+        "Mercédès, Comtesse de Morcerf"
       ]
     },
     "pharaon": {
       "id": "pharaon",
       "name": "Pharaon",
-      "aliases": [],
+      "aliases": [
+        "Pharaon",
+        "ship",
+        "the Pharaon, ship"
+      ],
       "type": "place",
       "firstSeenInChapter": 1,
       "spoilerFreeIntro": "The merchant ship owned by Morrel; Dantès serves as first mate.",
       "searchTerms": [
         "Pharaon",
-        "Pharaon"
+        "ship",
+        "the Pharaon, ship"
       ]
     },
     "marseilles": {
       "id": "marseilles",
       "name": "Marseilles",
       "aliases": [
-        "Marseilles"
+        "Marseilles",
+        "Marseilles, Phocea"
       ],
       "type": "place",
       "firstSeenInChapter": 1,
@@ -211,7 +229,8 @@
         "Marseilles",
         "Marseille",
         "Phocee",
-        "Phocea"
+        "Phocea",
+        "Marseilles, Phocea"
       ]
     },
     "monte_cristo": {
@@ -437,7 +456,9 @@
       "id": "fernand",
       "name": "Fernand Mondego",
       "aliases": [
-        "Comte de Morcerf"
+        "Comte de Morcerf",
+        "Fernand",
+        "Fernand, Comte de Morcerf, Morcerf"
       ],
       "type": "person",
       "firstSeenInChapter": 3,
@@ -446,7 +467,8 @@
         "Fernand Mondego",
         "Comte de Morcerf",
         "Fernand",
-        "Morcerf"
+        "Morcerf",
+        "Fernand, Comte de Morcerf, Morcerf"
       ]
     },
     "the_village_of_the_catalans": {
@@ -484,6 +506,376 @@
         "Spain"
       ],
       "spoilerFreeIntro": "Spain—an ancient, rugged land steeped in history and the birthplace of distant colonial ventures."
+    },
+    "fort_saint_nicolas": {
+      "id": "fort_saint_nicolas",
+      "name": "Fort Saint Nicolas",
+      "aliases": [
+        "Fort Saint Nicolas"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Fort Saint Nicolas"
+      ],
+      "spoilerFreeIntro": "A massive stone fortress guarding the old harbor, its weathered walls overlooking the restless sea."
+    },
+    "pillon": {
+      "id": "pillon",
+      "name": "Pillon",
+      "aliases": [
+        "Pillon"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Pillon"
+      ],
+      "spoilerFreeIntro": "Pillon, a bustling village where travelers often pass through."
+    },
+    "vieilles_infirmeries": {
+      "id": "vieilles_infirmeries",
+      "name": "Vieilles Infirmeries",
+      "aliases": [
+        "Vieilles Infirmeries"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Vieilles Infirmeries"
+      ],
+      "spoilerFreeIntro": "The Vieilles Infirmeries, an old infirmary building situated beside the usually bustling road."
+    },
+    "maximilian": {
+      "id": "maximilian",
+      "name": "Maximilian Morrel",
+      "aliases": [
+        "Maximilien"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 5,
+      "spoilerFreeIntro": "Son of Dantès's former employer, Pierre Morrel.",
+      "searchTerms": [
+        "Maximilian Morrel",
+        "Maximilien",
+        "Maximilian",
+        "Maximilien"
+      ]
+    },
+    "old_dants": {
+      "id": "old_dants",
+      "name": "Old Dantès",
+      "aliases": [
+        "Dantès' father, the old man"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Old Dantès",
+        "Dantès' father, the old man"
+      ],
+      "spoilerFreeIntro": "An elderly man whose presence commands the attention of everyone around him."
+    },
+    "mayor_of_marseilles": {
+      "id": "mayor_of_marseilles",
+      "name": "Mayor of Marseilles",
+      "aliases": [
+        "Mayor"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Mayor of Marseilles",
+        "Mayor"
+      ],
+      "spoilerFreeIntro": "The authoritative Mayor of Marseilles, overseeing the city's affairs from its historic city hall."
+    },
+    "palais_de_justice": {
+      "id": "palais_de_justice",
+      "name": "Palais de Justice",
+      "aliases": [
+        "Palace of Justice"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Palais de Justice",
+        "Palace of Justice"
+      ],
+      "spoilerFreeIntro": "The Palais de Justice, a grand courthouse standing at the heart of the city."
+    },
+    "the_revolution": {
+      "id": "the_revolution",
+      "name": "The revolution",
+      "aliases": [
+        "Reign of Terror, 9th Thermidor"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 5,
+      "spoilerFreeIntro": "Historical upheavals in France that shape the characters' pasts.",
+      "searchTerms": [
+        "The revolution",
+        "the revolution",
+        "Revolution",
+        "Reign of Terror, 9th Thermidor"
+      ]
+    },
+    "villefort": {
+      "id": "villefort",
+      "name": "M. de Villefort",
+      "aliases": [
+        "de Villefort"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "spoilerFreeIntro": "The deputy prosecutor in Marseilles.",
+      "searchTerms": [
+        "M. de Villefort",
+        "de Villefort",
+        "Villefort"
+      ]
+    },
+    "napoleon": {
+      "id": "napoleon",
+      "name": "Napoleon",
+      "aliases": [
+        "the emperor, king of the petty Island of Elba, the usurper, the Corsican"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Napoleon",
+        "the emperor, king of the petty Island of Elba, the usurper, the Corsican"
+      ],
+      "spoilerFreeIntro": "A commanding military leader whose ambitions have shaped an era."
+    },
+    "king_louis_xviii": {
+      "id": "king_louis_xviii",
+      "name": "King Louis XVIII",
+      "aliases": [
+        "King Louis XVIII, the king"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "King Louis XVIII",
+        "King Louis XVIII, the king"
+      ],
+      "spoilerFreeIntro": "The restored monarch of France, King Louis XVIII, whose reign marks a new chapter in the nation’s history."
+    },
+    "marquis_de_saintmran": {
+      "id": "marquis_de_saintmran",
+      "name": "Marquis de Saint-Méran",
+      "aliases": [
+        "the marquis, old nobleman, Marquis de Saint-Méran"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Marquis de Saint-Méran",
+        "the marquis, old nobleman, Marquis de Saint-Méran"
+      ]
+    },
+    "marquise_de_saintmran": {
+      "id": "marquise_de_saintmran",
+      "name": "Marquise de Saint-Méran",
+      "aliases": [
+        "the marquise, Madame de Saint-Méran, mother of Renée"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Marquise de Saint-Méran",
+        "the marquise, Madame de Saint-Méran, mother of Renée"
+      ],
+      "spoilerFreeIntro": "The Marquise de Saint-Méran, a noblewoman known for her stern and commanding presence."
+    },
+    "rene_de_saintmran": {
+      "id": "rene_de_saintmran",
+      "name": "Renée de Saint-Méran",
+      "aliases": [
+        "Renée, young and lovely girl, daughter of Marquis and Marquise de Saint-Méran"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Renée de Saint-Méran",
+        "Renée, young and lovely girl, daughter of Marquis and Marquise de Saint-Méran"
+      ]
+    },
+    "comte_de_salvieux": {
+      "id": "comte_de_salvieux",
+      "name": "Comte de Salvieux",
+      "aliases": [
+        "the Comte de Salvieux, oldest friend of Marquis de Saint-Méran"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Comte de Salvieux",
+        "the Comte de Salvieux, oldest friend of Marquis de Saint-Méran"
+      ],
+      "spoilerFreeIntro": "The Comte de Salvieux, an esteemed nobleman and longtime confidant of M. de Saint-Méran."
+    },
+    "comte_dartois": {
+      "id": "comte_dartois",
+      "name": "Comte d’Artois",
+      "aliases": [
+        "Comte d’Artois, associated with Comte de Salvieux"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Comte d’Artois",
+        "Comte d’Artois, associated with Comte de Salvieux"
+      ],
+      "spoilerFreeIntro": "The Comte d’Artois, a distinguished nobleman closely tied to the royal court."
+    },
+    "citizen_noirtier": {
+      "id": "citizen_noirtier",
+      "name": "Citizen Noirtier",
+      "aliases": [
+        "Citizen Noirtier, father of Villefort"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Citizen Noirtier",
+        "Citizen Noirtier, father of Villefort"
+      ],
+      "spoilerFreeIntro": "A respected Girondin known as Citizen Noirtier."
+    },
+    "count_noirtier": {
+      "id": "count_noirtier",
+      "name": "Count Noirtier",
+      "aliases": [
+        "Count Noirtier, father of Villefort after changing status"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Count Noirtier",
+        "Count Noirtier, father of Villefort after changing status"
+      ],
+      "spoilerFreeIntro": "An influential former Girondin and current senator, Count Noirtier carries a weighty political legacy."
+    },
+    "murat": {
+      "id": "murat",
+      "name": "Murat",
+      "aliases": [
+        "Murat, referred to as delivering letter to usurper"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Murat",
+        "Murat, referred to as delivering letter to usurper"
+      ],
+      "spoilerFreeIntro": "Murat, an influential figure involved in delicate communications between rival factions."
+    },
+    "napoleons_exile": {
+      "id": "napoleons_exile",
+      "name": "Napoleon’s exile",
+      "aliases": [
+        "Napoleon's exile on the Island of Elba"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Napoleon’s exile",
+        "Napoleon's exile on the Island of Elba"
+      ]
+    },
+    "holy_alliance": {
+      "id": "holy_alliance",
+      "name": "Holy Alliance",
+      "aliases": [
+        "Holy Alliance"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Holy Alliance"
+      ],
+      "spoilerFreeIntro": "A secretive coalition of European monarchs aiming to uphold their shared interests."
+    },
+    "place_louis_quinze": {
+      "id": "place_louis_quinze",
+      "name": "Place Louis Quinze",
+      "aliases": [
+        "Place Louis Quinze"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Place Louis Quinze"
+      ],
+      "spoilerFreeIntro": "A grand public square in Paris, known for its historic monuments and statues."
+    },
+    "place_vendme": {
+      "id": "place_vendme",
+      "name": "Place Vendôme",
+      "aliases": [
+        "Place Vendôme"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Place Vendôme"
+      ],
+      "spoilerFreeIntro": "A grand Parisian square crowned by a towering column commemorating Napoleon’s triumphs."
+    },
+    "tuileries": {
+      "id": "tuileries",
+      "name": "Tuileries",
+      "aliases": [
+        "Tuileries"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Tuileries"
+      ],
+      "spoilerFreeIntro": "A sprawling royal garden and public park in the heart of Paris."
+    },
+    "corsica": {
+      "id": "corsica",
+      "name": "Corsica",
+      "aliases": [
+        "Corsica"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Corsica"
+      ],
+      "spoilerFreeIntro": "Corsica, a rugged Mediterranean island known for its fierce independence and wild beauty."
+    },
+    "naples": {
+      "id": "naples",
+      "name": "Naples",
+      "aliases": [
+        "Naples"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Naples"
+      ],
+      "spoilerFreeIntro": "Naples, a vibrant Italian city ruled by the protagonist’s brother-in-law."
+    },
+    "smyrna": {
+      "id": "smyrna",
+      "name": "Smyrna",
+      "aliases": [
+        "Smyrna"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Smyrna"
+      ],
+      "spoilerFreeIntro": "A bustling port city known for its rich trade and diverse cultures."
     }
   },
   "lastIndexedChapter": 117

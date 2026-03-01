@@ -564,103 +564,291 @@
       "number": 4,
       "entities": [
         {
+          "entityId": "danglars",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "Danglars followed Edmond and Mercédès with his eyes until the two lovers disappeared beh"
+        },
+        {
           "entityId": "dantes",
           "type": "person",
-          "firstSeenInChapter": 1
-        },
-        {
-          "entityId": "caderousse",
-          "type": "person",
-          "firstSeenInChapter": 2
-        },
-        {
-          "entityId": "marseilles",
-          "type": "place",
-          "firstSeenInChapter": 1
+          "firstSeenInChapter": 1,
+          "excerpt": "Danglars followed Edmond and Mercédès with his eyes until the two lovers disappeared behind one of the a"
         },
         {
           "entityId": "mercedes",
           "type": "person",
-          "firstSeenInChapter": 1
-        },
-        {
-          "entityId": "danglars",
-          "type": "person",
-          "firstSeenInChapter": 1
+          "firstSeenInChapter": 1,
+          "excerpt": "Danglars followed Edmond and Mercédès with his eyes until the two lovers disappeared behind one of the angles of Fort"
         },
         {
           "entityId": "fernand",
           "type": "person",
-          "firstSeenInChapter": 3
+          "firstSeenInChapter": 3,
+          "excerpt": "…olas; then, turning round, he perceived Fernand, who had fallen, pale and trembling, into his chair, while Caderousse s…"
+        },
+        {
+          "entityId": "caderousse",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…le and trembling, into his chair, while Caderousse stammered out the words of a drinking- song.  “Well, my dear sir,” s…"
+        },
+        {
+          "entityId": "fort_saint_nicolas",
+          "type": "place",
+          "firstSeenInChapter": 4,
+          "excerpt": "…disappeared behind one of the angles of Fort Saint Nicolas; then, turning round, he perceived Fernand, who had fallen, …"
         },
         {
           "entityId": "pharaon",
           "type": "place",
-          "firstSeenInChapter": 1
+          "firstSeenInChapter": 1,
+          "excerpt": "…hat one Edmond Dantès, mate of the ship Pharaon, arrived this morning from Smyrna, after having touched at Naples and P…"
         },
         {
-          "entityId": "paris",
+          "entityId": "marseilles",
           "type": "place",
-          "firstSeenInChapter": 1
+          "firstSeenInChapter": 1,
+          "excerpt": "…all. Come, Fernand, won’t you return to Marseilles with us?”  “No,” said Fernand; “I shall return to the Catalans.”  “Y…"
+        },
+        {
+          "entityId": "pillon",
+          "type": "place",
+          "firstSeenInChapter": 4,
+          "excerpt": "…cket then rush out of the arbor towards Pillon.  “Well,” said Caderousse, “why, what a lie he told! He said he was goin…"
+        },
+        {
+          "entityId": "vieilles_infirmeries",
+          "type": "place",
+          "firstSeenInChapter": 4,
+          "excerpt": "…rs; “he’s gone right by the road to the Vieilles Infirmeries.”  “Well,” said Caderousse, “I should have sworn that he t…"
         }
       ],
-      "scenes": []
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "In an arbor near Fort Saint Nicolas",
+          "imageDescription": "An evening scene in a rustic garden arbor near the stone walls of Fort Saint Nicolas. Danglars stands with a watchful expression, looking after Edmond Dantès and Mercédès as they disappear around a corner. Nearby, Fernand Mondego appears pale and trembling seated in a chair, while Gaspard Caderousse sits opposite him, slurring as he sings a drinking song. The men wear early 19th-century provincial attire, with loose cravats and waistcoats. The mood is tense and uneasy, illuminated softly by fading daylight, with shadows falling on the weathered stone and wooden table cluttered with wine glasses and a bottle.",
+          "characterIds": [
+            "danglars",
+            "dantes",
+            "mercedes",
+            "fernand",
+            "caderousse"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Around the arbor table with wine and paper",
+          "imageDescription": "A close, dimly lit scene centered around a wooden table strewn with wine glasses, a bottle, and writing materials: pen, ink, and paper. Danglars stands over the table, writing with his left hand, while Fernand leans in intently reading the letter. Caderousse, half-drunk, sits slumped in a chair nearby, glass in hand, looking drowsy. Danglars wears a confident, scheming expression, Fernand shows anxious determination, and Caderousse is disheveled and subdued. The atmosphere is conspiratorial and secretive, with warm yellow candlelight casting flickering shadows on the figures wearing period Marseilles clothing from the 1810s.",
+          "characterIds": [
+            "danglars",
+            "fernand",
+            "caderousse"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 90,
+          "locationDescription": "Walking toward Marseilles by Porte Saint-Victor",
+          "imageDescription": "A night scene on a rough stone street leading into Marseilles through the Porte Saint-Victor gate. Danglars supports a stumbling Caderousse by the arm as they stagger along. Fernand, separate from them, stoops to pick up a crumpled letter from the ground in the shadowed arbor before hurriedly pocketing it and rushing away toward a distant city street. The men wear early 19th-century civilian attire, their faces showing uneasy resolve and tension. The dim gas lamps cast long shadows behind them, and the air is heavy with intrigue and impending betrayal.",
+          "characterIds": [
+            "danglars",
+            "fernand",
+            "caderousse"
+          ]
+        }
+      ]
     },
     {
       "number": 5,
       "entities": [
         {
-          "entityId": "villefort",
+          "entityId": "danglars",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…descension could possibly be intended.  Danglars, however, who now made his appearance, accompanied by Caderousse, effe…"
+        },
+        {
+          "entityId": "caderousse",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…now made his appearance, accompanied by Caderousse, effectually confirmed the report, stating that he had recently conv…"
+        },
+        {
+          "entityId": "maximilian",
           "type": "person",
           "firstSeenInChapter": 5
         },
         {
           "entityId": "dantes",
           "type": "person",
-          "firstSeenInChapter": 1
-        },
-        {
-          "entityId": "caderousse",
-          "type": "person",
-          "firstSeenInChapter": 2
-        },
-        {
-          "entityId": "marseilles",
-          "type": "place",
-          "firstSeenInChapter": 1
-        },
-        {
-          "entityId": "mercedes",
-          "type": "person",
-          "firstSeenInChapter": 1
-        },
-        {
-          "entityId": "danglars",
-          "type": "person",
-          "firstSeenInChapter": 1
+          "firstSeenInChapter": 1,
+          "excerpt": "…be first in command of the ship; and as Dantès was universally beloved on board his vessel, the sailors put no restrain…"
         },
         {
           "entityId": "fernand",
           "type": "person",
-          "firstSeenInChapter": 3
+          "firstSeenInChapter": 3,
+          "excerpt": "…Dantès’ father; the whole brought up by Fernand, whose lips wore their usual sinister smile.  Neither Mercédès nor Edmo…"
+        },
+        {
+          "entityId": "mercedes",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…re their usual sinister smile.  Neither Mercédès nor Edmond observed the strange expression of his countenance; they we…"
+        },
+        {
+          "entityId": "old_dants",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…se took their places beside Fernand and old Dantès,—the latter of whom attracted universal notice.  The old man was att…"
+        },
+        {
+          "entityId": "mayor_of_marseilles",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…delay; and at half-past two o’clock the Mayor of Marseilles will be waiting for us at the city hall. Now, as a quarter-…"
+        },
+        {
+          "entityId": "marseilles",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ze, he would glance in the direction of Marseilles, like one who either anticipated or foresaw some great and important…"
         },
         {
           "entityId": "pharaon",
           "type": "place",
-          "firstSeenInChapter": 1
+          "firstSeenInChapter": 1,
+          "excerpt": "…of the favored part of the crew of the Pharaon, and other personal friends of the bridegroom, the whole of whom had arr…"
         },
         {
-          "entityId": "maximilian",
-          "type": "person",
-          "firstSeenInChapter": 1
-        },
-        {
-          "entityId": "paris",
+          "entityId": "fort_saint_jean",
           "type": "place",
-          "firstSeenInChapter": 1
+          "firstSeenInChapter": 1,
+          "excerpt": "…isappeared round one of the turnings of Fort Saint Nicholas.  “Wait for me here, all of you!” cried M. Morrel; “I will …"
+        },
+        {
+          "entityId": "palais_de_justice",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…, and proceeded in the direction of the Palais de Justice.  0081m  “You see,” said Danglars, addressing Caderousse, “th…"
+        },
+        {
+          "entityId": "the_revolution",
+          "type": "event",
+          "firstSeenInChapter": 5
         }
       ],
-      "scenes": []
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 15,
+          "locationDescription": "On the balcony and inside La Réserve",
+          "imageDescription": "A spacious, well-lit room on the second floor of La Réserve, decorated with golden inscriptions of French city names above numerous windows. A long wooden balcony extends outside, crowded with elegantly dressed guests in 19th-century maritime and festive attire, eagerly awaiting a wedding feast. The morning sun casts warm ruby light on foamy sea waves outside, enhancing the joyous and expectant atmosphere. The central figures, Edmond Dantès in a refined merchant marine uniform and Mercédès dressed as a radiant bride-to-be, are joined by their friends and family, including men in formal suits and women in light, colorful dresses, all celebrating under a bright daylight.",
+          "characterIds": [
+            "danglars",
+            "caderousse",
+            "maximilian",
+            "dantes",
+            "fernand",
+            "mercedes",
+            "old_dants"
+          ]
+        },
+        {
+          "startParagraph": 16,
+          "endParagraph": 40,
+          "locationDescription": "Inside the dining room at La Réserve during the feast",
+          "imageDescription": "A lively, large dining room filled with guests seated around a long wooden table heavy with traditional 19th-century French and Mediterranean wedding dishes such as lobsters, prawns, and sausages. Mercédès gestures to her father, inviting him to sit on her right, while Fernand looks tense and pale nearby. Edmond Dantès arranges seating, sitting with M. Morrel and Danglars prominently beside him. Guests wear elegant period clothing with sailors’ and townsfolk’s attire mingling, creating an atmosphere of joyful festivity shadowed by subtle undercurrents of tension from Fernand’s expression.",
+          "characterIds": [
+            "danglars",
+            "caderousse",
+            "dantes",
+            "fernand",
+            "mercedes",
+            "old_dants",
+            "maximilian"
+          ]
+        },
+        {
+          "startParagraph": 41,
+          "endParagraph": 50,
+          "locationDescription": "Salon at the feast as tension rises and Fernand leaves the table",
+          "imageDescription": "A spacious, warmly lit salon filled with guests engaged in noisy conversation and laughter, some rising, mingling or moving chairs unceremoniously. Fernand stands apart, pale and visibly distressed, pacing near a window, away from the merriment. Danglars and Caderousse watch him closely from a corner, their expressions wary. Mercédès sits fainted nearby, supported by friends while the atmosphere grows charged with unease despite ongoing festivities. Attire remains refined early 19th-century social dress, set against open windows revealing a sunny day outside.",
+          "characterIds": [
+            "danglars",
+            "caderousse",
+            "fernand",
+            "mercedes"
+          ]
+        },
+        {
+          "startParagraph": 51,
+          "endParagraph": 73,
+          "locationDescription": "Salon at La Réserve, arrival of magistrate and arrest of Edmond Dantès",
+          "imageDescription": "The festive salon suddenly falls into a terrifying stillness as a magistrate wearing an official sash enters, accompanied by four soldiers and a corporal in early 19th-century French military uniforms. Guests show shock and dread while Edmond Dantès stands with dignity confronting the official. Frau Mercédès stretches out her arms toward Dantès from a balcony window, crying out in sorrow. The lighting is sharp and dramatic, contrasting bright daylight through the windows and the grim seriousness of the arrest ceremony indoors. Soldiers stand firm by the door, the mood heavy and oppressive.",
+          "characterIds": [
+            "danglars",
+            "caderousse",
+            "dantes",
+            "fernand",
+            "mercedes",
+            "old_dants",
+            "mayor_of_marseilles",
+            "maximilian"
+          ]
+        },
+        {
+          "startParagraph": 74,
+          "endParagraph": 78,
+          "locationDescription": "Outside La Réserve as Edmond Dantès departs in carriage",
+          "imageDescription": "Outside the house, in bright early afternoon light, a horse-drawn carriage waits at the door. Edmond Dantès, calm but about to depart as a prisoner, leans slightly from the coach and calls farewell to Mercédès, who stands distraught on the balcony above, reaching out toward him. Two soldiers and the magistrate accompany Dantès into the carriage. The setting is a lively port city street with some guests watching anxiously, creating a melancholy, tense atmosphere of separation amid earlier festivity.",
+          "characterIds": [
+            "danglars",
+            "caderousse",
+            "dantes",
+            "mercedes",
+            "old_dants",
+            "maximilian"
+          ]
+        },
+        {
+          "startParagraph": 79,
+          "endParagraph": 114,
+          "locationDescription": "Inside La Réserve after Edmond's arrest, with Mercédès and others",
+          "imageDescription": "A somber interior room with Mercédès and old Dantès grieving separately, then embracing with heartbroken emotion. Fernand gingerly pours himself a glass of water with trembling hands and sits near Mercédès, who has collapsed fainting, while Danglars and Caderousse watch Fernand with suspicion and quiet conversation. The guests are subdued; the atmosphere is heavy with sorrow and unease. The setting suggests an elegant but now mournful drawing room with soft shadows and muted colors reflecting the despair.",
+          "characterIds": [
+            "danglars",
+            "caderousse",
+            "fernand",
+            "mercedes",
+            "old_dants"
+          ]
+        },
+        {
+          "startParagraph": 115,
+          "endParagraph": 147,
+          "locationDescription": "Street near the port and Palais de Justice, discussing the arrest",
+          "imageDescription": "Near the bustling port area and heading towards the Palais de Justice, Danglars, Caderousse, and Maximilian Morrel converse gravely along a cobblestone street. They wear typical early 19th-century merchant and townsfolk clothing appropriate to their standing. Background includes the ship Pharaon docked nearby and classical French architecture indicating the city’s judicial center. The atmosphere is tense yet purposeful as plans and suspicions are quietly exchanged amid the port’s activity.",
+          "characterIds": [
+            "danglars",
+            "caderousse",
+            "maximilian"
+          ]
+        },
+        {
+          "startParagraph": 148,
+          "endParagraph": 148,
+          "locationDescription": "Board of the Pharaon, Danglars prepares to assume command",
+          "imageDescription": "On the deck of the merchant ship Pharaon docked in port under overcast skies, Danglars steps onto the vessel with a confident expression, dressed in a captain’s maritime uniform suitable for the early 1800s. Two sailors assist with ropes and cargo in the background. The scene carries a discreet mood of triumph and cautious ambition, highlighting Danglars’ new authority following Dantès' arrest.",
+          "characterIds": [
+            "danglars"
+          ]
+        }
+      ]
     },
     {
       "number": 6,
@@ -668,35 +856,151 @@
         {
           "entityId": "villefort",
           "type": "person",
-          "firstSeenInChapter": 5
-        },
-        {
-          "entityId": "dantes",
-          "type": "person",
-          "firstSeenInChapter": 1
+          "firstSeenInChapter": 6,
+          "excerpt": "…Napoleon the accursed.’ Am I not right, Villefort?”  “I beg your pardon, madame. I really must pray you to excuse me, b…"
         },
         {
           "entityId": "marseilles",
           "type": "place",
-          "firstSeenInChapter": 1
+          "firstSeenInChapter": 1,
+          "excerpt": "…mbly was composed of the very flower of Marseilles society,—magistrates who had resigned their office during the usurpe…"
         },
         {
-          "entityId": "the_revolution",
-          "type": "event",
+          "entityId": "napoleon",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…of the man, but over the defeat of the Napoleonic idea, that they rejoiced, and in this they foresaw for themselves the…"
+        },
+        {
+          "entityId": "king_louis_xviii",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…is, now rose and proposed the health of King Louis XVIII. It was the Marquis de Saint- Méran. This toast, recalling at …"
+        },
+        {
+          "entityId": "marquis_de_saintmran",
+          "type": "person",
           "firstSeenInChapter": 6
+        },
+        {
+          "entityId": "marquise_de_saintmran",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…tical fervor prevailed.  “Ah,” said the Marquise de Saint-Méran, a woman with a stern, forbidding eye, though still nob…"
+        },
+        {
+          "entityId": "rene_de_saintmran",
+          "type": "person",
+          "firstSeenInChapter": 6
+        },
+        {
+          "entityId": "comte_de_salvieux",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "….”  “You have heard, perhaps,” said the Comte de Salvieux, one of M. de Saint-Méran’s oldest friends, and chamberlain t…"
+        },
+        {
+          "entityId": "comte_dartois",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…oldest friends, and chamberlain to the Comte d’Artois, “that the Holy Alliance purpose removing him from thence?”  “Yes…"
+        },
+        {
+          "entityId": "citizen_noirtier",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…the new government; and that while the Citizen Noirtier was a Girondin, the Count Noirtier became a senator.”  “Dear mo…"
+        },
+        {
+          "entityId": "count_noirtier",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…he Citizen Noirtier was a Girondin, the Count Noirtier became a senator.”  “Dear mother,” interposed Renée, “you know v…"
+        },
+        {
+          "entityId": "dantes",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…e hour with the nuptial repast given by Dantès. In this case, however, although the occasion of the entertainment was s…"
         },
         {
           "entityId": "pharaon",
           "type": "place",
-          "firstSeenInChapter": 1
+          "firstSeenInChapter": 1,
+          "excerpt": "…the contrary, made their fortune by worshipping the rising sun; yes, yes, they could not help admitting that the king, …"
         },
         {
-          "entityId": "paris",
+          "entityId": "murat",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…o, has been the bearer of a letter from Murat to the usurper, and again taken charge of another letter from the usurper…"
+        },
+        {
+          "entityId": "the_revolution",
+          "type": "event",
+          "firstSeenInChapter": 5,
+          "excerpt": "…nce, despite her fifty years—“ah, these revolutionists, who have driven us from those very possessions they afterwards …"
+        },
+        {
+          "entityId": "napoleons_exile",
+          "type": "event",
+          "firstSeenInChapter": 6
+        },
+        {
+          "entityId": "holy_alliance",
+          "type": "event",
+          "firstSeenInChapter": 6,
+          "excerpt": "…erlain to the Comte d’Artois, “that the Holy Alliance purpose removing him from thence?”  “Yes; they were talking about…"
+        },
+        {
+          "entityId": "place_louis_quinze",
           "type": "place",
-          "firstSeenInChapter": 1
+          "firstSeenInChapter": 6,
+          "excerpt": "…t of Robespierre on his scaffold in the Place Louis Quinze; that of Napoleon on the column of the Place Vendôme. The on…"
+        },
+        {
+          "entityId": "place_vendme",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…; that of Napoleon on the column of the Place Vendôme. The only difference consists in the opposite character of the eq…"
+        },
+        {
+          "entityId": "tuileries",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…what I myself said the other day at the Tuileries, when questioned by his majesty’s principal chamberlain touching the …"
+        },
+        {
+          "entityId": "corsica",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…f his just rights to bestow them on the Corsican, who, to my mind, has usurped quite enough.”  0085m  “Nay, madame; I w…"
+        },
+        {
+          "entityId": "naples",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…between Corsica, where he was born, and Naples, of which his brother-in-law is king, and face to face with Italy, the s…"
+        },
+        {
+          "entityId": "portoferrajo",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…rna, after having touched at Naples and Porto-Ferrajo, has been the bearer of a letter from Murat to the usurper, and a…"
+        },
+        {
+          "entityId": "smyrna",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…the ship Pharaon, this day arrived from Smyrna, after having touched at Naples and Porto-Ferrajo, has been the bearer o…"
         }
       ],
-      "scenes": []
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 95
+        }
+      ]
     },
     {
       "number": 7,
