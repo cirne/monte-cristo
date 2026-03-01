@@ -19,7 +19,7 @@ import { createChatCompletion } from "../lib/llm";
 import { getChapterIndexEntry } from "../lib/chapter-index";
 import { getParagraphs } from "../lib/scenes";
 import type { SceneWithDetails } from "../lib/scenes";
-import { loadStyle, buildFullPrompt, generateImageToWebPBuffer } from "../lib/image-gen";
+import { loadStyle, buildFullPrompt, generateImageToWebPBuffer, ContentPolicyError } from "../lib/image-gen";
 
 const ROOT = join(import.meta.dir, "..");
 const DATA_DIR = join(ROOT, "data");
@@ -149,7 +149,7 @@ async function main() {
 
   const book = loadBook();
   const style = loadStyle(ROOT);
-  let scenePrompts = loadScenePrompts();
+  const scenePrompts = loadScenePrompts();
 
   type SceneWork = {
     chapterNumber: number;
@@ -253,11 +253,22 @@ async function main() {
     const chunk = workItems.slice(i, i + workers);
     await Promise.all(
       chunk.map(async ({ key, prompt }) => {
-        const fullPrompt = buildFullPrompt(prompt, style);
-        const webp = await generateImageToWebPBuffer(fullPrompt);
-        const outPath = join(PUBLIC_SCENES, `${key}.webp`);
-        writeFileSync(outPath, webp);
-        console.log(`Wrote ${outPath}`);
+        try {
+          const fullPrompt = buildFullPrompt(prompt, style);
+          const webp = await generateImageToWebPBuffer(fullPrompt);
+          const outPath = join(PUBLIC_SCENES, `${key}.webp`);
+          writeFileSync(outPath, webp);
+          console.log(`Wrote ${outPath}`);
+        } catch (e) {
+          const isContentPolicy =
+            e instanceof ContentPolicyError ||
+            (e instanceof Error && e.message.toLowerCase().includes("content_policy_violation"));
+          if (isContentPolicy) {
+            console.log(`Skip ${key}: content policy (safety)`);
+            return;
+          }
+          throw e;
+        }
       })
     );
   }

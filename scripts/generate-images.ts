@@ -17,7 +17,7 @@ import "../lib/loadEnv";
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "fs";
 import { join } from "path";
 import { requireOpenAIClient } from "../lib/openai";
-import { loadStyle, buildFullPrompt, generateImageToWebPBuffer } from "../lib/image-gen";
+import { loadStyle, buildFullPrompt, generateImageToWebPBuffer, ContentPolicyError } from "../lib/image-gen";
 import { getChapterIndexEntry } from "../lib/chapter-index";
 
 const ROOT = join(import.meta.dir, "..");
@@ -93,7 +93,7 @@ async function main() {
   }
 
   const style = loadStyle(ROOT);
-  let prompts = loadEntityPrompts();
+  const prompts = loadEntityPrompts();
   const store = loadEntityStore();
 
   let entityIds: string[];
@@ -152,10 +152,21 @@ async function main() {
     const chunk = workItems.slice(i, i + concurrency);
     await Promise.all(
       chunk.map(async ({ id, fullPrompt }) => {
-        const webp = await generateImageToWebPBuffer(fullPrompt);
-        const outPath = join(PUBLIC_ENTITIES, `${id}.webp`);
-        writeFileSync(outPath, webp);
-        console.log(`Wrote ${outPath}`);
+        try {
+          const webp = await generateImageToWebPBuffer(fullPrompt);
+          const outPath = join(PUBLIC_ENTITIES, `${id}.webp`);
+          writeFileSync(outPath, webp);
+          console.log(`Wrote ${outPath}`);
+        } catch (e) {
+          const isContentPolicy =
+            e instanceof ContentPolicyError ||
+            (e instanceof Error && e.message.toLowerCase().includes("content_policy_violation"));
+          if (isContentPolicy) {
+            console.log(`Skip ${id}: content policy (safety)`);
+            return;
+          }
+          throw e;
+        }
       })
     );
   }
