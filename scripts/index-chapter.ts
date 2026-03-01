@@ -363,11 +363,15 @@ async function main() {
   const args = process.argv.slice(2);
   const chapterArg = args.find((a) => a.startsWith("--chapter="));
   const chapterNum = chapterArg ? parseInt(chapterArg.split("=")[1], 10) : null;
+  const fromChapterArg = args.find((a) => a.startsWith("--from-chapter="));
+  const fromChapter = fromChapterArg ? parseInt(fromChapterArg.split("=")[1], 10) : null;
   const all = args.includes("--all");
   const seedFromCurated = args.includes("--seed-from-curated");
 
-  if (!all && (chapterNum == null || isNaN(chapterNum))) {
-    console.error("Usage: bun run scripts/index-chapter.ts --chapter=1 | --all [--seed-from-curated]");
+  if (!all && (chapterNum == null || isNaN(chapterNum)) && (fromChapter == null || isNaN(fromChapter))) {
+    console.error(
+      "Usage: bun run scripts/index-chapter.ts --chapter=1 | --all | --from-chapter=27 [--seed-from-curated]"
+    );
     process.exit(1);
   }
 
@@ -399,7 +403,9 @@ async function main() {
 
   const toProcess = all
     ? book.chapters
-    : book.chapters.filter((c) => c.number === chapterNum);
+    : fromChapter != null && !isNaN(fromChapter)
+      ? book.chapters.filter((c) => c.number >= fromChapter)
+      : book.chapters.filter((c) => c.number === chapterNum);
 
   if (toProcess.length === 0) {
     console.error("No chapter to process.");

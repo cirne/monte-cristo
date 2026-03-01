@@ -860,38 +860,22 @@
           "excerpt": "…Napoleon the accursed.’ Am I not right, Villefort?”  “I beg your pardon, madame. I really must pray you to excuse me, b…"
         },
         {
-          "entityId": "marseilles",
-          "type": "place",
-          "firstSeenInChapter": 1,
-          "excerpt": "…mbly was composed of the very flower of Marseilles society,—magistrates who had resigned their office during the usurpe…"
-        },
-        {
-          "entityId": "napoleon",
+          "entityId": "rene_de_saintmran",
           "type": "person",
           "firstSeenInChapter": 6,
-          "excerpt": "…of the man, but over the defeat of the Napoleonic idea, that they rejoiced, and in this they foresaw for themselves the…"
-        },
-        {
-          "entityId": "king_louis_xviii",
-          "type": "person",
-          "firstSeenInChapter": 6,
-          "excerpt": "…is, now rose and proposed the health of King Louis XVIII. It was the Marquis de Saint- Méran. This toast, recalling at …"
+          "excerpt": "…r,” said M. de Villefort.  “Never mind, Renée,” replied the marquise, with a look of tenderness that seemed out of keep…"
         },
         {
           "entityId": "marquis_de_saintmran",
           "type": "person",
-          "firstSeenInChapter": 6
+          "firstSeenInChapter": 6,
+          "excerpt": "…the health of King Louis XVIII. It was the Marquis de Saint- Méran. This toast, recalling at once the patient exile of …"
         },
         {
           "entityId": "marquise_de_saintmran",
           "type": "person",
           "firstSeenInChapter": 6,
-          "excerpt": "…tical fervor prevailed.  “Ah,” said the Marquise de Saint-Méran, a woman with a stern, forbidding eye, though still nob…"
-        },
-        {
-          "entityId": "rene_de_saintmran",
-          "type": "person",
-          "firstSeenInChapter": 6
+          "excerpt": "…poetical fervor prevailed.  “Ah,” said the Marquise de Saint-Méran, a woman with a stern, forbidding eye, though still …"
         },
         {
           "entityId": "comte_de_salvieux",
@@ -900,22 +884,57 @@
           "excerpt": "….”  “You have heard, perhaps,” said the Comte de Salvieux, one of M. de Saint-Méran’s oldest friends, and chamberlain t…"
         },
         {
+          "entityId": "mlle_de_salvieux",
+          "type": "person",
+          "firstSeenInChapter": 6
+        },
+        {
+          "entityId": "noirtier",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…government; and that while the Citizen Noirtier was a Girondin, the Count Noirtier became a senator.”  “Dear mother,” i…"
+        },
+        {
+          "entityId": "king_louis_xviii",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…is, now rose and proposed the health of King Louis XVIII. It was the Marquis de Saint- Méran. This toast, recalling at …"
+        },
+        {
+          "entityId": "the_emperor",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…es who had resigned their office during the usurper’s reign; officers who had deserted from the imperial army and joine…"
+        },
+        {
+          "entityId": "josephine",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…e the women commented on the divorce of Josephine. It was not over the downfall of the man, but over the defeat of the …"
+        },
+        {
+          "entityId": "duc_denghien",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…ties when it was a question of shooting the poor Duc d’Enghien.”  “Well,” said the marquise, “it seems probable that, b…"
+        },
+        {
+          "entityId": "cond",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…he imperial army and joined forces with Condé; and younger members of families, brought up to hate and execrate the man…"
+        },
+        {
           "entityId": "comte_dartois",
           "type": "person",
           "firstSeenInChapter": 6,
           "excerpt": "…oldest friends, and chamberlain to the Comte d’Artois, “that the Holy Alliance purpose removing him from thence?”  “Yes…"
         },
         {
-          "entityId": "citizen_noirtier",
+          "entityId": "murat",
           "type": "person",
           "firstSeenInChapter": 6,
-          "excerpt": "…the new government; and that while the Citizen Noirtier was a Girondin, the Count Noirtier became a senator.”  “Dear mo…"
-        },
-        {
-          "entityId": "count_noirtier",
-          "type": "person",
-          "firstSeenInChapter": 6,
-          "excerpt": "…he Citizen Noirtier was a Girondin, the Count Noirtier became a senator.”  “Dear mother,” interposed Renée, “you know v…"
+          "excerpt": "…o, has been the bearer of a letter from Murat to the usurper, and again taken charge of another letter from the usurper…"
         },
         {
           "entityId": "dantes",
@@ -930,27 +949,63 @@
           "excerpt": "…the contrary, made their fortune by worshipping the rising sun; yes, yes, they could not help admitting that the king, …"
         },
         {
-          "entityId": "murat",
-          "type": "person",
+          "entityId": "marseilles",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…mbly was composed of the very flower of Marseilles society,—magistrates who had resigned their office during the usurpe…"
+        },
+        {
+          "entityId": "paris",
+          "type": "place",
           "firstSeenInChapter": 6,
-          "excerpt": "…o, has been the bearer of a letter from Murat to the usurper, and again taken charge of another letter from the usurper…"
+          "excerpt": "…they were talking about it when we left Paris,” said M. de Saint- Méran; “and where is it decided to transfer him?”  “T…"
         },
         {
-          "entityId": "the_revolution",
-          "type": "event",
-          "firstSeenInChapter": 5,
-          "excerpt": "…nce, despite her fifty years—“ah, these revolutionists, who have driven us from those very possessions they afterwards …"
+          "entityId": "island_of_elba",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…ng.  The emperor, now king of the petty Island of Elba, after having held sovereign sway over one-half of the world, co…"
         },
         {
-          "entityId": "napoleons_exile",
-          "type": "event",
+          "entityId": "saint_helena",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…re is it decided to transfer him?”  “To Saint Helena.”  “For heaven’s sake, where is that?” asked the marquise.  “An is…"
+        },
+        {
+          "entityId": "corsica",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…f his just rights to bestow them on the Corsican, who, to my mind, has usurped quite enough.”  ​  “Nay, madame; I would…"
+        },
+        {
+          "entityId": "naples",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…between Corsica, where he was born, and Naples, of which his brother-in-law is king, and face to face with Italy, the s…"
+        },
+        {
+          "entityId": "italy",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…r-in-law is king, and face to face with Italy, the sovereignty of which he coveted for his son.”  “Unfortunately,” said…"
+        },
+        {
+          "entityId": "portoferrajo",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…rna, after having touched at Naples and Porto-Ferrajo, has been the bearer of a letter from Murat to the usurper, and a…"
+        },
+        {
+          "entityId": "rue_du_grand_cours",
+          "type": "place",
           "firstSeenInChapter": 6
         },
         {
-          "entityId": "holy_alliance",
-          "type": "event",
+          "entityId": "medusa_fountain",
+          "type": "place",
           "firstSeenInChapter": 6,
-          "excerpt": "…erlain to the Comte d’Artois, “that the Holy Alliance purpose removing him from thence?”  “Yes; they were talking about…"
+          "excerpt": "…in the Rue du Grand Cours opposite the Medusa fountain, a second marriage feast was being celebrated, almost at the sam…"
         },
         {
           "entityId": "place_louis_quinze",
@@ -971,34 +1026,314 @@
           "excerpt": "…what I myself said the other day at the Tuileries, when questioned by his majesty’s principal chamberlain touching the …"
         },
         {
-          "entityId": "corsica",
-          "type": "place",
-          "firstSeenInChapter": 6,
-          "excerpt": "…f his just rights to bestow them on the Corsican, who, to my mind, has usurped quite enough.”  0085m  “Nay, madame; I w…"
+          "entityId": "the_revolution",
+          "type": "event",
+          "firstSeenInChapter": 5,
+          "excerpt": "…nce, despite her fifty years—“ah, these revolutionists, who have driven us from those very possessions they afterwards …"
         },
         {
-          "entityId": "naples",
-          "type": "place",
-          "firstSeenInChapter": 6,
-          "excerpt": "…between Corsica, where he was born, and Naples, of which his brother-in-law is king, and face to face with Italy, the s…"
+          "entityId": "the_revolution",
+          "type": "event",
+          "firstSeenInChapter": 5,
+          "excerpt": "…nce, despite her fifty years—“ah, these revolutionists, who have driven us from those very possessions they afterwards …"
         },
         {
-          "entityId": "portoferrajo",
-          "type": "place",
-          "firstSeenInChapter": 1,
-          "excerpt": "…rna, after having touched at Naples and Porto-Ferrajo, has been the bearer of a letter from Murat to the usurper, and a…"
-        },
-        {
-          "entityId": "smyrna",
+          "entityId": "moscow",
           "type": "place",
           "firstSeenInChapter": 6,
-          "excerpt": "…the ship Pharaon, this day arrived from Smyrna, after having touched at Naples and Porto-Ferrajo, has been the bearer o…"
+          "excerpt": "…t of the company talked unreservedly of Moscow and Leipsic, while the women commented on the divorce of Josephine. It w…"
+        },
+        {
+          "entityId": "leipsic",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…mpany talked unreservedly of Moscow and Leipsic, while the women commented on the divorce of Josephine. It was not over…"
+        },
+        {
+          "entityId": "hartwell",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…recalling at once the patient exile of Hartwell and the peace-loving King of France, excited universal enthusiasm; glas…"
+        },
+        {
+          "entityId": "holy_alliance",
+          "type": "event",
+          "firstSeenInChapter": 6,
+          "excerpt": "…erlain to the Comte d’Artois, “that the Holy Alliance purpose removing him from thence?”  “Yes; they were talking about…"
+        },
+        {
+          "entityId": "treaties_of_1814",
+          "type": "event",
+          "firstSeenInChapter": 6,
+          "excerpt": "…nately,” said Villefort, “there are the treaties of 1814, and we cannot molest Napoleon without breaking those compacts…"
+        },
+        {
+          "entityId": "the_bonapartist_club_in_paris",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…e of another letter from the usurper to the Bonapartist club in Paris. Ample corroboration of this statement may be obt…"
         }
       ],
       "scenes": [
         {
           "startParagraph": 0,
-          "endParagraph": 95
+          "endParagraph": 3,
+          "locationDescription": "Saint-Méran mansion, grand dining hall",
+          "imageDescription": "A lavishly appointed neoclassical dining hall bathed in candlelight. Well-dressed noblemen in uniforms and medals sit around a long, flower-strewn banquet table. Ladies in elegant Empire gowns recline on ornate chairs. The atmosphere is festive, with lively political discussion in the air.",
+          "characterIds": [
+            "marquis_de_saintmran",
+            "marquise_de_saintmran",
+            "rene_de_saintmran",
+            "villefort",
+            "comte_de_salvieux",
+            "mlle_de_salvieux"
+          ]
+        },
+        {
+          "startParagraph": 4,
+          "endParagraph": 4,
+          "locationDescription": "Saint-Méran mansion, banquet table",
+          "imageDescription": "A dignified elderly nobleman wearing a cross of Saint Louis stands at the head of the banquet table, holding his glass aloft for a toast. Ladies throw flowers upon the table, and gentlemen raise their glasses. Light from a crystal chandelier sparkles over the animated faces of titled guests.",
+          "characterIds": [
+            "marquis_de_saintmran",
+            "marquise_de_saintmran",
+            "rene_de_saintmran",
+            "villefort",
+            "comte_de_salvieux",
+            "mlle_de_salvieux"
+          ]
+        },
+        {
+          "startParagraph": 5,
+          "endParagraph": 10,
+          "locationDescription": "Banquet table, later in conversation",
+          "imageDescription": "The marquise, regal yet austere, addresses Villefort across the table, her features illuminated by a candelabrum. Close family and guests, resplendent in their formal attire, look on with interest and some tension. The scene is intimate, charged with political undertones.",
+          "characterIds": [
+            "marquise_de_saintmran",
+            "marquis_de_saintmran",
+            "rene_de_saintmran",
+            "villefort"
+          ]
+        },
+        {
+          "startParagraph": 11,
+          "endParagraph": 14,
+          "locationDescription": "Banquet table, political discussion continues",
+          "imageDescription": "Villefort, upright and self-assured, responds from his place at the table, his expression serious. The marquise listens with a proud tilt to her head, Renée appears anxious, and other guests watch attentively. The candlelight casts warm shadows, emphasizing the gravity of the conversation.",
+          "characterIds": [
+            "marquise_de_saintmran",
+            "marquis_de_saintmran",
+            "rene_de_saintmran",
+            "villefort"
+          ]
+        },
+        {
+          "startParagraph": 15,
+          "endParagraph": 19,
+          "locationDescription": "Banquet table, family discussion grows personal",
+          "imageDescription": "Villefort flushes as the marquise challenges him on his heritage. The atmosphere feels tense but familial, with Renée and the marquis witnessing the exchange. Fine dresses and formal suits highlight the aristocratic setting.",
+          "characterIds": [
+            "marquise_de_saintmran",
+            "marquis_de_saintmran",
+            "rene_de_saintmran",
+            "villefort"
+          ]
+        },
+        {
+          "startParagraph": 20,
+          "endParagraph": 23,
+          "locationDescription": "Banquet table, agreeing to let the past be forgotten",
+          "imageDescription": "The marquis, visibly pleased, gestures encouragingly towards Villefort and the marquise. The marquise extends her hand coldly to Villefort, while Renée looks relieved. The mood is lighter but still underpinned by formality.",
+          "characterIds": [
+            "marquise_de_saintmran",
+            "marquis_de_saintmran",
+            "rene_de_saintmran",
+            "villefort"
+          ]
+        },
+        {
+          "startParagraph": 24,
+          "endParagraph": 25,
+          "locationDescription": "Banquet table, conversation on Bonaparte and law",
+          "imageDescription": "Villefort explains his fears about political unrest, gesturing thoughtfully. Around him, the marquise, marquis, Comte de Salvieux, and other guests react with varying degrees of concern. The candlelight casts a warm, contemplative light as the discussion turns serious.",
+          "characterIds": [
+            "marquise_de_saintmran",
+            "marquis_de_saintmran",
+            "rene_de_saintmran",
+            "villefort",
+            "comte_de_salvieux"
+          ]
+        },
+        {
+          "startParagraph": 26,
+          "endParagraph": 37,
+          "locationDescription": "Banquet table, discussion of exile and Saint Helena",
+          "imageDescription": "The Comte de Salvieux leans forward with authority, sharing news of Napoleon's fate. The marquise and marquis listen earnestly, Renée looks uneasy, and Villefort remains composed. The aristocratic table, decked with silver and crystal, fills the scene.",
+          "characterIds": [
+            "comte_de_salvieux",
+            "marquise_de_saintmran",
+            "marquis_de_saintmran",
+            "rene_de_saintmran",
+            "villefort"
+          ]
+        },
+        {
+          "startParagraph": 38,
+          "endParagraph": 39,
+          "locationDescription": "Banquet table, young ladies' interest in trials",
+          "imageDescription": "Mlle. de Salvieux, bright and lively, addresses Villefort, who smiles good-naturedly. Renée appears both curious and appalled. The gentle glow of the room and the delicate dresses contrast with the somber topic of justice.",
+          "characterIds": [
+            "mlle_de_salvieux",
+            "rene_de_saintmran",
+            "villefort"
+          ]
+        },
+        {
+          "startParagraph": 40,
+          "endParagraph": 43,
+          "locationDescription": "Banquet table, Villefort and Renée",
+          "imageDescription": "Renée clutches the side of her chair, her fair complexion drawn, while Villefort gently reassures her. Other guests look on with amusement or concern. Candlelight glimmers off the tableware in a setting of affectionate tension.",
+          "characterIds": [
+            "rene_de_saintmran",
+            "villefort"
+          ]
+        },
+        {
+          "startParagraph": 44,
+          "endParagraph": 48,
+          "locationDescription": "Banquet table, Villefort praised for his work",
+          "imageDescription": "Guests at the far end of the table applaud or nod approval at Villefort's remarks. Villefort sits upright, modestly pleased, with Renée shyly beaming beside him. The festive meal continues, with a sense of social celebration.",
+          "characterIds": [
+            "villefort",
+            "rene_de_saintmran"
+          ]
+        },
+        {
+          "startParagraph": 49,
+          "endParagraph": 53,
+          "locationDescription": "Banquet table, Villefort and Renée's private exchange",
+          "imageDescription": "Renée appeals earnestly to Villefort, whose expression softens with affection. The rest of the company fades into the background, with focus on the intimate connection between the couple. Lady guests look on approvingly.",
+          "characterIds": [
+            "rene_de_saintmran",
+            "villefort"
+          ]
+        },
+        {
+          "startParagraph": 54,
+          "endParagraph": 55,
+          "locationDescription": "Banquet table, debate over professions",
+          "imageDescription": "Renée, delicate and thoughtful, voices her regrets as Villefort listens tenderly. The marquise rolls her eyes, amused. The candlelight is softer, hinting at evening drawing on. The atmosphere is less formal, almost familial.",
+          "characterIds": [
+            "rene_de_saintmran",
+            "villefort",
+            "marquise_de_saintmran"
+          ]
+        },
+        {
+          "startParagraph": 56,
+          "endParagraph": 58,
+          "locationDescription": "Banquet table, marquis’ words on Villefort’s contribution",
+          "imageDescription": "The marquis, eager and proud, gives his blessing to Villefort. Villefort bows graciously while Renée smiles. The scene is warm, filled with familial pride, the flicker of candlelight lending an intimate golden hue.",
+          "characterIds": [
+            "marquis_de_saintmran",
+            "marquise_de_saintmran",
+            "rene_de_saintmran",
+            "villefort"
+          ]
+        },
+        {
+          "startParagraph": 59,
+          "endParagraph": 67,
+          "locationDescription": "Banquet table, Villefort’s allegiance praised by Salvieux",
+          "imageDescription": "Comte de Salvieux, distinguished and courtly, recounts the king's praise of Villefort. Villefort listens, deeply gratified, while the marquis and marquise exchange knowing looks. Renée glows with pride at her betrothed’s success.",
+          "characterIds": [
+            "comte_de_salvieux",
+            "marquis_de_saintmran",
+            "marquise_de_saintmran",
+            "rene_de_saintmran",
+            "villefort"
+          ]
+        },
+        {
+          "startParagraph": 68,
+          "endParagraph": 68,
+          "locationDescription": "Banquet table, sudden interruption by servant",
+          "imageDescription": "A liveried servant discreetly enters the brightly lit dining room, leaning to whisper to Villefort. Villefort stands, receiving the message with sudden seriousness. All conversation halts as attention shifts to him.",
+          "characterIds": [
+            "villefort",
+            "rene_de_saintmran",
+            "marquise_de_saintmran",
+            "marquis_de_saintmran",
+            "comte_de_salvieux",
+            "mlle_de_salvieux"
+          ]
+        },
+        {
+          "startParagraph": 69,
+          "endParagraph": 69,
+          "locationDescription": "Banquet table, after Villefort’s return",
+          "imageDescription": "Villefort returns to the table, his expression excited. Renée looks anxious, leaning toward him. The rest of the company awaits an explanation, their faces a mix of curiosity and apprehension. Candlelight continues to illuminate the gathering.",
+          "characterIds": [
+            "villefort",
+            "rene_de_saintmran",
+            "marquise_de_saintmran",
+            "marquis_de_saintmran",
+            "comte_de_salvieux",
+            "mlle_de_salvieux"
+          ]
+        },
+        {
+          "startParagraph": 70,
+          "endParagraph": 75,
+          "locationDescription": "Banquet table, news of Dantès’ arrest",
+          "imageDescription": "Villefort, with a grave expression, shares the news of a Bonapartist conspiracy. Guests react with alarm and fascination. The mood has become tense, candlelight catching anxious glances and startled faces around the table.",
+          "characterIds": [
+            "villefort",
+            "rene_de_saintmran",
+            "marquise_de_saintmran",
+            "marquis_de_saintmran",
+            "comte_de_salvieux",
+            "mlle_de_salvieux"
+          ]
+        },
+        {
+          "startParagraph": 76,
+          "endParagraph": 77,
+          "locationDescription": "Banquet table, Villefort reads anonymous letter",
+          "imageDescription": "Villefort solemnly reads an anonymous denunciation as the party sits in troubled silence. The marquise sits bolt upright, clasping her hands, while Renée recoils. The scene is tense, shadows deepening on the richly decorated walls.",
+          "characterIds": [
+            "villefort",
+            "rene_de_saintmran",
+            "marquise_de_saintmran",
+            "marquis_de_saintmran",
+            "comte_de_salvieux",
+            "mlle_de_salvieux"
+          ]
+        },
+        {
+          "startParagraph": 78,
+          "endParagraph": 86,
+          "locationDescription": "Banquet table, aftermath of the letter",
+          "imageDescription": "Renée tries to reason against the seriousness of the charge, while Villefort explains the procedure. The marquise appears unmoved, intent on justice. Elegant place settings and the dimming light suggest the feast is ending.",
+          "characterIds": [
+            "villefort",
+            "rene_de_saintmran",
+            "marquise_de_saintmran",
+            "marquis_de_saintmran",
+            "comte_de_salvieux",
+            "mlle_de_salvieux"
+          ]
+        },
+        {
+          "startParagraph": 87,
+          "endParagraph": 95,
+          "locationDescription": "Banquet table, Renée’s plea and Villefort’s departure",
+          "imageDescription": "Renée pleads emotionally with Villefort, who leans to speak tenderly to her. The marquise, unimpressed, offers a cold hand for Villefort to kiss. The gathering is dispersing, with a mix of anxiety, resignation, and affection under the golden candlelight.",
+          "characterIds": [
+            "villefort",
+            "rene_de_saintmran",
+            "marquise_de_saintmran"
+          ]
         }
       ]
     },
@@ -2899,22 +3234,10 @@
           "excerpt": "…s man was our old acquaintance, Gaspard Caderousse.  His wife, on the contrary, whose maiden name had been Madeleine Ra…"
         },
         {
-          "entityId": "madeleine_radelle",
-          "type": "person",
-          "firstSeenInChapter": 26,
-          "excerpt": "…he contrary, whose maiden name had been Madeleine Radelle, was pale, meagre, and sickly-looking. Born in the neighborho…"
-        },
-        {
           "entityId": "dantes",
           "type": "person",
           "firstSeenInChapter": 1,
           "excerpt": "…, know anything of a young sailor named Dantès?”  “Dantès? Did I know poor dear Edmond? Why, Edmond Dantès and myself w…"
-        },
-        {
-          "entityId": "mercedes",
-          "type": "person",
-          "firstSeenInChapter": 1,
-          "excerpt": "…I have forgotten what he called her.”  “Mercédès,” said Caderousse eagerly.  “True,” said the abbé, with a stifled sigh…"
         },
         {
           "entityId": "fernand",
@@ -2929,10 +3252,27 @@
           "excerpt": "…the emotion of Caderousse, “‘is called Danglars; and the third, in spite of being my rival, entertained a very sincere …"
         },
         {
-          "entityId": "faria",
+          "entityId": "mercedes",
           "type": "person",
-          "firstSeenInChapter": 14,
-          "excerpt": "…t to say. However that might have been, the priest, dismounting, led his steed by the bridle in search of some place to…"
+          "firstSeenInChapter": 1,
+          "excerpt": "…I have forgotten what he called her.”  “Mercédès,” said Caderousse eagerly.  “True,” said the abbé, with a stifled sigh…"
+        },
+        {
+          "entityId": "dantes",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…, know anything of a young sailor named Dantès?”  “Dantès? Did I know poor dear Edmond? Why, Edmond Dantès and myself w…"
+        },
+        {
+          "entityId": "madeleine_radelle",
+          "type": "person",
+          "firstSeenInChapter": 26,
+          "excerpt": "…he contrary, whose maiden name had been Madeleine Radelle, was pale, meagre, and sickly-looking. Born in the neighborho…"
+        },
+        {
+          "entityId": "father_of_edmond_dants",
+          "type": "person",
+          "firstSeenInChapter": 26
         },
         {
           "entityId": "m_morrel",
@@ -2941,10 +3281,22 @@
           "excerpt": "…derousse, “for Mercédès the Catalan and Monsieur Morrel were very kind to him; but somehow the poor old man had contrac…"
         },
         {
-          "entityId": "pont_du_gard",
-          "type": "place",
+          "entityId": "trinette",
+          "type": "person",
           "firstSeenInChapter": 26,
-          "excerpt": "…with a grotesque representation of the Pont du Gard. This modern place of entertainment stood on the left-hand side of …"
+          "excerpt": "…with two servants,—a chambermaid named Trinette, and a hostler called Pecaud. This small staff was quite equal to all t…"
+        },
+        {
+          "entityId": "pecaud",
+          "type": "person",
+          "firstSeenInChapter": 26,
+          "excerpt": "…id named Trinette, and a hostler called Pecaud. This small staff was quite equal to all the requirements, for a canal b…"
+        },
+        {
+          "entityId": "margotin",
+          "type": "person",
+          "firstSeenInChapter": 26,
+          "excerpt": "…the astonished Caderousse. “Now, then, Margotin,” cried he, speaking to the dog, “will you be quiet? Pray don’t heed hi…"
         },
         {
           "entityId": "marseilles",
@@ -2953,10 +3305,10 @@
           "excerpt": "…ill the trade fell off. It is so hot at Marseilles, that really I believe that the respectable inhabitants will in time…"
         },
         {
-          "entityId": "arles",
+          "entityId": "pont_du_gard",
           "type": "place",
           "firstSeenInChapter": 26,
-          "excerpt": "…ly-looking. Born in the neighborhood of Arles, she had shared in the beauty for which its women are proverbial; but tha…"
+          "excerpt": "…with a grotesque representation of the Pont du Gard. This modern place of entertainment stood on the left-hand side of …"
         },
         {
           "entityId": "beaucaire",
@@ -2983,16 +3335,10 @@
           "excerpt": "…e of the post road, and backed upon the Rhône. It also boasted of what in Languedoc is styled a garden, consisting of a…"
         },
         {
-          "entityId": "durance",
+          "entityId": "the_canal_between_beaucaire_and_aiguemortes",
           "type": "place",
           "firstSeenInChapter": 26,
-          "excerpt": "…urses of Provence, the others being the Durance and the Parliament.  In the surrounding plain, which more resembled a d…"
-        },
-        {
-          "entityId": "provence",
-          "type": "place",
-          "firstSeenInChapter": 11,
-          "excerpt": "…stral blows, one of the three curses of Provence, the others being the Durance and the Parliament.  In the surrounding …"
+          "excerpt": "…te equal to all the requirements, for a canal between Beaucaire and Aiguemortes had revolutionized transportation by su…"
         },
         {
           "entityId": "salon",
@@ -3007,10 +3353,10 @@
           "excerpt": "…, so called, situated between Salon and Lambesc; and as a custom existed among the inhabitants of that part of France w…"
         },
         {
-          "entityId": "languedoc",
+          "entityId": "arles",
           "type": "place",
-          "firstSeenInChapter": 11,
-          "excerpt": "…n the Rhône. It also boasted of what in Languedoc is styled a garden, consisting of a small plot of ground, on the side…"
+          "firstSeenInChapter": 26,
+          "excerpt": "…ly-looking. Born in the neighborhood of Arles, she had shared in the beauty for which its women are proverbial; but tha…"
         },
         {
           "entityId": "camargue",
@@ -3022,19 +3368,144 @@
           "entityId": "alles_de_meilhan",
           "type": "place",
           "firstSeenInChapter": 2,
-          "excerpt": "…e. You formerly lived, I believe in the Allées de Meilhan, on the fourth floor?”  0325m  “I did.”  “And you followed th…"
-        },
-        {
-          "entityId": "toulon",
-          "type": "place",
-          "firstSeenInChapter": 26,
-          "excerpt": "…nalty of their crimes at the galleys of Toulon.”  A deadly pallor followed the flush on the countenance of Caderousse, …"
+          "excerpt": "…e. You formerly lived, I believe in the Allées de Meilhan, on the fourth floor?”  ​  “I did.”  “And you followed the bu…"
         }
       ],
       "scenes": [
         {
           "startParagraph": 0,
-          "endParagraph": 153
+          "endParagraph": 4,
+          "locationDescription": "Roadside inn near Beaucaire",
+          "imageDescription": "A small, dusty roadside inn stands beneath the harsh noon sun, its faded sign depicting the Pont du Gard. Stunted olives and figs, garlic, and tomatoes grow in a pitiful garden. Gaspard Caderousse watches the empty post-road from the doorway, his figure tall and weathered, dressed in rustic Southern French attire, the red handkerchief protecting his head. The lighting is bright and oppressive, with a sense of weariness.",
+          "characterIds": [
+            "caderousse"
+          ]
+        },
+        {
+          "startParagraph": 5,
+          "endParagraph": 10,
+          "locationDescription": "Madeleine Radelle's upstairs chamber",
+          "imageDescription": "In a dim, poorly furnished upstairs room, Madeleine Radelle, known as La Carconte, sits languidly in a wooden chair near a bed, wrapped in simple, faded garments traditional to Arles women. She is frail and shivering despite the heat, shadows emphasizing her illness and isolation. The atmosphere is somber, with muted afternoon light filtering through a small window.",
+          "characterIds": [
+            "madeleine_radelle"
+          ]
+        },
+        {
+          "startParagraph": 11,
+          "endParagraph": 11,
+          "locationDescription": "Front of the roadside inn",
+          "imageDescription": "Caderousse stands on the dusty threshold of his inn, glancing idly between sparse grass where chickens peck and the empty, sunlit post-road. Sweat darkens his brow beneath a red kerchief, and the air shimmers with heat. The plain stretches behind, marked by withered wheat and bent trees, the mood one of boredom and decay.",
+          "characterIds": [
+            "caderousse"
+          ]
+        },
+        {
+          "startParagraph": 12,
+          "endParagraph": 12,
+          "locationDescription": "Empty road outside the inn",
+          "imageDescription": "Under the blazing midday sun, a long, empty, dusty road stretches toward Beaucaire and Bellegarde, bordered by sparse, meagre trees. The scene is deserted and oppressive, save for the faint figure of a priest on horseback approaching in the shimmering distance. Silence dominates, with harsh light and a vast sense of isolation."
+        },
+        {
+          "startParagraph": 13,
+          "endParagraph": 14,
+          "locationDescription": "Inn yard and entrance, abbé arrives",
+          "imageDescription": "A Hungarian horse, led by a priest dressed in black with a three-cornered hat, stands tied to a half-fallen door near the inn. The abbé wipes sweat from his brow with a red handkerchief and approaches the weathered entrance, sunlight glinting off the dry ground. The scene is tense, the black dog Margotin bristling nearby."
+        },
+        {
+          "startParagraph": 15,
+          "endParagraph": 15,
+          "locationDescription": "Inn common room, abbé meets Caderousse",
+          "imageDescription": "Inside the modest, sunlit inn parlor, Caderousse greets the abbé with guarded surprise amid sparse furnishings. Caderousse, still sweaty and anxious in rustic attire, bows slightly near a table set with simple ware, while the abbé stands composed in his dark priestly dress. Margotin, the dog, guards the abbé's feet. The atmosphere is cautious yet curious.",
+          "characterIds": [
+            "caderousse"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Inn parlor, abbé and Caderousse converse",
+          "imageDescription": "The inn's lamp-lit interior shows the abbé and Caderousse seated across a rough table, both intent and watchful. The abbé wears a black cassock and three-cornered hat, calmly examining Caderousse, whose tanned, nervous face is highlighted by the muted afternoon light. Margotin, the dog, sits nearby, adding to the tense, intimate setting.",
+          "characterIds": [
+            "caderousse"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Inn parlor, discussing Dantès and the diamond",
+          "imageDescription": "Close and somber, the abbé interrogates Caderousse about Edmond Dantès. On the old wooden table glimmers a black shagreen box and a brilliant diamond, momentarily catching Caderousse's awe and greed. Sunlight slants through a grimy window; the abbé sits composed while Caderousse's face betrays agitation and longing.",
+          "characterIds": [
+            "caderousse"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 99,
+          "locationDescription": "Parlor and staircase, La Carconte interrupts",
+          "imageDescription": "La Carconte, pale and draped in faded shawls, peers anxiously from the dark wooden staircase into the dimly lit parlor below, where Caderousse and the abbé are seated by the table. Shadows play across the simple room, the mood tense and uneasy, with concern etched on La Carconte's thin features.",
+          "characterIds": [
+            "caderousse",
+            "madeleine_radelle"
+          ]
+        },
+        {
+          "startParagraph": 100,
+          "endParagraph": 100,
+          "locationDescription": "Parlor and stairs, La Carconte listens as Caderousse continues",
+          "imageDescription": "La Carconte sits hunched on the staircase, her head on her knees, shivering, listening intently to the abbé and Caderousse talking below. The priest listens gravely as Caderousse gestures animatedly. The parlor is sparse, with evening shadows growing, and tension hovers in the air.",
+          "characterIds": [
+            "caderousse",
+            "madeleine_radelle"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Inn parlor, Caderousse and abbé discuss Fernand and Danglars",
+          "imageDescription": "Caderousse speaks bitterly to the abbé in the modest parlor, his face a mix of remorse and resentment. The abbé listens in the deepening dusk, his expression controlled but intent. La Carconte is dimly visible on the stairs, head down. The mood is weighted with confession and memory.",
+          "characterIds": [
+            "caderousse",
+            "madeleine_radelle"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Parlor and staircase, debate about the diamond",
+          "imageDescription": "The abbé shows the diamond to both Caderousse and La Carconte, who descends the staircase with frail determination. The simple room glows with the reflected light from the jewel, drawing greedy, astonished looks from the couple. Evening falls, deepening the contrast between the brilliance of the diamond and the faded poverty around.",
+          "characterIds": [
+            "caderousse",
+            "madeleine_radelle"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Parlor, Caderousse and abbé make plans",
+          "imageDescription": "Caderousse, sweat on his brow, debates in hushed tones with the composed abbé beside the small table. Shadows lengthen across the poor inn, the diamond now hidden away. La Carconte withdraws slowly up the stairs, concern still etched on her face. The tension is now internal, full of temptation and plotting.",
+          "characterIds": [
+            "caderousse",
+            "madeleine_radelle"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Parlor, abbé prepares to leave; Caderousse and La Carconte confer",
+          "imageDescription": "By the doorway, with evening light fading, Caderousse and La Carconte exchange intense, scheming glances. The worn woman pauses on the stair, warning her husband, while the abbé is away checking on his horse outside. The atmosphere is thick with temptation and unease, painted in deep shadow and ochre tones.",
+          "characterIds": [
+            "caderousse",
+            "madeleine_radelle"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 153,
+          "locationDescription": "Parlor, Caderousse confides in the abbé",
+          "imageDescription": "The abbé, seated in the deep shadowy corner of the inn parlor, listens intently as Caderousse sits across from him, his face alight with cupidity and anxiety. The door is closed and barred, isolating the two, while faint lamplight catches their tense, expectant faces. A sense of secrecy and confession permeates the scene.",
+          "characterIds": [
+            "caderousse"
+          ]
         }
       ]
     },
