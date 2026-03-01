@@ -16,6 +16,8 @@ export interface ReaderFooterProps {
 const FOOTER_EXIT_DELAY_MS = 500;
 /** Breakpoint for "large enough for both": same as Tailwind md (768px). */
 const LARGE_SCREEN_MQ = "(min-width: 768px)";
+/** Max avatars to show in the stacked (location-expanded) view on small screens. */
+const MAX_STACKED_AVATARS = 3;
 
 function dedupeIds(ids: string[]): string[] {
   return [...new Set(ids)];
@@ -125,8 +127,8 @@ export function ReaderFooter({ locationLabel, visibleCharacterIds, xrayData, onO
       role="contentinfo"
       aria-label="Current scene"
     >
-      <div className="max-w-3xl mx-auto px-4 py-2 flex items-center justify-between gap-4 flex-wrap">
-        <div className="flex items-center gap-2 flex-wrap overflow-hidden min-w-0 flex-1 min-w-0">
+      <div className="max-w-3xl mx-auto px-4 py-2 flex items-center justify-between gap-4 flex-wrap min-h-10">
+        <div className="flex items-center gap-2 flex-wrap overflow-hidden min-w-0 flex-1 min-w-0 justify-center md:justify-start">
           {isLargeScreen &&
             uniqueDisplayedIds.map((entityId) => {
               const data = xrayData[entityId];
@@ -137,37 +139,40 @@ export function ReaderFooter({ locationLabel, visibleCharacterIds, xrayData, onO
               );
             })}
           {isSmallScreen && uniqueDisplayedIds.length > 0 && (
-            <SmallScreenAvatarBlock
-              uniqueDisplayedIds={uniqueDisplayedIds}
-              xrayData={xrayData}
-              isStacked={showLocationExpanded}
-              onStackClick={() => setShowLocationExpanded(false)}
-              onAvatarClick={onOpenEntity}
-              overlapPx={overlapPx}
-              isExiting={isExiting}
-            />
-          )}
-          {showLocationTextSmall && (
-            <span className="text-sm text-stone-600 truncate min-w-0 ml-auto text-right" title="Scene location">
-              {locationLabel}
-            </span>
+            <>
+              <SmallScreenAvatarBlock
+                uniqueDisplayedIds={uniqueDisplayedIds}
+                xrayData={xrayData}
+                isStacked={showLocationExpanded}
+                maxStacked={MAX_STACKED_AVATARS}
+                onStackClick={() => setShowLocationExpanded(false)}
+                onAvatarClick={onOpenEntity}
+                overlapPx={overlapPx}
+                isExiting={isExiting}
+              />
+              {showLocationTextSmall && (
+                <span className="text-sm text-stone-600 truncate min-w-0 h-10 flex items-center justify-center leading-10 shrink" title="Scene location">
+                  {locationLabel}
+                </span>
+              )}
+              {showLocationIcon && (
+                <button
+                  type="button"
+                  onClick={() => setShowLocationExpanded(true)}
+                  className="shrink-0 h-10 w-10 flex items-center justify-center rounded-full border border-stone-200 bg-stone-100 hover:ring-2 hover:ring-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-500 transition-all"
+                  title="Show scene location"
+                  aria-label="Show scene location"
+                >
+                  <MapPin className="w-5 h-5 text-stone-600" aria-hidden />
+                </button>
+              )}
+            </>
           )}
         </div>
         {showLocationTextLarge && (
           <span className="text-sm text-stone-600 text-right shrink-0" title="Scene location">
             {locationLabel}
           </span>
-        )}
-        {showLocationIcon && (
-          <button
-            type="button"
-            onClick={() => setShowLocationExpanded(true)}
-            className="shrink-0 p-2 rounded-full border border-stone-200 bg-stone-100 hover:ring-2 hover:ring-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-500 transition-all"
-            title="Show scene location"
-            aria-label="Show scene location"
-          >
-            <MapPin className="w-5 h-5 text-stone-600" aria-hidden />
-          </button>
         )}
       </div>
     </footer>
@@ -179,6 +184,7 @@ function SmallScreenAvatarBlock({
   uniqueDisplayedIds,
   xrayData,
   isStacked,
+  maxStacked,
   onStackClick,
   onAvatarClick,
   overlapPx,
@@ -187,6 +193,7 @@ function SmallScreenAvatarBlock({
   uniqueDisplayedIds: string[];
   xrayData: Record<string, XRayEntityData>;
   isStacked: boolean;
+  maxStacked: number;
   onStackClick: () => void;
   onAvatarClick: (entityId: string) => void;
   overlapPx: number;
@@ -205,6 +212,8 @@ function SmallScreenAvatarBlock({
     }
   };
 
+  const idsToShow = isStacked ? uniqueDisplayedIds.slice(-maxStacked) : uniqueDisplayedIds;
+
   return (
     <div
       role={isStacked ? "button" : undefined}
@@ -215,7 +224,7 @@ function SmallScreenAvatarBlock({
       aria-label={isStacked ? "Show characters" : undefined}
       title={isStacked ? "Show characters" : undefined}
     >
-      {uniqueDisplayedIds.map((entityId, i) => {
+      {idsToShow.map((entityId, i) => {
         const data = xrayData[entityId];
         const name = data?.name ?? entityId;
         const stackedOffset = isStacked ? -i * overlapPx : 0;
