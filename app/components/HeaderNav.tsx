@@ -33,7 +33,7 @@ export function HeaderNav() {
           <button
             type="button"
             onClick={() => router.back()}
-            className="flex items-center justify-center text-stone-500 hover:text-stone-700 transition-colors p-1 -m-1"
+            className="flex items-center justify-center text-stone-500 hover:text-stone-700 dark:text-stone-400 dark:hover:text-stone-200 transition-colors p-1 -m-1"
             aria-label="Back"
           >
             <ArrowLeft className="size-5" aria-hidden />
@@ -41,7 +41,7 @@ export function HeaderNav() {
         ) : null}
         <Link
           href="/"
-          className="flex items-center gap-2 font-semibold text-stone-800 hover:text-stone-600"
+          className="flex items-center gap-2 font-semibold text-stone-800 hover:text-stone-600 dark:text-stone-100 dark:hover:text-stone-300"
           aria-label="The Count of Monte Cristo"
         >
           <BookOpen className="size-5 shrink-0 sm:hidden" aria-hidden />
@@ -49,7 +49,7 @@ export function HeaderNav() {
         </Link>
         <Link
           href="/chapters"
-          className="flex items-center gap-2 text-stone-500 hover:text-stone-700"
+          className="flex items-center gap-2 text-stone-500 hover:text-stone-700 dark:text-stone-400 dark:hover:text-stone-200"
           aria-label="Table of Contents"
         >
           <List className="size-5 shrink-0 sm:hidden" aria-hidden />
@@ -57,7 +57,7 @@ export function HeaderNav() {
         </Link>
         <Link
           href="/search"
-          className="flex items-center gap-2 text-stone-500 hover:text-stone-700"
+          className="flex items-center gap-2 text-stone-500 hover:text-stone-700 dark:text-stone-400 dark:hover:text-stone-200"
           aria-label="Search"
         >
           <Search className="size-5 shrink-0 sm:hidden" aria-hidden />
@@ -65,23 +65,23 @@ export function HeaderNav() {
         </Link>
       </div>
       {chapterNum != null ? (
-        <div className="flex items-center gap-3 text-stone-600">
+        <div className="flex items-center gap-3 text-stone-600 dark:text-stone-300">
           {prev ? (
             <Link
               href={`/chapter/${prev}`}
-              className="hover:text-stone-900 transition-colors"
+              className="hover:text-stone-900 dark:hover:text-stone-100 transition-colors"
               aria-label={`Chapter ${prev}`}
             >
               <ChevronLeft className="size-5" aria-hidden />
             </Link>
           ) : (
-            <span className="text-stone-300 cursor-default" aria-hidden>
+            <span className="text-stone-300 dark:text-stone-700 cursor-default" aria-hidden>
               <ChevronLeft className="size-5" />
             </span>
           )}
           <Link
             href="/chapters"
-            className="font-medium text-stone-800 tabular-nums min-w-[3rem] text-center hover:text-stone-600 transition-colors block"
+            className="font-medium text-stone-800 tabular-nums min-w-[3rem] text-center hover:text-stone-600 dark:text-stone-100 dark:hover:text-stone-300 transition-colors block"
             aria-label="Open table of contents"
           >
             Ch. {chapterNum}
@@ -89,13 +89,13 @@ export function HeaderNav() {
           {next ? (
             <Link
               href={`/chapter/${next}`}
-              className="hover:text-stone-900 transition-colors"
+              className="hover:text-stone-900 dark:hover:text-stone-100 transition-colors"
               aria-label={`Chapter ${next}`}
             >
               <ChevronRight className="size-5" aria-hidden />
             </Link>
           ) : (
-            <span className="text-stone-300 cursor-default" aria-hidden>
+            <span className="text-stone-300 dark:text-stone-700 cursor-default" aria-hidden>
               <ChevronRight className="size-5" />
             </span>
           )}

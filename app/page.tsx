@@ -16,14 +16,14 @@ export default function Home() {
     <main className="max-w-4xl mx-auto px-4 py-10">
       {/* Hero */}
       <div className="mb-12 text-center">
-        <div className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-stone-800 text-white text-4xl mb-6 shadow-lg">
+        <div className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-stone-800 text-white dark:bg-amber-400 dark:text-stone-950 text-4xl mb-6 shadow-lg">
           ⚓
         </div>
-        <h1 className="text-4xl font-bold text-stone-900 mb-2">
+        <h1 className="text-4xl font-bold text-stone-900 dark:text-stone-100 mb-2">
           The Count of Monte Cristo
         </h1>
-        <p className="text-lg text-stone-500 mb-1">Alexandre Dumas, père</p>
-        <p className="text-sm text-stone-400">
+        <p className="text-lg text-stone-500 dark:text-stone-400 mb-1">Alexandre Dumas, père</p>
+        <p className="text-sm text-stone-400 dark:text-stone-500">
           {book.chapters.length} chapters · 5 volumes · Public Domain
         </p>
 
@@ -31,13 +31,13 @@ export default function Home() {
           <StartOrContinueLink />
           <Link
             href="/characters"
-            className="inline-flex items-center gap-2 px-6 py-2.5 border border-stone-300 text-stone-700 rounded-full text-sm font-medium hover:bg-stone-100 transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-2.5 border border-stone-300 text-stone-700 rounded-full text-sm font-medium hover:bg-stone-100 dark:border-stone-700 dark:text-stone-200 dark:hover:bg-stone-900 transition-colors"
           >
             Character Guide
           </Link>
           <Link
             href="/search"
-            className="inline-flex items-center gap-2 px-6 py-2.5 border border-stone-300 text-stone-700 rounded-full text-sm font-medium hover:bg-stone-100 transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-2.5 border border-stone-300 text-stone-700 rounded-full text-sm font-medium hover:bg-stone-100 dark:border-stone-700 dark:text-stone-200 dark:hover:bg-stone-900 transition-colors"
           >
             Search
           </Link>
@@ -45,11 +45,11 @@ export default function Home() {
       </div>
 
       {/* Introduction */}
-      <div className="mb-10 p-6 bg-amber-50 border border-amber-100 rounded-xl">
-        <h2 className="text-sm font-semibold uppercase tracking-widest text-amber-700 mb-2">
+      <div className="mb-10 p-6 bg-amber-50 border border-amber-100 dark:bg-amber-950/30 dark:border-amber-900/60 rounded-xl">
+        <h2 className="text-sm font-semibold uppercase tracking-widest text-amber-700 dark:text-amber-300 mb-2">
           Introduction
         </h2>
-        <p className="text-stone-700 leading-relaxed">
+        <p className="text-stone-700 dark:text-stone-300 leading-relaxed">
           Set in France and the Mediterranean in the early 19th century, Alexandre Dumas&apos;s
           masterpiece follows Edmond Dantès, a young merchant sailor from Marseille on the eve of his
           wedding. What begins as a story of love and promise soon becomes an epic of injustice,
@@ -59,11 +59,11 @@ export default function Home() {
 
       {/* Chapter List by Volume */}
       <div>
-        <h2 className="text-xl font-semibold text-stone-800 mb-6">Chapters</h2>
+        <h2 className="text-xl font-semibold text-stone-800 dark:text-stone-200 mb-6">Chapters</h2>
         <div className="space-y-8">
           {chaptersByVolume.map(({ label, chapters }) => (
             <div key={label}>
-              <h3 className="text-xs font-bold uppercase tracking-widest text-stone-400 mb-3 border-b border-stone-200 pb-2">
+              <h3 className="text-xs font-bold uppercase tracking-widest text-stone-400 dark:text-stone-500 mb-3 border-b border-stone-200 dark:border-stone-800 pb-2">
                 {label}
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-1">
@@ -71,12 +71,12 @@ export default function Home() {
                   <Link
                     key={chapter.number}
                     href={`/chapter/${chapter.number}`}
-                    className="flex items-start gap-3 p-2 rounded-lg hover:bg-stone-100 transition-colors group"
+                    className="flex items-start gap-3 p-2 rounded-lg hover:bg-stone-100 dark:hover:bg-stone-900 transition-colors group"
                   >
-                    <span className="flex-shrink-0 w-8 text-right text-xs text-stone-400 mt-0.5 font-mono">
+                    <span className="flex-shrink-0 w-8 text-right text-xs text-stone-400 dark:text-stone-500 mt-0.5 font-mono">
                       {chapter.number}
                     </span>
-                    <span className="text-sm text-stone-700 group-hover:text-stone-900 leading-snug">
+                    <span className="text-sm text-stone-700 dark:text-stone-300 group-hover:text-stone-900 dark:group-hover:text-stone-100 leading-snug">
                       {chapter.title}
                     </span>
                   </Link>

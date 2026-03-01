@@ -151,7 +151,10 @@ export function ChapterContent({
 
   return (
     <>
-      <div ref={articleRef} className="prose prose-stone prose-xl max-w-none pb-20">
+      <div
+        ref={articleRef}
+        className="prose prose-stone prose-xl dark:prose-invert max-w-none pb-20"
+      >
         {paragraphSegments.map((segments, i) => (
           <React.Fragment key={i}>
             {sceneKeyByParagraphStart[i] != null && (
@@ -174,8 +177,8 @@ export function ChapterContent({
               onClick={(event) => openContextMenu(event, i)}
               className={
                 isPlaceholderParagraph(segments)
-                  ? "text-xl leading-relaxed text-stone-800 mb-0 min-h-0 overflow-hidden"
-                  : "text-xl mb-4 leading-relaxed text-stone-800"
+                  ? "text-xl leading-relaxed text-stone-800 dark:text-stone-300 mb-0 min-h-0 overflow-hidden"
+                  : "text-xl mb-4 leading-relaxed text-stone-800 dark:text-stone-300"
               }
             >
             {segments.map((seg, j) =>
@@ -191,7 +194,7 @@ export function ChapterContent({
                     setContextMenuAnchor(null);
                     setOpenEntityId(seg.entityId);
                   }}
-                  className="text-amber-700 hover:text-amber-800 hover:underline font-medium cursor-pointer bg-transparent border-none p-0 align-baseline"
+                  className="text-amber-700 hover:text-amber-800 dark:text-amber-300 dark:hover:text-amber-200 hover:underline font-medium cursor-pointer bg-transparent border-none p-0 align-baseline"
                 >
                   {seg.content}
                 </button>

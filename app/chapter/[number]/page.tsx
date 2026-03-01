@@ -98,13 +98,13 @@ export default async function ChapterPage({ params }: Props) {
     <main className="max-w-3xl mx-auto px-4 py-8">
       {/* Chapter header */}
       <div className="mb-8">
-        <p className="text-xs font-semibold uppercase tracking-widest text-amber-600 mb-1">
+        <p className="text-xs font-semibold uppercase tracking-widest text-amber-600 dark:text-amber-400 mb-1">
           {VOLUME_LABELS[chapter.volume]}
         </p>
-        <h1 className="text-3xl font-bold text-stone-900 mb-1">
+        <h1 className="text-3xl font-bold text-stone-900 dark:text-stone-100 mb-1">
           Chapter {chapter.number}
         </h1>
-        <h2 className="text-xl text-stone-500">{chapter.title}</h2>
+        <h2 className="text-xl text-stone-500 dark:text-stone-400">{chapter.title}</h2>
       </div>
 
       <div className="flex flex-col lg:flex-row gap-8">
@@ -121,15 +121,15 @@ export default async function ChapterPage({ params }: Props) {
       </div>
 
       {/* Navigation */}
-      <nav className="mt-12 pt-6 border-t border-stone-200 flex items-center justify-between gap-4">
+      <nav className="mt-12 pt-6 border-t border-stone-200 dark:border-stone-800 flex items-center justify-between gap-4">
         {prev ? (
           <Link
             href={`/chapter/${prev}`}
-            className="flex items-center gap-2 text-sm text-stone-600 hover:text-stone-900 group"
+            className="flex items-center gap-2 text-sm text-stone-600 hover:text-stone-900 dark:text-stone-400 dark:hover:text-stone-100 group"
           >
             <span className="text-lg group-hover:-translate-x-0.5 transition-transform">←</span>
             <span>
-              <span className="block text-xs text-stone-400">Previous</span>
+              <span className="block text-xs text-stone-400 dark:text-stone-500">Previous</span>
               Chapter {prev}
             </span>
           </Link>
@@ -137,17 +137,17 @@ export default async function ChapterPage({ params }: Props) {
           <div />
         )}
 
-        <span className="text-xs text-stone-400">
+        <span className="text-xs text-stone-400 dark:text-stone-500">
           {num} / {total}
         </span>
 
         {next ? (
           <Link
             href={`/chapter/${next}`}
-            className="flex items-center gap-2 text-sm text-stone-600 hover:text-stone-900 group text-right"
+            className="flex items-center gap-2 text-sm text-stone-600 hover:text-stone-900 dark:text-stone-400 dark:hover:text-stone-100 group text-right"
           >
             <span>
-              <span className="block text-xs text-stone-400">Next</span>
+              <span className="block text-xs text-stone-400 dark:text-stone-500">Next</span>
               Chapter {next}
             </span>
             <span className="text-lg group-hover:translate-x-0.5 transition-transform">→</span>

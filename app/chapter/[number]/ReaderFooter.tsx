@@ -40,7 +40,7 @@ export function ReaderFooter({
 
   return (
     <footer
-      className="fixed bottom-0 left-0 right-0 z-40 border-t border-stone-200 bg-stone-50/95 backdrop-blur supports-[backdrop-filter]:bg-stone-50/90"
+      className="fixed bottom-0 left-0 right-0 z-40 border-t border-stone-200 bg-stone-50/95 backdrop-blur supports-[backdrop-filter]:bg-stone-50/90 dark:border-stone-800 dark:bg-stone-950/95 dark:supports-[backdrop-filter]:bg-stone-950/90"
       role="contentinfo"
       aria-label="Current scene"
     >
@@ -242,8 +242,8 @@ function FooterLocationLabel({
 }) {
   const className =
     variant === "inline"
-      ? "text-sm text-stone-600 truncate min-w-0 h-10 flex items-center justify-center leading-10 shrink"
-      : "text-sm text-stone-600 text-right flex-1 min-w-0 truncate";
+      ? "text-sm text-stone-600 dark:text-stone-400 truncate min-w-0 h-10 flex items-center justify-center leading-10 shrink"
+      : "text-sm text-stone-600 dark:text-stone-400 text-right flex-1 min-w-0 truncate";
   return (
     <span className={className} title="Scene location">
       {label}
@@ -256,11 +256,11 @@ function LocationExpandButton({ onExpand }: { onExpand: () => void }) {
     <button
       type="button"
       onClick={onExpand}
-      className="shrink-0 h-10 w-10 flex items-center justify-center rounded-full border border-stone-200 bg-stone-100 hover:ring-2 hover:ring-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-500 transition-all"
+      className="shrink-0 h-10 w-10 flex items-center justify-center rounded-full border border-stone-200 bg-stone-100 hover:ring-2 hover:ring-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-500 dark:border-stone-700 dark:bg-stone-800 dark:hover:ring-amber-300 dark:focus:ring-amber-300 transition-all"
       title="Show scene location"
       aria-label="Show scene location"
     >
-      <MapPin className="w-5 h-5 text-stone-600" aria-hidden />
+      <MapPin className="w-5 h-5 text-stone-600 dark:text-stone-300" aria-hidden />
     </button>
   );
 }
@@ -310,7 +310,7 @@ function SmallScreenAvatarBlock({
       tabIndex={isStacked ? 0 : undefined}
       onClick={handleClick}
       onKeyDown={isStacked ? (e) => e.key === "Enter" && onStackClick() : undefined}
-      className={`flex items-center shrink-0 ${isStacked ? "cursor-pointer focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2 rounded-full" : ""}`}
+      className={`flex items-center shrink-0 ${isStacked ? "cursor-pointer focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2 rounded-full dark:focus:ring-amber-300 dark:focus:ring-offset-stone-950" : ""}`}
       aria-label={isStacked ? "Show characters" : undefined}
       title={isStacked ? "Show characters" : undefined}
     >
@@ -357,10 +357,10 @@ function AnimatedAvatar({
 
   const visible = mounted && !leaving;
   const baseClass =
-    "h-10 min-w-0 overflow-hidden rounded-full border border-stone-200 bg-stone-100 transition-[opacity,width] duration-500 " +
+    "h-10 min-w-0 overflow-hidden rounded-full border border-stone-200 bg-stone-100 dark:border-stone-700 dark:bg-stone-800 transition-[opacity,width] duration-500 " +
     (visible ? "w-10 opacity-100" : "w-0 opacity-0 pointer-events-none border-0");
   const interactiveClass =
-    "hover:ring-2 hover:ring-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-500";
+    "hover:ring-2 hover:ring-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-500 dark:hover:ring-amber-300 dark:focus:ring-amber-300";
   const content = <CharacterAvatar entityId={entityId} name={name} />;
 
   if (onOpenEntity != null) {
@@ -391,7 +391,7 @@ function CharacterAvatar({ entityId, name }: { entityId: string; name: string })
   const [imgError, setImgError] = React.useState(false);
   if (imgError) {
     return (
-      <span className="w-full h-full flex items-center justify-center text-xs font-medium text-stone-500">
+      <span className="w-full h-full flex items-center justify-center text-xs font-medium text-stone-500 dark:text-stone-300">
         {name.charAt(0).toUpperCase()}
       </span>
     );
