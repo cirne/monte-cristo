@@ -26,8 +26,8 @@ cp .env.example .env
 # (Optional) Re-parse the book data from the raw text
 bun run parse-book
 
-# (Optional) Rebuild chapter index for X-Ray links (persons, places, events). Run after parse-book.
-bun run build-chapter-index
+# (Optional) Rebuild chapter index for X-Ray links (persons, places, events) and scene metadata.
+bun run index-chapter --all
 
 # Start development server
 bun run dev
@@ -48,7 +48,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 ├── data/
 │   ├── book.json      # Parsed book with full chapter text
 │   ├── book-index.json # Lightweight chapter index (no content)
-│   └── chapter-index.json # Entity index per chapter (X-Ray links; run build-chapter-index)
+│   └── chapter-index.json # Entity + scene index per chapter (run index-chapter --all)
 ├── lib/
 │   ├── book.ts        # Server-side book data access
 │   ├── characters.ts  # Character definitions and metadata
@@ -60,12 +60,10 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 │   └── openai.ts     # OpenAI client for LLM indexing, characters, images
 └── scripts/
     ├── parse-book.ts # Book parser (Gutenberg text → JSON)
-    └── build-chapter-index.ts # Build chapter-index.json (run after parse-book)
+    ├── index-chapter.ts # Canonical chapter indexer (LLM entities/scenes; supports --chapter / --all)
+    ├── generate-images.ts # Generate entity images
+    └── generate-scene-images.ts # Generate scene images from chapter scenes
 ```
-
-## Planned: Scenes
-
-A **scenes** feature is planned: at any point in the book the user will be able to click a button and get a sense of the **current scene** based on the text visible at the top of the viewport. See [docs/FUTURE.md](docs/FUTURE.md) for notes.
 
 ## Tech Stack
 

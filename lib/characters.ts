@@ -95,6 +95,24 @@ export const CHARACTERS: Character[] = [
     role: "supporting",
   },
   {
+    id: "m_morrel",
+    name: "M. Morrel",
+    aliases: ["Monsieur Morrel", "M. Morel", "Monsieur Morel", "Pierre Morrel", "Pierre Morel"],
+    description:
+      "The owner of the Pharaon shipping line and Dantès's employer, known for his loyalty and integrity.",
+    spoilerFreeIntro: "A respected shipowner in Marseilles and Edmond Dantès's employer.",
+    searchTerms: ["M. Morrel", "Monsieur Morrel", "Morrel", "M. Morel", "Monsieur Morel", "Morel"],
+    matchPatterns: [
+      "M\\.?\\s*Morrel",
+      "Monsieur\\s+Morrel",
+      "M\\.?\\s*Morel",
+      "Monsieur\\s+Morel",
+      "\\bMorrel\\b",
+      "\\bMorel\\b",
+    ],
+    role: "ally",
+  },
+  {
     id: "maximilian",
     name: "Maximilian Morrel",
     aliases: ["Maximilien"],

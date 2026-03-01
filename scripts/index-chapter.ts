@@ -11,6 +11,7 @@
  *   bun run scripts/index-chapter.ts --chapter=1
  *   bun run scripts/index-chapter.ts --all
  *   bun run scripts/index-chapter.ts --all --seed-from-curated
+ *   bun run scripts/index-chapter.ts --chapter=6 --overwrite-existing
  *
  * Scenes are detected via LLM and written into each chapter index entry (data/chapter-index.json).
  */
@@ -30,6 +31,7 @@ import { getSingleScene } from "../lib/scenes";
 import { getScenesFromLLM } from "../lib/scenes-llm";
 import { CHARACTERS, getCharacter } from "../lib/characters";
 import { PLACES_AND_EVENTS, getPlaceOrEvent } from "../lib/entities";
+import { mergeChapterIndexEntry } from "../lib/chapter-index-merge";
 
 const DATA_DIR = join(import.meta.dir, "..", "data");
 const BASELINE_INTRO =
@@ -364,10 +366,17 @@ async function main() {
   const chapterNum = chapterArg ? parseInt(chapterArg.split("=")[1], 10) : null;
   const all = args.includes("--all");
   const seedFromCurated = args.includes("--seed-from-curated");
+  const overwriteExisting = args.includes("--overwrite-existing") || args.includes("--overwrite");
 
   if (!all && (chapterNum == null || isNaN(chapterNum))) {
-    console.error("Usage: bun run scripts/index-chapter.ts --chapter=1 | --all [--seed-from-curated]");
+    console.error(
+      "Usage: bun run scripts/index-chapter.ts --chapter=1 | --all [--seed-from-curated] [--overwrite-existing]"
+    );
     process.exit(1);
+  }
+
+  if (!overwriteExisting) {
+    console.log("Patch mode: preserving existing chapter data (use --overwrite-existing to replace).");
   }
 
   const bookPath = join(DATA_DIR, "book.json");
@@ -409,8 +418,10 @@ async function main() {
     console.log(`Indexing chapter ${ch.number}...`);
     const entry = await indexChapter(ch.number, ch.content, store);
     const existingIdx = index.chapters.findIndex((c) => c.number === ch.number);
-    if (existingIdx >= 0) index.chapters[existingIdx] = entry;
-    else index.chapters.push(entry);
+    const existingEntry = existingIdx >= 0 ? index.chapters[existingIdx] : undefined;
+    const mergedEntry = mergeChapterIndexEntry(existingEntry, entry, { overwriteExisting });
+    if (existingIdx >= 0) index.chapters[existingIdx] = mergedEntry;
+    else index.chapters.push(mergedEntry);
     index.chapters.sort((a, b) => a.number - b.number);
   }
 
