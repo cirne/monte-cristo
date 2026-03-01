@@ -45,7 +45,7 @@ Used by both entity and scene CLIs.
 
 **CLI:** `bun run scripts/generate-scene-images.ts`
 
-- **Input:** `data/book.json` (from parse-book), `data/image-style.txt`, and optionally existing `data/scene-image-prompts.json`. Scenes come from `lib/scenes.ts` (`getScenes(content)`).
+- **Input:** `data/book.json` (from parse-book), `data/image-style.txt`, and optionally existing `data/scene-image-prompts.json`. Scenes come from the chapter index (`data/chapter-index.json`); run `bun run scripts/index-chapter.ts --chapter=N` or `--all` to populate scenes (LLM-based).
 - **Prompt generation:** For each scene we slice the chapter paragraphs by `startParagraph`/`endParagraph`, cap at 4000 characters, and call the LLM (gpt-4o-mini) with the style guide and scene text. The model is instructed to produce a single DALL·E prompt: focus on what's visible (setting, lighting, dress, atmosphere), strip or compress dialogue. The returned prompt is saved to `scene-image-prompts.json` (key `ch{N}-scene{M}`).
 - **Image generation:** Same as entities: `buildFullPrompt(prompt, style)` → `generateImageToWebPBuffer` → write to `public/images/scenes/ch{N}-scene{M}.webp`.
 - **Behavior:** Skips scenes that already have an image (and optionally skips prompt generation if a prompt already exists). Use `--force` to regenerate images.
@@ -55,7 +55,7 @@ Used by both entity and scene CLIs.
   - `--workers=N` — Parallel image generation (default 5).
   - `--force` — Overwrite existing scene images.
 
-**In the app:** The chapter page calls `getScenes(chapter.content)` and passes scene list to `ChapterContent`. For each paragraph index that equals a scene's `startParagraph`, we render an image with `src=/images/scenes/ch{N}-scene{M}.webp` before that paragraph. If the file is missing, the figure is hidden on error.
+**In the app:** The chapter page uses scenes from the chapter index (`indexEntry.scenes`) and passes them to `ChapterContent`. For each paragraph index that equals a scene's `startParagraph`, we render an image with `src=/images/scenes/ch{N}-scene{M}.webp` before that paragraph. If the file is missing, the figure is hidden on error.
 
 ## Requirements
 

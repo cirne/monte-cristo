@@ -2,7 +2,7 @@
 
 import React from "react";
 import type { EntityType } from "@/lib/chapter-index";
-import type { Scene } from "@/lib/scenes";
+import type { SceneWithDetails } from "@/lib/scenes";
 import type { Segment } from "@/lib/linkify";
 
 export interface XRayEntityData {
@@ -187,7 +187,8 @@ export function XRayPanel({
 
 interface ChapterContentProps {
   paragraphSegments: Segment[][];
-  scenes: Scene[];
+  /** Scenes from chapter index (SceneWithDetails[]): startParagraph determines where each scene image is shown. */
+  scenes: SceneWithDetails[];
   chapterNumber: number;
   xrayData: Record<string, XRayEntityData>;
   baselineIntro?: string;
@@ -202,11 +203,15 @@ export function ChapterContent({
 }: ChapterContentProps) {
   const [openEntityId, setOpenEntityId] = React.useState<string | null>(null);
 
-  /** Paragraph index -> scene key for scene start (e.g. ch1-scene0) */
+  /** Map: paragraph index -> scene image key (e.g. ch1-scene0). Matches index format: scenes[i].startParagraph -> ch{N}-scene{i}. */
   const sceneKeyByParagraphStart = React.useMemo(() => {
     const map: Record<number, string> = {};
-    scenes.forEach((_, sceneIndex) => {
-      map[scenes[sceneIndex].startParagraph] = `ch${chapterNumber}-scene${sceneIndex}`;
+    if (!Array.isArray(scenes)) return map;
+    scenes.forEach((scene, sceneIndex) => {
+      const start = scene?.startParagraph;
+      if (typeof start === "number" && start >= 0) {
+        map[start] = `ch${chapterNumber}-scene${sceneIndex}`;
+      }
     });
     return map;
   }, [scenes, chapterNumber]);
@@ -221,7 +226,7 @@ export function ChapterContent({
                 <img
                   src={`/images/scenes/${sceneKeyByParagraphStart[i]}.webp`}
                   alt=""
-                  className="w-full aspect-video object-cover"
+                  className="w-full h-auto max-w-full"
                   onError={(e) => {
                     const fig = e.currentTarget.closest("figure");
                     if (fig) (fig as HTMLElement).style.display = "none";

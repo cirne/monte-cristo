@@ -4,7 +4,7 @@ import { getChapter, getBookIndex, VOLUME_LABELS } from "@/lib/book";
 import { getCharacter, CHARACTERS } from "@/lib/characters";
 import { getPlaceOrEvent } from "@/lib/entities";
 import { getChapterIndexEntry } from "@/lib/chapter-index";
-import { getScenes } from "@/lib/scenes";
+import { getParagraphs } from "@/lib/scenes";
 import { linkifyParagraph } from "@/lib/linkify";
 import { ChapterContent } from "./XRayPanel";
 import type { Metadata } from "next";
@@ -35,12 +35,9 @@ function getChapterCharacters(content: string) {
   );
 }
 
-/** Format chapter content into paragraphs */
+/** Format chapter content into paragraphs (same split as indexer uses for scene boundaries). */
 function formatContent(content: string) {
-  return content
-    .split(/\n\n+/)
-    .map((p) => p.replace(/\n/g, " ").trim())
-    .filter(Boolean);
+  return getParagraphs(content);
 }
 
 /** Build X-Ray data for all entities in this chapter (spoiler-free) */
@@ -90,7 +87,7 @@ export default async function ChapterPage({ params }: Props) {
   const indexEntry = getChapterIndexEntry(num);
   const paragraphStrings = formatContent(chapter.content);
   const paragraphSegments = paragraphStrings.map((p) => linkifyParagraph(p, num));
-  const scenes = getScenes(chapter.content);
+  const scenes = indexEntry?.scenes ?? [];
   const xrayData = buildXRayData(num, indexEntry);
   const baselineIntro = indexEntry?.number === 1 ? indexEntry.baselineIntro : undefined;
 

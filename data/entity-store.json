@@ -1,0 +1,247 @@
+{
+  "entities": {
+    "edmond_dants": {
+      "id": "edmond_dants",
+      "name": "Edmond Dantès",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Edmond Dantès"
+      ],
+      "spoilerFreeIntro": "\"Edmond Dantès, an ambitious and devoted young sailor, was revered by his fellow crew members.\""
+    },
+    "m_morrel": {
+      "id": "m_morrel",
+      "name": "M. Morrel",
+      "aliases": [
+        "Monsieur Morrel"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "M. Morrel",
+        "Monsieur Morrel"
+      ],
+      "spoilerFreeIntro": "\"M. Morrel, the esteemed shipowner with a furrowed brow, stood silently grappling with the weight of his concerns.\""
+    },
+    "captain_leclere": {
+      "id": "captain_leclere",
+      "name": "Captain Leclere",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Captain Leclere"
+      ],
+      "spoilerFreeIntro": "\"The esteemed Captain Leclere, known for his bravery on the high seas, had just met an untimely fate.\""
+    },
+    "m_danglars": {
+      "id": "m_danglars",
+      "name": "M. Danglars",
+      "aliases": [
+        "Monsieur Danglars"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "M. Danglars",
+        "Monsieur Danglars"
+      ],
+      "spoilerFreeIntro": "\"M. Danglars, the supercargo, emerged from his cabin with an air of self-importance.\""
+    },
+    "civita_vecchia": {
+      "id": "civita_vecchia",
+      "name": "Civita Vecchia",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Civita Vecchia"
+      ],
+      "spoilerFreeIntro": "\"Off the rugged shores of Civita Vecchia, a somber air clung to the horizon.\""
+    },
+    "el_giglio": {
+      "id": "el_giglio",
+      "name": "El Giglio",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "El Giglio"
+      ],
+      "spoilerFreeIntro": "\"El Giglio, a secluded island marked by both beauty and treachery, loomed on the horizon.\""
+    },
+    "portoferrajo": {
+      "id": "portoferrajo",
+      "name": "Porto-Ferrajo",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Porto-Ferrajo"
+      ],
+      "spoilerFreeIntro": "\"Porto-Ferrajo, a bustling harbor nestled on the island of Elba, beckoned with the promise of adventure and intrigue.\""
+    },
+    "la_canebire": {
+      "id": "la_canebire",
+      "name": "La Canebière",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "La Canebière"
+      ],
+      "spoilerFreeIntro": "\"La Canebière, the bustling heart of Marseille, echoed with the sounds of commerce and conversation.\""
+    },
+    "notredame_de_la_garde": {
+      "id": "notredame_de_la_garde",
+      "name": "Notre-Dame de la Garde",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Notre-Dame de la Garde"
+      ],
+      "spoilerFreeIntro": "\"Perched high above the bustling port, Notre-Dame de la Garde stood as a sentinel over Marseille, its silhouette a comforting promise to weary sailors.\""
+    },
+    "chteau_dif": {
+      "id": "chteau_dif",
+      "name": "Château d'If",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Château d'If"
+      ]
+    },
+    "fort_saintjean": {
+      "id": "fort_saintjean",
+      "name": "Fort Saint-Jean",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Fort Saint-Jean"
+      ],
+      "spoilerFreeIntro": "\"Perched on the edge of the bustling harbor, Fort Saint-Jean stands as a sentinel overlooking the vibrant city of Marseille.\""
+    },
+    "valence": {
+      "id": "valence",
+      "name": "Valence",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Valence"
+      ],
+      "spoilerFreeIntro": "\"A bustling garrison town nestled on the banks of the river Rhône.\""
+    },
+    "mercds": {
+      "id": "mercds",
+      "name": "Mercédès",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Mercédès"
+      ],
+      "spoilerFreeIntro": "\"An enchanting young woman, the captivating Mercédès.\""
+    },
+    "the_pharaon": {
+      "id": "the_pharaon",
+      "name": "the Pharaon",
+      "aliases": [
+        "ship"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the Pharaon",
+        "ship"
+      ],
+      "spoilerFreeIntro": "\"The Pharaon, a grand three-masted ship, arrived in the bustling port, carrying the promise of adventure from distant lands.\""
+    },
+    "marseilles": {
+      "id": "marseilles",
+      "name": "Marseilles",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Marseilles"
+      ],
+      "spoilerFreeIntro": "\"The bustling port of Marseilles came alive as curious onlookers gathered to welcome the arrival of a grand ship.\""
+    },
+    "monte_cristo": {
+      "id": "monte_cristo",
+      "name": "Monte Cristo",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Monte Cristo"
+      ],
+      "spoilerFreeIntro": "\"A rugged and isolated island rising fiercely from the sea, Monte Cristo is shrouded in mystery and whispers of hidden treasures.\""
+    },
+    "the_emperor": {
+      "id": "the_emperor",
+      "name": "the emperor",
+      "aliases": [
+        "Napoleon Bonaparte"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the emperor",
+        "Napoleon Bonaparte"
+      ],
+      "spoilerFreeIntro": "\"The emperors grandeur loomed over the court, his presence commanding respect and intrigue.\""
+    },
+    "morgiou": {
+      "id": "morgiou",
+      "name": "Morgiou",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Morgiou"
+      ],
+      "spoilerFreeIntro": "\"Across the shimmering waters, the rugged cliffs of Cape Morgiou loomed, marking the boundary between the familiar and the unknown.\""
+    },
+    "rion_island": {
+      "id": "rion_island",
+      "name": "Rion island",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Rion island"
+      ],
+      "spoilerFreeIntro": "\"Rion Island, a rugged outpost washed by the azure Mediterranean, loomed ahead, its ancient fortifications standing sentinel against the sea.\""
+    },
+    "pomgue": {
+      "id": "pomgue",
+      "name": "Pomègue",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Pomègue"
+      ],
+      "spoilerFreeIntro": "\"The rugged cliffs of Pomègue loomed ahead, a solitary sentinel guarding the entrance to the harbor.\""
+    },
+    "the_old_phocee_docks": {
+      "id": "the_old_phocee_docks",
+      "name": "the old Phocee docks",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the old Phocee docks"
+      ],
+      "spoilerFreeIntro": "\"The salty air thickened with the scent of tar and adventure as the old Phocee docks creaked under the weight of ships from distant lands.\""
+    }
+  },
+  "lastIndexedChapter": 117
+}

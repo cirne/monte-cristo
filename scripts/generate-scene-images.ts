@@ -1,7 +1,7 @@
-#!/usr/bin/env bun
 /**
- * Generate scene images. Uses scene text → LLM → image prompt, then shared
- * image-gen to produce WebP. Prompts are stored in data/scene-image-prompts.json.
+ * Generate scene images. When the chapter index has LLM-derived scenes with
+ * imageDescription, those are used as the image prompt; otherwise uses scene
+ * text → LLM → image prompt. Prompts are stored in data/scene-image-prompts.json.
  * By default only generates images that don't already exist.
  *
  * Usage:
@@ -15,8 +15,10 @@
 import "../lib/loadEnv";
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "fs";
 import { join } from "path";
-import { requireOpenAIClient } from "../lib/openai";
-import { getScenes, getParagraphs } from "../lib/scenes";
+import { createChatCompletion } from "../lib/llm";
+import { getChapterIndexEntry } from "../lib/chapter-index";
+import { getParagraphs } from "../lib/scenes";
+import type { SceneWithDetails } from "../lib/scenes";
 import { loadStyle, buildFullPrompt, generateImageToWebPBuffer } from "../lib/image-gen";
 
 const ROOT = join(import.meta.dir, "..");
@@ -57,9 +59,7 @@ async function generateSceneImagePrompt(
   chapterNumber: number,
   sceneIndex: number
 ): Promise<string> {
-  const openai = requireOpenAIClient();
-  const response = await openai.chat.completions.create({
-    model: "gpt-4o-mini",
+  const response = await createChatCompletion({
     messages: [
       {
         role: "system",
@@ -82,6 +82,52 @@ Strip out or compress dialogue and non-visual narrative. Output only the image p
 
 function sceneKey(chapterNumber: number, sceneIndex: number): string {
   return `ch${chapterNumber}-scene${sceneIndex}`;
+}
+
+/** Get number of scenes for a chapter from the index. Returns 0 if not indexed. */
+function getSceneCount(chapterNumber: number): number {
+  const indexEntry = getChapterIndexEntry(chapterNumber);
+  return indexEntry?.scenes?.length ?? 0;
+}
+
+/** Get scene bounds and prompt for a scene (index only). */
+async function getScenesAndPrompt(
+  chapterNumber: number,
+  content: string,
+  sceneIndex: number,
+  style: string,
+  scenePrompts: Record<string, string>,
+  saveScenePrompts: (p: Record<string, string>) => void
+): Promise<{ startParagraph: number; endParagraph: number; prompt: string }> {
+  const indexEntry = getChapterIndexEntry(chapterNumber);
+  const scenes = indexEntry?.scenes;
+  if (!scenes?.length || sceneIndex >= scenes.length) {
+    throw new Error(`Scene ${sceneIndex} not found (chapter has ${scenes?.length ?? 0} scenes in index)`);
+  }
+
+  const scene = scenes[sceneIndex] as SceneWithDetails;
+  const key = sceneKey(chapterNumber, sceneIndex);
+
+  let prompt = scenePrompts[key];
+  if (!prompt && scene.imageDescription) {
+    prompt = scene.imageDescription;
+    scenePrompts[key] = prompt;
+    saveScenePrompts(scenePrompts);
+    console.log(`Using index imageDescription for ${key}`);
+  }
+  if (!prompt) {
+    console.log(`Generating prompt for ${key}...`);
+    const sceneText = getSceneText(content, scene.startParagraph, scene.endParagraph);
+    prompt = await generateSceneImagePrompt(sceneText, style, chapterNumber, sceneIndex);
+    scenePrompts[key] = prompt;
+    saveScenePrompts(scenePrompts);
+  }
+
+  return {
+    startParagraph: scene.startParagraph,
+    endParagraph: scene.endParagraph,
+    prompt,
+  };
 }
 
 async function main() {
@@ -127,22 +173,20 @@ async function main() {
       console.error(`Chapter ${chapterNumber} not found`);
       process.exit(1);
     }
-    const scenes = getScenes(chapter.content);
-    if (sceneIndex < 0 || sceneIndex >= scenes.length) {
-      console.error(`Scene ${sceneIndex} not found in chapter ${chapterNumber} (has ${scenes.length} scenes)`);
+    const sceneCount = getSceneCount(chapterNumber);
+    if (sceneIndex < 0 || sceneIndex >= sceneCount) {
+      console.error(`Scene ${sceneIndex} not found in chapter ${chapterNumber} (has ${sceneCount} scenes)`);
       process.exit(1);
     }
     const key = sceneKey(chapterNumber, sceneIndex);
-    let prompt = scenePrompts[key];
-    if (!prompt) {
-      console.log(`Generating prompt for ${key}...`);
-      const scene = scenes[sceneIndex];
-      const sceneText = getSceneText(chapter.content, scene.startParagraph, scene.endParagraph);
-      prompt = await generateSceneImagePrompt(sceneText, style, chapterNumber, sceneIndex);
-      scenePrompts[key] = prompt;
-      saveScenePrompts(scenePrompts);
-      console.log(`Saved prompt for ${key}`);
-    }
+    const { prompt } = await getScenesAndPrompt(
+      chapterNumber,
+      chapter.content,
+      sceneIndex,
+      style,
+      scenePrompts,
+      saveScenePrompts
+    );
     const outPath = join(PUBLIC_SCENES, `${key}.webp`);
     if (existsSync(outPath) && !force) {
       console.log(`Skip ${key}: already exists`);
@@ -160,38 +204,36 @@ async function main() {
       console.error(`Chapter ${chapterNumber} not found`);
       process.exit(1);
     }
-    const scenes = getScenes(chapter.content);
-    for (let i = 0; i < scenes.length; i++) {
+    const sceneCount = getSceneCount(chapter.number);
+    for (let i = 0; i < sceneCount; i++) {
       const key = sceneKey(chapter.number, i);
       const outPath = join(PUBLIC_SCENES, `${key}.webp`);
       if (existsSync(outPath) && !force) continue;
-      let prompt = scenePrompts[key];
-      if (!prompt) {
-        console.log(`Generating prompt for ${key}...`);
-        const scene = scenes[i];
-        const sceneText = getSceneText(chapter.content, scene.startParagraph, scene.endParagraph);
-        prompt = await generateSceneImagePrompt(sceneText, style, chapter.number, i);
-        scenePrompts[key] = prompt;
-        saveScenePrompts(scenePrompts);
-        console.log(`Saved prompt for ${key}`);
-      }
+      const { prompt } = await getScenesAndPrompt(
+        chapter.number,
+        chapter.content,
+        i,
+        style,
+        scenePrompts,
+        saveScenePrompts
+      );
       workItems.push({ chapterNumber: chapter.number, sceneIndex: i, key, prompt });
     }
   } else {
     for (const chapter of book.chapters) {
-      const scenes = getScenes(chapter.content);
-      for (let i = 0; i < scenes.length; i++) {
+      const sceneCount = getSceneCount(chapter.number);
+      for (let i = 0; i < sceneCount; i++) {
         const key = sceneKey(chapter.number, i);
         const outPath = join(PUBLIC_SCENES, `${key}.webp`);
         if (existsSync(outPath) && !force) continue;
-        let prompt = scenePrompts[key];
-        if (!prompt) {
-          const scene = scenes[i];
-          const sceneText = getSceneText(chapter.content, scene.startParagraph, scene.endParagraph);
-          prompt = await generateSceneImagePrompt(sceneText, style, chapter.number, i);
-          scenePrompts[key] = prompt;
-          saveScenePrompts(scenePrompts);
-        }
+        const { prompt } = await getScenesAndPrompt(
+          chapter.number,
+          chapter.content,
+          i,
+          style,
+          scenePrompts,
+          saveScenePrompts
+        );
         workItems.push({ chapterNumber: chapter.number, sceneIndex: i, key, prompt });
       }
     }

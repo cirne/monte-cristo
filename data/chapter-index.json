@@ -5,49 +5,202 @@
       "baselineIntro": "The story opens in Marseilles. The following people, places, and events appear in this chapter.",
       "entities": [
         {
-          "entityId": "notre_dame_garde",
-          "type": "place",
-          "firstSeenInChapter": 1
-        },
-        {
-          "entityId": "fort_saint_jean",
-          "type": "place",
-          "firstSeenInChapter": 1
-        },
-        {
-          "entityId": "dantes",
+          "entityId": "edmond_dants",
           "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ade him as much disliked by the crew as Edmond Dantès was beloved by them.  “Well, M. Morrel,” said Danglars, “you have…"
+        },
+        {
+          "entityId": "m_morrel",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…sadness aboard?”  “A great misfortune, M. Morrel,” replied the young man, “a great misfortune, for me especially! Off C…"
+        },
+        {
+          "entityId": "captain_leclere",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…y! Off Civita Vecchia we lost our brave Captain Leclere.”  “And the cargo?” inquired the owner, eagerly.  “Is all safe,…"
+        },
+        {
+          "entityId": "m_danglars",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…s impatience, “here is your supercargo, M. Danglars, coming out of his cabin, who will furnish you with every particula…"
+        },
+        {
+          "entityId": "civita_vecchia",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…reat misfortune, for me especially! Off Civita Vecchia we lost our brave Captain Leclere.”  “And the cargo?” inquired t…"
+        },
+        {
+          "entityId": "el_giglio",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…und shot at his head and his heels, off El Giglio island. We bring to his widow his sword and cross of honor. It was wo…"
+        },
+        {
+          "entityId": "portoferrajo",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…satisfactory reasons for his landing at Porto-Ferrajo?”  “Yes, most satisfactory, my dear Danglars.”  “Well, so much th…"
+        },
+        {
+          "entityId": "la_canebire",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…with the order that he be put ashore at La Canebière. The two oarsmen bent to their work, and the little boat glided aw…"
+        },
+        {
+          "entityId": "notredame_de_la_garde",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…24th of February, 1815, the look-out at Notre-Dame de la Garde signalled the three-master, the Pharaon from Smyrna, Tri…"
+        },
+        {
+          "entityId": "chteau_dif",
+          "type": "place",
           "firstSeenInChapter": 1
+        },
+        {
+          "entityId": "fort_saintjean",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…nd according to custom, the ramparts of Fort Saint-Jean were covered with spectators; it is always an event at Marseill…"
+        },
+        {
+          "entityId": "valence",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…iment with me when I was in garrison at Valence.’”  “Pardieu! and that is true!” cried the owner, greatly delighted. “A…"
+        },
+        {
+          "entityId": "mercds",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…impatiently than your father—the lovely Mercédès.”  Dantès blushed.  “Ah, ha,” said the shipowner, “I am not in the lea…"
+        },
+        {
+          "entityId": "the_pharaon",
+          "type": "event",
+          "firstSeenInChapter": 1,
+          "excerpt": "…de la Garde signalled the three-master, the Pharaon from Smyrna, Trieste, and Naples.  As usual, a pilot put off immedi…"
         },
         {
           "entityId": "marseilles",
           "type": "place",
-          "firstSeenInChapter": 1
+          "firstSeenInChapter": 1,
+          "excerpt": "…th spectators; it is always an event at Marseilles for a ship to come into port, especially when this ship, like the Ph…"
         },
         {
-          "entityId": "mercedes",
-          "type": "person",
-          "firstSeenInChapter": 1
-        },
-        {
-          "entityId": "danglars",
-          "type": "person",
-          "firstSeenInChapter": 1
-        },
-        {
-          "entityId": "pharaon",
+          "entityId": "monte_cristo",
           "type": "place",
-          "firstSeenInChapter": 1
+          "firstSeenInChapter": 1,
+          "excerpt": "…o stop for ten minutes at the island of Monte Cristo to settle the dispute—a proposition which I was wrong to suggest, …"
         },
         {
-          "entityId": "maximilian",
+          "entityId": "the_emperor",
           "type": "person",
-          "firstSeenInChapter": 1
+          "firstSeenInChapter": 1,
+          "excerpt": "…ne side, he said suddenly—  “And how is the emperor?”  “Very well, as far as I could judge from the sight of him.”  “Yo…"
         },
         {
-          "entityId": "paris",
+          "entityId": "morgiou",
           "type": "place",
-          "firstSeenInChapter": 1
+          "firstSeenInChapter": 1,
+          "excerpt": "…f, got on board the vessel between Cape Morgiou and Rion island.  Immediately, and according to custom, the ramparts of…"
+        },
+        {
+          "entityId": "rion_island",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ard the vessel between Cape Morgiou and Rion island.  Immediately, and according to custom, the ramparts of Fort Saint-…"
+        },
+        {
+          "entityId": "pomgue",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…sareigne and Jaros islands; had doubled Pomègue, and approached the harbor under topsails, jib, and spanker, but so slo…"
+        },
+        {
+          "entityId": "the_old_phocee_docks",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…n, has been built, rigged, and laden at the old Phocee docks, and belongs to an owner of the city.  The ship drew on an…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 2,
+          "locationDescription": "On the lookout at Notre-Dame de la Garde",
+          "imageDescription": "A vibrant coastal scene on February 24, 1815, featuring the imposing Notre-Dame de la Garde overlooking the harbor. Sailors and townsfolk gather along the ramparts, with the majestic three-master ship, the Pharaon, approaching in the distance. The sunlight glistens on the waves, and a pilot boat navigates towards the ship, its crew clad in period-appropriate sailor attire. The atmosphere is filled with anticipation and excitement as the locals await the arrival of their vessel."
+        },
+        {
+          "startParagraph": 3,
+          "endParagraph": 17,
+          "locationDescription": "Onboard the Pharaon",
+          "imageDescription": "Onboard the Pharaon, a young sailor with dark hair leaning over the ship's bulwarks, gazing out at a small skiff approaching the vessel. The deck is bustling with crew members preparing to drop anchor, all dressed in mid-19th-century maritime attire. The sun sets on the horizon, casting a golden hue over the ship, enhancing the tension as the news of Captain Leclere's death is revealed. The atmosphere is rich with camaraderie and underlying concern.",
+          "characterIds": [
+            "edmond_dants",
+            "m_morrel",
+            "captain_leclere"
+          ]
+        },
+        {
+          "startParagraph": 18,
+          "endParagraph": 23,
+          "locationDescription": "Onboard the Pharaon, near the pilot's station",
+          "imageDescription": "A scene depicting the deck of the Pharaon where Dantès converses with M. Morrel, sunlight filtering through the sails above, casting shadows on the wooden deck. Dantès, visibly emotional after sharing the news of Captain Leclere's death, stands resolutely while Morrel listens intently, wearing a worried expression. The crew works diligently in the background, handling sails and rigging, their focus indicative of their respect for their young leader. The atmosphere is somber yet charged with anticipation for the future.",
+          "characterIds": [
+            "edmond_dants",
+            "m_morrel"
+          ]
+        },
+        {
+          "startParagraph": 24,
+          "endParagraph": 33,
+          "locationDescription": "Onboard the Pharaon, as the crew prepares to dock",
+          "imageDescription": "On the bustling deck of the Pharaon, Dantès gestures to M. Morrel to climb onboard as the ship approaches a docking area. The crew, young sailors with attentive expressions, follow orders to secure the vessel, all adorned in typical 19th-century nautical clothing. The harbor is alive with activity; ships bob along the water, and people gather to see the arrival. A sense of duty and pride fills the air, as Dantès manages the moment with both authority and respect.",
+          "characterIds": [
+            "edmond_dants",
+            "m_morrel",
+            "m_danglars"
+          ]
+        },
+        {
+          "startParagraph": 34,
+          "endParagraph": 34,
+          "locationDescription": "Onboard the Pharaon, in conversation with Danglars",
+          "imageDescription": "The scene takes place on the bustling deck of the Pharaon, with Dantès, dressed in a captain's mate attire, attentively speaking to M. Morrel, who is gesturing towards him. Nearby, M. Danglars stands slightly apart, his demeanor indicating annoyance. The afternoon light reflects off the water, and the atmosphere is tense with competition. Sailors can be seen in the background, managing ropes and sails, their busy hands enhancing the sense of urgency in the situation.",
+          "characterIds": [
+            "edmond_dants",
+            "m_morrel",
+            "m_danglars"
+          ]
+        },
+        {
+          "startParagraph": 32,
+          "endParagraph": 127,
+          "locationDescription": "Onboard the Pharaon, discussing Captain Leclere",
+          "imageDescription": "On the deck of the Pharaon, under a clear blue sky, Morrel speaks earnestly to Dantès about the responsibilities of command. Dantès, who embodies youthful determination, stands straight with a commanding demeanor, showcasing his resolve. The crew can be seen working the sails in the background, their loyalty and admiration for Dantès evident even at a distance. The scene encapsulates the balance between hope and pressure on the horizon of Dantès' future.",
+          "characterIds": [
+            "edmond_dants",
+            "m_morrel",
+            "m_danglars"
+          ]
+        },
+        {
+          "startParagraph": 128,
+          "endParagraph": 129,
+          "locationDescription": "On the quay at Marseilles",
+          "imageDescription": "As the sun sets over the bustling quay of Marseilles, a young sailor, Dantès, sits in a small skiff with two oarsmen preparing to row him ashore. The crowds bustle around the harbor, a tapestry of merchants, sailors, and townspeople, all dressed in early 19th-century attire. The harbor is filled with ships and the sounds of commerce, capturing the essence of maritime life. The atmosphere is vibrant, charged with expectancy as Dantès heads towards his family and promised love.",
+          "characterIds": [
+            "edmond_dants",
+            "m_morrel",
+            "mercds"
+          ]
         }
       ]
     },
