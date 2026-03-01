@@ -4,7 +4,7 @@ Context for AI agents and humans working on this codebase.
 
 ## Critical instructions
 
-- **Before every commit/push:** Run `bun run lint` and `bun run build`; fix any errors before pushing.
+- **Before every commit/push:** Run `bun run lint`, `bun run build`, and `bun run test` (or `npm run test`); fix any errors before pushing.
 - Never commit `.env` or put API keys in code.
 
 ## What this project is
@@ -31,6 +31,7 @@ When you change schema or scripts that write to `data/`, run the relevant script
 
 ## Scripts
 
+- `bun run test` / `npm run test` — Run test suite (Vitest)
 - `bun run dev` — Dev server + watch-data
 - `bun run parse-book` — Regenerate book JSON
 - `bun run build-chapter-index` — Regenerate chapter index
