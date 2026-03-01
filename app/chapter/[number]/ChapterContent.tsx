@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import type { Segment } from "@/lib/linkify";
 import type { SceneWithDetails } from "@/lib/scenes";
 import { XRayPanel } from "./XRayPanel";
@@ -128,9 +129,11 @@ export function ChapterContent({
           <React.Fragment key={i}>
             {sceneKeyByParagraphStart[i] != null && (
               <figure className="my-6 -mx-2 rounded-lg overflow-hidden">
-                <img
+                <Image
                   src={`/images/scenes/${sceneKeyByParagraphStart[i]}.webp`}
                   alt=""
+                  width={800}
+                  height={450}
                   className="w-full h-auto max-w-full"
                   onError={(e) => {
                     const fig = e.currentTarget.closest("figure");

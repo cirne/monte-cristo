@@ -229,8 +229,7 @@ async function generateSpoilerFreeIntro(
 async function indexChapter(
   chapterNumber: number,
   content: string,
-  store: EntityStoreData,
-  index: ChapterIndex
+  store: EntityStoreData
 ): Promise<ChapterIndexEntry> {
   const extracted = await extractEntities(chapterNumber, content);
 
@@ -408,7 +407,7 @@ async function main() {
 
   for (const ch of toProcess) {
     console.log(`Indexing chapter ${ch.number}...`);
-    const entry = await indexChapter(ch.number, ch.content, store, index);
+    const entry = await indexChapter(ch.number, ch.content, store);
     const existingIdx = index.chapters.findIndex((c) => c.number === ch.number);
     if (existingIdx >= 0) index.chapters[existingIdx] = entry;
     else index.chapters.push(entry);

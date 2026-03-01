@@ -11,7 +11,7 @@
  */
 
 import "../lib/loadEnv";
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from "fs";
+import { readFileSync, writeFileSync, mkdirSync } from "fs";
 import { join } from "path";
 
 const TEXT_URL =
