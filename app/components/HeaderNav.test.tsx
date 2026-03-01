@@ -19,4 +19,11 @@ describe("app/components/HeaderNav", () => {
     render(<HeaderNav />);
     expect(screen.getByText("Ch. 5")).toBeInTheDocument();
   });
+
+  it("chapter number link goes to table of contents", () => {
+    render(<HeaderNav />);
+    const tocLink = screen.getByLabelText("Open table of contents");
+    expect(tocLink).toHaveAttribute("href", "/chapters");
+    expect(tocLink).toHaveTextContent("Ch. 5");
+  });
 });

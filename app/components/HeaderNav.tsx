@@ -79,9 +79,13 @@ export function HeaderNav() {
               <ChevronLeft className="size-5" />
             </span>
           )}
-          <span className="font-medium text-stone-800 tabular-nums min-w-[3rem] text-center">
+          <Link
+            href="/chapters"
+            className="font-medium text-stone-800 tabular-nums min-w-[3rem] text-center hover:text-stone-600 transition-colors block"
+            aria-label="Open table of contents"
+          >
             Ch. {chapterNum}
-          </span>
+          </Link>
           {next ? (
             <Link
               href={`/chapter/${next}`}
