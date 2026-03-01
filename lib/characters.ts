@@ -8,6 +8,8 @@ export interface Character {
   name: string;
   aliases: string[];
   description: string;
+  /** Short spoiler-free intro for X-Ray when shown from a chapter (e.g. first appearance context) */
+  spoilerFreeIntro?: string;
   /** Search terms (regex-ready strings) used to detect their presence in chapter text */
   searchTerms: string[];
   role: "protagonist" | "antagonist" | "ally" | "supporting";
@@ -20,6 +22,7 @@ export const CHARACTERS: Character[] = [
     aliases: ["The Count of Monte Cristo", "Sinbad the Sailor", "Lord Wilmore", "Abbé Busoni"],
     description:
       "The protagonist. A young sailor falsely imprisoned who escapes to find a vast treasure and exact revenge on those who betrayed him.",
+    spoilerFreeIntro: "A young sailor, first mate of the Pharaon.",
     searchTerms: ["Dantès", "Dantes", "Monte Cristo", "Sinbad", "Busoni", "Wilmore", "Edmond"],
     role: "protagonist",
   },
@@ -29,6 +32,7 @@ export const CHARACTERS: Character[] = [
     aliases: ["Comtesse de Morcerf"],
     description:
       "Dantès's first love, who eventually marries Fernand Mondego believing Edmond to be dead.",
+    spoilerFreeIntro: "Dantès's beloved, from the Catalan quarter of Marseilles.",
     searchTerms: ["Mercédès", "Mercedes", "Comtesse de Morcerf"],
     role: "supporting",
   },
@@ -38,6 +42,7 @@ export const CHARACTERS: Character[] = [
     aliases: ["Comte de Morcerf"],
     description:
       "Dantès's rival for Mercédès's love. One of the conspirators who had Dantès imprisoned; later becomes the Comte de Morcerf.",
+    spoilerFreeIntro: "A Catalan fisherman; rival for Mercédès's affection.",
     searchTerms: ["Fernand", "Morcerf"],
     role: "antagonist",
   },
@@ -47,6 +52,7 @@ export const CHARACTERS: Character[] = [
     aliases: ["Baron Danglars"],
     description:
       "A jealous sailor aboard the Pharaon who orchestrated Dantès's arrest. Later becomes a wealthy banker.",
+    spoilerFreeIntro: "A sailor aboard the Pharaon.",
     searchTerms: ["Danglars"],
     role: "antagonist",
   },
@@ -56,6 +62,7 @@ export const CHARACTERS: Character[] = [
     aliases: ["de Villefort"],
     description:
       "The deputy prosecutor who condemned Dantès to prison to protect his own political ambitions.",
+    spoilerFreeIntro: "The deputy prosecutor in Marseilles.",
     searchTerms: ["Villefort"],
     role: "antagonist",
   },
@@ -65,6 +72,7 @@ export const CHARACTERS: Character[] = [
     aliases: ["the abbé"],
     description:
       "An imprisoned Italian priest who befriends Dantès in the Château d'If, educates him, and reveals the location of a great treasure.",
+    spoilerFreeIntro: "An imprisoned Italian priest known as the abbé.",
     searchTerms: ["Faria", "abbé", "abbe"],
     role: "ally",
   },
@@ -74,6 +82,7 @@ export const CHARACTERS: Character[] = [
     aliases: [],
     description:
       "A neighbor and acquaintance of Dantès who knew of the conspiracy but did nothing to stop it.",
+    spoilerFreeIntro: "A neighbor and acquaintance of Dantès.",
     searchTerms: ["Caderousse"],
     role: "supporting",
   },
@@ -83,6 +92,7 @@ export const CHARACTERS: Character[] = [
     aliases: ["Maximilien"],
     description:
       "The son of Dantès's former employer, Pierre Morrel. A captain in the French Army and a man of great honor.",
+    spoilerFreeIntro: "Son of Dantès's former employer, Pierre Morrel.",
     searchTerms: ["Maximilian", "Maximilien", "Morrel"],
     role: "ally",
   },
@@ -92,6 +102,7 @@ export const CHARACTERS: Character[] = [
     aliases: [],
     description:
       "M. de Villefort's daughter from his first marriage, loved by Maximilian Morrel.",
+    spoilerFreeIntro: "M. de Villefort's daughter.",
     searchTerms: ["Valentine"],
     role: "supporting",
   },
@@ -101,6 +112,7 @@ export const CHARACTERS: Character[] = [
     aliases: ["Haydee"],
     description:
       "A Greek slave purchased by the Count of Monte Cristo, the daughter of Ali Pasha.",
+    spoilerFreeIntro: "A young woman in the Count's household.",
     searchTerms: ["Haydée", "Haydee"],
     role: "ally",
   },
@@ -109,6 +121,7 @@ export const CHARACTERS: Character[] = [
     name: "Albert de Morcerf",
     aliases: [],
     description: "The son of Fernand Mondego and Mercédès.",
+    spoilerFreeIntro: "The son of the Comte and Comtesse de Morcerf.",
     searchTerms: ["Albert"],
     role: "supporting",
   },
@@ -117,6 +130,7 @@ export const CHARACTERS: Character[] = [
     name: "Eugénie Danglars",
     aliases: [],
     description: "Danglars's daughter, an independent young woman engaged (briefly) to Albert.",
+    spoilerFreeIntro: "Danglars's daughter.",
     searchTerms: ["Eugénie", "Eugenie"],
     role: "supporting",
   },
@@ -126,6 +140,7 @@ export const CHARACTERS: Character[] = [
     aliases: ["Franz"],
     description:
       "Albert de Morcerf's friend who first encounters the mysterious Count in Italy.",
+    spoilerFreeIntro: "Albert de Morcerf's friend.",
     searchTerms: ["Franz"],
     role: "supporting",
   },
@@ -134,6 +149,7 @@ export const CHARACTERS: Character[] = [
     name: "Bertuccio",
     aliases: [],
     description: "The Count's faithful steward with a dark past connected to Villefort.",
+    spoilerFreeIntro: "The Count's steward.",
     searchTerms: ["Bertuccio"],
     role: "supporting",
   },
@@ -143,6 +159,7 @@ export const CHARACTERS: Character[] = [
     aliases: ["Madame de Villefort"],
     description:
       "Villefort's second wife, who uses poison to secure her son Édouard's inheritance.",
+    spoilerFreeIntro: "Villefort's second wife.",
     searchTerms: ["Madame de Villefort", "Héloïse"],
     role: "antagonist",
   },

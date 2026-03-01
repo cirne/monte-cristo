@@ -1,8 +1,13 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getChapter, getBookIndex, VOLUME_LABELS } from "@/lib/book";
-import { CHARACTERS } from "@/lib/characters";
+import { getCharacter, CHARACTERS } from "@/lib/characters";
+import { getPlaceOrEvent } from "@/lib/entities";
+import { getChapterIndexEntry } from "@/lib/chapter-index";
+import { linkifyParagraph } from "@/lib/linkify";
+import { ChapterContent } from "./XRayPanel";
 import type { Metadata } from "next";
+import type { XRayEntityData } from "./XRayPanel";
 
 interface Props {
   params: Promise<{ number: string }>;
@@ -37,6 +42,42 @@ function formatContent(content: string) {
     .filter(Boolean);
 }
 
+/** Build X-Ray data for all entities in this chapter (spoiler-free) */
+function buildXRayData(
+  chapterNumber: number,
+  entry: ReturnType<typeof getChapterIndexEntry>
+): Record<string, XRayEntityData> {
+  const data: Record<string, XRayEntityData> = {};
+  if (!entry) return data;
+
+  for (const { entityId, type, firstSeenInChapter, excerpt } of entry.entities) {
+    if (type === "person") {
+      const c = getCharacter(entityId);
+      if (!c) continue;
+      data[entityId] = {
+        name: c.name,
+        aliases: c.aliases,
+        spoilerFreeIntro: c.spoilerFreeIntro,
+        firstSeenInChapter,
+        excerpt,
+        type: "person",
+      };
+    } else {
+      const e = getPlaceOrEvent(entityId);
+      if (!e) continue;
+      data[entityId] = {
+        name: e.name,
+        aliases: [],
+        spoilerFreeIntro: e.spoilerFreeIntro,
+        firstSeenInChapter,
+        excerpt,
+        type: e.type,
+      };
+    }
+  }
+  return data;
+}
+
 export default async function ChapterPage({ params }: Props) {
   const { number } = await params;
   const num = parseInt(number, 10);
@@ -45,6 +86,12 @@ export default async function ChapterPage({ params }: Props) {
   const chapter = getChapter(num);
   if (!chapter) notFound();
 
+  const indexEntry = getChapterIndexEntry(num);
+  const paragraphStrings = formatContent(chapter.content);
+  const paragraphSegments = paragraphStrings.map((p) => linkifyParagraph(p, num));
+  const xrayData = buildXRayData(num, indexEntry);
+  const baselineIntro = indexEntry?.number === 1 ? indexEntry.baselineIntro : undefined;
+
   const book = getBookIndex();
   const total = book.chapters.length;
   const prev = num > 1 ? num - 1 : null;
@@ -52,7 +99,6 @@ export default async function ChapterPage({ params }: Props) {
   const progress = Math.round((num / total) * 100);
 
   const characters = getChapterCharacters(chapter.content);
-  const paragraphs = formatContent(chapter.content);
 
   return (
     <main className="max-w-3xl mx-auto px-4 py-8">
@@ -89,13 +135,12 @@ export default async function ChapterPage({ params }: Props) {
       <div className="flex flex-col lg:flex-row gap-8">
         {/* Chapter text */}
         <article className="flex-1 min-w-0">
-          <div className="prose prose-stone prose-lg max-w-none">
-            {paragraphs.map((para, i) => (
-              <p key={i} className="mb-4 leading-relaxed text-stone-800">
-                {para}
-              </p>
-            ))}
-          </div>
+          <ChapterContent
+            paragraphSegments={paragraphSegments}
+            xrayData={xrayData}
+            chapterNumber={num}
+            baselineIntro={baselineIntro}
+          />
         </article>
 
         {/* Sidebar: Characters in this chapter */}

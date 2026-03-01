@@ -5,9 +5,13 @@
  *
  * Source: https://www.gutenberg.org/ebooks/1184
  * (Downloaded from GITenberg mirror on GitHub)
+ *
+ * Loads .env from project root so OPENAI_API_KEY is available for
+ * LLM-powered indexing (e.g. character/entity extraction).
  */
 
-import { readFileSync, writeFileSync, mkdirSync } from "fs";
+import "../lib/loadEnv";
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from "fs";
 import { join } from "path";
 
 const TEXT_URL =
@@ -125,7 +129,9 @@ function parseBook(raw: string): Book {
 
 async function main() {
   let raw: string;
-  const dataDir = join(import.meta.dir, "..", "data");
+  const meta = import.meta as { dir?: string };
+  const baseDir = meta.dir ? join(meta.dir, "..") : process.cwd();
+  const dataDir = join(baseDir, "data");
   const localPath = join(dataDir, "raw-book.txt");
 
   try {
