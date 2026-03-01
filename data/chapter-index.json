@@ -701,6 +701,12 @@
           "excerpt": "…re their usual sinister smile.  Neither Mercédès nor Edmond observed the strange expression of his countenance; they we…"
         },
         {
+          "entityId": "m_morrel",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…fact, a moment later M. Morrel appeared and was saluted with an enthusiastic burst of applause from the assembled company."
+        },
+        {
           "entityId": "old_dants",
           "type": "person",
           "firstSeenInChapter": 5,
