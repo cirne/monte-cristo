@@ -1,6 +1,7 @@
 import { type NextRequest, NextResponse } from "next/server";
 import {
   buildContextPrompt,
+  coerceAnswerParagraphs,
   generateNarrativeAnswer,
   parseMaxInputTokensParam,
   parseNonNegativeIntParam,
@@ -81,6 +82,7 @@ export async function GET(request: NextRequest) {
     const { answer, source } = await generateNarrativeAnswer({
       systemPrompt: `You are a spoiler-safe reading companion for a serialized novel.
 Summarize the story so far at the exact reading checkpoint and never include events beyond the provided context.
+Return between one and three paragraphs (never more than three).
 Return strict JSON with a single key: "answer".`,
       userPrompt: `Reading checkpoint:
 - Chapter: ${chapterNumber}
@@ -93,16 +95,17 @@ ${context.text}
 Task:
 Write a concise "story so far" recap as of this exact checkpoint.
 Cover the major threads in progress and how the current moment fits into them.
-Target 6-10 sentences.`,
+Use 2-3 short paragraphs, with a hard maximum of 3 paragraphs.`,
       fallbackAnswer,
       maxOutputTokens: 620,
     });
+    const formattedAnswer = coerceAnswerParagraphs(answer, { max: 3 });
 
     return NextResponse.json({
       chapterNumber,
       paragraphIndex: position.paragraphIndex,
       sceneIndex: position.sceneIndex,
-      answer,
+      answer: formattedAnswer,
       answerSource: source,
       contextMeta: {
         includedSections: context.includedSections,

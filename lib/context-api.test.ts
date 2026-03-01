@@ -8,6 +8,7 @@ vi.mock("./llm", () => ({
 
 import {
   buildContextPrompt,
+  coerceAnswerParagraphs,
   generateNarrativeAnswer,
   parseMaxInputTokensParam,
   parseNonNegativeIntParam,
@@ -77,5 +78,19 @@ describe("lib/context-api", () => {
       answer: "fallback answer with enough detail.",
       source: "fallback",
     });
+  });
+
+  it("coerces exact paragraph count by splitting and merging", () => {
+    const oneParagraph =
+      "Sentence one is clear. Sentence two adds context. Sentence three extends the point. Sentence four lands it.";
+    const exactTwo = coerceAnswerParagraphs(oneParagraph, { exact: 2 });
+    const paras = exactTwo.split(/\n\s*\n+/);
+    expect(paras).toHaveLength(2);
+    expect(paras[0].length).toBeGreaterThan(10);
+    expect(paras[1].length).toBeGreaterThan(10);
+
+    const fourParagraphs = "A.\n\nB.\n\nC.\n\nD.";
+    const maxThree = coerceAnswerParagraphs(fourParagraphs, { max: 3 });
+    expect(maxThree.split(/\n\s*\n+/)).toHaveLength(3);
   });
 });

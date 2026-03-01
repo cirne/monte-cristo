@@ -57,7 +57,16 @@ describe("app/api/context/current-scene/route", () => {
     mockGetSceneSummariesBeforeCurrent.mockReturnValue(["Scene 1: Setup."]);
     mockGetSceneTextUpToParagraph.mockReturnValue("Current scene excerpt.");
     mockCreateChatCompletion.mockResolvedValue({
-      choices: [{ message: { content: JSON.stringify({ answer: "The current scene is tense and focused on arrival." }) } }],
+      choices: [
+        {
+          message: {
+            content: JSON.stringify({
+              answer:
+                "The current scene is tense and focused on arrival. Important details are being exchanged among the people present. Their tone suggests urgency around what happens next. The atmosphere remains uneasy even as the conversation continues.",
+            }),
+          },
+        },
+      ],
     });
 
     const request = new NextRequest(
@@ -65,10 +74,12 @@ describe("app/api/context/current-scene/route", () => {
     );
     const response = await GET(request);
     const data = await response.json();
+    const paragraphs = String(data.answer).split(/\n\s*\n+/);
 
     expect(response.status).toBe(200);
     expect(data.answer).toContain("current scene");
     expect(data.answerSource).toBe("llm");
+    expect(paragraphs).toHaveLength(2);
     expect(data.sceneRange).toEqual({ startParagraph: 0, endParagraph: 12 });
     expect(Array.isArray(data.contextMeta.includedSections)).toBe(true);
   });

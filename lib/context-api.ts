@@ -16,6 +16,11 @@ export interface BuiltContextPrompt {
   includedSections: string[];
 }
 
+interface CoerceParagraphOptions {
+  exact?: number;
+  max?: number;
+}
+
 export function parsePositiveIntParam(value: string | null): number | null {
   if (!value) return null;
   const n = Number.parseInt(value, 10);
@@ -72,6 +77,87 @@ export function buildContextPrompt(
     includedSections,
     estimatedInputTokens: estimateTokens(text),
   };
+}
+
+function splitParagraphs(text: string): string[] {
+  return text
+    .trim()
+    .split(/\n\s*\n+/)
+    .map((paragraph) => paragraph.replace(/\s+/g, " ").trim())
+    .filter(Boolean);
+}
+
+function splitParagraphInHalf(paragraph: string): [string, string] | null {
+  const sentenceLike = paragraph.match(/[^.!?]+[.!?]+(?=\s|$)|[^.!?]+$/g);
+  if (sentenceLike && sentenceLike.length >= 2) {
+    const midpoint = Math.ceil(sentenceLike.length / 2);
+    const first = sentenceLike
+      .slice(0, midpoint)
+      .join(" ")
+      .replace(/\s+/g, " ")
+      .trim();
+    const second = sentenceLike
+      .slice(midpoint)
+      .join(" ")
+      .replace(/\s+/g, " ")
+      .trim();
+    if (first && second) return [first, second];
+  }
+
+  const words = paragraph.split(/\s+/).filter(Boolean);
+  if (words.length < 14) return null;
+  const midpoint = Math.ceil(words.length / 2);
+  const first = words.slice(0, midpoint).join(" ").trim();
+  const second = words.slice(midpoint).join(" ").trim();
+  if (!first || !second) return null;
+  return [first, second];
+}
+
+/**
+ * Normalize answer paragraph count without relying on brittle model behavior.
+ * - exact: attempts to produce exactly N paragraphs by splitting/merging
+ * - max: caps to at most N paragraphs by merging extras
+ */
+export function coerceAnswerParagraphs(text: string, options: CoerceParagraphOptions): string {
+  const trimmed = text.trim();
+  if (!trimmed) return trimmed;
+
+  let paragraphs = splitParagraphs(trimmed);
+  if (paragraphs.length === 0) return "";
+
+  if (typeof options.exact === "number" && options.exact > 0) {
+    const target = options.exact;
+    if (paragraphs.length > target) {
+      paragraphs = [
+        ...paragraphs.slice(0, target - 1),
+        paragraphs
+          .slice(target - 1)
+          .join(" ")
+          .replace(/\s+/g, " ")
+          .trim(),
+      ];
+    }
+
+    while (paragraphs.length < target) {
+      const last = paragraphs[paragraphs.length - 1];
+      const split = splitParagraphInHalf(last);
+      if (!split) break;
+      paragraphs = [...paragraphs.slice(0, -1), split[0], split[1]];
+    }
+  }
+
+  if (typeof options.max === "number" && options.max > 0 && paragraphs.length > options.max) {
+    paragraphs = [
+      ...paragraphs.slice(0, options.max - 1),
+      paragraphs
+        .slice(options.max - 1)
+        .join(" ")
+        .replace(/\s+/g, " ")
+        .trim(),
+    ];
+  }
+
+  return paragraphs.join("\n\n");
 }
 
 function extractAnswerFromResponse(raw: string | null | undefined): string | undefined {
