@@ -17,10 +17,10 @@ const ROLE_LABELS: Record<string, string> = {
 };
 
 const ROLE_COLORS: Record<string, string> = {
-  protagonist: "bg-amber-100 text-amber-800",
-  antagonist: "bg-red-100 text-red-800",
-  ally: "bg-green-100 text-green-800",
-  supporting: "bg-stone-100 text-stone-700",
+  protagonist: "bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200",
+  antagonist: "bg-red-100 text-red-800 dark:bg-red-900/40 dark:text-red-200",
+  ally: "bg-green-100 text-green-800 dark:bg-green-900/40 dark:text-green-200",
+  supporting: "bg-stone-100 text-stone-700 dark:bg-stone-800 dark:text-stone-200",
 };
 
 const ROLE_ICONS: Record<string, string> = {
@@ -53,11 +53,14 @@ export default function CharactersPage() {
   return (
     <main className="max-w-5xl mx-auto px-4 py-8">
       <div className="mb-8">
-        <Link href="/" className="text-xs text-stone-400 hover:text-stone-600 mb-4 inline-block">
+        <Link
+          href="/"
+          className="text-xs text-stone-400 hover:text-stone-600 dark:text-stone-500 dark:hover:text-stone-300 mb-4 inline-block"
+        >
           ← Back to Home
         </Link>
-        <h1 className="text-3xl font-bold text-stone-900 mb-1">Character Guide</h1>
-        <p className="text-stone-500">
+        <h1 className="text-3xl font-bold text-stone-900 dark:text-stone-100 mb-1">Character Guide</h1>
+        <p className="text-stone-500 dark:text-stone-400">
           Track every major character across all {book.chapters.length} chapters — X-Ray style.
         </p>
       </div>
@@ -67,17 +70,17 @@ export default function CharactersPage() {
           <div
             key={char.id}
             id={char.id}
-            className="bg-white border border-stone-200 rounded-xl p-5 shadow-sm"
+            className="bg-white border border-stone-200 dark:bg-stone-900 dark:border-stone-800 rounded-xl p-5 shadow-sm"
           >
             {/* Header */}
             <div className="flex items-start justify-between gap-2 mb-2">
               <div>
-                <h2 className="text-lg font-semibold text-stone-900 flex items-center gap-2">
+                <h2 className="text-lg font-semibold text-stone-900 dark:text-stone-100 flex items-center gap-2">
                   <span>{ROLE_ICONS[char.role]}</span>
                   {char.name}
                 </h2>
                 {char.aliases.length > 0 && (
-                  <p className="text-xs text-stone-400 mt-0.5">
+                  <p className="text-xs text-stone-400 dark:text-stone-500 mt-0.5">
                     Also known as: {char.aliases.join(", ")}
                   </p>
                 )}
@@ -90,11 +93,13 @@ export default function CharactersPage() {
             </div>
 
             {/* Description */}
-            <p className="text-sm text-stone-600 leading-relaxed mb-4">{char.description}</p>
+            <p className="text-sm text-stone-600 dark:text-stone-400 leading-relaxed mb-4">
+              {char.description}
+            </p>
 
             {/* Chapter appearances */}
             <div>
-              <p className="text-xs font-semibold uppercase tracking-widest text-stone-400 mb-2">
+              <p className="text-xs font-semibold uppercase tracking-widest text-stone-400 dark:text-stone-500 mb-2">
                 Appears in {char.appearances.length} chapters
               </p>
               {char.appearances.length > 0 ? (
@@ -104,14 +109,16 @@ export default function CharactersPage() {
                       key={ch.number}
                       href={`/chapter/${ch.number}`}
                       title={`Chapter ${ch.number}: ${ch.title}`}
-                      className="inline-flex items-center justify-center w-7 h-7 rounded text-xs font-mono bg-stone-100 text-stone-600 hover:bg-amber-100 hover:text-amber-800 transition-colors"
+                      className="inline-flex items-center justify-center w-7 h-7 rounded text-xs font-mono bg-stone-100 text-stone-600 dark:bg-stone-800 dark:text-stone-300 hover:bg-amber-100 hover:text-amber-800 dark:hover:bg-amber-900/40 dark:hover:text-amber-200 transition-colors"
                     >
                       {ch.number}
                     </Link>
                   ))}
                 </div>
               ) : (
-                <p className="text-xs text-stone-400 italic">No appearances found</p>
+                <p className="text-xs text-stone-400 dark:text-stone-500 italic">
+                  No appearances found
+                </p>
               )}
             </div>
           </div>

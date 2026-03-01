@@ -17,14 +17,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className="antialiased min-h-screen bg-stone-50 text-stone-900"
+        className="antialiased min-h-screen bg-stone-50 text-stone-900 dark:bg-stone-950 dark:text-stone-100"
       >
-        <header className="border-b border-stone-200 bg-white sticky top-0 z-10 flex flex-col">
+        <header className="border-b border-stone-200 bg-white sticky top-0 z-10 flex flex-col dark:border-stone-800 dark:bg-stone-900">
           <HeaderNav />
           <HeaderProgressBar />
         </header>
         {children}
-        <footer className="border-t border-stone-200 mt-16 py-6 text-center text-xs text-stone-400">
+        <footer className="border-t border-stone-200 mt-16 py-6 text-center text-xs text-stone-400 dark:border-stone-800 dark:text-stone-500">
           <p>
             <em>The Count of Monte Cristo</em> by Alexandre Dumas, père — Public Domain
           </p>
@@ -34,7 +34,7 @@ export default function RootLayout({
               href="https://www.gutenberg.org/ebooks/1184"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline"
+              className="underline text-stone-500 hover:text-stone-700 dark:text-stone-300 dark:hover:text-stone-100"
             >
               Project Gutenberg #1184
             </a>
