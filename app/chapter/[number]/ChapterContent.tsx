@@ -33,7 +33,8 @@ export function ChapterContent({
   const articleRef = React.useRef<HTMLDivElement>(null);
   const [visibleParagraphIndices, setVisibleParagraphIndices] = React.useState<Set<number>>(() => new Set());
 
-  /** Track which paragraphs intersect the viewport; current scene = earliest scene that overlaps any visible paragraph. */
+  /** Track which paragraphs intersect the viewport; current scene = earliest scene that overlaps any visible paragraph.
+   * Depends on chapterNumber so the observer is recreated when switching chapters (DOM nodes change even if paragraph count is unchanged). */
   React.useEffect(() => {
     const el = articleRef.current;
     if (!el) return;
@@ -58,7 +59,7 @@ export function ChapterContent({
     );
     paragraphs.forEach((p) => observer.observe(p));
     return () => paragraphs.forEach((p) => observer.unobserve(p));
-  }, [paragraphSegments.length]);
+  }, [chapterNumber, paragraphSegments.length]);
 
   /** Earliest scene (by startParagraph) that contains at least one visible paragraph. */
   const currentScene = React.useMemo(() => {
@@ -70,23 +71,42 @@ export function ChapterContent({
     return overlapping[0] ?? null;
   }, [scenes, visibleParagraphIndices]);
 
-  /** Character entity IDs linked in the visible paragraphs (order: alphabetical by id). */
-  const visibleCharacterIds = React.useMemo(() => {
-    const seen = new Set<string>();
-    const ids: string[] = [];
-    const sortedIndices = Array.from(visibleParagraphIndices).sort((a, b) => a - b);
-    for (const i of sortedIndices) {
-      const segments = paragraphSegments[i];
-      if (!segments) continue;
-      for (const seg of segments) {
-        if (seg.type === "link" && seg.entityType === "person" && !seen.has(seg.entityId)) {
-          seen.add(seg.entityId);
-          ids.push(seg.entityId);
-        }
-      }
+  /** Character entity IDs whose link is actually in the viewport (only these get footer avatars). */
+  const [visibleCharacterIds, setVisibleCharacterIds] = React.useState<string[]>([]);
+  const visibilityByElementRef = React.useRef<Map<Element, string>>(new Map());
+
+  React.useEffect(() => {
+    const el = articleRef.current;
+    if (!el) return;
+    const personLinks = el.querySelectorAll<HTMLElement>("[data-person-entity-id]");
+    const visibilityMap = visibilityByElementRef.current;
+    if (personLinks.length === 0) {
+      setVisibleCharacterIds([]);
+      return;
     }
-    return ids.sort((a, b) => a.localeCompare(b));
-  }, [paragraphSegments, visibleParagraphIndices]);
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          const id = entry.target.getAttribute("data-person-entity-id");
+          if (!id) continue;
+          if (entry.isIntersecting) visibilityMap.set(entry.target, id);
+          else visibilityMap.delete(entry.target);
+        }
+        setVisibleCharacterIds(() => {
+          const next = Array.from(visibilityMap.values());
+          const deduped = [...new Set(next)];
+          return deduped.length === 0 ? [] : deduped.sort((a, b) => a.localeCompare(b));
+        });
+      },
+      { root: null, rootMargin: "0px", threshold: 0.1 }
+    );
+    personLinks.forEach((link) => observer.observe(link));
+    return () => {
+      observer.disconnect();
+      visibilityMap.clear();
+      setVisibleCharacterIds([]);
+    };
+  }, [paragraphSegments]);
 
   /** Map: paragraph index -> scene image key (e.g. ch1-scene0). Matches index format: scenes[i].startParagraph -> ch{N}-scene{i}. */
   const sceneKeyByParagraphStart = React.useMemo(() => {
@@ -134,6 +154,7 @@ export function ChapterContent({
                 <button
                   key={j}
                   type="button"
+                  {...(seg.entityType === "person" ? { "data-person-entity-id": seg.entityId } : {})}
                   onClick={() => setOpenEntityId(seg.entityId)}
                   className="text-amber-700 hover:text-amber-800 hover:underline font-medium cursor-pointer bg-transparent border-none p-0 align-baseline"
                 >
