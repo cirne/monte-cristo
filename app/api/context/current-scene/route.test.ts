@@ -3,6 +3,7 @@ import { NextRequest } from "next/server";
 
 const mockCreateChatCompletion = vi.fn();
 const mockResolveReadingPosition = vi.fn();
+const mockGetChapterSummaryWindowBefore = vi.fn();
 const mockGetStorySoFarBeforeChapter = vi.fn();
 const mockGetSceneSummariesBeforeCurrent = vi.fn();
 const mockGetSceneTextUpToParagraph = vi.fn();
@@ -15,6 +16,7 @@ vi.mock("@/lib/reading-context", () => ({
   estimateTokens: (text: string) => Math.ceil(text.length / 4),
   trimToTokenBudget: (text: string) => text,
   resolveReadingPosition: (...args: unknown[]) => mockResolveReadingPosition(...args),
+  getChapterSummaryWindowBefore: (...args: unknown[]) => mockGetChapterSummaryWindowBefore(...args),
   getStorySoFarBeforeChapter: (...args: unknown[]) => mockGetStorySoFarBeforeChapter(...args),
   getSceneSummariesBeforeCurrent: (...args: unknown[]) => mockGetSceneSummariesBeforeCurrent(...args),
   getSceneTextUpToParagraph: (...args: unknown[]) => mockGetSceneTextUpToParagraph(...args),
@@ -26,6 +28,7 @@ describe("app/api/context/current-scene/route", () => {
   beforeEach(() => {
     mockCreateChatCompletion.mockReset();
     mockResolveReadingPosition.mockReset();
+    mockGetChapterSummaryWindowBefore.mockReset();
     mockGetStorySoFarBeforeChapter.mockReset();
     mockGetSceneSummariesBeforeCurrent.mockReset();
     mockGetSceneTextUpToParagraph.mockReset();
@@ -46,6 +49,10 @@ describe("app/api/context/current-scene/route", () => {
       sceneIndex: 0,
       scene: { startParagraph: 0, endParagraph: 12, locationDescription: "the harbor" },
     });
+    mockGetChapterSummaryWindowBefore.mockReturnValue([
+      "Chapter 1: Earlier setup.",
+      "Chapter 2: Consequences start.",
+    ]);
     mockGetStorySoFarBeforeChapter.mockReturnValue("Earlier events summarized.");
     mockGetSceneSummariesBeforeCurrent.mockReturnValue(["Scene 1: Setup."]);
     mockGetSceneTextUpToParagraph.mockReturnValue("Current scene excerpt.");
