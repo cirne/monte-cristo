@@ -11,7 +11,10 @@
         "Dantès",
         "Edmond, Dantès",
         "Edmond Dantès, Dantès",
-        "Edmond Dantès, mate of the ship Pharaon, accused Bonapartist hero"
+        "Edmond Dantès, mate of the ship Pharaon, accused Bonapartist hero",
+        "Dantès, Edmond, Maltese",
+        "Dantès, Edmond",
+        "Dantès, The Count of Monte Cristo, Sinbad the Sailor, Lord Wilmore, Abbé Busoni"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -31,20 +34,25 @@
         "Edmond",
         "Edmond, Dantès",
         "Edmond Dantès, Dantès",
-        "Edmond Dantès, mate of the ship Pharaon, accused Bonapartist hero"
+        "Edmond Dantès, mate of the ship Pharaon, accused Bonapartist hero",
+        "Dantès, Edmond, Maltese",
+        "Dantès, Edmond",
+        "Dantès, The Count of Monte Cristo, Sinbad the Sailor, Lord Wilmore, Abbé Busoni"
       ]
     },
     "m_morrel": {
       "id": "m_morrel",
       "name": "M. Morrel",
       "aliases": [
-        "Monsieur Morrel"
+        "Monsieur Morrel",
+        "Morrel"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
       "searchTerms": [
         "M. Morrel",
-        "Monsieur Morrel"
+        "Monsieur Morrel",
+        "Morrel"
       ],
       "matchPatterns": [
         "M\\.?\\s*Morrel",
@@ -56,7 +64,9 @@
     "captain_leclere": {
       "id": "captain_leclere",
       "name": "Captain Leclere",
-      "aliases": [],
+      "aliases": [
+        "Captain Leclere"
+      ],
       "type": "person",
       "firstSeenInChapter": 1,
       "searchTerms": [
@@ -130,28 +140,36 @@
     "notre_dame_garde": {
       "id": "notre_dame_garde",
       "name": "Notre-Dame de la Garde",
-      "aliases": [],
+      "aliases": [
+        "Our Lady of the Grotto"
+      ],
       "type": "place",
       "firstSeenInChapter": 1,
       "spoilerFreeIntro": "A lookout point above Marseilles harbor.",
       "searchTerms": [
         "Notre-Dame de la Garde",
-        "Notre-Dame de la Garde",
-        "la Garde"
+        "la Garde",
+        "Our Lady of the Grotto"
       ]
     },
     "chateau_dif": {
       "id": "chateau_dif",
       "name": "Château d'If",
-      "aliases": [],
+      "aliases": [
+        "the fortress, the prison, the dungeon, d'If, Chateau d'If, the cell",
+        "the château",
+        "Chateau d'If, d'If"
+      ],
       "type": "place",
       "firstSeenInChapter": 1,
       "spoilerFreeIntro": "A fortress and prison on an island off Marseilles.",
       "searchTerms": [
         "Château d'If",
-        "Château d'If",
         "Chateau d'If",
-        "d'If"
+        "d'If",
+        "the fortress, the prison, the dungeon, d'If, Chateau d'If, the cell",
+        "the château",
+        "Chateau d'If, d'If"
       ]
     },
     "fort_saint_jean": {
@@ -186,7 +204,8 @@
       "aliases": [
         "Comtesse de Morcerf",
         "Mercédès",
-        "Mercédès, Comtesse de Morcerf"
+        "Mercédès, Comtesse de Morcerf",
+        "Mercedes, Mercédès"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -195,7 +214,8 @@
         "Mercédès",
         "Comtesse de Morcerf",
         "Mercedes",
-        "Mercédès, Comtesse de Morcerf"
+        "Mercédès, Comtesse de Morcerf",
+        "Mercedes, Mercédès"
       ]
     },
     "pharaon": {
@@ -204,7 +224,9 @@
       "aliases": [
         "Pharaon",
         "ship",
-        "the Pharaon, ship"
+        "the Pharaon, ship",
+        "three-master the Pharaon",
+        "Monte Cristo, the island"
       ],
       "type": "place",
       "firstSeenInChapter": 1,
@@ -212,7 +234,9 @@
       "searchTerms": [
         "Pharaon",
         "ship",
-        "the Pharaon, ship"
+        "the Pharaon, ship",
+        "three-master the Pharaon",
+        "Monte Cristo, the island"
       ]
     },
     "marseilles": {
@@ -220,7 +244,8 @@
       "name": "Marseilles",
       "aliases": [
         "Marseilles",
-        "Marseilles, Phocea"
+        "Marseilles, Phocea",
+        "Marseilles, Marseilles harbor, port"
       ],
       "type": "place",
       "firstSeenInChapter": 1,
@@ -230,17 +255,21 @@
         "Marseille",
         "Phocee",
         "Phocea",
-        "Marseilles, Phocea"
+        "Marseilles, Phocea",
+        "Marseilles, Marseilles harbor, port"
       ]
     },
     "monte_cristo": {
       "id": "monte_cristo",
       "name": "Monte Cristo",
-      "aliases": [],
+      "aliases": [
+        "the island"
+      ],
       "type": "place",
       "firstSeenInChapter": 1,
       "searchTerms": [
-        "Monte Cristo"
+        "Monte Cristo",
+        "the island"
       ],
       "spoilerFreeIntro": "\"A rugged and isolated island rising fiercely from the sea, Monte Cristo is shrouded in mystery and whispers of hidden treasures.\""
     },
@@ -248,13 +277,15 @@
       "id": "the_emperor",
       "name": "the emperor",
       "aliases": [
-        "Napoleon Bonaparte"
+        "Napoleon Bonaparte",
+        "the usurper"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
       "searchTerms": [
         "the emperor",
-        "Napoleon Bonaparte"
+        "Napoleon Bonaparte",
+        "the usurper"
       ],
       "spoilerFreeIntro": "\"The emperors grandeur loomed over the court, his presence commanding respect and intrigue.\""
     },
@@ -608,7 +639,9 @@
       "id": "the_revolution",
       "name": "The revolution",
       "aliases": [
-        "Reign of Terror, 9th Thermidor"
+        "Reign of Terror, 9th Thermidor",
+        "revolution",
+        "the emperor's return, the revolution"
       ],
       "type": "event",
       "firstSeenInChapter": 5,
@@ -617,14 +650,21 @@
         "The revolution",
         "the revolution",
         "Revolution",
-        "Reign of Terror, 9th Thermidor"
+        "Reign of Terror, 9th Thermidor",
+        "revolution",
+        "the emperor's return, the revolution"
       ]
     },
     "villefort": {
       "id": "villefort",
       "name": "M. de Villefort",
       "aliases": [
-        "de Villefort"
+        "de Villefort",
+        "Villefort",
+        "M. Villefort, de Villefort, Villefort",
+        "the governor, M. de Villefort, the latter",
+        "M. de Villefort",
+        "de Villefort, Villefort"
       ],
       "type": "person",
       "firstSeenInChapter": 6,
@@ -632,20 +672,25 @@
       "searchTerms": [
         "M. de Villefort",
         "de Villefort",
-        "Villefort"
+        "Villefort",
+        "M. Villefort, de Villefort, Villefort",
+        "the governor, M. de Villefort, the latter",
+        "de Villefort, Villefort"
       ]
     },
     "napoleon": {
       "id": "napoleon",
       "name": "Napoleon",
       "aliases": [
-        "the emperor, king of the petty Island of Elba, the usurper, the Corsican"
+        "the emperor, king of the petty Island of Elba, the usurper, the Corsican",
+        "Bonaparte, usurper, the usurper"
       ],
       "type": "person",
       "firstSeenInChapter": 6,
       "searchTerms": [
         "Napoleon",
-        "the emperor, king of the petty Island of Elba, the usurper, the Corsican"
+        "the emperor, king of the petty Island of Elba, the usurper, the Corsican",
+        "Bonaparte, usurper, the usurper"
       ],
       "spoilerFreeIntro": "A commanding military leader whose ambitions have shaped an era."
     },
@@ -667,26 +712,30 @@
       "id": "marquis_de_saintmran",
       "name": "Marquis de Saint-Méran",
       "aliases": [
-        "the marquis, old nobleman, Marquis de Saint-Méran"
+        "the marquis, old nobleman, Marquis de Saint-Méran",
+        "the marquis"
       ],
       "type": "person",
       "firstSeenInChapter": 6,
       "searchTerms": [
         "Marquis de Saint-Méran",
-        "the marquis, old nobleman, Marquis de Saint-Méran"
+        "the marquis, old nobleman, Marquis de Saint-Méran",
+        "the marquis"
       ]
     },
     "marquise_de_saintmran": {
       "id": "marquise_de_saintmran",
       "name": "Marquise de Saint-Méran",
       "aliases": [
-        "the marquise, Madame de Saint-Méran, mother of Renée"
+        "the marquise, Madame de Saint-Méran, mother of Renée",
+        "the marquise"
       ],
       "type": "person",
       "firstSeenInChapter": 6,
       "searchTerms": [
         "Marquise de Saint-Méran",
-        "the marquise, Madame de Saint-Méran, mother of Renée"
+        "the marquise, Madame de Saint-Méran, mother of Renée",
+        "the marquise"
       ],
       "spoilerFreeIntro": "The Marquise de Saint-Méran, a noblewoman known for her stern and commanding presence."
     },
@@ -694,13 +743,15 @@
       "id": "rene_de_saintmran",
       "name": "Renée de Saint-Méran",
       "aliases": [
-        "Renée, young and lovely girl, daughter of Marquis and Marquise de Saint-Méran"
+        "Renée, young and lovely girl, daughter of Marquis and Marquise de Saint-Méran",
+        "Renée"
       ],
       "type": "person",
       "firstSeenInChapter": 6,
       "searchTerms": [
         "Renée de Saint-Méran",
-        "Renée, young and lovely girl, daughter of Marquis and Marquise de Saint-Méran"
+        "Renée, young and lovely girl, daughter of Marquis and Marquise de Saint-Méran",
+        "Renée"
       ]
     },
     "comte_de_salvieux": {
@@ -876,6 +927,819 @@
         "Smyrna"
       ],
       "spoilerFreeIntro": "A bustling port city known for its rich trade and diverse cultures."
+    },
+    "morrel_son": {
+      "id": "morrel_son",
+      "name": "Morrel & Son",
+      "aliases": [
+        "Morrel & Son, of Marseilles"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Morrel & Son",
+        "Morrel & Son, of Marseilles"
+      ],
+      "spoilerFreeIntro": "The respected Marseille shipping company that owned the ship Pharaon."
+    },
+    "rene": {
+      "id": "rene",
+      "name": "Renée",
+      "aliases": [
+        "Renée"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Renée"
+      ],
+      "spoilerFreeIntro": "Renée, a compassionate figure whose earnest words reveal her gentle nature."
+    },
+    "island_of_elba": {
+      "id": "island_of_elba",
+      "name": "Island of Elba",
+      "aliases": [
+        "Island of Elba",
+        "Elba"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Island of Elba",
+        "Elba"
+      ],
+      "spoilerFreeIntro": "A small Mediterranean island serving as a strategic naval stop."
+    },
+    "grandmarshal": {
+      "id": "grandmarshal",
+      "name": "Grand-marshal",
+      "aliases": [
+        "grand-marshal"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Grand-marshal",
+        "grand-marshal"
+      ],
+      "spoilerFreeIntro": "The imposing grand-marshal, commander of the imperial armies, entered the room with a commanding presence."
+    },
+    "paris": {
+      "id": "paris",
+      "name": "Paris",
+      "aliases": [
+        "Paris"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "spoilerFreeIntro": "The capital of France; much of the story later takes place here.",
+      "searchTerms": [
+        "Paris"
+      ]
+    },
+    "m_noirtier": {
+      "id": "m_noirtier",
+      "name": "M. Noirtier",
+      "aliases": [
+        "M. Noirtier"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "M. Noirtier"
+      ],
+      "spoilerFreeIntro": "An enigmatic man residing at Rue Coq-Héron, No. 13."
+    },
+    "rue_coqhron": {
+      "id": "rue_coqhron",
+      "name": "Rue Coq-Héron",
+      "aliases": [
+        "Rue Coq-Héron"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Rue Coq-Héron"
+      ],
+      "spoilerFreeIntro": "Rue Coq-Héron, a quiet street in Paris where Monsieur Noirtier resides."
+    },
+    "cardinal_spada": {
+      "id": "cardinal_spada",
+      "name": "Cardinal Spada",
+      "aliases": [
+        "Cardinal Spada",
+        "the cardinal"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 18,
+      "searchTerms": [
+        "Cardinal Spada",
+        "the cardinal"
+      ],
+      "spoilerFreeIntro": "A high-ranking church official known for his fiery temper and influential letters."
+    },
+    "mareciana": {
+      "id": "mareciana",
+      "name": "Mareciana",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 23,
+      "searchTerms": [
+        "Mareciana"
+      ],
+      "spoilerFreeIntro": "Mareciana, a small coastal village on the rugged shores of Elba."
+    },
+    "island_of_la_pianosa": {
+      "id": "island_of_la_pianosa",
+      "name": "Island of La Pianosa",
+      "aliases": [
+        "La Pianosa"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 23,
+      "searchTerms": [
+        "Island of La Pianosa",
+        "La Pianosa"
+      ],
+      "spoilerFreeIntro": "A small, lush island marked by flat terrain and vibrant greenery."
+    },
+    "lucius_brutus": {
+      "id": "lucius_brutus",
+      "name": "Lucius Brutus",
+      "aliases": [
+        "Lucius Brutus"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 23,
+      "searchTerms": [
+        "Lucius Brutus"
+      ],
+      "spoilerFreeIntro": "Lucius Brutus, a figure of resolute courage and ancient Roman legend."
+    },
+    "jacopo": {
+      "id": "jacopo",
+      "name": "Jacopo",
+      "aliases": [
+        "Jacopo"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 23,
+      "searchTerms": [
+        "Jacopo"
+      ],
+      "spoilerFreeIntro": "Jacopo, a seasoned sailor navigating the waters with quiet confidence."
+    },
+    "captain_baldi": {
+      "id": "captain_baldi",
+      "name": "Captain Baldi",
+      "aliases": [
+        "Captain Baldi"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 23,
+      "searchTerms": [
+        "Captain Baldi"
+      ],
+      "spoilerFreeIntro": "Captain Baldi, a seasoned and resolute leader commanding respect among his crew."
+    },
+    "faria": {
+      "id": "faria",
+      "name": "Abbé Faria",
+      "aliases": [
+        "the abbé",
+        "the abbé, Faria, abbé",
+        "the Abbé, Faria, abbé, abbe",
+        "Faria, the abbé, abbe"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 14,
+      "spoilerFreeIntro": "An imprisoned Italian priest known as the abbé.",
+      "searchTerms": [
+        "Abbé Faria",
+        "the abbé",
+        "Faria",
+        "abbé",
+        "abbe",
+        "the abbé, Faria, abbé",
+        "the Abbé, Faria, abbé, abbe",
+        "Faria, the abbé, abbe"
+      ]
+    },
+    "csar_borgia": {
+      "id": "csar_borgia",
+      "name": "Cæsar Borgia",
+      "aliases": [
+        "Borgia"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 18,
+      "searchTerms": [
+        "Cæsar Borgia",
+        "Borgia"
+      ],
+      "spoilerFreeIntro": "A powerful Italian nobleman and military leader renowned for his ambitious conquests."
+    },
+    "pope_alexander_vi": {
+      "id": "pope_alexander_vi",
+      "name": "Pope Alexander VI",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 18,
+      "searchTerms": [
+        "Pope Alexander VI"
+      ],
+      "spoilerFreeIntro": "The controversial and cunning pontiff whose papacy would deeply shape the Renaissance era."
+    },
+    "cardinal_rospigliosi": {
+      "id": "cardinal_rospigliosi",
+      "name": "Cardinal Rospigliosi",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 18,
+      "searchTerms": [
+        "Cardinal Rospigliosi"
+      ],
+      "spoilerFreeIntro": "A high-ranking church official known as Cardinal Rospigliosi."
+    },
+    "guido_spada": {
+      "id": "guido_spada",
+      "name": "Guido Spada",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 18,
+      "searchTerms": [
+        "Guido Spada"
+      ],
+      "spoilerFreeIntro": "Guido Spada, a determined young man connected to his influential family."
+    },
+    "island_of_monte_cristo": {
+      "id": "island_of_monte_cristo",
+      "name": "Island of Monte Cristo",
+      "aliases": [
+        "Monte Cristo"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 18,
+      "searchTerms": [
+        "Island of Monte Cristo",
+        "Monte Cristo"
+      ],
+      "spoilerFreeIntro": "A remote, mysterious island rumored to hold vast treasures and secrets."
+    },
+    "rome": {
+      "id": "rome",
+      "name": "Rome",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 18,
+      "searchTerms": [
+        "Rome"
+      ],
+      "spoilerFreeIntro": "Rome, the ancient capital where history and legend intertwine beneath its timeless streets."
+    },
+    "piombino": {
+      "id": "piombino",
+      "name": "Piombino",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 18,
+      "searchTerms": [
+        "Piombino"
+      ],
+      "spoilerFreeIntro": "Piombino, a bustling Tuscan port town where the journey's tides begin to turn."
+    },
+    "san_pierdarena": {
+      "id": "san_pierdarena",
+      "name": "San Pierdarena",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 18,
+      "searchTerms": [
+        "San Pierdarena"
+      ],
+      "spoilerFreeIntro": "San Pierdarena, a bustling coastal district known for its busy port and vibrant streets."
+    },
+    "louis_xviii": {
+      "id": "louis_xviii",
+      "name": "Louis XVIII",
+      "aliases": [
+        "Louis XVIII",
+        "the king, Louis XVIII."
+      ],
+      "type": "person",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "Louis XVIII",
+        "the king, Louis XVIII."
+      ],
+      "spoilerFreeIntro": "The recently restored King of France, Louis XVIII, holds a throne caught between past and future."
+    },
+    "charenton": {
+      "id": "charenton",
+      "name": "Charenton",
+      "aliases": [
+        "Charenton"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 14,
+      "searchTerms": [
+        "Charenton"
+      ],
+      "spoilerFreeIntro": "Charenton, a historic asylum on the outskirts of Paris."
+    },
+    "ham": {
+      "id": "ham",
+      "name": "Ham",
+      "aliases": [
+        "Ham"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 14,
+      "searchTerms": [
+        "Ham"
+      ],
+      "spoilerFreeIntro": "A secluded chamber where the enigmatic mad abbé is held prisoner."
+    },
+    "sardinia": {
+      "id": "sardinia",
+      "name": "Sardinia",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 24,
+      "searchTerms": [
+        "Sardinia"
+      ],
+      "spoilerFreeIntro": "Sardinia, a rugged Mediterranean island steeped in ancient history and vibrant culture."
+    },
+    "genoa": {
+      "id": "genoa",
+      "name": "Genoa",
+      "aliases": [
+        "the coast of Genoa, Genoa the proud"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 24,
+      "searchTerms": [
+        "Genoa",
+        "the coast of Genoa, Genoa the proud"
+      ],
+      "spoilerFreeIntro": "The bustling maritime city of Genoa, famed for its proud history and vibrant harbor."
+    },
+    "leghorn": {
+      "id": "leghorn",
+      "name": "Leghorn",
+      "aliases": [
+        "Leghorn the commercial"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 24,
+      "searchTerms": [
+        "Leghorn",
+        "Leghorn the commercial"
+      ],
+      "spoilerFreeIntro": "Leghorn, a bustling Mediterranean port known for its lively commerce and maritime trade."
+    },
+    "bonifacio": {
+      "id": "bonifacio",
+      "name": "Bonifacio",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 24,
+      "searchTerms": [
+        "Bonifacio"
+      ],
+      "spoilerFreeIntro": "A rugged town perched on the cliffs overlooking the narrow straits between Corsica and Sardinia."
+    },
+    "hlose_de_villefort": {
+      "id": "hlose_de_villefort",
+      "name": "Héloïse de Villefort",
+      "aliases": [
+        "Madame de Villefort"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Héloïse de Villefort",
+        "Madame de Villefort"
+      ]
+    },
+    "m_de_salvieux": {
+      "id": "m_de_salvieux",
+      "name": "M. de Salvieux",
+      "aliases": [
+        "Comte de Salvieux",
+        "M. de Salvieux, my brother’s chamberlain"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "M. de Salvieux",
+        "Comte de Salvieux",
+        "M. de Salvieux, my brother’s chamberlain"
+      ],
+      "spoilerFreeIntro": "A trusted confidant skilled in delicate correspondence."
+    },
+    "rue_de_la_loge": {
+      "id": "rue_de_la_loge",
+      "name": "Rue de la Loge",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Rue de la Loge"
+      ]
+    },
+    "m_de_blacas": {
+      "id": "m_de_blacas",
+      "name": "M. de Blacas",
+      "aliases": [
+        "Blacas, duke, the duke",
+        "Duc de Blacas"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "M. de Blacas",
+        "Blacas, duke, the duke",
+        "Duc de Blacas"
+      ],
+      "spoilerFreeIntro": "M. de Blacas, a loyal and courteous courtier offering counsel to the king."
+    },
+    "m_dandr": {
+      "id": "m_dandr",
+      "name": "M. Dandré",
+      "aliases": [
+        "Baron Dandré, baron"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "M. Dandré",
+        "Baron Dandré, baron"
+      ],
+      "spoilerFreeIntro": "M. Dandré, a high-ranking official in the minister of police’s office, entered with quiet authority."
+    },
+    "noirtier": {
+      "id": "noirtier",
+      "name": "Noirtier",
+      "aliases": [
+        "Noirtier the Girondin, Noirtier the senator"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "Noirtier",
+        "Noirtier the Girondin, Noirtier the senator"
+      ],
+      "spoilerFreeIntro": "Noirtier, a venerable senator known for his influential past in the Girondin political circle."
+    },
+    "rue_saintjacques": {
+      "id": "rue_saintjacques",
+      "name": "Rue Saint-Jacques",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "Rue Saint-Jacques"
+      ]
+    },
+    "mademoiselle_de_saintmran": {
+      "id": "mademoiselle_de_saintmran",
+      "name": "Mademoiselle de Saint-Méran",
+      "aliases": [
+        "daughter of one of your majesty’s most faithful servants"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "Mademoiselle de Saint-Méran",
+        "daughter of one of your majesty’s most faithful servants"
+      ],
+      "spoilerFreeIntro": "A distinguished young noblewoman, daughter of a loyal royal servant."
+    },
+    "island_of_tiboulen": {
+      "id": "island_of_tiboulen",
+      "name": "Island of Tiboulen",
+      "aliases": [
+        "Tiboulen"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 21,
+      "searchTerms": [
+        "Island of Tiboulen",
+        "Tiboulen"
+      ],
+      "spoilerFreeIntro": "A small, remote island known for its strategic safety and sparse habitation."
+    },
+    "island_of_lemaire": {
+      "id": "island_of_lemaire",
+      "name": "Island of Lemaire",
+      "aliases": [
+        "Lemaire"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 21,
+      "searchTerms": [
+        "Island of Lemaire",
+        "Lemaire"
+      ],
+      "spoilerFreeIntro": "A remote, rocky isle known for its rugged terrain and strategic location."
+    },
+    "island_of_pomgue": {
+      "id": "island_of_pomgue",
+      "name": "Island of Pomègue",
+      "aliases": [
+        "Pomègue"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 21,
+      "searchTerms": [
+        "Island of Pomègue",
+        "Pomègue"
+      ],
+      "spoilerFreeIntro": "Pomègue is a small island neighboring the Château d’If, clustered among the rugged isles of the Mediterranean."
+    },
+    "island_of_ratonneau": {
+      "id": "island_of_ratonneau",
+      "name": "Island of Ratonneau",
+      "aliases": [
+        "Ratonneau"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 21,
+      "searchTerms": [
+        "Island of Ratonneau",
+        "Ratonneau"
+      ],
+      "spoilerFreeIntro": "A rugged island forming part of the small archipelago near the bustling Mediterranean harbor."
+    },
+    "island_of_daume": {
+      "id": "island_of_daume",
+      "name": "Island of Daume",
+      "aliases": [
+        "Daume"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 21,
+      "searchTerms": [
+        "Island of Daume",
+        "Daume"
+      ],
+      "spoilerFreeIntro": "A small, inhabited islet nestled among the rugged islands off the coast."
+    },
+    "island_of_planier": {
+      "id": "island_of_planier",
+      "name": "Island of Planier",
+      "aliases": [
+        "Planier"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 21,
+      "searchTerms": [
+        "Island of Planier",
+        "Planier"
+      ],
+      "spoilerFreeIntro": "A small island marked by its solitary lighthouse shining like a distant star."
+    },
+    "cape_croiselle": {
+      "id": "cape_croiselle",
+      "name": "Cape Croiselle",
+      "aliases": [
+        "Cape Croiselle"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 21,
+      "searchTerms": [
+        "Cape Croiselle"
+      ],
+      "spoilerFreeIntro": "A rugged promontory marking the coastline near the Island of Lemaire."
+    },
+    "cape_morgiou": {
+      "id": "cape_morgiou",
+      "name": "Cape Morgiou",
+      "aliases": [
+        "Cape Morgiou"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 21,
+      "searchTerms": [
+        "Cape Morgiou"
+      ],
+      "spoilerFreeIntro": "A jagged stretch of rocky coast where the storm first struck the ship."
+    },
+    "island_of_jaros": {
+      "id": "island_of_jaros",
+      "name": "Island of Jaros",
+      "aliases": [
+        "Jaros"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 21,
+      "searchTerms": [
+        "Island of Jaros",
+        "Jaros"
+      ],
+      "spoilerFreeIntro": "A rocky island marking a quiet passage between seas."
+    },
+    "island_of_calaseraigne": {
+      "id": "island_of_calaseraigne",
+      "name": "Island of Calaseraigne",
+      "aliases": [
+        "Calaseraigne"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 21,
+      "searchTerms": [
+        "Island of Calaseraigne",
+        "Calaseraigne"
+      ],
+      "spoilerFreeIntro": "A mysterious island nestled between Jaros and the Italian coast."
+    },
+    "genoese_tartan": {
+      "id": "genoese_tartan",
+      "name": "Genoese tartan",
+      "aliases": [
+        "the tartan"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 21,
+      "searchTerms": [
+        "Genoese tartan",
+        "the tartan"
+      ],
+      "spoilerFreeIntro": "A distinctive sail pattern identifying a ship hailing from Genoa's bustling maritime trade."
+    },
+    "louis_xviii_1": {
+      "id": "louis_xviii_1",
+      "name": "Louis XVIII.",
+      "aliases": [
+        "Louis XVIII."
+      ],
+      "type": "person",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "Louis XVIII."
+      ],
+      "spoilerFreeIntro": "The exiled king of France, grappling with the turbulence around him."
+    },
+    "antibes": {
+      "id": "antibes",
+      "name": "Antibes",
+      "aliases": [
+        "near Antibes"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "Antibes",
+        "near Antibes"
+      ],
+      "spoilerFreeIntro": "Antibes, a charming seaside town nestled on the French Riviera."
+    },
+    "languedoc": {
+      "id": "languedoc",
+      "name": "Languedoc",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "Languedoc"
+      ],
+      "spoilerFreeIntro": "Languedoc, a historic region in southern France known for its strategic importance and strong local identity."
+    },
+    "provence": {
+      "id": "provence",
+      "name": "Provence",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "Provence"
+      ],
+      "spoilerFreeIntro": "A sun-drenched region of southern France, known for its lavender fields and historic towns."
+    },
+    "gap": {
+      "id": "gap",
+      "name": "Gap",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "Gap"
+      ],
+      "spoilerFreeIntro": "Gap, a strategic town nestled in the French Alps, known as a key passage between valleys."
+    },
+    "sisteron": {
+      "id": "sisteron",
+      "name": "Sisteron",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "Sisteron"
+      ],
+      "spoilerFreeIntro": "Sisteron, a fortified town perched above the winding Durance River in southeastern France."
+    },
+    "dauphin": {
+      "id": "dauphin",
+      "name": "Dauphiné",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "Dauphiné"
+      ],
+      "spoilerFreeIntro": "Dauphiné, a historic province of southeastern France known for its alpine landscapes and medieval heritage."
+    },
+    "street_rue_saintjacques": {
+      "id": "street_rue_saintjacques",
+      "name": "Street Rue Saint-Jacques",
+      "aliases": [
+        "Rue Saint-Jacques"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "Street Rue Saint-Jacques",
+        "Rue Saint-Jacques"
+      ],
+      "spoilerFreeIntro": "Rue Saint-Jacques, a bustling Parisian street known for its lively commerce and hidden intrigues."
+    },
+    "general_quesnel": {
+      "id": "general_quesnel",
+      "name": "General Quesnel",
+      "aliases": [
+        "General Quesnel"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "General Quesnel"
+      ],
+      "spoilerFreeIntro": "A seasoned military officer whose recent demise has drawn significant attention."
+    },
+    "rue_de_la_jussienne": {
+      "id": "rue_de_la_jussienne",
+      "name": "Rue de la Jussienne",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "Rue de la Jussienne"
+      ],
+      "spoilerFreeIntro": "Rue de la Jussienne, a narrow Parisian street bustling with quiet afternoon activity."
+    },
+    "the_tuileries": {
+      "id": "the_tuileries",
+      "name": "The Tuileries",
+      "aliases": [
+        "Tuileries"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "The Tuileries",
+        "Tuileries"
+      ],
+      "spoilerFreeIntro": "A grand royal palace and garden in Paris, often a stage for public gatherings and political intrigue."
+    },
+    "hotel_de_madrid": {
+      "id": "hotel_de_madrid",
+      "name": "Hotel de Madrid",
+      "aliases": [
+        "Hotel de Madrid, in the Rue de Tournon"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "Hotel de Madrid",
+        "Hotel de Madrid, in the Rue de Tournon"
+      ],
+      "spoilerFreeIntro": "A grand and bustling inn situated on the Rue de Tournon."
+    },
+    "rue_de_tournon": {
+      "id": "rue_de_tournon",
+      "name": "Rue de Tournon",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "Rue de Tournon"
+      ]
+    },
+    "legion_of_honor": {
+      "id": "legion_of_honor",
+      "name": "Legion of Honor",
+      "aliases": [
+        "cross of the Legion of Honor"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "Legion of Honor",
+        "cross of the Legion of Honor"
+      ],
+      "spoilerFreeIntro": "A distinguished French officer wearing the rosette of the Legion of Honor."
     }
   },
   "lastIndexedChapter": 117
