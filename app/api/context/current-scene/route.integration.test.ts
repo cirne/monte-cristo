@@ -4,7 +4,7 @@ import { NextRequest } from "next/server";
 const mockCreateChatCompletion = vi.fn();
 
 vi.mock("@/lib/llm", () => ({
-  createChatCompletion: (...args: unknown[]) => mockCreateChatCompletion(...args),
+  createFastChatCompletion: (...args: unknown[]) => mockCreateChatCompletion(...args),
 }));
 
 import { GET } from "./route";

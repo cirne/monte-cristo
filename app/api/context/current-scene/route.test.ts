@@ -9,7 +9,7 @@ const mockGetSceneSummariesBeforeCurrent = vi.fn();
 const mockGetSceneTextUpToParagraph = vi.fn();
 
 vi.mock("@/lib/llm", () => ({
-  createChatCompletion: (...args: unknown[]) => mockCreateChatCompletion(...args),
+  createFastChatCompletion: (...args: unknown[]) => mockCreateChatCompletion(...args),
 }));
 
 vi.mock("@/lib/reading-context", () => ({

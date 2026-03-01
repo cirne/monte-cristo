@@ -17,6 +17,14 @@ interface ParagraphContextMenuProps {
   onClose: () => void;
 }
 
+const VIEWPORT_MARGIN_PX = 12;
+const MAX_POPOVER_WIDTH_PX = 352; // 22rem
+const MIN_VISIBLE_HEIGHT_PX = 220;
+
+function clamp(value: number, min: number, max: number): number {
+  return Math.max(min, Math.min(max, value));
+}
+
 function actionLabel(action: ContextAction): string {
   return action === "current-scene" ? "Current scene" : "Story so far";
 }
@@ -36,6 +44,43 @@ export function ParagraphContextMenu({ anchor, chapterNumber, onClose }: Paragra
   const [action, setAction] = React.useState<ContextAction | undefined>(undefined);
   const [answer, setAnswer] = React.useState<string | undefined>(undefined);
   const [error, setError] = React.useState<string | undefined>(undefined);
+
+  const layout = React.useMemo(() => {
+    if (!anchor || typeof window === "undefined") {
+      return {
+        left: anchor?.x ?? VIEWPORT_MARGIN_PX,
+        top: anchor?.y ?? VIEWPORT_MARGIN_PX,
+        width: MAX_POPOVER_WIDTH_PX,
+        maxHeight: 400,
+      };
+    }
+
+    const viewportWidth = Math.max(120, window.innerWidth);
+    const viewportHeight = Math.max(120, window.innerHeight);
+
+    const availableWidth = Math.max(120, viewportWidth - VIEWPORT_MARGIN_PX * 2);
+    const width = Math.min(MAX_POPOVER_WIDTH_PX, availableWidth);
+    const maxLeft = viewportWidth - VIEWPORT_MARGIN_PX - width;
+    const left =
+      maxLeft >= VIEWPORT_MARGIN_PX
+        ? clamp(anchor.x - width / 2, VIEWPORT_MARGIN_PX, maxLeft)
+        : VIEWPORT_MARGIN_PX;
+
+    const availableHeight = Math.max(120, viewportHeight - VIEWPORT_MARGIN_PX * 2);
+    const minVisibleHeight = Math.min(MIN_VISIBLE_HEIGHT_PX, availableHeight);
+    const maxTop = viewportHeight - VIEWPORT_MARGIN_PX - minVisibleHeight;
+    const top = maxTop >= VIEWPORT_MARGIN_PX
+      ? clamp(anchor.y, VIEWPORT_MARGIN_PX, maxTop)
+      : VIEWPORT_MARGIN_PX;
+    const maxHeight = Math.max(120, viewportHeight - top - VIEWPORT_MARGIN_PX);
+
+    return {
+      left,
+      top,
+      width,
+      maxHeight,
+    };
+  }, [anchor]);
 
   const closeMenu = React.useCallback(() => {
     requestIdRef.current += 1;
@@ -116,89 +161,92 @@ export function ParagraphContextMenu({ anchor, chapterNumber, onClose }: Paragra
         ref={popoverRef}
         role="dialog"
         aria-label="Reading context menu"
-        className="pointer-events-auto fixed w-[min(22rem,calc(100vw-2rem))] rounded-lg border border-stone-200 bg-white shadow-xl"
+        className="pointer-events-auto fixed overflow-hidden rounded-lg border border-stone-200 bg-white shadow-xl"
         style={{
-          left: anchor.x,
-          top: anchor.y,
-          transform: "translateX(-50%)",
+          left: layout.left,
+          top: layout.top,
+          width: layout.width,
+          maxHeight: layout.maxHeight,
         }}
       >
-        {mode === "menu" && (
-          <div className="p-2">
-            <button
-              type="button"
-              onClick={() => void runContextAction("current-scene")}
-              className="w-full text-left px-3 py-2 rounded-md text-sm text-stone-700 hover:bg-amber-50 hover:text-amber-900"
-            >
-              {actionButtonLabel("current-scene")}
-            </button>
-            <button
-              type="button"
-              onClick={() => void runContextAction("story-so-far")}
-              className="w-full text-left px-3 py-2 rounded-md text-sm text-stone-700 hover:bg-amber-50 hover:text-amber-900"
-            >
-              {actionButtonLabel("story-so-far")}
-            </button>
-          </div>
-        )}
-
-        {mode === "loading" && (
-          <div className="p-3">
-            <p className="text-xs uppercase tracking-widest text-stone-400 mb-1">
-              {actionLabel(action ?? "current-scene")}
-            </p>
-            <p className="text-sm text-stone-700">Loading context…</p>
-          </div>
-        )}
-
-        {mode === "result" && (
-          <div className="p-3">
-            <p className="text-xs uppercase tracking-widest text-stone-400 mb-1">
-              {actionLabel(action ?? "current-scene")}
-            </p>
-            <p className="text-sm text-stone-700 leading-relaxed whitespace-pre-wrap">{answer}</p>
-            <div className="mt-3 flex items-center justify-end gap-2">
+        <div data-testid="paragraph-context-scroll" className="max-h-full overflow-y-auto overscroll-contain">
+          {mode === "menu" && (
+            <div className="p-2">
               <button
                 type="button"
-                onClick={() => {
-                  setMode("menu");
-                  setError(undefined);
-                  setAnswer(undefined);
-                }}
-                className="px-2.5 py-1.5 text-xs rounded-md border border-stone-300 text-stone-600 hover:bg-stone-50"
+                onClick={() => void runContextAction("current-scene")}
+                className="w-full text-left px-3 py-2 rounded-md text-sm text-stone-700 hover:bg-amber-50 hover:text-amber-900"
               >
-                Menu
+                {actionButtonLabel("current-scene")}
               </button>
               <button
                 type="button"
-                onClick={closeMenu}
-                className="px-2.5 py-1.5 text-xs rounded-md bg-stone-900 text-white hover:bg-stone-800"
+                onClick={() => void runContextAction("story-so-far")}
+                className="w-full text-left px-3 py-2 rounded-md text-sm text-stone-700 hover:bg-amber-50 hover:text-amber-900"
               >
-                Close
+                {actionButtonLabel("story-so-far")}
               </button>
             </div>
-          </div>
-        )}
+          )}
 
-        {mode === "error" && (
-          <div className="p-3">
-            <p className="text-xs uppercase tracking-widest text-red-400 mb-1">Context unavailable</p>
-            <p className="text-sm text-stone-700">{error}</p>
-            <div className="mt-3 flex items-center justify-end gap-2">
-              <button
-                type="button"
-                onClick={() => {
-                  setMode("menu");
-                  setError(undefined);
-                  setAnswer(undefined);
-                }}
-                className="px-2.5 py-1.5 text-xs rounded-md border border-stone-300 text-stone-600 hover:bg-stone-50"
-              >
-                Try again
-              </button>
+          {mode === "loading" && (
+            <div className="p-3">
+              <p className="text-xs uppercase tracking-widest text-stone-400 mb-1">
+                {actionLabel(action ?? "current-scene")}
+              </p>
+              <p className="text-sm text-stone-700">Preparing your summary…</p>
             </div>
-          </div>
-        )}
+          )}
+
+          {mode === "result" && (
+            <div className="p-3">
+              <p className="text-xs uppercase tracking-widest text-stone-400 mb-1">
+                {actionLabel(action ?? "current-scene")}
+              </p>
+              <p className="text-sm text-stone-700 leading-relaxed whitespace-pre-wrap">{answer}</p>
+              <div className="mt-3 flex items-center justify-end gap-2">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setMode("menu");
+                    setError(undefined);
+                    setAnswer(undefined);
+                  }}
+                  className="px-2.5 py-1.5 text-xs rounded-md border border-stone-300 text-stone-600 hover:bg-stone-50"
+                >
+                  Menu
+                </button>
+                <button
+                  type="button"
+                  onClick={closeMenu}
+                  className="px-2.5 py-1.5 text-xs rounded-md bg-stone-900 text-white hover:bg-stone-800"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          )}
+
+          {mode === "error" && (
+            <div className="p-3">
+              <p className="text-xs uppercase tracking-widest text-red-400 mb-1">Context unavailable</p>
+              <p className="text-sm text-stone-700">{error}</p>
+              <div className="mt-3 flex items-center justify-end gap-2">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setMode("menu");
+                    setError(undefined);
+                    setAnswer(undefined);
+                  }}
+                  className="px-2.5 py-1.5 text-xs rounded-md border border-stone-300 text-stone-600 hover:bg-stone-50"
+                >
+                  Try again
+                </button>
+              </div>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
