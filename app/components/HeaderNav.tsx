@@ -2,8 +2,9 @@
 
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { TOTAL_CHAPTERS } from "@/lib/constants";
+import { TOTAL_CHAPTERS, LAST_CHAPTER_STORAGE_KEY } from "@/lib/constants";
 import { BookOpen, List, Search, ChevronLeft, ChevronRight, ArrowLeft } from "lucide-react";
+import { useEffect } from "react";
 
 export function HeaderNav() {
   const pathname = usePathname();
@@ -14,6 +15,16 @@ export function HeaderNav() {
   const next =
     chapterNum != null && chapterNum < TOTAL_CHAPTERS ? chapterNum + 1 : null;
   const showBack = pathname && pathname !== "/";
+
+  useEffect(() => {
+    if (chapterNum != null && typeof window !== "undefined") {
+      try {
+        window.localStorage.setItem(LAST_CHAPTER_STORAGE_KEY, String(chapterNum));
+      } catch {
+        // ignore quota or access errors
+      }
+    }
+  }, [chapterNum]);
 
   return (
     <nav className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between gap-6 text-sm w-full">
