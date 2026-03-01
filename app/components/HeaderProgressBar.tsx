@@ -147,10 +147,10 @@ export function HeaderProgressBar() {
   }, [chapterPath]);
 
   return (
-    <div className="h-0.5 w-full bg-stone-200">
+    <div className="h-0.5 w-full bg-stone-200 dark:bg-stone-800">
       {progress != null ? (
         <div
-          className="h-full bg-amber-500 transition-all"
+          className="h-full bg-amber-500 dark:bg-amber-400 transition-all"
           style={{ width: `${progress}%` }}
         />
       ) : null}
