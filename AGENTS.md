@@ -7,6 +7,7 @@ Context for AI agents and humans working on this codebase.
 - **Before every commit/push:** Run `bun run lint`, `bun run build`, and `bun run test`; fix any errors before pushing.
 - **Test coverage:** Ensure any new code has test coverage; add or extend tests as needed.
 - **Test suite:** Ensure the entire test suite passes (`bun run test` or `./node_modules/.bin/vitest run`) before committing.
+- **Commits:** Do not add one-off scripts (e.g. scripts run once for a data fix). Reusable scripts and code are fine.
 - Never commit `.env` or put API keys in code.
 
 ## What this project is
@@ -27,7 +28,7 @@ X-Ray style reader for **The Count of Monte Cristo**: read chapters, click peopl
 
 1. `parse-book.ts` → `data/book.json`, `data/book-index.json`
 2. `index-chapter --all` → `data/chapter-index.json` + updates `data/entity-store.json`
-3. `watch-data.ts` bumps `lib/data-manifest.ts` when `data/` changes so dev server picks up new data.
+3. `watch-data.ts` bumps `lib/data-manifest.ts` when `data/` changes so dev server picks up new data. Do not commit local changes to `lib/data-manifest.ts` (generated; merge-conflict prone).
 
 When you change schema or scripts that write to `data/`, run the relevant script and ensure the app still reads the new shape.
 
