@@ -55,8 +55,8 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 │   └── api/           # API routes (search + reading-context endpoints)
 ├── data/
 │   ├── <book>/       # Per-book data (e.g. monte-cristo/, gatsby/)
-│   │   ├── book.json
 │   │   ├── book-index.json
+│   │   ├── chapters/      # One canonical HTML fragment file per chapter (e.g. 1.html)
 │   │   └── chapter-index.json # Entity + scene index (run index-chapter --book=<slug> --all)
 ├── lib/
 │   ├── book.ts        # Server-side book data access
@@ -66,7 +66,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 │   ├── env.ts        # Dev-time env (OPENAI_API_KEY from .env)
 │   └── openai.ts     # OpenAI client for LLM indexing, characters, images
 └── scripts/
-    ├── parse-book.ts # Book parser (Gutenberg text → JSON)
+    ├── parse-book.ts # Book parser (Gutenberg source → canonical chapter HTML + book index)
     ├── index-chapter.ts # Canonical chapter indexer (LLM entities/scenes; supports --chapter / --all)
     ├── generate-images.ts # Generate entity and scene images (--chapter=N for all; --scenes-only / --entities-only)
 ```

@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, afterEach } from "vitest";
-import { mkdtempSync, readFileSync, existsSync, rmSync } from "fs";
+import { mkdtempSync, readFileSync, existsSync, rmSync, writeFileSync, mkdirSync } from "fs";
 import { join } from "path";
 import { tmpdir } from "os";
 import {
@@ -115,7 +115,7 @@ describe("lib/canonical-book", () => {
       rmSync(tmpDir, { recursive: true, force: true });
     });
 
-    it("writes book.json and book-index.json to data/<slug>/", () => {
+    it("writes chapter HTML files and book-index.json to data/<slug>/", () => {
       const book: Book = {
         title: "Test Book",
         author: "Author",
@@ -127,16 +127,21 @@ describe("lib/canonical-book", () => {
         ],
       };
 
+      const bookDir = join(tmpDir, "test-slug");
+      rmSync(bookDir, { recursive: true, force: true });
+      // Verify legacy files are cleaned up during migration.
+      mkdirSync(bookDir, { recursive: true });
+      writeFileSync(join(bookDir, "book.json"), '{"legacy":true}', "utf-8");
+
       writeCanonicalBook(tmpDir, "test-slug", book);
 
-      const bookDir = join(tmpDir, "test-slug");
-      expect(existsSync(join(bookDir, "book.json"))).toBe(true);
       expect(existsSync(join(bookDir, "book-index.json"))).toBe(true);
+      expect(existsSync(join(bookDir, "book.json"))).toBe(false);
+      expect(existsSync(join(bookDir, "chapters", "1.html"))).toBe(true);
+      expect(existsSync(join(bookDir, "chapters", "2.html"))).toBe(true);
 
-      const bookJson = JSON.parse(readFileSync(join(bookDir, "book.json"), "utf-8"));
-      expect(bookJson.title).toBe("Test Book");
-      expect(bookJson.chapters).toHaveLength(2);
-      expect(bookJson.chapters[0].content).toBe("Content one.");
+      expect(readFileSync(join(bookDir, "chapters", "1.html"), "utf-8")).toBe("Content one.");
+      expect(readFileSync(join(bookDir, "chapters", "2.html"), "utf-8")).toBe("Content two.");
 
       const indexJson = JSON.parse(readFileSync(join(bookDir, "book-index.json"), "utf-8"));
       expect(indexJson.title).toBe("Test Book");

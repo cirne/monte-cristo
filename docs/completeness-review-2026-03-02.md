@@ -11,7 +11,7 @@ This document records the current completeness status after a full pass over:
 
 Coverage was audited by comparing:
 
-- `data/book.json` chapter list
+- `data/book-index.json` + `data/chapters/*.html` chapter data
 - `data/chapter-index.json` chapter/entity/scene metadata
 - `data/entity-image-prompts.json` and `data/scene-image-prompts.json`
 - Generated image files in:

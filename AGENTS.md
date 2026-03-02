@@ -20,13 +20,13 @@ X-Ray style reader for **The Count of Monte Cristo**: read chapters, click peopl
 |------|---------|
 | `app/` | Pages and components |
 | `app/chapter/[number]/` | Chapter reader + X-Ray panel |
-| `data/` | Generated JSON (book, chapter index, entity store). Do not hand-edit. |
+| `data/` | Generated canonical data (book-index, chapters HTML, chapter index, entity store). Do not hand-edit. |
 | `lib/` | Data loading, book/chapter/entity logic, linkify |
 | `scripts/` | parse-book, index-chapter (canonical), image generation |
 
 ## Data flow
 
-1. `parse-book.ts` → `data/book.json`, `data/book-index.json`
+1. `parse-book.ts` → `data/<book>/chapters/*.html`, `data/<book>/book-index.json`
 2. `index-chapter --all` → `data/chapter-index.json` + updates `data/entity-store.json`
 3. `watch-data.ts` bumps `lib/data-manifest.ts` when `data/` changes so dev server picks up new data. Do not commit local changes to `lib/data-manifest.ts` (generated; merge-conflict prone).
 
@@ -36,7 +36,7 @@ When you change schema or scripts that write to `data/`, run the relevant script
 
 - `bun run test` / `npm run test` — Run test suite (Vitest)
 - `bun run dev` — Dev server + watch-data
-- `bun run parse-book` — Regenerate book JSON
+- `bun run parse-book` — Regenerate canonical chapter HTML + book index
 - `bun run index-chapter --all` — Canonical full chapter index rebuild
 - `bun run index-chapter --chapter=N` — Incremental chapter patch/reindex (non-destructive by default)
 - Parallel index-chapter runs for the same book are safe: writes are guarded by a lock and results are merged.
