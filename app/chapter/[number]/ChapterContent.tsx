@@ -184,11 +184,8 @@ export function ChapterContent({
     return map;
   }, [scenes, chapterNumber]);
 
-  /** Scene images: default book stays at /images/scenes/ for backward compat; other books use /images/scenes/<bookSlug>/ */
-  const scenesBase =
-    bookSlug && bookSlug !== DEFAULT_BOOK_SLUG
-      ? `/images/scenes/${bookSlug}`
-      : "/images/scenes";
+  /** Scene images: /images/scenes/<bookSlug>/ */
+  const scenesBase = `/images/scenes/${bookSlug ?? DEFAULT_BOOK_SLUG}`;
 
   return (
     <>

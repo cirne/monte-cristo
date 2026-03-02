@@ -7,8 +7,7 @@
  *
  * Entity images: data/<book>/entity-image-prompts.json, image-style.txt.
  * Scene images: data/<book>/scene-image-prompts.json, chapter index scenes.
- * Images: public/images/entities/ or public/images/entities/<book>/,
- *         public/images/scenes/ or public/images/scenes/<book>/.
+ * Images: public/images/entities/<book>/ and public/images/scenes/<book>/.
  *
  * Usage:
  *   bun run scripts/generate-images.ts --book=monte-cristo --chapter=1
@@ -565,14 +564,8 @@ async function main() {
   const config = getBookConfig(bookSlug)!;
   const bookTitle = config.title;
   const imageStyleHint = config.imageStyleHint;
-  const publicEntitiesDir =
-    bookSlug === DEFAULT_BOOK_SLUG
-      ? join(ROOT, "public", "images", "entities")
-      : join(ROOT, "public", "images", "entities", bookSlug);
-  const publicScenesDir =
-    bookSlug === DEFAULT_BOOK_SLUG
-      ? join(ROOT, "public", "images", "scenes")
-      : join(ROOT, "public", "images", "scenes", bookSlug);
+  const publicEntitiesDir = join(ROOT, "public", "images", "entities", bookSlug);
+  const publicScenesDir = join(ROOT, "public", "images", "scenes", bookSlug);
 
   const style = loadStyle(ROOT);
 

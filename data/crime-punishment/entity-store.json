@@ -1,0 +1,294 @@
+{
+  "entities": {
+    "raskolnikov": {
+      "id": "raskolnikov",
+      "name": "Rodion Romanovich Raskolnikov",
+      "aliases": [
+        "the young man"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Rodion Romanovich Raskolnikov",
+        "the young man"
+      ],
+      "spoilerFreeIntro": "A young, impoverished former student wandering the streets of St. Petersburg, lost in deep thought."
+    },
+    "alyona-ivanovna": {
+      "id": "alyona-ivanovna",
+      "name": "Alyona Ivanovna",
+      "aliases": [
+        "the old woman"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Alyona Ivanovna",
+        "the old woman"
+      ],
+      "spoilerFreeIntro": "An old pawnbroker who lives alone on the fourth floor."
+    },
+    "lizaveta-ivanovna": {
+      "id": "lizaveta-ivanovna",
+      "name": "Lizaveta Ivanovna",
+      "aliases": [
+        "Lizaveta"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Lizaveta Ivanovna",
+        "Lizaveta"
+      ],
+      "spoilerFreeIntro": "Lizaveta Ivanovna is the quiet, gentle sister of Alyona Ivanovna, known for her hard work and humble demeanor."
+    },
+    "saint-petersburg": {
+      "id": "saint-petersburg",
+      "name": "St. Petersburg",
+      "aliases": [
+        "Petersburg"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "St. Petersburg",
+        "Petersburg"
+      ],
+      "spoilerFreeIntro": "St. Petersburg, a bustling city alive with construction and a peculiar summer stench, presses in on its weary inhabitants."
+    },
+    "hay-market": {
+      "id": "hay-market",
+      "name": "Hay Market",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Hay Market"
+      ],
+      "spoilerFreeIntro": "A bustling London district known for its busy markets and colorful, crowded streets."
+    },
+    "s_place": {
+      "id": "s_place",
+      "name": "S. Place",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "S. Place"
+      ],
+      "spoilerFreeIntro": "A bustling, somewhat shabby street in St. Petersburg, lined with modest lodging-houses and filled with the weary pulse of city life."
+    },
+    "k_bridge": {
+      "id": "k_bridge",
+      "name": "K. bridge",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "K. bridge"
+      ],
+      "spoilerFreeIntro": "A bridge in St. Petersburg, quietly spanning the river near the lodging houses."
+    },
+    "zimmermans": {
+      "id": "zimmermans",
+      "name": "Zimmerman's",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Zimmerman's"
+      ]
+    },
+    "jack_the_giantkiller": {
+      "id": "jack_the_giantkiller",
+      "name": "Jack the Giant-killer",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Jack the Giant-killer"
+      ],
+      "spoilerFreeIntro": "A legendary folk hero famed for outwitting enormous foes."
+    },
+    "the_young_mans_landlady": {
+      "id": "the_young_mans_landlady",
+      "name": "the young man's landlady",
+      "aliases": [
+        "landlady"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the young man's landlady",
+        "landlady"
+      ],
+      "spoilerFreeIntro": "The young man's landlady, a woman who manages the rooms in the large, five-storied house, appears only briefly as he tries to avoid her."
+    },
+    "the_german_clerk": {
+      "id": "the_german_clerk",
+      "name": "the German clerk",
+      "aliases": [
+        "German clerk"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the German clerk",
+        "German clerk"
+      ],
+      "spoilerFreeIntro": "A German clerk in the civil service, recently vacating his flat with his family."
+    },
+    "the_german_clerks_family": {
+      "id": "the_german_clerks_family",
+      "name": "the German clerk's family",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the German clerk's family"
+      ]
+    },
+    "the_drunk_man_in_the_waggon": {
+      "id": "the_drunk_man_in_the_waggon",
+      "name": "the drunk man in the waggon",
+      "aliases": [
+        "German hatter"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the drunk man in the waggon",
+        "German hatter"
+      ],
+      "spoilerFreeIntro": "A disheveled, drunken man lolls in a passing wagon, loudly taunting strangers on the street."
+    },
+    "the_porters": {
+      "id": "the_porters",
+      "name": "the porters",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the porters"
+      ]
+    },
+    "the_tavern": {
+      "id": "the_tavern",
+      "name": "the tavern",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the tavern"
+      ],
+      "spoilerFreeIntro": "A modest tavern, dimly lit and nearly empty, offering shelter to a handful of late-night drinkers."
+    },
+    "the_artisan_in_the_tavern": {
+      "id": "the_artisan_in_the_tavern",
+      "name": "the artisan in the tavern",
+      "aliases": [
+        "man who appeared to be an artisan"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the artisan in the tavern",
+        "man who appeared to be an artisan"
+      ],
+      "spoilerFreeIntro": "A workingman, somewhat inebriated, sits with his companion over a pot of beer."
+    },
+    "artisans_companion": {
+      "id": "artisans_companion",
+      "name": "artisan's companion",
+      "aliases": [
+        "huge, stout man with a grey beard"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "artisan's companion",
+        "huge, stout man with a grey beard"
+      ],
+      "spoilerFreeIntro": "A huge, stout man with a grey beard and a short, full-skirted coat, dozing drunkenly beside his friend."
+    },
+    "the_retired_government_clerk": {
+      "id": "the_retired_government_clerk",
+      "name": "the retired government clerk",
+      "aliases": [
+        "man who looked somewhat like a retired government clerk"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the retired government clerk",
+        "man who looked somewhat like a retired government clerk"
+      ]
+    },
+    "group_with_a_girl_with_a_concertina": {
+      "id": "group_with_a_girl_with_a_concertina",
+      "name": "group with a girl with a concertina",
+      "aliases": [
+        "girl with a concertina"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "group with a girl with a concertina",
+        "girl with a concertina"
+      ],
+      "spoilerFreeIntro": "A lively group of about five men and a girl with a concertina, recently left the tavern together."
+    },
+    "the_young_mans_father": {
+      "id": "the_young_mans_father",
+      "name": "the young man's father",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the young man's father"
+      ]
+    },
+    "the_old_womans_sister": {
+      "id": "the_old_womans_sister",
+      "name": "the old woman's sister",
+      "aliases": [
+        "your sister"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the old woman's sister",
+        "your sister"
+      ],
+      "spoilerFreeIntro": "The old woman's sister is a mysterious figure, rarely seen and mentioned with suspicion."
+    },
+    "the_exploitproject_to_be_attempted": {
+      "id": "the_exploitproject_to_be_attempted",
+      "name": "the exploit/project to be attempted",
+      "aliases": [
+        "hideous dream"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the exploit/project to be attempted",
+        "hideous dream"
+      ]
+    },
+    "the_rehearsal_of_the_project": {
+      "id": "the_rehearsal_of_the_project",
+      "name": "the rehearsal of the project",
+      "aliases": [
+        "rehearsal"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the rehearsal of the project",
+        "rehearsal"
+      ],
+      "spoilerFreeIntro": "A tense young man anxiously approaches a rehearsal of his secret project."
+    }
+  },
+  "lastIndexedChapter": 1
+}
