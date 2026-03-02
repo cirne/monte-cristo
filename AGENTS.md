@@ -28,14 +28,14 @@ X-Ray style reader for **The Count of Monte Cristo**: read chapters, click peopl
 
 1. `parse-book.ts` → `data/<book>/chapters/*.html`, `data/<book>/book-index.json`
 2. `index-chapter --all` → `data/chapter-index.json` + updates `data/entity-store.json`
-3. `watch-data.ts` bumps `lib/data-manifest.ts` when `data/` changes so dev server picks up new data. Do not commit local changes to `lib/data-manifest.ts` (generated; merge-conflict prone).
+3. `bun run dev` runs the dev server under nodemon with `--watch data`, so the server restarts when files in `data/` change.
 
 When you change schema or scripts that write to `data/`, run the relevant script and ensure the app still reads the new shape.
 
 ## Scripts
 
 - `bun run test` / `npm run test` — Run test suite (Vitest)
-- `bun run dev` — Dev server + watch-data
+- `bun run dev` — Dev server (restarts when `data/` changes, via nodemon)
 - `bun run parse-book` — Regenerate canonical chapter HTML + book index
 - `bun run index-chapter --all` — Canonical full chapter index rebuild
 - `bun run index-chapter --chapter=N` — Incremental chapter patch/reindex (non-destructive by default)

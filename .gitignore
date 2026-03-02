@@ -41,6 +41,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# Stub is committed; do not commit local overwrites from watch-data (merge-conflict prone)
-# lib/data-manifest.ts

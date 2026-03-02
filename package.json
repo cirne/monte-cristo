@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"next dev --turbopack\" \"bun run scripts/watch-data.ts\"",
+    "dev": "nodemon --watch data --exec \"next dev --turbopack\"",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
@@ -32,6 +32,7 @@
     "@types/react-dom": "^19",
     "@vitest/coverage-v8": "^4.0.18",
     "concurrently": "^9.1.2",
+    "nodemon": "^3.1.9",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "jsdom": "^28.1.0",

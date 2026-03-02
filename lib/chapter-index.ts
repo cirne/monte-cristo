@@ -1,6 +1,5 @@
 import { readFileSync, existsSync } from "fs";
 import { join } from "path";
-import "./data-manifest";
 import type { SceneWithDetails } from "./scenes";
 import { buildCanonicalMapping } from "./canonical-entities";
 import { getEntityStore } from "./entity-store";

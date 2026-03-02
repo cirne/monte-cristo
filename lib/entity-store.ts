@@ -5,7 +5,6 @@
 
 import { readFileSync, existsSync } from "fs";
 import { join } from "path";
-import "./data-manifest";
 import type { EntityType } from "./chapter-index";
 import { DEFAULT_BOOK_SLUG } from "./books";
 
