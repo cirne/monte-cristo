@@ -156,6 +156,9 @@ export function ParagraphContextMenu({
       setAnswer(undefined);
       setError(undefined);
 
+      const loadingStartedAt = Date.now();
+      const MIN_LOADING_MS = 400; // Ensure loading indicator is visible (e.g. fast prod responses)
+
       try {
         let url = `${actionEndpoint(nextAction)}?chapter=${chapterNumber}&paragraph=${anchor.paragraphIndex}`;
         if (bookSlug) url += `&book=${encodeURIComponent(bookSlug)}`;
@@ -169,9 +172,16 @@ export function ParagraphContextMenu({
         if (!nextAnswer) {
           throw new Error("Context response was empty.");
         }
+        const elapsed = Date.now() - loadingStartedAt;
+        const delay = Math.max(0, MIN_LOADING_MS - elapsed);
+        if (delay > 0) await new Promise((r) => setTimeout(r, delay));
+        if (requestIdRef.current !== requestId) return;
         setMode("result");
         setAnswer(nextAnswer);
       } catch (e) {
+        const elapsed = Date.now() - loadingStartedAt;
+        const delay = Math.max(0, MIN_LOADING_MS - elapsed);
+        if (delay > 0) await new Promise((r) => setTimeout(r, delay));
         if (requestIdRef.current !== requestId) return;
         setMode("error");
         setError(e instanceof Error ? e.message : "Unable to load reading context.");
