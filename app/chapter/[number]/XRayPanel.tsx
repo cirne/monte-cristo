@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import type { EntityType } from "@/lib/chapter-index";
+import { parseTextForEntityLinks } from "./entityTextSegments";
 
 export interface XRayEntityData {
   name: string;
@@ -11,67 +12,6 @@ export interface XRayEntityData {
   firstSeenInChapter: number;
   excerpt?: string;
   type: EntityType;
-}
-
-/** Segment of the intro paragraph: plain text or a link to another entity */
-type IntroSegment =
-  | { type: "text"; content: string }
-  | { type: "entity"; content: string; entityId: string };
-
-/** Split intro text into segments, with entity names/aliases as linkable segments */
-function parseIntroForEntityLinks(
-  intro: string,
-  entityData: Record<string, XRayEntityData>,
-  currentEntityId: string
-): IntroSegment[] {
-  const segments: IntroSegment[] = [];
-  const patterns: { pattern: string; entityId: string }[] = [];
-  for (const [id, data] of Object.entries(entityData)) {
-    if (id === currentEntityId) continue;
-    if (data.name) patterns.push({ pattern: data.name, entityId: id });
-    for (const alias of data.aliases) {
-      if (alias) patterns.push({ pattern: alias, entityId: id });
-    }
-  }
-  patterns.sort((a, b) => b.pattern.length - a.pattern.length);
-
-  let i = 0;
-  while (i < intro.length) {
-    let matched: { pattern: string; entityId: string } | null = null;
-    for (const { pattern, entityId } of patterns) {
-      if (
-        intro.slice(i, i + pattern.length) === pattern &&
-        (matched === null || pattern.length > matched.pattern.length)
-      ) {
-        matched = { pattern, entityId };
-      }
-    }
-    if (matched) {
-      segments.push({
-        type: "entity",
-        content: matched.pattern,
-        entityId: matched.entityId,
-      });
-      i += matched.pattern.length;
-    } else {
-      segments.push({ type: "text", content: intro[i] });
-      i += 1;
-    }
-  }
-
-  const merged: IntroSegment[] = [];
-  for (const seg of segments) {
-    if (seg.type === "text") {
-      if (merged.length > 0 && merged[merged.length - 1].type === "text") {
-        (merged[merged.length - 1] as { content: string }).content += seg.content;
-      } else {
-        merged.push(seg);
-      }
-    } else {
-      merged.push(seg);
-    }
-  }
-  return merged;
 }
 
 interface XRayPanelProps {
@@ -103,8 +43,8 @@ export function XRayPanel({
   const introText = data.spoilerFreeIntro ?? data.name;
   const introSegments =
     onSelectEntity && Object.keys(entityData).length > 1
-      ? parseIntroForEntityLinks(introText, entityData, entityId)
-      : ([{ type: "text" as const, content: introText }] as IntroSegment[]);
+      ? parseTextForEntityLinks(introText, entityData, entityId)
+      : [{ type: "text" as const, content: introText }];
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/40" onClick={onClose}>
