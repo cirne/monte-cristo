@@ -3,6 +3,7 @@ import {
   isCanonicalHtml,
   htmlToParagraphs,
   textToCanonicalHtml,
+  formatCanonicalHtmlForStorage,
   stripHtmlToText,
   sanitizeToCanonicalHtml,
 } from "./canonical-html";
@@ -64,6 +65,29 @@ describe("lib/canonical-html", () => {
     it("escapes < and >", () => {
       expect(textToCanonicalHtml("a < b")).toBe("<p>a &lt; b</p>");
       expect(textToCanonicalHtml("b > a")).toBe("<p>b &gt; a</p>");
+    });
+  });
+
+  describe("formatCanonicalHtmlForStorage", () => {
+    it("puts paragraph tags on their own lines", () => {
+      const html = "<p>First paragraph.</p><p>Second paragraph.</p>";
+      expect(formatCanonicalHtmlForStorage(html)).toBe(
+        "<p>\nFirst paragraph.\n</p>\n\n<p>\nSecond paragraph.\n</p>"
+      );
+    });
+
+    it("wraps paragraph text to the provided width", () => {
+      const html = "<p>One two three four five six seven eight</p>";
+      expect(formatCanonicalHtmlForStorage(html, 18)).toBe(
+        "<p>\nOne two three four\nfive six seven eight\n</p>"
+      );
+    });
+
+    it("preserves inline tags while wrapping", () => {
+      const html = "<p>Hello <strong>bold text</strong> and <em>emphasis</em> here.</p>";
+      expect(formatCanonicalHtmlForStorage(html, 26)).toBe(
+        "<p>\nHello <strong>bold\ntext</strong> and\n<em>emphasis</em> here.\n</p>"
+      );
     });
   });
 
