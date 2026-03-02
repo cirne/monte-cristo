@@ -21,6 +21,11 @@ export interface BookConfig {
   baselineIntro?: string;
   /** Optional hint for scene/entity image prompts (e.g. "19th-century novel, France" or "1920s American, Jazz Age") */
   imageStyleHint?: string;
+  /**
+   * Optional prompt fragment injected into scene/summary explanation prompts.
+   * Use for book-specific guidance (e.g. narrator name, historical context).
+   */
+  summaryPromptFragment?: string;
 }
 
 const CONFIG: Record<BookSlug, BookConfig> = {
@@ -39,6 +44,8 @@ const CONFIG: Record<BookSlug, BookConfig> = {
     baselineIntro:
       "The story opens in Marseilles. The following people, places, and events appear in this chapter.",
     imageStyleHint: "19th-century novel, early 1800s France and Mediterranean; period-appropriate dress and setting.",
+    summaryPromptFragment:
+      "Bear in mind the historical context: early 19th-century France and the Mediterranean (post-Napoleonic era); keep summaries grounded in that period and avoid anachronisms.",
   },
   gatsby: {
     title: "The Great Gatsby",
@@ -49,6 +56,8 @@ const CONFIG: Record<BookSlug, BookConfig> = {
     baselineIntro:
       "The story is set in 1920s New York and Long Island. The following people, places, and events appear in this chapter.",
     imageStyleHint: "1920s American, Jazz Age; Long Island and New York; period-appropriate dress and setting.",
+    summaryPromptFragment:
+      "The narrator is Nick Carraway; refer to him by name (e.g. \"Nick\" or \"Nick's house\") rather than as \"the narrator\".",
   },
 };
 

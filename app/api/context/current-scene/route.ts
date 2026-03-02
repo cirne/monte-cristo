@@ -41,7 +41,7 @@ function buildFallbackAnswer(params: {
   return parts.join("\n\n");
 }
 
-import { DEFAULT_BOOK_SLUG, isBookSlug } from "@/lib/books";
+import { DEFAULT_BOOK_SLUG, getBookConfig, isBookSlug } from "@/lib/books";
 
 export async function GET(request: NextRequest) {
   const chapterNumber = parsePositiveIntParam(request.nextUrl.searchParams.get("chapter"));
@@ -88,13 +88,21 @@ export async function GET(request: NextRequest) {
       sceneText,
     });
 
-    const { answer, source } = await generateNarrativeAnswer({
-      systemPrompt: `You are a spoiler-safe literary reading companion.
+    const config = getBookConfig(slug);
+    const systemPromptBase = `You are a spoiler-safe literary reading companion.
 Summarize what is happening in the current scene at the reader's exact checkpoint.
 Use recent-chapter context only as supporting background, but prioritize the current-scene evidence.
 Never mention events beyond the provided excerpted context.
+Do not focus on "stakes" or "implications"—simply summarize what is happening.
 Write exactly two paragraphs.
-Return strict JSON with a single key: "answer".`,
+Return strict JSON with a single key: "answer".`;
+    const systemPrompt =
+      config?.summaryPromptFragment?.trim()
+        ? `${systemPromptBase}\n\nBook-specific guidance: ${config.summaryPromptFragment!.trim()}`
+        : systemPromptBase;
+
+    const { answer, source } = await generateNarrativeAnswer({
+      systemPrompt,
       userPrompt: `Reading checkpoint:
 - Chapter: ${chapterNumber}
 - Paragraph index (0-based): ${position.paragraphIndex}
@@ -104,11 +112,7 @@ Return strict JSON with a single key: "answer".`,
 Context:
 ${context.text}
 
-Task:
-Write exactly 2 paragraphs summarizing the current scene at this checkpoint.
-Paragraph 1 should explain what is unfolding right now.
-Paragraph 2 should clarify immediate stakes/implications while staying spoiler-safe.
-Use prior chapters only for brief grounding.`,
+Summarize the current scene at this checkpoint in up to 2 paragraphs.`,
       fallbackAnswer,
       maxOutputTokens: 420,
     });

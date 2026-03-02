@@ -156,6 +156,9 @@ export function ParagraphContextMenu({
       setAnswer(undefined);
       setError(undefined);
 
+      const loadingStartedAt = Date.now();
+      const MIN_LOADING_MS = 400; // Ensure loading indicator is visible (e.g. fast prod responses)
+
       try {
         let url = `${actionEndpoint(nextAction)}?chapter=${chapterNumber}&paragraph=${anchor.paragraphIndex}`;
         if (bookSlug) url += `&book=${encodeURIComponent(bookSlug)}`;
@@ -169,9 +172,16 @@ export function ParagraphContextMenu({
         if (!nextAnswer) {
           throw new Error("Context response was empty.");
         }
+        const elapsed = Date.now() - loadingStartedAt;
+        const delay = Math.max(0, MIN_LOADING_MS - elapsed);
+        if (delay > 0) await new Promise((r) => setTimeout(r, delay));
+        if (requestIdRef.current !== requestId) return;
         setMode("result");
         setAnswer(nextAnswer);
       } catch (e) {
+        const elapsed = Date.now() - loadingStartedAt;
+        const delay = Math.max(0, MIN_LOADING_MS - elapsed);
+        if (delay > 0) await new Promise((r) => setTimeout(r, delay));
         if (requestIdRef.current !== requestId) return;
         setMode("error");
         setError(e instanceof Error ? e.message : "Unable to load reading context.");
@@ -235,16 +245,22 @@ export function ParagraphContextMenu({
           <div
             role="dialog"
             aria-label="Reading context summary"
-            className="bg-white rounded-xl shadow-xl w-full max-w-5xl max-h-[90vh] overflow-y-auto border border-stone-200 p-4 sm:p-6"
+            className="bg-white rounded-xl shadow-xl w-full max-w-5xl max-h-[90vh] min-h-[200px] overflow-y-auto border border-stone-200 p-4 sm:p-6"
             onClick={(e) => e.stopPropagation()}
             data-testid="paragraph-context-scroll"
           >
             {mode === "loading" && (
-            <div className="p-3">
-              <p className="text-xs uppercase tracking-widest text-stone-400 mb-1">
-                {actionLabel(action ?? "current-scene")}
-              </p>
-              <p className="text-sm text-stone-700">Preparing your summary…</p>
+            <div className="flex flex-col items-center justify-center gap-4 py-6">
+              <div
+                className="size-10 rounded-full border-2 border-stone-200 border-t-amber-600 animate-spin"
+                aria-hidden
+              />
+              <div className="text-center">
+                <p className="text-xs uppercase tracking-widest text-stone-400 mb-1">
+                  {actionLabel(action ?? "current-scene")}
+                </p>
+                <p className="text-sm text-stone-700">Preparing your summary…</p>
+              </div>
             </div>
             )}
 
