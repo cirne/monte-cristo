@@ -3,7 +3,7 @@
  * Scripts and app use this to resolve slug → config (volume labels, storage key, etc.).
  */
 
-export const BOOK_SLUGS = ["monte-cristo", "gatsby", "crime-punishment"] as const;
+export const BOOK_SLUGS = ["monte-cristo", "gatsby", "crime-punishment", "brothers-karamazov"] as const;
 export type BookSlug = (typeof BOOK_SLUGS)[number];
 
 export const DEFAULT_BOOK_SLUG: BookSlug = "monte-cristo";
@@ -29,6 +29,24 @@ export interface BookConfig {
 }
 
 const CONFIG: Record<BookSlug, BookConfig> = {
+  "brothers-karamazov": {
+    title: "The Brothers Karamazov",
+    author: "Fyodor Dostoyevsky (trans. Constance Garnett)",
+    icon: "🕯️",
+    storageKey: "brothers-karamazov-last-chapter",
+    volumeLabels: {
+      "PART I": "Part I",
+      "PART II": "Part II",
+      "PART III": "Part III",
+      "PART IV": "Part IV",
+      EPILOGUE: "Epilogue",
+    },
+    baselineIntro:
+      "The story opens in 19th-century Russia. The following people, places, and events appear in this chapter.",
+    imageStyleHint: "19th-century Russia; period attire and settings; realistic fine-art illustration.",
+    summaryPromptFragment:
+      "Keep in mind the setting is 19th-century Russia; avoid anachronisms and keep summaries grounded in the chapter text only.",
+  },
   "crime-punishment": {
     title: "Crime and Punishment",
     author: "Fyodor Dostoyevsky (trans. Constance Garnett)",

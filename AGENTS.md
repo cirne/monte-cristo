@@ -42,6 +42,10 @@ When you change schema or scripts that write to `data/`, run the relevant script
 - Parallel index-chapter runs for the same book are safe: writes are guarded by a lock and results are merged.
 - `bun run generate-images` — Entity and scene images (needs `OPENAI_API_KEY`). Use `--chapter=N` for all images for a chapter; `--scenes-only` or `--entities-only` to restrict.
 
+## Playbooks
+
+- Add a new book: `docs/add_new_book_playbook.md`
+
 ## Conventions
 
 - Types from `lib/` (`Chapter`, `StoredEntity`, `EntityType`, etc.). Data loading is server-side only.
