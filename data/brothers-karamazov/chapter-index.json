@@ -1,0 +1,126 @@
+{
+  "chapters": [
+    {
+      "number": 1,
+      "baselineIntro": "The story opens in 19th-century Russia. The following people, places, and events appear in this chapter.",
+      "entities": [
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> Alexey Fyodorovitch Karamazov was the third son of Fyodor Pavlovitch Karamazov, a land owner well known in our district in his own day, and still remembered among us owing to his gloomy and"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> Alexey Fyodorovitch Karamazov was the third son of Fyodor Pavlovitch Karamazov, a land owner well known in our district in his own day, and still remembered among us owing to his gloomy and tragic death, which happened thirteen years a…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…nal form of it. </p>  <p> He was married twice, and had three sons, the eldest, Dmitri, by his first wife, and two, Ivan and Alexey, by his second. Fyodor Pavlovitch’s first wife, Adelaïda Ivanovna, belonged to a fairly rich and distinguis…"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ried twice, and had three sons, the eldest, Dmitri, by his first wife, and two, Ivan and Alexey, by his second. Fyodor Pavlovitch’s first wife, Adelaïda Ivanovna, belonged to a fairly rich and distinguished noble family, also landowners in…"
+        },
+        {
+          "entityId": "adelaida_ivanovna_miusov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…wife, and two, Ivan and Alexey, by his second. Fyodor Pavlovitch’s first wife, Adelaïda Ivanovna, belonged to a fairly rich and distinguished noble family, also landowners in our district, the Miüsovs. How it came to pass that an heiress, …"
+        },
+        {
+          "entityId": "the_misov_family",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…a fairly rich and distinguished noble family, also landowners in our district, the Miüsovs. How it came to pass that an heiress, who was also a beauty, and moreover one of those vigorous, intelligent girls, so common in this generation, bu…"
+        },
+        {
+          "entityId": "saint_petersburg",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…in getting on the track of his runaway wife. The poor woman turned out to be in Petersburg, where she had gone with her divinity student, and where she had thrown herself into a life of complete emancipation. Fyodor Pavlovitch at once bega…"
+        },
+        {
+          "entityId": "divinity_student",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…inally, she left the house and ran away from Fyodor Pavlovitch with a destitute divinity student, leaving Mitya, a child of three years old, in her husband’s hands. Immediately Fyodor Pavlovitch introduced a regular harem into the house, a…"
+        },
+        {
+          "entityId": "death_of_fyodor_pavlovitch_karamazov",
+          "type": "event",
+          "firstSeenInChapter": 1
+        },
+        {
+          "entityId": "death_of_adelada_ivanovna_misov",
+          "type": "event",
+          "firstSeenInChapter": 1,
+          "excerpt": "…less drinking. And just at that time his wife’s family received the news of her death in Petersburg. She had died quite suddenly in a garret, according to one story, of typhus, or as another version had it, of starvation. Fyodor Pavlovitch…"
+        },
+        {
+          "entityId": "ophelia",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…so perished, entirely to satisfy her own caprice, and to be like Shakespeare’s Ophelia. Indeed, if this precipice, a chosen and favorite spot of hers, had been less picturesque, if there had been a prosaic flat bank in its place, most like…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Narrator's historical overview",
+          "imageDescription": "A finely detailed, realistic illustration of a 19th-century Russian study, dimly lit from a window, with a single male narrator at a desk crowded with papers and books. In the rich atmosphere of old Russia, hints of portraits and estate documents on the wall, the scene reflects a scholarly, contemplative mood. The furniture is ornate, wood-paneled, and period-appropriate, with ink pots and candlesticks. The narrator is not specifically identified as a character but sits alone, slightly turned as if recalling memories."
+        },
+        {
+          "startParagraph": 1,
+          "endParagraph": 1,
+          "locationDescription": "The Miüsov family estate and surroundings",
+          "imageDescription": "A lush 19th-century Russian manor landscape in springtime, showing a well-appointed country estate with grand trees and a gravel drive. In the foreground, a well-dressed young Adelaïda Ivanovna walks with members of the Miüsov family, all in noble Russian attire: dress coats and long, flowing dresses with headdresses for the women. A distant, uneasy Fyodor Pavlovitch Karamazov watches from behind a tree in threadbare but neat clothes. The light is warm, creating a contrast between the elegance of the family and Fyodor’s outsider presence.",
+          "characterIds": [
+            "fyodor_pavlovitch_karamazov",
+            "adelaida_ivanovna_miusov",
+            "the_misov_family"
+          ]
+        },
+        {
+          "startParagraph": 2,
+          "endParagraph": 2,
+          "locationDescription": "Home of Fyodor Pavlovitch and Adelaïda Ivanovna after elopement",
+          "imageDescription": "A somber 19th-century Russian sitting room with heavy drapes and dark wood furniture. Adelaïda Ivanovna stands defiantly by a window, dressed in a stylish but severe dress, her expression resolute. Across from her, Fyodor Pavlovitch slouches in a chair clutching a money pouch, his clothes modest and disheveled. A tense and chaotic atmosphere prevails: scattered papers, an overturned chair, and signs of a recent argument. A small child, Dmitri, sits on a rug in the background, ignored by both parents.",
+          "characterIds": [
+            "fyodor_pavlovitch_karamazov",
+            "adelaida_ivanovna_miusov",
+            "dmitri_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 2,
+          "locationDescription": "Fyodor Pavlovitch’s house after Adelaïda’s departure",
+          "imageDescription": "A decadent, disorderly 19th-century Russian dining room, filled with raucous, drunken guests and a haze of candlelight. Fyodor Pavlovitch, slightly flushed, raises a glass at the table amidst a group of gossipy women in garish dresses. Bottles, porcelain, and spilled drinks clutter the table. In one corner, a small, forlorn child, Dmitri, sits quietly, overshadowed by the revelry. The scene is rich in color and noise, filled with period decor and a chaotic, indulgent mood.",
+          "characterIds": [
+            "fyodor_pavlovitch_karamazov",
+            "dmitri_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 3,
+          "endParagraph": 3,
+          "locationDescription": "Fyodor Pavlovitch in the provincial town and later, news from Petersburg",
+          "imageDescription": "A bustling Russian provincial street scene with Fyodor Pavlovitch at its center, dramatically gesturing to a group of townspeople outside an inn. Fyodor is red-faced and theatrical, enjoying the attention, while others grin, smirk, or whisper among themselves. Later in the scene, a shadowy cityscape suggests distant Petersburg, somber and cold, as news arrives of Adelaïda Ivanovna’s death. Fyodor alternates between wild jubilation and drunken tears, with onlookers expressing a mix of sympathy and disdain. Period costumes abound: fur hats, shabby coats, and peasant garb.",
+          "characterIds": [
+            "fyodor_pavlovitch_karamazov",
+            "adelaida_ivanovna_miusov",
+            "divinity_student"
+          ]
+        }
+      ]
+    }
+  ]
+}

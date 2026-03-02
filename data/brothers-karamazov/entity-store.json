@@ -1,0 +1,146 @@
+{
+  "entities": {
+    "alexey_fyodorovitch_karamazov": {
+      "id": "alexey_fyodorovitch_karamazov",
+      "name": "Alexey Fyodorovitch Karamazov",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Alexey Fyodorovitch Karamazov"
+      ],
+      "spoilerFreeIntro": "A gentle and thoughtful young man, Alexey Fyodorovitch Karamazov is the youngest son of Fyodor Pavlovitch Karamazov."
+    },
+    "fyodor_pavlovitch_karamazov": {
+      "id": "fyodor_pavlovitch_karamazov",
+      "name": "Fyodor Pavlovitch Karamazov",
+      "aliases": [
+        "landowner"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Fyodor Pavlovitch Karamazov",
+        "landowner"
+      ],
+      "spoilerFreeIntro": "A wealthy landowner known for his scandalous behavior and reputation in the district."
+    },
+    "dmitri_fyodorovitch_karamazov": {
+      "id": "dmitri_fyodorovitch_karamazov",
+      "name": "Dmitri Fyodorovitch Karamazov",
+      "aliases": [
+        "Dmitri"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Dmitri Fyodorovitch Karamazov",
+        "Dmitri"
+      ],
+      "spoilerFreeIntro": "The passionate and impulsive eldest son of Fyodor Pavlovitch, born of his first marriage."
+    },
+    "ivan_fyodorovitch_karamazov": {
+      "id": "ivan_fyodorovitch_karamazov",
+      "name": "Ivan Fyodorovitch Karamazov",
+      "aliases": [
+        "Ivan"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Ivan Fyodorovitch Karamazov",
+        "Ivan"
+      ],
+      "spoilerFreeIntro": "A quiet and intelligent young man, Ivan is the middle son of Fyodor Pavlovitch Karamazov."
+    },
+    "adelaida_ivanovna_miusov": {
+      "id": "adelaida_ivanovna_miusov",
+      "name": "Adelaïda Ivanovna Miüsov",
+      "aliases": [
+        "Adelaïda Ivanovna"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Adelaïda Ivanovna Miüsov",
+        "Adelaïda Ivanovna"
+      ],
+      "spoilerFreeIntro": "Adelaïda Ivanovna Miüsov was Fyodor Pavlovitch’s first wife, a distinguished heiress from the noble Miüsov family."
+    },
+    "the_misov_family": {
+      "id": "the_misov_family",
+      "name": "The Miüsov Family",
+      "aliases": [
+        "the Miüsovs"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "The Miüsov Family",
+        "the Miüsovs"
+      ],
+      "spoilerFreeIntro": "A distinguished and affluent noble family from the district, the Miüsovs are known for their land, status, and refined upbringing."
+    },
+    "saint_petersburg": {
+      "id": "saint_petersburg",
+      "name": "Petersburg",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Petersburg"
+      ],
+      "spoilerFreeIntro": "Petersburg, a bustling Russian city alive with new ideas and restless seekers of change."
+    },
+    "divinity_student": {
+      "id": "divinity_student",
+      "name": "Divinity student",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Divinity student"
+      ],
+      "spoilerFreeIntro": "A young divinity student, impoverished and earnest in his studies."
+    },
+    "death_of_fyodor_pavlovitch_karamazov": {
+      "id": "death_of_fyodor_pavlovitch_karamazov",
+      "name": "Death of Fyodor Pavlovitch Karamazov",
+      "aliases": [
+        "gloomy and tragic death (of Fyodor Pavlovitch)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Death of Fyodor Pavlovitch Karamazov",
+        "gloomy and tragic death (of Fyodor Pavlovitch)"
+      ]
+    },
+    "death_of_adelada_ivanovna_misov": {
+      "id": "death_of_adelada_ivanovna_misov",
+      "name": "Death of Adelaïda Ivanovna Miüsov",
+      "aliases": [
+        "death in Petersburg"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Death of Adelaïda Ivanovna Miüsov",
+        "death in Petersburg"
+      ],
+      "spoilerFreeIntro": "The mother of Fyodor Pavlovich's son Dmitri, Adelaïda Ivanovna Miüsov, passes away suddenly in Petersburg."
+    },
+    "ophelia": {
+      "id": "ophelia",
+      "name": "Ophelia",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Ophelia"
+      ],
+      "spoilerFreeIntro": "A dreamy and imaginative young woman, inspired by literary heroines."
+    }
+  },
+  "lastIndexedChapter": 1
+}
