@@ -121,6 +121,2039 @@
           ]
         }
       ]
+    },
+    {
+      "number": 2,
+      "entities": [
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1
+        },
+        {
+          "entityId": "adelaida_ivanovna_miusov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…what might be expected. He completely abandoned the child of his marriage with Adelaïda Ivanovna, not from malice, nor because of his matrimonial grievances, but simply because he forgot him. While he was wearying every one with his tears …"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…debauchery, a faithful servant of the family, Grigory, took the three‐year‐old Mitya into his care. If he hadn’t looked after him there would have been no one even to change the baby’s little shirt. </p>  <p> It happened moreover that the …"
+        },
+        {
+          "entityId": "grigory",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…turning his house into a sink of debauchery, a faithful servant of the family, Grigory, took the three‐year‐old Mitya into his care. If he hadn’t looked after him there would have been no one even to change the baby’s little shirt. </p>  <…"
+        },
+        {
+          "entityId": "pyotr_alexandrovitch_misov",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…only have been in the way of his debaucheries. But a cousin of Mitya’s mother, Pyotr Alexandrovitch Miüsov, happened to return from Paris. He lived for many years afterwards abroad, but was at that time quite a young man, and distinguished…"
+        },
+        {
+          "entityId": "the_misov_family",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…erwards abroad, but was at that time quite a young man, and distinguished among the Miüsovs as a man of enlightened ideas and of European culture, who had been in the capitals and abroad. Towards the end of his life he became a Liberal of …"
+        },
+        {
+          "entityId": "proudhon",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…y of the most Liberal men of his epoch, both in Russia and abroad. He had known Proudhon and Bakunin personally, and in his declining years was very fond of describing the three days of the Paris Revolution of February 1848, hinting that h…"
+        },
+        {
+          "entityId": "bakunin",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…Liberal men of his epoch, both in Russia and abroad. He had known Proudhon and Bakunin personally, and in his declining years was very fond of describing the three days of the Paris Revolution of February 1848, hinting that he himself had …"
+        },
+        {
+          "entityId": "paris",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…cousin of Mitya’s mother, Pyotr Alexandrovitch Miüsov, happened to return from Paris. He lived for many years afterwards abroad, but was at that time quite a young man, and distinguished among the Miüsovs as a man of enlightened ideas and …"
+        },
+        {
+          "entityId": "moscow",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…grandfather was no longer living, his widow, Mitya’s grandmother, had moved to Moscow, and was seriously ill, while his daughters were married, so that Mitya remained for almost a whole year in old Grigory’s charge and lived with him in th…"
+        },
+        {
+          "entityId": "the_revolution_of_february_1848",
+          "type": "event",
+          "firstSeenInChapter": 2
+        },
+        {
+          "entityId": "the_monastery",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…did estate lay on the outskirts of our little town and bordered on the lands of our famous monastery, with which Pyotr Alexandrovitch began an endless lawsuit, almost as soon as he came into the estate, concerning the rights of fishing in …"
+        },
+        {
+          "entityId": "the_river",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…almost as soon as he came into the estate, concerning the rights of fishing in the river or wood‐cutting in the forest, I don’t know exactly which. He regarded it as his duty as a citizen and a man of culture to open an attack upon the “cl…"
+        },
+        {
+          "entityId": "the_forest",
+          "type": "place",
+          "firstSeenInChapter": 2
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "In Fyodor Pavlovitch's household, shortly after Adelaïda Ivanovna's departure",
+          "imageDescription": "Interior of a dimly lit, somewhat disordered 19th-century Russian household; a young child (Mitya) is cared for by an elderly, rugged servant (Grigory) in plain servant attire, gently tending to the child in a humble corner room cluttered with modest furnishings; the decor and disarray suggest a household ruled by neglect and sporadic debauchery. No women are present; the child appears vulnerable yet watched over, as outside the room distant revelry hints at Fyodor Pavlovitch's dissipated lifestyle.",
+          "characterIds": [
+            "fyodor_pavlovitch_karamazov",
+            "adelaida_ivanovna_miusov",
+            "dmitri_fyodorovitch_karamazov",
+            "grigory"
+          ]
+        },
+        {
+          "startParagraph": 1,
+          "endParagraph": 1,
+          "locationDescription": "In the servant's cottage with Grigory and young Mitya",
+          "imageDescription": "A small, rustic 19th-century Russian servant’s cottage, warm firelight illuminating the rough wooden interior. Grigory, grey-bearded in simple clothing, watches over the lonely young Mitya, who sits quietly on a simple wooden bench. The atmosphere is one of poverty but care; shadows play against the walls, and a faint sense of absence lingers as the cottage stands apart, isolated from the main house and the absent relatives.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "grigory"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "At the Miüsov estate and briefly in Fyodor Pavlovitch's house",
+          "imageDescription": "In a well-furnished parlor of a Russian noble estate, Pyotr Alexandrovitch Miüsov, dapper and urbane in European-style 19th-century attire, stands in animated conversation with the eccentric, unkempt Fyodor Pavlovitch Karamazov, who appears distracted and dismissive. Through a window, the manicured grounds and distant sign of a monastery hint at the disputed territory. Documents rest on a polished table, and a portrait of Adelaïda Ivanovna adorns the wall, marking her absence. The mood is formal but tense, with the two men physically distant in the room.",
+          "characterIds": [
+            "fyodor_pavlovitch_karamazov",
+            "pyotr_alexandrovitch_misov",
+            "adelaida_ivanovna_miusov"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 2,
+          "locationDescription": "In various relatives’ homes during Mitya’s youth",
+          "imageDescription": "A montage-like scene spanning different 19th-century Russian interiors: a quiet Moscow drawing room where a young Mitya sits alone, later transitioning to a smaller, domestic space with a matronly woman; period furniture and gentle evening lamplight create an atmosphere of transience and displacement, with the child appearing alone or with distant adults in respectful, formal dress. Each vignette suggests polite neglect and the absence of parental warmth.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_misov_family"
+          ]
+        },
+        {
+          "startParagraph": 3,
+          "endParagraph": 3,
+          "locationDescription": "Fyodor Pavlovitch's house, years later, when Dmitri returns to settle accounts",
+          "imageDescription": "The grand but worn study of Fyodor Pavlovitch, lit by the failing light of dusk through frosted windowpanes. The now-grown Dmitri Fyodorovitch, intense and impassioned in slightly rumpled military dress, confronts his sly, disheveled father, who lounges at his desk amid stacks of papers and ledgers. The atmosphere is heavy with distrust and disappointment, the two men separated by a wide old desk, their faces marked by tension. The opulence of the room clashes with an air of neglect.",
+          "characterIds": [
+            "fyodor_pavlovitch_karamazov",
+            "dmitri_fyodorovitch_karamazov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "entities": [
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> Very shortly after getting his four‐year‐old Mitya off his hands Fyodor Pavlovitch married a second time. His second marriage lasted eight years. He took this second wife, Sofya Ivanovna, also a very young girl"
+        },
+        {
+          "entityId": "sofya_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 3,
+          "excerpt": "…second time. His second marriage lasted eight years. He took this second wife, Sofya Ivanovna, also a very young girl, from another province, where he had gone upon some small piece of business in company with a Jew. Though Fyodor Pavlovit…"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ics she even lost her reason. Yet she bore Fyodor Pavlovitch two sons, Ivan and Alexey, the eldest in the first year of marriage and the second three years later. When she died, little Alexey was in his fourth year, and, strange as it seem…"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…d time. His second marriage lasted eight years. He took this second wife, Sofya Ivanovna, also a very young girl, from another province, where he had gone upon some small piece of business in company with a Jew. Though Fyodor Pavlovitch wa…"
+        },
+        {
+          "entityId": "grigory",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…his wife’s presence. To show what a pass things had come to, I may mention that Grigory, the gloomy, stupid, obstinate, argumentative servant, who had always hated his first mistress, Adelaïda Ivanovna, took the side of his new mistress. H…"
+        },
+        {
+          "entityId": "generals_widow",
+          "type": "person",
+          "firstSeenInChapter": 3,
+          "excerpt": "…factress for a benefactor. Fyodor Pavlovitch did not get a penny this time, for the general’s widow was furious. She gave them nothing and cursed them both. But he had not reckoned on a dowry; what allured him was the remarkable beauty of …"
+        },
+        {
+          "entityId": "yefim_petrovitch_polenov",
+          "type": "person",
+          "firstSeenInChapter": 3,
+          "excerpt": "…as something queer of the sort, very whimsically expressed. The principal heir, Yefim Petrovitch Polenov, the Marshal of Nobility of the province, turned out, however, to be an honest man. Writing to Fyodor Pavlovitch, and discerning at on…"
+        },
+        {
+          "entityId": "pyotr_alexandrovitch_misov",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…. This last fact was a special cause of wonder to many others as well as to me. Pyotr Alexandrovitch Miüsov, of whom we have spoken already, the cousin of Fyodor Pavlovitch’s first wife, happened to be in the neighborhood again on a visit …"
+        },
+        {
+          "entityId": "adelaida_ivanovna_miusov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…pid, obstinate, argumentative servant, who had always hated his first mistress, Adelaïda Ivanovna, took the side of his new mistress. He championed her cause, abusing Fyodor Pavlovitch in a manner little befitting a servant, and on one occ…"
+        },
+        {
+          "entityId": "moscow",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…he left the family of Yefim Petrovitch when he was hardly thirteen, entering a Moscow gymnasium, and boarding with an experienced and celebrated teacher, an old friend of Yefim Petrovitch. Ivan used to declare afterwards that this was all …"
+        },
+        {
+          "entityId": "saint_petersburg",
+          "type": "place",
+          "firstSeenInChapter": 1
+        },
+        {
+          "entityId": "paris",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…ened to be in the neighborhood again on a visit to his estate. He had come from Paris, which was his permanent home. I remember that he was more surprised than any one when he made the acquaintance of the young man, who interested him extr…"
+        },
+        {
+          "entityId": "the_monastery",
+          "type": "place",
+          "firstSeenInChapter": 2
+        },
+        {
+          "entityId": "the_river",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…girl of sixteen know about it, except that she would be better at the bottom of the river than remaining with her benefactress. So the poor child exchanged a benefactress for a benefactor. Fyodor Pavlovitch did not get a penny this time, f…"
+        },
+        {
+          "entityId": "the_misov_family",
+          "type": "person",
+          "firstSeenInChapter": 1
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Sofya Ivanovna's childhood in the general's widow's house",
+          "imageDescription": "A dim interior of a wealthy 19th-century Russian country house, with ornate furnishings and high ceilings. A frail, young, fair-haired girl sits quietly near a window, her eyes cast down, dressed in a simple, old-fashioned Russian frock. A stern elderly woman in widow's black attire, holding a cane, stands over her in the background. The atmosphere is heavy and tense, with pale evening light filtering through the lace curtains, casting elongated shadows.",
+          "characterIds": [
+            "sofya_ivanovna",
+            "generals_widow"
+          ]
+        },
+        {
+          "startParagraph": 1,
+          "endParagraph": 1,
+          "locationDescription": "Sofya Ivanovna and Fyodor Pavlovitch's elopement and new life",
+          "imageDescription": "A dark, rustic Russian street at night; a horse-drawn carriage stands ready as a beautiful, anxious teenage girl in a shabby travel cloak hesitates near the door. Fyodor Pavlovitch, a middle-aged man with wild hair and shabby nobleman attire, gestures urgently for her to board. The old widow's house glows angrily in the distant background, while the surroundings are quiet and expectant under a cold moon.",
+          "characterIds": [
+            "fyodor_pavlovitch_karamazov",
+            "sofya_ivanovna",
+            "generals_widow"
+          ]
+        },
+        {
+          "startParagraph": 2,
+          "endParagraph": 2,
+          "locationDescription": "Karamazov family house during Fyodor Pavlovitch and Sofya Ivanovna's unhappy marriage",
+          "imageDescription": "A cluttered, poorly lit dining room in a 19th-century Russian home. Fyodor Pavlovitch, disheveled and leering, sits at the table with bottles and glasses; he is surrounded by raucous women in gaudy dresses. On the edge of the room, Sofya Ivanovna sits on a hard chair, hands folded tightly, her posture withdrawn and suffering. Grigory, the stout, bewhiskered servant in plain livery, stands protectively nearby, casting a critical eye toward his master. Shadows flicker from oily lamplight, heightening the grim, oppressive air.",
+          "characterIds": [
+            "fyodor_pavlovitch_karamazov",
+            "sofya_ivanovna",
+            "grigory"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 3,
+          "locationDescription": "Grigory's cottage after Sofya Ivanovna's death",
+          "imageDescription": "A humble, sparsely furnished cottage warmly lit by afternoon sun through a small window. Two small, unkempt boys—one older and reserved, the other little and dreamy—sit together on a rough bench. Grigory, the loyal, rugged servant in his work clothes, stands over them, his expression solemn but caring. The overall atmosphere is quiet and melancholy with a sense of neglect.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov",
+            "grigory"
+          ]
+        },
+        {
+          "startParagraph": 4,
+          "endParagraph": 4,
+          "locationDescription": "Fyodor Pavlovitch's house during the general's widow's dramatic visit",
+          "imageDescription": "A candlelit hallway in Fyodor Pavlovitch's disordered house. The general's widow, severe and imposing in fine but severe dark mourning dress, confronts Fyodor Pavlovitch, who looks startled and drunken, mid-step, his hair disheveled. She lashes out, catching his cheek with her hand; a servant recoils in the background. The scene is dynamic with rich contrasts of light and movement in the otherwise dingy interior.",
+          "characterIds": [
+            "fyodor_pavlovitch_karamazov",
+            "generals_widow"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 5,
+          "locationDescription": "Grigory’s cottage as the general's widow collects the children",
+          "imageDescription": "Inside a cramped, poorly kept peasant cottage, the general's widow stands decisively at the center, wrapping two ragged, bewildered boys into a thick rug. Grigory, nursing his cheek, bows low by the door, his pride wounded but his demeanor loyal. Late evening light from the open door illuminates the old woman's stern face and the boys' wide eyes, with a carriage visible just outside.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov",
+            "generals_widow",
+            "grigory"
+          ]
+        },
+        {
+          "startParagraph": 6,
+          "endParagraph": 6,
+          "locationDescription": "At Yefim Petrovitch Polenov's estate, the boys' upbringing",
+          "imageDescription": "A stately Russian country manor surrounded by lush summer foliage. On the balcony, Yefim Petrovitch—a dignified, gentle-looking nobleman in fine but understated clothes—reads beside the two young boys, Ivan and Alexey, both now a little older and neater, dressed as provincial gentry children. Other family members bustle about the porch in the background, creating a scene of security, learning, and tranquil prosperity under bright midday light.",
+          "characterIds": [
+            "yefim_petrovitch_polenov",
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov",
+            "the_misov_family"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Ivan's university years and literary circles in Moscow",
+          "imageDescription": "A candlelit Moscow study room; Ivan, now a young man with sharp features, sits amidst piles of books, writing intensely at a desk. Around him, gentlemen in frocks and students in uniforms cluster, discussing animatedly; in the background, city lights twinkle through frosted windows. The style and atmosphere reflect the intellectual vigor of 19th-century Russia, with a sense of determination and isolation pervading the scene.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 6,
+          "locationDescription": "Publication of Ivan's controversial article and its reception",
+          "imageDescription": "A grand, ornate reading room of an important Russian journal office. Editors and intellectuals in waistcoats and spectacles gather around a large newspaper laid out on a polished table; Ivan’s name is freshly printed in the columns. Pale daylight slants in from tall windows behind them, illuminating eager faces and heated gestures, while a copy of Ivan’s article is passed around with intense interest.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 7,
+          "endParagraph": 7,
+          "locationDescription": "The arrival of Ivan Fyodorovitch back in town and his stay with Fyodor Pavlovitch",
+          "imageDescription": "A richly furnished yet garish drawing room in Fyodor Pavlovitch’s house. Ivan, elegant and austere in a student’s coat, converses guardedly with his coarse, boisterous father, Fyodor Pavlovitch, who reclines in a velvet chair with wine nearby. The opulent but tasteless furniture glitters in morning light from damask curtains. The setting brims with tension and curiosity.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "fyodor_pavlovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 11,
+          "locationDescription": "Miüsov’s arrival and meetings with Ivan and Fyodor Pavlovitch",
+          "imageDescription": "In a fashionably appointed visiting room, Pyotr Alexandrovitch Miüsov, dignified and urbane in Western European dress, sits across a small table from Ivan, both deep in thoughtful conversation. Fyodor Pavlovitch lounges nearby with a sly, amused look. Afternoon light streams through tall windows, catching the rich colors of rugs and wall hangings. A sense of cordial curiosity and gentle rivalry prevails.",
+          "characterIds": [
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "pyotr_alexandrovitch_misov"
+          ]
+        },
+        {
+          "startParagraph": 12,
+          "endParagraph": 12,
+          "locationDescription": "Karamazov family finally united, including Alexey’s entrance",
+          "imageDescription": "A formal parlor in Fyodor Pavlovitch’s house, lit by chandeliers casting a gentle golden glow. Ivan stands near an armchair, composed; Fyodor Pavlovitch sits with a sly smile; Alexey, in the simple black robe of a novice, gazes quietly from near the door; and Dmitri, rougher and more passionate, enters at the far side. All wear period-appropriate attire, and an air of awkwardness and new connection lingers.",
+          "characterIds": [
+            "fyodor_pavlovitch_karamazov",
+            "alexey_fyodorovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "dmitri_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 12,
+          "endParagraph": 12,
+          "locationDescription": "Alexey’s current life in the monastery",
+          "imageDescription": "Inside a modest 19th-century Orthodox monastery cell—the stone walls are whitewashed, a tall window lets in the morning light. Alexey, youthful and serene, sits at a small table, garbed in a black cassock, with devotional books and an icon nearby. The stillness and gentle radiance of faith fill the scene.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "entities": [
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ther Dmitri was twenty‐seven. First of all, I must explain that this young man, Alyosha, was not a fanatic, and, in my opinion at least, was not even a mystic. I may as well give my full opinion from the beginning. He was simply an early l…"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> He was only twenty, his brother Ivan was in his twenty‐fourth year at the time, while their elder brother Dmitri was twenty‐seven. First of all, I must explain that this young man, Alyosha, was no"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…other Ivan was in his twenty‐fourth year at the time, while their elder brother Dmitri was twenty‐seven. First of all, I must explain that this young man, Alyosha, was not a fanatic, and, in my opinion at least, was not even a mystic. I ma…"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1
+        },
+        {
+          "entityId": "yefim_petrovitch_polenov",
+          "type": "person",
+          "firstSeenInChapter": 3,
+          "excerpt": "…earliest childhood. When he entered the household of his patron and benefactor, Yefim Petrovitch Polenov, he gained the hearts of all the family, so that they looked on him quite as their own child. Yet he entered the house at such a tende…"
+        },
+        {
+          "entityId": "pyotr_alexandrovitch_misov",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…it for weeks together, not knowing what to do with it. </p>  <p> In later years Pyotr Alexandrovitch Miüsov, a man very sensitive on the score of money and bourgeois honesty, pronounced the following judgment, after getting to know Alyosha…"
+        },
+        {
+          "entityId": "grigory",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…as more and more frequently drunk. And, if it had not been for the same servant Grigory, who by that time had aged considerably too, and used to look after him sometimes almost like a tutor, Fyodor Pavlovitch might have got into terrible s…"
+        },
+        {
+          "entityId": "adelaida_ivanovna_miusov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…but not for the second, Alyosha’s mother, the “crazy woman,” but for the first, Adelaïda Ivanovna, who used to thrash him. In the evening of the same day he got drunk and abused the monks to Alyosha. He himself was far from being religious…"
+        },
+        {
+          "entityId": "sofya_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 3,
+          "excerpt": "…o you know,” he used often to say, looking at Alyosha, “that you are like her, ‘the crazy woman’ ”—that was what he used to call his dead wife, Alyosha’s mother. Grigory it was who pointed out the “crazy woman’s” grave to Alyosha. He took …"
+        },
+        {
+          "entityId": "the_monastery",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…Pavlovitch—and a very original one. He suddenly took a thousand roubles to our monastery to pay for requiems for the soul of his wife; but not for the second, Alyosha’s mother, the “crazy woman,” but for the first, Adelaïda Ivanovna, who u…"
+        },
+        {
+          "entityId": "elder_zossima",
+          "type": "person",
+          "firstSeenInChapter": 4,
+          "excerpt": "…hat he was solemnly asking his consent as his father. The old man knew that the elder Zossima, who was living in the monastery hermitage, had made a special impression upon his “gentle boy.” </p>  <p> “That is the most honest monk among th…"
+        },
+        {
+          "entityId": "odessa",
+          "type": "place",
+          "firstSeenInChapter": 4,
+          "excerpt": "…er his wife’s death he had gone to the south of Russia and finally turned up in Odessa, where he spent several years. He made the acquaintance at first, in his own words, “of a lot of low Jews, Jewesses, and Jewkins,” and ended by being re…"
+        },
+        {
+          "entityId": "italy",
+          "type": "place",
+          "firstSeenInChapter": 4,
+          "excerpt": "…inconsolable widow went almost immediately after his death for a long visit to Italy with her whole family, which consisted only of women and girls. Alyosha went to live in the house of two distant relations of Yefim Petrovitch, ladies who…"
+        },
+        {
+          "entityId": "the_town_cemetery",
+          "type": "place",
+          "firstSeenInChapter": 4
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Narrative overview of Alyosha's youth",
+          "imageDescription": "A warmly lit 19th-century Russian interior suggests a homey atmosphere with subtle religious elements. A small boy with gentle features—Alyosha—stands near his mother, a fragile, beautiful woman kneeling before a holy icon in a corner, a lamp casting golden light. Outside, the sun sets, casting slanting rays through an open window. The clothing is period-appropriate; the mother in a modest Russian dress, Alyosha in simple children's garments. The scene feels intimate, tender, and tinged with sadness.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "sofya_ivanovna"
+          ]
+        },
+        {
+          "startParagraph": 1,
+          "endParagraph": 1,
+          "locationDescription": "At the household of Yefim Petrovitch Polenov and Alyosha's school",
+          "imageDescription": "A sitting room in a middle-class 19th-century Russian home, filled with light. Alyosha, a dreamy and modest young boy, sits with a book in a quiet corner while several elegantly dressed women look on affectionately. Later, a classroom scene shows Alyosha surrounded by schoolboys in tunics, some teasing him, others watching with bemused admiration. The atmosphere is gentle yet lively, with a sense of innocence and youthful camaraderie.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "yefim_petrovitch_polenov"
+          ]
+        },
+        {
+          "startParagraph": 2,
+          "endParagraph": 2,
+          "locationDescription": "Living with Yefim Petrovitch's distant female relatives",
+          "imageDescription": "A somber yet refined Russian interior, with high ceilings and sparse but tasteful furnishings. Alyosha, reserved and humble, sits at a large table with two older women in dark, modest 19th-century dresses. Their faces are kind but reserved; Alyosha appears thoughtful and inwardly focused. Outside the window, the faint light hints at early evening. The setting exudes a quiet, respectful atmosphere, reinforced by the simplicity of dress and posture.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 3,
+          "endParagraph": 4,
+          "locationDescription": "Pyotr Alexandrovitch Miüsov's commentary (setting unspecified)",
+          "imageDescription": "A dignified middle-aged Russian gentleman, Pyotr Alexandrovitch Miüsov, is seated in a well-appointed study with wood-paneled walls. He is finely dressed in a velvet smoking jacket, deep in thought. The lighting is subdued but rich, throwing his serious expression into relief. An open letter lies on the desk, and a glass of wine nearby. The overall mood is contemplative, capturing an air of reflective judgment.",
+          "characterIds": [
+            "pyotr_alexandrovitch_misov"
+          ]
+        },
+        {
+          "startParagraph": 5,
+          "endParagraph": 5,
+          "locationDescription": "Alyosha prepares to leave for his father's house",
+          "imageDescription": "Alyosha, now an earnest young man, stands in a modest bedroom packing a small bag. Two kindly older women hand him money and new clothes. Daylight streams in gently through the window, illuminating Alyosha's humble and grateful demeanor. Their clothes are simple but neat, and the mood is bittersweet—a mixture of care, hope, and sorrow at parting. The setting is warm and domestic.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Alyosha searches for his mother's grave; his father's reaction",
+          "imageDescription": "A rural Russian cemetery at dusk. Alyosha, solemn and pensive in a dark overcoat, stands with bowed head near a simple cast-iron tombstone. Grigory, elderly and dignified in a servant's attire, stands slightly behind him, pointing respectfully toward the grave. The area is quiet, with sparse gravestones and a few wildflowers. The mood is reverent and contemplative, with soft shadows and gentle light coloring the late afternoon scene.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "grigory",
+            "fyodor_pavlovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 5,
+          "locationDescription": "Town cemetery, with Grigory showing the grave",
+          "imageDescription": "A broader view of the same cemetery scene: Alyosha stands quietly beside the grave, while Grigory, sturdy and weathered, stands nearby, recounting the history of the tombstone. In the background, old trees cast long shadows and an iron fence borders the cemetery. Both men wear somber, simple 19th-century attire. The world seems hushed and respectful, echoing the gravity of memory and loss.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "grigory"
+          ]
+        },
+        {
+          "startParagraph": 6,
+          "endParagraph": 8,
+          "locationDescription": "Fyodor Pavlovitch's home; his descent and Alyosha's effect",
+          "imageDescription": "A cluttered and slightly decaying Russian home, filled with evidence of former wealth and current neglect. Fyodor Pavlovitch, portly and disheveled with a bloated face and wild eyes, lounges at a heavy wooden table strewn with bottles. Alyosha stands nearby, calm and unjudging. Grigory is in the background, tending quietly to the room. The lighting is uneven, with shadows emphasizing Fyodor's decline. There is a sense of strained family tension and faded dignity.",
+          "characterIds": [
+            "fyodor_pavlovitch_karamazov",
+            "alexey_fyodorovitch_karamazov",
+            "grigory"
+          ]
+        },
+        {
+          "startParagraph": 9,
+          "endParagraph": 14,
+          "locationDescription": "Fyodor Pavlovitch and Alyosha discuss Alyosha's wish to join the monastery",
+          "imageDescription": "A gloomy, lamp-lit drawing room in Fyodor Pavlovitch's house. Alyosha, serious and quietly determined in a plain suit, sits opposite his bloated father, who slouches drunkenly in an ornate armchair, clutching a glass. The contrast between Alyosha's purity and Fyodor's decadence is stark. The cluttered setting is rich but seedy, hinting at wealth tamed by vice. The mood is tense yet intimate, as father and son confront a crucial choice.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "fyodor_pavlovitch_karamazov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "entities": [
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…tatic, poorly developed creature, a pale, consumptive dreamer. On the contrary, Alyosha was at this time a well‐grown, red‐cheeked, clear‐eyed lad of nineteen, radiant with health. He was very handsome, too, graceful, moderately tall, with…"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ith his half‐brother Dmitri (though he arrived later) than with his own brother Ivan. He was extremely interested in his brother Ivan, but when the latter had been two months in the town, though they had met fairly often, they were still n…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…great impression on Alyosha. He more quickly made friends with his half‐brother Dmitri (though he arrived later) than with his own brother Ivan. He was extremely interested in his brother Ivan, but when the latter had been two months in th…"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…to freedom. </p>  <p> The elder Zossima was sixty‐five. He came of a family of landowners, had been in the army in early youth, and served in the Caucasus as an officer. He had, no doubt, impressed Alyosha by some peculiar quality of his s…"
+        },
+        {
+          "entityId": "pyotr_alexandrovitch_misov",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…ith his father, but living apart at the other end of the town. It happened that Pyotr Alexandrovitch Miüsov, who was staying in the district at the time, caught eagerly at the idea. A Liberal of the forties and fifties, a freethinker and a…"
+        },
+        {
+          "entityId": "elder_zossima",
+          "type": "person",
+          "firstSeenInChapter": 4,
+          "excerpt": "…o the most Satanic pride, that is, to bondage and not to freedom. </p>  <p> The elder Zossima was sixty‐five. He came of a family of landowners, had been in the army in early youth, and served in the Caucasus as an officer. He had, no doub…"
+        },
+        {
+          "entityId": "sofya_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 3
+        },
+        {
+          "entityId": "the_monastery",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…; but I fancy that Alyosha was more of a realist than any one. Oh! no doubt, in the monastery he fully believed in miracles, but, to my thinking, miracles are never a stumbling‐block to the realist. It is not miracles that dispose realists…"
+        },
+        {
+          "entityId": "kozelski_optin_monastery",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…rsecuted as an innovation in Russia. It flourished especially in the celebrated Kozelski Optin Monastery. When and how it was introduced into our monastery I cannot say. There had already been three such elders and Zossima was the last of …"
+        },
+        {
+          "entityId": "sinai",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…undred years old in our monasteries, though in the orthodox East, especially in Sinai and Athos, it has existed over a thousand years. It is maintained that it existed in ancient times in Russia also, but through the calamities which overt…"
+        },
+        {
+          "entityId": "athos",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…rs old in our monasteries, though in the orthodox East, especially in Sinai and Athos, it has existed over a thousand years. It is maintained that it existed in ancient times in Russia also, but through the calamities which overtook Russia…"
+        },
+        {
+          "entityId": "russia",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…he monastery he met this elder. I must digress to explain what an “elder” is in Russian monasteries, and I am sorry that I do not feel very competent to do so. I will try, however, to give a superficial account of it in a few words. Author…"
+        },
+        {
+          "entityId": "siberia",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…rst to Jerusalem to do homage to the Holy Places and then to go to the north to Siberia: “There is the place for thee and not here.” The monk, overwhelmed with sorrow, went to the Œcumenical Patriarch at Constantinople and besought him to …"
+        },
+        {
+          "entityId": "egypt",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…ome command laid upon him by his elder, left his monastery in Syria and went to Egypt. There, after great exploits, he was found worthy at last to suffer torture and a martyr’s death for the faith. When the Church, regarding him as a saint…"
+        },
+        {
+          "entityId": "syria",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…iling to fulfill some command laid upon him by his elder, left his monastery in Syria and went to Egypt. There, after great exploits, he was found worthy at last to suffer torture and a martyr’s death for the faith. When the Church, regard…"
+        },
+        {
+          "entityId": "constantinople",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…civil war, the interruption of relations with the East after the destruction of Constantinople—this institution fell into oblivion. It was revived among us towards the end of last century by one of the great “ascetics,” as they called him,…"
+        },
+        {
+          "entityId": "jerusalem",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…hos, which he loved as a sacred place and a haven of refuge, and to go first to Jerusalem to do homage to the Holy Places and then to go to the north to Siberia: “There is the place for thee and not here.” The monk, overwhelmed with sorrow…"
+        },
+        {
+          "entityId": "the_caucasus",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…e of a family of landowners, had been in the army in early youth, and served in the Caucasus as an officer. He had, no doubt, impressed Alyosha by some peculiar quality of his soul. Alyosha lived in the cell of the elder, who was very fond…"
+        },
+        {
+          "entityId": "passy_velitchkovsky",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…rds the end of last century by one of the great “ascetics,” as they called him, Païssy Velitchkovsky, and his disciples. But to this day it exists in few monasteries only, and has sometimes been almost persecuted as an innovation in Russia…"
+        },
+        {
+          "entityId": "the_cumenical_patriarch",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…is the place for thee and not here.” The monk, overwhelmed with sorrow, went to the Œcumenical Patriarch at Constantinople and besought him to release him from his obedience. But the Patriarch replied that not only was he unable to release…"
+        },
+        {
+          "entityId": "christ",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…and them. </p>  <p> The story is told, for instance, that in the early days of Christianity one such novice, failing to fulfill some command laid upon him by his elder, left his monastery in Syria and went to Egypt. There, after great expl…"
+        },
+        {
+          "entityId": "the_holy_places",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…acred place and a haven of refuge, and to go first to Jerusalem to do homage to the Holy Places and then to go to the north to Siberia: “There is the place for thee and not here.” The monk, overwhelmed with sorrow, went to the Œcumenical P…"
+        },
+        {
+          "entityId": "god",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…he would not believe till he saw, but when he did see he said, “My Lord and my God!” Was it the miracle forced him to believe? Most likely not, but he believed solely because he desired to believe and possibly he fully believed in his secr…"
+        },
+        {
+          "entityId": "apostle_thomas",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…elieves, then he is bound by his very realism to admit the miraculous also. The Apostle Thomas said that he would not believe till he saw, but when he did see he said, “My Lord and my God!” Was it the miracle forced him to believe? Most li…"
+        },
+        {
+          "entityId": "the_superior",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…lawsuit with the monastery still dragged on, he made it the pretext for seeing the Superior, in order to attempt to settle it amicably. A visitor coming with such laudable intentions might be received with more attention and consideration …"
+        },
+        {
+          "entityId": "the_kingdom_of_christ",
+          "type": "place",
+          "firstSeenInChapter": 5
+        },
+        {
+          "entityId": "the_hermitage",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…ed, and he beamed, as it were, all over when the elder came out to the gates of the hermitage into the waiting crowd of pilgrims of the humbler class who had flocked from all parts of Russia on purpose to see the elder and obtain his bless…"
+        },
+        {
+          "entityId": "the_russian_peasant",
+          "type": "person",
+          "firstSeenInChapter": 5
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Narrator's introduction and interior monologue (no direct setting, overview of Alyosha's character)",
+          "imageDescription": "A young man, Alyosha Karamazov, stands alone, illuminated by gentle, slanting sunlight. He is well-grown, red-cheeked, handsome, and appears thoughtful and serene, wearing simple monastic attire typical of 19th-century Russian Orthodox novices. The atmosphere is meditative and quiet, with a subtle spiritual aura. There are no other characters present, and the background is soft and indistinct, suggesting the reflective and introductory nature of the passage.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 3,
+          "locationDescription": "Inside the Russian monastery, overview of the tradition of elders",
+          "imageDescription": "A 19th-century Russian Orthodox monastery interior, with whitewashed stone walls, candlelight, and dark wooden benches. Monks in black robes converse quietly or walk along a corridor, some bowing in deference. In the background, an elder—a dignified, bearded man with a serene expression—ministers to a visitor. Books, icons, and religious artifacts line the walls, and the atmosphere is calm, spiritual, and steeped in tradition.",
+          "characterIds": [
+            "elder_zossima",
+            "passy_velitchkovsky"
+          ]
+        },
+        {
+          "startParagraph": 4,
+          "endParagraph": 4,
+          "locationDescription": "Church in Egypt, scene of the martyr's posthumous rejection (legend, not present day)",
+          "imageDescription": "An ancient stone church, its interior filled with flickering candlelight. A coffin lies on the floor before the altar, surrounded by clergy in richly decorated Eastern Orthodox vestments and onlookers in humble robes. The coffin appears to be moving on its own accord, with startled faces among the assembled crowd. The setting is evocative of early Christian legend with a mystical and solemn atmosphere.",
+          "characterIds": [
+            "apostle_thomas"
+          ]
+        },
+        {
+          "startParagraph": 5,
+          "endParagraph": 5,
+          "locationDescription": "Throne Room, Constantinople - Monk's appeal to the Patriarch (legend, not present day)",
+          "imageDescription": "The throne room of the Ecumenical Patriarch in 19th-century Constantinople, illuminated by tall windows and golden candlelight. The Patriarch—a distinguished elderly man in ornate liturgical vestments—sits enthroned, listening with gravitas to a sorrowful monk in humble, dark robes who kneels before him, pleading. Attendants and clergy look on. The atmosphere is formal, dignified, and deeply spiritual.",
+          "characterIds": [
+            "the_cumenical_patriarch"
+          ]
+        },
+        {
+          "startParagraph": 6,
+          "endParagraph": 6,
+          "locationDescription": "elder Zossima’s cell",
+          "imageDescription": "A modest cell with bare stone walls lit by warm lantern light. Elder Zossima, an old man with a noble beard and gentle eyes, sits resting on a low bed, attended by Alyosha in novice’s garb. There is a sense of care and reverence in Alyosha's attentive stance as he waits upon the elder. Icons, books, and a small table complete the sparse, humble setting. The mood is intimate and spiritual.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "elder_zossima"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 10,
+          "locationDescription": "Outside the hermitage gates, crowd of Russian peasants before elder Zossima",
+          "imageDescription": "The elder Zossima stands at the gates of the monastery hermitage, surrounded by a humble crowd of Russian peasants, women holding out children, and the sick being brought forward. Alyosha looks on, radiant with happiness. The scene is lively and reverent: some kneel or weep, others kiss the elder’s feet. Zossima raises a hand in blessing, dressed in plain monastic robes. The sky is overcast, the crowd bundled in simple 19th-century peasant clothing, and the mood is charged with emotion and hope.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "elder_zossima",
+            "the_russian_peasant"
+          ]
+        },
+        {
+          "startParagraph": 11,
+          "endParagraph": 11,
+          "locationDescription": "Alyosha’s internal vision of a holy future",
+          "imageDescription": "A dreamy, semi-realistic vision inspired by 19th-century Russian fine art: Alyosha stands in the foreground amid a glowing light, his face filled with ecstasy and hope. Behind him stretches an idealized Russian landscape where people of all classes—peasants, nobles, monks—stand together in harmony. The light is golden, filling the scene with warmth. Period dress is evident, and the atmosphere is serene and uplifting, symbolizing the dream of universal brotherhood.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 12,
+          "endParagraph": 12,
+          "locationDescription": "In the monastery, Alyosha recalls his brothers’ arrival and their relations",
+          "imageDescription": "A corridor in the monastery, softly lit by afternoon sun through arched windows. Alyosha, looking pensive, is shown pausing as his brothers are seen arriving: Ivan, dignified and composed in contemporary 19th-century Russian attire; Dmitri, more boisterous and animated, in slightly less formal clothing. The hallway is quiet but tense, and their differences in posture and expression suggest reserve and complexity in their relationships.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "dmitri_fyodorovitch_karamazov",
+            "ivan_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 13,
+          "endParagraph": 14,
+          "locationDescription": "elder Zossima’s cell; the Karamazovs and Miüsov prepare for the meeting",
+          "imageDescription": "Inside elder Zossima’s cell: modest, sparse, with icons, a wooden table, and a few chairs. Fyodor Pavlovitch, jovial and cunning, talks animatedly; Ivan stands aside, thoughtful; Dmitri leans forward, tense and earnest; Pyotr Alexandrovitch Miüsov, urbane and skeptical, stands by the door. Alyosha anxiously observes. Elder Zossima looks on, calm and dignified, ready to receive them. All are in period-appropriate Russian dress, a mix of monk’s robes and gentleman’s coats. The mood is tense, anticipatory.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "dmitri_fyodorovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "fyodor_pavlovitch_karamazov",
+            "elder_zossima",
+            "pyotr_alexandrovitch_misov"
+          ]
+        },
+        {
+          "startParagraph": 15,
+          "endParagraph": 16,
+          "locationDescription": "Alyosha alone, worried about the meeting and his brothers’ behavior",
+          "imageDescription": "Alyosha sits alone on a wooden bench in a quiet stone corridor of the monastery, his hands clasped in anxious thought. The scene is dimly lit by a single nearby window, casting soft shadows. His monk’s garb is plain, and his posture communicates inner turmoil. The corridor is otherwise empty and hushed, emphasizing his solitude and worry.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "entities": [
+        {
+          "entityId": "pyotr_alexandrovitch_misov",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…er. First an elegant open carriage, drawn by two valuable horses, drove up with Miüsov and a distant relative of his, a young man of twenty, called Pyotr Fomitch Kalganov. This young man was preparing to enter the university. Miüsov, with …"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ion of a thousand roubles, while another was a very wealthy and highly cultured landowner, upon whom all in the monastery were in a sense dependent, as a decision of the lawsuit might at any moment put their fishing rights in his hands. Ye…"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…rses, a long way behind Miüsov’s carriage, came Fyodor Pavlovitch, with his son Ivan. Dmitri was late, though he had been informed of the time the evening before. The visitors left their carriage at the hotel, outside the precincts, and we…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…a long way behind Miüsov’s carriage, came Fyodor Pavlovitch, with his son Ivan. Dmitri was late, though he had been informed of the time the evening before. The visitors left their carriage at the hotel, outside the precincts, and went to …"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…eady some independent fortune and expectations of much more. He was a friend of Alyosha’s. </p>  <p> In an ancient, jolting, but roomy, hired carriage, with a pair of old pinkish‐gray horses, a long way behind Miüsov’s carriage, came Fyodo…"
+        },
+        {
+          "entityId": "elder_zossima",
+          "type": "person",
+          "firstSeenInChapter": 4,
+          "excerpt": "<p> It was a warm, bright day at the end of August. The interview with the elder had been fixed for half‐past eleven, immediately after late mass. Our visitors did not take part in the service, but arrived just as it was over. First an eleg"
+        },
+        {
+          "entityId": "the_superior",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…The monk, with an extremely courteous, profound bow, announced: </p>  <p> “The Father Superior invites all of you gentlemen to dine with him after your visit to the hermitage. At one o’clock, not later. And you also,” he added, addressing …"
+        },
+        {
+          "entityId": "pyotr_fomitch_kalganov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…ove up with Miüsov and a distant relative of his, a young man of twenty, called Pyotr Fomitch Kalganov. This young man was preparing to enter the university. Miüsov, with whom he was staying for the time, was trying to persuade him to go a…"
+        },
+        {
+          "entityId": "maximov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…summer overcoat. Lifting his hat, he introduced himself with a honeyed lisp as Maximov, a landowner of Tula. He at once entered into our visitors’ difficulty. </p>  <p> “Father Zossima lives in the hermitage, apart, four hundred paces from…"
+        },
+        {
+          "entityId": "madame_hohlakov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…is well enough. They are always outside the precincts. There is a Harkov lady, Madame Hohlakov, waiting there now with her sick daughter. Probably he has promised to come out to her, though of late he has been so weak that he has hardly sh…"
+        },
+        {
+          "entityId": "varsonofy",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…ed with flowers. </p>  <p> “And was it like this in the time of the last elder, Varsonofy? He didn’t care for such elegance. They say he used to jump up and thrash even ladies with a stick,” observed Fyodor Pavlovitch, as he went up the st…"
+        },
+        {
+          "entityId": "the_monastery",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…ft their carriage at the hotel, outside the precincts, and went to the gates of the monastery on foot. Except Fyodor Pavlovitch, none of the party had ever seen the monastery, and Miüsov had probably not even been to church for thirty year…"
+        },
+        {
+          "entityId": "the_hermitage",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…once entered into our visitors’ difficulty. </p>  <p> “Father Zossima lives in the hermitage, apart, four hundred paces from the monastery, the other side of the copse.” </p>  <p> “I know it’s the other side of the copse,” observed Fyodor …"
+        },
+        {
+          "entityId": "athos",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…dies. Don’t suppose, holy father, that I mean any harm. But do you know that at Athos not only the visits of women are not allowed, but no creature of the female sex—no hens, nor turkey‐hens, nor cows.” </p>  <p> “Fyodor Pavlovitch, I warn…"
+        },
+        {
+          "entityId": "tula",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…g his hat, he introduced himself with a honeyed lisp as Maximov, a landowner of Tula. He at once entered into our visitors’ difficulty. </p>  <p> “Father Zossima lives in the hermitage, apart, four hundred paces from the monastery, the oth…"
+        },
+        {
+          "entityId": "zurich",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…ying for the time, was trying to persuade him to go abroad to the university of Zurich or Jena. The young man was still undecided. He was thoughtful and absent‐minded. He was nice‐ looking, strongly built, and rather tall. There was a stra…"
+        },
+        {
+          "entityId": "jena",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…he time, was trying to persuade him to go abroad to the university of Zurich or Jena. The young man was still undecided. He was thoughtful and absent‐minded. He was nice‐ looking, strongly built, and rather tall. There was a strange fixity…"
+        },
+        {
+          "entityId": "rome",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…e saints painted above and on the sides of the gates. </p>  <p> “When you go to Rome you must do as the Romans do. Here in this hermitage there are twenty‐five saints being saved. They look at one another, and eat cabbages. And not one wom…"
+        },
+        {
+          "entityId": "paris",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…eyes what one has come about. And what a lot you think of their opinion! you, a Parisian, and so advanced. I’m surprised at you.” </p>  <p> But Miüsov had no time to reply to this sarcasm. They were asked to come in. He walked in, somewhat…"
+        },
+        {
+          "entityId": "harkov",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…ssage when he is well enough. They are always outside the precincts. There is a Harkov lady, Madame Hohlakov, waiting there now with her sick daughter. Probably he has promised to come out to her, though of late he has been so weak that he…"
+        },
+        {
+          "entityId": "the_hotel",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…en informed of the time the evening before. The visitors left their carriage at the hotel, outside the precincts, and went to the gates of the monastery on foot. Except Fyodor Pavlovitch, none of the party had ever seen the monastery, and …"
+        },
+        {
+          "entityId": "cospe",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…the hermitage, apart, four hundred paces from the monastery, the other side of the copse.” </p>  <p> “I know it’s the other side of the copse,” observed Fyodor Pavlovitch, “but we don’t remember the way. It is a long time since we’ve been …"
+        },
+        {
+          "entityId": "von_sohn",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…v observed aloud, while Maximov ran back to the monastery. </p>  <p> “He’s like von Sohn,” Fyodor Pavlovitch said suddenly. </p>  <p> “Is that all you can think of?... In what way is he like von Sohn? Have you ever seen von Sohn?” </p>  <p…"
+        },
+        {
+          "entityId": "the_church",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…the party had ever seen the monastery, and Miüsov had probably not even been to church for thirty years. He looked about him with curiosity, together with assumed ease. But, except the church and the domestic buildings, though these too we…"
+        },
+        {
+          "entityId": "the_portico",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…suddenly to the monk. </p>  <p> “Women of the people are here too now, lying in the portico there waiting. But for ladies of higher rank two rooms have been built adjoining the portico, but outside the precincts—you can see the windows—and…"
+        },
+        {
+          "entityId": "saints",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…gates are shut.” </p>  <p> And he repeatedly made the sign of the cross to the saints painted above and on the sides of the gates. </p>  <p> “When you go to Rome you must do as the Romans do. Here in this hermitage there are twenty‐five sa…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 4,
+          "locationDescription": "Outside the monastery after mass",
+          "imageDescription": "The monastery courtyard bathed in late morning sunlight. Visitors gather outside the church amid a scattering of tombstones and flowerbeds. Pyotr Alexandrovitch Miüsov and Pyotr Fomitch Kalganov stand near their elegant open carriage, dressed in finely tailored coats and hats. Fyodor Pavlovitch Karamazov and Ivan Fyodorovitch Karamazov arrive in an older, more worn carriage. Men and women in humble and elegant attire exit the church, some crossing themselves. The atmosphere is both peaceful and tense, full of expectation.",
+          "characterIds": [
+            "pyotr_alexandrovitch_misov",
+            "pyotr_fomitch_kalganov",
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 5,
+          "endParagraph": 8,
+          "locationDescription": "At the monastery gates and path toward the hermitage",
+          "imageDescription": "Near the monastery gates, an elderly Maximov in a worn summer overcoat approaches the group of visitors. Miüsov, Ivan, Fyodor Pavlovitch, and Kalganov stand together in varied states of attention, as Maximov gestures animatedly. Surrounding them are the stone walls of the monastery, with a faint hint of the nearby copse visible. The light is bright, highlighting the nervous energy and expectant mood among the visitors.",
+          "characterIds": [
+            "pyotr_alexandrovitch_misov",
+            "pyotr_fomitch_kalganov",
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "maximov"
+          ]
+        },
+        {
+          "startParagraph": 9,
+          "endParagraph": 13,
+          "locationDescription": "Walking toward the hermitage through the copse",
+          "imageDescription": "A narrow pathway winds through a small copse of trees, dappled in summer light. The group—Miüsov, Ivan, Fyodor Pavlovitch, Kalganov, Maximov—walks in a loose procession, led by the eager Maximov. Their attire ranges from sophisticated European coats to old Russian garments. The mood is a mix of curiosity and underlying tension.",
+          "characterIds": [
+            "pyotr_alexandrovitch_misov",
+            "pyotr_fomitch_kalganov",
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "maximov"
+          ]
+        },
+        {
+          "startParagraph": 14,
+          "endParagraph": 29,
+          "locationDescription": "On the path near the hermitage, greeted by a monk",
+          "imageDescription": "The visitors halt on a path surrounded by greenery. A pale, reserved monk in a dark robe and cap approaches, bowing respectfully. Miüsov and Fyodor Pavlovitch stand at the forefront, Kalganov and Ivan close behind. Maximov looks flustered. The atmosphere is formal; the party’s fashionable Western dress contrasts with the monk’s austere appearance.",
+          "characterIds": [
+            "pyotr_alexandrovitch_misov",
+            "pyotr_fomitch_kalganov",
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "maximov"
+          ]
+        },
+        {
+          "startParagraph": 30,
+          "endParagraph": 38,
+          "locationDescription": "Arriving at the hermitage gates surrounded by gardens",
+          "imageDescription": "The small wooden hermitage is encircled by lush autumn flowerbeds, the wooden gates adorned with icons of saints above them. Fyodor Pavlovitch gestures animatedly while the others—Miüsov, Ivan, Kalganov—observe the setting with mixtures of interest and skepticism. The monk stands to the side, dignified. The sun glints on the vibrant flowers, creating a peaceful yet restrained scene.",
+          "characterIds": [
+            "pyotr_alexandrovitch_misov",
+            "pyotr_fomitch_kalganov",
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 39,
+          "endParagraph": 43,
+          "locationDescription": "At the hermitage entrance awaiting announcement",
+          "imageDescription": "Outside the entrance of the one-story wooden house of the elder, the visitors—Miüsov, Ivan, Fyodor Pavlovitch, and Kalganov—stand together under the shade of the eaves. The monk pauses at the door, ready to go inside. The flowerbeds and wooden veranda provide a tranquil backdrop, contrasting with the guests’ Western coats and the monk’s black cassock. The air is charged with anticipation.",
+          "characterIds": [
+            "pyotr_alexandrovitch_misov",
+            "pyotr_fomitch_kalganov",
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "entities": [
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…t them with a bow. </p>  <p> Father Zossima was accompanied by a novice, and by Alyosha. The two monks rose and greeted him with a very deep bow, touching the ground with their fingers; then kissed his hand. Blessing them, the elder replie…"
+        },
+        {
+          "entityId": "elder_zossima",
+          "type": "person",
+          "firstSeenInChapter": 4,
+          "excerpt": "<p> They entered the room almost at the same moment that the elder came in from his bedroom. There were already in the cell, awaiting the elder, two monks of the hermitage, one the Father Librarian, and the other Father Païssy"
+        },
+        {
+          "entityId": "father_passy",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…the elder, two monks of the hermitage, one the Father Librarian, and the other Father Païssy, a very learned man, so they said, in delicate health, though not old. There was also a tall young man, who looked about two and twenty, standing …"
+        },
+        {
+          "entityId": "father_librarian",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…e were already in the cell, awaiting the elder, two monks of the hermitage, one the Father Librarian, and the other Father Païssy, a very learned man, so they said, in delicate health, though not old. There was also a tall young man, who l…"
+        },
+        {
+          "entityId": "divinity_student",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…clever, observant, narrow brown eyes, and was wearing ordinary dress. He was a divinity student, living under the protection of the monastery. His expression was one of unquestioning, but self‐respecting, reverence. Being in a subordinate …"
+        },
+        {
+          "entityId": "pyotr_alexandrovitch_misov",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…ery seriously and with an appearance of feeling, not like an everyday rite. But Miüsov fancied that it was all done with intentional impressiveness. He stood in front of the other visitors. He ought—he had reflected upon it the evening bef…"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…re already in the cell, awaiting the elder, two monks of the hermitage, one the Father Librarian, and the other Father Païssy, a very learned man, so they said, in delicate health, though not old. There was also a tall young man, who looke…"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…away to a chair. Fyodor Pavlovitch did the same, mimicking Miüsov like an ape. Ivan bowed with great dignity and courtesy, but he too kept his hands at his sides, while Kalganov was so confused that he did not bow at all. The elder let fal…"
+        },
+        {
+          "entityId": "pyotr_fomitch_kalganov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…with great dignity and courtesy, but he too kept his hands at his sides, while Kalganov was so confused that he did not bow at all. The elder let fall the hand raised to bless them, and bowing to them again, asked them all to sit down. The…"
+        },
+        {
+          "entityId": "the_novice",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…he did not greet them with a bow. </p>  <p> Father Zossima was accompanied by a novice, and by Alyosha. The two monks rose and greeted him with a very deep bow, touching the ground with their fingers; then kissed his hand. Blessing them, t…"
+        },
+        {
+          "entityId": "diderot",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…bts of late. But now I sit and await words of wisdom. I’m like the philosopher, Diderot, your reverence. Did you ever hear, most Holy Father, how Diderot went to see the Metropolitan Platon, in the time of the Empress Catherine? He went in…"
+        },
+        {
+          "entityId": "metropolitan_platon",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…our reverence. Did you ever hear, most Holy Father, how Diderot went to see the Metropolitan Platon, in the time of the Empress Catherine? He went in and said straight out, ‘There is no God.’ To which the great bishop lifted up his finger …"
+        },
+        {
+          "entityId": "empress_catherine",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…oly Father, how Diderot went to see the Metropolitan Platon, in the time of the Empress Catherine? He went in and said straight out, ‘There is no God.’ To which the great bishop lifted up his finger and answered, ‘The fool hath said in his…"
+        },
+        {
+          "entityId": "princess_dashkov",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…et on the spot. ‘I believe,’ he cried, ‘and will be christened.’ And so he was. Princess Dashkov was his godmother, and Potyomkin his godfather.” </p>  <p> “Fyodor Pavlovitch, this is unbearable! You know you’re telling lies and that that …"
+        },
+        {
+          "entityId": "potyomkin",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…and will be christened.’ And so he was. Princess Dashkov was his godmother, and Potyomkin his godfather.” </p>  <p> “Fyodor Pavlovitch, this is unbearable! You know you’re telling lies and that that stupid anecdote isn’t true. Why are you …"
+        },
+        {
+          "entityId": "the_captain_of_police_mr_ispravnik",
+          "type": "person",
+          "firstSeenInChapter": 7
+        },
+        {
+          "entityId": "mr_napravnik",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…with the ease of a man of the world, you know, ‘Mr. Ispravnik,’ said I, ‘be our Napravnik.’ ‘What do you mean by Napravnik?’ said he. I saw, at the first half‐second, that it had missed fire. He stood there so glum. ‘I wanted to make a jok…"
+        },
+        {
+          "entityId": "the_frenchman",
+          "type": "person",
+          "firstSeenInChapter": 7
+        },
+        {
+          "entityId": "the_superior",
+          "type": "person",
+          "firstSeenInChapter": 5
+        },
+        {
+          "entityId": "saints",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…e costly and artistic engravings were several of the roughest Russian prints of saints and martyrs, such as are sold for a few farthings at all the fairs. On the other walls were portraits of Russian bishops, past and present. </p>  <p> Mi…"
+        },
+        {
+          "entityId": "martyrs",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…d artistic engravings were several of the roughest Russian prints of saints and martyrs, such as are sold for a few farthings at all the fairs. On the other walls were portraits of Russian bishops, past and present. </p>  <p> Miüsov took a…"
+        },
+        {
+          "entityId": "the_virgin",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…w, and a number of holy pictures in the corner. Before one huge ancient ikon of the Virgin a lamp was burning. Near it were two other holy pictures in shining settings, and, next them, carved cherubims, china eggs, a Catholic cross of ivor…"
+        },
+        {
+          "entityId": "mater_dolorosa",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…and, next them, carved cherubims, china eggs, a Catholic cross of ivory, with a Mater Dolorosa embracing it, and several foreign engravings from the great Italian artists of past centuries. Next to these costly and artistic engravings were…"
+        },
+        {
+          "entityId": "the_fair_merchants",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…n years ago in a little town where I had business, and I made friends with some merchants there. We went to the captain of police because we had to see him about something, and to ask him to dine with us. He was a tall, fat, fair, sulky ma…"
+        },
+        {
+          "entityId": "russian_bishops",
+          "type": "person",
+          "firstSeenInChapter": 7
+        },
+        {
+          "entityId": "the_elders_cell",
+          "type": "place",
+          "firstSeenInChapter": 7,
+          "excerpt": "…same moment that the elder came in from his bedroom. There were already in the cell, awaiting the elder, two monks of the hermitage, one the Father Librarian, and the other Father Païssy, a very learned man, so they said, in delicate healt…"
+        },
+        {
+          "entityId": "the_hermitage",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…m his bedroom. There were already in the cell, awaiting the elder, two monks of the hermitage, one the Father Librarian, and the other Father Païssy, a very learned man, so they said, in delicate health, though not old. There was also a ta…"
+        },
+        {
+          "entityId": "the_monastery",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…aring ordinary dress. He was a divinity student, living under the protection of the monastery. His expression was one of unquestioning, but self‐respecting, reverence. Being in a subordinate and dependent position, and so not on an equalit…"
+        },
+        {
+          "entityId": "paris",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…the harmony of our undertaking is some one of that sort.’ And I explained my comparison very reasonably, didn’t I? ‘Excuse me,’ said he, ‘I am an Ispravnik, and I do not allow puns to be made on my calling.’ He turned and walked away. I fo…"
+        },
+        {
+          "entityId": "russia",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…ries. Next to these costly and artistic engravings were several of the roughest Russian prints of saints and martyrs, such as are sold for a few farthings at all the fairs. On the other walls were portraits of Russian bishops, past and pre…"
+        },
+        {
+          "entityId": "the_portico",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…t the elder was good‐humored and not offended. Father Zossima was going towards the portico to bless the people waiting for him there. But Fyodor Pavlovitch persisted in stopping him at the door of the cell. </p>  <p> “Blessed man!” he cri…"
+        },
+        {
+          "entityId": "the_time_with_the_merchants_and_captain_of_police",
+          "type": "event",
+          "firstSeenInChapter": 7
+        },
+        {
+          "entityId": "the_anecdote_about_diderot_and_metropolitan_platon",
+          "type": "event",
+          "firstSeenInChapter": 7
+        },
+        {
+          "entityId": "the_story_about_the_saint_carrying_his_severed_head",
+          "type": "event",
+          "firstSeenInChapter": 7
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "In elder Zossima's cell",
+          "imageDescription": "A small, plainly furnished monastic cell with faded walls and sparse, coarse furniture; two monks (one frail and learned, another the librarian) stand respectfully along with a young divinity student in modest, secular dress, at the edge of the room. The mood is formal and anticipatory. Sunlight filters softly through the window, illuminating icons, old religious prints, and two pots of flowers on the sill. Everyone wears mid-19th-century Russian monastic or gentry attire. Elder Zossima, slight and aged, enters beside the humble Alyosha in his novice's robes, accompanied by a young novice in simple attire.",
+          "characterIds": [
+            "elder_zossima",
+            "alexey_fyodorovitch_karamazov",
+            "father_passy",
+            "father_librarian",
+            "divinity_student",
+            "the_novice"
+          ]
+        },
+        {
+          "startParagraph": 1,
+          "endParagraph": 1,
+          "locationDescription": "Still in elder Zossima's cell (the guests and the elder greet each other and are seated)",
+          "imageDescription": "Inside the monastic cell, elder Zossima is the focus as the monks bow deeply and receive his blessing, performing a grave and reverent ceremony. Across the room, four visitors—Miüsov, Fyodor Pavlovitch, Ivan, and Kalganov—stand in a line; Miüsov and Fyodor Pavlovitch bow with varying sincerity, Ivan bows politely, Kalganov stands confused. Alyosha stands aside, flushed with embarrassment. The monks in black robes, the Karamazov family members in distinctly middle-to-upper-class Russian dress of the 1860s, and the room’s icons and simple furnishings create an atmosphere of tension beneath the surface formality.",
+          "characterIds": [
+            "elder_zossima",
+            "alexey_fyodorovitch_karamazov",
+            "father_passy",
+            "father_librarian",
+            "divinity_student",
+            "the_novice",
+            "pyotr_alexandrovitch_misov",
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "pyotr_fomitch_kalganov"
+          ]
+        },
+        {
+          "startParagraph": 2,
+          "endParagraph": 4,
+          "locationDescription": "Elder Zossima's cell (everyone arranged for conversation, icons and portraits noted)",
+          "imageDescription": "The guests—Miüsov, Fyodor Pavlovitch, Ivan, and Kalganov—are seated in a line of shabby black-leather chairs along the wall, facing the elder, who sits solemnly on an old mahogany sofa. The monks take up reserved positions, one at the window, the other near the door. Alyosha, the novice, and the divinity student remain standing respectfully. Holy icons and a glowing oil lamp dominate one corner, with crude Russian prints of saints beside distinguished, framed engravings and bishop portraits. The midday light is filtered and somber. The feeling is one of strained expectation, with a backdrop of religious solemnity.",
+          "characterIds": [
+            "elder_zossima",
+            "alexey_fyodorovitch_karamazov",
+            "father_passy",
+            "father_librarian",
+            "divinity_student",
+            "the_novice",
+            "pyotr_alexandrovitch_misov",
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "pyotr_fomitch_kalganov"
+          ]
+        },
+        {
+          "startParagraph": 5,
+          "endParagraph": 11,
+          "locationDescription": "Elder Zossima's cell (beginning of conversation, Fyodor Pavlovitch's antics)",
+          "imageDescription": "As the small room is hushed by the striking clock, Fyodor Pavlovitch animatedly addresses the elder, gesturing as he tells outlandish stories, while Miüsov reacts with annoyance. Ivan sits composed, eyes downcast, and Kalganov appears uncomfortable. The elder, dignified and watching, is the silent center. Alyosha stands nervously apart, while the monks and divinity student observe solemnly. The setting remains ascetic but vibrant with tension, the lighting muted by the midday sun beyond the cell window.",
+          "characterIds": [
+            "elder_zossima",
+            "alexey_fyodorovitch_karamazov",
+            "father_passy",
+            "father_librarian",
+            "divinity_student",
+            "the_novice",
+            "pyotr_alexandrovitch_misov",
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "pyotr_fomitch_kalganov"
+          ]
+        },
+        {
+          "startParagraph": 12,
+          "endParagraph": 21,
+          "locationDescription": "Elder Zossima's cell (Miüsov objects, Fyodor Pavlovitch escalates his outrageous performance)",
+          "imageDescription": "Mid-conversation in the cell, Miüsov stands in agitation, confronting Fyodor Pavlovitch, who looks back theatrically while gesturing. Onlookers display varying discomfort: Ivan is impassive, Alyosha is mortified, Kalganov is sheepish, and the monks remain impassive. The elder sits quietly, his face unreadable. The religious icons and portraits gaze down as witnesses to the escalating disruption, the soft daylight highlighting the emotional contrast within the period-accurate, spartan monk’s dwelling.",
+          "characterIds": [
+            "elder_zossima",
+            "alexey_fyodorovitch_karamazov",
+            "father_passy",
+            "father_librarian",
+            "divinity_student",
+            "the_novice",
+            "pyotr_alexandrovitch_misov",
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "pyotr_fomitch_kalganov"
+          ]
+        },
+        {
+          "startParagraph": 22,
+          "endParagraph": 28,
+          "locationDescription": "Elder Zossima's cell (Fyodor Pavlovitch kneels and pleads, the elder responds with wisdom)",
+          "imageDescription": "Fyodor Pavlovitch, still in his elegant but slightly disheveled gentry attire, kneels before the gaunt elder Zossima, who gazes at him with a gentle, wise smile. The other guests and monks watch, some appalled, some curious, lit by the glow of the icon lamp and the soft midday sun through the window. Alyosha stands close by, visibly anxious. The composition emphasizes the drama of Fyodor Pavlovitch’s flamboyant gesture in the otherwise peaceful, monastic room.",
+          "characterIds": [
+            "elder_zossima",
+            "alexey_fyodorovitch_karamazov",
+            "father_passy",
+            "father_librarian",
+            "divinity_student",
+            "the_novice",
+            "pyotr_alexandrovitch_misov",
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "pyotr_fomitch_kalganov"
+          ]
+        },
+        {
+          "startParagraph": 29,
+          "endParagraph": 38,
+          "locationDescription": "Elder Zossima's cell (discussion of saints, faith, and storytelling)",
+          "imageDescription": "After physically expressing reverence by kissing the elder’s hand, Fyodor Pavlovitch stands among the seated and standing visitors, engaging in bizarrely earnest or possibly mocking queries. The monks and Father Librarian listen with gravitas as the conversation turns to religious anecdotes and faith. The cell’s icons and relics create a spiritual atmosphere; everyone’s attire and posture mark the cultural divide between devout monks and skeptical, Westernized gentry.",
+          "characterIds": [
+            "elder_zossima",
+            "alexey_fyodorovitch_karamazov",
+            "father_passy",
+            "father_librarian",
+            "divinity_student",
+            "the_novice",
+            "pyotr_alexandrovitch_misov",
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "pyotr_fomitch_kalganov"
+          ]
+        },
+        {
+          "startParagraph": 39,
+          "endParagraph": 40,
+          "locationDescription": "Elder Zossima's cell (end of the conversation, the elder prepares to leave)",
+          "imageDescription": "Elder Zossima rises courteously from his old sofa, announcing his temporary departure. Alyosha and the novice are at his side, eager to escort him, while Fyodor Pavlovitch lingers at the door, trying to catch his attention. The guests and monks remain situated as before, some standing, some seated, under the forgiving glow of lamplight and sedate daylight. The atmosphere is a blend of relief, confusion, and lingering tension, with movement toward the cell’s modest entryway.",
+          "characterIds": [
+            "elder_zossima",
+            "alexey_fyodorovitch_karamazov",
+            "father_passy",
+            "father_librarian",
+            "divinity_student",
+            "the_novice",
+            "pyotr_alexandrovitch_misov",
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "pyotr_fomitch_kalganov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "entities": [
+        {
+          "entityId": "the_portico",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "<p> Near the wooden portico below, built on to the outer wall of the precinct, there was a crowd of about twenty peasant women. They had been told that the elder was at last coming out, a"
+        },
+        {
+          "entityId": "madame_hohlakov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…at last coming out, and they had gathered together in anticipation. Two ladies, Madame Hohlakov and her daughter, had also come out into the portico to wait for the elder, but in a separate part of it set aside for women of rank. </p>  <p>…"
+        },
+        {
+          "entityId": "elder_zossima",
+          "type": "person",
+          "firstSeenInChapter": 4,
+          "excerpt": "…cinct, there was a crowd of about twenty peasant women. They had been told that the elder was at last coming out, and they had gathered together in anticipation. Two ladies, Madame Hohlakov and her daughter, had also come out into the port…"
+        },
+        {
+          "entityId": "the_monastery",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…er’s invalid carriage, and two paces from her stood an old monk, not one of our monastery, but a visitor from an obscure religious house in the far north. He too sought the elder’s blessing. </p>  <p> But Father Zossima, on entering the po…"
+        },
+        {
+          "entityId": "the_church",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…to mass; they would squeal and bark like a dog so that they were heard all over the church. But when the sacrament was carried in and they were led up to it, at once the “possession” ceased, and the sick women were always soothed for a tim…"
+        },
+        {
+          "entityId": "god",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…in the Temple a mother like you weeping for her little one, her only one, whom God had taken. ‘Knowest thou not,’ said the saint to her, ‘how bold these little ones are before the throne of God? Verily there are none bolder than they in th…"
+        },
+        {
+          "entityId": "the_kingdom_of_christ",
+          "type": "place",
+          "firstSeenInChapter": 5
+        },
+        {
+          "entityId": "the_virgin",
+          "type": "person",
+          "firstSeenInChapter": 7
+        },
+        {
+          "entityId": "madame_hohlakovs_daughter",
+          "type": "person",
+          "firstSeenInChapter": 8
+        },
+        {
+          "entityId": "old_monk_from_the_north",
+          "type": "person",
+          "firstSeenInChapter": 8
+        },
+        {
+          "entityId": "sofya_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 3
+        },
+        {
+          "entityId": "nastasya",
+          "type": "person",
+          "firstSeenInChapter": 8,
+          "excerpt": "…come on a pilgrimage. I have been in three monasteries, but they told me, ‘Go, Nastasya, go to them’—that is to you. I have come; I was yesterday at the service, and to‐day I have come to you.” </p>  <p> “What are you weeping for?” </p>  <…"
+        },
+        {
+          "entityId": "nikita",
+          "type": "person",
+          "firstSeenInChapter": 8,
+          "excerpt": "…r, I’m in anguish, for my little boy. He was the last one left. We had four, my Nikita and I, and now we’ve no children, our dear ones have all gone. I buried the first three without grieving overmuch, and now I have buried the last I can’…"
+        },
+        {
+          "entityId": "saint_alexey_the_man_of_god",
+          "type": "person",
+          "firstSeenInChapter": 8,
+          "excerpt": "…What was his name?” </p>  <p> “Alexey, Father.” </p>  <p> “A sweet name. After Alexey, the man of God?” </p>  <p> “Yes, Father.” </p>  <p> “What a saint he was! I will remember him, mother, and your grief in my prayers, and I will pray for…"
+        },
+        {
+          "entityId": "rachel",
+          "type": "person",
+          "firstSeenInChapter": 8,
+          "excerpt": "…her fingers through which the tears flowed in a sudden stream. </p>  <p> “It is Rachel of old,” said the elder, “weeping for her children, and will not be comforted because they are not. Such is the lot set on earth for you mothers. Be not…"
+        },
+        {
+          "entityId": "prohorovna",
+          "type": "person",
+          "firstSeenInChapter": 8,
+          "excerpt": "…ther day Stepanida Ilyinishna—she’s a rich merchant’s wife—said to me, ‘You go, Prohorovna, and put your son’s name down for prayer in the church, and pray for the peace of his soul as though he were dead. His soul will be troubled,’ she s…"
+        },
+        {
+          "entityId": "vasenka",
+          "type": "person",
+          "firstSeenInChapter": 8,
+          "excerpt": "…he widow of a non‐commissioned officer, and lived close by in the town. Her son Vasenka was in the commissariat service, and had gone to Irkutsk in Siberia. He had written twice from there, but now a year had passed since he had written. S…"
+        },
+        {
+          "entityId": "irkutsk",
+          "type": "place",
+          "firstSeenInChapter": 8,
+          "excerpt": "…y in the town. Her son Vasenka was in the commissariat service, and had gone to Irkutsk in Siberia. He had written twice from there, but now a year had passed since he had written. She did inquire about him, but she did not know the proper…"
+        },
+        {
+          "entityId": "siberia",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…wn. Her son Vasenka was in the commissariat service, and had gone to Irkutsk in Siberia. He had written twice from there, but now a year had passed since he had written. She did inquire about him, but she did not know the proper place to i…"
+        },
+        {
+          "entityId": "stepanida_ilyinishna",
+          "type": "person",
+          "firstSeenInChapter": 8,
+          "excerpt": "…but she did not know the proper place to inquire. </p>  <p> “Only the other day Stepanida Ilyinishna—she’s a rich merchant’s wife—said to me, ‘You go, Prohorovna, and put your son’s name down for prayer in the church, and pray for the peac…"
+        },
+        {
+          "entityId": "the_church_prohorovna_context",
+          "type": "place",
+          "firstSeenInChapter": 8
+        },
+        {
+          "entityId": "the_queen_of_heaven",
+          "type": "person",
+          "firstSeenInChapter": 8,
+          "excerpt": "…in, akin to sorcery. Only for your ignorance it is forgiven you. Better pray to the Queen of Heaven, our swift defense and help, for his good health, and that she may forgive you for your error. And another thing I will tell you, Prohorovn…"
+        },
+        {
+          "entityId": "young_peasant_woman_penitent_widow",
+          "type": "person",
+          "firstSeenInChapter": 8
+        },
+        {
+          "entityId": "the_dead_husband_penitent_widows_husband",
+          "type": "person",
+          "firstSeenInChapter": 8
+        },
+        {
+          "entityId": "woman_from_vyshegorye",
+          "type": "person",
+          "firstSeenInChapter": 8
+        },
+        {
+          "entityId": "vyshegorye",
+          "type": "place",
+          "firstSeenInChapter": 8,
+          "excerpt": "…rfully at a healthy peasant woman with a tiny baby in her arms. </p>  <p> “From Vyshegorye, dear Father.” </p>  <p> “Five miles you have dragged yourself with the baby. What do you want?” </p>  <p> “I’ve come to look at you. I have been to…"
+        },
+        {
+          "entityId": "lizaveta",
+          "type": "person",
+          "firstSeenInChapter": 8,
+          "excerpt": "…do so certainly. Is that your little girl?” </p>  <p> “My little girl, Father, Lizaveta.” </p>  <p> “May the Lord bless you both, you and your babe Lizaveta! You have gladdened my heart, mother. Farewell, dear children, farewell, dear ones…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 2,
+          "locationDescription": "Outside the monastery portico",
+          "imageDescription": "A wooden portico attached to the outer wall of a Russian Orthodox monastery in late 19th-century Russia. A crowd of about twenty peasant women with headscarves and simple dresses gather near the foot of the three steps leading up to the portico. In a separate area, Madame Hohlakov, elegant in tasteful widow’s garb, sits beside her partially paralyzed teenage daughter, who reclines in a long wheeled chair. An old monk visitor, wearing a coarse, dark monastic habit, stands nearby. The morning light is gentle, creating soft contrasts on the weathered beams and the assembled people's faces. The atmosphere is expectant and reverent.",
+          "characterIds": [
+            "madame_hohlakov",
+            "madame_hohlakovs_daughter",
+            "old_monk_from_the_north"
+          ]
+        },
+        {
+          "startParagraph": 3,
+          "endParagraph": 6,
+          "locationDescription": "Steps of the monastery portico",
+          "imageDescription": "The steps of the wooden monastery portico, with elder Zossima, an old man with a kind expression and flowing robe, standing at the top step, holding a stole. He is surrounded by peasant women in headscarves, many weeping or reaching towards him. One insane (possessed) woman, wild-eyed, is supported by two others close to the step as the elder blesses her. The setting is outdoors, sunlight dapples the wooden surface, and the scene exudes a sense of hope, awe, and spiritual tension characteristic of a 19th-century Russian religious gathering.",
+          "characterIds": [
+            "elder_zossima"
+          ]
+        },
+        {
+          "startParagraph": 7,
+          "endParagraph": 14,
+          "locationDescription": "At the foot of the portico with the peasant widow",
+          "imageDescription": "In front of the monastery portico steps, a thin, sunburnt peasant woman kneels, her face haggard and lined by sorrow. Elder Zossima stands above her, looking down gently. The background shows the crowd of peasant women, and the wooden walls of the monastery. The kneeling woman’s posture is desperate but hopeful, her hands clutching at her breast. The somber light of late morning falls on her and the elder, highlighting the emotional gravity of the moment in a realistic, painterly Russian style.",
+          "characterIds": [
+            "elder_zossima",
+            "nastasya",
+            "nikita"
+          ]
+        },
+        {
+          "startParagraph": 15,
+          "endParagraph": 15,
+          "locationDescription": "Still at the portico with the peasant widow, continuing conversation",
+          "imageDescription": "The same setting at the base of the monastery portico. The peasant widow sits with her cheek in her hand, deeply pensive, tears in her eyes. Elder Zossima stands compassionately beside her. Around them, other peasant women observe respectfully, some weeping quietly. The light is subdued, enhancing the air of pathos and consolation. The widow draws out her little son’s embroidered sash, gazing at it through trembling fingers. The atmosphere is intimate, hovering between grief and sanctity.",
+          "characterIds": [
+            "elder_zossima",
+            "nastasya",
+            "nikita"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 26,
+          "locationDescription": "Portico, with Prohorovna, the officer's widow",
+          "imageDescription": "On the portico, elder Zossima turns to face a very old townswoman, Prohorovna, wearing a neat but faded dress typical of a non-commissioned officer’s widow. She looks anxious and earnest, standing with hands folded as she explains about her missing son. Around them, peasant women murmur quietly, while Zossima listens attentively. The scene is bathed in diffused daylight, lending warmth to the wooden porch and the humble figures. The mood is one of concern and gentle authority.",
+          "characterIds": [
+            "elder_zossima",
+            "prohorovna",
+            "vasenka",
+            "stepanida_ilyinishna",
+            "the_queen_of_heaven"
+          ]
+        },
+        {
+          "startParagraph": 27,
+          "endParagraph": 43,
+          "locationDescription": "Portico, now with the young penitent widow",
+          "imageDescription": "Just outside the monastery portico, elder Zossima notices a young peasant widow, thin and with a sallow, sickly face, kneeling and hesitantly looking up at him. She wears drab peasant clothing, her posture humble and desperate. The background is filled with a subdued, waiting crowd. Zossima, still on the lower step, radiates compassion as he prepares to listen. The light is gentle, with soft shadows framing the emotional intensity between the penitent and the elder.",
+          "characterIds": [
+            "elder_zossima",
+            "young_peasant_woman_penitent_widow",
+            "the_dead_husband_penitent_widows_husband",
+            "god"
+          ]
+        },
+        {
+          "startParagraph": 44,
+          "endParagraph": 53,
+          "locationDescription": "Portico, with the woman from Vyshegorye and Lizaveta",
+          "imageDescription": "On the steps of the portico, a healthy, robust peasant woman in a bright kerchief and simple local dress stands cradling her infant, with a little girl, Lizaveta, at her side. Elder Zossima beams at them, blessing mother and child. Other pilgrims look on peacefully. Sunlight brightens the scene, and the rustic charm of the monastery’s wooden structures is complemented by the cheerful presence of young life, infusing the final gathering with warmth and vitality.",
+          "characterIds": [
+            "elder_zossima",
+            "woman_from_vyshegorye",
+            "lizaveta"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "entities": [
+        {
+          "entityId": "elder_zossima",
+          "type": "person",
+          "firstSeenInChapter": 4,
+          "excerpt": "…a sentimental society lady of genuinely good disposition in many respects. When the elder went up to her at last she met him enthusiastically. </p>  <p> “Ah, what I have been feeling, looking on at this touching scene!...” She could not go…"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…herself and broke into laughter. </p>  <p> “It’s at him,” she said, pointing to Alyosha, with childish vexation at herself for not being able to repress her mirth. </p>  <p> If any one had looked at Alyosha standing a step behind the elder…"
+        },
+        {
+          "entityId": "madame_hohlakov",
+          "type": "person",
+          "firstSeenInChapter": 6
+        },
+        {
+          "entityId": "madame_hohlakovs_daughter",
+          "type": "person",
+          "firstSeenInChapter": 8
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…rd way, held out his hand to her too. Lise assumed an important air. </p>  <p> “Katerina Ivanovna has sent you this through me.” She handed him a little note. “She particularly begs you to go and see her as soon as possible; that you will …"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…n great astonishment. His face at once looked anxious. “Oh, it’s all to do with Dmitri Fyodorovitch and—what has happened lately,” the mother explained hurriedly. “Katerina Ivanovna has made up her mind, but she must see you about it.... W…"
+        },
+        {
+          "entityId": "doctor_herzenstube",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…t. She wagers that in a fortnight she’ll be dancing a quadrille. I’ve called in Doctor Herzenstube. He shrugged his shoulders and said, ‘I am amazed; I can make nothing of it.’ And would you have us not come here to disturb you, not fly he…"
+        },
+        {
+          "entityId": "old_monk_from_the_north",
+          "type": "person",
+          "firstSeenInChapter": 8
+        },
+        {
+          "entityId": "god",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…from different causes. But if there has been any healing, it is by no power but God’s will. It’s all from God. Visit me, Father,” he added to the monk. “It’s not often I can see visitors. I am ill, and I know that my days are numbered.” </…"
+        },
+        {
+          "entityId": "saints",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…to say to himself, ‘I am doing God’s will on earth.’ All the righteous, all the saints, all the holy martyrs were happy.” </p>  <p> “Oh, how you speak! What bold and lofty words!” cried the lady. “You seem to pierce with your words. And ye…"
+        },
+        {
+          "entityId": "martyrs",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…mself, ‘I am doing God’s will on earth.’ All the righteous, all the saints, all the holy martyrs were happy.” </p>  <p> “Oh, how you speak! What bold and lofty words!” cried the lady. “You seem to pierce with your words. And yet—happiness,…"
+        },
+        {
+          "entityId": "the_monastery",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…m the far north, from Obdorsk, from Saint Sylvester, and was a member of a poor monastery, consisting of only ten monks. The elder gave him his blessing and invited him to come to his cell whenever he liked. </p>  <p> “How can you presume …"
+        },
+        {
+          "entityId": "obdorsk",
+          "type": "place",
+          "firstSeenInChapter": 9,
+          "excerpt": "…own way, a stubborn one. He announced that he had come from the far north, from Obdorsk, from Saint Sylvester, and was a member of a poor monastery, consisting of only ten monks. The elder gave him his blessing and invited him to come to h…"
+        },
+        {
+          "entityId": "saint_sylvester",
+          "type": "place",
+          "firstSeenInChapter": 9,
+          "excerpt": "…bborn one. He announced that he had come from the far north, from Obdorsk, from Saint Sylvester, and was a member of a poor monastery, consisting of only ten monks. The elder gave him his blessing and invited him to come to his cell whenev…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 5,
+          "locationDescription": "In the elder's visiting room, near Lise's chair",
+          "imageDescription": "A sunlit monastery visiting room in 19th-century Russia. Elder Zossima, a gentle and bearded figure in a dark monastic robe, stands before an elegant, fashionably dressed Madame Hohlakov, who is dabbing her eyes with a lace handkerchief. Close by, Madame Hohlakov's daughter, Lise, sits in a cushioned wheelchair, her cheeks rosy. Alexey Fyodorovitch Karamazov, in his novice's gown, stands quietly behind the elder, looking shy. The atmosphere is warm, emotional, and reverent, with touches of gold light coming through tall windows.",
+          "characterIds": [
+            "elder_zossima",
+            "alexey_fyodorovitch_karamazov",
+            "madame_hohlakov",
+            "madame_hohlakovs_daughter"
+          ]
+        },
+        {
+          "startParagraph": 6,
+          "endParagraph": 10,
+          "locationDescription": "Still in the elder's room, the focus on Alyosha and Lise",
+          "imageDescription": "In the softly illuminated monastery room, young Lise sits upright in her chair, hands clasped before her, face bright and intent. Elder Zossima stands nearby, turned toward her. Alyosha, with a faint flush to his cheeks, stands just behind Zossima, slightly apart, bashful and downcast. Madame Hohlakov, in fine dress with gloves, beams with pride. The group is close together, their expressions lively, the setting both intimate and genteel, filled with the late 19th-century Russian charm.",
+          "characterIds": [
+            "elder_zossima",
+            "alexey_fyodorovitch_karamazov",
+            "madame_hohlakov",
+            "madame_hohlakovs_daughter"
+          ]
+        },
+        {
+          "startParagraph": 11,
+          "endParagraph": 18,
+          "locationDescription": "Still in the elder's room, the conversation turns to Katerina Ivanovna's note",
+          "imageDescription": "A close group in the comfortable monastery parlor: Madame Hohlakov’s daughter Lise hands a folded note to Alyosha, who receives it in a rather awkward, earnest manner. Madame Hohlakov stands near them, attentive and concerned. Elder Zossima observes the exchange with gentle interest from close by. The ambiance is quiet, anticipation written on the faces, and classic Russian furnishings are visible in the background.",
+          "characterIds": [
+            "elder_zossima",
+            "alexey_fyodorovitch_karamazov",
+            "madame_hohlakov",
+            "madame_hohlakovs_daughter"
+          ]
+        },
+        {
+          "startParagraph": 19,
+          "endParagraph": 23,
+          "locationDescription": "In the elder's room, with the arrival of the old monk from the north",
+          "imageDescription": "Elder Zossima, dignified and smiling, blesses a humble old monk in coarse monastic garb, standing respectfully nearby. Alyosha lingers in the background, Madame Hohlakov and Lise are attentive, watching the exchange. The old monk’s rustic appearance contrasts with the genteel visitors. Sunlight bathes the room in warm afternoon light, and sacred icons gleam from the walls, setting a devout and solemn mood.",
+          "characterIds": [
+            "elder_zossima",
+            "alexey_fyodorovitch_karamazov",
+            "madame_hohlakov",
+            "madame_hohlakovs_daughter",
+            "old_monk_from_the_north"
+          ]
+        },
+        {
+          "startParagraph": 24,
+          "endParagraph": 32,
+          "locationDescription": "In the elder's room, Madame Hohlakov confesses her spiritual suffering",
+          "imageDescription": "Elder Zossima, poised and compassionate, listens intently to Madame Hohlakov, who stands before him, hands clasped in fervent supplication. Lise sits to the side, her gaze shifting between her mother and the elder. Alyosha stands quietly near the elder, his posture attentive yet humble. The dim and serene monastery room’s religious icons and rich wooden furnishings give a sacred and private character to the emotional outpouring.",
+          "characterIds": [
+            "elder_zossima",
+            "alexey_fyodorovitch_karamazov",
+            "madame_hohlakov",
+            "madame_hohlakovs_daughter"
+          ]
+        },
+        {
+          "startParagraph": 33,
+          "endParagraph": 39,
+          "locationDescription": "In the elder's room, Zossima offers counsel on love and faith",
+          "imageDescription": "The room remains softly lit as Elder Zossima, composed and fatherly, delivers advice to the anxious Madame Hohlakov, who listens with a tense, searching expression. Lise, thoughtful in her chair, observes the moment, while Alyosha, modest and reserved, stands somewhat apart but attentive. The atmosphere is serious and reflective, with the 19th-century Russian interior emphasizing solemnity and gentle intimacy.",
+          "characterIds": [
+            "elder_zossima",
+            "alexey_fyodorovitch_karamazov",
+            "madame_hohlakov",
+            "madame_hohlakovs_daughter"
+          ]
+        },
+        {
+          "startParagraph": 40,
+          "endParagraph": 44,
+          "locationDescription": "In the elder's room, the conversation turns to love in action and self-revelation",
+          "imageDescription": "Elder Zossima recounts a story, gesturing quietly as Madame Hohlakov, flushed with emotion, leans forward, her hand on her heart. Lise sits with an earnest, slightly embarrassed look; Alyosha stands to the side, watching quietly. The richly appointed room, with icons and candlelight, speaks of comfort and spiritual gravity. The mood is introspective, the gathering close and personal.",
+          "characterIds": [
+            "elder_zossima",
+            "alexey_fyodorovitch_karamazov",
+            "madame_hohlakov",
+            "madame_hohlakovs_daughter"
+          ]
+        },
+        {
+          "startParagraph": 45,
+          "endParagraph": 53,
+          "locationDescription": "In the elder's room, the interview concludes with goodbyes and blessings",
+          "imageDescription": "Madame Hohlakov, tearful and overcome, rises as Elder Zossima raises his hand in blessing toward Lise. Alyosha hovers at the edge, gentle and slightly awkward. Lise, hands over her eyes, shows both laughter and tears. The radiant afternoon light fills the lush room lined with religious symbols, highlighting the moment’s honesty and tenderness.",
+          "characterIds": [
+            "elder_zossima",
+            "alexey_fyodorovitch_karamazov",
+            "madame_hohlakov",
+            "madame_hohlakovs_daughter"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "entities": [
+        {
+          "entityId": "elder_zossima",
+          "type": "person",
+          "firstSeenInChapter": 4,
+          "excerpt": "<p> The elder’s absence from his cell had lasted for about twenty‐five minutes. It was more than half‐past twelve, but Dmitri, on whose account they had all met there, had s"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ad lasted for about twenty‐five minutes. It was more than half‐past twelve, but Dmitri, on whose account they had all met there, had still not appeared. But he seemed almost to be forgotten, and when the elder entered the cell again, he fo…"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…lder entered the cell again, he found his guests engaged in eager conversation. Ivan and the two monks took the leading share in it. Miüsov, too, was trying to take a part, and apparently very eagerly, in the conversation. But he was unsuc…"
+        },
+        {
+          "entityId": "pyotr_alexandrovitch_misov",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…ged in eager conversation. Ivan and the two monks took the leading share in it. Miüsov, too, was trying to take a part, and apparently very eagerly, in the conversation. But he was unsuccessful in this also. He was evidently in the backgro…"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…is former place, looked at them all as though cordially inviting them to go on. Alyosha, who knew every expression of his face, saw that he was fearfully exhausted and making a great effort. Of late he had been liable to fainting fits from…"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…to go!” Fyodor Pavlovitch delivered him another thrust, almost at the moment of Father Zossima’s return. </p>  <p> The discussion died down for a moment, but the elder, seating himself in his former place, looked at them all as though cord…"
+        },
+        {
+          "entityId": "father_passy",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…im of the future development of Christian society!” </p>  <p> “Perfectly true,” Father Païssy, the silent and learned monk, assented with fervor and decision. </p>  <p> “The purest Ultramontanism!” cried Miüsov impatiently, crossing and re…"
+        },
+        {
+          "entityId": "father_librarian",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…. </p>  <p> “We are discussing this gentleman’s most interesting article,” said Father Iosif, the librarian, addressing the elder, and indicating Ivan. “He brings forward much that is new, but I think the argument cuts both ways. It is an …"
+        },
+        {
+          "entityId": "divinity_student",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ng heart. The whole conversation stirred him profoundly. He glanced casually at Rakitin, who was standing immovable in his place by the door listening and watching intently though with downcast eyes. But from the color in his cheeks Alyosh…"
+        },
+        {
+          "entityId": "christ",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…reality, to be set up as the direct and chief aim of the future development of Christian society!” </p>  <p> “Perfectly true,” Father Païssy, the silent and learned monk, assented with fervor and decision. </p>  <p> “The purest Ultramontan…"
+        },
+        {
+          "entityId": "god",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…could pursue no other aims than those which have been ordained and revealed by God Himself, and among them that of drawing the whole world, and therefore the ancient pagan State itself, into the Church. In that way (that is, with a view to…"
+        },
+        {
+          "entityId": "the_church",
+          "type": "event",
+          "firstSeenInChapter": 6,
+          "excerpt": "…kes up a most interesting position,” continued the Father Librarian. “As far as Church jurisdiction is concerned he is apparently quite opposed to the separation of Church from State.” </p>  <p> “That’s interesting. But in what sense?” Fat…"
+        },
+        {
+          "entityId": "the_state",
+          "type": "event",
+          "firstSeenInChapter": 10,
+          "excerpt": "…and culture, as, for example, in the very objects and fundamental principles of the State. The Christian Church entering into the State could, of course, surrender no part of its fundamental principles—the rock on which it stands—and could…"
+        },
+        {
+          "entityId": "the_kingdom_of_christ",
+          "type": "place",
+          "firstSeenInChapter": 5
+        },
+        {
+          "entityId": "rome",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…State in very many of its departments. In reality this was bound to happen. But Rome as a State retained too much of the pagan civilization and culture, as, for example, in the very objects and fundamental principles of the State. The Chri…"
+        },
+        {
+          "entityId": "paris",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…ears ago, soon after the _coup d’état_ of December, I happened to be calling in Paris on an extremely influential personage in the Government, and I met a very interesting man in his house. This individual was not precisely a detective but…"
+        },
+        {
+          "entityId": "europe",
+          "type": "place",
+          "firstSeenInChapter": 10,
+          "excerpt": "…Hitherto at least I have stood in the front ranks of all that is progressive in Europe, and here the new generation positively ignores us,” he thought. </p>  <p> Fyodor Pavlovitch, who had given his word to sit still and be quiet, had actu…"
+        },
+        {
+          "entityId": "russian_orthodox_church",
+          "type": "event",
+          "firstSeenInChapter": 10,
+          "excerpt": "…ome, and your interpretation, and is only the glorious destiny ordained for the Orthodox Church. This star will arise in the east!” </p>  <p> Miüsov was significantly silent. His whole figure expressed extraordinary personal dignity. A sup…"
+        },
+        {
+          "entityId": "lutheran_countries",
+          "type": "place",
+          "firstSeenInChapter": 10,
+          "excerpt": "…om Church into State and to disappear in it completely. So it seems at least in Lutheran countries. As for Rome, it was proclaimed a State instead of a Church a thousand years ago. And so the criminal is no longer conscious of being a memb…"
+        },
+        {
+          "entityId": "pope_gregory_the_seventh",
+          "type": "person",
+          "firstSeenInChapter": 10,
+          "excerpt": "…not simply Ultramontanism, it’s arch‐Ultramontanism! It’s beyond the dreams of Pope Gregory the Seventh!” </p>  <p> “You are completely misunderstanding it,” said Father Païssy sternly. “Understand, the Church is not to be transformed into…"
+        },
+        {
+          "entityId": "december_coup_dtat",
+          "type": "event",
+          "firstSeenInChapter": 10
+        },
+        {
+          "entityId": "political_detective",
+          "type": "person",
+          "firstSeenInChapter": 10,
+          "excerpt": "…t precisely a detective but was a sort of superintendent of a whole regiment of political detectives—a rather powerful position in its own way. I was prompted by curiosity to seize the opportunity of conversation with him. And as he had no…"
+        },
+        {
+          "entityId": "christian_socialist",
+          "type": "person",
+          "firstSeenInChapter": 10,
+          "excerpt": "…cialists. These are the people we are most afraid of. They are dreadful people! The socialist who is a Christian is more to be dreaded than a socialist who is an atheist.’ The words struck me at the time, and now they have suddenly come ba…"
+        },
+        {
+          "entityId": "atheist_socialist",
+          "type": "person",
+          "firstSeenInChapter": 10,
+          "excerpt": "…dreadful people! The socialist who is a Christian is more to be dreaded than a socialist who is an atheist.’ The words struck me at the time, and now they have suddenly come back to me here, gentlemen.” </p>  <p> “You apply them to us, and…"
+        },
+        {
+          "entityId": "on_the_foundations_of_church_jurisdiction",
+          "type": "event",
+          "firstSeenInChapter": 10
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 33,
+          "locationDescription": "In elder Zossima's cell at the monastery",
+          "imageDescription": "A modest, candle-lit monk's cell featuring plain 19th-century Russian wooden furniture and walls covered with simple religious icons. Several men in period Russian attire—priests in cassocks and guests in dark frock coats—are seated around the room, engaged in animated discussion. Elder Zossima, pale and exhausted, sits in a place of honor, while Ivan, Miüsov, Alyosha, Fyodor Pavlovitch, Father Païssy, and Father Librarian are arrayed in a conversational cluster, their postures suggesting spirited but respectful debate. The atmosphere is tense yet thoughtful.",
+          "characterIds": [
+            "elder_zossima",
+            "alexey_fyodorovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "pyotr_alexandrovitch_misov",
+            "fyodor_pavlovitch_karamazov",
+            "father_passy",
+            "father_librarian"
+          ]
+        },
+        {
+          "startParagraph": 34,
+          "endParagraph": 35,
+          "locationDescription": "Same cell, but as the conversation shifts to a Paris anecdote",
+          "imageDescription": "Within the same softly lit monastery cell, attention shifts to Miüsov, who now sits with exaggerated decorum. The men lean toward him in interest or skepticism. Miüsov, elegantly dressed in the style of a European intellectual, gestures in storytelling fashion. Ivan and Alyosha appear attentive; Father Païssy and Father Librarian listen closely, while Fyodor Pavlovitch leans back with an ironic smile. Flickering candlight plays over the men's earnest and intrigued faces.",
+          "characterIds": [
+            "elder_zossima",
+            "alexey_fyodorovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "pyotr_alexandrovitch_misov",
+            "fyodor_pavlovitch_karamazov",
+            "father_passy",
+            "father_librarian"
+          ]
+        },
+        {
+          "startParagraph": 36,
+          "endParagraph": 36,
+          "locationDescription": "Elder Zossima's cell as Dmitri enters",
+          "imageDescription": "Inside the quietly glowing monastery cell, the door swings open to admit Dmitri Fyodorovitch Karamazov. The assembled company—seated monks and gentlemen—look up in surprise, some turning in their chairs. Dmitri stands in the doorway, dressed in a slightly disheveled Russian military officer’s uniform, his expression intense. The moment is charged with anticipation, frozen in the sudden disruption of the ongoing discussion, with the lamplight casting shadows on the guests’ startled faces.",
+          "characterIds": [
+            "elder_zossima",
+            "alexey_fyodorovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "pyotr_alexandrovitch_misov",
+            "fyodor_pavlovitch_karamazov",
+            "father_passy",
+            "father_librarian",
+            "dmitri_fyodorovitch_karamazov"
+          ]
+        }
+      ]
     }
   ]
 }
