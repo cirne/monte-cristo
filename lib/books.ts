@@ -3,7 +3,7 @@
  * Scripts and app use this to resolve slug → config (volume labels, storage key, etc.).
  */
 
-export const BOOK_SLUGS = ["monte-cristo", "gatsby"] as const;
+export const BOOK_SLUGS = ["monte-cristo", "gatsby", "crime-punishment"] as const;
 export type BookSlug = (typeof BOOK_SLUGS)[number];
 
 export const DEFAULT_BOOK_SLUG: BookSlug = "monte-cristo";
@@ -29,6 +29,25 @@ export interface BookConfig {
 }
 
 const CONFIG: Record<BookSlug, BookConfig> = {
+  "crime-punishment": {
+    title: "Crime and Punishment",
+    author: "Fyodor Dostoyevsky (trans. Constance Garnett)",
+    icon: "🪓",
+    storageKey: "crime-punishment-last-chapter",
+    volumeLabels: {
+      "PART I": "Part I",
+      "PART II": "Part II",
+      "PART III": "Part III",
+      "PART IV": "Part IV",
+      "PART V": "Part V",
+      "PART VI": "Part VI",
+    },
+    baselineIntro:
+      "The novel opens in St. Petersburg in the 1860s. The following people, places, and events appear in this chapter.",
+    imageStyleHint: "19th-century Russia, St. Petersburg; period attire and settings.",
+    summaryPromptFragment:
+      "Keep in mind the socio-economic conditions of 1860s St. Petersburg and Raskolnikov's internal monologue-driven narrative.",
+  },
   "monte-cristo": {
     title: "The Count of Monte Cristo",
     author: "Alexandre Dumas, père",
