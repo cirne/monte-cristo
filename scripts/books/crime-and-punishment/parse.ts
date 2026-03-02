@@ -2,7 +2,7 @@
 /**
  * Parser for Crime and Punishment (Constance Garnett translation).
  * Downloads raw text from Project Gutenberg (#2554) or uses cached copy.
- * Outputs canonical `book.json` and `book-index.json` under data/crime-punishment/.
+ * Outputs canonical chapter HTML files and `book-index.json` under data/crime-punishment/.
  */
 
 import "../../../lib/loadEnv";
@@ -175,7 +175,7 @@ async function main() {
   console.log(`Parsed ${parsed.book.chapters.length} chapters.`);
 
   writeCanonicalBook(dataDir, SLUG, parsed.book);
-  console.log(`Wrote ${bookDir}/book.json and book-index.json`);
+  console.log(`Wrote ${bookDir}/chapters/*.html and book-index.json`);
 
   const chapterIndexPath = join(bookDir, "chapter-index.json");
   if (existsSync(chapterIndexPath)) {
