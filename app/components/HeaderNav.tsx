@@ -2,7 +2,15 @@
 
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { BookOpen, List, Search, ChevronLeft, ChevronRight, ArrowLeft } from "lucide-react";
+import {
+  BookOpen,
+  List,
+  Search,
+  Library,
+  ChevronLeft,
+  ChevronRight,
+  ArrowLeft,
+} from "lucide-react";
 import { useEffect, useState } from "react";
 import { DEFAULT_BOOK_SLUG } from "@/lib/books";
 
@@ -97,6 +105,14 @@ export function HeaderNav() {
         {slug ? (
           <>
             <Link
+              href="/"
+              className="flex items-center gap-2 text-stone-500 hover:text-stone-700 dark:text-stone-400 dark:hover:text-stone-200"
+              aria-label="Library"
+            >
+              <Library className="size-5 shrink-0 sm:hidden" aria-hidden />
+              <span className="hidden sm:inline">Library</span>
+            </Link>
+            <Link
               href={`/book/${slug}/chapters`}
               className="flex items-center gap-2 text-stone-500 hover:text-stone-700 dark:text-stone-400 dark:hover:text-stone-200"
               aria-label="Table of Contents"
@@ -113,18 +129,7 @@ export function HeaderNav() {
               <span className="hidden sm:inline">Search</span>
             </Link>
           </>
-        ) : (
-          <>
-            <Link
-              href="/"
-              className="flex items-center gap-2 text-stone-500 hover:text-stone-700 dark:text-stone-400 dark:hover:text-stone-200"
-              aria-label="Home"
-            >
-              <List className="size-5 shrink-0 sm:hidden" aria-hidden />
-              <span className="hidden sm:inline">Books</span>
-            </Link>
-          </>
-        )}
+        ) : null}
       </div>
       {slug && chapterNum != null ? (
         <div className="flex items-center gap-3 text-stone-600 dark:text-stone-300">

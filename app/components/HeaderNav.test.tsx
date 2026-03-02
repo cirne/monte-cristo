@@ -11,6 +11,7 @@ describe("app/components/HeaderNav", () => {
   it("renders navigation links", () => {
     render(<HeaderNav />);
     expect(screen.getByLabelText("Monte Cristo Reader")).toBeInTheDocument();
+    expect(screen.getByLabelText("Library")).toBeInTheDocument();
     expect(screen.getByLabelText("Table of Contents")).toBeInTheDocument();
     expect(screen.getByLabelText("Search")).toBeInTheDocument();
   });
