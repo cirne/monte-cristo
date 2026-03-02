@@ -59,4 +59,40 @@ describe("lib/linkify", () => {
     // Links depend on entity store + chapter index (no fixed curated id).
     expect(links.every((l) => l.entityId && l.entityType)).toBe(true);
   });
+
+  it("links Bonaparte to napoleon in chapter 10", () => {
+    const result = linkifyParagraph("Bonaparte advanced north.", 10, SLUG);
+    const links = result.filter((segment) => segment.type === "link");
+    expect(links).toHaveLength(1);
+    expect(links[0]).toMatchObject({
+      type: "link",
+      content: "Bonaparte",
+      entityId: "napoleon",
+      entityType: "person",
+    });
+  });
+
+  it("links Blacas to m_de_blacas in chapter 10", () => {
+    const result = linkifyParagraph("Blacas asked for urgency.", 10, SLUG);
+    const links = result.filter((segment) => segment.type === "link");
+    expect(links).toHaveLength(1);
+    expect(links[0]).toMatchObject({
+      type: "link",
+      content: "Blacas",
+      entityId: "m_de_blacas",
+      entityType: "person",
+    });
+  });
+
+  it("links Dandré to m_dandr in chapter 10", () => {
+    const result = linkifyParagraph("Dandré entered in haste.", 10, SLUG);
+    const links = result.filter((segment) => segment.type === "link");
+    expect(links).toHaveLength(1);
+    expect(links[0]).toMatchObject({
+      type: "link",
+      content: "Dandré",
+      entityId: "m_dandr",
+      entityType: "person",
+    });
+  });
 });

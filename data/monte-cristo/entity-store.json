@@ -1017,6 +1017,10 @@
         "Bonaparte, usurper, the usurper",
         "the emperor"
       ],
+      "matchPatterns": [
+        "Napoleon(?:\\s+Bonaparte)?",
+        "Bonaparte"
+      ],
       "spoilerFreeIntro": "A commanding military leader whose ambitions have shaped an era."
     },
     "king_louis_xviii": {
@@ -1774,6 +1778,11 @@
         "Blacas, duke, the duke",
         "Duc de Blacas"
       ],
+      "matchPatterns": [
+        "M\\.?\\s*de\\s+Blacas",
+        "Duc\\s+de\\s+Blacas",
+        "Blacas"
+      ],
       "spoilerFreeIntro": "M. de Blacas, a loyal and courteous courtier offering counsel to the king."
     },
     "m_dandr": {
@@ -1787,6 +1796,11 @@
       "searchTerms": [
         "M. Dandré",
         "Baron Dandré, baron"
+      ],
+      "matchPatterns": [
+        "M\\.?\\s*Dandr[ée]",
+        "Baron\\s+Dandr[ée]",
+        "Dandr[ée]"
       ],
       "spoilerFreeIntro": "M. Dandré, a high-ranking official in the minister of police’s office, entered with quiet authority."
     },
