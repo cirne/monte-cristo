@@ -30,5 +30,16 @@ describe("lib/chapter-index", () => {
       expect(chapter1?.entities.some((e) => e.entityId === "m_morrel")).toBe(true);
       expect(chapter5?.entities.some((e) => e.entityId === "m_morrel")).toBe(true);
     });
+
+    it("canonicalizes Saint-Méran aliases to Renée's existing id", () => {
+      const chapter7 = getChapterIndexEntry(7);
+      const chapter10 = getChapterIndexEntry(10);
+
+      expect(chapter7?.entities.some((e) => e.entityId === "rene_de_saintmran")).toBe(true);
+      expect(chapter7?.entities.some((e) => e.entityId === "rene")).toBe(false);
+
+      expect(chapter10?.entities.some((e) => e.entityId === "rene_de_saintmran")).toBe(true);
+      expect(chapter10?.entities.some((e) => e.entityId === "mademoiselle_de_saintmran")).toBe(false);
+    });
   });
 });

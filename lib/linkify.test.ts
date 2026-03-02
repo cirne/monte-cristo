@@ -49,4 +49,11 @@ describe("lib/linkify", () => {
       entityType: "person",
     });
   });
+
+  it("links Mademoiselle de Saint-Méran's to Renée from chapter 7 onward", () => {
+    const text = "Mademoiselle de Saint-Méran’s family possessed considerable political influence.";
+    const result = linkifyParagraph(text, 7);
+    const links = result.filter((seg) => seg.type === "link");
+    expect(links.some((seg) => seg.entityId === "rene_de_saintmran")).toBe(true);
+  });
 });
