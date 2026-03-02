@@ -1,6 +1,6 @@
 import { readFileSync, existsSync } from "fs";
 import { join } from "path";
-import "./data-manifest.ts";
+import "./data-manifest";
 import { getBookConfig, isBookSlug } from "./books";
 
 export { getBookConfig, isBookSlug };
@@ -60,20 +60,30 @@ export function getTableOfContents(slug: string): TocEntry[] {
 }
 
 export function getSection(slug: string, sectionId: string): Section | undefined {
-  const book = getBook(slug);
-  if (!book) return undefined;
-  const front = book.frontMatter ?? [];
-  const back = book.backMatter ?? [];
+  const index = getBookIndex(slug);
+  if (!index) return undefined;
+  const front = index.frontMatter ?? [];
+  const back = index.backMatter ?? [];
   return front.find((s) => s.id === sectionId) ?? back.find((s) => s.id === sectionId);
 }
 
 const DATA_DIR = join(process.cwd(), "data");
+const CHAPTERS_DIRNAME = "chapters";
 
 const indexCache = new Map<string, BookIndex>();
 const bookCache = new Map<string, Book>();
+const chapterCache = new Map<string, Chapter>();
 
 function dataDirFor(slug: string): string {
   return join(DATA_DIR, slug);
+}
+
+function chapterFilePath(slug: string, chapterNumber: number): string {
+  return join(dataDirFor(slug), CHAPTERS_DIRNAME, `${chapterNumber}.html`);
+}
+
+function chapterCacheKey(slug: string, chapterNumber: number): string {
+  return `${slug}:${chapterNumber}`;
 }
 
 export function getBookIndex(slug: string): BookIndex | undefined {
@@ -90,17 +100,44 @@ export function getBookIndex(slug: string): BookIndex | undefined {
 export function getBook(slug: string): Book | undefined {
   let cached = bookCache.get(slug);
   if (cached) return cached;
-  const path = join(dataDirFor(slug), "book.json");
-  if (!existsSync(path)) return undefined;
-  const raw = readFileSync(path, "utf-8");
-  cached = JSON.parse(raw) as Book;
+
+  const index = getBookIndex(slug);
+  if (!index) return undefined;
+
+  const chapters: Chapter[] = [];
+  for (const summary of index.chapters) {
+    const path = chapterFilePath(slug, summary.number);
+    if (!existsSync(path)) return undefined;
+    const content = readFileSync(path, "utf-8");
+    const chapter: Chapter = { ...summary, content };
+    chapters.push(chapter);
+    chapterCache.set(chapterCacheKey(slug, summary.number), chapter);
+  }
+
+  cached = {
+    ...index,
+    chapters,
+  };
   bookCache.set(slug, cached);
   return cached;
 }
 
 export function getChapter(slug: string, number: number): Chapter | undefined {
-  const book = getBook(slug);
-  return book?.chapters.find((c) => c.number === number);
+  const key = chapterCacheKey(slug, number);
+  let cached = chapterCache.get(key);
+  if (cached) return cached;
+
+  const index = getBookIndex(slug);
+  if (!index) return undefined;
+  const summary = index.chapters.find((chapter) => chapter.number === number);
+  if (!summary) return undefined;
+
+  const path = chapterFilePath(slug, number);
+  if (!existsSync(path)) return undefined;
+  const content = readFileSync(path, "utf-8");
+  cached = { ...summary, content };
+  chapterCache.set(key, cached);
+  return cached;
 }
 
 /** Volume labels for display (from book config or derived from book-index) */

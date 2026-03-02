@@ -29,6 +29,7 @@ import { createChatCompletion } from "../lib/llm";
 import { loadStyle, buildFullPrompt, generateImageToWebPBuffer, ContentPolicyError } from "../lib/image-gen";
 import { getChapterIndexEntry } from "../lib/chapter-index";
 import { DEFAULT_BOOK_SLUG, getBookConfig, isBookSlug } from "../lib/books";
+import { getBook } from "../lib/book";
 import { getParagraphs } from "../lib/scenes";
 import type { SceneWithDetails } from "../lib/scenes";
 
@@ -100,12 +101,6 @@ Output only the image prompt, no explanation. One paragraph, under 200 words.`,
 }
 
 // --- Scene helpers ---
-
-function loadBook(slug: string): { chapters: Array<{ number: number; content: string }> } {
-  const path = join(dataDirFor(slug), "book.json");
-  if (!existsSync(path)) throw new Error(`Missing ${path}. Run the book parser first.`);
-  return JSON.parse(readFileSync(path, "utf-8"));
-}
 
 function loadScenePrompts(slug: string): Record<string, string> {
   const path = join(dataDirFor(slug), "scene-image-prompts.json");
@@ -376,7 +371,11 @@ async function runSceneImages(
   force: boolean,
   workers: number
 ): Promise<void> {
-  const book = loadBook(bookSlug);
+  const book = getBook(bookSlug);
+  if (!book) {
+    console.error(`Missing data for ${bookSlug}. Run parse-book first.`);
+    return;
+  }
   const scenePrompts = loadScenePrompts(bookSlug);
   const saveScenePromptsForBook = (p: Record<string, string>) => saveScenePrompts(bookSlug, p);
 

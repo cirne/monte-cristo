@@ -1,12 +1,13 @@
 /**
  * Canonical book types and helpers for parser scripts.
- * Parsers build a Book (using these types) and call writeCanonicalBook to emit JSON.
+ * Parsers build a Book (using these types) and call writeCanonicalBook to emit canonical files.
  */
 
-import { mkdirSync, writeFileSync } from "fs";
+import { existsSync, mkdirSync, rmSync, unlinkSync, writeFileSync } from "fs";
 import { join } from "path";
 import type { Book, BookIndex, Chapter, ChapterSummary, Section } from "./book";
 import { getParagraphs } from "./scenes";
+import { formatCanonicalHtmlForStorage } from "./canonical-html";
 
 export type { Book, BookIndex, Chapter, ChapterSummary, Section };
 
@@ -199,15 +200,27 @@ export function remapChapterIndexScenes(
 }
 
 /**
- * Write book.json and book-index.json to data/<slug>/.
- * Creates the directory if needed.
+ * Write canonical book files to data/<slug>/:
+ * - chapter content files: chapters/<number>.html
+ * - metadata index: book-index.json
+ * Creates/refreshes the chapter content directory.
  */
 export function writeCanonicalBook(dataDir: string, slug: string, book: Book): void {
   const bookDir = join(dataDir, slug);
   mkdirSync(bookDir, { recursive: true });
 
-  const bookPath = join(bookDir, "book.json");
-  writeFileSync(bookPath, JSON.stringify(book, null, 2), "utf-8");
+  const chaptersDir = join(bookDir, "chapters");
+  rmSync(chaptersDir, { recursive: true, force: true });
+  mkdirSync(chaptersDir, { recursive: true });
+  for (const chapter of book.chapters) {
+    const formatted = formatCanonicalHtmlForStorage(chapter.content);
+    writeFileSync(join(chaptersDir, `${chapter.number}.html`), formatted, "utf-8");
+  }
+
+  const legacyBookPath = join(bookDir, "book.json");
+  if (existsSync(legacyBookPath)) {
+    unlinkSync(legacyBookPath);
+  }
 
   const index: BookIndex = {
     title: book.title,

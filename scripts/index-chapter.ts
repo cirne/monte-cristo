@@ -4,7 +4,7 @@
  * generate content, and update the entity store when entities were referenced
  * in earlier chapters.
  *
- * Prereqs: parse-book (data/book.json). Optional: seed entity store from
+ * Prereqs: parse-book (data/<book>/book-index.json + chapters/*.html). Optional: seed entity store from
  * known entities from the store so the LLM reuses IDs.
  *
  * Usage:
@@ -41,6 +41,7 @@ import { getScenesFromLLM } from "../lib/scenes-llm";
 import { mergeChapterIndexEntry, mergeChapterScenes } from "../lib/chapter-index-merge";
 import { mergeEntityStoreInto, mergeChapterIndexInto } from "../lib/index-write-merge";
 import { DEFAULT_BOOK_SLUG, getBookConfig, isBookSlug } from "../lib/books";
+import { getBook } from "../lib/book";
 
 const ROOT_DATA_DIR = join(import.meta.dir, "..", "data");
 const DEFAULT_BASELINE_INTRO =
@@ -680,15 +681,13 @@ async function main() {
     console.log(`Using ${workers} workers for parallel intro generation.`);
   }
 
-  const bookPath = join(DATA_DIR, "book.json");
-  if (!existsSync(bookPath)) {
-    console.error(`Run the book parser first to create data/${bookSlug}/book.json`);
+  const book = getBook(bookSlug);
+  if (!book) {
+    console.error(
+      `Run the book parser first to create data/${bookSlug}/book-index.json and chapters/*.html`
+    );
     process.exit(1);
   }
-
-  const book = JSON.parse(readFileSync(bookPath, "utf-8")) as {
-    chapters: Array<{ number: number; content: string }>;
-  };
 
   const storePath = join(DATA_DIR, "entity-store.json");
   let store: EntityStoreData = { entities: {} };

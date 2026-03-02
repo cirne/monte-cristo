@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 /**
  * Parser for The Count of Monte Cristo.
- * Fetches or reads raw text, parses into canonical Book, writes book.json and book-index.json.
+ * Fetches or reads raw text, parses into canonical Book, writes chapters/*.html and book-index.json.
  * Uses lib/canonical-book for output and paragraph remap helpers.
  */
 
@@ -143,7 +143,7 @@ async function main() {
   console.log(`Parsed ${parsed.book.chapters.length} chapters.`);
 
   writeCanonicalBook(dataDir, SLUG, parsed.book);
-  console.log(`Wrote ${bookDir}/book.json and book-index.json`);
+  console.log(`Wrote ${bookDir}/chapters/*.html and book-index.json`);
 
   const chapterIndexPath = join(bookDir, "chapter-index.json");
   if (existsSync(chapterIndexPath)) {
