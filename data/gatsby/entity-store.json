@@ -1,0 +1,4362 @@
+{
+  "entities": {
+    "nick_carraway": {
+      "id": "nick_carraway",
+      "name": "Nick Carraway",
+      "aliases": [
+        "Nick"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Nick Carraway",
+        "Nick"
+      ],
+      "spoilerFreeIntro": "A reflective and observant young man from the Midwest, Nick Carraway arrives in New York to learn the bond business."
+    },
+    "jay_gatsby": {
+      "id": "jay_gatsby",
+      "name": "Jay Gatsby",
+      "aliases": [
+        "Gatsby",
+        "Gatsby, Jimmy (to his father), Major (by Wolfshiem), Mr. Gatsby",
+        "James Gatz"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Jay Gatsby",
+        "Gatsby",
+        "Gatsby, Jimmy (to his father), Major (by Wolfshiem), Mr. Gatsby",
+        "James Gatz"
+      ],
+      "spoilerFreeIntro": "Jay Gatsby, a wealthy and mysterious neighbor known for his lavish parties."
+    },
+    "thomas_buchanan": {
+      "id": "thomas_buchanan",
+      "name": "Thomas Buchanan",
+      "aliases": [
+        "Tom Buchanan",
+        "Tom",
+        "Tom Buchanan, Tom"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Thomas Buchanan",
+        "Tom Buchanan",
+        "Tom",
+        "Tom Buchanan, Tom"
+      ],
+      "spoilerFreeIntro": "A wealthy and imposing man, Tom Buchanan is an old acquaintance of the narrator."
+    },
+    "daisy_buchanan": {
+      "id": "daisy_buchanan",
+      "name": "Daisy Buchanan",
+      "aliases": [
+        "Daisy",
+        "Daisy Fay (in flashback, before marriage)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Daisy Buchanan",
+        "Daisy",
+        "Daisy Fay (in flashback, before marriage)"
+      ],
+      "spoilerFreeIntro": "A beautiful and charming young woman, Daisy Buchanan is Nick’s distant cousin and Tom’s wife."
+    },
+    "jordan_baker": {
+      "id": "jordan_baker",
+      "name": "Jordan Baker",
+      "aliases": [
+        "Miss Baker",
+        "Jordan"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Jordan Baker",
+        "Miss Baker",
+        "Jordan"
+      ],
+      "spoilerFreeIntro": "A slender, poised young woman with an air of self-assurance sits quietly on the couch."
+    },
+    "daisy_buchanans_daughter": {
+      "id": "daisy_buchanans_daughter",
+      "name": "Daisy Buchanan's daughter",
+      "aliases": [
+        "the baby",
+        "little girl",
+        "the child, Pammy"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Daisy Buchanan's daughter",
+        "the baby",
+        "little girl",
+        "the child, Pammy"
+      ],
+      "spoilerFreeIntro": "A little girl, just three years old, Daisy Buchanan’s daughter is mentioned as being asleep during her mother's conversation."
+    },
+    "nick_carraways_father": {
+      "id": "nick_carraways_father",
+      "name": "Nick Carraway's father",
+      "aliases": [
+        "father"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Nick Carraway's father",
+        "father"
+      ],
+      "spoilerFreeIntro": "Nick Carraway's thoughtful father, whose advice shapes Nick's perspective on life."
+    },
+    "demaine": {
+      "id": "demaine",
+      "name": "Demaine",
+      "aliases": [
+        "Demaine, the oil man",
+        "the oil man"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Demaine",
+        "Demaine, the oil man",
+        "the oil man"
+      ],
+      "spoilerFreeIntro": "A local oil man, Demaine is mentioned with a sense of authority in the community."
+    },
+    "goddard": {
+      "id": "goddard",
+      "name": "Goddard",
+      "aliases": [
+        "the man who wrote 'The Rise of the Coloured Empires'"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Goddard",
+        "the man who wrote 'The Rise of the Coloured Empires'"
+      ],
+      "spoilerFreeIntro": "A thoughtful man with strong opinions, Goddard is mentioned early as an author referenced in conversation."
+    },
+    "nick_carraways_finnish_housekeeper": {
+      "id": "nick_carraways_finnish_housekeeper",
+      "name": "Nick Carraway's Finnish housekeeper",
+      "aliases": [
+        "Finnish woman",
+        "the Finn",
+        "My Finn"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Nick Carraway's Finnish housekeeper",
+        "Finnish woman",
+        "the Finn",
+        "My Finn"
+      ],
+      "spoilerFreeIntro": "Nick Carraway’s Finnish housekeeper, a quiet woman who tends to his home with practical efficiency."
+    },
+    "nick_carraways_greatuncle": {
+      "id": "nick_carraways_greatuncle",
+      "name": "Nick Carraway's great-uncle",
+      "aliases": [
+        "great-uncle"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Nick Carraway's great-uncle",
+        "great-uncle"
+      ],
+      "spoilerFreeIntro": "Nick Carraway’s great-uncle, a relative whom Nick resembles, is briefly mentioned as part of his family’s history in the Midwest."
+    },
+    "nick_carraways_family": {
+      "id": "nick_carraways_family",
+      "name": "Nick Carraway's family",
+      "aliases": [
+        "The Carraways",
+        "Carraway house (family)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Nick Carraway's family",
+        "The Carraways",
+        "Carraway house (family)"
+      ],
+      "spoilerFreeIntro": "Nick’s family is a well-established Midwestern clan with a proud tradition and deep roots in their community."
+    },
+    "the_dukes_of_buccleuch": {
+      "id": "the_dukes_of_buccleuch",
+      "name": "The Dukes of Buccleuch",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "The Dukes of Buccleuch"
+      ],
+      "spoilerFreeIntro": "Members of a distinguished Scottish noble family, reputed to be among the narrator’s ancestors."
+    },
+    "miss_bakers_aunt": {
+      "id": "miss_bakers_aunt",
+      "name": "Miss Baker's aunt",
+      "aliases": [
+        "her family is one aunt"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Miss Baker's aunt",
+        "her family is one aunt"
+      ],
+      "spoilerFreeIntro": "An elderly woman, Miss Baker's distant and reserved aunt, serves as her guardian."
+    },
+    "chicago": {
+      "id": "chicago",
+      "name": "Chicago",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Chicago"
+      ],
+      "spoilerFreeIntro": "A bustling, modern city in the Midwest where the narrator visits old acquaintances."
+    },
+    "new_york": {
+      "id": "new_york",
+      "name": "New York",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "New York"
+      ],
+      "spoilerFreeIntro": "A bustling and vibrant city on the east coast, famous for its dramatic skyline and endless energy."
+    },
+    "france": {
+      "id": "france",
+      "name": "France",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "France"
+      ],
+      "spoilerFreeIntro": "A country in Western Europe, renowned for its culture, history, and picturesque landscapes."
+    },
+    "west_egg": {
+      "id": "west_egg",
+      "name": "West Egg",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "West Egg"
+      ],
+      "spoilerFreeIntro": "A wealthy but less fashionable community on Long Island, known for its new money residents."
+    },
+    "east_egg": {
+      "id": "east_egg",
+      "name": "East Egg",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "East Egg"
+      ],
+      "spoilerFreeIntro": "East Egg is a wealthy, fashionable community distinguished by its grand, elegant homes along the bay."
+    },
+    "long_island_sound": {
+      "id": "long_island_sound",
+      "name": "Long Island Sound",
+      "aliases": [
+        "the Sound",
+        "Long Island Sound"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Long Island Sound",
+        "the Sound"
+      ],
+      "spoilerFreeIntro": "A broad stretch of tidal water separating Long Island from the mainland, shimmering with the movement of boats and gulls."
+    },
+    "louisville": {
+      "id": "louisville",
+      "name": "Louisville",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Louisville"
+      ],
+      "spoilerFreeIntro": "A city on the banks of the Ohio River, known for its old Southern charm and as the setting of key memories for certain characters."
+    },
+    "middle_west": {
+      "id": "middle_west",
+      "name": "Middle West",
+      "aliases": [
+        "the Middle West",
+        "Middle West, home",
+        "Middle West",
+        "West (for Gatsby's burial)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Middle West",
+        "the Middle West",
+        "Middle West, home",
+        "West (for Gatsby's burial)"
+      ],
+      "spoilerFreeIntro": "A prosperous, established region in the central United States, home to generations of the Carraway family."
+    },
+    "asheville": {
+      "id": "asheville",
+      "name": "Asheville",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Asheville"
+      ],
+      "spoilerFreeIntro": "A fashionable resort town in North Carolina, known for its lively social scene."
+    },
+    "hot_springs": {
+      "id": "hot_springs",
+      "name": "Hot Springs",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Hot Springs"
+      ],
+      "spoilerFreeIntro": "A fashionable resort town known for its luxurious social scene."
+    },
+    "palm_beach": {
+      "id": "palm_beach",
+      "name": "Palm Beach",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Palm Beach"
+      ],
+      "spoilerFreeIntro": "A luxurious and fashionable resort town known for attracting wealthy visitors."
+    },
+    "new_haven": {
+      "id": "new_haven",
+      "name": "New Haven",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "New Haven"
+      ],
+      "spoilerFreeIntro": "A prestigious university town known for its ivy-covered halls and scholarly traditions."
+    },
+    "lake_forest": {
+      "id": "lake_forest",
+      "name": "Lake Forest",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Lake Forest"
+      ],
+      "spoilerFreeIntro": "A wealthy community known for its opulent estates and elite residents."
+    },
+    "westchester": {
+      "id": "westchester",
+      "name": "Westchester",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Westchester"
+      ],
+      "spoilerFreeIntro": "A wealthy suburban area near New York City, known for its grand estates and affluent residents."
+    },
+    "columbus": {
+      "id": "columbus",
+      "name": "Columbus",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Columbus"
+      ],
+      "spoilerFreeIntro": "A renowned Italian explorer, famous for his voyages across the Atlantic Ocean."
+    },
+    "htel_de_ville_in_normandy": {
+      "id": "htel_de_ville_in_normandy",
+      "name": "Hôtel de Ville in Normandy",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Hôtel de Ville in Normandy"
+      ],
+      "spoilerFreeIntro": "A grand, newly built mansion designed in the style of a Norman Hôtel de Ville, distinguished by its elegant tower."
+    },
+    "cunard_line": {
+      "id": "cunard_line",
+      "name": "Cunard Line",
+      "aliases": [
+        "Cunard"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Cunard Line",
+        "Cunard"
+      ],
+      "spoilerFreeIntro": "The Cunard Line is a famous British shipping company known for its luxurious ocean liners sailing between Europe and America."
+    },
+    "white_star_line": {
+      "id": "white_star_line",
+      "name": "White Star Line",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "White Star Line"
+      ],
+      "spoilerFreeIntro": "A famous British shipping company known for its luxurious ocean liners."
+    },
+    "yale_news": {
+      "id": "yale_news",
+      "name": "Yale News",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Yale News"
+      ],
+      "spoilerFreeIntro": "The campus newspaper where the narrator once wrote editorials as a student."
+    },
+    "the_great_war": {
+      "id": "the_great_war",
+      "name": "the Great War",
+      "aliases": [
+        "the war"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the Great War",
+        "the war"
+      ],
+      "spoilerFreeIntro": "The Great War: A massive conflict in Europe that reshapes the world and deeply affects the narrator's life and perspective."
+    },
+    "the_civil_war": {
+      "id": "the_civil_war",
+      "name": "the Civil War",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the Civil War"
+      ],
+      "spoilerFreeIntro": "A major national conflict from the past, shaping the family's history and fortunes."
+    },
+    "the_tournament_at_westchester": {
+      "id": "the_tournament_at_westchester",
+      "name": "the tournament at Westchester",
+      "aliases": [
+        "the tournament",
+        "the tournament tomorrow"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the tournament at Westchester",
+        "the tournament",
+        "the tournament tomorrow"
+      ],
+      "spoilerFreeIntro": "A prestigious golf tournament where Jordan Baker is set to compete."
+    },
+    "george_b_wilson": {
+      "id": "george_b_wilson",
+      "name": "George B. Wilson",
+      "aliases": [
+        "Wilson, George, Mr. Wilson",
+        "Wilson",
+        "Mr. Wilson",
+        "Wilson's body"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "George B. Wilson",
+        "Wilson, George, Mr. Wilson",
+        "Wilson",
+        "Mr. Wilson",
+        "Wilson's body"
+      ],
+      "spoilerFreeIntro": "A weary, spiritless man with pale hair, George B. Wilson owns a small garage in the valley of ashes."
+    },
+    "myrtle_wilson": {
+      "id": "myrtle_wilson",
+      "name": "Myrtle Wilson",
+      "aliases": [
+        "Mrs. Wilson, Myrtle",
+        "Mrs. Wilson; Myrtle",
+        "her sister",
+        "Mrs. Wilson"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Myrtle Wilson",
+        "Mrs. Wilson, Myrtle",
+        "Mrs. Wilson; Myrtle",
+        "her sister",
+        "Mrs. Wilson"
+      ],
+      "spoilerFreeIntro": "Myrtle Wilson, a vivacious woman with a restless energy, is the wife of the garage owner in the valley of ashes."
+    },
+    "catherine": {
+      "id": "catherine",
+      "name": "Catherine",
+      "aliases": [
+        "the sister",
+        "her sister (referenced as Myrtle), Catherine"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Catherine",
+        "the sister",
+        "her sister (referenced as Myrtle), Catherine"
+      ],
+      "spoilerFreeIntro": "Catherine is Myrtle's younger sister, known for her striking beauty."
+    },
+    "mr_mckee": {
+      "id": "mr_mckee",
+      "name": "Mr. McKee",
+      "aliases": [
+        "Chester McKee, Mr. McKee",
+        "Chester McKee"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Mr. McKee",
+        "Chester McKee, Mr. McKee",
+        "Chester McKee"
+      ],
+      "spoilerFreeIntro": "Mr. McKee is a pale, delicate-looking man who lives in the apartment below with his wife."
+    },
+    "mrs_mckee": {
+      "id": "mrs_mckee",
+      "name": "Mrs. McKee",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Mrs. McKee"
+      ],
+      "spoilerFreeIntro": "Mrs. McKee, a slender and enthusiastic woman, is an acquaintance of Nick and Myrtle who attends Tom Buchanan's impromptu gathering in the city."
+    },
+    "mrs_eberhardt": {
+      "id": "mrs_eberhardt",
+      "name": "Mrs. Eberhardt",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Mrs. Eberhardt"
+      ],
+      "spoilerFreeIntro": "Mrs. Eberhardt is a curious woman known for her habit of examining people's feet when she visits their homes."
+    },
+    "doctor_t_j_eckleburg": {
+      "id": "doctor_t_j_eckleburg",
+      "name": "Doctor T. J. Eckleburg",
+      "aliases": [
+        "Doctor Eckleburg"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Doctor T. J. Eckleburg",
+        "Doctor Eckleburg"
+      ],
+      "spoilerFreeIntro": "A pair of enormous blue eyes, belonging to Doctor T. J. Eckleburg, stare down from a faded billboard above the desolate landscape."
+    },
+    "elevator_boy": {
+      "id": "elevator_boy",
+      "name": "Elevator boy",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Elevator boy"
+      ],
+      "spoilerFreeIntro": "A reluctant young elevator boy who works in the apartment building."
+    },
+    "dog_seller": {
+      "id": "dog_seller",
+      "name": "Dog seller",
+      "aliases": [
+        "grey old man who bore an absurd resemblance to John D. Rockefeller"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Dog seller",
+        "grey old man who bore an absurd resemblance to John D. Rockefeller"
+      ],
+      "spoilerFreeIntro": "An elderly man, bearing a striking resemblance to John D. Rockefeller, peddles a basket of timid puppies on the street."
+    },
+    "ashgrey_men": {
+      "id": "ashgrey_men",
+      "name": "Ash-grey men",
+      "aliases": [
+        "ash-grey men"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Ash-grey men",
+        "ash-grey men"
+      ],
+      "spoilerFreeIntro": "A group of ghostly, ash-grey men who drift silently through the lifeless, dusty landscape."
+    },
+    "the_mckees_former_suitor": {
+      "id": "the_mckees_former_suitor",
+      "name": "The McKees’ former suitor",
+      "aliases": [
+        "little kike who’d been after Mrs. McKee"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "The McKees’ former suitor",
+        "little kike who’d been after Mrs. McKee"
+      ]
+    },
+    "janitor": {
+      "id": "janitor",
+      "name": "Janitor",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Janitor"
+      ],
+      "spoilerFreeIntro": "A janitor, attentive to the needs of the apartment’s residents, arrives when Tom rings for assistance."
+    },
+    "myrtle_wilsons_mother": {
+      "id": "myrtle_wilsons_mother",
+      "name": "Myrtle Wilson's mother",
+      "aliases": [
+        "mother (in photograph)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Myrtle Wilson's mother",
+        "mother (in photograph)"
+      ]
+    },
+    "unnamed_italian_child": {
+      "id": "unnamed_italian_child",
+      "name": "Unnamed Italian child",
+      "aliases": [
+        "Italian child",
+        "grey, scrawny Italian child"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Unnamed Italian child",
+        "Italian child",
+        "grey, scrawny Italian child"
+      ],
+      "spoilerFreeIntro": "A thin, solemn Italian child, carefully arranging fireworks along the railroad tracks."
+    },
+    "kaiser_wilhelm": {
+      "id": "kaiser_wilhelm",
+      "name": "Kaiser Wilhelm",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Kaiser Wilhelm"
+      ],
+      "spoilerFreeIntro": "A distant relative of Kaiser Wilhelm, rumored to have inherited his fortune."
+    },
+    "monte_carlo_travel_companion": {
+      "id": "monte_carlo_travel_companion",
+      "name": "Monte Carlo travel companion",
+      "aliases": [
+        "another girl (Catherine's companion)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Monte Carlo travel companion",
+        "another girl (Catherine's companion)"
+      ]
+    },
+    "catholic_wife_alleged_not_real": {
+      "id": "catholic_wife_alleged_not_real",
+      "name": "Catholic wife (alleged, not real)",
+      "aliases": [
+        "Catholic wife (the person 'keeping Tom and Myrtle apart', mentioned in conversation; implied to be a fabrication about Daisy)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Catholic wife (alleged, not real)",
+        "Catholic wife (the person 'keeping Tom and Myrtle apart', mentioned in conversation; implied to be a fabrication about Daisy)"
+      ]
+    },
+    "dog_airedale_puppy": {
+      "id": "dog_airedale_puppy",
+      "name": "Dog (Airedale puppy)",
+      "aliases": [
+        "the dog"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Dog (Airedale puppy)",
+        "the dog"
+      ],
+      "spoilerFreeIntro": "A small Airedale puppy, recently acquired by Tom, is introduced to the apartment."
+    },
+    "valley_of_ashes": {
+      "id": "valley_of_ashes",
+      "name": "Valley of Ashes",
+      "aliases": [
+        "valley of ashes"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Valley of Ashes",
+        "valley of ashes"
+      ],
+      "spoilerFreeIntro": "A bleak, industrial wasteland stretching between the city and the wealthy suburbs."
+    },
+    "queens": {
+      "id": "queens",
+      "name": "Queens",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Queens"
+      ],
+      "spoilerFreeIntro": "A bustling borough of New York City, home to diverse communities and quiet streets."
+    },
+    "fifth_avenue": {
+      "id": "fifth_avenue",
+      "name": "Fifth Avenue",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Fifth Avenue"
+      ],
+      "spoilerFreeIntro": "A broad, elegant street in New York City lined with impressive buildings and bustling with life."
+    },
+    "long_island": {
+      "id": "long_island",
+      "name": "Long Island",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Long Island"
+      ],
+      "spoilerFreeIntro": "A wealthy enclave near New York City, known for its opulent estates and social gatherings."
+    },
+    "158th_street": {
+      "id": "158th_street",
+      "name": "158th Street",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "158th Street"
+      ],
+      "spoilerFreeIntro": "A bustling city street lined with tall apartment buildings in upper Manhattan."
+    },
+    "pennsylvania_station": {
+      "id": "pennsylvania_station",
+      "name": "Pennsylvania Station",
+      "aliases": [
+        "the station"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Pennsylvania Station",
+        "the station"
+      ],
+      "spoilerFreeIntro": "A bustling New York City train station filled with travelers and the hum of early morning activity."
+    },
+    "montauk_point": {
+      "id": "montauk_point",
+      "name": "Montauk Point",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Montauk Point"
+      ],
+      "spoilerFreeIntro": "A windswept promontory jutting into the sea, renowned for its wild beauty and ever-present flocks of gulls."
+    },
+    "europe": {
+      "id": "europe",
+      "name": "Europe",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Europe"
+      ],
+      "spoilerFreeIntro": "A continent west of Russia, often seen as a land of opportunity and new beginnings."
+    },
+    "monte_carlo": {
+      "id": "monte_carlo",
+      "name": "Monte Carlo",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Monte Carlo"
+      ],
+      "spoilerFreeIntro": "Monte Carlo, a dazzling Mediterranean city famous for its grand casinos and glamorous lifestyle."
+    },
+    "marseilles": {
+      "id": "marseilles",
+      "name": "Marseilles",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Marseilles"
+      ],
+      "spoilerFreeIntro": "A bustling port city on the southern coast of France."
+    },
+    "mediterranean": {
+      "id": "mediterranean",
+      "name": "Mediterranean",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Mediterranean"
+      ],
+      "spoilerFreeIntro": "A sparkling sea stretching between Europe, Asia, and Africa."
+    },
+    "broadway": {
+      "id": "broadway",
+      "name": "Broadway",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Broadway"
+      ],
+      "spoilerFreeIntro": "A vibrant, bustling avenue in New York City known for its theaters, bright lights, and lively nightlife."
+    },
+    "park": {
+      "id": "park",
+      "name": "Park",
+      "aliases": [
+        "the Park"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Park",
+        "the Park"
+      ],
+      "spoilerFreeIntro": "A large, tree-lined green space in the city, bordered by busy streets and offering a respite from the surrounding urban landscape."
+    },
+    "fourth_of_july": {
+      "id": "fourth_of_july",
+      "name": "Fourth of July",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Fourth of July"
+      ],
+      "spoilerFreeIntro": "An American holiday approaching, marked by festive preparations in the neighborhood."
+    },
+    "probity_trust": {
+      "id": "probity_trust",
+      "name": "Probity Trust",
+      "aliases": [
+        "Probity Trust (Nick's workplace in NYC)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Probity Trust",
+        "Probity Trust (Nick's workplace in NYC)"
+      ],
+      "spoilerFreeIntro": "Probity Trust, a bustling financial institution in lower New York, where young clerks and bond-salesmen begin their busy days."
+    },
+    "yale_club": {
+      "id": "yale_club",
+      "name": "Yale Club",
+      "aliases": [
+        "Yale Club (Nick's club in NYC)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Yale Club",
+        "Yale Club (Nick's club in NYC)"
+      ],
+      "spoilerFreeIntro": "A private social club in New York City frequented by Yale alumni."
+    },
+    "murray_hill_hotel": {
+      "id": "murray_hill_hotel",
+      "name": "Murray Hill Hotel",
+      "aliases": [
+        "Murray Hill Hotel (NYC)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Murray Hill Hotel",
+        "Murray Hill Hotel (NYC)"
+      ],
+      "spoilerFreeIntro": "An old, distinguished hotel along Madison Avenue in New York City."
+    },
+    "33rd_street": {
+      "id": "33rd_street",
+      "name": "33rd Street",
+      "aliases": [
+        "33rd Street (NYC)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "33rd Street",
+        "33rd Street (NYC)"
+      ],
+      "spoilerFreeIntro": "A lively Midtown Manhattan street, bustling with the energy of nighttime New York."
+    },
+    "carnegie_hall": {
+      "id": "carnegie_hall",
+      "name": "Carnegie Hall",
+      "aliases": [
+        "Carnegie Hall (NYC concert venue)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Carnegie Hall",
+        "Carnegie Hall (NYC concert venue)"
+      ],
+      "spoilerFreeIntro": "A famous New York concert venue known for hosting celebrated musical performances."
+    },
+    "jersey_city": {
+      "id": "jersey_city",
+      "name": "Jersey City",
+      "aliases": [
+        "Jersey City (where the girl Nick dates works)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Jersey City",
+        "Jersey City (where the girl Nick dates works)"
+      ],
+      "spoilerFreeIntro": "A busy New Jersey city across the river from Manhattan."
+    },
+    "warwick": {
+      "id": "warwick",
+      "name": "Warwick",
+      "aliases": [
+        "Warwick (house-party location)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Warwick",
+        "Warwick (house-party location)"
+      ],
+      "spoilerFreeIntro": "A historic town in England, known for its grand castle and countryside, where the characters once attended a house party."
+    },
+    "the_first_division": {
+      "id": "the_first_division",
+      "name": "The First Division",
+      "aliases": [
+        "First Division (US Army unit in WWI)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "The First Division",
+        "First Division (US Army unit in WWI)"
+      ],
+      "spoilerFreeIntro": "A unit of soldiers who served together in the U.S. Army during World War I."
+    },
+    "twentyeighth_infantry": {
+      "id": "twentyeighth_infantry",
+      "name": "Twenty-eighth Infantry",
+      "aliases": [
+        "Twenty-eighth Infantry (Nick's unit in WWI)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Twenty-eighth Infantry",
+        "Twenty-eighth Infantry (Nick's unit in WWI)"
+      ],
+      "spoilerFreeIntro": "A regiment in the First Division mentioned by a character as his unit during the war."
+    },
+    "sixteenth_infantry": {
+      "id": "sixteenth_infantry",
+      "name": "Sixteenth Infantry",
+      "aliases": [
+        "Sixteenth Infantry (Gatsby's unit in WWI)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Sixteenth Infantry",
+        "Sixteenth Infantry (Gatsby's unit in WWI)"
+      ]
+    },
+    "girls_in_yellow": {
+      "id": "girls_in_yellow",
+      "name": "Girls in yellow",
+      "aliases": [
+        "Two girls in yellow dresses named as acquaintances of Jordan and Nick"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Girls in yellow",
+        "Two girls in yellow dresses named as acquaintances of Jordan and Nick"
+      ],
+      "spoilerFreeIntro": "Two young women dressed in yellow, lively and familiar, appear at the party and briefly engage with the main characters."
+    },
+    "lucille": {
+      "id": "lucille",
+      "name": "Lucille",
+      "aliases": [
+        "Lucille (one of the girls in yellow)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Lucille",
+        "Lucille (one of the girls in yellow)"
+      ],
+      "spoilerFreeIntro": "A lively young woman who speaks with cheerful confidence."
+    },
+    "owl_eyes": {
+      "id": "owl_eyes",
+      "name": "Owl Eyes",
+      "aliases": [
+        "Owl-eyed man (man with spectacles in Gatsby's library)",
+        "the man with owl-eyed glasses, owl-eyed man",
+        "the man with owl-eyed glasses, owl-eyes"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Owl Eyes",
+        "Owl-eyed man (man with spectacles in Gatsby's library)",
+        "the man with owl-eyed glasses, owl-eyed man",
+        "the man with owl-eyed glasses, owl-eyes"
+      ],
+      "spoilerFreeIntro": "A bespectacled, curious guest at Gatsby’s parties, Owl Eyes observes the world with a detached fascination."
+    },
+    "mrs_claud_roosevelt": {
+      "id": "mrs_claud_roosevelt",
+      "name": "Mrs. Claud Roosevelt",
+      "aliases": [
+        "Mrs. Claud Roosevelt (woman who brought Owl Eyes to the party)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Mrs. Claud Roosevelt",
+        "Mrs. Claud Roosevelt (woman who brought Owl Eyes to the party)"
+      ],
+      "spoilerFreeIntro": "Mrs. Claud Roosevelt is a woman known in certain social circles, whose acquaintance proves memorable to those who meet her."
+    },
+    "orchestra_leader": {
+      "id": "orchestra_leader",
+      "name": "Orchestra Leader",
+      "aliases": [
+        "Orchestra leader at Gatsby's party"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Orchestra Leader",
+        "Orchestra leader at Gatsby's party"
+      ],
+      "spoilerFreeIntro": "The orchestra leader, attentive and adaptable, guides the music with practiced ease from his place near the dancers."
+    },
+    "vladmir_tostoff": {
+      "id": "vladmir_tostoff",
+      "name": "Vladmir Tostoff",
+      "aliases": [
+        "Vladmir Tostoff (composer of 'Jazz History of the World')"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Vladmir Tostoff",
+        "Vladmir Tostoff (composer of 'Jazz History of the World')"
+      ],
+      "spoilerFreeIntro": "Vladmir Tostoff is a composer whose recent musical work has caused a sensation in the press."
+    },
+    "celebrated_tenor": {
+      "id": "celebrated_tenor",
+      "name": "Celebrated tenor",
+      "aliases": [
+        "Celebrated tenor (sang in Italian at Gatsby's party)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Celebrated tenor",
+        "Celebrated tenor (sang in Italian at Gatsby's party)"
+      ],
+      "spoilerFreeIntro": "A celebrated tenor, known for his remarkable voice, graces the party with a song in Italian."
+    },
+    "notorious_contralto": {
+      "id": "notorious_contralto",
+      "name": "Notorious contralto",
+      "aliases": [
+        "Notorious contralto (sang in jazz at Gatsby's party)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Notorious contralto",
+        "Notorious contralto (sang in jazz at Gatsby's party)"
+      ],
+      "spoilerFreeIntro": "A well-known singer with a powerful contralto voice, famous among the city’s social circles."
+    },
+    "stage_twins": {
+      "id": "stage_twins",
+      "name": "Stage twins",
+      "aliases": [
+        "Stage twins (the girls in yellow performing a baby act)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Stage twins",
+        "Stage twins (the girls in yellow performing a baby act)"
+      ],
+      "spoilerFreeIntro": "A pair of lively twin performers, dressed in yellow, entertain the party guests with their theatrical act."
+    },
+    "gilda_gray": {
+      "id": "gilda_gray",
+      "name": "Gilda Gray",
+      "aliases": [
+        "Gilda Gray (dancer in the Follies, referenced at the party)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Gilda Gray",
+        "Gilda Gray (dancer in the Follies, referenced at the party)"
+      ],
+      "spoilerFreeIntro": "A famous dancer, well-known in the New York social scene."
+    },
+    "mr_mumble": {
+      "id": "mr_mumble",
+      "name": "Mr. Mumble",
+      "aliases": [
+        "Mr. Mumble (pseudonym for three unnamed male party guests)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Mr. Mumble",
+        "Mr. Mumble (pseudonym for three unnamed male party guests)"
+      ],
+      "spoilerFreeIntro": "A man whose indistinct introduction leaves his real name unclear, known to the group as Mr. Mumble."
+    },
+    "jordans_undergraduate_escort": {
+      "id": "jordans_undergraduate_escort",
+      "name": "Jordan’s undergraduate escort",
+      "aliases": [
+        "Jordan’s undergraduate escort (at Gatsby's party)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Jordan’s undergraduate escort",
+        "Jordan’s undergraduate escort (at Gatsby's party)"
+      ]
+    },
+    "sigourney_howard": {
+      "id": "sigourney_howard",
+      "name": "Sigourney Howard",
+      "aliases": [
+        "Mrs. Sigourney Howard (Jordan’s aunt, phone book reference)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Sigourney Howard",
+        "Mrs. Sigourney Howard (Jordan’s aunt, phone book reference)"
+      ],
+      "spoilerFreeIntro": "Mrs. Sigourney Howard is introduced as a woman listed in the phone book, who is Daisy’s aunt."
+    },
+    "chorus_girls": {
+      "id": "chorus_girls",
+      "name": "Chorus girls",
+      "aliases": [
+        "Chorus girls (attendees at Gatsby's party, two)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Chorus girls",
+        "Chorus girls (attendees at Gatsby's party, two)"
+      ],
+      "spoilerFreeIntro": "Two lively young women from the chorus, dressed brightly, mingling with guests at the party."
+    },
+    "rowdy_little_girl": {
+      "id": "rowdy_little_girl",
+      "name": "Rowdy little girl",
+      "aliases": [
+        "Rowdy little girl laughing at party table (unidentified)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Rowdy little girl",
+        "Rowdy little girl laughing at party table (unidentified)"
+      ],
+      "spoilerFreeIntro": "A lively, carefree girl whose laughter rings out easily at the party."
+    },
+    "tall_redhaired_young_lady": {
+      "id": "tall_redhaired_young_lady",
+      "name": "Tall, red-haired young lady",
+      "aliases": [
+        "Tall, red-haired young lady from a famous chorus (sings at party)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Tall, red-haired young lady",
+        "Tall, red-haired young lady from a famous chorus (sings at party)"
+      ],
+      "spoilerFreeIntro": "A tall, red-haired young lady from a renowned chorus, lively and unmistakable in any gathering."
+    },
+    "single_man_dancer": {
+      "id": "single_man_dancer",
+      "name": "Single man (dancer)",
+      "aliases": [
+        "Single man who becomes involved in car accident after party"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Single man (dancer)",
+        "Single man who becomes involved in car accident after party"
+      ]
+    },
+    "man_in_duster": {
+      "id": "man_in_duster",
+      "name": "Man in duster",
+      "aliases": [
+        "Man in duster (involved in post-party car accident, revealed as Owl Eyes)",
+        "man in duster/the late patron of Gatsby’s library/Owl Eyes (revealed at car accident)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Man in duster",
+        "Man in duster (involved in post-party car accident, revealed as Owl Eyes)",
+        "man in duster/the late patron of Gatsby’s library/Owl Eyes (revealed at car accident)"
+      ]
+    },
+    "pale_dangling_individual": {
+      "id": "pale_dangling_individual",
+      "name": "Pale, dangling individual",
+      "aliases": [
+        "Pale, dangling individual (the true driver, emerges from car wreck)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Pale, dangling individual",
+        "Pale, dangling individual (the true driver, emerges from car wreck)"
+      ],
+      "spoilerFreeIntro": "A pale, uncertain figure emerges cautiously from the wreck, blinking in the glare of the headlights."
+    },
+    "butler_gatsbys_house": {
+      "id": "butler_gatsbys_house",
+      "name": "Butler (Gatsby’s house)",
+      "aliases": [
+        "Butler at Gatsby's house (relays phone calls/messages during party)",
+        "the butler"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Butler (Gatsby’s house)",
+        "Butler at Gatsby's house (relays phone calls/messages during party)",
+        "the butler"
+      ]
+    },
+    "gatsbys_chauffeur": {
+      "id": "gatsbys_chauffeur",
+      "name": "Gatsby's chauffeur",
+      "aliases": [
+        "Chauffeur in robin’s-egg blue (delivers invitation to Nick)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Gatsby's chauffeur",
+        "Chauffeur in robin’s-egg blue (delivers invitation to Nick)"
+      ]
+    },
+    "gatsbys_staff_servants_caterers_orchestra_etc": {
+      "id": "gatsbys_staff_servants_caterers_orchestra_etc",
+      "name": "Gatsby's staff (servants, caterers, orchestra, etc.)",
+      "aliases": [
+        "Gatsby's staff (servants, caterers, orchestra, etc.)",
+        "Gatsby's gardener, maids, etc.",
+        "the gardener",
+        "servants"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Gatsby's staff (servants, caterers, orchestra, etc.)",
+        "Gatsby's gardener, maids, etc.",
+        "the gardener",
+        "servants"
+      ]
+    },
+    "gatsbys_telephone_callers_chicago_philadelphia": {
+      "id": "gatsbys_telephone_callers_chicago_philadelphia",
+      "name": "Gatsby's telephone callers (Chicago, Philadelphia)",
+      "aliases": [
+        "Gatsby's telephone callers (Chicago, Philadelphia, mentioned)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Gatsby's telephone callers (Chicago, Philadelphia)",
+        "Gatsby's telephone callers (Chicago, Philadelphia, mentioned)"
+      ]
+    },
+    "golf_tournament_jordans_loss": {
+      "id": "golf_tournament_jordans_loss",
+      "name": "Golf tournament (Jordan's loss)",
+      "aliases": [
+        "Golf tournament (Jordan lost in finals the week before)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Golf tournament (Jordan's loss)",
+        "Golf tournament (Jordan lost in finals the week before)"
+      ]
+    },
+    "golf_scandal_semifinal_bad_lie": {
+      "id": "golf_scandal_semifinal_bad_lie",
+      "name": "Golf scandal (semifinal, bad lie)",
+      "aliases": [
+        "Golf tournament scandal involving Jordan moving her ball"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Golf scandal (semifinal, bad lie)",
+        "Golf tournament scandal involving Jordan moving her ball"
+      ]
+    },
+    "houseparty_in_warwick": {
+      "id": "houseparty_in_warwick",
+      "name": "House-party in Warwick",
+      "aliases": [
+        "House-party in Warwick (Nick and Jordan together)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "House-party in Warwick",
+        "House-party in Warwick (Nick and Jordan together)"
+      ]
+    },
+    "meyer_wolfshiem": {
+      "id": "meyer_wolfshiem",
+      "name": "Meyer Wolfshiem",
+      "aliases": [
+        "Mr. Wolfshiem, Wolfshiem",
+        "Wolfshiem"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Meyer Wolfshiem",
+        "Mr. Wolfshiem, Wolfshiem",
+        "Wolfshiem"
+      ],
+      "spoilerFreeIntro": "A mysterious and influential acquaintance of Gatsby, known for his connections in the business world."
+    },
+    "henry_c_gatz": {
+      "id": "henry_c_gatz",
+      "name": "Henry C. Gatz",
+      "aliases": [
+        "Gatsby's father, Mr. Gatz, the old man",
+        "Gatsby's father, Mr. Gatz"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Henry C. Gatz",
+        "Gatsby's father, Mr. Gatz, the old man",
+        "Gatsby's father, Mr. Gatz"
+      ],
+      "spoilerFreeIntro": "An older man from Minnesota and Gatsby’s father, Henry C. Gatz arrives in New York upon hearing of his son’s passing."
+    },
+    "ewing_klipspringer": {
+      "id": "ewing_klipspringer",
+      "name": "Ewing Klipspringer",
+      "aliases": [
+        "Klipspringer",
+        "Klipspringer; the boarder"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Ewing Klipspringer",
+        "Klipspringer",
+        "Klipspringer; the boarder"
+      ],
+      "spoilerFreeIntro": "Ewing Klipspringer is a frequent guest at Gatsby’s mansion, known for his piano playing and easy familiarity with the house."
+    },
+    "slagle": {
+      "id": "slagle",
+      "name": "Slagle",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Slagle"
+      ],
+      "spoilerFreeIntro": "Slagle, an unfamiliar voice on the line, introduces himself with urgent news."
+    },
+    "young_parke": {
+      "id": "young_parke",
+      "name": "Young Parke",
+      "aliases": [
+        "Young Parke"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Young Parke"
+      ],
+      "spoilerFreeIntro": "A young man connected to the unfolding troubles, mentioned with concern by other characters."
+    },
+    "stella_wolfshiems_secretary": {
+      "id": "stella_wolfshiems_secretary",
+      "name": "Stella (Wolfshiem's secretary)",
+      "aliases": [
+        "Stella, lovely Jewess",
+        "lovely Jewess"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Stella (Wolfshiem's secretary)",
+        "Stella, lovely Jewess",
+        "lovely Jewess"
+      ],
+      "spoilerFreeIntro": "A striking young woman, Wolfshiem's secretary, greets visitors with a wary and guarded manner."
+    },
+    "postman_from_west_egg": {
+      "id": "postman_from_west_egg",
+      "name": "postman from West Egg",
+      "aliases": [
+        "postman from West Egg"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "postman from West Egg"
+      ],
+      "spoilerFreeIntro": "A local postman from West Egg, arriving quietly among the mourners."
+    },
+    "police_various_eg_detective_policeman_at_gate": {
+      "id": "police_various_eg_detective_policeman_at_gate",
+      "name": "police (various, e.g., detective, policeman at gate)",
+      "aliases": [
+        "policeman, detective, various police",
+        "motorcycle policeman/policeman at accident",
+        "the police",
+        "police, detective, policeman"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "police (various, e.g., detective, policeman at gate)",
+        "policeman, detective, various police",
+        "motorcycle policeman/policeman at accident",
+        "the police",
+        "police, detective, policeman"
+      ]
+    },
+    "reporters_and_newspaper_men": {
+      "id": "reporters_and_newspaper_men",
+      "name": "reporters and newspaper men",
+      "aliases": [
+        "photographers, newspaper men, reporters",
+        "'the newspapers' (reporting on the 'death car')",
+        "photographers, newspaper men"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "reporters and newspaper men",
+        "photographers, newspaper men, reporters",
+        "'the newspapers' (reporting on the 'death car')",
+        "photographers, newspaper men"
+      ]
+    },
+    "gatsbys_butler": {
+      "id": "gatsbys_butler",
+      "name": "Gatsby's butler",
+      "aliases": [
+        "the butler"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Gatsby's butler",
+        "the butler"
+      ],
+      "spoilerFreeIntro": "Gatsby’s reserved and efficient butler, attentive to visitors and household duties."
+    },
+    "gatsbys_servants": {
+      "id": "gatsbys_servants",
+      "name": "Gatsby's servants",
+      "aliases": [
+        "servants"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Gatsby's servants",
+        "servants"
+      ],
+      "spoilerFreeIntro": "A group of quiet, efficient individuals employed to maintain Gatsby’s spacious home."
+    },
+    "lutheran_minister_from_flushing": {
+      "id": "lutheran_minister_from_flushing",
+      "name": "Lutheran minister from Flushing",
+      "aliases": [
+        "Lutheran minister",
+        "minister"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Lutheran minister from Flushing",
+        "Lutheran minister",
+        "minister"
+      ],
+      "spoilerFreeIntro": "A solemn Lutheran minister from Flushing arrives to participate in the somber gathering."
+    },
+    "chauffeur_taxi_driver_in_the_village": {
+      "id": "chauffeur_taxi_driver_in_the_village",
+      "name": "chauffeur (taxi driver in the village)",
+      "aliases": [
+        "taxi driver",
+        "Ferdie"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "chauffeur (taxi driver in the village)",
+        "taxi driver",
+        "Ferdie"
+      ],
+      "spoilerFreeIntro": "A local taxi driver known for pausing at the entrance gate to gossip about the grand house beyond."
+    },
+    "dan_cody": {
+      "id": "dan_cody",
+      "name": "Dan Cody",
+      "aliases": [
+        "Dan Cody (in portrait only)",
+        "Cody"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Dan Cody",
+        "Dan Cody (in portrait only)",
+        "Cody"
+      ],
+      "spoilerFreeIntro": "An adventurous and wealthy copper magnate, Dan Cody is depicted in an old photograph hanging on the wall."
+    },
+    "american_legion_wolfshiem_reference": {
+      "id": "american_legion_wolfshiem_reference",
+      "name": "American Legion (Wolfshiem reference)",
+      "aliases": [
+        "American Legion group"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "American Legion (Wolfshiem reference)",
+        "American Legion group"
+      ]
+    },
+    "worlds_series_transaction_in_1919": {
+      "id": "worlds_series_transaction_in_1919",
+      "name": "World’s Series transaction in 1919",
+      "aliases": [
+        "World's Series transaction, 1919 scandal",
+        "fixing the 1919 World Series"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "World’s Series transaction in 1919",
+        "World's Series transaction, 1919 scandal",
+        "fixing the 1919 World Series"
+      ],
+      "spoilerFreeIntro": "A major baseball game-fixing scandal from 1919, rumored to involve underhanded financial dealings."
+    },
+    "flushing": {
+      "id": "flushing",
+      "name": "Flushing",
+      "aliases": [
+        "Flushing (minister from here)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "Flushing",
+        "Flushing (minister from here)"
+      ],
+      "spoilerFreeIntro": "A town in Queens, New York, from which the Lutheran minister arrives."
+    },
+    "minnesota": {
+      "id": "minnesota",
+      "name": "Minnesota",
+      "aliases": [
+        "Minnesota (Gatz's home)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Minnesota",
+        "Minnesota (Gatz's home)"
+      ],
+      "spoilerFreeIntro": "A northern Midwestern state, far from the lights and life of New York."
+    },
+    "winebrenners_poolroom": {
+      "id": "winebrenners_poolroom",
+      "name": "Winebrenner’s poolroom",
+      "aliases": [
+        "Winebrenner’s poolroom at Forty-third Street"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Winebrenner’s poolroom",
+        "Winebrenner’s poolroom at Forty-third Street"
+      ],
+      "spoilerFreeIntro": "A neighborhood poolroom on Forty-third Street where locals gather to play and socialize."
+    },
+    "fortythird_street": {
+      "id": "fortythird_street",
+      "name": "Forty-third Street",
+      "aliases": [
+        "Forty-third Street (location of Winebrenner’s)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Forty-third Street",
+        "Forty-third Street (location of Winebrenner’s)"
+      ],
+      "spoilerFreeIntro": "A lively street in the city, home to Winebrenner’s poolroom."
+    },
+    "albany": {
+      "id": "albany",
+      "name": "Albany",
+      "aliases": [
+        "Albany (Wolfshiem client)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Albany",
+        "Albany (Wolfshiem client)"
+      ],
+      "spoilerFreeIntro": "A city in upstate New York, known for its governmental and commercial significance."
+    },
+    "greenwich": {
+      "id": "greenwich",
+      "name": "Greenwich",
+      "aliases": [
+        "Greenwich (where Klipspringer is staying)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Greenwich",
+        "Greenwich (where Klipspringer is staying)"
+      ],
+      "spoilerFreeIntro": "A quiet, upscale suburb where some of the characters stay just outside the bustling center of London."
+    },
+    "gatsbys_house": {
+      "id": "gatsbys_house",
+      "name": "Gatsby's house",
+      "aliases": [
+        "Gatsby's mansion/house"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Gatsby's house",
+        "Gatsby's mansion/house"
+      ]
+    },
+    "gatsbys_pool": {
+      "id": "gatsbys_pool",
+      "name": "Gatsby's pool",
+      "aliases": [
+        "pool"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "Gatsby's pool",
+        "pool"
+      ],
+      "spoilerFreeIntro": "A luxurious swimming pool, sparkling in the sunlight behind Gatsby’s grand mansion."
+    },
+    "gatsbys_grave_cemetery": {
+      "id": "gatsbys_grave_cemetery",
+      "name": "Gatsby's grave (cemetery)",
+      "aliases": [
+        "cemetery",
+        "Gatsby's grave (cemetery)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Gatsby's grave (cemetery)",
+        "cemetery"
+      ],
+      "spoilerFreeIntro": "A small, rain-soaked cemetery where Gatsby is laid to rest."
+    },
+    "union_station_chicago": {
+      "id": "union_station_chicago",
+      "name": "Union Station (Chicago)",
+      "aliases": [
+        "old dim Union Station"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Union Station (Chicago)",
+        "old dim Union Station"
+      ],
+      "spoilerFreeIntro": "A vast, bustling railway terminal in Chicago, filled with travelers heading home for the holidays."
+    },
+    "wisconsin": {
+      "id": "wisconsin",
+      "name": "wisconsin",
+      "aliases": [
+        "Wisconsin (Nick's home state, referenced as the Middle West)",
+        "the Middle West, home"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "wisconsin",
+        "Wisconsin (Nick's home state, referenced as the Middle West)",
+        "the Middle West, home"
+      ],
+      "spoilerFreeIntro": "A cold, rural state in the American Midwest, dotted with small, dimly lit train stations."
+    },
+    "ordways": {
+      "id": "ordways",
+      "name": "ordways",
+      "aliases": [
+        "the Ordways"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "ordways",
+        "the Ordways"
+      ],
+      "spoilerFreeIntro": "A prominent family in town, known for hosting social gatherings."
+    },
+    "herseys": {
+      "id": "herseys",
+      "name": "herseys",
+      "aliases": [
+        "the Herseys"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "herseys",
+        "the Herseys"
+      ],
+      "spoilerFreeIntro": "The Herseys are a prominent local family whose social gatherings are much discussed among the townspeople."
+    },
+    "schultzes": {
+      "id": "schultzes",
+      "name": "schultzes",
+      "aliases": [
+        "the Schultzes"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "schultzes",
+        "the Schultzes"
+      ],
+      "spoilerFreeIntro": "The Schultzes are a prominent family in New York society, known for hosting fashionable gatherings."
+    },
+    "chicago_milwaukee_and_st_paul_railroad": {
+      "id": "chicago_milwaukee_and_st_paul_railroad",
+      "name": "Chicago, Milwaukee and St. Paul railroad",
+      "aliases": [
+        "Chicago, Milwaukee and St. Paul railroad"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Chicago, Milwaukee and St. Paul railroad"
+      ],
+      "spoilerFreeIntro": "The Chicago, Milwaukee and St. Paul railroad is a bustling train line known for its bright cars and lively presence at the station."
+    },
+    "shafters": {
+      "id": "shafters",
+      "name": "Shafters",
+      "aliases": [
+        "Shafters (place on Gatsby's childhood schedule)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Shafters",
+        "Shafters (place on Gatsby's childhood schedule)"
+      ],
+      "spoilerFreeIntro": "A lively local hangout where townsfolk gather to socialize and pass the time."
+    },
+    "dutch_sailors": {
+      "id": "dutch_sailors",
+      "name": "Dutch sailors",
+      "aliases": [
+        "Dutch sailors (early explorers of Long Island)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Dutch sailors",
+        "Dutch sailors (early explorers of Long Island)"
+      ],
+      "spoilerFreeIntro": "A group of mariners from the Netherlands who once glimpsed this land in its earliest days."
+    },
+    "the_green_light_symbol": {
+      "id": "the_green_light_symbol",
+      "name": "the green light (symbol)",
+      "aliases": [
+        "green light at Daisy's dock",
+        "green light",
+        "the green light at the end of Daisy's dock",
+        "the green light"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the green light (symbol)",
+        "green light at Daisy's dock",
+        "green light",
+        "the green light at the end of Daisy's dock",
+        "the green light"
+      ],
+      "spoilerFreeIntro": "A distant green light shines at the end of Daisy Buchanan's dock, just across the bay from Gatsby's mansion."
+    },
+    "midas": {
+      "id": "midas",
+      "name": "Midas",
+      "aliases": [
+        "Midas"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Midas"
+      ],
+      "spoilerFreeIntro": "A wealthy and legendary figure from ancient mythology, famed for his ability to turn everything he touched into gold."
+    },
+    "morgan": {
+      "id": "morgan",
+      "name": "Morgan",
+      "aliases": [
+        "Morgan"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Morgan"
+      ],
+      "spoilerFreeIntro": "A legendary financier whose name evokes immense wealth and power."
+    },
+    "maecenas": {
+      "id": "maecenas",
+      "name": "Maecenas",
+      "aliases": [
+        "Maecenas"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Maecenas"
+      ],
+      "spoilerFreeIntro": "A wealthy and cultured figure from ancient Rome, renowned for his patronage of poets and the arts."
+    },
+    "the_butler_at_buchanan_house": {
+      "id": "the_butler_at_buchanan_house",
+      "name": "the butler (at Buchanan house)",
+      "aliases": [
+        "the butler",
+        "butler",
+        "butler (contacted by Nick, for Tom & Daisy's whereabouts)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the butler (at Buchanan house)",
+        "the butler",
+        "butler",
+        "butler (contacted by Nick, for Tom & Daisy's whereabouts)"
+      ],
+      "spoilerFreeIntro": "The solemn butler, moving quietly through the Buchanan house, attends to the family's needs with practiced discretion."
+    },
+    "saturday_evening_post": {
+      "id": "saturday_evening_post",
+      "name": "Saturday Evening Post",
+      "aliases": [
+        "Saturday Evening Post"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Saturday Evening Post"
+      ],
+      "spoilerFreeIntro": "A popular American magazine, its pages fill the room with gentle stories as Mrs. Baker reads aloud."
+    },
+    "the_man_in_new_york_toms_mistress": {
+      "id": "the_man_in_new_york_toms_mistress",
+      "name": "the man in New York (Tom's mistress)",
+      "aliases": [
+        "some woman in New York"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the man in New York (Tom's mistress)",
+        "some woman in New York"
+      ],
+      "spoilerFreeIntro": "A mysterious woman in New York, known for her involvement with Tom Buchanan."
+    },
+    "henry_l_palmetto": {
+      "id": "henry_l_palmetto",
+      "name": "Henry L. Palmetto",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Henry L. Palmetto"
+      ],
+      "spoilerFreeIntro": "A journalist, remembered among the party guests for his tragic fate."
+    },
+    "rosy_rosenthal": {
+      "id": "rosy_rosenthal",
+      "name": "Rosy Rosenthal",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Rosy Rosenthal"
+      ],
+      "spoilerFreeIntro": "A well-known figure among the city's nightlife, Rosy Rosenthal is a frequent patron of restaurants and a familiar face to many."
+    },
+    "becker": {
+      "id": "becker",
+      "name": "Becker",
+      "aliases": [
+        "Becker (the fifth executed for Rosenthal's murder)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Becker",
+        "Becker (the fifth executed for Rosenthal's murder)"
+      ],
+      "spoilerFreeIntro": "Becker is a guest from East Egg, arriving among a group of socialites at Gatsby's party."
+    },
+    "bonnie_mcclenahan": {
+      "id": "bonnie_mcclenahan",
+      "name": "Bonnie McClenahan",
+      "aliases": [
+        "Benny McClenahan"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Bonnie McClenahan",
+        "Benny McClenahan"
+      ],
+      "spoilerFreeIntro": "Bonnie McClenahan is one of the identical young women who often accompany Benny McClenahan to parties."
+    },
+    "katspaugh": {
+      "id": "katspaugh",
+      "name": "Katspaugh",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Katspaugh"
+      ],
+      "spoilerFreeIntro": "A grave-faced man involved in a tense transaction at Gatsby's party."
+    },
+    "daisys_mother": {
+      "id": "daisys_mother",
+      "name": "Daisy's mother",
+      "aliases": [
+        "Daisy's mother"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Daisy's mother"
+      ]
+    },
+    "daisys_mothers_maid": {
+      "id": "daisys_mothers_maid",
+      "name": "Daisy's mother's maid",
+      "aliases": [
+        "Daisy's mother's maid"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Daisy's mother's maid"
+      ]
+    },
+    "earl_of_doncaster": {
+      "id": "earl_of_doncaster",
+      "name": "Earl of Doncaster",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Earl of Doncaster"
+      ],
+      "spoilerFreeIntro": "A former Oxford classmate, now bearing the distinguished title of Earl of Doncaster."
+    },
+    "russel_betty": {
+      "id": "russel_betty",
+      "name": "Russel Betty",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Russel Betty"
+      ],
+      "spoilerFreeIntro": "Russel Betty is one of the many New York socialites attending the party."
+    },
+    "clarence_endive": {
+      "id": "clarence_endive",
+      "name": "Clarence Endive",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Clarence Endive"
+      ],
+      "spoilerFreeIntro": "Clarence Endive, a guest from East Egg known for his distinctive white knickerbockers, attends the party only once."
+    },
+    "chester_beckers": {
+      "id": "chester_beckers",
+      "name": "Chester Beckers",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Chester Beckers"
+      ],
+      "spoilerFreeIntro": "Chester Beckers, a guest from East Egg, arrives among the crowd at Gatsby’s gathering."
+    },
+    "leeches": {
+      "id": "leeches",
+      "name": "Leeches",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Leeches"
+      ],
+      "spoilerFreeIntro": "A couple from East Egg who attend Gatsby’s parties."
+    },
+    "bunsen": {
+      "id": "bunsen",
+      "name": "Bunsen",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Bunsen"
+      ],
+      "spoilerFreeIntro": "A Yale acquaintance of the narrator, Bunsen is among the guests at Gatsby’s party."
+    },
+    "doctor_webster_civet": {
+      "id": "doctor_webster_civet",
+      "name": "Doctor Webster Civet",
+      "aliases": [
+        "Doc Civet"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Doctor Webster Civet",
+        "Doc Civet"
+      ],
+      "spoilerFreeIntro": "Doctor Webster Civet, a physician known to Nick from their social circle, is mentioned among the acquaintances who frequented Gatsby’s parties."
+    },
+    "hornbeams": {
+      "id": "hornbeams",
+      "name": "Hornbeams",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Hornbeams"
+      ],
+      "spoilerFreeIntro": "The Hornbeams are guests at Gatsby’s parties, part of the fashionable crowd that frequents his lavish gatherings."
+    },
+    "willie_voltaires": {
+      "id": "willie_voltaires",
+      "name": "Willie Voltaires",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Willie Voltaires"
+      ],
+      "spoilerFreeIntro": "Willie Voltaires, members of an aloof family mingling among the fashionable crowd, are introduced at the party."
+    },
+    "blackbuck_family": {
+      "id": "blackbuck_family",
+      "name": "Blackbuck family",
+      "aliases": [
+        "the Blackbucks"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Blackbuck family",
+        "the Blackbucks"
+      ]
+    },
+    "ismays": {
+      "id": "ismays",
+      "name": "Ismays",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Ismays"
+      ],
+      "spoilerFreeIntro": "A member of New York society attending Gatsby’s party."
+    },
+    "hubert_auerbach": {
+      "id": "hubert_auerbach",
+      "name": "Hubert Auerbach",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Hubert Auerbach"
+      ],
+      "spoilerFreeIntro": "A guest at Gatsby’s parties, Hubert Auerbach is mentioned among the many eclectic and colorful attendees."
+    },
+    "mrs_chrystie": {
+      "id": "mrs_chrystie",
+      "name": "Mrs. Chrystie",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Mrs. Chrystie"
+      ]
+    },
+    "edgar_beaver": {
+      "id": "edgar_beaver",
+      "name": "Edgar Beaver",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Edgar Beaver"
+      ],
+      "spoilerFreeIntro": "A mysterious guest known for his strikingly white hair."
+    },
+    "etty": {
+      "id": "etty",
+      "name": "Etty",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Etty"
+      ],
+      "spoilerFreeIntro": "A bum named Etty, encountered during a scuffle in Gatsby’s garden."
+    },
+    "cheadles": {
+      "id": "cheadles",
+      "name": "Cheadles",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Cheadles"
+      ],
+      "spoilerFreeIntro": "A family from farther out on the Island, the Cheadles are among the summer residents attending gatherings at the party."
+    },
+    "o_r_p_schraeders": {
+      "id": "o_r_p_schraeders",
+      "name": "O. R. P. Schraeders",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "O. R. P. Schraeders"
+      ],
+      "spoilerFreeIntro": "A family from out on the Island, part of the circle of summer residents."
+    },
+    "stonewall_jackson_abrams": {
+      "id": "stonewall_jackson_abrams",
+      "name": "Stonewall Jackson Abrams",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Stonewall Jackson Abrams"
+      ],
+      "spoilerFreeIntro": "A distinguished guest from Georgia, Stonewall Jackson Abrams is introduced among the notable attendees on the island."
+    },
+    "fishguards": {
+      "id": "fishguards",
+      "name": "Fishguards",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Fishguards"
+      ],
+      "spoilerFreeIntro": "A wealthy family known for their prominent social standing."
+    },
+    "ripley_snell": {
+      "id": "ripley_snell",
+      "name": "Ripley Snell",
+      "aliases": [
+        "Snell"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Ripley Snell",
+        "Snell"
+      ],
+      "spoilerFreeIntro": "Ripley Snell, a member of the local social circle, is mentioned for his notoriety at gatherings and his recent troubles."
+    },
+    "mrs_ulysses_swett": {
+      "id": "mrs_ulysses_swett",
+      "name": "Mrs. Ulysses Swett",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Mrs. Ulysses Swett"
+      ],
+      "spoilerFreeIntro": "Mrs. Ulysses Swett, a visitor to the gatherings at Gatsby’s house, arrives in her automobile."
+    },
+    "dancies": {
+      "id": "dancies",
+      "name": "Dancies",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Dancies"
+      ],
+      "spoilerFreeIntro": "A husband and wife who are among the many guests arriving for the gathering at Mrs. Ulysses Swett’s house."
+    },
+    "s_b_whitebait": {
+      "id": "s_b_whitebait",
+      "name": "S. B. Whitebait",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "S. B. Whitebait"
+      ],
+      "spoilerFreeIntro": "S. B. Whitebait, a man well over sixty, arrives among the eclectic guests at the gathering."
+    },
+    "maurice_a_flink": {
+      "id": "maurice_a_flink",
+      "name": "Maurice A. Flink",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Maurice A. Flink"
+      ],
+      "spoilerFreeIntro": "Maurice A. Flink, a guest at Gatsby’s lavish parties, mingles among the colorful crowd drawn from all over New York."
+    },
+    "hammerheads": {
+      "id": "hammerheads",
+      "name": "Hammerheads",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Hammerheads"
+      ],
+      "spoilerFreeIntro": "The Hammerheads are a group of party guests who attend Gatsby’s gatherings, known for their distinctive nickname."
+    },
+    "beluga": {
+      "id": "beluga",
+      "name": "Beluga",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Beluga"
+      ],
+      "spoilerFreeIntro": "Beluga, a tobacco importer known for bringing his girls to Gatsby’s parties, arrives among the eclectic guests."
+    },
+    "belugas_girls": {
+      "id": "belugas_girls",
+      "name": "Beluga's girls",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Beluga's girls"
+      ]
+    },
+    "poles": {
+      "id": "poles",
+      "name": "Poles",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Poles"
+      ],
+      "spoilerFreeIntro": "A group of party guests from West Egg, known simply as the Poles."
+    },
+    "mulreadys": {
+      "id": "mulreadys",
+      "name": "Mulreadys",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Mulreadys"
+      ],
+      "spoilerFreeIntro": "The Mulreadys, a couple from West Egg, are among Gatsby’s varied party guests."
+    },
+    "cecil_roebuck": {
+      "id": "cecil_roebuck",
+      "name": "Cecil Roebuck",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Cecil Roebuck"
+      ],
+      "spoilerFreeIntro": "Cecil Roebuck, a guest from West Egg, arrives at one of Gatsby’s lively parties."
+    },
+    "cecil_schoen": {
+      "id": "cecil_schoen",
+      "name": "Cecil Schoen",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Cecil Schoen"
+      ],
+      "spoilerFreeIntro": "Cecil Schoen is a party guest from West Egg known for attending Gatsby’s gatherings."
+    },
+    "gulick": {
+      "id": "gulick",
+      "name": "Gulick",
+      "aliases": [
+        "Gulick the state senator"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Gulick",
+        "Gulick the state senator"
+      ],
+      "spoilerFreeIntro": "Gulick, a State senator, arrives among the distinguished guests at the party."
+    },
+    "newton_orchid": {
+      "id": "newton_orchid",
+      "name": "Newton Orchid",
+      "aliases": [
+        "Newton Orchid (controller of Films Par Excellence)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Newton Orchid",
+        "Newton Orchid (controller of Films Par Excellence)"
+      ],
+      "spoilerFreeIntro": "Newton Orchid, the influential head of Films Par Excellence, enters among the gathering of film industry figures."
+    },
+    "eckhaust": {
+      "id": "eckhaust",
+      "name": "Eckhaust",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Eckhaust"
+      ],
+      "spoilerFreeIntro": "A film industry figure, Eckhaust moves among the influential people connected with movies."
+    },
+    "clyde_cohen": {
+      "id": "clyde_cohen",
+      "name": "Clyde Cohen",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Clyde Cohen"
+      ],
+      "spoilerFreeIntro": "Clyde Cohen, one of several men involved in the movie business, appears among the film industry figures at the gathering."
+    },
+    "don_s_schwartz": {
+      "id": "don_s_schwartz",
+      "name": "Don S. Schwartz",
+      "aliases": [
+        "Don S. Schwartz (the son)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Don S. Schwartz",
+        "Don S. Schwartz (the son)"
+      ],
+      "spoilerFreeIntro": "A figure involved in the movie business, Don S. Schwartz is mentioned among other industry associates."
+    },
+    "arthur_mccarty": {
+      "id": "arthur_mccarty",
+      "name": "Arthur McCarty",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Arthur McCarty"
+      ],
+      "spoilerFreeIntro": "Arthur McCarty, a figure involved with the movie industry, appears among a group of Hollywood-connected individuals."
+    },
+    "catlips": {
+      "id": "catlips",
+      "name": "Catlips",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Catlips"
+      ],
+      "spoilerFreeIntro": "A member of the Catlip family, known among Hollywood circles, enters the scene."
+    },
+    "bembergs": {
+      "id": "bembergs",
+      "name": "Bembergs",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Bembergs"
+      ],
+      "spoilerFreeIntro": "A member of a family involved in the movie business, appearing among Hollywood's social circles."
+    },
+    "g_earl_muldoon": {
+      "id": "g_earl_muldoon",
+      "name": "G. Earl Muldoon",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "G. Earl Muldoon"
+      ],
+      "spoilerFreeIntro": "G. Earl Muldoon, brother to a notorious Muldoon, is mentioned among the colorful personalities connected with the entertainment world."
+    },
+    "muldoon": {
+      "id": "muldoon",
+      "name": "Muldoon",
+      "aliases": [
+        "that Muldoon who afterward strangled his wife"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Muldoon",
+        "that Muldoon who afterward strangled his wife"
+      ],
+      "spoilerFreeIntro": "G. Earl Muldoon, brother to the infamous Muldoon, is mentioned among the many colorful characters known in the social circles of movie-connected figures."
+    },
+    "da_fontano": {
+      "id": "da_fontano",
+      "name": "Da Fontano",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Da Fontano"
+      ],
+      "spoilerFreeIntro": "A lively promoter, Da Fontano mingles easily among the gamblers at the party."
+    },
+    "ed_legros": {
+      "id": "ed_legros",
+      "name": "Ed Legros",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Ed Legros"
+      ],
+      "spoilerFreeIntro": "A gambler known among the regulars, Ed Legros frequents the gaming house along with other colorful figures."
+    },
+    "james_b_ferret": {
+      "id": "james_b_ferret",
+      "name": "James B. Ferret",
+      "aliases": [
+        "\"Rot-Gut\" Ferret"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "James B. Ferret",
+        "\"Rot-Gut\" Ferret"
+      ]
+    },
+    "de_jongs": {
+      "id": "de_jongs",
+      "name": "De Jongs",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "De Jongs"
+      ],
+      "spoilerFreeIntro": "The De Jongs, a couple known in the town’s social and gambling circles, arrive among the other familiar faces."
+    },
+    "ernest_lilly": {
+      "id": "ernest_lilly",
+      "name": "Ernest Lilly",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Ernest Lilly"
+      ],
+      "spoilerFreeIntro": "Ernest Lilly, one of the local gamblers, mingled among the regulars in the lively gatherings."
+    },
+    "associated_traction": {
+      "id": "associated_traction",
+      "name": "Associated Traction",
+      "aliases": [
+        "Associated Traction (company, Ferret gambling reference)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Associated Traction",
+        "Associated Traction (company, Ferret gambling reference)"
+      ],
+      "spoilerFreeIntro": "A stock or business mentioned in connection with gambling and financial speculation."
+    },
+    "gus_waize": {
+      "id": "gus_waize",
+      "name": "Gus Waize",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Gus Waize"
+      ],
+      "spoilerFreeIntro": "A member of the theatrical crowd, Gus Waize was one of several actors staying at the boarding house."
+    },
+    "horace_odonavan": {
+      "id": "horace_odonavan",
+      "name": "Horace O’Donavan",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Horace O’Donavan"
+      ],
+      "spoilerFreeIntro": "Horace O’Donavan, one of the visiting theatrical people, is introduced among a lively crowd from New York."
+    },
+    "lester_myer": {
+      "id": "lester_myer",
+      "name": "Lester Myer",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Lester Myer"
+      ],
+      "spoilerFreeIntro": "A theatrical acquaintance from New York, Lester Myer is among the group of guests at the social gathering."
+    },
+    "george_duckweed": {
+      "id": "george_duckweed",
+      "name": "George Duckweed",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "George Duckweed"
+      ],
+      "spoilerFreeIntro": "A member of the theatrical crowd from New York, George Duckweed is introduced among the city's colorful socialites."
+    },
+    "francis_bull": {
+      "id": "francis_bull",
+      "name": "Francis Bull",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Francis Bull"
+      ],
+      "spoilerFreeIntro": "Francis Bull is one of the guests from New York introduced at the party."
+    },
+    "chromes": {
+      "id": "chromes",
+      "name": "Chromes",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Chromes"
+      ],
+      "spoilerFreeIntro": "Members of a socially prominent New York family, included among the notable guests at Gatsby’s party."
+    },
+    "backhyssons": {
+      "id": "backhyssons",
+      "name": "Backhyssons",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Backhyssons"
+      ],
+      "spoilerFreeIntro": "A family from New York, mentioned among the city’s notable households."
+    },
+    "dennickers": {
+      "id": "dennickers",
+      "name": "Dennickers",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Dennickers"
+      ],
+      "spoilerFreeIntro": "The Dennickers are a family from New York mentioned among the guests at Gatsby’s party."
+    },
+    "corrigans": {
+      "id": "corrigans",
+      "name": "Corrigans",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Corrigans"
+      ],
+      "spoilerFreeIntro": "The Corrigans are one of the many well-known families mentioned among the local society."
+    },
+    "kellehers": {
+      "id": "kellehers",
+      "name": "Kellehers",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Kellehers"
+      ],
+      "spoilerFreeIntro": "Local townspeople, the Kellehers are mentioned among the many familiar families in the community."
+    },
+    "dewars": {
+      "id": "dewars",
+      "name": "Dewars",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Dewars"
+      ],
+      "spoilerFreeIntro": "One of the town’s many families, the Dewars are mentioned among the well-known local names."
+    },
+    "scullys": {
+      "id": "scullys",
+      "name": "Scullys",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Scullys"
+      ],
+      "spoilerFreeIntro": "One of the families in the narrator’s old West Side neighborhood."
+    },
+    "s_w_belcher": {
+      "id": "s_w_belcher",
+      "name": "S. W. Belcher",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "S. W. Belcher"
+      ],
+      "spoilerFreeIntro": "A member of the town’s parade of familiar family names, S. W. Belcher is briefly mentioned among the local residents."
+    },
+    "smirkes": {
+      "id": "smirkes",
+      "name": "Smirkes",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Smirkes"
+      ],
+      "spoilerFreeIntro": "The Smirkes are one of the many families mentioned among the group of old acquaintances at Gatsby’s parties."
+    },
+    "young_quinns": {
+      "id": "young_quinns",
+      "name": "young Quinns",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "young Quinns"
+      ],
+      "spoilerFreeIntro": "A pair of recently divorced young people, the Quinns, are mentioned among the notable guests in New York society."
+    },
+    "jaqueline": {
+      "id": "jaqueline",
+      "name": "Jaqueline",
+      "aliases": [
+        "one of Benny McClenahan's girls (maybe Jaqueline)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Jaqueline",
+        "one of Benny McClenahan's girls (maybe Jaqueline)"
+      ],
+      "spoilerFreeIntro": "A young woman with a name that lingers only faintly in memory, one of many enigmatic figures haunting the narrator’s past."
+    },
+    "consuela": {
+      "id": "consuela",
+      "name": "Consuela",
+      "aliases": [
+        "one of Benny McClenahan's girls (maybe Consuela)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Consuela",
+        "one of Benny McClenahan's girls (maybe Consuela)"
+      ],
+      "spoilerFreeIntro": "Consuela, a young woman with a melodious name, is mentioned among the fleeting guests of the narrator's past."
+    },
+    "gloria": {
+      "id": "gloria",
+      "name": "Gloria",
+      "aliases": [
+        "one of Benny McClenahan's girls (maybe Gloria)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Gloria",
+        "one of Benny McClenahan's girls (maybe Gloria)"
+      ],
+      "spoilerFreeIntro": "A woman mentioned among a list of past acquaintances, her name evoking both familiarity and a sense of fleeting memory."
+    },
+    "judy": {
+      "id": "judy",
+      "name": "Judy",
+      "aliases": [
+        "one of Benny McClenahan's girls (maybe Judy)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Judy",
+        "one of Benny McClenahan's girls (maybe Judy)"
+      ],
+      "spoilerFreeIntro": "A young woman in Gatsby’s circle, one of the fashionable guests at his lavish parties."
+    },
+    "june": {
+      "id": "june",
+      "name": "June",
+      "aliases": [
+        "one of Benny McClenahan's girls (maybe June)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "June",
+        "one of Benny McClenahan's girls (maybe June)"
+      ],
+      "spoilerFreeIntro": "June, a young woman among Gatsby’s party guests, is noted more for her fashionable name than for any lasting impression."
+    },
+    "faustina_obrien": {
+      "id": "faustina_obrien",
+      "name": "Faustina O’Brien",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Faustina O’Brien"
+      ],
+      "spoilerFreeIntro": "Faustina O’Brien, a guest at Gatsby’s party, is mentioned among the varied attendees who frequented his gatherings."
+    },
+    "baedeker_girls": {
+      "id": "baedeker_girls",
+      "name": "Baedeker girls",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Baedeker girls"
+      ],
+      "spoilerFreeIntro": "The Baedeker girls are a pair of sisters known for attending social gatherings in the New York elite."
+    },
+    "young_brewer": {
+      "id": "young_brewer",
+      "name": "Young Brewer",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Young Brewer"
+      ],
+      "spoilerFreeIntro": "A young man known for his wartime injury, recognized by his missing nose."
+    },
+    "albrucksburger": {
+      "id": "albrucksburger",
+      "name": "Albrucksburger",
+      "aliases": [
+        "Mr. Albrucksburger"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Albrucksburger",
+        "Mr. Albrucksburger"
+      ],
+      "spoilerFreeIntro": "A dignified older gentleman, Mr. Albrucksburger is accompanied by his fiancée, Miss Haag."
+    },
+    "miss_haag": {
+      "id": "miss_haag",
+      "name": "Miss Haag",
+      "aliases": [
+        "Miss Haag (Mr. Albrucksburger's fiancée)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Miss Haag",
+        "Miss Haag (Mr. Albrucksburger's fiancée)"
+      ],
+      "spoilerFreeIntro": "Miss Haag, Mr. Albrucksburger’s fiancée, is introduced as part of the fashionable party aboard the yacht."
+    },
+    "ardita_fitzpeters": {
+      "id": "ardita_fitzpeters",
+      "name": "Ardita Fitz-Peters",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Ardita Fitz-Peters"
+      ],
+      "spoilerFreeIntro": "A spirited and fashionable young woman, Ardita Fitz-Peters moves with confidence among the well-heeled guests."
+    },
+    "mr_p_jewett": {
+      "id": "mr_p_jewett",
+      "name": "Mr. P. Jewett",
+      "aliases": [
+        "American Legion head"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Mr. P. Jewett",
+        "American Legion head"
+      ],
+      "spoilerFreeIntro": "Mr. P. Jewett, once head of the American Legion, appears among Ardita’s circle of acquaintances at the party."
+    },
+    "miss_claudia_hip": {
+      "id": "miss_claudia_hip",
+      "name": "Miss Claudia Hip",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Miss Claudia Hip"
+      ],
+      "spoilerFreeIntro": "Miss Claudia Hip is a guest at the party, accompanied by a man said to be her chauffeur."
+    },
+    "claudia_hips_chauffeur": {
+      "id": "claudia_hips_chauffeur",
+      "name": "Claudia Hip's chauffeur",
+      "aliases": [
+        "a man reputed to be her chauffeur"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Claudia Hip's chauffeur",
+        "a man reputed to be her chauffeur"
+      ],
+      "spoilerFreeIntro": "A reserved man in uniform, known to those present simply as Claudia Hip’s chauffeur."
+    },
+    "prince_named_duke": {
+      "id": "prince_named_duke",
+      "name": "prince named Duke",
+      "aliases": [
+        "Duke, prince of something"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "prince named Duke",
+        "Duke, prince of something"
+      ]
+    },
+    "red_cross": {
+      "id": "red_cross",
+      "name": "Red Cross",
+      "aliases": [
+        "Red Cross (bandage-making in WWI)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Red Cross",
+        "Red Cross (bandage-making in WWI)"
+      ],
+      "spoilerFreeIntro": "A local volunteer organization where girls gather to help make bandages during the war."
+    },
+    "camp_taylor": {
+      "id": "camp_taylor",
+      "name": "Camp Taylor",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Camp Taylor"
+      ],
+      "spoilerFreeIntro": "A bustling military training camp on the outskirts of town, filled with young officers and constant activity."
+    },
+    "montenegro": {
+      "id": "montenegro",
+      "name": "Montenegro",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Montenegro"
+      ],
+      "spoilerFreeIntro": "A small, mountainous country on the Adriatic Sea, known for its proud history and dramatic landscape."
+    },
+    "oxford": {
+      "id": "oxford",
+      "name": "Oxford",
+      "aliases": [
+        "Oggsford (Wolfshiem's pronunciation); Trinity Quad",
+        "Oggsford (Wolfshiem's mispronunciation of Oxford)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Oxford",
+        "Oggsford (Wolfshiem's pronunciation); Trinity Quad",
+        "Oggsford (Wolfshiem's mispronunciation of Oxford)"
+      ],
+      "spoilerFreeIntro": "A prestigious English university, renowned for its ancient traditions and scholarly excellence."
+    },
+    "paris": {
+      "id": "paris",
+      "name": "Paris",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Paris"
+      ],
+      "spoilerFreeIntro": "A dazzling, vibrant city that draws dreamers and romantics from all over the world."
+    },
+    "venice": {
+      "id": "venice",
+      "name": "Venice",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Venice"
+      ],
+      "spoilerFreeIntro": "A shimmering city of canals and palaces, renowned for its beauty and romance."
+    },
+    "rome": {
+      "id": "rome",
+      "name": "Rome",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Rome"
+      ],
+      "spoilerFreeIntro": "A dazzling European city renowned for its ancient ruins and vibrant social life."
+    },
+    "bois_de_boulogne": {
+      "id": "bois_de_boulogne",
+      "name": "Bois de Boulogne",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Bois de Boulogne"
+      ],
+      "spoilerFreeIntro": "A sprawling park on the outskirts of Paris, known for its shaded paths and quiet beauty."
+    },
+    "grand_canal": {
+      "id": "grand_canal",
+      "name": "Grand Canal",
+      "aliases": [
+        "Gatsby's palace in Venice"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Grand Canal",
+        "Gatsby's palace in Venice"
+      ],
+      "spoilerFreeIntro": "A majestic waterway in Venice, lined with grand palaces and renowned for its opulent beauty."
+    },
+    "argonne_forest": {
+      "id": "argonne_forest",
+      "name": "Argonne Forest",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Argonne Forest"
+      ],
+      "spoilerFreeIntro": "A dense, war-torn woodland on the Western Front where fierce battles are fought."
+    },
+    "adriatic_sea": {
+      "id": "adriatic_sea",
+      "name": "Adriatic Sea",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Adriatic Sea"
+      ],
+      "spoilerFreeIntro": "A small, rugged country along the Adriatic Sea, known for its complex and turbulent history."
+    },
+    "san_francisco": {
+      "id": "san_francisco",
+      "name": "San Francisco",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "San Francisco"
+      ],
+      "spoilerFreeIntro": "A bustling city on the West Coast, known for its hills and vibrant atmosphere."
+    },
+    "queensboro_bridge": {
+      "id": "queensboro_bridge",
+      "name": "Queensboro Bridge",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Queensboro Bridge"
+      ],
+      "spoilerFreeIntro": "The Queensboro Bridge spans the river, offering newcomers their first breathtaking view of the city’s shimmering promise and mystery."
+    },
+    "blackwells_island": {
+      "id": "blackwells_island",
+      "name": "Blackwell's Island",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Blackwell's Island"
+      ]
+    },
+    "fortysecond_street": {
+      "id": "fortysecond_street",
+      "name": "Forty-second Street",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Forty-second Street"
+      ],
+      "spoilerFreeIntro": "A bustling Midtown Manhattan street, lined with bright lights and constant city activity."
+    },
+    "plaza_hotel": {
+      "id": "plaza_hotel",
+      "name": "Plaza Hotel",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Plaza Hotel"
+      ],
+      "spoilerFreeIntro": "A luxurious and elegant hotel in New York City, renowned for its grand tea-garden and opulent atmosphere."
+    },
+    "central_park": {
+      "id": "central_park",
+      "name": "Central Park",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Central Park"
+      ],
+      "spoilerFreeIntro": "A vast, leafy expanse in the heart of the city, where people stroll and children’s laughter floats through the evening air."
+    },
+    "west_fifties": {
+      "id": "west_fifties",
+      "name": "West Fifties",
+      "aliases": [
+        "the movie stars in the West Fifties"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "West Fifties",
+        "the movie stars in the West Fifties"
+      ],
+      "spoilerFreeIntro": "An upscale Manhattan neighborhood known for its elegant apartment buildings and proximity to Central Park."
+    },
+    "fiftyninth_street": {
+      "id": "fiftyninth_street",
+      "name": "Fifty-Ninth Street",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Fifty-Ninth Street"
+      ],
+      "spoilerFreeIntro": "A luminous stretch at the edge of the park, the city’s Fifty-Ninth Street glows with pale, inviting light."
+    },
+    "santa_barbara": {
+      "id": "santa_barbara",
+      "name": "Santa Barbara",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Santa Barbara"
+      ],
+      "spoilerFreeIntro": "A charming coastal town in California, where the narrator encounters the couple upon their return."
+    },
+    "ventura_road": {
+      "id": "ventura_road",
+      "name": "Ventura road",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Ventura road"
+      ],
+      "spoilerFreeIntro": "The Ventura road, a coastal highway near Santa Barbara, is known for its winding stretches and sudden accidents."
+    },
+    "santa_barbara_hotel": {
+      "id": "santa_barbara_hotel",
+      "name": "Santa Barbara Hotel",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Santa Barbara Hotel"
+      ],
+      "spoilerFreeIntro": "A hotel in Louisville where Daisy once stayed and where one of the chambermaids worked."
+    },
+    "cannes": {
+      "id": "cannes",
+      "name": "Cannes",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Cannes"
+      ],
+      "spoilerFreeIntro": "A glamorous resort town on the French Riviera, known for its elegance and seaside charm."
+    },
+    "deauville": {
+      "id": "deauville",
+      "name": "Deauville",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Deauville"
+      ],
+      "spoilerFreeIntro": "A fashionable seaside resort town on the northern coast of France, known for its elegance and vibrant social life."
+    },
+    "south_seas": {
+      "id": "south_seas",
+      "name": "South Seas",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "South Seas"
+      ],
+      "spoilerFreeIntro": "A distant and exotic region known for long sea voyages and adventure."
+    },
+    "muhlbach_hotel": {
+      "id": "muhlbach_hotel",
+      "name": "Muhlbach Hotel",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Muhlbach Hotel"
+      ],
+      "spoilerFreeIntro": "A fashionable and luxurious hotel in Kansas City, frequented by wealthy guests and grand parties."
+    },
+    "metropole": {
+      "id": "metropole",
+      "name": "Metropole",
+      "aliases": [
+        "the old Metropole (restaurant, site of Rosenthal's shooting)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Metropole",
+        "the old Metropole (restaurant, site of Rosenthal's shooting)"
+      ],
+      "spoilerFreeIntro": "The old Metropole is a once-bustling hotel in New York, now remembered with nostalgia and loss by Mr. Wolfshiem."
+    },
+    "astoria": {
+      "id": "astoria",
+      "name": "Astoria",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Astoria"
+      ],
+      "spoilerFreeIntro": "Astoria is a lively New York neighborhood, bustling beneath the elevated train tracks."
+    },
+    "port_roosevelt": {
+      "id": "port_roosevelt",
+      "name": "Port Roosevelt",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Port Roosevelt"
+      ],
+      "spoilerFreeIntro": "Port Roosevelt, a busy harbor where red-belted oceangoing ships line the waterfront."
+    },
+    "orderi_di_danilo": {
+      "id": "orderi_di_danilo",
+      "name": "Orderi di Danilo",
+      "aliases": [
+        "Order of Danilo medal of Montenegro"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Orderi di Danilo",
+        "Order of Danilo medal of Montenegro"
+      ],
+      "spoilerFreeIntro": "A prestigious Montenegrin medal awarded for extraordinary valor, inscribed with Gatsby’s name."
+    },
+    "detroit": {
+      "id": "detroit",
+      "name": "Detroit",
+      "aliases": [
+        "Detroit"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Detroit"
+      ],
+      "spoilerFreeIntro": "A city mentioned in conversation, known for its size and industrial significance."
+    },
+    "coney_island": {
+      "id": "coney_island",
+      "name": "Coney Island",
+      "aliases": [
+        "Coney Island"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Coney Island"
+      ],
+      "spoilerFreeIntro": "A famous seaside amusement destination, known for its bright lights and lively attractions."
+    },
+    "west_egg_village": {
+      "id": "west_egg_village",
+      "name": "West Egg Village",
+      "aliases": [
+        "West Egg Village"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "West Egg Village"
+      ],
+      "spoilerFreeIntro": "A modest, somewhat shabby settlement near the shore, West Egg Village offers supplies and everyday comforts to local residents."
+    },
+    "the_journal": {
+      "id": "the_journal",
+      "name": "The Journal",
+      "aliases": [
+        "The Journal (newspaper)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "The Journal",
+        "The Journal (newspaper)"
+      ],
+      "spoilerFreeIntro": "A daily newspaper often read for local news and weather updates."
+    },
+    "clays_economics": {
+      "id": "clays_economics",
+      "name": "Clay's Economics",
+      "aliases": [
+        "Clay's Economics (book)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Clay's Economics",
+        "Clay's Economics (book)"
+      ]
+    },
+    "castle_rackrent": {
+      "id": "castle_rackrent",
+      "name": "Castle Rackrent",
+      "aliases": [
+        "Castle Rackrent (literary allusion)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Castle Rackrent",
+        "Castle Rackrent (literary allusion)"
+      ],
+      "spoilerFreeIntro": "An old, mysterious estate known for its air of secrecy and intrigue."
+    },
+    "marie_antoinette_musicrooms": {
+      "id": "marie_antoinette_musicrooms",
+      "name": "Marie Antoinette music-rooms",
+      "aliases": [
+        "Marie Antoinette music-rooms (in Gatsby's house)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Marie Antoinette music-rooms",
+        "Marie Antoinette music-rooms (in Gatsby's house)"
+      ],
+      "spoilerFreeIntro": "Lavish and elegant chambers once graced by royalty, adorned with delicate musical instruments and timeless decor."
+    },
+    "restoration_salons": {
+      "id": "restoration_salons",
+      "name": "Restoration Salons",
+      "aliases": [
+        "Restoration Salons (in Gatsby's house)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Restoration Salons",
+        "Restoration Salons (in Gatsby's house)"
+      ],
+      "spoilerFreeIntro": "Elegant rooms furnished in the opulent style of France’s Restoration era."
+    },
+    "merton_college_library": {
+      "id": "merton_college_library",
+      "name": "Merton College Library",
+      "aliases": [
+        "the Merton College Library (room in Gatsby's house)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Merton College Library",
+        "the Merton College Library (room in Gatsby's house)"
+      ],
+      "spoilerFreeIntro": "A grand, book-lined room in Gatsby’s mansion, stocked to resemble the storied libraries of old universities."
+    },
+    "adams_study": {
+      "id": "adams_study",
+      "name": "Adam's study",
+      "aliases": [
+        "Adam's study (room in Gatsby's house)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Adam's study",
+        "Adam's study (room in Gatsby's house)"
+      ]
+    },
+    "chartreuse": {
+      "id": "chartreuse",
+      "name": "Chartreuse",
+      "aliases": [
+        "Chartreuse (liquor)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Chartreuse",
+        "Chartreuse (liquor)"
+      ],
+      "spoilerFreeIntro": "A rare and luxurious green liqueur served by Gatsby in his elegant home."
+    },
+    "the_love_nest": {
+      "id": "the_love_nest",
+      "name": "\"The Love Nest\"",
+      "aliases": [
+        "\"The Love Nest\" (song played by Klipspringer)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "\"The Love Nest\"",
+        "\"The Love Nest\" (song played by Klipspringer)"
+      ]
+    },
+    "aint_we_got_fun": {
+      "id": "aint_we_got_fun",
+      "name": "\"Ain't We Got Fun\"",
+      "aliases": [
+        "\"Ain't We Got Fun\" (song played by Klipspringer)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "\"Ain't We Got Fun\"",
+        "\"Ain't We Got Fun\" (song played by Klipspringer)"
+      ]
+    },
+    "kant": {
+      "id": "kant",
+      "name": "Kant",
+      "aliases": [
+        "Kant (philosopher, allusion)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Kant",
+        "Kant (philosopher, allusion)"
+      ],
+      "spoilerFreeIntro": "A German philosopher, known for his habit of finding inspiration in the steady presence of his local church steeple."
+    },
+    "england": {
+      "id": "england",
+      "name": "England",
+      "aliases": [
+        "England (source of Gatsby's clothes)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "England",
+        "England (source of Gatsby's clothes)"
+      ],
+      "spoilerFreeIntro": "A distant country across the Atlantic admired for its fine clothing and style."
+    },
+    "mr_sloane": {
+      "id": "mr_sloane",
+      "name": "Mr. Sloane",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Mr. Sloane"
+      ],
+      "spoilerFreeIntro": "A reserved guest, Mr. Sloane accompanies Tom Buchanan on a brief visit to Gatsby’s mansion."
+    },
+    "ella_kaye": {
+      "id": "ella_kaye",
+      "name": "Ella Kaye",
+      "aliases": [
+        "Ella Kaye, the newspaper woman"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Ella Kaye",
+        "Ella Kaye, the newspaper woman"
+      ],
+      "spoilerFreeIntro": "Ella Kaye, a determined newspaper woman with a notorious reputation, enters the story surrounded by rumors and intrigue."
+    },
+    "unnamed_woman_in_brown_ridinghabit": {
+      "id": "unnamed_woman_in_brown_ridinghabit",
+      "name": "Unnamed woman in brown riding-habit",
+      "aliases": [
+        "the pretty woman in a brown riding-habit"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Unnamed woman in brown riding-habit",
+        "the pretty woman in a brown riding-habit"
+      ]
+    },
+    "miss_baedeker": {
+      "id": "miss_baedeker",
+      "name": "Miss Baedeker",
+      "aliases": [
+        "Miss Baedeker"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Miss Baedeker"
+      ],
+      "spoilerFreeIntro": "A young woman in attendance at Gatsby's party, Miss Baedeker appears somewhat disoriented after drinking too much."
+    },
+    "local_club_cocktail_woman": {
+      "id": "local_club_cocktail_woman",
+      "name": "Local club cocktail woman",
+      "aliases": [
+        "the massive and lethargic woman, urging Daisy to play golf at the local club"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Local club cocktail woman",
+        "the massive and lethargic woman, urging Daisy to play golf at the local club"
+      ]
+    },
+    "unnamed_small_producer": {
+      "id": "unnamed_small_producer",
+      "name": "Unnamed small producer",
+      "aliases": [
+        "the man with the blue nose"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Unnamed small producer",
+        "the man with the blue nose"
+      ]
+    },
+    "unnamed_movie_star": {
+      "id": "unnamed_movie_star",
+      "name": "Unnamed movie Star",
+      "aliases": [
+        "her Star"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Unnamed movie Star",
+        "her Star"
+      ]
+    },
+    "unnamed_movie_director": {
+      "id": "unnamed_movie_director",
+      "name": "Unnamed movie director",
+      "aliases": [
+        "her director"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Unnamed movie director",
+        "her director"
+      ],
+      "spoilerFreeIntro": "A film director, seen guiding his actress through the party crowd."
+    },
+    "st_olafs_lutheran_college_in_southern_minnesota": {
+      "id": "st_olafs_lutheran_college_in_southern_minnesota",
+      "name": "St. Olaf’s (Lutheran College in southern Minnesota)",
+      "aliases": [
+        "small Lutheran College of St. Olaf’s in southern Minnesota"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "St. Olaf’s (Lutheran College in southern Minnesota)",
+        "small Lutheran College of St. Olaf’s in southern Minnesota"
+      ],
+      "spoilerFreeIntro": "A small Lutheran college in southern Minnesota, St. Olaf’s offers a quiet, unassuming campus for new arrivals."
+    },
+    "lake_superior": {
+      "id": "lake_superior",
+      "name": "Lake Superior",
+      "aliases": [
+        "Lake Superior"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Lake Superior"
+      ],
+      "spoilerFreeIntro": "A vast, cold inland lake where Dan Cody’s yacht anchored and a young James Gatz first encountered his destiny."
+    },
+    "little_girl_bay": {
+      "id": "little_girl_bay",
+      "name": "Little Girl Bay",
+      "aliases": [
+        "Little Girl Bay"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Little Girl Bay"
+      ],
+      "spoilerFreeIntro": "A tranquil bay where young James Gatz first encounters the opulent yacht of Dan Cody."
+    },
+    "tuolomee": {
+      "id": "tuolomee",
+      "name": "Tuolomee",
+      "aliases": [
+        "Dan Cody's yacht 'Tuolomee'"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Tuolomee",
+        "Dan Cody's yacht 'Tuolomee'"
+      ],
+      "spoilerFreeIntro": "A yacht anchored off the shore, belonging to the wealthy Dan Cody."
+    },
+    "barbary_coast": {
+      "id": "barbary_coast",
+      "name": "Barbary Coast",
+      "aliases": [
+        "the Barbary Coast"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Barbary Coast",
+        "the Barbary Coast"
+      ],
+      "spoilerFreeIntro": "A notoriously wild and lawless waterfront district known for its lively nightlife."
+    },
+    "west_indies": {
+      "id": "west_indies",
+      "name": "West Indies",
+      "aliases": [
+        "the West Indies"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "West Indies",
+        "the West Indies"
+      ],
+      "spoilerFreeIntro": "A tropical region of islands and sea, the West Indies are a far-off, exotic destination frequented by ships like the Tuolomee."
+    },
+    "boston": {
+      "id": "boston",
+      "name": "Boston",
+      "aliases": [
+        "Boston"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Boston"
+      ],
+      "spoilerFreeIntro": "A bustling northeastern port city where ships like Dan Cody’s yacht make significant stops."
+    },
+    "nevada": {
+      "id": "nevada",
+      "name": "Nevada",
+      "aliases": [
+        "Nevada silver fields"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Nevada",
+        "Nevada silver fields"
+      ],
+      "spoilerFreeIntro": "A rugged state in the American West, famed for its mining booms and sprawling deserts."
+    },
+    "yukon": {
+      "id": "yukon",
+      "name": "Yukon",
+      "aliases": [
+        "the Yukon"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Yukon",
+        "the Yukon"
+      ],
+      "spoilerFreeIntro": "The Yukon—a rugged northern territory famed for its gold rushes and harsh, untamed wilderness."
+    },
+    "montana": {
+      "id": "montana",
+      "name": "Montana",
+      "aliases": [
+        "Montana copper"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Montana",
+        "Montana copper"
+      ],
+      "spoilerFreeIntro": "A rugged western state rich in natural resources and the site of lucrative copper transactions."
+    },
+    "duluth": {
+      "id": "duluth",
+      "name": "Duluth",
+      "aliases": [
+        "Duluth"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Duluth"
+      ],
+      "spoilerFreeIntro": "A bustling port city on Lake Superior, gateway to new adventures."
+    },
+    "unnamed_celebrities_movie_people_society_etc": {
+      "id": "unnamed_celebrities_movie_people_society_etc",
+      "name": "Unnamed celebrities (movie people, society, etc.)",
+      "aliases": [
+        "celebrities (at Gatsby's party)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Unnamed celebrities (movie people, society, etc.)",
+        "celebrities (at Gatsby's party)"
+      ]
+    },
+    "three_oclock_in_the_morning_song": {
+      "id": "three_oclock_in_the_morning_song",
+      "name": "\"Three O'Clock in the Morning\" (song)",
+      "aliases": [
+        "Three O’Clock in the Morning, a neat, sad little waltz of that year"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "\"Three O'Clock in the Morning\" (song)",
+        "Three O’Clock in the Morning, a neat, sad little waltz of that year"
+      ]
+    },
+    "michaelis": {
+      "id": "michaelis",
+      "name": "Michaelis",
+      "aliases": [
+        "the young Greek, Michaelis"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Michaelis",
+        "the young Greek, Michaelis"
+      ],
+      "spoilerFreeIntro": "Michaelis, the young Greek who runs the coffee shop beside the ash-heaps, is a tranquil presence in the valley of ashes."
+    },
+    "national_biscuit_company": {
+      "id": "national_biscuit_company",
+      "name": "National Biscuit Company",
+      "aliases": [
+        "the hot whistles of the National Biscuit Company"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "National Biscuit Company",
+        "the hot whistles of the National Biscuit Company"
+      ],
+      "spoilerFreeIntro": "A large factory whose whistles punctuate the midday quiet near the train tracks."
+    },
+    "wilsons_garage": {
+      "id": "wilsons_garage",
+      "name": "Wilson's garage",
+      "aliases": [
+        "the garage"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Wilson's garage",
+        "the garage"
+      ],
+      "spoilerFreeIntro": "A small garage owned by George Wilson, situated on the edge of the desolate road in the valley of ashes."
+    },
+    "kapiolani": {
+      "id": "kapiolani",
+      "name": "Kapiolani",
+      "aliases": [
+        "Kapiolani (place in Daisy and Tom's memories, likely the Kapiolani park/crater in Hawaii)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Kapiolani",
+        "Kapiolani (place in Daisy and Tom's memories, likely the Kapiolani park/crater in Hawaii)"
+      ],
+      "spoilerFreeIntro": "A grand, tropical hotel where summer dances and secrets unfold."
+    },
+    "punch_bowl": {
+      "id": "punch_bowl",
+      "name": "Punch Bowl",
+      "aliases": [
+        "Punch Bowl (site Tom references in Hawaii)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Punch Bowl",
+        "Punch Bowl (site Tom references in Hawaii)"
+      ],
+      "spoilerFreeIntro": "A high, breezy hill overlooking the city, known as the Punch Bowl."
+    },
+    "yale": {
+      "id": "yale",
+      "name": "Yale",
+      "aliases": [
+        "Yale (university, referenced in story about Biloxi)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Yale",
+        "Yale (university, referenced in story about Biloxi)"
+      ],
+      "spoilerFreeIntro": "A prestigious university in New Haven, known for its elite students and social status."
+    },
+    "tennessee": {
+      "id": "tennessee",
+      "name": "Tennessee",
+      "aliases": [
+        "Biloxi, Tennessee"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Tennessee",
+        "Biloxi, Tennessee"
+      ],
+      "spoilerFreeIntro": "A small Southern town, Tennessee is mentioned as the former home of ‘Blocks’ Biloxi."
+    },
+    "memphis": {
+      "id": "memphis",
+      "name": "Memphis",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Memphis"
+      ],
+      "spoilerFreeIntro": "A Southern city on the Mississippi River known for its rich culture and history."
+    },
+    "fiftieth_street": {
+      "id": "fiftieth_street",
+      "name": "Fiftieth Street",
+      "aliases": [
+        "Fiftieth Street (in New York, reference movie theaters)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Fiftieth Street",
+        "Fiftieth Street (in New York, reference movie theaters)"
+      ],
+      "spoilerFreeIntro": "A bustling Midtown Manhattan street, lined with theaters and humming with city life."
+    },
+    "central_park_south": {
+      "id": "central_park_south",
+      "name": "Central Park South",
+      "aliases": [
+        "south side of Central Park"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Central Park South",
+        "south side of Central Park"
+      ],
+      "spoilerFreeIntro": "A bustling, tree-lined avenue bordering the southern edge of Central Park, where carriages, cars, and people converge near the city's grand hotels."
+    },
+    "sidestreet_drugstores": {
+      "id": "sidestreet_drugstores",
+      "name": "side-street drugstores",
+      "aliases": [
+        "side-street drugstores here and in Chicago (Gatsby's business)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "side-street drugstores",
+        "side-street drugstores here and in Chicago (Gatsby's business)"
+      ],
+      "spoilerFreeIntro": "Small, nondescript pharmacies tucked away on city side streets."
+    },
+    "walter_chase": {
+      "id": "walter_chase",
+      "name": "Walter Chase",
+      "aliases": [
+        "Walter"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Walter Chase",
+        "Walter"
+      ],
+      "spoilerFreeIntro": "Walter Chase is someone connected to Gatsby’s business affairs, mentioned during a tense conversation among the guests."
+    },
+    "the_armistice_end_of_the_great_war": {
+      "id": "the_armistice_end_of_the_great_war",
+      "name": "the armistice (end of the Great War)",
+      "aliases": [
+        "the armistice"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the armistice (end of the Great War)",
+        "the armistice"
+      ],
+      "spoilerFreeIntro": "The armistice is the agreement that ended the fighting in the Great War, leading to new opportunities for returning soldiers."
+    },
+    "toms_luncheon_car_transaction": {
+      "id": "toms_luncheon_car_transaction",
+      "name": "Tom's luncheon car transaction",
+      "aliases": [
+        "Tom's car deal (referenced several times, including phone call)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Tom's luncheon car transaction",
+        "Tom's car deal (referenced several times, including phone call)"
+      ]
+    },
+    "daisy_and_toms_wedding": {
+      "id": "daisy_and_toms_wedding",
+      "name": "Daisy and Tom's wedding",
+      "aliases": [
+        "Daisy and Tom's marriage"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Daisy and Tom's wedding",
+        "Daisy and Tom's marriage"
+      ]
+    },
+    "death_of_myrtle_wilson": {
+      "id": "death_of_myrtle_wilson",
+      "name": "death of Myrtle Wilson",
+      "aliases": [
+        "Myrtle's death"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "death of Myrtle Wilson",
+        "Myrtle's death"
+      ]
+    },
+    "michaelis_restaurantcoffee_joint": {
+      "id": "michaelis_restaurantcoffee_joint",
+      "name": "Michaelis' restaurant/coffee joint",
+      "aliases": [
+        "the coffee joint beside the ash-heaps"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Michaelis' restaurant/coffee joint",
+        "the coffee joint beside the ash-heaps"
+      ],
+      "spoilerFreeIntro": "Michaelis’ place, a small coffee shop run by a young Greek man beside the gray ash-heaps."
+    },
+    "the_inquest_on_myrtles_death": {
+      "id": "the_inquest_on_myrtles_death",
+      "name": "the inquest (on Myrtle's death)",
+      "aliases": [
+        "the inquest on Myrtle's death"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the inquest (on Myrtle's death)",
+        "the inquest on Myrtle's death"
+      ]
+    },
+    "gatsbys_new_servants_wolfshiems_people": {
+      "id": "gatsbys_new_servants_wolfshiems_people",
+      "name": "Gatsby's new servants (Wolfshiem's people)",
+      "aliases": [
+        "half a dozen new servants (all brothers and sisters, used to run a small hotel; associated with Wolfshiem)",
+        "the chauffeur"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Gatsby's new servants (Wolfshiem's people)",
+        "half a dozen new servants (all brothers and sisters, used to run a small hotel; associated with Wolfshiem)",
+        "the chauffeur"
+      ]
+    },
+    "nurse_at_buchanan_house": {
+      "id": "nurse_at_buchanan_house",
+      "name": "Nurse (at Buchanan house)",
+      "aliases": [
+        "nurse (brings Daisy's daughter)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Nurse (at Buchanan house)",
+        "nurse (brings Daisy's daughter)"
+      ]
+    },
+    "the_grocery_boy": {
+      "id": "the_grocery_boy",
+      "name": "the grocery boy",
+      "aliases": [
+        "grocery boy (who reports on Gatsby's kitchen)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the grocery boy",
+        "grocery boy (who reports on Gatsby's kitchen)"
+      ],
+      "spoilerFreeIntro": "The local grocery boy, tasked with delivering supplies, notices the untidy state of the kitchen in the mysterious newcomers’ house."
+    },
+    "the_conductor": {
+      "id": "the_conductor",
+      "name": "the conductor",
+      "aliases": [
+        "conductor (on Nick's train)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the conductor",
+        "conductor (on Nick's train)"
+      ],
+      "spoilerFreeIntro": "The conductor, a chatty man accustomed to the routine of his route, bustled through the train, greeting passengers with comments about the stifling weather."
+    },
+    "the_woman_in_white_on_train": {
+      "id": "the_woman_in_white_on_train",
+      "name": "the woman in white (on train)",
+      "aliases": [
+        "woman next to Nick on train"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the woman in white (on train)",
+        "woman next to Nick on train"
+      ]
+    },
+    "blocks_biloxi": {
+      "id": "blocks_biloxi",
+      "name": "Blocks Biloxi",
+      "aliases": [
+        "Blocks Biloxi"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Blocks Biloxi"
+      ]
+    },
+    "asa_bird": {
+      "id": "asa_bird",
+      "name": "Asa Bird",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Asa Bird"
+      ],
+      "spoilerFreeIntro": "A friend of Gatsby’s, Asa Bird is mentioned as someone who occasionally introduces guests to his parties."
+    },
+    "bill_biloxi": {
+      "id": "bill_biloxi",
+      "name": "Bill Biloxi",
+      "aliases": [
+        "Bill Biloxi (cousin of Blocks Biloxi, from Memphis)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Bill Biloxi",
+        "Bill Biloxi (cousin of Blocks Biloxi, from Memphis)"
+      ],
+      "spoilerFreeIntro": "A man from Memphis mentioned in conversation as someone familiar to the characters, notable for giving away an aluminum putter."
+    },
+    "mavro_michaelis": {
+      "id": "mavro_michaelis",
+      "name": "Mavro Michaelis",
+      "aliases": [
+        "Mavro Michaelis (Greek spelling out with policeman)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Mavro Michaelis",
+        "Mavro Michaelis (Greek spelling out with policeman)"
+      ],
+      "spoilerFreeIntro": "Mavro Michaelis, a bewildered onlooker, witnesses the aftermath of a mysterious car accident."
+    },
+    "negro_witness": {
+      "id": "negro_witness",
+      "name": "negro witness",
+      "aliases": [
+        "pale well-dressed negro (gives statement about the yellow car)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "negro witness",
+        "pale well-dressed negro (gives statement about the yellow car)"
+      ]
+    },
+    "the_crowd": {
+      "id": "the_crowd",
+      "name": "the crowd",
+      "aliases": [
+        "the gathered crowd at the accident"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the crowd",
+        "the gathered crowd at the accident"
+      ],
+      "spoilerFreeIntro": "A cluster of onlookers gathered at the scene, drawn by the commotion ahead on the road."
+    },
+    "workmen": {
+      "id": "workmen",
+      "name": "workmen",
+      "aliases": [
+        "workmen (passing Michaelis's door)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "workmen",
+        "workmen (passing Michaelis's door)"
+      ],
+      "spoilerFreeIntro": "A group of laborers passing by, heading to their next meal."
+    },
+    "waiter_plaza_hotel": {
+      "id": "waiter_plaza_hotel",
+      "name": "waiter (Plaza Hotel)",
+      "aliases": [
+        "waiter (brings mint and ice to Plaza Hotel suite)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "waiter (Plaza Hotel)",
+        "waiter (brings mint and ice to Plaza Hotel suite)"
+      ]
+    },
+    "clerk_plaza_hotel": {
+      "id": "clerk_plaza_hotel",
+      "name": "clerk (Plaza Hotel)",
+      "aliases": [
+        "clerk (Plaza Hotel clerk)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "clerk (Plaza Hotel)",
+        "clerk (Plaza Hotel clerk)"
+      ]
+    },
+    "doctor": {
+      "id": "doctor",
+      "name": "doctor",
+      "aliases": [
+        "doctor (arrives at accident, case in hand)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "doctor",
+        "doctor (arrives at accident, case in hand)"
+      ],
+      "spoilerFreeIntro": "An old, bespectacled figure on a billboard, Doctor T. J. Eckleburg gazes out over the road with solemn, faded eyes."
+    },
+    "the_parlour_suite_plaza_hotel": {
+      "id": "the_parlour_suite_plaza_hotel",
+      "name": "the parlour suite (Plaza Hotel)",
+      "aliases": [
+        "parlour suite (Plaza Hotel)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the parlour suite (Plaza Hotel)",
+        "parlour suite (Plaza Hotel)"
+      ]
+    },
+    "side_road_to_west_egg": {
+      "id": "side_road_to_west_egg",
+      "name": "side road (to West Egg)",
+      "aliases": [
+        "side road to West Egg (taken by Gatsby after the accident)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "side road (to West Egg)",
+        "side road to West Egg (taken by Gatsby after the accident)"
+      ]
+    },
+    "new_jersey": {
+      "id": "new_jersey",
+      "name": "New Jersey",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "New Jersey"
+      ],
+      "spoilerFreeIntro": "A state across the river from New York City, often mentioned as a nearby location in the novel."
+    },
+    "the_kitchen_buchanan_house": {
+      "id": "the_kitchen_buchanan_house",
+      "name": "the kitchen (Buchanan house)",
+      "aliases": [
+        "kitchen (where Tom and Daisy are seen together after accident)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the kitchen (Buchanan house)",
+        "kitchen (where Tom and Daisy are seen together after accident)"
+      ]
+    },
+    "the_pantry_buchanan_house": {
+      "id": "the_pantry_buchanan_house",
+      "name": "the pantry (Buchanan house)",
+      "aliases": [
+        "pantry window (Nick spies on Tom and Daisy through)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the pantry (Buchanan house)",
+        "pantry window (Nick spies on Tom and Daisy through)"
+      ]
+    },
+    "daisys_room": {
+      "id": "daisys_room",
+      "name": "Daisy's room",
+      "aliases": [
+        "Daisy's room (pink glow, on ground floor, at conclusion)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Daisy's room",
+        "Daisy's room (pink glow, on ground floor, at conclusion)"
+      ]
+    },
+    "hempstead": {
+      "id": "hempstead",
+      "name": "Hempstead",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "Hempstead"
+      ],
+      "spoilerFreeIntro": "A wealthy suburb on Long Island, Hempstead serves as a stopping point in the characters’ travels."
+    },
+    "southampton": {
+      "id": "southampton",
+      "name": "Southampton",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "Southampton"
+      ],
+      "spoilerFreeIntro": "A bustling port city on England’s southern coast, known for its busy docks and seaside charm."
+    },
+    "gads_hill": {
+      "id": "gads_hill",
+      "name": "Gad's Hill",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "Gad's Hill"
+      ]
+    }
+  },
+  "lastIndexedChapter": 9
+}

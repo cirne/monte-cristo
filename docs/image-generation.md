@@ -25,15 +25,16 @@ This doc describes how entity and scene images are generated, stored, and used i
 - **`buildFullPrompt(prompt, style)`** — Returns `style + "\n\nImage prompt: " + prompt` for the API.
 - **`generateImageToWebPBuffer(fullPrompt)`** — Calls OpenAI Images API (DALL·E 3, 1024×1024, `b64_json`), decodes PNG, converts to WebP with sharp, returns a `Buffer`.
 
-Used by both entity and scene CLIs.
+Used by `scripts/generate-images.ts` (entities and scenes).
 
 ## Entity images
 
 **CLI:** `bun run scripts/generate-images.ts`
 
-- **Input:** `data/image-style.txt` and `data/entity-image-prompts.json`. Entity ids match characters in `lib/characters.ts` and places/events in `lib/entities.ts`.
-- **Behavior:** By default only generates images that don't already exist at `public/images/entities/{id}.webp`. Use `--force` to regenerate.
+- **Input:** `data/image-style.txt` and `data/<book>/entity-image-prompts.json`. Entity ids match characters and places/events in the entity store.
+- **Behavior:** By default only generates images that don't already exist at `public/images/entities/{id}.webp` (or `public/images/entities/<book>/` for other books). Use `--force` to regenerate.
 - **Options:**
+  - `--chapter=N` — Generate all images (entities + scenes) for that chapter. Add `--entities-only` or `--scenes-only` to restrict.
   - `--entity=<id>` — Generate one entity (e.g. `--entity=dantes`).
   - `--all-entities` — Generate all entities that have a prompt and no existing image.
   - `--workers=N` — Parallel requests (default 32; lower if your OpenAI tier limits RPM).
@@ -43,14 +44,15 @@ Used by both entity and scene CLIs.
 
 ## Scene images
 
-**CLI:** `bun run scripts/generate-scene-images.ts`
+**CLI:** `bun run scripts/generate-images.ts` (same script; use `--scene=...`, `--chapter=N`, or `--all-scenes`; add `--scenes-only` when combined with `--chapter=N` to generate only scenes)
 
-- **Input:** `data/book.json` (from parse-book), `data/image-style.txt`, and optionally existing `data/scene-image-prompts.json`. Scenes come from the chapter index (`data/chapter-index.json`); run `bun run index-chapter --chapter=N` or `bun run index-chapter --all` to populate scenes.
+- **Input:** `data/book.json` (from parse-book), `data/image-style.txt`, and optionally existing `data/<book>/scene-image-prompts.json`. Scenes come from the chapter index (`data/<book>/chapter-index.json`); run `bun run index-chapter --chapter=N` or `bun run index-chapter --all` to populate scenes.
 - **Prompt generation:** For each scene we slice the chapter paragraphs by `startParagraph`/`endParagraph`, cap at 4000 characters, and call the LLM (gpt-4o-mini) with the style guide and scene text. The model is instructed to produce a single DALL·E prompt: focus on what's visible (setting, lighting, dress, atmosphere), strip or compress dialogue. The returned prompt is saved to `scene-image-prompts.json` (key `ch{N}-scene{M}`).
 - **Image generation:** Same as entities: `buildFullPrompt(prompt, style)` → `generateImageToWebPBuffer` → write to `public/images/scenes/ch{N}-scene{M}.webp`.
 - **Behavior:** Skips scenes that already have an image (and optionally skips prompt generation if a prompt already exists). Use `--force` to regenerate images.
 - **Options:**
   - `--scene=CHAPTER-SCENE` — e.g. `--scene=1-0` for chapter 1, scene 0.
+  - `--chapter=N` — All scenes for that chapter (or all images for the chapter if you omit `--scenes-only`).
   - `--all-scenes` — All chapters, all scenes.
   - `--workers=N` — Parallel image generation (default 32).
   - `--force` — Overwrite existing scene images.

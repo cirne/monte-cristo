@@ -68,8 +68,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 └── scripts/
     ├── parse-book.ts # Book parser (Gutenberg text → JSON)
     ├── index-chapter.ts # Canonical chapter indexer (LLM entities/scenes; supports --chapter / --all)
-    ├── generate-images.ts # Generate entity images
-    └── generate-scene-images.ts # Generate scene images from chapter scenes
+    ├── generate-images.ts # Generate entity and scene images (--chapter=N for all; --scenes-only / --entities-only)
 ```
 
 ## Tech Stack
