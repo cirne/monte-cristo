@@ -7,10 +7,14 @@ vi.mock("@/lib/books", () => ({
   BOOK_SLUGS: ["monte-cristo", "gatsby"] as const,
   getBookConfig: (slug: string) =>
     slug === "monte-cristo"
-      ? { title: "The Count of Monte Cristo", author: "Alexandre Dumas, père" }
+      ? { title: "The Count of Monte Cristo", author: "Alexandre Dumas, père", storageKey: "mc-last-chapter" }
       : slug === "gatsby"
-        ? { title: "The Great Gatsby", author: "F. Scott Fitzgerald" }
+        ? { title: "The Great Gatsby", author: "F. Scott Fitzgerald", storageKey: "gatsby-last-chapter" }
         : undefined,
+}));
+
+vi.mock("@/lib/book", () => ({
+  getBookIndex: () => ({ chapters: [{ number: 1, title: "Ch 1", volume: "" }] }),
 }));
 
 vi.mock("./components/StartOrContinueLink", () => ({
@@ -30,9 +34,10 @@ describe("app/page", () => {
 
   it("renders book cards to pick a book", () => {
     render(<Home />);
-    expect(screen.getByText("Pick a book to start reading with X-Ray style context.")).toBeInTheDocument();
+    expect(screen.getByText(/Great literature for the short-attention generation/)).toBeInTheDocument();
     expect(screen.getByText("The Count of Monte Cristo")).toBeInTheDocument();
     expect(screen.getByText("The Great Gatsby")).toBeInTheDocument();
-    expect(screen.getAllByText(/Open book →/).length).toBeGreaterThanOrEqual(1);
+    expect(screen.getAllByRole("link", { name: /Table of Contents/i }).length).toBeGreaterThanOrEqual(1);
+    expect(screen.getAllByRole("link", { name: /Start Reading/i }).length).toBeGreaterThanOrEqual(1);
   });
 });

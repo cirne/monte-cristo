@@ -4,8 +4,12 @@ import Link from "next/link";
 import { useSyncExternalStore } from "react";
 import { DEFAULT_BOOK_SLUG, getBookConfig } from "@/lib/books";
 
-const linkClassName =
-  "inline-flex items-center gap-2 px-6 py-2.5 bg-stone-800 text-white rounded-full text-sm font-medium hover:bg-stone-700 dark:bg-amber-400 dark:text-stone-950 dark:hover:bg-amber-300 transition-colors";
+const linkClassNames = {
+  default:
+    "inline-flex items-center gap-2 px-6 py-2.5 bg-stone-800 text-white rounded-full text-sm font-medium hover:bg-stone-700 dark:bg-amber-400 dark:text-stone-950 dark:hover:bg-amber-300 transition-colors",
+  compact:
+    "inline-flex items-center gap-2 px-3 py-1.5 bg-stone-800 text-white rounded-lg text-sm font-medium hover:bg-stone-700 dark:bg-amber-400 dark:text-stone-950 dark:hover:bg-amber-300 transition-colors",
+} as const;
 
 const continueSnapshotCache: Record<string, Record<number, { href: string; label: string }>> = {};
 const startSnapshotCache: Record<string, { href: string; label: string }> = {};
@@ -53,9 +57,12 @@ function subscribe() {
 
 export function StartOrContinueLink({
   bookSlug = DEFAULT_BOOK_SLUG,
+  variant = "default",
 }: {
   /** When provided, links and localStorage use this book (e.g. on /book/[slug] home). */
   bookSlug?: string;
+  /** "compact" for smaller button (e.g. home page cards). Default keeps hero size (e.g. book home). */
+  variant?: "default" | "compact";
 }) {
   const slug = bookSlug || DEFAULT_BOOK_SLUG;
   const serverSnapshot =
@@ -70,7 +77,7 @@ export function StartOrContinueLink({
   );
 
   return (
-    <Link href={href} className={linkClassName}>
+    <Link href={href} className={linkClassNames[variant]}>
       {label}
     </Link>
   );
