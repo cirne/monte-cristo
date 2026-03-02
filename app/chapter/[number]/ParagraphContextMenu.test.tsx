@@ -60,4 +60,44 @@ describe("app/chapter/[number]/ParagraphContextMenu", () => {
     fireEvent.pointerDown(document.body);
     expect(onClose).toHaveBeenCalledTimes(1);
   });
+
+  it("opens selected entity when clicking linked name in summary", async () => {
+    const fetchMock = vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => ({ answer: "Edmond Dantès reunites with Mercédès." }),
+    });
+    vi.stubGlobal("fetch", fetchMock);
+    const onClose = vi.fn();
+    const onOpenEntity = vi.fn();
+
+    render(
+      <ParagraphContextMenu
+        anchor={{ x: 120, y: 120, paragraphIndex: 2 }}
+        chapterNumber={4}
+        onClose={onClose}
+        onOpenEntity={onOpenEntity}
+        entityData={{
+          dantes: {
+            name: "Edmond Dantès",
+            aliases: [],
+            firstSeenInChapter: 1,
+            type: "person",
+          },
+          mercedes: {
+            name: "Mercédès",
+            aliases: [],
+            firstSeenInChapter: 1,
+            type: "person",
+          },
+        }}
+      />
+    );
+
+    fireEvent.click(screen.getByRole("button", { name: "Summarize story so far" }));
+    const mercedesLink = await screen.findByRole("button", { name: "Mercédès" });
+    fireEvent.click(mercedesLink);
+
+    expect(onClose).toHaveBeenCalledTimes(1);
+    expect(onOpenEntity).toHaveBeenCalledWith("mercedes");
+  });
 });

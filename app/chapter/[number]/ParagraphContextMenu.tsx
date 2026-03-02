@@ -1,6 +1,8 @@
 "use client";
 
 import React from "react";
+import type { XRayEntityData } from "./XRayPanel";
+import { parseTextForEntityLinks } from "./entityTextSegments";
 
 type ContextAction = "current-scene" | "story-so-far";
 type ContextPopoverMode = "menu" | "loading" | "result" | "error";
@@ -15,6 +17,8 @@ interface ParagraphContextMenuProps {
   anchor: ParagraphContextAnchor | null;
   chapterNumber: number;
   onClose: () => void;
+  entityData?: Record<string, XRayEntityData>;
+  onOpenEntity?: (entityId: string) => void;
 }
 
 const VIEWPORT_MARGIN_PX = 12;
@@ -37,7 +41,13 @@ function actionEndpoint(action: ContextAction): string {
   return action === "current-scene" ? "/api/context/current-scene" : "/api/context/story-so-far";
 }
 
-export function ParagraphContextMenu({ anchor, chapterNumber, onClose }: ParagraphContextMenuProps) {
+export function ParagraphContextMenu({
+  anchor,
+  chapterNumber,
+  onClose,
+  entityData = {},
+  onOpenEntity,
+}: ParagraphContextMenuProps) {
   const menuPopoverRef = React.useRef<HTMLDivElement>(null);
   const requestIdRef = React.useRef(0);
   const [mode, setMode] = React.useState<ContextPopoverMode>("menu");
@@ -166,6 +176,15 @@ export function ParagraphContextMenu({ anchor, chapterNumber, onClose }: Paragra
     [anchor, chapterNumber]
   );
 
+  const answerSegments = React.useMemo(() => {
+    const text = answer ?? "";
+    if (!text) return [];
+    if (!onOpenEntity || Object.keys(entityData).length === 0) {
+      return [{ type: "text" as const, content: text }];
+    }
+    return parseTextForEntityLinks(text, entityData);
+  }, [answer, entityData, onOpenEntity]);
+
   if (!anchor) return null;
 
   return (
@@ -230,7 +249,25 @@ export function ParagraphContextMenu({ anchor, chapterNumber, onClose }: Paragra
               <p className="text-xs uppercase tracking-widest text-stone-400 mb-1">
                 {actionLabel(action ?? "current-scene")}
               </p>
-              <p className="text-base text-stone-700 leading-relaxed whitespace-pre-wrap">{answer}</p>
+              <p className="text-base text-stone-700 leading-relaxed whitespace-pre-wrap">
+                {answerSegments.map((segment, index) =>
+                  segment.type === "text" ? (
+                    <React.Fragment key={index}>{segment.content}</React.Fragment>
+                  ) : (
+                    <button
+                      key={index}
+                      type="button"
+                      onClick={() => {
+                        closeMenu();
+                        onOpenEntity?.(segment.entityId);
+                      }}
+                      className="text-amber-700 hover:text-amber-800 hover:underline font-medium cursor-pointer bg-transparent border-none p-0 align-baseline"
+                    >
+                      {segment.content}
+                    </button>
+                  )
+                )}
+              </p>
               <div className="mt-3 flex items-center justify-end gap-2">
                 <button
                   type="button"

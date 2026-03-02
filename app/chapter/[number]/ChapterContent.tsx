@@ -223,6 +223,8 @@ export function ChapterContent({
         anchor={contextMenuAnchor}
         chapterNumber={chapterNumber}
         onClose={() => setContextMenuAnchor(null)}
+        entityData={xrayData}
+        onOpenEntity={setOpenEntityId}
       />
     </>
   );
