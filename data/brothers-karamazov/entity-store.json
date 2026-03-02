@@ -1,0 +1,1492 @@
+{
+  "entities": {
+    "alexey_fyodorovitch_karamazov": {
+      "id": "alexey_fyodorovitch_karamazov",
+      "name": "Alexey Fyodorovitch Karamazov",
+      "aliases": [
+        "Alexey",
+        "Alyosha",
+        "Alyosha, Alexey, Alexey Fyodorovitch, Alexey Fyodorovitch Karamazov"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Alexey Fyodorovitch Karamazov",
+        "Alexey",
+        "Alyosha",
+        "Alyosha, Alexey, Alexey Fyodorovitch, Alexey Fyodorovitch Karamazov"
+      ],
+      "spoilerFreeIntro": "A gentle and thoughtful young man, Alexey Fyodorovitch Karamazov is the youngest son of Fyodor Pavlovitch Karamazov."
+    },
+    "fyodor_pavlovitch_karamazov": {
+      "id": "fyodor_pavlovitch_karamazov",
+      "name": "Fyodor Pavlovitch Karamazov",
+      "aliases": [
+        "landowner",
+        "father"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Fyodor Pavlovitch Karamazov",
+        "landowner",
+        "father"
+      ],
+      "spoilerFreeIntro": "A wealthy landowner known for his scandalous behavior and reputation in the district."
+    },
+    "dmitri_fyodorovitch_karamazov": {
+      "id": "dmitri_fyodorovitch_karamazov",
+      "name": "Dmitri Fyodorovitch Karamazov",
+      "aliases": [
+        "Dmitri",
+        "Mitya",
+        "Dmitri, Mitya",
+        "Dmitri Fyodorovitch, Dmitri"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Dmitri Fyodorovitch Karamazov",
+        "Dmitri",
+        "Mitya",
+        "Dmitri, Mitya",
+        "Dmitri Fyodorovitch, Dmitri"
+      ],
+      "spoilerFreeIntro": "The passionate and impulsive eldest son of Fyodor Pavlovitch, born of his first marriage."
+    },
+    "ivan_fyodorovitch_karamazov": {
+      "id": "ivan_fyodorovitch_karamazov",
+      "name": "Ivan Fyodorovitch Karamazov",
+      "aliases": [
+        "Ivan"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Ivan Fyodorovitch Karamazov",
+        "Ivan"
+      ],
+      "spoilerFreeIntro": "A quiet and intelligent young man, Ivan is the middle son of Fyodor Pavlovitch Karamazov."
+    },
+    "adelaida_ivanovna_miusov": {
+      "id": "adelaida_ivanovna_miusov",
+      "name": "Adelaïda Ivanovna Miüsov",
+      "aliases": [
+        "Adelaïda Ivanovna"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Adelaïda Ivanovna Miüsov",
+        "Adelaïda Ivanovna"
+      ],
+      "spoilerFreeIntro": "Adelaïda Ivanovna Miüsov was Fyodor Pavlovitch’s first wife, a distinguished heiress from the noble Miüsov family."
+    },
+    "the_misov_family": {
+      "id": "the_misov_family",
+      "name": "The Miüsov Family",
+      "aliases": [
+        "the Miüsovs"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "The Miüsov Family",
+        "the Miüsovs"
+      ],
+      "spoilerFreeIntro": "A distinguished and affluent noble family from the district, the Miüsovs are known for their land, status, and refined upbringing."
+    },
+    "saint_petersburg": {
+      "id": "saint_petersburg",
+      "name": "Petersburg",
+      "aliases": [
+        "Petersburg"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Petersburg"
+      ],
+      "spoilerFreeIntro": "Petersburg, a bustling Russian city alive with new ideas and restless seekers of change."
+    },
+    "divinity_student": {
+      "id": "divinity_student",
+      "name": "Divinity student",
+      "aliases": [
+        "Rakitin"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Divinity student",
+        "Rakitin"
+      ],
+      "spoilerFreeIntro": "A young divinity student, impoverished and earnest in his studies."
+    },
+    "death_of_fyodor_pavlovitch_karamazov": {
+      "id": "death_of_fyodor_pavlovitch_karamazov",
+      "name": "Death of Fyodor Pavlovitch Karamazov",
+      "aliases": [
+        "gloomy and tragic death (of Fyodor Pavlovitch)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Death of Fyodor Pavlovitch Karamazov",
+        "gloomy and tragic death (of Fyodor Pavlovitch)"
+      ]
+    },
+    "death_of_adelada_ivanovna_misov": {
+      "id": "death_of_adelada_ivanovna_misov",
+      "name": "Death of Adelaïda Ivanovna Miüsov",
+      "aliases": [
+        "death in Petersburg"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Death of Adelaïda Ivanovna Miüsov",
+        "death in Petersburg"
+      ],
+      "spoilerFreeIntro": "The mother of Fyodor Pavlovich's son Dmitri, Adelaïda Ivanovna Miüsov, passes away suddenly in Petersburg."
+    },
+    "ophelia": {
+      "id": "ophelia",
+      "name": "Ophelia",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Ophelia"
+      ],
+      "spoilerFreeIntro": "A dreamy and imaginative young woman, inspired by literary heroines."
+    },
+    "grigory": {
+      "id": "grigory",
+      "name": "Grigory",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Grigory"
+      ],
+      "spoilerFreeIntro": "A loyal and long-serving family servant, Grigory cares for the children with devoted attention."
+    },
+    "pyotr_alexandrovitch_misov": {
+      "id": "pyotr_alexandrovitch_misov",
+      "name": "Pyotr Alexandrovitch Miüsov",
+      "aliases": [
+        "Miüsov"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Pyotr Alexandrovitch Miüsov",
+        "Miüsov"
+      ],
+      "spoilerFreeIntro": "A well-traveled and cultivated cousin of Mitya’s mother, Pyotr Alexandrovitch Miüsov is known for his refined manners and liberal views."
+    },
+    "proudhon": {
+      "id": "proudhon",
+      "name": "Proudhon",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Proudhon"
+      ],
+      "spoilerFreeIntro": "A French thinker, known for his radical political ideas and influence among liberals."
+    },
+    "bakunin": {
+      "id": "bakunin",
+      "name": "Bakunin",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Bakunin"
+      ],
+      "spoilerFreeIntro": "A passionate Russian revolutionary and thinker, known for his radical political ideas and presence during key moments of European upheaval."
+    },
+    "paris": {
+      "id": "paris",
+      "name": "Paris",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Paris"
+      ],
+      "spoilerFreeIntro": "A celebrated European city known for its culture and sophistication, where Miüsov spent time abroad."
+    },
+    "moscow": {
+      "id": "moscow",
+      "name": "Moscow",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Moscow"
+      ],
+      "spoilerFreeIntro": "A vast and bustling city, now home to Mitya’s ailing grandmother and his married aunts."
+    },
+    "the_revolution_of_february_1848": {
+      "id": "the_revolution_of_february_1848",
+      "name": "the Revolution of February 1848",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "the Revolution of February 1848"
+      ]
+    },
+    "the_monastery": {
+      "id": "the_monastery",
+      "name": "the monastery",
+      "aliases": [
+        "our famous monastery",
+        "monastery"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "the monastery",
+        "our famous monastery",
+        "monastery"
+      ],
+      "spoilerFreeIntro": "An ancient and renowned religious institution whose lands border the Karamazov family estate."
+    },
+    "the_river": {
+      "id": "the_river",
+      "name": "the river",
+      "aliases": [
+        "the river"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "the river"
+      ],
+      "spoilerFreeIntro": "A quiet river winding through the estate, central to local disputes and rural life."
+    },
+    "the_forest": {
+      "id": "the_forest",
+      "name": "the forest",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "the forest"
+      ]
+    },
+    "sofya_ivanovna": {
+      "id": "sofya_ivanovna",
+      "name": "Sofya Ivanovna",
+      "aliases": [
+        "the crazy woman",
+        "his poor “crazy” mother",
+        "crazy woman led up to the elder"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Sofya Ivanovna",
+        "the crazy woman",
+        "his poor “crazy” mother",
+        "crazy woman led up to the elder"
+      ],
+      "spoilerFreeIntro": "Sofya Ivanovna, a gentle and youthful woman from another province, is Fyodor Pavlovich’s second wife."
+    },
+    "generals_widow": {
+      "id": "generals_widow",
+      "name": "General's widow",
+      "aliases": [
+        "the general’s widow"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "General's widow",
+        "the general’s widow"
+      ],
+      "spoilerFreeIntro": "The General’s widow, an embittered and formidable woman, crosses their path with evident scorn."
+    },
+    "yefim_petrovitch_polenov": {
+      "id": "yefim_petrovitch_polenov",
+      "name": "Yefim Petrovitch Polenov",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Yefim Petrovitch Polenov"
+      ],
+      "spoilerFreeIntro": "Yefim Petrovitch Polenov, the province's Marshal of Nobility and principal heir, is introduced as a man of honesty and upright character."
+    },
+    "elder_zossima": {
+      "id": "elder_zossima",
+      "name": "elder Zossima",
+      "aliases": [
+        "elder Zossima, Zossima",
+        "Father Zossima",
+        "the elder"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "elder Zossima",
+        "elder Zossima, Zossima",
+        "Father Zossima",
+        "the elder"
+      ],
+      "spoilerFreeIntro": "The elder Zossima is a wise and revered monk living in the monastery hermitage."
+    },
+    "odessa": {
+      "id": "odessa",
+      "name": "Odessa",
+      "aliases": [
+        "Odessa"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Odessa"
+      ],
+      "spoilerFreeIntro": "A bustling port city on the Black Sea, known for its lively mix of cultures and commerce."
+    },
+    "italy": {
+      "id": "italy",
+      "name": "Italy",
+      "aliases": [
+        "Italy"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Italy"
+      ],
+      "spoilerFreeIntro": "A beautiful southern country where Alyosha’s mother and sisters travel for an extended family visit."
+    },
+    "the_town_cemetery": {
+      "id": "the_town_cemetery",
+      "name": "the town cemetery",
+      "aliases": [
+        "cemetery, town cemetery"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "the town cemetery",
+        "cemetery, town cemetery"
+      ]
+    },
+    "kozelski_optin_monastery": {
+      "id": "kozelski_optin_monastery",
+      "name": "Kozelski Optin Monastery",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Kozelski Optin Monastery"
+      ],
+      "spoilerFreeIntro": "A renowned Russian monastery known for its tradition of wise elders, nestled in a quiet, remote setting."
+    },
+    "sinai": {
+      "id": "sinai",
+      "name": "Sinai",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Sinai"
+      ],
+      "spoilerFreeIntro": "A remote and sacred peninsula, renowned for its ancient monasteries and traditions of Orthodox monasticism."
+    },
+    "athos": {
+      "id": "athos",
+      "name": "Athos",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Athos"
+      ],
+      "spoilerFreeIntro": "A remote peninsula in the Orthodox East, Athos is home to ancient monasteries and a monastic tradition over a thousand years old."
+    },
+    "russia": {
+      "id": "russia",
+      "name": "Russia",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Russia"
+      ],
+      "spoilerFreeIntro": "A vast and varied nation, stretching across Europe and Asia, with unique customs and spiritual traditions."
+    },
+    "siberia": {
+      "id": "siberia",
+      "name": "Siberia",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Siberia"
+      ],
+      "spoilerFreeIntro": "A vast, remote land in the north, known for its harsh climate and isolation."
+    },
+    "egypt": {
+      "id": "egypt",
+      "name": "Egypt",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Egypt"
+      ],
+      "spoilerFreeIntro": "A storied and ancient land, Egypt is where Christians have faced trials of faith and martyrdom."
+    },
+    "syria": {
+      "id": "syria",
+      "name": "Syria",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Syria"
+      ],
+      "spoilerFreeIntro": "A land of ancient monasteries and early Christian devotion in the East."
+    },
+    "constantinople": {
+      "id": "constantinople",
+      "name": "Constantinople",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Constantinople"
+      ],
+      "spoilerFreeIntro": "Constantinople, the historic and storied city at the crossroads of East and West."
+    },
+    "jerusalem": {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Jerusalem"
+      ],
+      "spoilerFreeIntro": "Jerusalem, the ancient and sacred city revered by pilgrims from around the world."
+    },
+    "the_caucasus": {
+      "id": "the_caucasus",
+      "name": "the Caucasus",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "the Caucasus"
+      ],
+      "spoilerFreeIntro": "A mountainous region at the crossroads of Europe and Asia, known for its rugged landscapes and history of military service."
+    },
+    "passy_velitchkovsky": {
+      "id": "passy_velitchkovsky",
+      "name": "Païssy Velitchkovsky",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Païssy Velitchkovsky"
+      ],
+      "spoilerFreeIntro": "Païssy Velitchkovsky is a revered ascetic monk known for his influence on spiritual practices in Russian monasteries."
+    },
+    "the_cumenical_patriarch": {
+      "id": "the_cumenical_patriarch",
+      "name": "the Œcumenical Patriarch",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "the Œcumenical Patriarch"
+      ],
+      "spoilerFreeIntro": "The Œcumenical Patriarch, the highest spiritual leader of the Eastern Orthodox Church in Constantinople, is approached by the sorrowful monk seeking guidance."
+    },
+    "christ": {
+      "id": "christ",
+      "name": "Christ",
+      "aliases": [
+        "Our Lord Jesus Christ"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Christ",
+        "Our Lord Jesus Christ"
+      ],
+      "spoilerFreeIntro": "A Christian novice, eager to prove his faith, leaves his Syrian monastery for Egypt to seek spiritual guidance."
+    },
+    "the_holy_places": {
+      "id": "the_holy_places",
+      "name": "the Holy Places",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "the Holy Places"
+      ],
+      "spoilerFreeIntro": "The Holy Places, sacred sites revered by pilgrims, offer solace and spiritual refuge for the devout."
+    },
+    "god": {
+      "id": "god",
+      "name": "God",
+      "aliases": [
+        "God Himself"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "God",
+        "God Himself"
+      ],
+      "spoilerFreeIntro": "An unseen presence, worshipped and questioned by the faithful and the doubtful alike."
+    },
+    "apostle_thomas": {
+      "id": "apostle_thomas",
+      "name": "Apostle Thomas",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Apostle Thomas"
+      ],
+      "spoilerFreeIntro": "One of Jesus’s disciples, Apostle Thomas is known for his initial doubt and desire for tangible proof before believing."
+    },
+    "the_superior": {
+      "id": "the_superior",
+      "name": "the Superior",
+      "aliases": [
+        "Father Superior"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "the Superior",
+        "Father Superior"
+      ],
+      "spoilerFreeIntro": "The Superior, head of the monastery, is a dignified figure approached to resolve disputes with wisdom and fairness."
+    },
+    "the_kingdom_of_christ": {
+      "id": "the_kingdom_of_christ",
+      "name": "the Kingdom of Christ",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "the Kingdom of Christ"
+      ]
+    },
+    "the_hermitage": {
+      "id": "the_hermitage",
+      "name": "the hermitage",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "the hermitage"
+      ],
+      "spoilerFreeIntro": "A secluded religious dwelling where the elder lives and receives crowds of pilgrims seeking his blessing."
+    },
+    "the_russian_peasant": {
+      "id": "the_russian_peasant",
+      "name": "the Russian peasant",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "the Russian peasant"
+      ]
+    },
+    "pyotr_fomitch_kalganov": {
+      "id": "pyotr_fomitch_kalganov",
+      "name": "Pyotr Fomitch Kalganov",
+      "aliases": [
+        "Kalganov"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Pyotr Fomitch Kalganov",
+        "Kalganov"
+      ],
+      "spoilerFreeIntro": "A thoughtful young man of twenty, staying with Miüsov while preparing to enter the university."
+    },
+    "maximov": {
+      "id": "maximov",
+      "name": "Maximov",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Maximov"
+      ],
+      "spoilerFreeIntro": "A kindly landowner from Tula, Maximov introduces himself with a gentle lisp and eager friendliness."
+    },
+    "madame_hohlakov": {
+      "id": "madame_hohlakov",
+      "name": "Madame Hohlakov",
+      "aliases": [
+        "the lady, Lise's mother, society lady"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Madame Hohlakov",
+        "the lady, Lise's mother, society lady"
+      ],
+      "spoilerFreeIntro": "Madame Hohlakov is a lady from Harkov who has come to visit with her ailing daughter."
+    },
+    "varsonofy": {
+      "id": "varsonofy",
+      "name": "Varsonofy",
+      "aliases": [
+        "elder Varsonofy"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Varsonofy",
+        "elder Varsonofy"
+      ],
+      "spoilerFreeIntro": "An old monk, Varsonofy was the previous elder before the current one at the monastery."
+    },
+    "tula": {
+      "id": "tula",
+      "name": "Tula",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Tula"
+      ],
+      "spoilerFreeIntro": "A landowner from Tula with a honeyed lisp."
+    },
+    "zurich": {
+      "id": "zurich",
+      "name": "Zurich",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Zurich"
+      ],
+      "spoilerFreeIntro": "A renowned Swiss city known for its prestigious university and vibrant intellectual life."
+    },
+    "jena": {
+      "id": "jena",
+      "name": "Jena",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Jena"
+      ],
+      "spoilerFreeIntro": "A renowned German university town noted for its vibrant academic community."
+    },
+    "rome": {
+      "id": "rome",
+      "name": "Rome",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Rome"
+      ],
+      "spoilerFreeIntro": "Rome—a grand and ancient city, filled with majestic churches, bustling streets, and the weight of centuries of history."
+    },
+    "harkov": {
+      "id": "harkov",
+      "name": "Harkov",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Harkov"
+      ],
+      "spoilerFreeIntro": "Madame Hohlakov is a well-known local lady, often seen caring for her sick daughter."
+    },
+    "the_hotel": {
+      "id": "the_hotel",
+      "name": "the hotel",
+      "aliases": [
+        "hotel"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "the hotel",
+        "hotel"
+      ],
+      "spoilerFreeIntro": "A modest hotel just outside the precincts, where visitors leave their carriage before approaching the monastery."
+    },
+    "cospe": {
+      "id": "cospe",
+      "name": "cospe",
+      "aliases": [
+        "the copse"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "cospe",
+        "the copse"
+      ],
+      "spoilerFreeIntro": "A small grove of trees near the monastery, marking the way to the distant hermitage."
+    },
+    "von_sohn": {
+      "id": "von_sohn",
+      "name": "von Sohn",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "von Sohn"
+      ],
+      "spoilerFreeIntro": "A figure mentioned in passing by Fyodor Pavlovitch, von Sohn is referenced as a type or comparison rather than as a present character."
+    },
+    "the_church": {
+      "id": "the_church",
+      "name": "the church",
+      "aliases": [
+        "church",
+        "the Church"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "the church",
+        "church",
+        "the Church"
+      ],
+      "spoilerFreeIntro": "A modest yet dignified church, standing as the spiritual center of the monastery grounds."
+    },
+    "the_portico": {
+      "id": "the_portico",
+      "name": "the portico",
+      "aliases": [
+        "portico"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "the portico",
+        "portico"
+      ],
+      "spoilerFreeIntro": "A sheltered entranceway, where people wait and gather outside the main building."
+    },
+    "saints": {
+      "id": "saints",
+      "name": "saints",
+      "aliases": [
+        "saints painted above and on the sides of the gates",
+        "the saints, all the saints"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "saints",
+        "saints painted above and on the sides of the gates",
+        "the saints, all the saints"
+      ],
+      "spoilerFreeIntro": "A row of sacred figures painted above the gate, the saints watch over the entrance with calm and solemn faces."
+    },
+    "father_passy": {
+      "id": "father_passy",
+      "name": "Father Païssy",
+      "aliases": [
+        "Païssy"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Father Païssy",
+        "Païssy"
+      ],
+      "spoilerFreeIntro": "Father Païssy, a scholarly monk of delicate health, accompanies the elder at the hermitage."
+    },
+    "father_librarian": {
+      "id": "father_librarian",
+      "name": "Father Librarian",
+      "aliases": [
+        "the Father Librarian",
+        "Father Iosif"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Father Librarian",
+        "the Father Librarian",
+        "Father Iosif"
+      ],
+      "spoilerFreeIntro": "The Father Librarian, a monk of the hermitage, is present among the small group gathered in the cell."
+    },
+    "the_novice": {
+      "id": "the_novice",
+      "name": "the novice",
+      "aliases": [
+        "novice"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the novice",
+        "novice"
+      ],
+      "spoilerFreeIntro": "A young attendant of the monastery, quietly assisting Father Zossima."
+    },
+    "diderot": {
+      "id": "diderot",
+      "name": "Diderot",
+      "aliases": [
+        "philosopher Diderot"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Diderot",
+        "philosopher Diderot"
+      ],
+      "spoilerFreeIntro": "A famous French philosopher, known for his wit and intelligence."
+    },
+    "metropolitan_platon": {
+      "id": "metropolitan_platon",
+      "name": "Metropolitan Platon",
+      "aliases": [
+        "Metropolitan Platon"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Metropolitan Platon"
+      ],
+      "spoilerFreeIntro": "Metropolitan Platon is a wise and esteemed bishop known for his gentle wit and spiritual authority."
+    },
+    "empress_catherine": {
+      "id": "empress_catherine",
+      "name": "Empress Catherine",
+      "aliases": [
+        "Empress Catherine"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Empress Catherine"
+      ],
+      "spoilerFreeIntro": "Empress Catherine, the powerful ruler of Russia, is mentioned as a figure whose court attracted renowned philosophers and thinkers."
+    },
+    "princess_dashkov": {
+      "id": "princess_dashkov",
+      "name": "Princess Dashkov",
+      "aliases": [
+        "Princess Dashkov"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Princess Dashkov"
+      ],
+      "spoilerFreeIntro": "A distinguished noblewoman, Princess Dashkov stands as the godmother at the important ceremony."
+    },
+    "potyomkin": {
+      "id": "potyomkin",
+      "name": "Potyomkin",
+      "aliases": [
+        "Potyomkin"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Potyomkin"
+      ],
+      "spoilerFreeIntro": "A distinguished Russian nobleman, mentioned here as a godfather."
+    },
+    "the_captain_of_police_mr_ispravnik": {
+      "id": "the_captain_of_police_mr_ispravnik",
+      "name": "the captain of police / Mr. Ispravnik",
+      "aliases": [
+        "captain of police, Mr. Ispravnik"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the captain of police / Mr. Ispravnik",
+        "captain of police, Mr. Ispravnik"
+      ]
+    },
+    "mr_napravnik": {
+      "id": "mr_napravnik",
+      "name": "Mr. Napravnik",
+      "aliases": [
+        "Napravnik"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Mr. Napravnik",
+        "Napravnik"
+      ],
+      "spoilerFreeIntro": "Mr. Napravnik, a dignified acquaintance introduced with an air of formality and reserve."
+    },
+    "the_frenchman": {
+      "id": "the_frenchman",
+      "name": "the Frenchman",
+      "aliases": [
+        "Frenchman (learned man in Paris)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the Frenchman",
+        "Frenchman (learned man in Paris)"
+      ]
+    },
+    "martyrs": {
+      "id": "martyrs",
+      "name": "martyrs",
+      "aliases": [
+        "martyrs",
+        "the holy martyrs"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "martyrs",
+        "the holy martyrs"
+      ],
+      "spoilerFreeIntro": "Old prints of saints and martyrs, common at Russian fairs, decorate the room’s walls."
+    },
+    "the_virgin": {
+      "id": "the_virgin",
+      "name": "the Virgin",
+      "aliases": [
+        "Virgin"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the Virgin",
+        "Virgin"
+      ],
+      "spoilerFreeIntro": "The Virgin is depicted as a revered figure in an old icon, before which a lamp silently burns in the corner of the room."
+    },
+    "mater_dolorosa": {
+      "id": "mater_dolorosa",
+      "name": "Mater Dolorosa",
+      "aliases": [
+        "Mater Dolorosa"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Mater Dolorosa"
+      ],
+      "spoilerFreeIntro": "A sorrowful, ivory-carved Madonna, depicted in the traditional Catholic image of the Mother of Sorrows."
+    },
+    "the_fair_merchants": {
+      "id": "the_fair_merchants",
+      "name": "the fair merchants",
+      "aliases": [
+        "merchants"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the fair merchants",
+        "merchants"
+      ],
+      "spoilerFreeIntro": "A group of respectable, fair-haired merchants acquainted with the narrator through business dealings."
+    },
+    "russian_bishops": {
+      "id": "russian_bishops",
+      "name": "Russian bishops",
+      "aliases": [
+        "Russian bishops, past and present"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Russian bishops",
+        "Russian bishops, past and present"
+      ]
+    },
+    "the_elders_cell": {
+      "id": "the_elders_cell",
+      "name": "the elder's cell",
+      "aliases": [
+        "cell"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the elder's cell",
+        "cell"
+      ],
+      "spoilerFreeIntro": "A small, quiet room in the hermitage where the elder receives visitors and meets with other monks."
+    },
+    "the_time_with_the_merchants_and_captain_of_police": {
+      "id": "the_time_with_the_merchants_and_captain_of_police",
+      "name": "the time with the merchants and captain of police",
+      "aliases": [
+        "visit to captain of police"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the time with the merchants and captain of police",
+        "visit to captain of police"
+      ]
+    },
+    "the_anecdote_about_diderot_and_metropolitan_platon": {
+      "id": "the_anecdote_about_diderot_and_metropolitan_platon",
+      "name": "the anecdote about Diderot and Metropolitan Platon",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the anecdote about Diderot and Metropolitan Platon"
+      ]
+    },
+    "the_story_about_the_saint_carrying_his_severed_head": {
+      "id": "the_story_about_the_saint_carrying_his_severed_head",
+      "name": "the story about the saint carrying his severed head",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the story about the saint carrying his severed head"
+      ]
+    },
+    "madame_hohlakovs_daughter": {
+      "id": "madame_hohlakovs_daughter",
+      "name": "Madame Hohlakov's daughter",
+      "aliases": [
+        "her daughter, a girl of fourteen, partially paralyzed",
+        "Lise, Lise Hohlakov, her daughter"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "Madame Hohlakov's daughter",
+        "her daughter, a girl of fourteen, partially paralyzed",
+        "Lise, Lise Hohlakov, her daughter"
+      ]
+    },
+    "old_monk_from_the_north": {
+      "id": "old_monk_from_the_north",
+      "name": "old monk from the north",
+      "aliases": [
+        "an old monk, visitor from an obscure religious house in the far north",
+        "monk from the far north, from Obdorsk, from Saint Sylvester"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "old monk from the north",
+        "an old monk, visitor from an obscure religious house in the far north",
+        "monk from the far north, from Obdorsk, from Saint Sylvester"
+      ]
+    },
+    "nastasya": {
+      "id": "nastasya",
+      "name": "Nastasya",
+      "aliases": [
+        "woman from 200 miles away, grieving mother"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "Nastasya",
+        "woman from 200 miles away, grieving mother"
+      ],
+      "spoilerFreeIntro": "A humble pilgrim, Nastasya arrives seeking guidance and comfort from the elders."
+    },
+    "nikita": {
+      "id": "nikita",
+      "name": "Nikita",
+      "aliases": [
+        "Nastasya's husband"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "Nikita",
+        "Nastasya's husband"
+      ],
+      "spoilerFreeIntro": "Nikita is the husband of the grieving woman, sharing her quiet sorrow over the loss of their children."
+    },
+    "saint_alexey_the_man_of_god": {
+      "id": "saint_alexey_the_man_of_god",
+      "name": "Saint Alexey, the Man of God",
+      "aliases": [
+        "Alexey, the man of God"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "Saint Alexey, the Man of God",
+        "Alexey, the man of God"
+      ],
+      "spoilerFreeIntro": "A holy figure, known for his humility and kindness, revered as \"the Man of God.\""
+    },
+    "rachel": {
+      "id": "rachel",
+      "name": "Rachel",
+      "aliases": [
+        "Rachel of old"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "Rachel",
+        "Rachel of old"
+      ],
+      "spoilerFreeIntro": "Rachel, a grieving mother, is introduced in her sorrowful vigil among the townspeople."
+    },
+    "prohorovna": {
+      "id": "prohorovna",
+      "name": "Prohorovna",
+      "aliases": [
+        "very old woman, widow of a non-commissioned officer"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "Prohorovna",
+        "very old woman, widow of a non-commissioned officer"
+      ],
+      "spoilerFreeIntro": "Prohorovna, a concerned mother, is introduced in conversation about her son's well-being and her efforts to seek guidance from others in her community."
+    },
+    "vasenka": {
+      "id": "vasenka",
+      "name": "Vasenka",
+      "aliases": [
+        "Prohorovna's son in the commissariat service"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "Vasenka",
+        "Prohorovna's son in the commissariat service"
+      ],
+      "spoilerFreeIntro": "Vasenka, the son of a widow living nearby, works in the commissariat service and is currently stationed in Irkutsk."
+    },
+    "irkutsk": {
+      "id": "irkutsk",
+      "name": "Irkutsk",
+      "aliases": [
+        "Irkutsk in Siberia"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "Irkutsk",
+        "Irkutsk in Siberia"
+      ],
+      "spoilerFreeIntro": "Irkutsk is a distant city in Siberia where Vasenka, now in the commissariat service, has been stationed."
+    },
+    "stepanida_ilyinishna": {
+      "id": "stepanida_ilyinishna",
+      "name": "Stepanida Ilyinishna",
+      "aliases": [
+        "rich merchant's wife"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "Stepanida Ilyinishna",
+        "rich merchant's wife"
+      ],
+      "spoilerFreeIntro": "A wealthy merchant’s wife known for giving advice to others in the community."
+    },
+    "the_church_prohorovna_context": {
+      "id": "the_church_prohorovna_context",
+      "name": "the church (Prohorovna context)",
+      "aliases": [
+        "church where prayers for the dead are said"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "the church (Prohorovna context)",
+        "church where prayers for the dead are said"
+      ]
+    },
+    "the_queen_of_heaven": {
+      "id": "the_queen_of_heaven",
+      "name": "the Queen of Heaven",
+      "aliases": [
+        "Queen of Heaven, another reference to the Virgin"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "the Queen of Heaven",
+        "Queen of Heaven, another reference to the Virgin"
+      ],
+      "spoilerFreeIntro": "A revered figure, the Queen of Heaven is honored by the faithful as a powerful protector and source of mercy."
+    },
+    "young_peasant_woman_penitent_widow": {
+      "id": "young_peasant_woman_penitent_widow",
+      "name": "young peasant woman (penitent widow)",
+      "aliases": [
+        "exhausted, consumptive-looking, penitent widow"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "young peasant woman (penitent widow)",
+        "exhausted, consumptive-looking, penitent widow"
+      ]
+    },
+    "the_dead_husband_penitent_widows_husband": {
+      "id": "the_dead_husband_penitent_widows_husband",
+      "name": "the dead husband (penitent widow's husband)",
+      "aliases": [
+        "penitent widow's husband"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "the dead husband (penitent widow's husband)",
+        "penitent widow's husband"
+      ]
+    },
+    "woman_from_vyshegorye": {
+      "id": "woman_from_vyshegorye",
+      "name": "woman from Vyshegorye",
+      "aliases": [
+        "healthy peasant woman with a baby"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "woman from Vyshegorye",
+        "healthy peasant woman with a baby"
+      ]
+    },
+    "vyshegorye": {
+      "id": "vyshegorye",
+      "name": "Vyshegorye",
+      "aliases": [
+        "village five miles away"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "Vyshegorye",
+        "village five miles away"
+      ],
+      "spoilerFreeIntro": "A rural village located five miles from the main setting."
+    },
+    "lizaveta": {
+      "id": "lizaveta",
+      "name": "Lizaveta",
+      "aliases": [
+        "peasant woman's little girl/babe"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "Lizaveta",
+        "peasant woman's little girl/babe"
+      ],
+      "spoilerFreeIntro": "A tiny infant, Lizaveta is the beloved daughter of Grushenka, tenderly introduced to the visiting priest."
+    },
+    "katerina_ivanovna": {
+      "id": "katerina_ivanovna",
+      "name": "Katerina Ivanovna",
+      "aliases": [
+        "Katerina Ivanovna"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Katerina Ivanovna"
+      ],
+      "spoilerFreeIntro": "A proud and dignified young woman, Katerina Ivanovna is known for her strong will and passionate temperament."
+    },
+    "doctor_herzenstube": {
+      "id": "doctor_herzenstube",
+      "name": "Doctor Herzenstube",
+      "aliases": [
+        "Doctor Herzenstube"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Doctor Herzenstube"
+      ],
+      "spoilerFreeIntro": "An elderly and compassionate German doctor, known for his long service in the town."
+    },
+    "obdorsk": {
+      "id": "obdorsk",
+      "name": "Obdorsk",
+      "aliases": [
+        "Obdorsk"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Obdorsk"
+      ],
+      "spoilerFreeIntro": "A remote northern settlement, home to a small and humble monastery."
+    },
+    "saint_sylvester": {
+      "id": "saint_sylvester",
+      "name": "Saint Sylvester",
+      "aliases": [
+        "Saint Sylvester"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Saint Sylvester"
+      ],
+      "spoilerFreeIntro": "Saint Sylvester is a remote northern monastery, home to a small community of monks."
+    },
+    "the_state": {
+      "id": "the_state",
+      "name": "the State",
+      "aliases": [
+        "the State"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "the State"
+      ],
+      "spoilerFreeIntro": "A central institution of authority and governance in society."
+    },
+    "europe": {
+      "id": "europe",
+      "name": "Europe",
+      "aliases": [
+        "Europe"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "Europe"
+      ],
+      "spoilerFreeIntro": "A vast continent, renowned for its culture, history, and ever-evolving ideas."
+    },
+    "russian_orthodox_church": {
+      "id": "russian_orthodox_church",
+      "name": "Russian Orthodox Church",
+      "aliases": [
+        "Orthodox Church"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "Russian Orthodox Church",
+        "Orthodox Church"
+      ],
+      "spoilerFreeIntro": "An important religious institution central to many characters’ beliefs and discussions."
+    },
+    "lutheran_countries": {
+      "id": "lutheran_countries",
+      "name": "Lutheran countries",
+      "aliases": [
+        "Lutheran countries"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "Lutheran countries"
+      ],
+      "spoilerFreeIntro": "Lutheran countries—nations shaped by the Protestant Reformation, where Lutheranism became the dominant faith."
+    },
+    "pope_gregory_the_seventh": {
+      "id": "pope_gregory_the_seventh",
+      "name": "Pope Gregory the Seventh",
+      "aliases": [
+        "Pope Gregory the Seventh"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "Pope Gregory the Seventh"
+      ],
+      "spoilerFreeIntro": "A formidable eleventh-century pope, renowned for his efforts to assert the authority and independence of the Church."
+    },
+    "december_coup_dtat": {
+      "id": "december_coup_dtat",
+      "name": "December coup d'état",
+      "aliases": [
+        "coup d'état of December"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "December coup d'état",
+        "coup d'état of December"
+      ]
+    },
+    "political_detective": {
+      "id": "political_detective",
+      "name": "political detective",
+      "aliases": [
+        "French superintendent of political detectives"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "political detective",
+        "French superintendent of political detectives"
+      ],
+      "spoilerFreeIntro": "A high-ranking official overseeing a network of political detectives."
+    },
+    "christian_socialist": {
+      "id": "christian_socialist",
+      "name": "Christian socialist",
+      "aliases": [
+        "the socialist who is a Christian"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "Christian socialist",
+        "the socialist who is a Christian"
+      ],
+      "spoilerFreeIntro": "A thoughtful and passionate man whose Christian faith inspires his commitment to social justice."
+    },
+    "atheist_socialist": {
+      "id": "atheist_socialist",
+      "name": "atheist socialist",
+      "aliases": [
+        "socialist who is an atheist"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "atheist socialist",
+        "socialist who is an atheist"
+      ],
+      "spoilerFreeIntro": "A man whose passionate beliefs reflect his atheistic and socialist ideals."
+    },
+    "on_the_foundations_of_church_jurisdiction": {
+      "id": "on_the_foundations_of_church_jurisdiction",
+      "name": "On the Foundations of Church Jurisdiction",
+      "aliases": [
+        "the book On the Foundations of Church Jurisdiction"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "On the Foundations of Church Jurisdiction",
+        "the book On the Foundations of Church Jurisdiction"
+      ]
+    }
+  },
+  "lastIndexedChapter": 10
+}

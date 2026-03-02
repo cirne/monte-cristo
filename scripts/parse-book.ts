@@ -6,6 +6,7 @@
  * Or run a specific book: bun run scripts/books/monte-cristo/parse.ts
  *                          bun run scripts/books/gatsby/parse.ts
  *                          bun run scripts/books/crime-and-punishment/parse.ts
+ *                          bun run scripts/books/brothers-karamazov/parse.ts
  */
 
 import { main } from "./books/monte-cristo/parse";
