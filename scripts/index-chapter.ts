@@ -169,7 +169,8 @@ async function extractEntities(
   chapterNumber: number,
   content: string,
   bookTitle: string,
-  store: EntityStoreData
+  store: EntityStoreData,
+  bookSlug?: string
 ): Promise<ExtractedEntity[]> {
   const text = content.slice(0, MAX_CHAPTER_CONTENT_CHARS);
   if (content.length > MAX_CHAPTER_CONTENT_CHARS) {
@@ -180,6 +181,12 @@ async function extractEntities(
   const knownBlock = knownList
     ? `\n${knownList}\n`
     : "\n";
+
+  // Book-specific extraction guidance (e.g. avoid indexing party-invitee-only names)
+  const bookHint =
+    bookSlug === "gatsby"
+      ? "\nFor The Great Gatsby: do not include people who appear only in a long list of party guests with no dialogue or plot role; omit those from the entities list so the index stays focused on characters who matter to the story."
+      : "";
 
   const MIN_CONTENT_FOR_RETRY = 2000;
   let lastList: ExtractedEntity[] = [];
@@ -197,7 +204,7 @@ Return a JSON object with a key "entities" whose value is an array of objects. E
 - "alias": optional string, how they are referred to in this chapter if different from name
 - "id": optional string, REQUIRED when the entity is in the known list above — use the exact id from that list
 
-Include every named person, place, or significant event mentioned in the chapter — both new entities and those already in the known list. The chapter index needs a complete list of all entities mentioned in this chapter. Use consistent canonical names.`,
+Include every named person, place, or significant event mentioned in the chapter — both new entities and those already in the known list. The chapter index needs a complete list of all entities mentioned in this chapter. Use consistent canonical names.${bookHint}`,
         },
         {
           role: "user",
@@ -308,17 +315,19 @@ function parseSummaryFieldFromRaw(
 async function summarizeChapter(
   chapterNumber: number,
   content: string,
-  bookTitle: string
+  bookTitle: string,
+  summaryPromptFragment?: string
 ): Promise<string | undefined> {
   const source = content.slice(0, MAX_SUMMARY_SOURCE_CHARS);
+  const systemBase = `You summarize one chapter of "${bookTitle}" for a reader.
+Return strict JSON with one key "summary".
+The summary must be exactly one paragraph, spoiler-safe relative to the chapter text provided, and written in clear modern prose.`;
+  const systemContent = summaryPromptFragment?.trim()
+    ? `${systemBase}\n\nBook-specific guidance: ${summaryPromptFragment.trim()}`
+    : systemBase;
   const response = await createChatCompletion({
     messages: [
-      {
-        role: "system",
-        content: `You summarize one chapter of "${bookTitle}" for a reader.
-Return strict JSON with one key "summary".
-The summary must be exactly one paragraph, spoiler-safe relative to the chapter text provided, and written in clear modern prose.`,
-      },
+      { role: "system", content: systemContent },
       {
         role: "user",
         content: `Chapter ${chapterNumber} text:\n\n${source}`,
@@ -335,17 +344,19 @@ async function summarizeScene(
   chapterNumber: number,
   sceneIndex: number,
   sceneText: string,
-  bookTitle: string
+  bookTitle: string,
+  summaryPromptFragment?: string
 ): Promise<string | undefined> {
   const source = sceneText.slice(0, MAX_SCENE_SUMMARY_CHARS);
+  const systemBase = `You summarize one scene from "${bookTitle}".
+Return strict JSON with one key "summary".
+Output one concise paragraph (2-4 sentences), grounded only in the provided excerpt and without future spoilers.`;
+  const systemContent = summaryPromptFragment?.trim()
+    ? `${systemBase}\n\nBook-specific guidance: ${summaryPromptFragment.trim()}`
+    : systemBase;
   const response = await createChatCompletion({
     messages: [
-      {
-        role: "system",
-        content: `You summarize one scene from "${bookTitle}".
-Return strict JSON with one key "summary".
-Output one concise paragraph (2-4 sentences), grounded only in the provided excerpt and without future spoilers.`,
-      },
+      { role: "system", content: systemContent },
       {
         role: "user",
         content: `Chapter ${chapterNumber}, scene ${sceneIndex + 1} excerpt:\n\n${source}`,
@@ -427,13 +438,14 @@ async function buildChapterSummaries(params: {
   scenes: SceneWithDetails[] | undefined;
   previousStorySoFar: string | undefined;
   bookTitle: string;
+  summaryPromptFragment?: string;
 }): Promise<SummaryBuildResult> {
-  const { chapterNumber, content, scenes, previousStorySoFar, bookTitle } = params;
+  const { chapterNumber, content, scenes, previousStorySoFar, bookTitle, summaryPromptFragment } = params;
   const paragraphs = getParagraphs(content);
   const normalizedScenes = normalizeScenes(scenes, paragraphs.length);
   const scenesWithSummary = normalizedScenes.map((scene) => ({ ...scene }));
 
-  const chapterSummary = await summarizeChapter(chapterNumber, content, bookTitle);
+  const chapterSummary = await summarizeChapter(chapterNumber, content, bookTitle, summaryPromptFragment);
 
   for (let i = 0; i < scenesWithSummary.length; i++) {
     const scene = scenesWithSummary[i];
@@ -441,7 +453,7 @@ async function buildChapterSummaries(params: {
     const sceneText = getSceneTextByRange(paragraphs, scene.startParagraph, scene.endParagraph);
     if (!sceneText.trim()) continue;
     try {
-      const summary = await summarizeScene(chapterNumber, i, sceneText, bookTitle);
+      const summary = await summarizeScene(chapterNumber, i, sceneText, bookTitle, summaryPromptFragment);
       if (summary) scenesWithSummary[i].summary = summary;
     } catch (e) {
       console.warn(`Skipping scene summary for chapter ${chapterNumber}, scene ${i}:`, e);
@@ -512,7 +524,7 @@ async function indexChapter(
   opts: { bookTitle: string; baselineIntro: string; bookSlug: string; workers: number; imageStyleHint?: string }
 ): Promise<ChapterIndexEntry> {
   const { bookTitle, baselineIntro, workers, imageStyleHint } = opts;
-  const extracted = await extractEntities(chapterNumber, content, bookTitle, store);
+  const extracted = await extractEntities(chapterNumber, content, bookTitle, store, opts.bookSlug);
 
   const entryEntities: ChapterIndexEntry["entities"] = [];
   const firstSeenUpdates = new Map<string, number>();
@@ -733,6 +745,7 @@ async function main() {
         scenes: mergedEntry.scenes,
         previousStorySoFar,
         bookTitle,
+        summaryPromptFragment: config.summaryPromptFragment,
       });
       mergedEntry = applySummaryBuildResult(mergedEntry, summaryBuild, overwriteExisting);
     }
