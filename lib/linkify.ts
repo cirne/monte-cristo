@@ -36,6 +36,18 @@ interface PatternInfo {
   entityType: EntityType;
 }
 
+const LETTER_OR_NUMBER_CLASS = "[\\p{L}\\p{N}]";
+const LETTER_OR_NUMBER_RE = /[\p{L}\p{N}]/u;
+
+function isLetterOrNumberAt(text: string, index: number): boolean {
+  if (index < 0 || index >= text.length) return false;
+  return LETTER_OR_NUMBER_RE.test(text[index]);
+}
+
+function isTokenBounded(text: string, start: number, end: number): boolean {
+  return !isLetterOrNumberAt(text, start - 1) && !isLetterOrNumberAt(text, end);
+}
+
 /** Build regex pattern list for entities in this chapter that have matchPatterns */
 function getPatternsForChapter(chapterNumber: number): PatternInfo[] {
   const entry = getChapterIndexEntry(chapterNumber);
@@ -114,13 +126,16 @@ function getTermsForChapter(chapterNumber: number): TermInfo[] {
 
 type Match = { start: number; end: number; entityId: string; entityType: EntityType; content: string };
 
-/** Find all matches from regex patterns (word-boundary wrapped for safety) */
+/** Find all matches from regex patterns with unicode token boundaries. */
 function findRegexMatches(text: string, patterns: PatternInfo[]): Match[] {
   const matches: Match[] = [];
   const normalized = text.normalize("NFC");
   for (const { pattern, entityId, entityType } of patterns) {
     try {
-      const re = new RegExp(`(?:${pattern})`, "giu");
+      const re = new RegExp(
+        `(?<!${LETTER_OR_NUMBER_CLASS})(?:${pattern})(?!${LETTER_OR_NUMBER_CLASS})`,
+        "giu"
+      );
       let m: RegExpExecArray | null;
       while ((m = re.exec(normalized)) !== null) {
         matches.push({
@@ -170,6 +185,10 @@ function findMatches(
       const i = lower.indexOf(search, pos);
       if (i === -1) break;
       const end = i + search.length;
+      if (!isTokenBounded(lower, i, end)) {
+        pos = i + 1;
+        continue;
+      }
       const overlaps = used.some(([s, e]) => (i < e && end > s));
       if (!overlaps) {
         used.push([i, end]);
@@ -181,7 +200,7 @@ function findMatches(
           content: text.slice(i, end),
         });
       }
-      pos = end;
+      pos = i + 1;
     }
   }
 

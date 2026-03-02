@@ -27,4 +27,26 @@ describe("lib/linkify", () => {
       }
     }
   });
+
+  it("does not link literal terms inside longer words", () => {
+    const result = linkifyParagraph("A revolutionary tide.", 5);
+    expect(result).toEqual([{ type: "text", content: "A revolutionary tide." }]);
+  });
+
+  it("does not link regex matches inside longer words", () => {
+    const result = linkifyParagraph("A Morcerfian title.", 3);
+    expect(result).toEqual([{ type: "text", content: "A Morcerfian title." }]);
+  });
+
+  it("still links complete terms with punctuation boundaries", () => {
+    const result = linkifyParagraph("Morcerf's carriage arrived.", 3);
+    const links = result.filter((segment) => segment.type === "link");
+    expect(links).toHaveLength(1);
+    expect(links[0]).toMatchObject({
+      type: "link",
+      content: "Morcerf",
+      entityId: "fernand",
+      entityType: "person",
+    });
+  });
 });
