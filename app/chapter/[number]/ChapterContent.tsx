@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import type { Segment } from "@/lib/linkify";
 import type { SceneWithDetails } from "@/lib/scenes";
+import { DEFAULT_BOOK_SLUG } from "@/lib/books";
 import { XRayPanel } from "./XRayPanel";
 import type { XRayEntityData } from "./XRayPanel";
 import { ReaderFooter } from "./ReaderFooter";
@@ -183,9 +184,9 @@ export function ChapterContent({
     return map;
   }, [scenes, chapterNumber]);
 
-  /** Scene images: monte-cristo stays at /images/scenes/ for backward compat; other books use /images/scenes/<bookSlug>/ */
+  /** Scene images: default book stays at /images/scenes/ for backward compat; other books use /images/scenes/<bookSlug>/ */
   const scenesBase =
-    bookSlug && bookSlug !== "monte-cristo"
+    bookSlug && bookSlug !== DEFAULT_BOOK_SLUG
       ? `/images/scenes/${bookSlug}`
       : "/images/scenes";
 

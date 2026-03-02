@@ -11,6 +11,8 @@ export const DEFAULT_BOOK_SLUG: BookSlug = "monte-cristo";
 export interface BookConfig {
   title: string;
   author: string;
+  /** Single emoji for book hero/avatar (e.g. "⚓" for Monte Cristo). Optional. */
+  icon?: string;
   /** Display labels for volume strings (e.g. "VOLUME ONE" → "Volume I") */
   volumeLabels?: Record<string, string>;
   /** localStorage key for last viewed chapter */
@@ -25,6 +27,7 @@ const CONFIG: Record<BookSlug, BookConfig> = {
   "monte-cristo": {
     title: "The Count of Monte Cristo",
     author: "Alexandre Dumas, père",
+    icon: "⚓",
     storageKey: "monte-cristo-last-chapter",
     volumeLabels: {
       "VOLUME ONE": "Volume I",
@@ -40,6 +43,7 @@ const CONFIG: Record<BookSlug, BookConfig> = {
   gatsby: {
     title: "The Great Gatsby",
     author: "F. Scott Fitzgerald",
+    icon: "💎",
     storageKey: "gatsby-last-chapter",
     volumeLabels: { Full: "The Great Gatsby" },
     baselineIntro:

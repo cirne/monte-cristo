@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import { MapPin } from "lucide-react";
+import { DEFAULT_BOOK_SLUG } from "@/lib/books";
 import type { XRayEntityData } from "./XRayPanel";
 
 // -----------------------------------------------------------------------------
@@ -32,7 +33,7 @@ export function ReaderFooter({
     useFooterViewport();
 
   const entitiesBase =
-    bookSlug && bookSlug !== "monte-cristo" ? `/images/entities/${bookSlug}` : "/images/entities";
+    bookSlug && bookSlug !== DEFAULT_BOOK_SLUG ? `/images/entities/${bookSlug}` : "/images/entities";
 
   const hasLocation = Boolean(locationLabel?.trim());
   const hasContent = hasLocation || displayedIds.length > 0;

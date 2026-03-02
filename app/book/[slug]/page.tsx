@@ -38,8 +38,8 @@ export default async function BookHomePage({ params }: Props) {
   return (
     <main className="max-w-4xl mx-auto px-4 py-10">
       <div className="mb-12 text-center">
-        <div className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-stone-800 text-white dark:bg-amber-400 dark:text-stone-950 text-4xl mb-6 shadow-lg">
-          ⚓
+        <div className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-stone-800 text-white dark:bg-amber-400 dark:text-stone-950 text-[3.375rem] mb-6 shadow-lg">
+          {config.icon ?? "📖"}
         </div>
         <h1 className="text-4xl font-bold text-stone-900 dark:text-stone-100 mb-2">
           {config.title}

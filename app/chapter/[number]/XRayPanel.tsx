@@ -45,7 +45,7 @@ export function XRayPanel({
   if (!data) return null;
 
   const entitiesBase =
-    bookSlug && bookSlug !== "monte-cristo" ? `/images/entities/${bookSlug}` : "/images/entities";
+    bookSlug && bookSlug !== DEFAULT_BOOK_SLUG ? `/images/entities/${bookSlug}` : "/images/entities";
 
   const isFirstChapter = chapterNumber === 1;
   const introText = data.spoilerFreeIntro ?? data.name;
