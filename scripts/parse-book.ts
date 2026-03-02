@@ -11,11 +11,14 @@
  */
 
 import "../lib/loadEnv";
-import { readFileSync, writeFileSync, mkdirSync } from "fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from "fs";
 import { join } from "path";
 
 const TEXT_URL =
   "https://raw.githubusercontent.com/GITenberg/The-Count-of-Monte-Cristo_1184/master/1184-0.txt";
+
+const PAGE_MARKER_LINE = /^\d{3,6}m$/;
+const LEGACY_PAGE_MARKER_PLACEHOLDER = "\u200B";
 
 async function fetchBook(): Promise<string> {
   console.log("Fetching book from GitHub mirror...");
@@ -39,7 +42,202 @@ interface Book {
   chapters: Chapter[];
 }
 
-function parseBook(raw: string): Book {
+interface ParagraphIndexRemap {
+  chapterNumber: number;
+  sourceParagraphCount: number;
+  targetParagraphCount: number;
+  removedParagraphIndices: number[];
+}
+
+interface ParsedBookResult {
+  book: Book;
+  paragraphRemaps: ParagraphIndexRemap[];
+}
+
+interface SceneRangeLike {
+  startParagraph: number;
+  endParagraph: number;
+}
+
+interface ChapterIndexEntryLike {
+  number: number;
+  scenes?: SceneRangeLike[];
+}
+
+interface ChapterIndexLike {
+  chapters: ChapterIndexEntryLike[];
+}
+
+function isStandalonePageMarkerLine(line: string): boolean {
+  const trimmed = line.trim();
+  return PAGE_MARKER_LINE.test(trimmed) || trimmed === LEGACY_PAGE_MARKER_PLACEHOLDER;
+}
+
+function splitParagraphs(content: string): string[] {
+  return content
+    .split(/\n\n+/)
+    .map((paragraph) => paragraph.replace(/\n/g, " ").trim())
+    .filter(Boolean);
+}
+
+function isStandalonePageMarkerParagraph(paragraph: string): boolean {
+  return isStandalonePageMarkerLine(paragraph);
+}
+
+/**
+ * Remove Gutenberg printed-edition page marker lines (e.g. 0267m, 20009m)
+ * and collapse surrounding blank lines so we don't emit empty paragraphs.
+ */
+export function stripStandalonePageMarkerParagraphs(content: string): string {
+  return content
+    .split("\n")
+    .filter((line) => !isStandalonePageMarkerLine(line))
+    .join("\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
+function buildParagraphIndexRemap(
+  chapterNumber: number,
+  sourceContent: string,
+  targetContent: string
+): ParagraphIndexRemap {
+  const sourceParagraphs = splitParagraphs(sourceContent);
+  const targetParagraphs = splitParagraphs(targetContent);
+  const removedParagraphIndices: number[] = [];
+
+  for (let i = 0; i < sourceParagraphs.length; i++) {
+    if (isStandalonePageMarkerParagraph(sourceParagraphs[i])) {
+      removedParagraphIndices.push(i);
+    }
+  }
+
+  return {
+    chapterNumber,
+    sourceParagraphCount: sourceParagraphs.length,
+    targetParagraphCount: targetParagraphs.length,
+    removedParagraphIndices,
+  };
+}
+
+function mapParagraphIndex(
+  paragraphIndex: number,
+  remap: ParagraphIndexRemap,
+  preferStart: boolean
+): number {
+  if (remap.targetParagraphCount <= 0 || remap.sourceParagraphCount <= 0) return 0;
+
+  const removed = remap.removedParagraphIndices;
+  const removedSet = new Set(removed);
+  let sourceIndex = Math.floor(paragraphIndex);
+  if (!Number.isFinite(sourceIndex)) sourceIndex = 0;
+  if (sourceIndex < 0) sourceIndex = 0;
+  if (sourceIndex > remap.sourceParagraphCount - 1) sourceIndex = remap.sourceParagraphCount - 1;
+
+  if (removedSet.has(sourceIndex)) {
+    if (preferStart) {
+      let forward = sourceIndex;
+      while (forward < remap.sourceParagraphCount && removedSet.has(forward)) forward++;
+      if (forward < remap.sourceParagraphCount) {
+        sourceIndex = forward;
+      } else {
+        let backward = sourceIndex;
+        while (backward >= 0 && removedSet.has(backward)) backward--;
+        sourceIndex = Math.max(0, backward);
+      }
+    } else {
+      let backward = sourceIndex;
+      while (backward >= 0 && removedSet.has(backward)) backward--;
+      if (backward >= 0) {
+        sourceIndex = backward;
+      } else {
+        let forward = sourceIndex;
+        while (forward < remap.sourceParagraphCount && removedSet.has(forward)) forward++;
+        sourceIndex = Math.min(remap.sourceParagraphCount - 1, forward);
+      }
+    }
+  }
+
+  let removedBeforeOrAt = 0;
+  for (const removedIndex of removed) {
+    if (removedIndex <= sourceIndex) removedBeforeOrAt++;
+    else break;
+  }
+
+  let mapped = sourceIndex - removedBeforeOrAt;
+  if (mapped < 0) mapped = 0;
+  if (mapped > remap.targetParagraphCount - 1) mapped = remap.targetParagraphCount - 1;
+  return mapped;
+}
+
+export function remapChapterIndexScenes(
+  index: ChapterIndexLike,
+  paragraphRemaps: ParagraphIndexRemap[]
+): { updatedIndex: ChapterIndexLike; chaptersTouched: number; scenesTouched: number } {
+  const remapByChapter = new Map(
+    paragraphRemaps
+      .filter((remap) => remap.removedParagraphIndices.length > 0)
+      .map((remap) => [remap.chapterNumber, remap] as const)
+  );
+
+  let chaptersTouched = 0;
+  let scenesTouched = 0;
+
+  const updatedIndex: ChapterIndexLike = {
+    ...index,
+    chapters: index.chapters.map((chapter) => {
+      const remap = remapByChapter.get(chapter.number);
+      if (!remap || !Array.isArray(chapter.scenes) || chapter.scenes.length === 0) {
+        return chapter;
+      }
+
+      const hasOutOfBoundsScene = chapter.scenes.some(
+        (scene) =>
+          scene.startParagraph < 0 ||
+          scene.endParagraph < 0 ||
+          scene.startParagraph > remap.targetParagraphCount - 1 ||
+          scene.endParagraph > remap.targetParagraphCount - 1
+      );
+      if (!hasOutOfBoundsScene) {
+        return chapter;
+      }
+
+      let chapterChanged = false;
+      const scenes = chapter.scenes.map((scene) => {
+        const mappedStart = mapParagraphIndex(scene.startParagraph, remap, true);
+        const mappedEndRaw = mapParagraphIndex(scene.endParagraph, remap, false);
+        const mappedEnd = Math.max(mappedStart, mappedEndRaw);
+
+        if (mappedStart !== scene.startParagraph || mappedEnd !== scene.endParagraph) {
+          chapterChanged = true;
+          scenesTouched++;
+          return {
+            ...scene,
+            startParagraph: mappedStart,
+            endParagraph: mappedEnd,
+          };
+        }
+
+        return scene;
+      });
+
+      if (!chapterChanged) return chapter;
+      chaptersTouched++;
+      return {
+        ...chapter,
+        scenes,
+      };
+    }),
+  };
+
+  return {
+    updatedIndex,
+    chaptersTouched,
+    scenesTouched,
+  };
+}
+
+export function parseBookWithParagraphRemaps(raw: string): ParsedBookResult {
   // Normalize Windows line endings
   const lines = raw.replace(/\r\n/g, "\n").replace(/\r/g, "\n").split("\n");
 
@@ -75,6 +273,7 @@ function parseBook(raw: string): Book {
   // Split into chapters using the pattern "Chapter N. Title"
   const chapterPattern = /\n(Chapter \d+\. [^\n]+)\n/g;
   const chapters: Chapter[] = [];
+  const paragraphRemaps: ParagraphIndexRemap[] = [];
 
   const currentVolume = "VOLUME ONE";
   const volumePattern = /^VOLUME (ONE|TWO|THREE|FOUR|FIVE)$/m;
@@ -110,30 +309,31 @@ function parseBook(raw: string): Book {
 
     // Content is everything after the chapter header line
     const contentStart = chapterText.indexOf("\n", chapterText.indexOf(header)) + 1;
-    let content = chapterText
-      .slice(contentStart)
-      .replace(/\n{3,}/g, "\n\n")
-      .trim();
+    const sourceContent = chapterText.slice(contentStart).trim();
+    let content = sourceContent;
 
-    // Strip PG printed-edition page markers (e.g. 0267m, 20009m, 0065m) so they don't
-    // appear in the UI. Replace with ZWS so paragraph boundaries (and thus
-    // scene/entity indices) are unchanged and we don't need to re-run processors.
-    const pageMarkerLine = /^\d{3,6}m$/;
-    content = content
-      .split("\n")
-      .map((line) => (pageMarkerLine.test(line.trim()) ? "\u200B" : line))
-      .join("\n");
+    // Remove standalone PG printed-edition page marker paragraphs so we don't
+    // emit empty <p></p> blocks between real paragraphs.
+    content = stripStandalonePageMarkerParagraphs(content);
+    paragraphRemaps.push(buildParagraphIndexRemap(number, sourceContent, content));
 
     chapters.push({ number, title, volume: vol, content });
   }
 
   return {
-    title: "The Count of Monte Cristo",
-    author: "Alexandre Dumas, père",
-    source: "Project Gutenberg (https://www.gutenberg.org/ebooks/1184)",
-    license: "Public Domain",
-    chapters,
+    book: {
+      title: "The Count of Monte Cristo",
+      author: "Alexandre Dumas, père",
+      source: "Project Gutenberg (https://www.gutenberg.org/ebooks/1184)",
+      license: "Public Domain",
+      chapters,
+    },
+    paragraphRemaps,
   };
+}
+
+export function parseBook(raw: string): Book {
+  return parseBookWithParagraphRemaps(raw).book;
 }
 
 async function main() {
@@ -154,7 +354,8 @@ async function main() {
   }
 
   console.log("Parsing chapters...");
-  const book = parseBook(raw);
+  const parsed = parseBookWithParagraphRemaps(raw);
+  const book = parsed.book;
   console.log(`Parsed ${book.chapters.length} chapters.`);
 
   const outPath = join(dataDir, "book.json");
@@ -176,9 +377,29 @@ async function main() {
   const indexPath = join(dataDir, "book-index.json");
   writeFileSync(indexPath, JSON.stringify(index, null, 2));
   console.log(`Wrote ${indexPath}`);
+
+  const chapterIndexPath = join(dataDir, "chapter-index.json");
+  if (existsSync(chapterIndexPath)) {
+    const chapterIndex = JSON.parse(readFileSync(chapterIndexPath, "utf-8")) as ChapterIndexLike;
+    const { updatedIndex, chaptersTouched, scenesTouched } = remapChapterIndexScenes(
+      chapterIndex,
+      parsed.paragraphRemaps
+    );
+    if (scenesTouched > 0) {
+      writeFileSync(chapterIndexPath, JSON.stringify(updatedIndex, null, 2));
+      console.log(
+        `Updated ${chapterIndexPath} scene ranges (${scenesTouched} scenes across ${chaptersTouched} chapters).`
+      );
+    } else {
+      console.log("No chapter-index scene range updates were needed.");
+    }
+  }
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+const moduleMeta = import.meta as ImportMeta & { main?: boolean };
+if (moduleMeta.main) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}
