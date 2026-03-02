@@ -66,12 +66,19 @@ function findParagraphIndexByFragment(paragraphs: string[], fragment: string): n
  * Returns scenes with startParagraph/endParagraph resolved from startTextFragment.
  * entityRefs: list of { id, name, type } for entities in this chapter so the LLM
  * can return characterIds that match our canonical IDs.
+ * bookTitle and imageStyleHint make prompts book-agnostic (used for scene location examples and image description style).
  */
 export async function getScenesFromLLM(
   chapterNumber: number,
   content: string,
-  entityRefs: EntityRefForScenes[]
+  entityRefs: EntityRefForScenes[],
+  opts: { bookTitle: string; imageStyleHint?: string }
 ): Promise<SceneWithDetails[]> {
+  const { bookTitle, imageStyleHint } = opts;
+  const styleHint =
+    imageStyleHint?.trim() ||
+    "period-appropriate to the story; fine-art illustration style, dignified, like a classic novel.";
+
   const text = content.slice(0, MAX_CHAPTER_CHARS);
   if (content.length > MAX_CHAPTER_CHARS) {
     console.warn(
@@ -85,13 +92,13 @@ export async function getScenesFromLLM(
       ? personList.map((e) => `- ${e.id}: ${e.name}`).join("\n")
       : "No character list provided.";
 
-  const systemPrompt = `You analyze a single chapter of "The Count of Monte Cristo" and split it into logical scenes.
-A new scene usually starts when the location or setting changes (e.g. moving from ship to shore, or to a different room), or when there is a clear time jump.
+  const systemPrompt = `You analyze a single chapter of "${bookTitle}" and split it into logical scenes.
+A new scene usually starts when the location or setting changes (e.g. moving from one place to another, or to a different room), or when there is a clear time jump.
 
 For each scene you must provide:
-1. locationDescription: A short phrase for the setting (e.g. "On the deck of the Pharaon", "In Dantès' father's room").
+1. locationDescription: A short phrase for the setting (e.g. "On the ship's deck", "In the protagonist's room", "At the mansion").
 2. startTextFragment: The exact first 6–12 words that begin this scene in the chapter text. This must appear verbatim (or nearly so) in the chapter so we can locate the scene. Use the opening sentence of the scene.
-3. imageDescription: A single paragraph description suitable for generating an illustration with DALL·E: setting, lighting, who is present and their positions, period-appropriate dress, atmosphere. No dialogue or non-visual detail. Fine-art illustration style, 19th-century novel aesthetic.
+3. imageDescription: A single paragraph description suitable for generating an illustration with DALL·E: setting, lighting, who is present and their positions, period-appropriate dress, atmosphere. No dialogue or non-visual detail. Style: ${styleHint}
 4. characterIds: An array of entity IDs from the list below for characters (persons) who appear or are clearly present in this scene. Use only IDs from the list. Omit if none apply.
 
 Return a JSON object with a single key "scenes" whose value is an array of objects, each with: locationDescription, startTextFragment, imageDescription, characterIds (array of strings). Order scenes in the same order they appear in the chapter.`;
@@ -111,7 +118,7 @@ ${text}`;
       { role: "user", content: userPrompt },
     ],
     response_format: { type: "json_object" },
-    max_tokens: 2000,
+    max_tokens: 16384,
   });
 
   const raw = response.choices[0]?.message?.content;

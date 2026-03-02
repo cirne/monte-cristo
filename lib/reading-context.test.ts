@@ -82,7 +82,7 @@ describe("lib/reading-context", () => {
   });
 
   it("prefers rolling story summary and falls back to chapter summary window", () => {
-    mockGetChapterIndexEntry.mockImplementation((n: number) => {
+    mockGetChapterIndexEntry.mockImplementation((_slug: unknown, n: number) => {
       if (n === 4) return { number: 4, entities: [], storySoFarSummary: "Rolling summary through chapter 4." };
       return undefined;
     });

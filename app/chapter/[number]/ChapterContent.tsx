@@ -16,6 +16,10 @@ export interface ChapterContentProps {
   chapterNumber: number;
   xrayData: Record<string, XRayEntityData>;
   baselineIntro?: string;
+  /** When set, context API requests use this book (e.g. /book/[slug]/chapter/[number]) */
+  bookSlug?: string;
+  /** When set, scroll to the first in-chapter link for this entity (e.g. from character guide ?scrollTo=id). */
+  scrollToEntityId?: string | null;
 }
 
 /** True if this paragraph is only a placeholder (e.g. stripped PG page marker). */
@@ -30,11 +34,33 @@ export function ChapterContent({
   chapterNumber,
   xrayData,
   baselineIntro,
+  bookSlug,
+  scrollToEntityId,
 }: ChapterContentProps) {
   const [openEntityId, setOpenEntityId] = React.useState<string | null>(null);
   const articleRef = React.useRef<HTMLDivElement>(null);
   const [visibleParagraphIndices, setVisibleParagraphIndices] = React.useState<Set<number>>(() => new Set());
   const [contextMenuAnchor, setContextMenuAnchor] = React.useState<ParagraphContextAnchor | null>(null);
+
+  /** When scrollToEntityId is set (e.g. from character guide link), scroll to the first occurrence of that entity in the chapter and run a highlight animation. */
+  React.useEffect(() => {
+    if (!scrollToEntityId || !articleRef.current) return;
+    const id = scrollToEntityId;
+    const el = articleRef.current.querySelector<HTMLElement>(
+      `[data-person-entity-id="${CSS.escape(id)}"]`
+    );
+    if (!el) return;
+    const rafId = requestAnimationFrame(() => {
+      el.scrollIntoView({ behavior: "smooth", block: "center" });
+      el.setAttribute("data-scroll-to-highlight", "true");
+      const onEnd = () => {
+        el.removeAttribute("data-scroll-to-highlight");
+        el.removeEventListener("animationend", onEnd);
+      };
+      el.addEventListener("animationend", onEnd);
+    });
+    return () => cancelAnimationFrame(rafId);
+  }, [scrollToEntityId, paragraphSegments.length]);
 
   /** Track which paragraphs intersect the viewport; current scene = earliest scene that overlaps any visible paragraph.
    * Depends on chapterNumber so the observer is recreated when switching chapters (DOM nodes change even if paragraph count is unchanged). */
@@ -74,42 +100,50 @@ export function ChapterContent({
     return overlapping[0] ?? null;
   }, [scenes, visibleParagraphIndices]);
 
-  /** Character entity IDs whose link is actually in the viewport (only these get footer avatars). */
+  /** Character entity IDs whose link is in the viewport. Re-scanned from scratch on debounced scroll/resize. */
   const [visibleCharacterIds, setVisibleCharacterIds] = React.useState<string[]>([]);
-  const visibilityByElementRef = React.useRef<Map<Element, string>>(new Map());
 
   React.useEffect(() => {
     const el = articleRef.current;
     if (!el) return;
-    const personLinks = el.querySelectorAll<HTMLElement>("[data-person-entity-id]");
-    const visibilityMap = visibilityByElementRef.current;
-    if (personLinks.length === 0) {
-      setVisibleCharacterIds([]);
-      return;
+
+    function scanVisibleCharacterIds(): string[] {
+      if (!el) return [];
+      const personLinks = el.querySelectorAll<HTMLElement>("[data-person-entity-id]");
+      const viewportBottom = typeof window !== "undefined" ? window.innerHeight : 0;
+      const ids: string[] = [];
+      for (let i = 0; i < personLinks.length; i++) {
+        const link = personLinks[i];
+        const id = link.getAttribute("data-person-entity-id");
+        if (!id) continue;
+        const rect = link.getBoundingClientRect();
+        if (rect.bottom > 0 && rect.top < viewportBottom) ids.push(id);
+      }
+      const deduped = [...new Set(ids)];
+      return deduped.length === 0 ? [] : deduped.sort((a, b) => a.localeCompare(b));
     }
-    const observer = new IntersectionObserver(
-      (entries) => {
-        for (const entry of entries) {
-          const id = entry.target.getAttribute("data-person-entity-id");
-          if (!id) continue;
-          if (entry.isIntersecting) visibilityMap.set(entry.target, id);
-          else visibilityMap.delete(entry.target);
-        }
-        setVisibleCharacterIds(() => {
-          const next = Array.from(visibilityMap.values());
-          const deduped = [...new Set(next)];
-          return deduped.length === 0 ? [] : deduped.sort((a, b) => a.localeCompare(b));
-        });
-      },
-      { root: null, rootMargin: "0px", threshold: 0.1 }
-    );
-    personLinks.forEach((link) => observer.observe(link));
+
+    let debounceId: ReturnType<typeof setTimeout> | null = null;
+    const DEBOUNCE_MS = 120;
+
+    function onScrollOrResize() {
+      if (debounceId != null) clearTimeout(debounceId);
+      debounceId = setTimeout(() => {
+        debounceId = null;
+        setVisibleCharacterIds(scanVisibleCharacterIds());
+      }, DEBOUNCE_MS);
+    }
+
+    setVisibleCharacterIds(scanVisibleCharacterIds());
+    window.addEventListener("scroll", onScrollOrResize, { passive: true });
+    window.addEventListener("resize", onScrollOrResize);
     return () => {
-      observer.disconnect();
-      visibilityMap.clear();
+      window.removeEventListener("scroll", onScrollOrResize);
+      window.removeEventListener("resize", onScrollOrResize);
+      if (debounceId != null) clearTimeout(debounceId);
       setVisibleCharacterIds([]);
     };
-  }, [paragraphSegments]);
+  }, [chapterNumber, paragraphSegments]);
 
   const openContextMenu = React.useCallback(
     (event: React.MouseEvent<HTMLParagraphElement>, paragraphIndex: number) => {
@@ -149,6 +183,12 @@ export function ChapterContent({
     return map;
   }, [scenes, chapterNumber]);
 
+  /** Scene images: monte-cristo stays at /images/scenes/ for backward compat; other books use /images/scenes/<bookSlug>/ */
+  const scenesBase =
+    bookSlug && bookSlug !== "monte-cristo"
+      ? `/images/scenes/${bookSlug}`
+      : "/images/scenes";
+
   return (
     <>
       <div
@@ -160,7 +200,7 @@ export function ChapterContent({
             {sceneKeyByParagraphStart[i] != null && (
               <figure className="my-6 -mx-2 rounded-lg overflow-hidden">
                 <Image
-                  src={`/images/scenes/${sceneKeyByParagraphStart[i]}.webp`}
+                  src={`${scenesBase}/${sceneKeyByParagraphStart[i]}.webp`}
                   alt=""
                   width={800}
                   height={450}
@@ -212,12 +252,14 @@ export function ChapterContent({
         baselineIntro={baselineIntro}
         onClose={() => setOpenEntityId(null)}
         onSelectEntity={setOpenEntityId}
+        bookSlug={bookSlug}
       />
       <ReaderFooter
         locationLabel={currentScene?.locationDescription ?? null}
         visibleCharacterIds={visibleCharacterIds}
         xrayData={xrayData}
         onOpenEntity={setOpenEntityId}
+        bookSlug={bookSlug}
       />
       <ParagraphContextMenu
         anchor={contextMenuAnchor}
@@ -225,6 +267,7 @@ export function ChapterContent({
         onClose={() => setContextMenuAnchor(null)}
         entityData={xrayData}
         onOpenEntity={setOpenEntityId}
+        bookSlug={bookSlug}
       />
     </>
   );

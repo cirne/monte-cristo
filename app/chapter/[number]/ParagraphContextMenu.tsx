@@ -19,6 +19,8 @@ interface ParagraphContextMenuProps {
   onClose: () => void;
   entityData?: Record<string, XRayEntityData>;
   onOpenEntity?: (entityId: string) => void;
+  /** When set, context API requests include &book= for multi-book support */
+  bookSlug?: string;
 }
 
 const VIEWPORT_MARGIN_PX = 12;
@@ -47,6 +49,7 @@ export function ParagraphContextMenu({
   onClose,
   entityData = {},
   onOpenEntity,
+  bookSlug,
 }: ParagraphContextMenuProps) {
   const menuPopoverRef = React.useRef<HTMLDivElement>(null);
   const requestIdRef = React.useRef(0);
@@ -154,7 +157,8 @@ export function ParagraphContextMenu({
       setError(undefined);
 
       try {
-        const url = `${actionEndpoint(nextAction)}?chapter=${chapterNumber}&paragraph=${anchor.paragraphIndex}`;
+        let url = `${actionEndpoint(nextAction)}?chapter=${chapterNumber}&paragraph=${anchor.paragraphIndex}`;
+        if (bookSlug) url += `&book=${encodeURIComponent(bookSlug)}`;
         const response = await fetch(url);
         const payload = (await response.json()) as { answer?: string; error?: string };
         if (requestIdRef.current !== requestId) return;
@@ -173,7 +177,7 @@ export function ParagraphContextMenu({
         setError(e instanceof Error ? e.message : "Unable to load reading context.");
       }
     },
-    [anchor, chapterNumber]
+    [anchor, chapterNumber, bookSlug]
   );
 
   const answerSegments = React.useMemo(() => {

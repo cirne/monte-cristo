@@ -1,6 +1,6 @@
 /**
  * Shared image generation: style loading, prompt building, and DALL·E → WebP.
- * Used by generate-images.ts (entities) and generate-scene-images.ts (scenes).
+ * Used by generate-images.ts (entities and scenes).
  */
 
 import { readFileSync, existsSync } from "fs";

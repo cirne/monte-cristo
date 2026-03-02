@@ -18,3 +18,24 @@ body {
   color: var(--foreground);
   font-family: Georgia, "Times New Roman", serif;
 }
+
+/* Draw attention to character link when scrolled to via ?scrollTo= (e.g. from character guide) */
+@keyframes scroll-to-highlight {
+  0% {
+    box-shadow: 0 0 0 2px rgb(251 191 36 / 0.9);
+    background-color: rgb(251 191 36 / 0.15);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgb(251 191 36 / 0.25);
+    background-color: rgb(251 191 36 / 0.08);
+  }
+  100% {
+    box-shadow: none;
+    background-color: transparent;
+  }
+}
+
+[data-scroll-to-highlight="true"] {
+  animation: scroll-to-highlight 1.4s ease-out forwards;
+  border-radius: 3px;
+}

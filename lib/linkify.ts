@@ -4,8 +4,6 @@
  * Longest match wins to avoid overlapping links (e.g. "Comte de Morcerf" over "Morcerf").
  */
 
-import { getCharacter } from "./characters";
-import { getPlaceOrEvent } from "./entities";
 import { getStoredEntity } from "./entity-store";
 import { getChapterIndexEntry } from "./chapter-index";
 import type { EntityType } from "./chapter-index";
@@ -49,29 +47,17 @@ function isTokenBounded(text: string, start: number, end: number): boolean {
 }
 
 /** Build regex pattern list for entities in this chapter that have matchPatterns */
-function getPatternsForChapter(chapterNumber: number): PatternInfo[] {
-  const entry = getChapterIndexEntry(chapterNumber);
+function getPatternsForChapter(chapterNumber: number, slug: string): PatternInfo[] {
+  const entry = getChapterIndexEntry(slug, chapterNumber);
   if (!entry) return [];
 
   const patterns: PatternInfo[] = [];
   for (const { entityId, type } of entry.entities) {
-    if (type === "person") {
-      const c = getCharacter(entityId);
-      const stored = getStoredEntity(entityId);
-      const matchPatterns = c?.matchPatterns ?? stored?.matchPatterns;
-      if (matchPatterns?.length) {
-        for (const p of matchPatterns) {
-          patterns.push({ pattern: p, entityId, entityType: "person" });
-        }
-      }
-    } else {
-      const e = getPlaceOrEvent(entityId);
-      const stored = getStoredEntity(entityId);
-      const matchPatterns = e?.matchPatterns ?? stored?.matchPatterns;
-      if (matchPatterns?.length) {
-        for (const p of matchPatterns) {
-          patterns.push({ pattern: p, entityId, entityType: (e ?? stored)!.type });
-        }
+    const stored = getStoredEntity(slug, entityId);
+    const matchPatterns = stored?.matchPatterns;
+    if (matchPatterns?.length) {
+      for (const p of matchPatterns) {
+        patterns.push({ pattern: p, entityId, entityType: type });
       }
     }
   }
@@ -79,44 +65,24 @@ function getPatternsForChapter(chapterNumber: number): PatternInfo[] {
 }
 
 /** Build term list for entities that appear in this chapter (longest first) */
-function getTermsForChapter(chapterNumber: number): TermInfo[] {
-  const entry = getChapterIndexEntry(chapterNumber);
+function getTermsForChapter(chapterNumber: number, slug: string): TermInfo[] {
+  const entry = getChapterIndexEntry(slug, chapterNumber);
   if (!entry) return [];
 
   const terms: TermInfo[] = [];
   const seen = new Set<string>();
 
   for (const { entityId, type } of entry.entities) {
-    if (type === "person") {
-      const c = getCharacter(entityId);
-      const stored = getStoredEntity(entityId);
-      const toAdd = c
-        ? [c.name, ...c.aliases, ...c.searchTerms]
-        : stored
-          ? [stored.name, ...stored.aliases, ...stored.searchTerms]
-          : [];
-      if (!toAdd.length) continue;
-      for (const t of toAdd) {
-        const key = t.toLowerCase().trim();
-        if (!key || seen.has(key)) continue;
-        seen.add(key);
-        terms.push({ term: t, entityId, entityType: "person" });
-      }
-    } else {
-      const e = getPlaceOrEvent(entityId);
-      const stored = getStoredEntity(entityId);
-      const toAdd = e
-        ? [e.name, ...e.searchTerms]
-        : stored
-          ? [stored.name, ...stored.searchTerms]
-          : [];
-      if (!toAdd.length) continue;
-      for (const t of toAdd) {
-        const key = t.toLowerCase().trim();
-        if (!key || seen.has(key)) continue;
-        seen.add(key);
-        terms.push({ term: t, entityId, entityType: (e ?? stored)!.type });
-      }
+    const stored = getStoredEntity(slug, entityId);
+    const toAdd = stored
+      ? [stored.name, ...stored.aliases, ...stored.searchTerms]
+      : [];
+    if (!toAdd.length) continue;
+    for (const t of toAdd) {
+      const key = t.toLowerCase().trim();
+      if (!key || seen.has(key)) continue;
+      seen.add(key);
+      terms.push({ term: t, entityId, entityType: type });
     }
   }
 
@@ -210,10 +176,15 @@ function findMatches(
 /**
  * Split paragraph into text and link segments. Only entities present in the
  * chapter index for chapterNumber are linked.
+ * @param slug - Book slug (required).
  */
-export function linkifyParagraph(paragraph: string, chapterNumber: number): Segment[] {
-  const terms = getTermsForChapter(chapterNumber);
-  const patterns = getPatternsForChapter(chapterNumber);
+export function linkifyParagraph(
+  paragraph: string,
+  chapterNumber: number,
+  slug: string
+): Segment[] {
+  const terms = getTermsForChapter(chapterNumber, slug);
+  const patterns = getPatternsForChapter(chapterNumber, slug);
   if (terms.length === 0 && patterns.length === 0) return [{ type: "text", content: paragraph }];
 
   const matches = findMatches(paragraph, terms, patterns);

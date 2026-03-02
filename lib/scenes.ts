@@ -5,6 +5,8 @@
  * getParagraphs / getSingleScene only for indexing and fallback.
  */
 
+import { isCanonicalHtml, htmlToParagraphs } from "./canonical-html";
+
 export interface Scene {
   /** 0-based paragraph index where this scene starts (inclusive) */
   startParagraph: number;
@@ -32,10 +34,15 @@ export interface EntityRefForScenes {
 }
 
 /**
- * Split chapter content into paragraphs (double newline).
- * Single newlines within a paragraph are preserved.
+ * Split chapter content into paragraphs.
+ * Supports canonical HTML (content with <p>...</p>) or legacy plain text (double newline).
+ * Single newlines within a paragraph are preserved in plain text; normalized to space in HTML.
  */
 export function getParagraphs(content: string): string[] {
+  if (isCanonicalHtml(content)) {
+    const fromHtml = htmlToParagraphs(content);
+    if (fromHtml.length > 0) return fromHtml;
+  }
   return content
     .split(/\n\n+/)
     .map((p) => p.replace(/\n/g, " ").trim())
