@@ -63,7 +63,7 @@ export function BookCardActions({
       ) : null}
       <div className="flex flex-wrap items-center gap-2">
         <Link
-          href={`/book/${slug}/chapters`}
+          href={`/book/${slug}`}
           className="inline-flex items-center px-3 py-1.5 rounded-lg text-sm font-medium border border-stone-200 text-stone-600 hover:bg-stone-100 hover:text-stone-900 dark:border-stone-600 dark:text-stone-400 dark:hover:bg-stone-800 dark:hover:text-stone-200 transition-colors"
         >
           Table of Contents

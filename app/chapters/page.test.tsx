@@ -7,13 +7,13 @@ vi.mock("next/navigation", () => ({
 }));
 
 describe("app/chapters/page", () => {
-  it("redirects to default book chapters", async () => {
+  it("redirects to default book home", async () => {
     const { redirect } = await import("next/navigation");
     try {
       render(<LegacyChaptersPage />);
     } catch {
       // redirect() may throw
     }
-    expect(redirect).toHaveBeenCalledWith("/book/monte-cristo/chapters");
+    expect(redirect).toHaveBeenCalledWith("/book/monte-cristo");
   });
 });

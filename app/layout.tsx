@@ -20,10 +20,8 @@ export default function RootLayout({
       <body
         className="antialiased min-h-screen bg-stone-50 text-stone-900 dark:bg-stone-950 dark:text-stone-100"
       >
-        <header className="border-b border-stone-200 bg-white sticky top-0 z-10 flex flex-col dark:border-stone-800 dark:bg-stone-900">
-          <HeaderNav />
-          <HeaderProgressBar />
-        </header>
+        <HeaderNav />
+        <HeaderProgressBar />
         {children}
         <Footer />
       </body>
