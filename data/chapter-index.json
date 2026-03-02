@@ -139,7 +139,7 @@
         },
         {
           "startParagraph": 3,
-          "endParagraph": 17,
+          "endParagraph": 16,
           "locationDescription": "Onboard the Pharaon",
           "imageDescription": "Onboard the Pharaon, a young sailor with dark hair leaning over the ship's bulwarks, gazing out at a small skiff approaching the vessel. The deck is bustling with crew members preparing to drop anchor, all dressed in mid-19th-century maritime attire. The sun sets on the horizon, casting a golden hue over the ship, enhancing the tension as the news of Captain Leclere's death is revealed. The atmosphere is rich with camaraderie and underlying concern.",
           "characterIds": [
@@ -149,8 +149,8 @@
           ]
         },
         {
-          "startParagraph": 18,
-          "endParagraph": 23,
+          "startParagraph": 17,
+          "endParagraph": 22,
           "locationDescription": "Onboard the Pharaon, near the pilot's station",
           "imageDescription": "A scene depicting the deck of the Pharaon where Dantès converses with M. Morrel, sunlight filtering through the sails above, casting shadows on the wooden deck. Dantès, visibly emotional after sharing the news of Captain Leclere's death, stands resolutely while Morrel listens intently, wearing a worried expression. The crew works diligently in the background, handling sails and rigging, their focus indicative of their respect for their young leader. The atmosphere is somber yet charged with anticipation for the future.",
           "characterIds": [
@@ -159,8 +159,8 @@
           ]
         },
         {
-          "startParagraph": 24,
-          "endParagraph": 33,
+          "startParagraph": 23,
+          "endParagraph": 31,
           "locationDescription": "Onboard the Pharaon, as the crew prepares to dock",
           "imageDescription": "On the bustling deck of the Pharaon, Dantès gestures to M. Morrel to climb onboard as the ship approaches a docking area. The crew, young sailors with attentive expressions, follow orders to secure the vessel, all adorned in typical 19th-century nautical clothing. The harbor is alive with activity; ships bob along the water, and people gather to see the arrival. A sense of duty and pride fills the air, as Dantès manages the moment with both authority and respect.",
           "characterIds": [
@@ -170,8 +170,8 @@
           ]
         },
         {
-          "startParagraph": 34,
-          "endParagraph": 34,
+          "startParagraph": 32,
+          "endParagraph": 32,
           "locationDescription": "Onboard the Pharaon, in conversation with Danglars",
           "imageDescription": "The scene takes place on the bustling deck of the Pharaon, with Dantès, dressed in a captain's mate attire, attentively speaking to M. Morrel, who is gesturing towards him. Nearby, M. Danglars stands slightly apart, his demeanor indicating annoyance. The afternoon light reflects off the water, and the atmosphere is tense with competition. Sailors can be seen in the background, managing ropes and sails, their busy hands enhancing the sense of urgency in the situation.",
           "characterIds": [
@@ -181,8 +181,8 @@
           ]
         },
         {
-          "startParagraph": 32,
-          "endParagraph": 127,
+          "startParagraph": 30,
+          "endParagraph": 123,
           "locationDescription": "Onboard the Pharaon, discussing Captain Leclere",
           "imageDescription": "On the deck of the Pharaon, under a clear blue sky, Morrel speaks earnestly to Dantès about the responsibilities of command. Dantès, who embodies youthful determination, stands straight with a commanding demeanor, showcasing his resolve. The crew can be seen working the sails in the background, their loyalty and admiration for Dantès evident even at a distance. The scene encapsulates the balance between hope and pressure on the horizon of Dantès' future.",
           "characterIds": [
@@ -192,8 +192,8 @@
           ]
         },
         {
-          "startParagraph": 128,
-          "endParagraph": 129,
+          "startParagraph": 124,
+          "endParagraph": 125,
           "locationDescription": "On the quay at Marseilles",
           "imageDescription": "As the sun sets over the bustling quay of Marseilles, a young sailor, Dantès, sits in a small skiff with two oarsmen preparing to row him ashore. The crowds bustle around the harbor, a tapestry of merchants, sailors, and townspeople, all dressed in early 19th-century attire. The harbor is filled with ships and the sounds of commerce, capturing the essence of maritime life. The atmosphere is vibrant, charged with expectancy as Dantès heads towards his family and promised love.",
           "characterIds": [
@@ -341,7 +341,7 @@
         },
         {
           "startParagraph": 3,
-          "endParagraph": 36,
+          "endParagraph": 35,
           "locationDescription": "Dantès’ father's small room, continuing conversation",
           "imageDescription": "The same modest room with old Dantès sitting or reclining weakly while Edmond speaks anxiously. The table before them holds a scattered pile of gold coins that Edmond has just emptied from his pockets. The old man looks pale and fragile, with signs of distress, while Edmond shows a mixture of hope and worry. The light remains soft and natural, emphasizing the emotional depth of the reunion and the tension about the father’s hardship.",
           "characterIds": [
@@ -350,8 +350,8 @@
           ]
         },
         {
-          "startParagraph": 37,
-          "endParagraph": 37,
+          "startParagraph": 36,
+          "endParagraph": 36,
           "locationDescription": "Inside the small room as Caderousse arrives at the door",
           "imageDescription": "In the cozy, humble room, the black-haired, bearded neighbor, Gaspard Caderousse, stands at the half-open doorway holding a piece of cloth, appearing somewhat sly but outwardly friendly. Edmond and his father remain near the table, facing Caderousse with polite but guarded expressions. The setting conveys a sense of neighborly interaction tinged with underlying wariness, with spring daylight filling the room.",
           "characterIds": [
@@ -362,7 +362,7 @@
         },
         {
           "startParagraph": 0,
-          "endParagraph": 103,
+          "endParagraph": 99,
           "locationDescription": "Small room, conversation between Edmond, his father, and Caderousse",
           "imageDescription": "A triangular grouping around the table within the modest room: Edmond stands near his elderly father, who sits, while Caderousse, the tailor, sits or stands nearby with a grin and a somewhat greedy look in his eyes, glancing at Edmond’s money. The mood is convivial with subtle undercurrents of tension. The furnishings remain simple, period-appropriate, evoking mid-19th century Marseille atmosphere.",
           "characterIds": [
@@ -372,8 +372,8 @@
           ]
         },
         {
-          "startParagraph": 104,
-          "endParagraph": 104,
+          "startParagraph": 100,
+          "endParagraph": 100,
           "locationDescription": "Room with Edmond, Caderousse, and old Dantès, discussing Mercédès",
           "imageDescription": "The three men remain in the modest room, now deeply engaged in conversation about Mercédès and the surrounding social intrigues. Edmond looks confident yet shows a flicker of unease, Caderousse wears a knowing, somewhat sneering expression, and the elderly father observes quietly. The lighting highlights the earnestness of Edmond paired with the skepticism of Caderousse, emphasizing the social tension of the narrative.",
           "characterIds": [
@@ -384,7 +384,7 @@
         },
         {
           "startParagraph": 0,
-          "endParagraph": 115,
+          "endParagraph": 111,
           "locationDescription": "Outside on street corner near Rue Senac and later at La Réserve tavern",
           "imageDescription": "Two men, Danglars and Caderousse, stand talking on a street corner dressed in 19th-century civilian clothing, with subtle shadows indicating an early spring afternoon. They move toward a small tavern, La Réserve, where they sit beneath budding plane and sycamore trees, brightened by lively bird songs. The atmosphere is one of casual scheming, with the contrasting light of the lively outdoors and shaded tavern creating a scene of conspiratorial discussion.",
           "characterIds": [
@@ -468,7 +468,7 @@
       "scenes": [
         {
           "startParagraph": 1,
-          "endParagraph": 15,
+          "endParagraph": 14,
           "locationDescription": "In the village of the Catalans, inside a rustic house",
           "imageDescription": "A sunlit interior of a rustic whitewashed house with walls sunburned to a dead-leaf color. A young beautiful girl with black hair and velvety eyes sits leaning against a wainscot, picking flowers, barefoot in colorful stockings. A young tall man balances on two legs of a chair seated near an old wooden table. Their clothes reflect a mix of Moorish and Spanish style typical of a 19th-century Catalan fishing village. The atmosphere is charged with tension and unspoken emotion.",
           "characterIds": [
@@ -477,8 +477,8 @@
           ]
         },
         {
-          "startParagraph": 16,
-          "endParagraph": 25,
+          "startParagraph": 15,
+          "endParagraph": 24,
           "locationDescription": "Same rustic house in the village of the Catalans",
           "imageDescription": "The same rustic house interior now filled with intense emotion. Mercédès and Fernand confront each other; Mercédès looks distressed yet resolute, tears in her eyes, while Fernand's expression is a mixture of jealousy, anger, and despair. Sunlight floods the open doorway, illuminating the three figures with brightness and casting sharp shadows. A tense, dramatic atmosphere of conflicted love and rivalry pervades the room. Period attire of sailors and villagers accentuates the setting.",
           "characterIds": [
@@ -488,8 +488,8 @@
           ]
         },
         {
-          "startParagraph": 26,
-          "endParagraph": 35,
+          "startParagraph": 25,
+          "endParagraph": 34,
           "locationDescription": "Inside the Catalan house, near the open door",
           "imageDescription": "Inside the rustic Catalan house, Mercédès and Edmond Dantès embrace joyously near the open door, bathed in dazzling sunlight streaming in. Fernand stands slightly back, pale and trembling, his hand near a belt knife, tension visible in his posture. Edmond holds Mercédès' hand warmly and extends the other to Fernand, who recoils without returning the gesture. The distinct contrast between the lovers' joy and Fernand's looming menace fills the scene, rendered in rich 19th-century style.",
           "characterIds": [
@@ -499,8 +499,8 @@
           ]
         },
         {
-          "startParagraph": 36,
-          "endParagraph": 36,
+          "startParagraph": 35,
+          "endParagraph": 35,
           "locationDescription": "In the arbor outside the Catalan village house",
           "imageDescription": "Shaded, leafy arbor with a rough wooden table where Fernand, Caderousse, and Danglars sit and stand. Fernand appears agitated and exhausted, having just entered from a hurried run. Caderousse laughs with a glass in hand, Danglars watches keenly. The three men wear 19th-century Provençal peasant and merchant attire. The atmosphere is one of casual drinking mixed with intrigue, as the men engage in animated conversation under the dappled light filtering through the foliage.",
           "characterIds": [
@@ -511,7 +511,7 @@
         },
         {
           "startParagraph": 0,
-          "endParagraph": 66,
+          "endParagraph": 65,
           "locationDescription": "Same arbor in the Catalan village",
           "imageDescription": "Close-up scene at the arbor table with the three men: Fernand, Caderousse, and Danglars. Fernand looks defeated and gloomy, head in hands on the table. Caderousse jovially teases him, glass in hand, while Danglars looks on with a mix of mock sympathy and sly calculation. The late afternoon sun casts warm light, highlighting the rough textures of clothes and wood. The mood is a blend of dark humor and brewing tension amid rustic simplicity.",
           "characterIds": [
@@ -521,8 +521,8 @@
           ]
         },
         {
-          "startParagraph": 67,
-          "endParagraph": 73,
+          "startParagraph": 66,
+          "endParagraph": 71,
           "locationDescription": "Outside near the Catalan village, looking towards the path",
           "imageDescription": "An outdoor view capturing two lovers walking hand in hand along a seaside path near the village. Fernand, Caderousse, and Danglars watch from the arbor shaded by vines. Fernand’s face is strained with jealousy; Caderousse leans forward eagerly; Danglars observes coldly. The background shows the sunlit sea and small Catalan village houses. The setting evokes a vivid 19th-century Mediterranean coastal atmosphere, charged with silent rivalry and voyeurism.",
           "characterIds": [
@@ -534,8 +534,8 @@
           ]
         },
         {
-          "startParagraph": 74,
-          "endParagraph": 75,
+          "startParagraph": 72,
+          "endParagraph": 73,
           "locationDescription": "Back in the arbor near the table under vines",
           "imageDescription": "Fernand, visibly agitated and restless, rises from the seat as Danglars and Caderousse watch him with subtle smirks. Danglars projects cold amusement, while Caderousse gestures drunkenly. The late afternoon light and shadow interplay over their 19th-century rustic clothing. The mood is charged with impending conflict and concealed schemes, reflecting social tension and personal rivalries between the characters.",
           "characterIds": [
@@ -546,8 +546,8 @@
           ]
         },
         {
-          "startParagraph": 76,
-          "endParagraph": 95,
+          "startParagraph": 74,
+          "endParagraph": 93,
           "locationDescription": "In the arbor under vines at the table",
           "imageDescription": "Fernand, Caderousse, Danglars, and Mercédès gathered near the arbor table, with Edmond Dantès approaching. Mercédès curtsies politely, dressed simply and gracefully, her face showing calm dignity. Caderousse clumsily toasts, glass raised, Danglars bows with a calculating smile. Fernand sits silently with a grim expression. The scene is bathed in soft golden light filtering through leaves, capturing nuanced social dynamics and emerging alliances in a vibrant Mediterranean village setting, evocative of the 19th century.",
           "characterIds": [
@@ -651,7 +651,7 @@
         },
         {
           "startParagraph": 0,
-          "endParagraph": 90,
+          "endParagraph": 87,
           "locationDescription": "Walking toward Marseilles by Porte Saint-Victor",
           "imageDescription": "A night scene on a rough stone street leading into Marseilles through the Porte Saint-Victor gate. Danglars supports a stumbling Caderousse by the arm as they stagger along. Fernand, separate from them, stoops to pick up a crumpled letter from the ground in the shadowed arbor before hurriedly pocketing it and rushing away toward a distant city street. The men wear early 19th-century civilian attire, their faces showing uneasy resolve and tension. The dim gas lamps cast long shadows behind them, and the air is heavy with intrigue and impending betrayal.",
           "characterIds": [
@@ -751,7 +751,7 @@
       "scenes": [
         {
           "startParagraph": 0,
-          "endParagraph": 15,
+          "endParagraph": 14,
           "locationDescription": "On the balcony and inside La Réserve",
           "imageDescription": "A spacious, well-lit room on the second floor of La Réserve, decorated with golden inscriptions of French city names above numerous windows. A long wooden balcony extends outside, crowded with elegantly dressed guests in 19th-century maritime and festive attire, eagerly awaiting a wedding feast. The morning sun casts warm ruby light on foamy sea waves outside, enhancing the joyous and expectant atmosphere. The central figures, Edmond Dantès in a refined merchant marine uniform and Mercédès dressed as a radiant bride-to-be, are joined by their friends and family, including men in formal suits and women in light, colorful dresses, all celebrating under a bright daylight.",
           "characterIds": [
@@ -765,8 +765,8 @@
           ]
         },
         {
-          "startParagraph": 16,
-          "endParagraph": 40,
+          "startParagraph": 15,
+          "endParagraph": 38,
           "locationDescription": "Inside the dining room at La Réserve during the feast",
           "imageDescription": "A lively, large dining room filled with guests seated around a long wooden table heavy with traditional 19th-century French and Mediterranean wedding dishes such as lobsters, prawns, and sausages. Mercédès gestures to her father, inviting him to sit on her right, while Fernand looks tense and pale nearby. Edmond Dantès arranges seating, sitting with M. Morrel and Danglars prominently beside him. Guests wear elegant period clothing with sailors’ and townsfolk’s attire mingling, creating an atmosphere of joyful festivity shadowed by subtle undercurrents of tension from Fernand’s expression.",
           "characterIds": [
@@ -780,8 +780,8 @@
           ]
         },
         {
-          "startParagraph": 41,
-          "endParagraph": 50,
+          "startParagraph": 39,
+          "endParagraph": 47,
           "locationDescription": "Salon at the feast as tension rises and Fernand leaves the table",
           "imageDescription": "A spacious, warmly lit salon filled with guests engaged in noisy conversation and laughter, some rising, mingling or moving chairs unceremoniously. Fernand stands apart, pale and visibly distressed, pacing near a window, away from the merriment. Danglars and Caderousse watch him closely from a corner, their expressions wary. Mercédès sits fainted nearby, supported by friends while the atmosphere grows charged with unease despite ongoing festivities. Attire remains refined early 19th-century social dress, set against open windows revealing a sunny day outside.",
           "characterIds": [
@@ -792,8 +792,8 @@
           ]
         },
         {
-          "startParagraph": 51,
-          "endParagraph": 73,
+          "startParagraph": 48,
+          "endParagraph": 68,
           "locationDescription": "Salon at La Réserve, arrival of magistrate and arrest of Edmond Dantès",
           "imageDescription": "The festive salon suddenly falls into a terrifying stillness as a magistrate wearing an official sash enters, accompanied by four soldiers and a corporal in early 19th-century French military uniforms. Guests show shock and dread while Edmond Dantès stands with dignity confronting the official. Frau Mercédès stretches out her arms toward Dantès from a balcony window, crying out in sorrow. The lighting is sharp and dramatic, contrasting bright daylight through the windows and the grim seriousness of the arrest ceremony indoors. Soldiers stand firm by the door, the mood heavy and oppressive.",
           "characterIds": [
@@ -808,8 +808,8 @@
           ]
         },
         {
-          "startParagraph": 74,
-          "endParagraph": 78,
+          "startParagraph": 69,
+          "endParagraph": 73,
           "locationDescription": "Outside La Réserve as Edmond Dantès departs in carriage",
           "imageDescription": "Outside the house, in bright early afternoon light, a horse-drawn carriage waits at the door. Edmond Dantès, calm but about to depart as a prisoner, leans slightly from the coach and calls farewell to Mercédès, who stands distraught on the balcony above, reaching out toward him. Two soldiers and the magistrate accompany Dantès into the carriage. The setting is a lively port city street with some guests watching anxiously, creating a melancholy, tense atmosphere of separation amid earlier festivity.",
           "characterIds": [
@@ -822,8 +822,8 @@
           ]
         },
         {
-          "startParagraph": 79,
-          "endParagraph": 114,
+          "startParagraph": 74,
+          "endParagraph": 109,
           "locationDescription": "Inside La Réserve after Edmond's arrest, with Mercédès and others",
           "imageDescription": "A somber interior room with Mercédès and old Dantès grieving separately, then embracing with heartbroken emotion. Fernand gingerly pours himself a glass of water with trembling hands and sits near Mercédès, who has collapsed fainting, while Danglars and Caderousse watch Fernand with suspicion and quiet conversation. The guests are subdued; the atmosphere is heavy with sorrow and unease. The setting suggests an elegant but now mournful drawing room with soft shadows and muted colors reflecting the despair.",
           "characterIds": [
@@ -835,8 +835,8 @@
           ]
         },
         {
-          "startParagraph": 115,
-          "endParagraph": 147,
+          "startParagraph": 110,
+          "endParagraph": 140,
           "locationDescription": "Street near the port and Palais de Justice, discussing the arrest",
           "imageDescription": "Near the bustling port area and heading towards the Palais de Justice, Danglars, Caderousse, and Maximilian Morrel converse gravely along a cobblestone street. They wear typical early 19th-century merchant and townsfolk clothing appropriate to their standing. Background includes the ship Pharaon docked nearby and classical French architecture indicating the city’s judicial center. The atmosphere is tense yet purposeful as plans and suspicions are quietly exchanged amid the port’s activity.",
           "characterIds": [
@@ -846,8 +846,8 @@
           ]
         },
         {
-          "startParagraph": 148,
-          "endParagraph": 148,
+          "startParagraph": 141,
+          "endParagraph": 141,
           "locationDescription": "Board of the Pharaon, Danglars prepares to assume command",
           "imageDescription": "On the deck of the merchant ship Pharaon docked in port under overcast skies, Danglars steps onto the vessel with a confident expression, dressed in a captain’s maritime uniform suitable for the early 1800s. Two sailors assist with ropes and cargo in the background. The scene carries a discreet mood of triumph and cautious ambition, highlighting Danglars’ new authority following Dantès' arrest.",
           "characterIds": [
@@ -1004,7 +1004,7 @@
       "scenes": [
         {
           "startParagraph": 0,
-          "endParagraph": 67,
+          "endParagraph": 64,
           "locationDescription": "Saint-Méran mansion dining hall",
           "imageDescription": "A sumptuous candlelit dining hall in a grand Marseilles mansion, with ornate decorations and large windows draped in dark velvet curtains. Around an elegantly set table, well-dressed nobles sit and converse passionately; men in formal military or judicial dress—blue and red sashes, medals glinting, high collars—while women wear refined Empire gowns with lace and pearls. Marquis de Saint-Méran stands to propose a toast, glass raised; Marquise de Saint-Méran and Renée de Saint-Méran are seated close by, surrounded by guests, their faces animated by lively discussion. The overall atmosphere is tense but festive, capturing the political fervor and aristocratic splendor of post-Napoleonic France.",
           "characterIds": [
@@ -1016,8 +1016,8 @@
           ]
         },
         {
-          "startParagraph": 68,
-          "endParagraph": 68,
+          "startParagraph": 65,
+          "endParagraph": 65,
           "locationDescription": "Saint-Méran mansion dining hall, Villefort receives urgent news",
           "imageDescription": "The candlelit dining room, now hushed, as a uniformed servant discreetly leans toward Villefort to whisper urgent news. Villefort rises from his chair, serious and focused, drawing the attention of the elegantly dressed guests around the table. Renée looks at him with concern, while the other guests gaze curiously at the interruption. The rich colors and details of their evening attire stand out against the warm glow of the chandeliers and the polished wood and gold accents of the room, evoking an anxious but expectant atmosphere.",
           "characterIds": [
@@ -1030,7 +1030,7 @@
         },
         {
           "startParagraph": 0,
-          "endParagraph": 67,
+          "endParagraph": 64,
           "locationDescription": "Saint-Méran mansion dining hall, Villefort returns with news of an arrest",
           "imageDescription": "Villefort re-enters the brightly lit dining hall, his face animated and triumphant, as the guests turn in interest toward him. Renée looks up with concern and tenderness. The marquise and marquis sit upright, their features attentive. The table is still set with fine china, crystal glasses, and remnants of a festive meal. The mood is now a mix of curiosity, tension, and apprehension, with the opulent background suggesting both the gravity of recent events and the privileged world of the assembled aristocracy.",
           "characterIds": [
@@ -1042,8 +1042,8 @@
           ]
         },
         {
-          "startParagraph": 68,
-          "endParagraph": 95,
+          "startParagraph": 65,
+          "endParagraph": 91,
           "locationDescription": "Saint-Méran mansion dining hall, Villefort departs for official duties",
           "imageDescription": "The formal dining room, chairs pushed back as Villefort takes leave of the table, preparing to depart for urgent business. The marquise gives him a pointed, formal farewell, while Renée watches anxiously, torn between love and dread. Around them, the guests murmur amongst themselves. The last gestures of affection and duty are exchanged in the stately candlelit room, with the glow casting deep shadows and highlighting the emotional contrasts of this moment, blending grandeur and foreboding.",
           "characterIds": [
@@ -1157,7 +1157,7 @@
       "scenes": [
         {
           "startParagraph": 0,
-          "endParagraph": 16,
+          "endParagraph": 15,
           "locationDescription": "Outside and at the door near the Palais de Justice",
           "imageDescription": "A young, distinguished man with a grave air stands outside a grand 19th-century building near the Palais de Justice. He is dressed in elegant, formal attire fitting for a deputy attorney of the king, in early 19th-century France. Nearby, a police commissary in uniform waits for him. A shipowner, in modest merchant clothing, approaches. The scene is daytime with a sober but tense atmosphere, marked by a sense of political and judicial gravity.",
           "characterIds": [
@@ -1166,8 +1166,8 @@
           ]
         },
         {
-          "startParagraph": 17,
-          "endParagraph": 17,
+          "startParagraph": 16,
+          "endParagraph": 16,
           "locationDescription": "Antechamber of the Palais de Justice",
           "imageDescription": "A spacious antechamber crowded with police agents and gendarmes in dark uniforms. At the center stands a calm, smiling young man, the prisoner, in simple sailor's clothes, carefully watched but composed. Villefort, stern and grim, passes through the room, taking a packet from a gendarme. Early 19th-century decor with a heavy door leading into an office. The lighting is dim, emphasizing the oppressive judicial atmosphere.",
           "characterIds": [
@@ -1176,8 +1176,8 @@
           ]
         },
         {
-          "startParagraph": 18,
-          "endParagraph": 18,
+          "startParagraph": 17,
+          "endParagraph": 17,
           "locationDescription": "Villefort's office inside the Palais de Justice",
           "imageDescription": "A richly furnished office with wooden desk covered in papers and documents. Villefort sits behind the desk, an austere man with a composed but severe expression. Edmond Dantès stands before him, pale yet calm, dressed in simple sailor garb, politely saluting and looking around as if in a familiar salon. The room is lit by candlelight or daylight through a nearby window, reflecting a tense but formal judicial encounter.",
           "characterIds": [
@@ -1208,7 +1208,7 @@
         },
         {
           "startParagraph": 0,
-          "endParagraph": 85,
+          "endParagraph": 81,
           "locationDescription": "Villefort's office — discovery and destruction of the letter",
           "imageDescription": "Villefort, pale and tense, closely examines a letter. Suddenly alarmed, he draws forth a paper from a packet and glances with terror. The room darkens with a sense of dread and urgency. Villefort approaches a fireplace and throws the letter into the fire, watching the flames consume it. Dantès displays calmness mixed with concern. The scene is charged with dramatic tension and concealed stakes.",
           "characterIds": [
@@ -1217,8 +1217,8 @@
           ]
         },
         {
-          "startParagraph": 86,
-          "endParagraph": 98,
+          "startParagraph": 82,
+          "endParagraph": 94,
           "locationDescription": "Villefort's office — end of interrogation and parting",
           "imageDescription": "Villefort advises Dantès with a softened expression, now sitting relaxed but serious at his desk. Dantès listens attentively, resolved and respectful. The background shows the half-burnt remnants of the letter in the fireplace grate. A police agent awaits near the door as Dantès prepares to depart, saluting Villefort. The room carries a somber but hopeful mood as the scene closes.",
           "characterIds": [
@@ -1227,8 +1227,8 @@
           ]
         },
         {
-          "startParagraph": 99,
-          "endParagraph": 102,
+          "startParagraph": 95,
+          "endParagraph": 97,
           "locationDescription": "Villefort's private study or home after interrogation",
           "imageDescription": "Villefort alone in a modest but elegant private study or home interior. He sits slumped in a chair, pale and distressed, reflecting on the consequences of the letter. The room is warmly lit by a lamp or candlelight, casting long shadows. Documents are scattered on a table. His expression is one of fear mixed with cunning as a smile begins to play around his mouth, signaling resolve. The atmosphere is heavy with internal conflict and dark ambition.",
           "characterIds": [
@@ -1374,7 +1374,7 @@
         },
         {
           "startParagraph": 11,
-          "endParagraph": 42,
+          "endParagraph": 41,
           "locationDescription": "Library in Madame de Saint-Méran's house",
           "imageDescription": "A richly-paneled 19th-century library with floor-to-ceiling bookshelves filled with leather-bound volumes. M. de Villefort and the Marquis de Saint-Méran stand near a large wooden desk, speaking in hushed tones. Villefort holds a letter while the marquis writes another, illuminated by a desk lamp. Both wear formal period attire. The atmosphere is tense and urgent, showing the gravity of the situation.",
           "characterIds": [
@@ -1384,8 +1384,8 @@
           ]
         },
         {
-          "startParagraph": 43,
-          "endParagraph": 48,
+          "startParagraph": 42,
+          "endParagraph": 46,
           "locationDescription": "Outside Villefort’s residence, on the street",
           "imageDescription": "A dimly lit street in 19th-century Marseille outside Villefort’s residence at night. Villefort walks calmly but thoughtfully, dressed in formal dark attire and cloak. Mercédès suddenly appears from the shadows and confronts him. She looks beautiful yet sorrowful, in a modest but elegant dress of the period. The street lamp casts a soft glow, illuminating their tense encounter, with Villefort slightly recoiling and Mercédès tearful and pleading.",
           "characterIds": [
@@ -1394,8 +1394,8 @@
           ]
         },
         {
-          "startParagraph": 49,
-          "endParagraph": 52,
+          "startParagraph": 47,
+          "endParagraph": 50,
           "locationDescription": "Salon at Madame de Saint-Méran's house",
           "imageDescription": "The same warmly lit salon where Villefort sits alone in a chair, overcome with remorse and tortured thoughts. The room appears quiet and still, decorated with antique furniture and soft candlelight. Villefort’s face shows anguish and inner conflict as he clasps his hand to his head thoughtfully.",
           "characterIds": [
@@ -1403,8 +1403,8 @@
           ]
         },
         {
-          "startParagraph": 53,
-          "endParagraph": 55,
+          "startParagraph": 51,
+          "endParagraph": 52,
           "locationDescription": "Madame de Saint-Méran's salon",
           "imageDescription": "Madame de Saint-Méran’s salon at daybreak, softly lit by morning light streaming through windows. Villefort stands with the marquise and Renée, who looks emotional and conflicted. Renée's eyes are fixed on Villefort, concealing personal sorrow. The marquise appears concerned. They wear elegant morning dresses and suits typical of French aristocracy. The atmosphere is bittersweet with a sense of impending separation.",
           "characterIds": [
@@ -1414,8 +1414,8 @@
           ]
         },
         {
-          "startParagraph": 56,
-          "endParagraph": 58,
+          "startParagraph": 53,
+          "endParagraph": 55,
           "locationDescription": "Mercédès' home at the Catalans, evening and night",
           "imageDescription": "A dimly lit, modest room in Mercédès’ home in the Catalans neighborhood. Mercédès lies on a couch, grief-stricken and pale, her eyes distant and unfocused. Fernand kneels beside her, holding her hand and kissing it in a sorrowful gesture. The lamp on a small table flickers low, casting shadows around the room. Both are dressed in working-class attire of the 19th century. The mood is heavy with silent anguish and despair.",
           "characterIds": [
@@ -1424,14 +1424,14 @@
           ]
         },
         {
-          "startParagraph": 59,
-          "endParagraph": 59,
+          "startParagraph": 56,
+          "endParagraph": 56,
           "locationDescription": "M. Morrel's home or office",
           "imageDescription": "A well-furnished office or study in 19th-century Marseille, dim with evening light. M. Morrel sits, looking weary and distressed. Papers and letters lie on the desk before him. The room has a sense of quiet desperation, reflecting his unsuccessful efforts to help Edmond Dantès. No other characters present."
         },
         {
-          "startParagraph": 60,
-          "endParagraph": 60,
+          "startParagraph": 57,
+          "endParagraph": 57,
           "locationDescription": "Caderousse's home, at a dimly lit table",
           "imageDescription": "A shabby, dimly lit room with a rough wooden table on which stand two empty bottles and a candle burning weakly. Gaspard Caderousse sits slumped, inebriated, his face troubled and haunted like a specter. The atmosphere is bleak and heavy, shadows dancing on the walls, evoking a sense of despair and lost hope. His clothing is worn and unkempt, typical of a lower-class man.",
           "characterIds": [
@@ -1439,8 +1439,8 @@
           ]
         },
         {
-          "startParagraph": 61,
-          "endParagraph": 63,
+          "startParagraph": 58,
+          "endParagraph": 60,
           "locationDescription": "Danglars' bedroom",
           "imageDescription": "A neat and quiet bedroom with Danglars lying in bed, peacefully asleep. Room decorated with modest but orderly furnishings of the period. Moonlight filters softly through a window. Danglars' expression is serene and satisfied, contrasting sharply with the turmoil of others. He wears nightclothes typical of a 19th-century gentleman.",
           "characterIds": [
@@ -1548,7 +1548,7 @@
         },
         {
           "startParagraph": 42,
-          "endParagraph": 57,
+          "endParagraph": 56,
           "locationDescription": "Tuileries room, discussion around news and intelligence about Napoleon",
           "imageDescription": "The same intimate royal room with Louis XVIII and M. de Blacas engaged in a serious, somewhat skeptical exchange about rumours of Napoleon's behavior and intentions. M. Dandré stands nearby relaying intelligence with a serious demeanor. The three men wear formal aristocratic dress, their expressions a mix of concern, intrigue, and doubt under soft indoor lighting.",
           "characterIds": [
@@ -1558,8 +1558,8 @@
           ]
         },
         {
-          "startParagraph": 58,
-          "endParagraph": 88,
+          "startParagraph": 57,
+          "endParagraph": 87,
           "locationDescription": "Tuileries room, preparation to receive M. de Villefort",
           "imageDescription": "Still in the same room, Louis XVIII and M. de Blacas converse earnestly. The king smiles slightly with a book open, while de Blacas appears anxious, biting his nails. The atmosphere is tense but formal, with soft shadows emphasizing the historical setting. Both dressed in elegant early 19th-century aristocratic attire.",
           "characterIds": [
@@ -1568,8 +1568,8 @@
           ]
         },
         {
-          "startParagraph": 89,
-          "endParagraph": 89,
+          "startParagraph": 88,
+          "endParagraph": 88,
           "locationDescription": "Tuileries antechamber and entrance hall",
           "imageDescription": "An ornate palace antechamber with richly decorated walls and carpet, showing M. de Blacas escorting a dusty and plainly dressed M. de Villefort inside. Court officials in formal dress look on, expressing surprise or indignation. The contrast between Villefort’s modest attire and the aristocratic surroundings underscores his outsider status. The lighting is natural from windows and chandeliers.",
           "characterIds": [
@@ -1578,8 +1578,8 @@
           ]
         },
         {
-          "startParagraph": 90,
-          "endParagraph": 90,
+          "startParagraph": 89,
+          "endParagraph": 89,
           "locationDescription": "Inside the Tuileries, in front of Louis XVIII",
           "imageDescription": "Louis XVIII seated at the walnut table, facing the newly admitted M. de Villefort, who has just entered and momentarily pauses. Louis XVIII gestures graciously in a welcoming manner, while Villefort, wearing modest but neat official attire, bows respectfully. The room is warmly lit, with books and papers scattered on the table, emphasizing the gravity of this royal audience.",
           "characterIds": [
@@ -1589,7 +1589,7 @@
         },
         {
           "startParagraph": 0,
-          "endParagraph": 111,
+          "endParagraph": 109,
           "locationDescription": "Tuileries room, Louis XVIII and M. de Villefort discuss the conspiracy",
           "imageDescription": "A tense but respectful scene in the royal study with Louis XVIII seated attentively, listening to M. de Villefort, who speaks earnestly, hands lightly raised or clasped in emphasis. The king is visibly moved but composed, while Villefort conveys urgency and devotion. Both men in period formal dress, the room full of soft daylight filtering through the window.",
           "characterIds": [
@@ -1598,8 +1598,8 @@
           ]
         },
         {
-          "startParagraph": 112,
-          "endParagraph": 112,
+          "startParagraph": 110,
+          "endParagraph": 110,
           "locationDescription": "Tuileries room, arrival of M. Dandré interrupting conversation",
           "imageDescription": "The same royal chamber with Louis XVIII, M. de Blacas, and M. de Villefort engaged in conversation, suddenly interrupted by the entrance of a pale, trembling M. Dandré, who appears emotionally distressed. Villefort moves to take his leave but is restrained by de Blacas. The atmosphere is charged, a mixture of anxiety and suspense, all men dressed in early 19th-century formal court attire.",
           "characterIds": [
@@ -1736,7 +1736,7 @@
         },
         {
           "startParagraph": 7,
-          "endParagraph": 45,
+          "endParagraph": 44,
           "locationDescription": "Continued discussion at the royal court with Louis XVIII",
           "imageDescription": "The same ornate throne room, but now Louis XVIII is standing, arms folded with stern expression, addressing M. de Blacas and Villefort who stand respectfully before him. The mood is serious, filled with anxiety about political unrest. The royal court's finery reflects the early 19th-century French regal style.",
           "characterIds": [
@@ -1746,8 +1746,8 @@
           ]
         },
         {
-          "startParagraph": 46,
-          "endParagraph": 64,
+          "startParagraph": 45,
+          "endParagraph": 62,
           "locationDescription": "The royal court discussing the assassination of General Quesnel",
           "imageDescription": "Louis XVIII in formal regal attire seated but leaning forward, speaking earnestly to M. de Blacas and Villefort. The ministers listen intently, Villefort showing signs of internal turmoil. The room retains the rich decor and solemn atmosphere of a royal audience chamber.",
           "characterIds": [
@@ -1758,8 +1758,8 @@
           ]
         },
         {
-          "startParagraph": 65,
-          "endParagraph": 71,
+          "startParagraph": 63,
+          "endParagraph": 69,
           "locationDescription": "Final audience with Louis XVIII and presentation of the Legion of Honor cross",
           "imageDescription": "Louis XVIII, gracious and composed, pins the officer’s cross of the Legion of Honor onto Villefort's lapel. Villefort, deeply moved, stands respectfully in his period magistrate's dress, tears of pride in his eyes. M. de Blacas stands nearby observing. The king’s royal robes gleam in the ambient daylight of the room.",
           "characterIds": [
@@ -1769,8 +1769,8 @@
           ]
         },
         {
-          "startParagraph": 72,
-          "endParagraph": 73,
+          "startParagraph": 70,
+          "endParagraph": 71,
           "locationDescription": "Outside the Tuileries Palace as Villefort departs",
           "imageDescription": "The entrance courtyard of the Tuileries Palace in daylight, with Villefort bowing respectfully to the minister of police (M. de Blacas) as they part ways. Villefort hails a hackney-coach waiting nearby on a cobblestone road, dressed in early 19th-century Parisian attire. The setting conveys a mix of political intrigue and personal ambition.",
           "characterIds": [
@@ -1779,8 +1779,8 @@
           ]
         },
         {
-          "startParagraph": 74,
-          "endParagraph": 94,
+          "startParagraph": 72,
+          "endParagraph": 90,
           "locationDescription": "Villefort's hotel room in Paris",
           "imageDescription": "A richly furnished but modest Parisian hotel room of the early 1800s, with Villefort seated at a small table about to begin breakfast when a sharp bell sounds. The valet stands by the door, speaking to Villefort. Villefort is in elegant dark formal wear, looking curious and alert. Warm daylight filters in through a curtained window.",
           "characterIds": [
@@ -1788,8 +1788,8 @@
           ]
         },
         {
-          "startParagraph": 95,
-          "endParagraph": 98,
+          "startParagraph": 91,
+          "endParagraph": 94,
           "locationDescription": "Villefort confronted by a mysterious visitor in his hotel room",
           "imageDescription": "Villefort stands facing a dark-haired man in his early fifties who has just entered the room. The visitor wears a blue frock-coat buttoned up to the chin with the blue and red rosette of the Legion of Honor pinned to his chest. Villefort's expression is a mixture of surprise and recognition. The room is warmly lit and furnished in a refined but restrained style of the early 19th century.",
           "characterIds": [
@@ -1934,13 +1934,13 @@
         },
         {
           "startParagraph": 1,
-          "endParagraph": 68,
+          "endParagraph": 67,
           "locationDescription": "Dungeon corridor and hallway",
           "imageDescription": "A grim, foul, and humid stairway leading down to the prison dungeons is shown, barred doors along a stone corridor. An inspector-general, a prison governor, two soldiers, and turnkeys move carefully through this oppressive space. The lighting is sparse and shadowy, emphasizing the stifling confinement of the prison and the worn, early 19th-century prison uniforms of the guards."
         },
         {
-          "startParagraph": 69,
-          "endParagraph": 122,
+          "startParagraph": 68,
+          "endParagraph": 119,
           "locationDescription": "In Abbé Faria's dungeon cell",
           "imageDescription": "Inside a small, stark prison cell, an older man, Abbé Faria, dressed in tattered clerical garments, sits within a chalk-drawn circle on the floor, deeply focused on drawing geometric lines. His cell is dimly lit by torchlight held by approaching guards and visiting officials—the inspector, governor, and turnkeys. The damp, rough stone walls frame the scene, evoking isolation but also intellectual intensity in a 19th-century prison setting.",
           "characterIds": [
@@ -1948,14 +1948,14 @@
           ]
         },
         {
-          "startParagraph": 123,
-          "endParagraph": 128,
+          "startParagraph": 120,
+          "endParagraph": 125,
           "locationDescription": "Prison register room or office",
           "imageDescription": "A sparsely furnished prison office or register room where an inspector studies prison documents by candlelight. The room is simple, with a wooden table, some papers and ledgers, and minimal decoration, consistent with early 19th-century penal administration. The inspector is alone, dressed in sober bureaucratic attire, reflecting the administrative aspect of justice."
         },
         {
-          "startParagraph": 129,
-          "endParagraph": 129,
+          "startParagraph": 126,
+          "endParagraph": 126,
           "locationDescription": "Dantès' cell after administrative changes",
           "imageDescription": "A bleak prison cell with a solitary captive marked as number 34 on the door rather than by name. The young man endures long confinement; shadows and faint light from the barred window underscore a sense of abandonment and fading hope. The atmosphere conveys the passage of time and loss of identity in a 19th-century fortress prison setting.",
           "characterIds": [
@@ -1999,7 +1999,7 @@
       "scenes": [
         {
           "startParagraph": 0,
-          "endParagraph": 15,
+          "endParagraph": 14,
           "locationDescription": "Dantès' dungeon cell",
           "imageDescription": "A dimly lit, cold stone dungeon with sparse furnishings including a bed, chair, table, pail, and jug. Edmond Dantès, a young man in early 19th-century prison attire, sits or paces in despair, showing a range of emotions from hope to rage and prayer. The atmosphere is heavy with sorrow and solitude, light filtering weakly from a barred window.",
           "characterIds": [
@@ -2007,8 +2007,8 @@
           ]
         },
         {
-          "startParagraph": 16,
-          "endParagraph": 43,
+          "startParagraph": 15,
+          "endParagraph": 41,
           "locationDescription": "Dantès' dungeon cell after faint sounds from the wall",
           "imageDescription": "The same dungeon cell at night with Dantès alert and leaning towards a thick stone wall, listening intently. His face shows flickers of hope and curiosity. Light from a barred window casts faint shadows, emphasizing the cell’s gloom and confinement.",
           "characterIds": [
@@ -2016,8 +2016,8 @@
           ]
         },
         {
-          "startParagraph": 44,
-          "endParagraph": 52,
+          "startParagraph": 42,
+          "endParagraph": 50,
           "locationDescription": "Dantès' dungeon cell with broken jug and preparation for digging",
           "imageDescription": "Inside the bleak cell, a broken jug lies on the stone floor. Dantès crouches near the wall, holding a jagged shard of pottery with determination, preparing to chip away at the wall. His worn prison clothes and gaunt appearance contrast his focused, energetic demeanor.",
           "characterIds": [
@@ -2025,8 +2025,8 @@
           ]
         },
         {
-          "startParagraph": 53,
-          "endParagraph": 60,
+          "startParagraph": 51,
+          "endParagraph": 57,
           "locationDescription": "Dantès’ dungeon cell with iron soup saucepan",
           "imageDescription": "In the sparse cell, Dantès looks joyfully at an iron saucepan left by the jailer. The setting is rugged, the dim light revealing the scratched stone walls and his modest belongings. Dantès grips the iron handle, using it as a lever to pry a stone from the wall, an expression of hope and resolve on his face.",
           "characterIds": [
@@ -2034,8 +2034,8 @@
           ]
         },
         {
-          "startParagraph": 61,
-          "endParagraph": 67,
+          "startParagraph": 58,
+          "endParagraph": 63,
           "locationDescription": "Dantès’ dungeon cell just after breaking stone from the wall",
           "imageDescription": "Dantès in the dungeon cell, arranging plaster and earth in a corner to conceal his work. The newly formed cavity in the wall is visible, showing rough and hewn stones. He prepares to continue chipping away under faint daylight coming through the barred window, a look of quiet determination on his face.",
           "characterIds": [
@@ -2043,8 +2043,8 @@
           ]
         },
         {
-          "startParagraph": 68,
-          "endParagraph": 133,
+          "startParagraph": 64,
+          "endParagraph": 129,
           "locationDescription": "Dantès’ cell upon hearing a mysterious voice from the other side of the wall",
           "imageDescription": "Dantès on his knees in the dim dungeon cell, face lifted and eyes wide with astonishment and fear as a mysterious voice echoes from behind the wall. The setting is shadowy and claustrophobic, depicting the intense emotional moment in the 19th-century prison cell.",
           "characterIds": [
@@ -2052,8 +2052,8 @@
           ]
         },
         {
-          "startParagraph": 134,
-          "endParagraph": 135,
+          "startParagraph": 130,
+          "endParagraph": 130,
           "locationDescription": "Dantès’ cell and adjacent tunnel opening",
           "imageDescription": "Dantès recoiling as a section of the dungeon floor collapses, revealing a deep dark hole beneath the wall opening he made. Emerging from the hole is a man’s head, shoulders, and body as he climbs into the cell. Both men are in prison clothes of the early 1800s, in a dim, cold stone dungeon lit by faint daylight.",
           "characterIds": [
@@ -2242,7 +2242,7 @@
         },
         {
           "startParagraph": 30,
-          "endParagraph": 52,
+          "endParagraph": 50,
           "locationDescription": "In Faria's prison cell, Faria narrating history",
           "imageDescription": "A focused scene in the gloomy cell where Abbé Faria sits upright on the bed explaining a story with passion and seriousness to Edmond Dantès, who sits close beside him, listening attentively. The old man gestures subtly as he recounts tales of Renaissance figures and conspiracies. Both wear modest prison clothing of the time. Dusty manuscripts and parchments lie scattered, evoking a scholarly atmosphere within the harsh prison environment.",
           "characterIds": [
@@ -2256,8 +2256,8 @@
           ]
         },
         {
-          "startParagraph": 53,
-          "endParagraph": 54,
+          "startParagraph": 51,
+          "endParagraph": 52,
           "locationDescription": "In Faria's prison cell, reading hidden papers",
           "imageDescription": "Dim interior of the prison cell at night with Abbé Faria holding a small flickering wax candle. His face is illuminated by the soft glow as he reads a crumpled, half-burnt piece of old parchment showing yellowish Gothic characters. Edmond Dantès watches intently beside him. The atmosphere is mystical and tense, emphasizing the discovery of secret knowledge.",
           "characterIds": [
@@ -2266,8 +2266,8 @@
           ]
         },
         {
-          "startParagraph": 55,
-          "endParagraph": 79,
+          "startParagraph": 53,
+          "endParagraph": 76,
           "locationDescription": "In Faria's prison cell, showing decoded papers",
           "imageDescription": "Inside the gloomy cell, Abbé Faria presents two fragments of aged, partly burnt parchment with faded Gothic script to Edmond Dantès, who carefully reads them with concentration and amazement. The old man’s face glows with triumph and hope, while Dantès appears overwhelmed yet fascinated. The surroundings remain stark but charged with anticipation.",
           "characterIds": [
@@ -2276,8 +2276,8 @@
           ]
         },
         {
-          "startParagraph": 80,
-          "endParagraph": 80,
+          "startParagraph": 77,
+          "endParagraph": 77,
           "locationDescription": "In Faria's prison cell, concluding about the treasure",
           "imageDescription": "A powerful emotional scene in the prison cell where Edmond Dantès throws himself on the neck of the weakened but smiling Abbé Faria, who extends his one functional arm to embrace the young man. Both show deep affection and mutual support amid their captivity. The dim cell confines but the moment is uplifting and full of human warmth.",
           "characterIds": [
@@ -2338,7 +2338,7 @@
         },
         {
           "startParagraph": 8,
-          "endParagraph": 15,
+          "endParagraph": 14,
           "locationDescription": "In Dantès' prison cell beside the corpse",
           "imageDescription": "A gloomy stone cell dimly lit by faint light from a barred window. Edmond Dantès, dressed in simple prison clothes, is seen sewing himself inside a coarse canvas sack. The corpse of Abbé Faria lies on a nearby bed, head bandaged similarly to Dantès’, eyes fixed open, covered by a coarse blanket. The atmosphere is tense and desperate, capturing Dantès' resolve and grim determination.",
           "characterIds": [
@@ -2347,8 +2347,8 @@
           ]
         },
         {
-          "startParagraph": 16,
-          "endParagraph": 37,
+          "startParagraph": 15,
+          "endParagraph": 36,
           "locationDescription": "Prison corridor and stairs",
           "imageDescription": "A dimly lit, narrow prison corridor at night, with rough stone walls and heavy wooden doors. Two burly grave-diggers carry a large canvas sack on a hand-bier, one with a torch lighting the way. Inside the sack is Edmond Dantès, motionless and bound. A third figure stands guard near the door with another torch. The scene conveys suspense and the heaviness of the unfolding escape attempt.",
           "characterIds": [
@@ -2356,8 +2356,8 @@
           ]
         },
         {
-          "startParagraph": 38,
-          "endParagraph": 45,
+          "startParagraph": 37,
+          "endParagraph": 44,
           "locationDescription": "By the Château d’If sea cliffs",
           "imageDescription": "A dark rocky shoreline at night beside the Château d’If, illuminated by scant torchlight. Two men carry the heavy sack towards a grim stone stairway leading down to the sea. The crashing waves hit the rocks below under a mistral wind, with a gloomy and foreboding atmosphere. The scene is tense, capturing the imminence of danger and Dantès' imminent plunge into the sea.",
           "characterIds": [
@@ -2365,8 +2365,8 @@
           ]
         },
         {
-          "startParagraph": 46,
-          "endParagraph": 49,
+          "startParagraph": 45,
+          "endParagraph": 47,
           "locationDescription": "Underwater near Château d’If",
           "imageDescription": "A turbulent underwater scene in the dark sea near jagged rocks at night. The figure of Edmond Dantès, wrapped in a canvas sack, plunges headfirst into the icy water, limbs flailing. A heavy 36-pound cannonball is tied to his feet, dragging him downward into the depths. The mood is dramatic, evoking danger, struggle, and the perilous moment of escape.",
           "characterIds": [
@@ -2535,7 +2535,7 @@
         },
         {
           "startParagraph": 33,
-          "endParagraph": 86,
+          "endParagraph": 84,
           "locationDescription": "On the deck of a Genoese tartan ship",
           "imageDescription": "Inside the wooden deck of a small early 19th-century Genoese tartan sailing ship, Edmond Dantès lies exhausted on the floor as three sailors tend to him. One sailor, standing at Dantès’ head, rubs his limbs with a woollen cloth; another offers a gourd of rum; and an older captain looks on with cautious concern. The ship’s rigging and sails are visible behind them with soft daylight filtering in, conveying a scene of rescue and tentative hope in period sailor attire.",
           "characterIds": [
@@ -2543,8 +2543,8 @@
           ]
         },
         {
-          "startParagraph": 87,
-          "endParagraph": 97,
+          "startParagraph": 85,
+          "endParagraph": 95,
           "locationDescription": "Onboard deck of the Genoese tartan, navigating towards Leghorn",
           "imageDescription": "On the deck of a small 19th-century Mediterranean sailing ship under daylight, Edmond Dantès stands at the helm, confidently steering the vessel while the captain and crew watch attentively nearby. The sails are full, and the ship is cutting smoothly through bright blue waters. Sailors wear modest seafaring clothes of the period. The mood is lively and hopeful as Dantès demonstrates his sailing skill to the skeptical shipmates.",
           "characterIds": [
@@ -2666,7 +2666,7 @@
         },
         {
           "startParagraph": 27,
-          "endParagraph": 29,
+          "endParagraph": 28,
           "locationDescription": "Rocky terrain near Monte Cristo grottos, daytime",
           "imageDescription": "Edmond Dantès trekking carefully along a narrow path beside steep rocky cliffs draped with myrtle bushes and lichen. He inspects cryptic marks on stones as sunlight filters through scattered clouds above. Jacopo follows at a short distance. The rugged environment is wild and untamed, evoking mystery and the promise of hidden treasures beneath a clear blue sky.",
           "characterIds": [
@@ -2675,8 +2675,8 @@
           ]
         },
         {
-          "startParagraph": 30,
-          "endParagraph": 30,
+          "startParagraph": 29,
+          "endParagraph": 29,
           "locationDescription": "Clifftop near Monte Cristo where the treasure marks end",
           "imageDescription": "Dantès standing on a large round rock at the edge of a steep precipice overlooking his comrades preparing a meal below. The landscape stretches wild and rocky below with sparse vegetation. Dantès displays an expression mixing hope and solemnity as the sailors cook the roasted kid and spread provisions under the bright daylight. The atmosphere is quiet, laden with tension and unspoken thoughts.",
           "characterIds": [
@@ -2686,8 +2686,8 @@
           ]
         },
         {
-          "startParagraph": 31,
-          "endParagraph": 31,
+          "startParagraph": 30,
+          "endParagraph": 30,
           "locationDescription": "Rocky slope near the shore, Monte Cristo, afternoon",
           "imageDescription": "Dantès falling and rolling down a rocky slope with an expression of pain as his comrades rush down the rocks toward him with anxious concern. Jacopo is first to reach him, kneeling beside the injured man tending to his wounds. The scene unfolds in bright daylight among jagged rocks and sparse bushes, capturing urgency and camaraderie in a dramatic moment.",
           "characterIds": [
@@ -2696,8 +2696,8 @@
           ]
         },
         {
-          "startParagraph": 32,
-          "endParagraph": 51,
+          "startParagraph": 31,
+          "endParagraph": 50,
           "locationDescription": "Rocky area near shore with injured Dantès resting",
           "imageDescription": "Dantès seated and leaning weakly against a moss-covered rock, wincing in pain. Nearby, the old patron and Jacopo converse quietly, showing concern. Provisions and supplies lie near Dantès: a gun, pickaxe, and food. The light is soft, late afternoon or early evening, and the mood is solemn but resolute, emphasizing Dantès' suffering and stoicism.",
           "characterIds": [
@@ -2707,8 +2707,8 @@
           ]
         },
         {
-          "startParagraph": 52,
-          "endParagraph": 54,
+          "startParagraph": 51,
+          "endParagraph": 53,
           "locationDescription": "Shore near Monte Cristo, just before the smugglers depart",
           "imageDescription": "The lugger setting sail from the rocky shore with sails partially raised, turning away into the distance as the sun begins to set. Dantès watches from the rocks, holding his gun and pickaxe, his face marked by a determined, calm smile. Jacopo stands nearby, exchanging a warm handshake with Dantès. The golden sunset over the wild shore conveys a mood of farewell mixed with hope.",
           "characterIds": [
@@ -2718,8 +2718,8 @@
           ]
         },
         {
-          "startParagraph": 55,
-          "endParagraph": 55,
+          "startParagraph": 54,
+          "endParagraph": 54,
           "locationDescription": "Rock near Monte Cristo cave entrance at sunset",
           "imageDescription": "Dantès standing alone at the base of a rugged rock formation with a look of resolute anticipation. He holds his gun in one hand, a pickaxe in the other, gazing at the mysterious cavern entrance with hopeful intensity. The warm light of the setting sun illuminates the scene, casting long shadows on the wild vegetation and rocky terrain, evoking an aura of mystery and adventure.",
           "characterIds": [
@@ -2807,7 +2807,7 @@
       "scenes": [
         {
           "startParagraph": 0,
-          "endParagraph": 9,
+          "endParagraph": 8,
           "locationDescription": "On the rocky summit of the island",
           "imageDescription": "A bright midday scene on the highest rocky point of a rugged island; the golden sun shines intensely, casting strong shadows over gray granite rocks. Edmond Dantès, a young man in early 19th-century sailor's attire, stands on the summit holding a gun, gazing intently over the sea toward a distant brigantine and tartan sailing boats. The landscape is dotted with wild goats leaping between crags, lush green myrtle and olive bushes gently swaying in the breeze, and glistening emerald-colored lizards. The atmosphere is tense with a hint of isolation and suspense.",
           "characterIds": [
@@ -2815,8 +2815,8 @@
           ]
         },
         {
-          "startParagraph": 10,
-          "endParagraph": 13,
+          "startParagraph": 9,
+          "endParagraph": 12,
           "locationDescription": "Beside the wedged circular rock on the island",
           "imageDescription": "Under a hot sun, a determined Edmond Dantès wearing simple sailor clothes is using a pickaxe to carefully dig around the base of a massive circular rock wedged in place by stones and earth. Nearby, an olive tree leans against the rock as a makeshift lever. The rocky terrain is dry with patches of grass and moss, with the sea visible in the distance. The mood is one of focused effort and cunning as he prepares to use explosives.",
           "characterIds": [
@@ -2824,8 +2824,8 @@
           ]
         },
         {
-          "startParagraph": 14,
-          "endParagraph": 16,
+          "startParagraph": 13,
+          "endParagraph": 15,
           "locationDescription": "Just after explosion at the base of the circular rock",
           "imageDescription": "A dramatic scene depicting the moment after a powerful explosion at the base of a large granite circular rock on a rocky shoreline. Dust and debris fly in the air as the upper rock lifts heavily, while the shattered lower rock crumbles into pieces with insects and a dark snake slithering out of a newly exposed hole. Edmond Dantès stands nearby with his lever in hand, poised to move the rocked, his face lit with fierce determination. The sea and scattered greenery frame the intense action.",
           "characterIds": [
@@ -2833,8 +2833,8 @@
           ]
         },
         {
-          "startParagraph": 17,
-          "endParagraph": 29,
+          "startParagraph": 16,
+          "endParagraph": 27,
           "locationDescription": "Atop the circular hole with iron ring and flag-stone",
           "imageDescription": "Edmond Dantès in rugged sailor clothes, sweaty and trembling yet resolute, pulls on an iron ring set into a square flag-stone in the center of a circular exposed cavity. The rocky terrain surrounds him beneath a bright sun with the ocean visible afar. His face shows both exhaustion and hope as he discovers old steps descending into darkness below the stone.",
           "characterIds": [
@@ -2842,8 +2842,8 @@
           ]
         },
         {
-          "startParagraph": 30,
-          "endParagraph": 30,
+          "startParagraph": 28,
+          "endParagraph": 28,
           "locationDescription": "Descent into first underground cavern",
           "imageDescription": "A dim, bluish-lit granite cavern with sparkling walls resembling diamonds, softly illuminated by natural light entering through cracks in the rock. Edmond Dantès descends stone steps expertly, torch in hand, dressed in simple sailor clothing. Mist and faint beams from above create an eerie, mysterious atmosphere as he cautiously explores a rocky hollow lined with dirt and sparse greenery just visible from openings in the stone. His expression is curious and determined.",
           "characterIds": [
@@ -2851,8 +2851,8 @@
           ]
         },
         {
-          "startParagraph": 31,
-          "endParagraph": 38,
+          "startParagraph": 29,
+          "endParagraph": 36,
           "locationDescription": "Inside the first grotto, examining walls",
           "imageDescription": "Edmond Dantès stands inside a warm, granite cavern with diamond-like sparkling walls, examining a particular section that sounds hollow when he strikes it with his pickaxe. He wears simple worn-out sailor attire, a look of concentration on his face, bathed in cool blue light filtering through cracks. Nearby, shards of white stucco lie on the ground, revealing a cleverly concealed stone door painted to resemble granite. The cavern is tranquil with subtle shadows.",
           "characterIds": [
@@ -2860,8 +2860,8 @@
           ]
         },
         {
-          "startParagraph": 39,
-          "endParagraph": 42,
+          "startParagraph": 37,
+          "endParagraph": 40,
           "locationDescription": "Island surface near the cavern entrance, resting briefly",
           "imageDescription": "A solitary Edmond Dantès, fatigued and sweaty, leans against a rock entrance to a cave on a hot sunny day. The island landscape is barren but sprinkled with small fishing boats far offshore and waving branches of evergreen oaks. He drinks a few drops of rum from a bottle, gathering strength before descending again, his expression weary but resolute, dressed in simple sailor clothes with his pickaxe laying beside him.",
           "characterIds": [
@@ -2869,8 +2869,8 @@
           ]
         },
         {
-          "startParagraph": 43,
-          "endParagraph": 51,
+          "startParagraph": 41,
+          "endParagraph": 49,
           "locationDescription": "Second grotto entrance and initial interior",
           "imageDescription": "A shadowy, lower underground grotto with stale air, showing Edmond Dantès holding a torch that casts flickering light across rugged granite walls. He crouches, peering into a dark angle by the wall where he begins to dig. He wears simple sailor garb, his face tense and focused, while the gloomy stone chamber feels claustrophobic yet charged with anticipation. Dust motes swirl in the torchlight, and the overall ambiance is somber and suspenseful.",
           "characterIds": [
@@ -2878,8 +2878,8 @@
           ]
         },
         {
-          "startParagraph": 52,
-          "endParagraph": 56,
+          "startParagraph": 50,
+          "endParagraph": 53,
           "locationDescription": "Inside second grotto, uncovering the treasure chest",
           "imageDescription": "Edmond Dantès, illuminated by the torchlight, kneels over an ornate, ancient oaken coffer bound with cut steel and adorned with a shining silver plate bearing the Spada family coat of arms—a sword beneath a cardinal's hat. He wears period sailor clothes, his hands straining to lift the heavy chest in a rocky cavern lined with dusty earth. Around him scattered debris from broken stone and stucco lies on the floor. His face displays awe and astonishment at discovery.",
           "characterIds": [
@@ -2887,8 +2887,8 @@
           ]
         },
         {
-          "startParagraph": 57,
-          "endParagraph": 61,
+          "startParagraph": 54,
+          "endParagraph": 58,
           "locationDescription": "Inside second grotto, viewing the opened treasure chest",
           "imageDescription": "Edmond Dantès kneels in a granite cavern with the lid of an ancient, heavy coffer thrown open before him. Inside, brilliant piles of golden coins sparkle; unpolished gold bars line another compartment; and the final section overflows with radiant diamonds, pearls, and rubies that gleam with fiery color under flickering torchlight. Dantès, in simple sailor clothing, gazes with wide-eyed amazement and disbelief. The cavern is cool and enclosed, alive with shimmering reflections of precious gems.",
           "characterIds": [
@@ -2896,8 +2896,8 @@
           ]
         },
         {
-          "startParagraph": 62,
-          "endParagraph": 63,
+          "startParagraph": 59,
+          "endParagraph": 60,
           "locationDescription": "On rocky shore outside cavern, exhausted after discovery",
           "imageDescription": "Edmond Dantès lies partially reclined on the rocky shore just outside the cavern mouth, clutching his gun and looking drowsy but victorious. The encroaching dusk dims the sunlight across the sea and the barren landscape. Next to him lies a small portion of biscuit and a cup, remnants of his hurried meal. His clothes are dusty and worn, his face a mixture of exhaustion, relief and awe, under a soft fading light of early evening. The mood is a contrast of joy intertwined with silent terror.",
           "characterIds": [
@@ -3087,7 +3087,7 @@
       "scenes": [
         {
           "startParagraph": 0,
-          "endParagraph": 153
+          "endParagraph": 147
         }
       ]
     },

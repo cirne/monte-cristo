@@ -17,6 +17,9 @@ import { join } from "path";
 const TEXT_URL =
   "https://raw.githubusercontent.com/GITenberg/The-Count-of-Monte-Cristo_1184/master/1184-0.txt";
 
+const PAGE_MARKER_LINE = /^\d{3,6}m$/;
+const LEGACY_PAGE_MARKER_PLACEHOLDER = "\u200B";
+
 async function fetchBook(): Promise<string> {
   console.log("Fetching book from GitHub mirror...");
   const res = await fetch(TEXT_URL);
@@ -39,7 +42,25 @@ interface Book {
   chapters: Chapter[];
 }
 
-function parseBook(raw: string): Book {
+function isStandalonePageMarkerLine(line: string): boolean {
+  const trimmed = line.trim();
+  return PAGE_MARKER_LINE.test(trimmed) || trimmed === LEGACY_PAGE_MARKER_PLACEHOLDER;
+}
+
+/**
+ * Remove Gutenberg printed-edition page marker lines (e.g. 0267m, 20009m)
+ * and collapse surrounding blank lines so we don't emit empty paragraphs.
+ */
+export function stripStandalonePageMarkerParagraphs(content: string): string {
+  return content
+    .split("\n")
+    .filter((line) => !isStandalonePageMarkerLine(line))
+    .join("\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
+export function parseBook(raw: string): Book {
   // Normalize Windows line endings
   const lines = raw.replace(/\r\n/g, "\n").replace(/\r/g, "\n").split("\n");
 
@@ -110,19 +131,11 @@ function parseBook(raw: string): Book {
 
     // Content is everything after the chapter header line
     const contentStart = chapterText.indexOf("\n", chapterText.indexOf(header)) + 1;
-    let content = chapterText
-      .slice(contentStart)
-      .replace(/\n{3,}/g, "\n\n")
-      .trim();
+    let content = chapterText.slice(contentStart).trim();
 
-    // Strip PG printed-edition page markers (e.g. 0267m, 20009m, 0065m) so they don't
-    // appear in the UI. Replace with ZWS so paragraph boundaries (and thus
-    // scene/entity indices) are unchanged and we don't need to re-run processors.
-    const pageMarkerLine = /^\d{3,6}m$/;
-    content = content
-      .split("\n")
-      .map((line) => (pageMarkerLine.test(line.trim()) ? "\u200B" : line))
-      .join("\n");
+    // Remove standalone PG printed-edition page marker paragraphs so we don't
+    // emit empty <p></p> blocks between real paragraphs.
+    content = stripStandalonePageMarkerParagraphs(content);
 
     chapters.push({ number, title, volume: vol, content });
   }
@@ -178,7 +191,10 @@ async function main() {
   console.log(`Wrote ${indexPath}`);
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+const moduleMeta = import.meta as ImportMeta & { main?: boolean };
+if (moduleMeta.main) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}
