@@ -122,8 +122,8 @@ describe("lib/canonical-book", () => {
         source: "test",
         license: "PD",
         chapters: [
-          { number: 1, title: "Ch1", volume: "V1", content: "Content one." },
-          { number: 2, title: "Ch2", volume: "V1", content: "Content two." },
+          { number: 1, title: "Ch1", volume: "V1", content: "<p>Content one.</p>" },
+          { number: 2, title: "Ch2", volume: "V1", content: "<p>Content two.</p>" },
         ],
       };
 
@@ -140,8 +140,12 @@ describe("lib/canonical-book", () => {
       expect(existsSync(join(bookDir, "chapters", "1.html"))).toBe(true);
       expect(existsSync(join(bookDir, "chapters", "2.html"))).toBe(true);
 
-      expect(readFileSync(join(bookDir, "chapters", "1.html"), "utf-8")).toBe("Content one.");
-      expect(readFileSync(join(bookDir, "chapters", "2.html"), "utf-8")).toBe("Content two.");
+      expect(readFileSync(join(bookDir, "chapters", "1.html"), "utf-8")).toBe(
+        "<p>\nContent one.\n</p>"
+      );
+      expect(readFileSync(join(bookDir, "chapters", "2.html"), "utf-8")).toBe(
+        "<p>\nContent two.\n</p>"
+      );
 
       const indexJson = JSON.parse(readFileSync(join(bookDir, "book-index.json"), "utf-8"));
       expect(indexJson.title).toBe("Test Book");

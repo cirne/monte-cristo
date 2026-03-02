@@ -45,6 +45,35 @@ export function textToCanonicalHtml(text: string): string {
   return paragraphs.map((p) => `<p>${escapeHtml(p)}</p>`).join("");
 }
 
+/**
+ * Format canonical chapter HTML for storage:
+ * - <p> and </p> appear on their own lines
+ * - paragraph inner text is wrapped to a target width
+ * - blank line between paragraphs
+ */
+export function formatCanonicalHtmlForStorage(html: string, wrapColumn = 100): string {
+  if (!isCanonicalHtml(html)) return html;
+  const paragraphRe = /(<p(?:\s[^>]*)?>)([\s\S]*?)(<\/p>)/gi;
+  const chunks: string[] = [];
+  let matched = false;
+  let m: RegExpExecArray | null;
+
+  while ((m = paragraphRe.exec(html)) !== null) {
+    matched = true;
+    const openTag = m[1].trim();
+    const inner = m[2] ?? "";
+    const closeTag = m[3].trim();
+    const wrappedInner = wrapInlineHtmlText(inner, wrapColumn);
+    chunks.push(openTag, ...wrappedInner, closeTag, "");
+  }
+
+  if (!matched) return html.trim();
+  while (chunks.length > 0 && chunks[chunks.length - 1] === "") {
+    chunks.pop();
+  }
+  return chunks.join("\n");
+}
+
 function escapeHtml(s: string): string {
   return s
     .replace(/&/g, "&amp;")
@@ -153,4 +182,30 @@ function sanitizeInlineHtml(html: string): string {
     }
   }
   return parts.join("");
+}
+
+function wrapInlineHtmlText(inner: string, wrapColumn: number): string[] {
+  const normalized = inner.replace(/\s+/g, " ").trim();
+  if (!normalized) return [""];
+  const width = Math.max(20, Math.floor(wrapColumn));
+  const tokens = normalized.split(" ");
+  const lines: string[] = [];
+  let current = "";
+
+  for (const token of tokens) {
+    if (!token) continue;
+    if (!current) {
+      current = token;
+      continue;
+    }
+    const candidate = `${current} ${token}`;
+    if (candidate.length <= width) {
+      current = candidate;
+    } else {
+      lines.push(current);
+      current = token;
+    }
+  }
+  if (current) lines.push(current);
+  return lines;
 }
