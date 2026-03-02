@@ -4,13 +4,21 @@
       "id": "raskolnikov",
       "name": "Rodion Romanovich Raskolnikov",
       "aliases": [
-        "the young man"
+        "the young man",
+        "Raskolnikov",
+        "he, the dreamer, the boy (in dream), Rodya, his",
+        "he, Raskolnikov, the young man",
+        "Rodya"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
       "searchTerms": [
         "Rodion Romanovich Raskolnikov",
-        "the young man"
+        "the young man",
+        "Raskolnikov",
+        "he, the dreamer, the boy (in dream), Rodya, his",
+        "he, Raskolnikov, the young man",
+        "Rodya"
       ],
       "spoilerFreeIntro": "A young, impoverished former student wandering the streets of St. Petersburg, lost in deep thought."
     },
@@ -18,13 +26,21 @@
       "id": "alyona-ivanovna",
       "name": "Alyona Ivanovna",
       "aliases": [
-        "the old woman"
+        "the old woman",
+        "the old woman, pawnbroker, her",
+        "the old pawnbroker-woman",
+        "the old pawnbroker, the old woman",
+        "old pawnbroker woman"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
       "searchTerms": [
         "Alyona Ivanovna",
-        "the old woman"
+        "the old woman",
+        "the old woman, pawnbroker, her",
+        "the old pawnbroker-woman",
+        "the old pawnbroker, the old woman",
+        "old pawnbroker woman"
       ],
       "spoilerFreeIntro": "An old pawnbroker who lives alone on the fourth floor."
     },
@@ -32,13 +48,17 @@
       "id": "lizaveta-ivanovna",
       "name": "Lizaveta Ivanovna",
       "aliases": [
-        "Lizaveta"
+        "Lizaveta",
+        "Lizaveta, the younger sister",
+        "her sister"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
       "searchTerms": [
         "Lizaveta Ivanovna",
-        "Lizaveta"
+        "Lizaveta",
+        "Lizaveta, the younger sister",
+        "her sister"
       ],
       "spoilerFreeIntro": "Lizaveta Ivanovna is the quiet, gentle sister of Alyona Ivanovna, known for her hard work and humble demeanor."
     },
@@ -46,13 +66,17 @@
       "id": "saint-petersburg",
       "name": "St. Petersburg",
       "aliases": [
-        "Petersburg"
+        "Petersburg",
+        "the town",
+        "St. Petersburg, Petersburg, the capital"
       ],
       "type": "place",
       "firstSeenInChapter": 1,
       "searchTerms": [
         "St. Petersburg",
-        "Petersburg"
+        "Petersburg",
+        "the town",
+        "St. Petersburg, Petersburg, the capital"
       ],
       "spoilerFreeIntro": "St. Petersburg, a bustling city alive with construction and a peculiar summer stench, presses in on its weary inhabitants."
     },
@@ -114,13 +138,19 @@
       "id": "the_young_mans_landlady",
       "name": "the young man's landlady",
       "aliases": [
-        "landlady"
+        "landlady",
+        "Praskovya Pavlovna",
+        "Praskovya Pavlovna; Pashenka; landlady",
+        "the nickname for Praskovya Pavlovna, the landlady"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
       "searchTerms": [
         "the young man's landlady",
-        "landlady"
+        "landlady",
+        "Praskovya Pavlovna",
+        "Praskovya Pavlovna; Pashenka; landlady",
+        "the nickname for Praskovya Pavlovna, the landlady"
       ],
       "spoilerFreeIntro": "The young man's landlady, a woman who manages the rooms in the large, five-storied house, appears only briefly as he tries to avoid her."
     },
@@ -241,24 +271,31 @@
     "the_young_mans_father": {
       "id": "the_young_mans_father",
       "name": "the young man's father",
-      "aliases": [],
+      "aliases": [
+        "his father, the father (in dream), Raskolnikov's father",
+        "Raskolnikov's father"
+      ],
       "type": "person",
       "firstSeenInChapter": 1,
       "searchTerms": [
-        "the young man's father"
+        "the young man's father",
+        "his father, the father (in dream), Raskolnikov's father",
+        "Raskolnikov's father"
       ]
     },
     "the_old_womans_sister": {
       "id": "the_old_womans_sister",
       "name": "the old woman's sister",
       "aliases": [
-        "your sister"
+        "your sister",
+        "Lizaveta, her, the only companion"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
       "searchTerms": [
         "the old woman's sister",
-        "your sister"
+        "your sister",
+        "Lizaveta, her, the only companion"
       ],
       "spoilerFreeIntro": "The old woman's sister is a mysterious figure, rarely seen and mentioned with suspicion."
     },
@@ -266,29 +303,2725 @@
       "id": "the_exploitproject_to_be_attempted",
       "name": "the exploit/project to be attempted",
       "aliases": [
-        "hideous dream"
+        "hideous dream",
+        "yesterday's thought; not a dream anymore",
+        "It, the plan, the accursed dream, hideous dream",
+        "project, plan"
       ],
       "type": "event",
       "firstSeenInChapter": 1,
       "searchTerms": [
         "the exploit/project to be attempted",
-        "hideous dream"
+        "hideous dream",
+        "yesterday's thought; not a dream anymore",
+        "It, the plan, the accursed dream, hideous dream",
+        "project, plan"
       ]
     },
     "the_rehearsal_of_the_project": {
       "id": "the_rehearsal_of_the_project",
       "name": "the rehearsal of the project",
       "aliases": [
-        "rehearsal"
+        "rehearsal",
+        "the experiment (yesterday's visit to the old woman)",
+        "late experiment; visit to the old woman for final survey",
+        "yesterday's experiment or visit"
       ],
       "type": "event",
       "firstSeenInChapter": 1,
       "searchTerms": [
         "the rehearsal of the project",
-        "rehearsal"
+        "rehearsal",
+        "the experiment (yesterday's visit to the old woman)",
+        "late experiment; visit to the old woman for final survey",
+        "yesterday's experiment or visit"
       ],
       "spoilerFreeIntro": "A tense young man anxiously approaches a rehearsal of his secret project."
+    },
+    "semyon_zaharovitch_marmeladov": {
+      "id": "semyon_zaharovitch_marmeladov",
+      "name": "Semyon Zaharovitch Marmeladov",
+      "aliases": [
+        "Marmeladov"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Semyon Zaharovitch Marmeladov",
+        "Marmeladov"
+      ]
+    },
+    "katerina_ivanovna": {
+      "id": "katerina_ivanovna",
+      "name": "Katerina Ivanovna",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Katerina Ivanovna"
+      ],
+      "spoilerFreeIntro": "Katerina Ivanovna is the dignified and long-suffering wife of Marmeladov, known for her proud bearing and gentle upbringing."
+    },
+    "sofya_semyonovna_soniasonya": {
+      "id": "sofya_semyonovna_soniasonya",
+      "name": "Sofya Semyonovna (Sonia/Sonya)",
+      "aliases": [
+        "Sonia",
+        "Sonia; sister Sonia"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Sofya Semyonovna (Sonia/Sonya)",
+        "Sonia",
+        "Sonia; sister Sonia"
+      ]
+    },
+    "amalia_fyodorovna_lippevechsel": {
+      "id": "amalia_fyodorovna_lippevechsel",
+      "name": "Amalia Fyodorovna Lippevechsel",
+      "aliases": [
+        "Amalia Ivanovna, Amalia Ludwigovna, Madame Lippevechsel, the landlady"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Amalia Fyodorovna Lippevechsel",
+        "Amalia Ivanovna, Amalia Ludwigovna, Madame Lippevechsel, the landlady"
+      ]
+    },
+    "mr_lebeziatnikov": {
+      "id": "mr_lebeziatnikov",
+      "name": "Mr. Lebeziatnikov",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Mr. Lebeziatnikov"
+      ],
+      "spoilerFreeIntro": "Mr. Lebeziatnikov, a pale and earnest young man with progressive ideas, appears in the company of Katerina Ivanovna and her family."
+    },
+    "darya_frantsovna": {
+      "id": "darya_frantsovna",
+      "name": "Darya Frantsovna",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Darya Frantsovna"
+      ],
+      "spoilerFreeIntro": "Darya Frantsovna, a notorious woman with a bad reputation and known to the police, enters the scene."
+    },
+    "ivan_ivanitch_klopstock": {
+      "id": "ivan_ivanitch_klopstock",
+      "name": "Ivan Ivanitch Klopstock",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Ivan Ivanitch Klopstock"
+      ],
+      "spoilerFreeIntro": "Ivan Ivanitch Klopstock is a civil counsellor mentioned for his outstanding lack of consideration in personal dealings."
+    },
+    "ivan_afanasyvitch": {
+      "id": "ivan_afanasyvitch",
+      "name": "Ivan Afanasyvitch",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Ivan Afanasyvitch"
+      ],
+      "spoilerFreeIntro": "Ivan Afanasyvitch, a high-ranking official renowned for his gentle and devout character."
+    },
+    "kapernaumov": {
+      "id": "kapernaumov",
+      "name": "Kapernaumov",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Kapernaumov"
+      ],
+      "spoilerFreeIntro": "Kapernaumov is a lame tailor with a cleft palate, the head of a poor but kind family who take in lodgers."
+    },
+    "kapernaumovs_wife": {
+      "id": "kapernaumovs_wife",
+      "name": "Kapernaumov's wife",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Kapernaumov's wife"
+      ]
+    },
+    "marmeladovs_first_wife": {
+      "id": "marmeladovs_first_wife",
+      "name": "Marmeladov's first wife",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Marmeladov's first wife"
+      ]
+    },
+    "the_masterinnkeepertavernkeeper": {
+      "id": "the_masterinnkeepertavernkeeper",
+      "name": "The master/innkeeper/tavern-keeper",
+      "aliases": [
+        "the tavern-keeper"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "The master/innkeeper/tavern-keeper",
+        "the tavern-keeper"
+      ],
+      "spoilerFreeIntro": "The tavern-keeper, a familiar figure behind the counter, moves quietly among the customers in his establishment."
+    },
+    "boy_at_the_counter": {
+      "id": "boy_at_the_counter",
+      "name": "Boy at the counter",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Boy at the counter"
+      ]
+    },
+    "younger_boy_serving_in_tavern": {
+      "id": "younger_boy_serving_in_tavern",
+      "name": "Younger boy serving in tavern",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Younger boy serving in tavern"
+      ]
+    },
+    "marmeladovs_eldest_daughter_by_katerina_ivanovna": {
+      "id": "marmeladovs_eldest_daughter_by_katerina_ivanovna",
+      "name": "Marmeladov's eldest daughter (by Katerina Ivanovna)",
+      "aliases": [
+        "eldest girl, age 9",
+        "Polenka, Polya, Polina"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Marmeladov's eldest daughter (by Katerina Ivanovna)",
+        "eldest girl, age 9",
+        "Polenka, Polya, Polina"
+      ]
+    },
+    "marmeladovs_eldest_son_by_katerina_ivanovna": {
+      "id": "marmeladovs_eldest_son_by_katerina_ivanovna",
+      "name": "Marmeladov's eldest son (by Katerina Ivanovna)",
+      "aliases": [
+        "boy, age 7",
+        "Kolya"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Marmeladov's eldest son (by Katerina Ivanovna)",
+        "boy, age 7",
+        "Kolya"
+      ]
+    },
+    "marmeladovs_youngest_daughter_by_katerina_ivanovna": {
+      "id": "marmeladovs_youngest_daughter_by_katerina_ivanovna",
+      "name": "Marmeladov's youngest daughter (by Katerina Ivanovna)",
+      "aliases": [
+        "youngest girl, age 6",
+        "Lida, Lida"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Marmeladov's youngest daughter (by Katerina Ivanovna)",
+        "youngest girl, age 6",
+        "Lida, Lida"
+      ]
+    },
+    "other_drinkersrevellers_in_the_tavern": {
+      "id": "other_drinkersrevellers_in_the_tavern",
+      "name": "Other drinkers/revellers in the tavern",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Other drinkers/revellers in the tavern"
+      ]
+    },
+    "party_with_girl_and_concertina_group_arriving_at_tavern": {
+      "id": "party_with_girl_and_concertina_group_arriving_at_tavern",
+      "name": "Party with girl and concertina (group arriving at tavern)",
+      "aliases": [
+        "party of revellers, child singing"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Party with girl and concertina (group arriving at tavern)",
+        "party of revellers, child singing"
+      ]
+    },
+    "amalia_lippevechsels_tenants_people_in_inner_rooms": {
+      "id": "amalia_lippevechsels_tenants_people_in_inner_rooms",
+      "name": "Amalia Lippevechsel's tenants (people in inner rooms)",
+      "aliases": [
+        "Madame Lippevechsel’s lodgers"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Amalia Lippevechsel's tenants (people in inner rooms)",
+        "Madame Lippevechsel’s lodgers"
+      ]
+    },
+    "kozels_house": {
+      "id": "kozels_house",
+      "name": "Kozel's house",
+      "aliases": [
+        "house of Kozel, the cabinet-maker",
+        "the house (of Kozel), the old woman's lodging-house",
+        "the house; old pawnbroker’s house"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Kozel's house",
+        "house of Kozel, the cabinet-maker",
+        "the house (of Kozel), the old woman's lodging-house",
+        "the house; old pawnbroker’s house"
+      ],
+      "spoilerFreeIntro": "Kozel's house, a well-kept German cabinet-maker’s apartment on the fourth floor, stands quietly off the yard."
+    },
+    "egyptian_bridge": {
+      "id": "egyptian_bridge",
+      "name": "Egyptian bridge",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Egyptian bridge"
+      ],
+      "spoilerFreeIntro": "A bridge spanning the river in St. Petersburg, often frequented by the city’s poor and desperate."
+    },
+    "amalia_fyodorovna_lippevechsels_lodging": {
+      "id": "amalia_fyodorovna_lippevechsels_lodging",
+      "name": "Amalia Fyodorovna Lippevechsel's lodging",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Amalia Fyodorovna Lippevechsel's lodging"
+      ]
+    },
+    "kapernaumovs_lodging_tailors": {
+      "id": "kapernaumovs_lodging_tailors",
+      "name": "Kapernaumovs' lodging (tailors)",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 2,
+      "searchTerms": [
+        "Kapernaumovs' lodging (tailors)"
+      ]
+    },
+    "nastasya": {
+      "id": "nastasya",
+      "name": "Nastasya",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Nastasya"
+      ],
+      "spoilerFreeIntro": "Nastasya, the cook and sole servant of the house, is a practical and often blunt presence in the lodgings."
+    },
+    "pulcheria_raskolnikov": {
+      "id": "pulcheria_raskolnikov",
+      "name": "Pulcheria Raskolnikov",
+      "aliases": [
+        "mother",
+        "his mother",
+        "Raskolnikov's mother; his mother; your mamma",
+        "your mamma, his mother, Raskolnikov's mother",
+        "Pulcheria Alexandrovna Raskolnikov, his mother, mother"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Pulcheria Raskolnikov",
+        "mother",
+        "his mother",
+        "Raskolnikov's mother; his mother; your mamma",
+        "your mamma, his mother, Raskolnikov's mother",
+        "Pulcheria Alexandrovna Raskolnikov, his mother, mother"
+      ],
+      "spoilerFreeIntro": "Raskolnikov’s devoted mother, who writes to him with affectionate concern."
+    },
+    "avdotya_romanovna_raskolnikov_dounia": {
+      "id": "avdotya_romanovna_raskolnikov_dounia",
+      "name": "Avdotya Romanovna Raskolnikov (Dounia)",
+      "aliases": [
+        "Dounia",
+        "his sister",
+        "Dounia, his sister, sister"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Avdotya Romanovna Raskolnikov (Dounia)",
+        "Dounia",
+        "his sister",
+        "Dounia, his sister, sister"
+      ]
+    },
+    "pyotr_petrovitch_luzhin": {
+      "id": "pyotr_petrovitch_luzhin",
+      "name": "Pyotr Petrovitch Luzhin",
+      "aliases": [
+        "Mr. Luzhin"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Pyotr Petrovitch Luzhin",
+        "Mr. Luzhin"
+      ],
+      "spoilerFreeIntro": "Pyotr Petrovitch Luzhin, a well-dressed government official of counsellor rank, is known for his connection to Marfa Petrovna and recent interest in marriage."
+    },
+    "vassily_ivanovitch_vahrushin": {
+      "id": "vassily_ivanovitch_vahrushin",
+      "name": "Vassily Ivanovitch Vahrushin",
+      "aliases": [
+        "Vahrushin"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Vassily Ivanovitch Vahrushin",
+        "Vahrushin"
+      ],
+      "spoilerFreeIntro": "Vassily Ivanovitch Vahrushin is a kind-hearted local merchant and an old friend of the family."
+    },
+    "marfa_petrovna_svidrigalova": {
+      "id": "marfa_petrovna_svidrigalova",
+      "name": "Marfa Petrovna Svidrigaïlova",
+      "aliases": [
+        "Marfa Petrovna"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Marfa Petrovna Svidrigaïlova",
+        "Marfa Petrovna"
+      ]
+    },
+    "mr_svidrigalov": {
+      "id": "mr_svidrigalov",
+      "name": "Mr. Svidrigaïlov",
+      "aliases": [
+        "Svidrigaïlov"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Mr. Svidrigaïlov",
+        "Svidrigaïlov"
+      ],
+      "spoilerFreeIntro": "A wealthy and mysterious former employer of Dounia, Mr. Svidrigaïlov is a man whose reputation and intentions are the subject of uneasy discussion."
+    },
+    "afanasy_ivanovitch": {
+      "id": "afanasy_ivanovitch",
+      "name": "Afanasy Ivanovitch",
+      "aliases": [
+        "Afanasy Ivanovitch"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Afanasy Ivanovitch"
+      ],
+      "spoilerFreeIntro": "Afanasy Ivanovitch is a moneylender known for advancing loans on the security of pensions."
+    },
+    "our_lady": {
+      "id": "our_lady",
+      "name": "Our Lady",
+      "aliases": [
+        "icon/saint",
+        "Holy Mother of Kazan"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Our Lady",
+        "icon/saint",
+        "Holy Mother of Kazan"
+      ],
+      "spoilerFreeIntro": "Revered as a figure of compassion and solace, Our Lady is the saintly presence to whom the faithful pray for comfort and strength."
+    },
+    "the_servants_at_the_svidrigalovs": {
+      "id": "the_servants_at_the_svidrigalovs",
+      "name": "the servants at the Svidrigaïlovs",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "the servants at the Svidrigaïlovs"
+      ]
+    },
+    "the_province_of_r": {
+      "id": "the_province_of_r",
+      "name": "the province of R----",
+      "aliases": [
+        "the provinces"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "the province of R----",
+        "the provinces"
+      ],
+      "spoilerFreeIntro": "A distant Russian province, shrouded in anonymity, from which Raskolnikov's mother writes to him."
+    },
+    "vassilyevsky_ostrov": {
+      "id": "vassilyevsky_ostrov",
+      "name": "Vassilyevsky Ostrov",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Vassilyevsky Ostrov"
+      ],
+      "spoilerFreeIntro": "A quiet island district of St. Petersburg, lined with wide streets and somber buildings."
+    },
+    "vassilyevsky_prospect": {
+      "id": "vassilyevsky_prospect",
+      "name": "Vassilyevsky Prospect",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "Vassilyevsky Prospect"
+      ],
+      "spoilerFreeIntro": "A bustling street on Vassilyevsky Island, busy with the comings and goings of city life."
+    },
+    "the_cathedral": {
+      "id": "the_cathedral",
+      "name": "the Cathedral",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "the Cathedral"
+      ],
+      "spoilerFreeIntro": "A grand, solemn church in the center of town, where the faithful come to pray and seek solace."
+    },
+    "the_svidrigalovs_house": {
+      "id": "the_svidrigalovs_house",
+      "name": "the Svidrigaïlovs' house",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "the Svidrigaïlovs' house"
+      ]
+    },
+    "the_university": {
+      "id": "the_university",
+      "name": "the university",
+      "aliases": [
+        "university"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "the university",
+        "university"
+      ],
+      "spoilerFreeIntro": "A place of learning and hope for young scholars."
+    },
+    "the_senate": {
+      "id": "the_senate",
+      "name": "the Senate",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "the Senate"
+      ],
+      "spoilerFreeIntro": "The Senate, a prestigious government institution in Petersburg, handles significant legal and administrative matters."
+    },
+    "marriage_of_dounia_and_pyotr_petrovitch_luzhin": {
+      "id": "marriage_of_dounia_and_pyotr_petrovitch_luzhin",
+      "name": "marriage of Dounia and Pyotr Petrovitch Luzhin",
+      "aliases": [
+        "Dounia's marriage (alluded to in worries about the family’s future)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "marriage of Dounia and Pyotr Petrovitch Luzhin",
+        "Dounia's marriage (alluded to in worries about the family’s future)"
+      ]
+    },
+    "the_scandal_involving_dounia_and_mr_svidrigalov": {
+      "id": "the_scandal_involving_dounia_and_mr_svidrigalov",
+      "name": "the scandal involving Dounia and Mr. Svidrigaïlov",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 3,
+      "searchTerms": [
+        "the scandal involving Dounia and Mr. Svidrigaïlov"
+      ]
+    },
+    "razumihin": {
+      "id": "razumihin",
+      "name": "Razumihin",
+      "aliases": [
+        "Razumihin"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "Razumihin"
+      ],
+      "spoilerFreeIntro": "A cheerful and loyal former fellow student of Raskolnikov’s, known for his kindness and good humor."
+    },
+    "unnamed_drunken_girl": {
+      "id": "unnamed_drunken_girl",
+      "name": "unnamed drunken girl",
+      "aliases": [
+        "drunken girl; girl in the torn dress"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "unnamed drunken girl",
+        "drunken girl; girl in the torn dress"
+      ]
+    },
+    "unnamed_policemanconstable": {
+      "id": "unnamed_policemanconstable",
+      "name": "unnamed policeman/constable",
+      "aliases": [
+        "policeman; police constable",
+        "the assistant superintendent, Mr. Captain, the Explosive Lieutenant",
+        "Ilya Petrovitch, the assistant superintendent",
+        "Ilya Petrovitch, the assistant superintendent; the assistant superintendent; police official",
+        "the assistant",
+        "the policeman"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "unnamed policeman/constable",
+        "policeman; police constable",
+        "the assistant superintendent, Mr. Captain, the Explosive Lieutenant",
+        "Ilya Petrovitch, the assistant superintendent",
+        "Ilya Petrovitch, the assistant superintendent; the assistant superintendent; police official",
+        "the assistant",
+        "the policeman"
+      ]
+    },
+    "unnamed_stout_gentlemandandy": {
+      "id": "unnamed_stout_gentlemandandy",
+      "name": "unnamed stout gentleman/dandy",
+      "aliases": [
+        "dandy; stout gentleman; plump, thickly-set man"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "unnamed stout gentleman/dandy",
+        "dandy; stout gentleman; plump, thickly-set man"
+      ]
+    },
+    "k_boulevard": {
+      "id": "k_boulevard",
+      "name": "K---- Boulevard",
+      "aliases": [
+        "the boulevard; K---- Boulevard"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 4,
+      "searchTerms": [
+        "K---- Boulevard",
+        "the boulevard; K---- Boulevard"
+      ],
+      "spoilerFreeIntro": "A broad, bustling avenue in St. Petersburg, lined with benches and frequented by city dwellers."
+    },
+    "mikolka": {
+      "id": "mikolka",
+      "name": "Mikolka",
+      "aliases": [
+        "the young thick-necked peasant, horse owner, in dream"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Mikolka",
+        "the young thick-necked peasant, horse owner, in dream"
+      ],
+      "spoilerFreeIntro": "A rough, excitable peasant, Mikolka is eager to show off his horse and cart to the jeering crowd."
+    },
+    "matvey": {
+      "id": "matvey",
+      "name": "Matvey",
+      "aliases": [
+        "the owner of the bay (horse), mentioned by Mikolka"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Matvey",
+        "the owner of the bay (horse), mentioned by Mikolka"
+      ],
+      "spoilerFreeIntro": "Matvey is a servant involved with handling the horses and driving the cart."
+    },
+    "the_huckster": {
+      "id": "the_huckster",
+      "name": "the huckster",
+      "aliases": [
+        "the huckster, man selling at the market"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "the huckster",
+        "the huckster, man selling at the market"
+      ],
+      "spoilerFreeIntro": "A petty trader, standing with his wife, engaged in a lively discussion with a weary young woman."
+    },
+    "the_hucksters_wife": {
+      "id": "the_hucksters_wife",
+      "name": "the huckster's wife",
+      "aliases": [
+        "the huckster's wife, lively little woman"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "the huckster's wife",
+        "the huckster's wife, lively little woman"
+      ]
+    },
+    "unnamed_fat_woman": {
+      "id": "unnamed_fat_woman",
+      "name": "unnamed fat woman",
+      "aliases": [
+        "fat, rosy-cheeked woman in red cotton dress, in dream"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "unnamed fat woman",
+        "fat, rosy-cheeked woman in red cotton dress, in dream"
+      ]
+    },
+    "an_old_man_in_the_crowd": {
+      "id": "an_old_man_in_the_crowd",
+      "name": "an old man in the crowd",
+      "aliases": [
+        "old man with grey beard (disapproving in dream)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "an old man in the crowd",
+        "old man with grey beard (disapproving in dream)"
+      ],
+      "spoilerFreeIntro": "An elderly onlooker in the crowd, quick to voice his disapproval."
+    },
+    "various_townspeople_and_peasants_dream_crowd": {
+      "id": "various_townspeople_and_peasants_dream_crowd",
+      "name": "various townspeople and peasants (dream crowd)",
+      "aliases": [
+        "crowd, townspeople, peasant women, husbands, riff-raff, men in dream"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "various townspeople and peasants (dream crowd)",
+        "crowd, townspeople, peasant women, husbands, riff-raff, men in dream"
+      ]
+    },
+    "various_ladsyoung_men_in_the_dream": {
+      "id": "various_ladsyoung_men_in_the_dream",
+      "name": "various lads/young men (in the dream)",
+      "aliases": [
+        "lads in the crowd, young men, boys with whips, in dream"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "various lads/young men (in the dream)",
+        "lads in the crowd, young men, boys with whips, in dream"
+      ]
+    },
+    "the_sorrel_mare": {
+      "id": "the_sorrel_mare",
+      "name": "the sorrel mare",
+      "aliases": [
+        "the thin little sorrel beast, poor horse, nag, little mare, wretched nag (in dream)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "the sorrel mare",
+        "the thin little sorrel beast, poor horse, nag, little mare, wretched nag (in dream)"
+      ]
+    },
+    "petrovsky_ostrov": {
+      "id": "petrovsky_ostrov",
+      "name": "Petrovsky Ostrov",
+      "aliases": [
+        "Petrovsky Island"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Petrovsky Ostrov",
+        "Petrovsky Island"
+      ],
+      "spoilerFreeIntro": "A quiet, grassy island on the edge of the city, where weary wanderers sometimes rest."
+    },
+    "lesser_neva": {
+      "id": "lesser_neva",
+      "name": "Lesser Neva",
+      "aliases": [
+        "the Lesser Neva"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "Lesser Neva",
+        "the Lesser Neva"
+      ],
+      "spoilerFreeIntro": "The Lesser Neva is a quiet river channel that Raskolnikov crosses as he leaves Vassilyevsky Ostrov in search of respite."
+    },
+    "the_islands": {
+      "id": "the_islands",
+      "name": "the islands",
+      "aliases": [
+        "the islands"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "the islands"
+      ],
+      "spoilerFreeIntro": "A tranquil, green area on the outskirts of the city, offering respite from the crowded urban streets."
+    },
+    "the_graveyard_in_raskolnikovs_dream": {
+      "id": "the_graveyard_in_raskolnikovs_dream",
+      "name": "the graveyard (in Raskolnikov's dream)",
+      "aliases": [
+        "the graveyard"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "the graveyard (in Raskolnikov's dream)",
+        "the graveyard"
+      ],
+      "spoilerFreeIntro": "A quiet graveyard with a stone church and green cupola, remembered from Raskolnikov’s childhood visits with his father."
+    },
+    "the_tavern_in_raskolnikovs_dream": {
+      "id": "the_tavern_in_raskolnikovs_dream",
+      "name": "the tavern (in Raskolnikov's dream)",
+      "aliases": [
+        "the tavern near the market gardens"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "the tavern (in Raskolnikov's dream)",
+        "the tavern near the market gardens"
+      ]
+    },
+    "the_countrylittle_town_of_his_birth_in_dream": {
+      "id": "the_countrylittle_town_of_his_birth_in_dream",
+      "name": "the country/little town of his birth (in dream)",
+      "aliases": [
+        "little town of his birth"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "the country/little town of his birth (in dream)",
+        "little town of his birth"
+      ]
+    },
+    "stone_church_with_the_green_cupola_in_dream": {
+      "id": "stone_church_with_the_green_cupola_in_dream",
+      "name": "stone church with the green cupola (in dream)",
+      "aliases": [
+        "the church, stone church"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "stone church with the green cupola (in dream)",
+        "the church, stone church"
+      ]
+    },
+    "his_grandmothers_grave": {
+      "id": "his_grandmothers_grave",
+      "name": "his grandmother's grave",
+      "aliases": [
+        "grandmother’s grave"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "his grandmother's grave",
+        "grandmother’s grave"
+      ],
+      "spoilerFreeIntro": "A humble gravesite beside the village church, marked by a simple stone, where his grandmother rests."
+    },
+    "his_younger_brothers_grave": {
+      "id": "his_younger_brothers_grave",
+      "name": "his younger brother’s grave",
+      "aliases": [
+        "little brother’s grave"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "his younger brother’s grave",
+        "little brother’s grave"
+      ]
+    },
+    "the_eatinghousetavern": {
+      "id": "the_eatinghousetavern",
+      "name": "the eating-house/tavern",
+      "aliases": [
+        "the eating-house, tavern (visited for vodka)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 5,
+      "searchTerms": [
+        "the eating-house/tavern",
+        "the eating-house, tavern (visited for vodka)"
+      ]
+    },
+    "pokorev": {
+      "id": "pokorev",
+      "name": "Pokorev",
+      "aliases": [
+        "a student Raskolnikov knew who had left for Harkov"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Pokorev",
+        "a student Raskolnikov knew who had left for Harkov"
+      ],
+      "spoilerFreeIntro": "Pokorev is a student acquaintance of Raskolnikov’s who once gave him the address of a pawnbroker."
+    },
+    "harkov": {
+      "id": "harkov",
+      "name": "Harkov",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Harkov"
+      ],
+      "spoilerFreeIntro": "A city in southern Russia, mentioned as the place where Pokorev, a student acquaintance, had moved."
+    },
+    "an_unnamed_student_in_the_tavern": {
+      "id": "an_unnamed_student_in_the_tavern",
+      "name": "an unnamed student in the tavern",
+      "aliases": [
+        "student in tavern with the officer"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "an unnamed student in the tavern",
+        "student in tavern with the officer"
+      ]
+    },
+    "an_unnamed_young_officer_in_the_tavern": {
+      "id": "an_unnamed_young_officer_in_the_tavern",
+      "name": "an unnamed young officer in the tavern",
+      "aliases": [
+        "officer in tavern with the student"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "an unnamed young officer in the tavern",
+        "officer in tavern with the student"
+      ]
+    },
+    "the_monastery_in_the_province_of_n": {
+      "id": "the_monastery_in_the_province_of_n",
+      "name": "the monastery in the province of N----",
+      "aliases": [
+        "monastery in the province of N----"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "the monastery in the province of N----",
+        "monastery in the province of N----"
+      ]
+    },
+    "the_porter": {
+      "id": "the_porter",
+      "name": "the porter",
+      "aliases": [
+        "the porter, whose room Raskolnikov takes the axe from"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "the porter",
+        "the porter, whose room Raskolnikov takes the axe from"
+      ],
+      "spoilerFreeIntro": "The porter, an old man who watches over the building’s entrance, sits quietly in his dim little room near the gateway."
+    },
+    "the_landladys_kitchen": {
+      "id": "the_landladys_kitchen",
+      "name": "the landlady’s kitchen",
+      "aliases": [
+        "the kitchen shared by Nastasya and the landlady"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "the landlady’s kitchen",
+        "the kitchen shared by Nastasya and the landlady"
+      ],
+      "spoilerFreeIntro": "A cramped, cluttered kitchen in the landlady’s apartment, often filled with the everyday bustle of the house."
+    },
+    "the_porters_little_dark_room": {
+      "id": "the_porters_little_dark_room",
+      "name": "the porter’s little dark room",
+      "aliases": [
+        "the porter’s room"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "the porter’s little dark room",
+        "the porter’s room"
+      ],
+      "spoilerFreeIntro": "A small, dimly lit room near the gateway where the porter keeps watch."
+    },
+    "yusupov_garden": {
+      "id": "yusupov_garden",
+      "name": "Yusupov garden",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Yusupov garden"
+      ],
+      "spoilerFreeIntro": "The Yusupov garden, a tranquil green space in the city, invites passing contemplation with its quiet paths and shaded trees."
+    },
+    "the_summer_garden": {
+      "id": "the_summer_garden",
+      "name": "the summer garden",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "the summer garden"
+      ],
+      "spoilerFreeIntro": "A beautiful public park in St. Petersburg, known for its elegant layout and tranquil atmosphere."
+    },
+    "the_field_of_mars": {
+      "id": "the_field_of_mars",
+      "name": "the Field of Mars",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "the Field of Mars"
+      ],
+      "spoilerFreeIntro": "A wide open space in St. Petersburg often used for military parades and public gatherings."
+    },
+    "mihailovsky_palace_garden": {
+      "id": "mihailovsky_palace_garden",
+      "name": "Mihailovsky Palace garden",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 6,
+      "searchTerms": [
+        "Mihailovsky Palace garden"
+      ]
+    },
+    "koch": {
+      "id": "koch",
+      "name": "Koch",
+      "aliases": [
+        "visitor, big fat man"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Koch",
+        "visitor, big fat man"
+      ],
+      "spoilerFreeIntro": "A visitor, Koch is a man whose youth can be guessed from his voice."
+    },
+    "the_young_man_visitor_with_koch_student_of_law": {
+      "id": "the_young_man_visitor_with_koch_student_of_law",
+      "name": "The young man (visitor with Koch, student of law)",
+      "aliases": [
+        "the young man; law student; new-comer; one with ringing voice"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "The young man (visitor with Koch, student of law)",
+        "the young man; law student; new-comer; one with ringing voice"
+      ]
+    },
+    "the_painters": {
+      "id": "the_painters",
+      "name": "the painters",
+      "aliases": [
+        "the painters on the second floor",
+        "Nikolay (the house-painter) and Dmitri"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the painters",
+        "the painters on the second floor",
+        "Nikolay (the house-painter) and Dmitri"
+      ]
+    },
+    "the_pledge": {
+      "id": "the_pledge",
+      "name": "the pledge",
+      "aliases": [
+        "the silver cigarette case"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the pledge",
+        "the silver cigarette case"
+      ],
+      "spoilerFreeIntro": "A small item offered as security for a loan to the pawnbroker, Alyona Ivanovna."
+    },
+    "the_murder_of_alyona_ivanovna": {
+      "id": "the_murder_of_alyona_ivanovna",
+      "name": "the murder of Alyona Ivanovna",
+      "aliases": [
+        "Raskolnikov murders the pawnbroker",
+        "yesterday, about yesterday",
+        "the murder of the old pawnbroker-woman",
+        "that old woman (murder)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the murder of Alyona Ivanovna",
+        "Raskolnikov murders the pawnbroker",
+        "yesterday, about yesterday",
+        "the murder of the old pawnbroker-woman",
+        "that old woman (murder)"
+      ]
+    },
+    "the_murder_of_lizaveta_ivanovna": {
+      "id": "the_murder_of_lizaveta_ivanovna",
+      "name": "the murder of Lizaveta Ivanovna",
+      "aliases": [
+        "Raskolnikov murders Lizaveta Ivanovna"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the murder of Lizaveta Ivanovna",
+        "Raskolnikov murders Lizaveta Ivanovna"
+      ]
+    },
+    "his_raskolnikovs_room": {
+      "id": "his_raskolnikovs_room",
+      "name": "his (Raskolnikov’s) room",
+      "aliases": [
+        "his room; Raskolnikov's room",
+        "his room",
+        "Raskolnikov's room; the sick room; his lodging",
+        "Raskolnikov's room; his cabin"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "his (Raskolnikov’s) room",
+        "his room; Raskolnikov's room",
+        "his room",
+        "Raskolnikov's room; the sick room; his lodging",
+        "Raskolnikov's room; his cabin"
+      ]
+    },
+    "the_entry_of_alyona_ivanovnas_flat": {
+      "id": "the_entry_of_alyona_ivanovnas_flat",
+      "name": "the entry (of Alyona Ivanovna’s flat)",
+      "aliases": [
+        "the entry; hallway"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the entry (of Alyona Ivanovna’s flat)",
+        "the entry; hallway"
+      ]
+    },
+    "the_bedroom_in_alyona_ivanovnas_flat": {
+      "id": "the_bedroom_in_alyona_ivanovnas_flat",
+      "name": "the bedroom (in Alyona Ivanovna's flat)",
+      "aliases": [
+        "the bedroom"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the bedroom (in Alyona Ivanovna's flat)",
+        "the bedroom"
+      ],
+      "spoilerFreeIntro": "Alyona Ivanovna's bedroom is a small, tidy space adorned with holy images and dominated by a large, silk-covered bed."
+    },
+    "the_kitchen_in_alyona_ivanovnas_flat": {
+      "id": "the_kitchen_in_alyona_ivanovnas_flat",
+      "name": "the kitchen (in Alyona Ivanovna's flat)",
+      "aliases": [
+        "the kitchen"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the kitchen (in Alyona Ivanovna's flat)",
+        "the kitchen"
+      ],
+      "spoilerFreeIntro": "A small, utilitarian kitchen in Alyona Ivanovna’s cramped flat, dimly lit and sparsely furnished."
+    },
+    "the_box_under_the_bed_strong_box": {
+      "id": "the_box_under_the_bed_strong_box",
+      "name": "the box under the bed (strong box)",
+      "aliases": [
+        "box under the bed; strong box",
+        "the box (from previous murder scene, mentioned in memory)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the box under the bed (strong box)",
+        "box under the bed; strong box",
+        "the box (from previous murder scene, mentioned in memory)"
+      ]
+    },
+    "the_empty_flat_on_the_second_floor": {
+      "id": "the_empty_flat_on_the_second_floor",
+      "name": "the empty flat on the second floor",
+      "aliases": [
+        "empty flat; the painters' flat"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the empty flat on the second floor",
+        "empty flat; the painters' flat"
+      ]
+    },
+    "the_stairway": {
+      "id": "the_stairway",
+      "name": "the stairway",
+      "aliases": [
+        "the stairs",
+        "the staircase"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the stairway",
+        "the stairs",
+        "the staircase"
+      ],
+      "spoilerFreeIntro": "A narrow, dimly lit staircase leading down from the apartment’s hallway."
+    },
+    "the_yard": {
+      "id": "the_yard",
+      "name": "the yard",
+      "aliases": [
+        "the yard"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the yard"
+      ],
+      "spoilerFreeIntro": "The yard—a dim, open space behind the house where shadows and strange noises mingle in the night."
+    },
+    "the_canal_bank": {
+      "id": "the_canal_bank",
+      "name": "the canal bank",
+      "aliases": [
+        "the canal bank",
+        "bank of the Ekaterininsky Canal"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the canal bank",
+        "bank of the Ekaterininsky Canal"
+      ],
+      "spoilerFreeIntro": "A narrow, muddy strip running alongside the water, where townsfolk sometimes gather and travelers pass by."
+    },
+    "the_street": {
+      "id": "the_street",
+      "name": "the street",
+      "aliases": [
+        "the street"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the street"
+      ],
+      "spoilerFreeIntro": "A public road, lined with buildings, where people pass on their daily business."
+    },
+    "the_gateway": {
+      "id": "the_gateway",
+      "name": "the gateway",
+      "aliases": [
+        "the gateway"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the gateway"
+      ],
+      "spoilerFreeIntro": "A vaulted entrance connecting the building to the street, where sounds and quarrels sometimes echo through."
+    },
+    "the_axe": {
+      "id": "the_axe",
+      "name": "the axe",
+      "aliases": [
+        "axe used in murder; the murder weapon"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "the axe",
+        "axe used in murder; the murder weapon"
+      ],
+      "spoilerFreeIntro": "A heavy, concealed axe, gripped nervously under Raskolnikov’s coat."
+    },
+    "gambrinus": {
+      "id": "gambrinus",
+      "name": "Gambrinus’",
+      "aliases": [
+        "Gambrinus’ billiards hall"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 7,
+      "searchTerms": [
+        "Gambrinus’",
+        "Gambrinus’ billiards hall"
+      ],
+      "spoilerFreeIntro": "A lively billiard hall where friends meet to play and socialize."
+    },
+    "nikodim_fomitch": {
+      "id": "nikodim_fomitch",
+      "name": "Nikodim Fomitch",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "Nikodim Fomitch"
+      ],
+      "spoilerFreeIntro": "The amiable and fair-whiskered district superintendent, Nikodim Fomitch, enters the scene."
+    },
+    "alexandr_grigorievitch": {
+      "id": "alexandr_grigorievitch",
+      "name": "Alexandr Grigorievitch",
+      "aliases": [
+        "the head clerk"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "Alexandr Grigorievitch",
+        "the head clerk"
+      ],
+      "spoilerFreeIntro": "Alexandr Grigorievitch, the head clerk, is a serious and indifferent official overseeing the crowded office."
+    },
+    "luise_ivanovna": {
+      "id": "luise_ivanovna",
+      "name": "Luise Ivanovna",
+      "aliases": [
+        "the smart lady, the purple-faced lady"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "Luise Ivanovna",
+        "the smart lady, the purple-faced lady"
+      ],
+      "spoilerFreeIntro": "A gaily-dressed, purple-faced lady, Luise Ivanovna awaits permission to sit with the others."
+    },
+    "pestryakov": {
+      "id": "pestryakov",
+      "name": "Pestryakov",
+      "aliases": [
+        "the student"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "Pestryakov",
+        "the student"
+      ],
+      "spoilerFreeIntro": "Pestryakov, a man involved in the bureaucracy at the police station, appears amid the official commotion."
+    },
+    "the_widow_of_the_assessor_zarnitsyn": {
+      "id": "the_widow_of_the_assessor_zarnitsyn",
+      "name": "the widow of the assessor Zarnitsyn",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "the widow of the assessor Zarnitsyn"
+      ]
+    },
+    "mr_tchebarov": {
+      "id": "mr_tchebarov",
+      "name": "Mr. Tchebarov",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "Mr. Tchebarov"
+      ],
+      "spoilerFreeIntro": "Mr. Tchebarov is a man involved in a recent transaction concerning a debt owed by the widow Zarnitsyn."
+    },
+    "the_policestation": {
+      "id": "the_policestation",
+      "name": "the police-station",
+      "aliases": [
+        "police-office",
+        "police office; police station"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "the police-station",
+        "police-office",
+        "police office; police station"
+      ],
+      "spoilerFreeIntro": "A recently relocated police-station situated on the fourth floor of a new building."
+    },
+    "the_office_of_the_district_superintendent": {
+      "id": "the_office_of_the_district_superintendent",
+      "name": "the office of the district superintendent",
+      "aliases": [
+        "police office"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "the office of the district superintendent",
+        "police office"
+      ],
+      "spoilerFreeIntro": "A formal, official room where the district superintendent oversees police matters and receives visitors."
+    },
+    "the_capital": {
+      "id": "the_capital",
+      "name": "the capital",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "the capital"
+      ],
+      "spoilerFreeIntro": "The capital, bustling center of government and society, stands at the heart of the nation’s affairs."
+    },
+    "the_canal": {
+      "id": "the_canal",
+      "name": "the canal",
+      "aliases": [
+        "Ekaterininsky Canal"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "the canal",
+        "Ekaterininsky Canal"
+      ],
+      "spoilerFreeIntro": "A narrow waterway running below the windows of the houses in the city."
+    },
+    "the_things_he_had_taken_from_the_old_womans_box": {
+      "id": "the_things_he_had_taken_from_the_old_womans_box",
+      "name": "the things he had taken from the old woman's box",
+      "aliases": [
+        "the stolen goods, the purse and trinkets",
+        "the things, stolen items, purse, jewel-cases"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "the things he had taken from the old woman's box",
+        "the stolen goods, the purse and trinkets",
+        "the things, stolen items, purse, jewel-cases"
+      ]
+    },
+    "i_o_u_for_a_hundred_and_fifteen_roubles": {
+      "id": "i_o_u_for_a_hundred_and_fifteen_roubles",
+      "name": "I O U for a hundred and fifteen roubles",
+      "aliases": [
+        "the I O U, Raskolnikov's debt",
+        "the I O U; the promissory note"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "I O U for a hundred and fifteen roubles",
+        "the I O U, Raskolnikov's debt",
+        "the I O U; the promissory note"
+      ],
+      "spoilerFreeIntro": "A legally attested IOU for a hundred and fifteen roubles, given by the protagonist to the widow of the assessor, is introduced for debt collection."
+    },
+    "the_complaint_against_raskolnikov_for_debt": {
+      "id": "the_complaint_against_raskolnikov_for_debt",
+      "name": "the complaint against Raskolnikov for debt",
+      "aliases": [
+        "his debts, his financial complaint"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "the complaint against Raskolnikov for debt",
+        "his debts, his financial complaint"
+      ]
+    },
+    "the_police_investigation_into_the_murder": {
+      "id": "the_police_investigation_into_the_murder",
+      "name": "the police investigation into the murder",
+      "aliases": [
+        "the police discussion of the murder case"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 8,
+      "searchTerms": [
+        "the police investigation into the murder",
+        "the police discussion of the murder case"
+      ]
+    },
+    "heruvimov": {
+      "id": "heruvimov",
+      "name": "Heruvimov",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Heruvimov"
+      ],
+      "spoilerFreeIntro": "Heruvimov is a bookseller and small publisher who provides natural science manuals."
+    },
+    "elderly_woman_in_a_kerchief": {
+      "id": "elderly_woman_in_a_kerchief",
+      "name": "elderly woman in a kerchief",
+      "aliases": [
+        "elderly woman in a kerchief and goatskin shoes",
+        "Afrosinya"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "elderly woman in a kerchief",
+        "elderly woman in a kerchief and goatskin shoes",
+        "Afrosinya"
+      ],
+      "spoilerFreeIntro": "An elderly woman in a kerchief and goatskin shoes, accompanied by a girl with a green parasol, appears with quiet generosity."
+    },
+    "girl_with_green_parasol": {
+      "id": "girl_with_green_parasol",
+      "name": "girl with green parasol",
+      "aliases": [
+        "girl, probably her daughter, carrying a green parasol"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "girl with green parasol",
+        "girl, probably her daughter, carrying a green parasol"
+      ]
+    },
+    "bookseller_heruvimov": {
+      "id": "bookseller_heruvimov",
+      "name": "bookseller Heruvimov",
+      "aliases": [
+        "Heruvimov (the bookseller/publisher)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "bookseller Heruvimov",
+        "Heruvimov (the bookseller/publisher)"
+      ]
+    },
+    "coachman": {
+      "id": "coachman",
+      "name": "coachman",
+      "aliases": [
+        "the coachman who lashes Raskolnikov"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "coachman",
+        "the coachman who lashes Raskolnikov"
+      ],
+      "spoilerFreeIntro": "A brusque coachman, driving his carriage through the busy streets of London."
+    },
+    "various_passersby_on_the_bridge": {
+      "id": "various_passersby_on_the_bridge",
+      "name": "various passers-by on the bridge",
+      "aliases": [
+        "crowd on Nikolaevsky Bridge who comment on the incident"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "various passers-by on the bridge",
+        "crowd on Nikolaevsky Bridge who comment on the incident"
+      ]
+    },
+    "other_tenants_of_the_lodging_house": {
+      "id": "other_tenants_of_the_lodging_house",
+      "name": "other tenants of the lodging house",
+      "aliases": [
+        "the crowd/inmates of the block"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "other tenants of the lodging house",
+        "the crowd/inmates of the block"
+      ]
+    },
+    "neva": {
+      "id": "neva",
+      "name": "Neva",
+      "aliases": [
+        "the Neva, Little Neva"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Neva",
+        "the Neva, Little Neva"
+      ],
+      "spoilerFreeIntro": "A broad, winding river flowing through the heart of St. Petersburg."
+    },
+    "nikolaevsky_bridge": {
+      "id": "nikolaevsky_bridge",
+      "name": "Nikolaevsky Bridge",
+      "aliases": [
+        "the bridge to Vassilyevsky Ostrov, Nikolaevsky Bridge"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "Nikolaevsky Bridge",
+        "the bridge to Vassilyevsky Ostrov, Nikolaevsky Bridge"
+      ],
+      "spoilerFreeIntro": "A bustling bridge spanning the river, busy with carriages and foot traffic."
+    },
+    "square": {
+      "id": "square",
+      "name": "square",
+      "aliases": [
+        "the square (near canal, passage, and hoarding with rubbish)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "square",
+        "the square (near canal, passage, and hoarding with rubbish)"
+      ],
+      "spoilerFreeIntro": "A bustling open space in the city, surrounded by streets and buildings."
+    },
+    "v_prospect": {
+      "id": "v_prospect",
+      "name": "V---- Prospect",
+      "aliases": [
+        "V---- Prospect (exactly which avenue is masked by the text)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "V---- Prospect",
+        "V---- Prospect (exactly which avenue is masked by the text)"
+      ],
+      "spoilerFreeIntro": "A long, bustling avenue in Petersburg, lined with shops, carriages, and the restless flow of city life."
+    },
+    "the_yard_with_the_stone_and_rubbish": {
+      "id": "the_yard_with_the_stone_and_rubbish",
+      "name": "the yard with the stone and rubbish",
+      "aliases": [
+        "deserted fenced-off place with rubbish, stone, and a sink"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "the yard with the stone and rubbish",
+        "deserted fenced-off place with rubbish, stone, and a sink"
+      ]
+    },
+    "palace": {
+      "id": "palace",
+      "name": "palace",
+      "aliases": [
+        "the palace (view from the bridge)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 9,
+      "searchTerms": [
+        "palace",
+        "the palace (view from the bridge)"
+      ],
+      "spoilerFreeIntro": "A grand and imposing residence, the palace stands along the banks of the Neva, its silhouette a majestic presence in the city’s landscape."
+    },
+    "messenger_from_the_merchant_shelopaev": {
+      "id": "messenger_from_the_merchant_shelopaev",
+      "name": "messenger from the merchant Shelopaev",
+      "aliases": [
+        "the messenger (from the merchant Shelopaev's office)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "messenger from the merchant Shelopaev",
+        "the messenger (from the merchant Shelopaev's office)"
+      ]
+    },
+    "alexey_semyonovitch": {
+      "id": "alexey_semyonovitch",
+      "name": "Alexey Semyonovitch",
+      "aliases": [
+        "man from the office, came before"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "Alexey Semyonovitch",
+        "man from the office, came before"
+      ]
+    },
+    "semyon_semyonovitch": {
+      "id": "semyon_semyonovitch",
+      "name": "Semyon Semyonovitch",
+      "aliases": [
+        "Semyon Semyonovitch (in the office, not otherwise detailed)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "Semyon Semyonovitch",
+        "Semyon Semyonovitch (in the office, not otherwise detailed)"
+      ],
+      "spoilerFreeIntro": "Semyon Semyonovitch is a man entrusted with handling money matters on behalf of others."
+    },
+    "zossimov": {
+      "id": "zossimov",
+      "name": "Zossimov",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "Zossimov"
+      ],
+      "spoilerFreeIntro": "A young doctor, Zossimov is a friend of Razumihin and attends to Raskolnikov during his illness."
+    },
+    "natalya_yegorovna": {
+      "id": "natalya_yegorovna",
+      "name": "Natalya Yegorovna",
+      "aliases": [
+        "the landlady's daughter, now dead"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "Natalya Yegorovna",
+        "the landlady's daughter, now dead"
+      ],
+      "spoilerFreeIntro": "Natalya Yegorovna is the late daughter whose memory becomes a sensitive topic in the conversation."
+    },
+    "zametov": {
+      "id": "zametov",
+      "name": "Zametov",
+      "aliases": [
+        "the head clerk in the police-office; Mr. Zametov"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "Zametov",
+        "the head clerk in the police-office; Mr. Zametov"
+      ],
+      "spoilerFreeIntro": "Zametov, Alexandr Grigorievitch, is the head clerk in the police office—a clever young man acquainted with several officials in town."
+    },
+    "tolstyakov": {
+      "id": "tolstyakov",
+      "name": "Tolstyakov",
+      "aliases": [
+        "Razumihin's friend with the 'bird's nest' hair"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "Tolstyakov",
+        "Razumihin's friend with the 'bird's nest' hair"
+      ],
+      "spoilerFreeIntro": "Tolstyakov, an acquaintance known for his distinctive and unusual pudding-basin hat, enters the scene."
+    },
+    "fedyaev": {
+      "id": "fedyaev",
+      "name": "Fedyaev",
+      "aliases": [
+        "shopkeeper (where Razumihin bought clothes)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "Fedyaev",
+        "shopkeeper (where Razumihin bought clothes)"
+      ],
+      "spoilerFreeIntro": "Fedyaev is a local shopkeeper known for his questionable business practices."
+    },
+    "sharmer": {
+      "id": "sharmer",
+      "name": "Sharmer",
+      "aliases": [
+        "clothier/tailor mentioned by Razumihin"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "Sharmer",
+        "clothier/tailor mentioned by Razumihin"
+      ],
+      "spoilerFreeIntro": "Sharmer is a fashionable clothing shop mentioned for its stylish attire."
+    },
+    "americas": {
+      "id": "americas",
+      "name": "americas",
+      "aliases": [
+        "America; United States of America"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "americas",
+        "America; United States of America"
+      ]
+    },
+    "krestovsky_island": {
+      "id": "krestovsky_island",
+      "name": "Krestovsky Island",
+      "aliases": [
+        "Krestovsky Ostrov; Krestovsky Island"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "Krestovsky Island",
+        "Krestovsky Ostrov; Krestovsky Island"
+      ],
+      "spoilerFreeIntro": "A well-known island in Saint Petersburg, popular for its picturesque parks and recreation."
+    },
+    "the_address_bureau": {
+      "id": "the_address_bureau",
+      "name": "the_address_bureau",
+      "aliases": [
+        "address bureau"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "the_address_bureau",
+        "address bureau"
+      ],
+      "spoilerFreeIntro": "A small official office in Paris where people's addresses are recorded and looked up."
+    },
+    "five_corners": {
+      "id": "five_corners",
+      "name": "Five Corners",
+      "aliases": [
+        "neighborhood of his old lodgings; Five Corners"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "Five Corners",
+        "neighborhood of his old lodgings; Five Corners"
+      ],
+      "spoilerFreeIntro": "A lively and confusing intersection in the city, known for its cluster of distinctive old lodging houses."
+    },
+    "harlamovs_house": {
+      "id": "harlamovs_house",
+      "name": "Harlamov’s house",
+      "aliases": [
+        "place where Raskolnikov thought he'd lived before"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "Harlamov’s house",
+        "place where Raskolnikov thought he'd lived before"
+      ],
+      "spoilerFreeIntro": "A building at the Five Corners, known by some as Harlamov’s house."
+    },
+    "buchs_house": {
+      "id": "buchs_house",
+      "name": "Buch’s house",
+      "aliases": [
+        "place where Raskolnikov's old lodgings actually were"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 10,
+      "searchTerms": [
+        "Buch’s house",
+        "place where Raskolnikov's old lodgings actually were"
+      ]
+    },
+    "porfiry_petrovitch": {
+      "id": "porfiry_petrovitch",
+      "name": "Porfiry Petrovitch",
+      "aliases": [
+        "Porfiry Petrovitch"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "Porfiry Petrovitch"
+      ],
+      "spoilerFreeIntro": "Porfiry Petrovitch, an intelligent and somewhat eccentric man, is the head of the local Investigation Department."
+    },
+    "nikolay_dementyev": {
+      "id": "nikolay_dementyev",
+      "name": "Nikolay Dementyev",
+      "aliases": [
+        "Nikolay"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "Nikolay Dementyev",
+        "Nikolay"
+      ],
+      "spoilerFreeIntro": "A peasant from the Zaraïsk district, Nikolay Dementyev is a fellow Ryazan native known to Dushkin since childhood."
+    },
+    "dmitri": {
+      "id": "dmitri",
+      "name": "Dmitri",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "Dmitri"
+      ],
+      "spoilerFreeIntro": "Dmitri, a painter from the same village as the drunkard, works alongside him on various jobs in town."
+    },
+    "dushkin": {
+      "id": "dushkin",
+      "name": "Dushkin",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "Dushkin"
+      ],
+      "spoilerFreeIntro": "Dushkin, a local peasant and owner of a dram-shop across from the house, arrives at the police office with a jeweller’s case and an unusual story."
+    },
+    "the_porters_wife": {
+      "id": "the_porters_wife",
+      "name": "the porter’s wife",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "the porter’s wife"
+      ]
+    },
+    "the_other_porter": {
+      "id": "the_other_porter",
+      "name": "the other porter",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "the other porter"
+      ],
+      "spoilerFreeIntro": "A servant employed at the lodging house, assisting with baggage alongside his fellow porter."
+    },
+    "the_woman_in_the_porters_lodge": {
+      "id": "the_woman_in_the_porters_lodge",
+      "name": "the woman in the porter’s lodge",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "the woman in the porter’s lodge"
+      ]
+    },
+    "kryukov": {
+      "id": "kryukov",
+      "name": "Kryukov",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "Kryukov"
+      ],
+      "spoilerFreeIntro": "Kryukov, a man arriving with a lady on his arm, enters the building at the same moment as the commotion unfolds."
+    },
+    "afanasy_pavlovitch": {
+      "id": "afanasy_pavlovitch",
+      "name": "Afanasy Pavlovitch",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "Afanasy Pavlovitch"
+      ],
+      "spoilerFreeIntro": "Afanasy Pavlovitch, a man mentioned in conversation, appears as a source of news about recent events."
+    },
+    "the_kolomensky_men": {
+      "id": "the_kolomensky_men",
+      "name": "the Kolomensky men",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "the Kolomensky men"
+      ],
+      "spoilerFreeIntro": "A group of laborers from the Kolomna district, known for their rough manners."
+    },
+    "widow_soandso": {
+      "id": "widow_soandso",
+      "name": "Widow So-and-so",
+      "aliases": [
+        "the widow (unnamed); Alyona Ivanovna"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "Widow So-and-so",
+        "the widow (unnamed); Alyona Ivanovna"
+      ],
+      "spoilerFreeIntro": "A local widow, known in the neighborhood, who lives with her sister."
+    },
+    "the_police": {
+      "id": "the_police",
+      "name": "the police",
+      "aliases": [
+        "police, police office, police station"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "the police",
+        "police, police office, police station"
+      ],
+      "spoilerFreeIntro": "A group of officials responsible for upholding the law and investigating crimes in the city."
+    },
+    "the_district_postmaster": {
+      "id": "the_district_postmaster",
+      "name": "the district postmaster",
+      "aliases": [
+        "Razumihin's uncle"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "the district postmaster",
+        "Razumihin's uncle"
+      ]
+    },
+    "palais_de_cristal": {
+      "id": "palais_de_cristal",
+      "name": "Palais de Cristal",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "Palais de Cristal"
+      ],
+      "spoilerFreeIntro": "A grand, bustling restaurant in St. Petersburg known for its lively atmosphere and elegant glass architecture."
+    },
+    "the_jewelcase_gold_earrings": {
+      "id": "the_jewelcase_gold_earrings",
+      "name": "the jewel-case (gold ear-rings)",
+      "aliases": [
+        "the box with ear-rings; the box found by Nikolay"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "the jewel-case (gold ear-rings)",
+        "the box with ear-rings; the box found by Nikolay"
+      ]
+    },
+    "the_examination_interrogation_of_nikolay": {
+      "id": "the_examination_interrogation_of_nikolay",
+      "name": "the examination / interrogation of Nikolay",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "the examination / interrogation of Nikolay"
+      ]
+    },
+    "the_attempted_suicide_of_nikolay": {
+      "id": "the_attempted_suicide_of_nikolay",
+      "name": "the attempted suicide of Nikolay",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 11,
+      "searchTerms": [
+        "the attempted suicide of Nikolay"
+      ]
+    },
+    "bakaleyevs_house": {
+      "id": "bakaleyevs_house",
+      "name": "Bakaleyev's house",
+      "aliases": [
+        "the house where Pulcheria and Dounia will lodge"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 12,
+      "searchTerms": [
+        "Bakaleyev's house",
+        "the house where Pulcheria and Dounia will lodge"
+      ]
+    },
+    "voskresensky": {
+      "id": "voskresensky",
+      "name": "Voskresensky",
+      "aliases": [
+        "Voskresensky (street/quarter; site of Bakaleyev's house)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 12,
+      "searchTerms": [
+        "Voskresensky",
+        "Voskresensky (street/quarter; site of Bakaleyev's house)"
+      ],
+      "spoilerFreeIntro": "A modest residential area with rooms to let, located near Bakaleyev’s house."
+    },
+    "yushin": {
+      "id": "yushin",
+      "name": "Yushin",
+      "aliases": [
+        "merchant called Yushin (lets rooms in Bakaleyev's house)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 12,
+      "searchTerms": [
+        "Yushin",
+        "merchant called Yushin (lets rooms in Bakaleyev's house)"
+      ],
+      "spoilerFreeIntro": "A merchant who lets rooms in a shabby, ill-reputed lodging house."
+    },
+    "the_old_womans_customers_pledgers": {
+      "id": "the_old_womans_customers_pledgers",
+      "name": "the old woman's customers (pledgers)",
+      "aliases": [
+        "all who have left pledges with her"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 12,
+      "searchTerms": [
+        "the old woman's customers (pledgers)",
+        "all who have left pledges with her"
+      ]
+    },
+    "the_chest_with_notes_and_money": {
+      "id": "the_chest_with_notes_and_money",
+      "name": "the chest (with notes and money)",
+      "aliases": [
+        "the box in the top drawer of the chest"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 12,
+      "searchTerms": [
+        "the chest (with notes and money)",
+        "the box in the top drawer of the chest"
+      ]
+    },
+    "moscow": {
+      "id": "moscow",
+      "name": "Moscow",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 12,
+      "searchTerms": [
+        "Moscow"
+      ],
+      "spoilerFreeIntro": "Moscow, the bustling capital city, serves as a backdrop for intrigue and the complexities of Russian society."
+    },
+    "the_lecturer_in_universal_history_in_moscow": {
+      "id": "the_lecturer_in_universal_history_in_moscow",
+      "name": "the lecturer in universal history in Moscow",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 12,
+      "searchTerms": [
+        "the lecturer in universal history in Moscow"
+      ]
+    },
+    "the_secretary_abroad": {
+      "id": "the_secretary_abroad",
+      "name": "the secretary abroad",
+      "aliases": [
+        "our secretary abroad (mentioned as murdered)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 12,
+      "searchTerms": [
+        "the secretary abroad",
+        "our secretary abroad (mentioned as murdered)"
+      ]
+    },
+    "the_emancipation_of_the_serfs": {
+      "id": "the_emancipation_of_the_serfs",
+      "name": "the emancipation of the serfs",
+      "aliases": [
+        "the great hour struck"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 12,
+      "searchTerms": [
+        "the emancipation of the serfs",
+        "the great hour struck"
+      ],
+      "spoilerFreeIntro": "The emancipation of the serfs: A landmark 1861 reform in Russia that freed the peasants from centuries of serfdom."
+    },
+    "workmen_in_the_old_womans_flat": {
+      "id": "workmen_in_the_old_womans_flat",
+      "name": "workmen in the old woman's flat",
+      "aliases": [
+        "elder and younger workmen in the old woman's flat"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "workmen in the old woman's flat",
+        "elder and younger workmen in the old woman's flat"
+      ]
+    },
+    "peasant_woman_at_the_entrance": {
+      "id": "peasant_woman_at_the_entrance",
+      "name": "peasant woman at the entrance",
+      "aliases": [
+        "peasant woman at the house entrance"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "peasant woman at the entrance",
+        "peasant woman at the house entrance"
+      ]
+    },
+    "man_in_a_long_coat": {
+      "id": "man_in_a_long_coat",
+      "name": "man in a long coat",
+      "aliases": [
+        "man in a long coat at the house entrance"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "man in a long coat",
+        "man in a long coat at the house entrance"
+      ],
+      "spoilerFreeIntro": "A silent figure among the small crowd, he stands out in a long coat, observing the scene with curiosity."
+    },
+    "young_fellow_in_a_red_shirt": {
+      "id": "young_fellow_in_a_red_shirt",
+      "name": "young fellow in a red shirt",
+      "aliases": [
+        "young fellow in a red shirt"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "young fellow in a red shirt"
+      ],
+      "spoilerFreeIntro": "A young man in a red shirt stands idly before a shop, catching the attention of passersby."
+    },
+    "shopkeepergeneral_shop_owner": {
+      "id": "shopkeepergeneral_shop_owner",
+      "name": "shopkeeper/general shop owner",
+      "aliases": [
+        "man at general shop"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "shopkeeper/general shop owner",
+        "man at general shop"
+      ]
+    },
+    "darkhaired_young_man_with_barrel_organ": {
+      "id": "darkhaired_young_man_with_barrel_organ",
+      "name": "dark-haired young man with barrel organ",
+      "aliases": [
+        "barrel organ grinder"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "dark-haired young man with barrel organ",
+        "barrel organ grinder"
+      ]
+    },
+    "girl_singer_with_the_barrel_organ": {
+      "id": "girl_singer_with_the_barrel_organ",
+      "name": "girl singer with the barrel organ",
+      "aliases": [
+        "girl of fifteen with crinoline"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "girl singer with the barrel organ",
+        "girl of fifteen with crinoline"
+      ]
+    },
+    "duclida": {
+      "id": "duclida",
+      "name": "Duclida",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "Duclida"
+      ],
+      "spoilerFreeIntro": "A lively woman, Duclida is known among her neighbors for her open manner and candid speech."
+    },
+    "tipsy_peasant_in_a_loose_coat": {
+      "id": "tipsy_peasant_in_a_loose_coat",
+      "name": "tipsy peasant in a loose coat",
+      "aliases": [
+        "tipsy peasant"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "tipsy peasant in a loose coat",
+        "tipsy peasant"
+      ]
+    },
+    "pockmarked_wench": {
+      "id": "pockmarked_wench",
+      "name": "pock-marked wench",
+      "aliases": [
+        "pock-marked wench of thirty"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "pock-marked wench",
+        "pock-marked wench of thirty"
+      ],
+      "spoilerFreeIntro": "A pock-marked woman of about thirty, bearing bruises and a swollen lip, speaks quietly and earnestly."
+    },
+    "group_of_women_at_the_tavern": {
+      "id": "group_of_women_at_the_tavern",
+      "name": "group of women at the tavern",
+      "aliases": [
+        "group of women in front of festive establishments; ‘generals’ daughters’ crowd"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "group of women at the tavern",
+        "group of women in front of festive establishments; ‘generals’ daughters’ crowd"
+      ]
+    },
+    "drunken_soldier": {
+      "id": "drunken_soldier",
+      "name": "drunken soldier",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "drunken soldier"
+      ],
+      "spoilerFreeIntro": "A drunken soldier, cigarette in hand, staggers uncertainly down the road among the gathering crowd."
+    },
+    "beggar": {
+      "id": "beggar",
+      "name": "beggar",
+      "aliases": [
+        "beggar in the street"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "beggar",
+        "beggar in the street"
+      ],
+      "spoilerFreeIntro": "A ragged beggar, lost in confusion, drifts amid the chaos of the street crowd."
+    },
+    "man_dead_drunk": {
+      "id": "man_dead_drunk",
+      "name": "man dead drunk",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "man dead drunk"
+      ],
+      "spoilerFreeIntro": "A man lies unconscious from drink in the middle of the road."
+    },
+    "waiter_at_palais_de_cristal": {
+      "id": "waiter_at_palais_de_cristal",
+      "name": "waiter at Palais de Cristal",
+      "aliases": [
+        "waiter"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "waiter at Palais de Cristal",
+        "waiter"
+      ],
+      "spoilerFreeIntro": "A polite waiter at the Palais de Cristal, attentive to patrons’ requests."
+    },
+    "people_drinking_tea_and_champagne_at_restaurant": {
+      "id": "people_drinking_tea_and_champagne_at_restaurant",
+      "name": "people drinking tea and champagne at restaurant",
+      "aliases": [
+        "restaurant patrons"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "people drinking tea and champagne at restaurant",
+        "restaurant patrons"
+      ]
+    },
+    "passersbycrowd_on_the_bridge_and_canal_bank": {
+      "id": "passersbycrowd_on_the_bridge_and_canal_bank",
+      "name": "passers-by/crowd on the bridge and canal bank",
+      "aliases": [
+        "crowd of onlookers at drowning scene"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "passers-by/crowd on the bridge and canal bank",
+        "crowd of onlookers at drowning scene"
+      ]
+    },
+    "woman_claiming_afrosinya": {
+      "id": "woman_claiming_afrosinya",
+      "name": "woman claiming Afrosinya",
+      "aliases": [
+        "neighbor woman (Afrosinya's neighbor)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "woman claiming Afrosinya",
+        "neighbor woman (Afrosinya's neighbor)"
+      ]
+    },
+    "carriage_and_coachman": {
+      "id": "carriage_and_coachman",
+      "name": "carriage and coachman",
+      "aliases": [
+        "person with the carriage at end of chapter"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "carriage and coachman",
+        "person with the carriage at end of chapter"
+      ]
+    },
+    "shils_house": {
+      "id": "shils_house",
+      "name": "Shil's house",
+      "aliases": [
+        "Raskolnikov's lodging house"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "Shil's house",
+        "Raskolnikov's lodging house"
+      ]
+    },
+    "sadovy_street": {
+      "id": "sadovy_street",
+      "name": "Sadovy Street",
+      "aliases": [
+        "Sadovy Street"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "Sadovy Street"
+      ],
+      "spoilerFreeIntro": "A quiet, somewhat melancholy street near the market-place, often wandered by Raskolnikov in moments of gloom."
+    },
+    "block_of_buildings_with_dram_shops_and_eatinghouses": {
+      "id": "block_of_buildings_with_dram_shops_and_eatinghouses",
+      "name": "block of buildings with dram shops and eating-houses",
+      "aliases": [
+        "block of dram shops and eating-houses"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "block of buildings with dram shops and eating-houses",
+        "block of dram shops and eating-houses"
+      ]
+    },
+    "restauranttea_rooms_palais_de_cristal": {
+      "id": "restauranttea_rooms_palais_de_cristal",
+      "name": "restaurant/tea rooms (Palais de Cristal)",
+      "aliases": [
+        "restaurant; tea rooms at Palais de Cristal"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "restaurant/tea rooms (Palais de Cristal)",
+        "restaurant; tea rooms at Palais de Cristal"
+      ]
+    },
+    "x_bridge": {
+      "id": "x_bridge",
+      "name": "X---- Bridge",
+      "aliases": [
+        "X---- Bridge"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "X---- Bridge"
+      ],
+      "spoilerFreeIntro": "A city bridge where Raskolnikov pauses, lost in thought and weariness."
+    },
+    "babushkins_flat": {
+      "id": "babushkins_flat",
+      "name": "Babushkin's flat",
+      "aliases": [
+        "Potchinkov’s house, 47, Babushkin’s flat",
+        "Potchinkov's house"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "Babushkin's flat",
+        "Potchinkov’s house, 47, Babushkin’s flat",
+        "Potchinkov's house"
+      ],
+      "spoilerFreeIntro": "Babushkin’s flat, a modest dwelling in Potchinkov’s house at number 47, is mentioned as a meeting place known to Raskolnikov and Razumihin."
+    },
+    "peski": {
+      "id": "peski",
+      "name": "Peski",
+      "aliases": [
+        "Peski"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "Peski"
+      ],
+      "spoilerFreeIntro": "Peski, a cramped and dilapidated neighborhood in Petersburg."
+    },
+    "petersburg_quarter": {
+      "id": "petersburg_quarter",
+      "name": "Petersburg quarter",
+      "aliases": [
+        "Petersburg quarter"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "Petersburg quarter"
+      ],
+      "spoilerFreeIntro": "A district of the city often mentioned in connection with frequent fires and other urban mishaps."
+    },
+    "fire_in_peski": {
+      "id": "fire_in_peski",
+      "name": "fire in Peski",
+      "aliases": [
+        "fire in Peski"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "fire in Peski"
+      ],
+      "spoilerFreeIntro": "A recent fire in the Peski district, mentioned among a series of incidents in Petersburg."
+    },
+    "fire_in_the_petersburg_quarter": {
+      "id": "fire_in_the_petersburg_quarter",
+      "name": "fire in the Petersburg quarter",
+      "aliases": [
+        "fire in the Petersburg quarter"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "fire in the Petersburg quarter"
+      ],
+      "spoilerFreeIntro": "A recent fire in the Petersburg quarter, mentioned among other city incidents."
+    },
+    "spontaneous_combustion_of_a_shopkeeper": {
+      "id": "spontaneous_combustion_of_a_shopkeeper",
+      "name": "spontaneous combustion of a shopkeeper",
+      "aliases": [
+        "spontaneous combustion of a shopkeeper from alcohol"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "spontaneous combustion of a shopkeeper",
+        "spontaneous combustion of a shopkeeper from alcohol"
+      ]
+    },
+    "accident_on_a_staircase": {
+      "id": "accident_on_a_staircase",
+      "name": "accident on a staircase",
+      "aliases": [
+        "accident on a staircase"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "accident on a staircase"
+      ],
+      "spoilerFreeIntro": "A mysterious accident that occurred on a staircase, mentioned among recent news items."
+    },
+    "arrest_of_gang_of_false_coiners_in_moscow": {
+      "id": "arrest_of_gang_of_false_coiners_in_moscow",
+      "name": "arrest of gang of false coiners in Moscow",
+      "aliases": [
+        "arrest of false coiners in Moscow"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 13,
+      "searchTerms": [
+        "arrest of gang of false coiners in Moscow",
+        "arrest of false coiners in Moscow"
+      ]
+    },
+    "priest_attending_marmeladov": {
+      "id": "priest_attending_marmeladov",
+      "name": "Priest (attending Marmeladov)",
+      "aliases": [
+        "the priest"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 14,
+      "searchTerms": [
+        "Priest (attending Marmeladov)",
+        "the priest"
+      ],
+      "spoilerFreeIntro": "A little, grey-haired old man, the priest arrives to administer the sacrament with quiet solemnity."
+    },
+    "the_doctor_attending_marmeladov": {
+      "id": "the_doctor_attending_marmeladov",
+      "name": "The doctor (attending Marmeladov)",
+      "aliases": [
+        "the doctor"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 14,
+      "searchTerms": [
+        "The doctor (attending Marmeladov)",
+        "the doctor"
+      ],
+      "spoilerFreeIntro": "A tired and practical man, the doctor arrives to examine the wounded Marmeladov with calm professionalism."
+    },
+    "the_crowd": {
+      "id": "the_crowd",
+      "name": "the crowd",
+      "aliases": [
+        "the crowd gathered at the accident and in the lodging"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 14,
+      "searchTerms": [
+        "the crowd",
+        "the crowd gathered at the accident and in the lodging"
+      ],
+      "spoilerFreeIntro": "A group of onlookers, their voices rising as they discuss and confirm what they witnessed."
+    },
+    "the_bridge": {
+      "id": "the_bridge",
+      "name": "the bridge",
+      "aliases": [
+        "the bridge at the spot where the woman had jumped in"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 14,
+      "searchTerms": [
+        "the bridge",
+        "the bridge at the spot where the woman had jumped in"
+      ],
+      "spoilerFreeIntro": "A quiet city bridge, arching over the river, where troubled thoughts linger in the night."
+    },
+    "the_reign_of_reason_and_strength": {
+      "id": "the_reign_of_reason_and_strength",
+      "name": "the reign of reason and strength",
+      "aliases": [
+        "Raskolnikov's resolve for the future (inner turning point)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 14,
+      "searchTerms": [
+        "the reign of reason and strength",
+        "Raskolnikov's resolve for the future (inner turning point)"
+      ]
+    },
+    "the_death_of_marmeladov": {
+      "id": "the_death_of_marmeladov",
+      "name": "the death of Marmeladov",
+      "aliases": [
+        "death of Semyon Zaharovitch Marmeladov"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 14,
+      "searchTerms": [
+        "the death of Marmeladov",
+        "death of Semyon Zaharovitch Marmeladov"
+      ]
+    },
+    "raskolnikovs_fainting_on_meeting_his_mother_and_sister": {
+      "id": "raskolnikovs_fainting_on_meeting_his_mother_and_sister",
+      "name": "Raskolnikov’s fainting on meeting his mother and sister",
+      "aliases": [
+        "Raskolnikov fainting at reunion"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 14,
+      "searchTerms": [
+        "Raskolnikov’s fainting on meeting his mother and sister",
+        "Raskolnikov fainting at reunion"
+      ]
     }
   },
-  "lastIndexedChapter": 1
+  "lastIndexedChapter": 14
 }
