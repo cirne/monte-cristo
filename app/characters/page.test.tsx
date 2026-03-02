@@ -1,36 +1,24 @@
 import { describe, it, expect, vi } from "vitest";
-import { render, screen } from "@testing-library/react";
 import CharactersPage from "./page";
 
-vi.mock("@/lib/book", () => ({
-  getBook: () => ({
-    chapters: [
-      { number: 1, content: "Dantès sailed the Pharaon.", title: "Ch1", volume: "VOLUME ONE" },
-    ],
-  }),
+const redirectMock = vi.fn();
+vi.mock("next/navigation", () => ({
+  redirect: (url: string) => {
+    redirectMock(url);
+    throw new Error("redirect");
+  },
 }));
 
-vi.mock("@/lib/characters", () => ({
-  CHARACTERS: [
-    {
-      id: "dantes",
-      name: "Edmond Dantès",
-      aliases: [],
-      description: "The protagonist.",
-      searchTerms: ["Dantès"],
-      role: "protagonist",
-    },
-  ],
-}));
+vi.mock("@/lib/books", () => ({ DEFAULT_BOOK_SLUG: "monte-cristo" }));
 
 describe("app/characters/page", () => {
-  it("renders Character Guide title", () => {
-    render(<CharactersPage />);
-    expect(screen.getByText("Character Guide")).toBeInTheDocument();
-  });
-
-  it("renders character names", () => {
-    render(<CharactersPage />);
-    expect(screen.getByText("Edmond Dantès")).toBeInTheDocument();
+  it("redirects to book characters route", () => {
+    redirectMock.mockClear();
+    try {
+      CharactersPage({});
+    } catch (e) {
+      expect((e as Error).message).toBe("redirect");
+    }
+    expect(redirectMock).toHaveBeenCalledWith("/book/monte-cristo/characters");
   });
 });

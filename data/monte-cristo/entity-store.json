@@ -117,7 +117,8 @@
         "M. Morrel, Pierre Morrel",
         "Morrel (in context: Maximilian's father, only if referenced by name, otherwise not included for this chapter)",
         "Maximilian's father, the good old man",
-        "Morrel, the worthy merchant"
+        "Morrel, the worthy merchant",
+        "the owner, shipowner"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -129,7 +130,8 @@
         "M. Morrel, Pierre Morrel",
         "Morrel (in context: Maximilian's father, only if referenced by name, otherwise not included for this chapter)",
         "Maximilian's father, the good old man",
-        "Morrel, the worthy merchant"
+        "Morrel, the worthy merchant",
+        "the owner, shipowner"
       ],
       "matchPatterns": [
         "M\\.?\\s*Morrel",
@@ -142,12 +144,14 @@
       "id": "captain_leclere",
       "name": "Captain Leclere",
       "aliases": [
-        "Captain Leclere"
+        "Captain Leclere",
+        "Captain Leclere, the brave captain"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
       "searchTerms": [
-        "Captain Leclere"
+        "Captain Leclere",
+        "Captain Leclere, the brave captain"
       ],
       "spoilerFreeIntro": "\"The esteemed Captain Leclere, known for his bravery on the high seas, had just met an untimely fate.\""
     },
@@ -166,7 +170,8 @@
         "M. Danglars, the baron, baron",
         "the baron",
         "the banker",
-        "her husband"
+        "her husband",
+        "supercargo"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -183,7 +188,8 @@
         "M. Danglars, the baron, baron",
         "the baron",
         "the banker",
-        "her husband"
+        "her husband",
+        "supercargo"
       ]
     },
     "civita_vecchia": {
@@ -226,11 +232,14 @@
     "la_canebire": {
       "id": "la_canebire",
       "name": "La Canebière",
-      "aliases": [],
+      "aliases": [
+        "famous street of La Canebière"
+      ],
       "type": "place",
       "firstSeenInChapter": 1,
       "searchTerms": [
-        "La Canebière"
+        "La Canebière",
+        "famous street of La Canebière"
       ],
       "spoilerFreeIntro": "\"La Canebière, the bustling heart of Marseille, echoed with the sounds of commerce and conversation.\""
     },
@@ -238,7 +247,8 @@
       "id": "notre_dame_garde",
       "name": "Notre-Dame de la Garde",
       "aliases": [
-        "Our Lady of the Grotto"
+        "Our Lady of the Grotto",
+        "the look-out"
       ],
       "type": "place",
       "firstSeenInChapter": 1,
@@ -246,7 +256,8 @@
       "searchTerms": [
         "Notre-Dame de la Garde",
         "la Garde",
-        "Our Lady of the Grotto"
+        "Our Lady of the Grotto",
+        "the look-out"
       ]
     },
     "chateau_dif": {
@@ -277,7 +288,8 @@
       "aliases": [
         "Fort Saint Nicholas",
         "tower of Saint-Jean",
-        "Fort Saint-Jean"
+        "Fort Saint-Jean",
+        "the ramparts"
       ],
       "type": "place",
       "firstSeenInChapter": 1,
@@ -286,17 +298,21 @@
         "Fort Saint-Jean",
         "Saint-Jean",
         "Fort Saint Nicholas",
-        "tower of Saint-Jean"
+        "tower of Saint-Jean",
+        "the ramparts"
       ]
     },
     "valence": {
       "id": "valence",
       "name": "Valence",
-      "aliases": [],
+      "aliases": [
+        "garrison at Valence"
+      ],
       "type": "place",
       "firstSeenInChapter": 1,
       "searchTerms": [
-        "Valence"
+        "Valence",
+        "garrison at Valence"
       ],
       "spoilerFreeIntro": "\"A bustling garrison town nestled on the banks of the river Rhône.\""
     },
@@ -351,7 +367,8 @@
         "the Pharaon, ship",
         "three-master the Pharaon",
         "Monte Cristo, the island",
-        "Pharaon (the ship), arrival of Pharaon"
+        "Pharaon (the ship), arrival of Pharaon",
+        "the three-master, the vessel, the ship"
       ],
       "type": "place",
       "firstSeenInChapter": 1,
@@ -362,7 +379,8 @@
         "the Pharaon, ship",
         "three-master the Pharaon",
         "Monte Cristo, the island",
-        "Pharaon (the ship), arrival of Pharaon"
+        "Pharaon (the ship), arrival of Pharaon",
+        "the three-master, the vessel, the ship"
       ]
     },
     "marseilles": {
@@ -371,7 +389,8 @@
       "aliases": [
         "Marseilles",
         "Marseilles, Phocea",
-        "Marseilles, Marseilles harbor, port"
+        "Marseilles, Marseilles harbor, port",
+        "Marseille, old Phocee, Phoceens"
       ],
       "type": "place",
       "firstSeenInChapter": 1,
@@ -382,7 +401,8 @@
         "Phocee",
         "Phocea",
         "Marseilles, Phocea",
-        "Marseilles, Marseilles harbor, port"
+        "Marseilles, Marseilles harbor, port",
+        "Marseille, old Phocee, Phoceens"
       ]
     },
     "monte_cristo": {
@@ -1209,13 +1229,15 @@
       "name": "Island of Elba",
       "aliases": [
         "Island of Elba",
-        "Elba"
+        "Elba",
+        "the Island of Elba, Porto-Ferrajo"
       ],
       "type": "place",
-      "firstSeenInChapter": 7,
+      "firstSeenInChapter": 1,
       "searchTerms": [
         "Island of Elba",
-        "Elba"
+        "Elba",
+        "the Island of Elba, Porto-Ferrajo"
       ],
       "spoilerFreeIntro": "A small Mediterranean island serving as a strategic naval stop."
     },
@@ -1240,7 +1262,7 @@
         "Paris"
       ],
       "type": "place",
-      "firstSeenInChapter": 7,
+      "firstSeenInChapter": 1,
       "spoilerFreeIntro": "The capital of France; much of the story later takes place here.",
       "searchTerms": [
         "Paris"
@@ -11885,6 +11907,31 @@
         "today, the end of the period of waiting"
       ],
       "spoilerFreeIntro": "\"The long-awaited date set by Edmond Dantès for the resolution of his promise.\""
+    },
+    "marshal_bertrand": {
+      "id": "marshal_bertrand",
+      "name": "Marshal Bertrand",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Marshal Bertrand"
+      ],
+      "spoilerFreeIntro": "A trusted officer of Napoleon, Marshal Bertrand is mentioned as a recipient of an important packet."
+    },
+    "policar_morrel": {
+      "id": "policar_morrel",
+      "name": "Policar Morrel",
+      "aliases": [
+        "Morrel who served in the same regiment"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Policar Morrel",
+        "Morrel who served in the same regiment"
+      ],
+      "spoilerFreeIntro": "Policar Morrel is Edmond’s uncle, once a sailor and later a captain."
     }
   },
   "lastIndexedChapter": 117

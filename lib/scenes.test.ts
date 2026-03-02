@@ -28,6 +28,14 @@ describe("lib/scenes", () => {
     it("returns empty array for empty string", () => {
       expect(getParagraphs("")).toEqual([]);
     });
+
+    it("parses canonical HTML and returns plain-text paragraphs", () => {
+      const html = "<p>First paragraph.</p><p>Second with <em>emphasis</em>.</p>";
+      expect(getParagraphs(html)).toEqual([
+        "First paragraph.",
+        "Second with emphasis.",
+      ]);
+    });
   });
 
   describe("getSingleScene", () => {

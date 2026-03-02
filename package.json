@@ -11,8 +11,7 @@
     "test:watch": "vitest",
     "parse-book": "bun run scripts/parse-book.ts",
     "index-chapter": "bun run scripts/index-chapter.ts",
-    "generate-images": "bun run scripts/generate-images.ts",
-    "generate-scene-images": "bun run scripts/generate-scene-images.ts"
+    "generate-images": "bun run scripts/generate-images.ts"
   },
   "dependencies": {
     "lucide-react": "^0.575.0",

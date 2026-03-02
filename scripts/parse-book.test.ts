@@ -1,21 +1,20 @@
 import { describe, it, expect } from "vitest";
+import { stripPageMarkerLines, remapChapterIndexScenes } from "../lib/canonical-book";
 import {
   parseBook,
   parseBookWithParagraphRemaps,
-  remapChapterIndexScenes,
-  stripStandalonePageMarkerParagraphs,
-} from "./parse-book";
+} from "./books/monte-cristo/parse";
 
 describe("scripts/parse-book", () => {
-  describe("stripStandalonePageMarkerParagraphs", () => {
+  describe("stripPageMarkerLines (canonical-book)", () => {
     it("removes standalone Gutenberg page marker paragraphs", () => {
       const content = "Paragraph A.\n\n0023m\n\nParagraph B.";
-      expect(stripStandalonePageMarkerParagraphs(content)).toBe("Paragraph A.\n\nParagraph B.");
+      expect(stripPageMarkerLines(content)).toBe("Paragraph A.\n\nParagraph B.");
     });
 
     it("removes legacy zero-width placeholder paragraphs", () => {
       const content = "Paragraph A.\n\n\u200B\n\nParagraph B.";
-      expect(stripStandalonePageMarkerParagraphs(content)).toBe("Paragraph A.\n\nParagraph B.");
+      expect(stripPageMarkerLines(content)).toBe("Paragraph A.\n\nParagraph B.");
     });
   });
 
@@ -41,7 +40,9 @@ Another paragraph.
 
     const parsed = parseBook(raw);
     const chapter1 = parsed.chapters.find((chapter) => chapter.number === 1);
-    expect(chapter1?.content).toContain("First paragraph.\n\nSecond paragraph.");
+    // Canonical format is HTML fragments
+    expect(chapter1?.content).toContain("<p>First paragraph.</p>");
+    expect(chapter1?.content).toContain("<p>Second paragraph.</p>");
     expect(chapter1?.content).not.toContain("0023m");
     expect(chapter1?.content).not.toContain("\u200B");
   });

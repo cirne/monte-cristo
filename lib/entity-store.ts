@@ -1,13 +1,13 @@
 /**
- * Entity store: canonical list of people, places, and events discovered or
- * curated for the book. Used when indexing chapters so we can update
- * previously referenced entities instead of duplicating.
+ * Entity store: canonical list of people, places, and events for the book.
+ * Populated by the indexer; used when indexing so the LLM reuses IDs and we dedupe by name.
  */
 
 import { readFileSync, existsSync } from "fs";
 import { join } from "path";
 import "./data-manifest";
 import type { EntityType } from "./chapter-index";
+import { DEFAULT_BOOK_SLUG } from "./books";
 
 export interface StoredEntity {
   id: string;
@@ -31,23 +31,34 @@ export interface EntityStoreData {
 }
 
 const DATA_DIR = join(process.cwd(), "data");
-let _store: EntityStoreData | null = null;
+const storeCache = new Map<string, EntityStoreData>();
 
-export function getEntityStore(): EntityStoreData {
-  if (!_store) {
-    const path = join(DATA_DIR, "entity-store.json");
-    if (!existsSync(path)) {
-      _store = { entities: {} };
-    } else {
-      const raw = readFileSync(path, "utf-8");
-      _store = JSON.parse(raw) as EntityStoreData;
-    }
-  }
-  return _store;
+function dataDirFor(slug: string): string {
+  return join(DATA_DIR, slug);
 }
 
-export function getStoredEntity(id: string): StoredEntity | undefined {
-  return getEntityStore().entities[id];
+export function getEntityStore(slug: string = DEFAULT_BOOK_SLUG): EntityStoreData {
+  let cached = storeCache.get(slug);
+  if (!cached) {
+    const path = join(dataDirFor(slug), "entity-store.json");
+    if (!existsSync(path)) {
+      cached = { entities: {} };
+    } else {
+      const raw = readFileSync(path, "utf-8");
+      cached = JSON.parse(raw) as EntityStoreData;
+    }
+    storeCache.set(slug, cached);
+  }
+  return cached;
+}
+
+export function getStoredEntity(slug: string, id: string): StoredEntity | undefined;
+export function getStoredEntity(id: string): StoredEntity | undefined;
+export function getStoredEntity(slugOrId: string, id?: string): StoredEntity | undefined {
+  if (id !== undefined) {
+    return getEntityStore(slugOrId).entities[id];
+  }
+  return getEntityStore(DEFAULT_BOOK_SLUG).entities[slugOrId];
 }
 
 /** Slug for entity id: lowercase, alphanumeric + underscore */

@@ -1,22 +1,19 @@
-import { describe, it, expect } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { describe, it, expect, vi } from "vitest";
+import { render } from "@testing-library/react";
+import { redirect } from "next/navigation";
 import SearchPage from "./page";
 
+vi.mock("next/navigation", () => ({
+  redirect: vi.fn(),
+}));
+
 describe("app/search/page", () => {
-  it("renders search page title", () => {
-    render(<SearchPage />);
-    expect(screen.getByText("Search")).toBeInTheDocument();
-  });
-
-  it("renders search input", () => {
-    render(<SearchPage />);
-    expect(
-      screen.getByPlaceholderText(/Search chapters, characters, places/)
-    ).toBeInTheDocument();
-  });
-
-  it("shows hint for short query", () => {
-    render(<SearchPage />);
-    expect(screen.getByText(/Type at least 2 characters/)).toBeInTheDocument();
+  it("redirects to default book search", () => {
+    try {
+      render(<SearchPage />);
+    } catch {
+      // redirect() throws NEXT_REDIRECT in real Next.js
+    }
+    expect(redirect).toHaveBeenCalledWith("/book/monte-cristo/search");
   });
 });

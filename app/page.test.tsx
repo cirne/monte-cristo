@@ -30,8 +30,11 @@ describe("app/page", () => {
     expect(screen.getByText("Alexandre Dumas, père")).toBeInTheDocument();
   });
 
-  it("renders chapter links", () => {
+  it("renders book cards to pick a book", () => {
     render(<Home />);
-    expect(screen.getByText("Chapter 1")).toBeInTheDocument();
+    expect(screen.getByText("Pick a book to start reading with X-Ray style context.")).toBeInTheDocument();
+    expect(screen.getByText("The Count of Monte Cristo")).toBeInTheDocument();
+    expect(screen.getByText("The Great Gatsby")).toBeInTheDocument();
+    expect(screen.getAllByText(/Open book →/).length).toBeGreaterThanOrEqual(1);
   });
 });

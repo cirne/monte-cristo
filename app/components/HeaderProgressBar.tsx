@@ -3,12 +3,13 @@
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
-function parseChapterNumber(pathname: string | null): number | null {
+function parseChapterPath(pathname: string | null): string | null {
   if (!pathname) return null;
-  const match = pathname.match(/^\/chapter\/(\d+)\/?$/);
-  if (!match) return null;
-  const chapterNum = parseInt(match[1], 10);
-  return Number.isNaN(chapterNum) ? null : chapterNum;
+  const bookMatch = pathname.match(/^\/book\/([^/]+)\/chapter\/(\d+)\/?$/);
+  if (bookMatch) return pathname;
+  const legacyMatch = pathname.match(/^\/chapter\/(\d+)\/?$/);
+  if (legacyMatch) return pathname;
+  return null;
 }
 
 function getParagraphIndex(node: Element): number | null {
@@ -42,8 +43,7 @@ function isChapterEndVisible(lastParagraph: HTMLElement): boolean {
 
 export function HeaderProgressBar() {
   const pathname = usePathname();
-  const chapterNum = parseChapterNumber(pathname);
-  const chapterPath = chapterNum != null ? pathname : null;
+  const chapterPath = parseChapterPath(pathname);
   const [progressState, setProgressState] = useState<{
     chapterPath: string;
     progress: number;
