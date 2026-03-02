@@ -14,7 +14,7 @@ import {
   getStorySoFarBeforeChapter,
   resolveReadingPosition,
 } from "@/lib/reading-context";
-import { DEFAULT_BOOK_SLUG, isBookSlug } from "@/lib/books";
+import { DEFAULT_BOOK_SLUG, getBookConfig, isBookSlug } from "@/lib/books";
 
 function buildFallbackAnswer(params: {
   storySoFarBefore?: string;
@@ -82,11 +82,18 @@ export async function GET(request: NextRequest) {
       chapterNumber,
     });
 
-    const { answer, source } = await generateNarrativeAnswer({
-      systemPrompt: `You are a spoiler-safe reading companion for a serialized novel.
+    const config = getBookConfig(slug);
+    const systemPromptBase = `You are a spoiler-safe reading companion for a serialized novel.
 Summarize the story so far at the exact reading checkpoint and never include events beyond the provided context.
 Return between one and three paragraphs (never more than three).
-Return strict JSON with a single key: "answer".`,
+Return strict JSON with a single key: "answer".`;
+    const systemPrompt =
+      config?.summaryPromptFragment?.trim()
+        ? `${systemPromptBase}\n\nBook-specific guidance: ${config.summaryPromptFragment!.trim()}`
+        : systemPromptBase;
+
+    const { answer, source } = await generateNarrativeAnswer({
+      systemPrompt,
       userPrompt: `Reading checkpoint:
 - Chapter: ${chapterNumber}
 - Paragraph index (0-based): ${position.paragraphIndex}
