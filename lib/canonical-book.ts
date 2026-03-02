@@ -7,6 +7,7 @@ import { existsSync, mkdirSync, rmSync, unlinkSync, writeFileSync } from "fs";
 import { join } from "path";
 import type { Book, BookIndex, Chapter, ChapterSummary, Section } from "./book";
 import { getParagraphs } from "./scenes";
+import { formatCanonicalHtmlForStorage } from "./canonical-html";
 
 export type { Book, BookIndex, Chapter, ChapterSummary, Section };
 
@@ -212,7 +213,8 @@ export function writeCanonicalBook(dataDir: string, slug: string, book: Book): v
   rmSync(chaptersDir, { recursive: true, force: true });
   mkdirSync(chaptersDir, { recursive: true });
   for (const chapter of book.chapters) {
-    writeFileSync(join(chaptersDir, `${chapter.number}.html`), chapter.content, "utf-8");
+    const formatted = formatCanonicalHtmlForStorage(chapter.content);
+    writeFileSync(join(chaptersDir, `${chapter.number}.html`), formatted, "utf-8");
   }
 
   const legacyBookPath = join(bookDir, "book.json");
