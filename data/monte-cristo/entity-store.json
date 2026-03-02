@@ -48,7 +48,19 @@
         "the priest",
         "Edmond Dantès",
         "the Count of Monte Cristo, Monte Cristo, Edmond Dantès, Edmond",
-        "Count of Monte Cristo, Monte Cristo, the count, Dantès"
+        "Count of Monte Cristo, Monte Cristo, the count, Dantès",
+        "Count of Monte Cristo, Monte Cristo, the count",
+        "Monte Cristo, the count, M. de Monte Cristo",
+        "'the emperor' — title humorously given to Monte Cristo",
+        "Monte Cristo, the Count of Monte Cristo",
+        "the Count of Monte Cristo / his protector / the person who bears it",
+        "the abbé, the priest",
+        "Edmond, Edmond Dantès",
+        "the count, Monte Cristo",
+        "the Count (Monte Cristo) (Danglars' identification)",
+        "Edmond Dantès (revealed as not Monte Cristo)",
+        "the Count of Monte Cristo, the count, Monte Cristo, Dantès",
+        "the count; Count of Monte Cristo, Monte Cristo"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -103,7 +115,19 @@
         "M. Dantès",
         "the priest",
         "the Count of Monte Cristo, Monte Cristo, Edmond Dantès, Edmond",
-        "Count of Monte Cristo, Monte Cristo, the count, Dantès"
+        "Count of Monte Cristo, Monte Cristo, the count, Dantès",
+        "Count of Monte Cristo, Monte Cristo, the count",
+        "Monte Cristo, the count, M. de Monte Cristo",
+        "'the emperor' — title humorously given to Monte Cristo",
+        "Monte Cristo, the Count of Monte Cristo",
+        "the Count of Monte Cristo / his protector / the person who bears it",
+        "the abbé, the priest",
+        "Edmond, Edmond Dantès",
+        "the count, Monte Cristo",
+        "the Count (Monte Cristo) (Danglars' identification)",
+        "Edmond Dantès (revealed as not Monte Cristo)",
+        "the Count of Monte Cristo, the count, Monte Cristo, Dantès",
+        "the count; Count of Monte Cristo, Monte Cristo"
       ]
     },
     "m_morrel": {
@@ -118,7 +142,11 @@
         "Morrel (in context: Maximilian's father, only if referenced by name, otherwise not included for this chapter)",
         "Maximilian's father, the good old man",
         "Morrel, the worthy merchant",
-        "the owner, shipowner"
+        "the owner, shipowner",
+        "old Morrel, your father",
+        "Morrel, whom we know",
+        "worthy merchant",
+        "the worthy merchant, Morrel (Maximilian's father)"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -131,7 +159,11 @@
         "Morrel (in context: Maximilian's father, only if referenced by name, otherwise not included for this chapter)",
         "Maximilian's father, the good old man",
         "Morrel, the worthy merchant",
-        "the owner, shipowner"
+        "the owner, shipowner",
+        "old Morrel, your father",
+        "Morrel, whom we know",
+        "worthy merchant",
+        "the worthy merchant, Morrel (Maximilian's father)"
       ],
       "matchPatterns": [
         "M\\.?\\s*Morrel",
@@ -171,7 +203,11 @@
         "the baron",
         "the banker",
         "her husband",
-        "supercargo"
+        "supercargo",
+        "Danglars, the banker, baron, king of finance",
+        "Danglars, the banker",
+        "Danglars, self titled 'king of finance'",
+        "M. Danglars; Danglars"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -189,7 +225,11 @@
         "the baron",
         "the banker",
         "her husband",
-        "supercargo"
+        "supercargo",
+        "Danglars, the banker, baron, king of finance",
+        "Danglars, the banker",
+        "Danglars, self titled 'king of finance'",
+        "M. Danglars; Danglars"
       ]
     },
     "civita_vecchia": {
@@ -267,7 +307,8 @@
         "the fortress, the prison, the dungeon, d'If, Chateau d'If, the cell",
         "the château",
         "Chateau d'If, d'If",
-        "Château d’If"
+        "Château d’If",
+        "the Château d'If, prison, fortress, dungeon"
       ],
       "type": "place",
       "firstSeenInChapter": 1,
@@ -279,7 +320,8 @@
         "the fortress, the prison, the dungeon, d'If, Chateau d'If, the cell",
         "the château",
         "Chateau d'If, d'If",
-        "Château d’If"
+        "Château d’If",
+        "the Château d'If, prison, fortress, dungeon"
       ]
     },
     "fort_saint_jean": {
@@ -334,7 +376,10 @@
         "madame, his mother, Mercédès",
         "Albert's mother",
         "Madame de Morcerf, Mercédès",
-        "Madame de Morcerf, mother"
+        "Madame de Morcerf, mother",
+        "the countess, Morcerf's widow",
+        "Madame de Morcerf; the beautiful Catalane and noble countess; mother",
+        "his betrothed"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -355,7 +400,10 @@
         "madame, his mother, Mercédès",
         "Albert's mother",
         "Madame de Morcerf, Mercédès",
-        "Madame de Morcerf, mother"
+        "Madame de Morcerf, mother",
+        "the countess, Morcerf's widow",
+        "Madame de Morcerf; the beautiful Catalane and noble countess; mother",
+        "his betrothed"
       ]
     },
     "pharaon": {
@@ -413,7 +461,9 @@
         "the Island of Monte Cristo",
         "Monte Cristo",
         "Island of Monte Cristo",
-        "the island of Monte Cristo"
+        "the island of Monte Cristo",
+        "Monte Cristo (island), the island",
+        "Monte Cristo; the island"
       ],
       "type": "place",
       "firstSeenInChapter": 1,
@@ -422,7 +472,9 @@
         "the island",
         "the Island of Monte Cristo",
         "Island of Monte Cristo",
-        "the island of Monte Cristo"
+        "the island of Monte Cristo",
+        "Monte Cristo (island), the island",
+        "Monte Cristo; the island"
       ],
       "spoilerFreeIntro": "\"A rugged and isolated island rising fiercely from the sea, Monte Cristo is shrouded in mystery and whispers of hidden treasures.\""
     },
@@ -521,13 +573,15 @@
       "id": "dants_father",
       "name": "Dantès’ father",
       "aliases": [
-        "old man"
+        "old man",
+        "old man stretched on a pallet"
       ],
       "type": "person",
       "firstSeenInChapter": 2,
       "searchTerms": [
         "Dantès’ father",
-        "old man"
+        "old man",
+        "old man stretched on a pallet"
       ],
       "spoilerFreeIntro": "Dantès’ frail and devoted father, quietly awaiting news of his son."
     },
@@ -565,7 +619,9 @@
       "aliases": [
         "Caderousse",
         "Caderousse the tailor",
-        "M. de Caderousse"
+        "M. de Caderousse",
+        "Caderousse, his teacher of criminal signals",
+        "Caderousse (as reference for the Masonic sign)"
       ],
       "type": "person",
       "firstSeenInChapter": 2,
@@ -574,7 +630,9 @@
         "Gaspard Caderousse",
         "Caderousse",
         "Caderousse the tailor",
-        "M. de Caderousse"
+        "M. de Caderousse",
+        "Caderousse, his teacher of criminal signals",
+        "Caderousse (as reference for the Masonic sign)"
       ]
     },
     "saint_nicolas_citadel": {
@@ -673,7 +731,8 @@
         "the Count of Morcerf",
         "Count of Morcerf, general, M. de Morcerf",
         "the general",
-        "the Morcerf"
+        "the Morcerf",
+        "M. de Morcerf / Fernand"
       ],
       "type": "person",
       "firstSeenInChapter": 3,
@@ -697,7 +756,8 @@
         "the Count of Morcerf",
         "Count of Morcerf, general, M. de Morcerf",
         "the general",
-        "the Morcerf"
+        "the Morcerf",
+        "M. de Morcerf / Fernand"
       ]
     },
     "the_village_of_the_catalans": {
@@ -791,7 +851,10 @@
         "Morrel",
         "M. Maximilian Morrel",
         "Morrel / Maximilian",
-        "Maximilian, Morrel, Maximilien"
+        "Maximilian, Morrel, Maximilien",
+        "Maximilian, Morrel, the captain, the young man missing from the funeral",
+        "Morrel (whom we know)",
+        "Morrel; Maximilian"
       ],
       "type": "person",
       "firstSeenInChapter": 5,
@@ -806,7 +869,10 @@
         "Morrel",
         "M. Maximilian Morrel",
         "Morrel / Maximilian",
-        "Maximilian, Morrel, Maximilien"
+        "Maximilian, Morrel, Maximilien",
+        "Maximilian, Morrel, the captain, the young man missing from the funeral",
+        "Morrel (whom we know)",
+        "Morrel; Maximilian"
       ]
     },
     "old_dants": {
@@ -841,13 +907,17 @@
       "id": "palais_de_justice",
       "name": "Palais de Justice",
       "aliases": [
-        "Palace of Justice"
+        "Palace of Justice",
+        "the Palais",
+        "Palais"
       ],
       "type": "place",
       "firstSeenInChapter": 5,
       "searchTerms": [
         "Palais de Justice",
-        "Palace of Justice"
+        "Palace of Justice",
+        "the Palais",
+        "Palais"
       ],
       "spoilerFreeIntro": "The Palais de Justice, a grand courthouse standing at the heart of the city."
     },
@@ -896,7 +966,12 @@
         "Villefort, the procureur",
         "her father",
         "Villefort / the procureur / the magistrate",
-        "the procureur"
+        "the procureur",
+        "Villefort, the procureur, the king’s attorney, Madame de Villefort’s husband",
+        "Villefort, the magistrate, the procureur, the king’s attorney, her husband",
+        "Villefort, procureur, king’s attorney",
+        "the king’s attorney",
+        "her father, now a madman"
       ],
       "type": "person",
       "firstSeenInChapter": 6,
@@ -917,7 +992,12 @@
         "Villefort, the procureur",
         "her father",
         "Villefort / the procureur / the magistrate",
-        "the procureur"
+        "the procureur",
+        "Villefort, the procureur, the king’s attorney, Madame de Villefort’s husband",
+        "Villefort, the magistrate, the procureur, the king’s attorney, her husband",
+        "Villefort, procureur, king’s attorney",
+        "the king’s attorney",
+        "her father, now a madman"
       ]
     },
     "napoleon": {
@@ -960,7 +1040,8 @@
         "the marquis, old nobleman, Marquis de Saint-Méran",
         "the marquis",
         "my grandfather",
-        "marquis"
+        "marquis",
+        "M. de Saint-Méran, Villefort’s father-in-law"
       ],
       "type": "person",
       "firstSeenInChapter": 6,
@@ -969,7 +1050,8 @@
         "the marquis, old nobleman, Marquis de Saint-Méran",
         "the marquis",
         "my grandfather",
-        "marquis"
+        "marquis",
+        "M. de Saint-Méran, Villefort’s father-in-law"
       ]
     },
     "marquise_de_saintmran": {
@@ -978,7 +1060,8 @@
       "aliases": [
         "the marquise, Madame de Saint-Méran, mother of Renée",
         "the marquise",
-        "my grandmother"
+        "my grandmother",
+        "Madame de Saint-Méran, Villefort's mother-in-law"
       ],
       "type": "person",
       "firstSeenInChapter": 6,
@@ -986,7 +1069,8 @@
         "Marquise de Saint-Méran",
         "the marquise, Madame de Saint-Méran, mother of Renée",
         "the marquise",
-        "my grandmother"
+        "my grandmother",
+        "Madame de Saint-Méran, Villefort's mother-in-law"
       ],
       "spoilerFreeIntro": "The Marquise de Saint-Méran, a noblewoman known for her stern and commanding presence."
     },
@@ -1002,7 +1086,8 @@
         "my mother",
         "M. de Saint-Méran",
         "Madame de Saint-Méran",
-        "Mademoiselle de Saint-Méran, Madame de Saint-Méran"
+        "Mademoiselle de Saint-Méran, Madame de Saint-Méran",
+        "Renée, Valentine’s mother"
       ],
       "type": "person",
       "firstSeenInChapter": 6,
@@ -1016,7 +1101,8 @@
         "my mother",
         "M. de Saint-Méran",
         "Madame de Saint-Méran",
-        "Mademoiselle de Saint-Méran, Madame de Saint-Méran"
+        "Mademoiselle de Saint-Méran, Madame de Saint-Méran",
+        "Renée, Valentine’s mother"
       ]
     },
     "comte_de_salvieux": {
@@ -1065,13 +1151,19 @@
       "id": "count_noirtier",
       "name": "Count Noirtier",
       "aliases": [
-        "Count Noirtier, father of Villefort after changing status"
+        "Count Noirtier, father of Villefort after changing status",
+        "Noirtier",
+        "Noirtier, M. Noirtier, the old man",
+        "M. Noirtier"
       ],
       "type": "person",
       "firstSeenInChapter": 6,
       "searchTerms": [
         "Count Noirtier",
-        "Count Noirtier, father of Villefort after changing status"
+        "Count Noirtier, father of Villefort after changing status",
+        "Noirtier",
+        "Noirtier, M. Noirtier, the old man",
+        "M. Noirtier"
       ],
       "spoilerFreeIntro": "An influential former Girondin and current senator, Count Noirtier carries a weighty political legacy."
     },
@@ -1174,13 +1266,15 @@
       "name": "Naples",
       "aliases": [
         "Naples",
-        "Neapolitans, Naples"
+        "Neapolitans, Naples",
+        "referenced in 'Neapolitan bonds'"
       ],
       "type": "place",
       "firstSeenInChapter": 6,
       "searchTerms": [
         "Naples",
-        "Neapolitans, Naples"
+        "Neapolitans, Naples",
+        "referenced in 'Neapolitan bonds'"
       ],
       "spoilerFreeIntro": "Naples, a vibrant Italian city ruled by the protagonist’s brother-in-law."
     },
@@ -1273,13 +1367,15 @@
       "name": "M. Noirtier",
       "aliases": [
         "M. Noirtier",
-        "Monsieur Noirtier"
+        "Monsieur Noirtier",
+        "Noirtier"
       ],
       "type": "person",
       "firstSeenInChapter": 7,
       "searchTerms": [
         "M. Noirtier",
-        "Monsieur Noirtier"
+        "Monsieur Noirtier",
+        "Noirtier"
       ],
       "spoilerFreeIntro": "An enigmatic man residing at Rue Coq-Héron, No. 13."
     },
@@ -1355,12 +1451,14 @@
       "id": "jacopo",
       "name": "Jacopo",
       "aliases": [
-        "Jacopo"
+        "Jacopo",
+        "Jacopo, captain of the yacht"
       ],
       "type": "person",
       "firstSeenInChapter": 22,
       "searchTerms": [
-        "Jacopo"
+        "Jacopo",
+        "Jacopo, captain of the yacht"
       ],
       "spoilerFreeIntro": "Jacopo, a seasoned sailor navigating the waters with quiet confidence."
     },
@@ -1388,7 +1486,9 @@
         "the priest",
         "Faria",
         "Abbé Busoni",
-        "abbé, the abbé, mad abbé, Faria"
+        "abbé, the abbé, mad abbé, Faria",
+        "the abbé, poor mad priest, mad abbé, second father",
+        "the abbé, mad priest, poor mad priest"
       ],
       "type": "person",
       "firstSeenInChapter": 14,
@@ -1404,7 +1504,9 @@
         "Faria, the abbé, abbe",
         "the priest",
         "Abbé Busoni",
-        "abbé, the abbé, mad abbé, Faria"
+        "abbé, the abbé, mad abbé, Faria",
+        "the abbé, poor mad priest, mad abbé, second father",
+        "the abbé, mad priest, poor mad priest"
       ]
     },
     "csar_borgia": {
@@ -1461,13 +1563,15 @@
       "id": "island_of_monte_cristo",
       "name": "Island of Monte Cristo",
       "aliases": [
-        "Monte Cristo"
+        "Monte Cristo",
+        "the Island of Monte Cristo"
       ],
       "type": "place",
       "firstSeenInChapter": 18,
       "searchTerms": [
         "Island of Monte Cristo",
-        "Monte Cristo"
+        "Monte Cristo",
+        "the Island of Monte Cristo"
       ],
       "spoilerFreeIntro": "A remote, mysterious island rumored to hold vast treasures and secrets."
     },
@@ -1475,12 +1579,14 @@
       "id": "rome",
       "name": "Rome",
       "aliases": [
-        "Rome"
+        "Rome",
+        "Eternal City"
       ],
       "type": "place",
       "firstSeenInChapter": 16,
       "searchTerms": [
-        "Rome"
+        "Rome",
+        "Eternal City"
       ],
       "spoilerFreeIntro": "Rome, the ancient capital where history and legend intertwine beneath its timeless streets."
     },
@@ -1528,13 +1634,15 @@
       "name": "Charenton",
       "aliases": [
         "Charenton",
-        "barrier of Charenton"
+        "barrier of Charenton",
+        "the barrier of Charenton"
       ],
       "type": "place",
       "firstSeenInChapter": 14,
       "searchTerms": [
         "Charenton",
-        "barrier of Charenton"
+        "barrier of Charenton",
+        "the barrier of Charenton"
       ],
       "spoilerFreeIntro": "Charenton, a historic asylum on the outskirts of Paris."
     },
@@ -1691,7 +1799,12 @@
         "grandpapa Noirtier, M. Noirtier, Villefort’s father",
         "grandpapa",
         "my grandfather",
-        "the old man (Valentine's grandfather)"
+        "the old man (Valentine's grandfather)",
+        "my kind grandfather",
+        "Noirtier",
+        "the old man",
+        "M. Noirtier, Monsieur Noirtier",
+        "Noirtier, M. Noirtier de Villefort"
       ],
       "type": "person",
       "firstSeenInChapter": 10,
@@ -1702,7 +1815,11 @@
         "grandpapa Noirtier, M. Noirtier, Villefort’s father",
         "grandpapa",
         "my grandfather",
-        "the old man (Valentine's grandfather)"
+        "the old man (Valentine's grandfather)",
+        "my kind grandfather",
+        "the old man",
+        "M. Noirtier, Monsieur Noirtier",
+        "Noirtier, M. Noirtier de Villefort"
       ],
       "spoilerFreeIntro": "Noirtier, a venerable senator known for his influential past in the Girondin political circle."
     },
@@ -1968,13 +2085,15 @@
       "id": "street_rue_saintjacques",
       "name": "Street Rue Saint-Jacques",
       "aliases": [
-        "Rue Saint-Jacques"
+        "Rue Saint-Jacques",
+        "barrier Saint-Jacques"
       ],
       "type": "place",
       "firstSeenInChapter": 11,
       "searchTerms": [
         "Street Rue Saint-Jacques",
-        "Rue Saint-Jacques"
+        "Rue Saint-Jacques",
+        "barrier Saint-Jacques"
       ],
       "spoilerFreeIntro": "Rue Saint-Jacques, a bustling Parisian street known for its lively commerce and hidden intrigues."
     },
@@ -2208,7 +2327,10 @@
         "Valentine, Mademoiselle de Villefort, the young lady, her step-daughter",
         "Mademoiselle de Villefort, Valentine",
         "Mademoiselle de Villefort",
-        "Valentine, Mademoiselle Valentine"
+        "Valentine, Mademoiselle Valentine",
+        "Valentine, the young girl / Villefort's daughter / poor girl",
+        "Valentine, the young girl, M. de Villefort's daughter",
+        "Valentine, his daughter"
       ],
       "type": "person",
       "firstSeenInChapter": 47,
@@ -2219,7 +2341,10 @@
         "Valentine, Mademoiselle de Villefort, the young lady, her step-daughter",
         "Mademoiselle de Villefort, Valentine",
         "Mademoiselle de Villefort",
-        "Valentine, Mademoiselle Valentine"
+        "Valentine, Mademoiselle Valentine",
+        "Valentine, the young girl / Villefort's daughter / poor girl",
+        "Valentine, the young girl, M. de Villefort's daughter",
+        "Valentine, his daughter"
       ]
     },
     "haydee": {
@@ -2267,7 +2392,8 @@
         "Albert, Morcerf, viscount, Count Albert",
         "Albert / M. Albert de Morcerf / Morcerf / Vicomte Albert de Morcerf",
         "Albert, Morcerf, the viscount",
-        "Albert, Morcerf, M. de Morcerf"
+        "Albert, Morcerf, M. de Morcerf",
+        "her son, Albert"
       ],
       "type": "person",
       "firstSeenInChapter": 27,
@@ -2285,7 +2411,8 @@
         "Albert, Morcerf, viscount, Count Albert",
         "Albert / M. Albert de Morcerf / Morcerf / Vicomte Albert de Morcerf",
         "Albert, Morcerf, the viscount",
-        "Albert, Morcerf, M. de Morcerf"
+        "Albert, Morcerf, M. de Morcerf",
+        "her son, Albert"
       ]
     },
     "eugenie": {
@@ -2298,7 +2425,10 @@
         "Eugénie",
         "Mademoiselle Eugénie Danglars",
         "Mademoiselle Eugénie, Mademoiselle Danglars",
-        "Mademoiselle Eugénie"
+        "Mademoiselle Eugénie",
+        "Eugénie, Mlle. Danglars, Mademoiselle Danglars, Danglars' daughter",
+        "Eugénie, Eugénie Danglars, Mademoiselle Danglars",
+        "Mademoiselle Eugénie, Eugénie"
       ],
       "type": "person",
       "firstSeenInChapter": 40,
@@ -2312,7 +2442,10 @@
         "Mademoiselle Danglars, Eugénie",
         "Mademoiselle Eugénie Danglars",
         "Mademoiselle Eugénie, Mademoiselle Danglars",
-        "Mademoiselle Eugénie"
+        "Mademoiselle Eugénie",
+        "Eugénie, Mlle. Danglars, Mademoiselle Danglars, Danglars' daughter",
+        "Eugénie, Eugénie Danglars, Mademoiselle Danglars",
+        "Mademoiselle Eugénie, Eugénie"
       ]
     },
     "franz": {
@@ -2344,7 +2477,9 @@
       "aliases": [
         "Monsieur Bertuccio, steward",
         "Bertuccio",
-        "M. Bertuccio"
+        "M. Bertuccio",
+        "M. Bertuccio, the steward, the Corsican",
+        "Bertuccio / the steward / the Corsican / his adopted father / the worthy Corsican"
       ],
       "type": "person",
       "firstSeenInChapter": 35,
@@ -2352,7 +2487,9 @@
       "searchTerms": [
         "Bertuccio",
         "Monsieur Bertuccio, steward",
-        "M. Bertuccio"
+        "M. Bertuccio",
+        "M. Bertuccio, the steward, the Corsican",
+        "Bertuccio / the steward / the Corsican / his adopted father / the worthy Corsican"
       ]
     },
     "madame_villefort": {
@@ -2368,7 +2505,10 @@
         "Mademoiselle de Villefort",
         "his wife, the young woman, Héloïse",
         "little Edward's mother",
-        "Valentine's stepmother"
+        "Valentine's stepmother",
+        "her step-mother",
+        "her stepmother",
+        "Madame de Villefort, the young woman, his wife"
       ],
       "type": "person",
       "firstSeenInChapter": 47,
@@ -2385,7 +2525,10 @@
         "Mademoiselle de Villefort",
         "his wife, the young woman, Héloïse",
         "little Edward's mother",
-        "Valentine's stepmother"
+        "Valentine's stepmother",
+        "her step-mother",
+        "her stepmother",
+        "Madame de Villefort, the young woman, his wife"
       ]
     },
     "accoules": {
@@ -2402,17 +2545,22 @@
     "rue_caisserie": {
       "id": "rue_caisserie",
       "name": "Rue Caisserie",
-      "aliases": [],
+      "aliases": [
+        "Rue de la Caisserie"
+      ],
       "type": "place",
       "firstSeenInChapter": 8,
       "searchTerms": [
-        "Rue Caisserie"
+        "Rue Caisserie",
+        "Rue de la Caisserie"
       ]
     },
     "rue_saintlaurent": {
       "id": "rue_saintlaurent",
       "name": "Rue Saint-Laurent",
-      "aliases": [],
+      "aliases": [
+        "Rue Saint-Laurent"
+      ],
       "type": "place",
       "firstSeenInChapter": 8,
       "searchTerms": [
@@ -2434,11 +2582,14 @@
     "la_consigne": {
       "id": "la_consigne",
       "name": "La Consigne",
-      "aliases": [],
+      "aliases": [
+        "the Consigne"
+      ],
       "type": "place",
       "firstSeenInChapter": 8,
       "searchTerms": [
-        "La Consigne"
+        "La Consigne",
+        "the Consigne"
       ],
       "spoilerFreeIntro": "A guarded post near the quay, illuminated at night and serving as a checkpoint."
     },
@@ -2526,13 +2677,15 @@
       "id": "underjailer",
       "name": "Under-jailer",
       "aliases": [
-        "jailer"
+        "jailer",
+        "Antoine, jailer Antoine"
       ],
       "type": "person",
       "firstSeenInChapter": 8,
       "searchTerms": [
         "Under-jailer",
-        "jailer"
+        "jailer",
+        "Antoine, jailer Antoine"
       ],
       "spoilerFreeIntro": "An under-jailer, poorly dressed and sullen, leads the way through the prison."
     },
@@ -2713,13 +2866,15 @@
       "id": "pierre_morrel",
       "name": "Pierre Morrel",
       "aliases": [
-        "old Dantès"
+        "old Dantès",
+        "old man"
       ],
       "type": "person",
       "firstSeenInChapter": 13,
       "searchTerms": [
         "Pierre Morrel",
-        "old Dantès"
+        "old Dantès",
+        "old man"
       ],
       "spoilerFreeIntro": "The honest and compassionate owner of Morrel & Son, Pierre Morrel is a respected shipowner and friend to Edmond Dantès."
     },
@@ -2785,11 +2940,14 @@
     "the_catalans": {
       "id": "the_catalans",
       "name": "the Catalans",
-      "aliases": [],
+      "aliases": [
+        "the Catalans, the village of the Catalans"
+      ],
       "type": "place",
       "firstSeenInChapter": 13,
       "searchTerms": [
-        "the Catalans"
+        "the Catalans",
+        "the Catalans, the village of the Catalans"
       ]
     },
     "the_palace_of_justice_palais_de_justice": {
@@ -2952,12 +3110,14 @@
       "id": "alexander_vi",
       "name": "Alexander VI",
       "aliases": [
-        "Alexander VI"
+        "Alexander VI",
+        "Alexander"
       ],
       "type": "person",
       "firstSeenInChapter": 16,
       "searchTerms": [
-        "Alexander VI"
+        "Alexander VI",
+        "Alexander"
       ],
       "spoilerFreeIntro": "A cunning and ambitious pope, known for his political intrigue."
     },
@@ -3043,12 +3203,14 @@
       "id": "plutarch",
       "name": "Plutarch",
       "aliases": [
-        "Plutarch"
+        "Plutarch",
+        "Plutarch (author of Life of Alexander)"
       ],
       "type": "person",
       "firstSeenInChapter": 16,
       "searchTerms": [
-        "Plutarch"
+        "Plutarch",
+        "Plutarch (author of Life of Alexander)"
       ],
       "spoilerFreeIntro": "Plutarch is mentioned as a renowned ancient Greek historian and biographer, esteemed for his influential works."
     },
@@ -3376,13 +3538,15 @@
       "id": "edmond_dantss_father",
       "name": "Edmond Dantès’s Father",
       "aliases": [
-        "his father"
+        "his father",
+        "the son of his old master, Morrel"
       ],
       "type": "person",
       "firstSeenInChapter": 17,
       "searchTerms": [
         "Edmond Dantès’s Father",
-        "his father"
+        "his father",
+        "the son of his old master, Morrel"
       ],
       "spoilerFreeIntro": "An elderly, devoted man, deeply attached to his only son, Edmond Dantès."
     },
@@ -3575,13 +3739,15 @@
       "id": "providence",
       "name": "Providence",
       "aliases": [
-        "the goodness of Providence"
+        "the goodness of Providence",
+        "Providence, the goodness of Providence"
       ],
       "type": "person",
       "firstSeenInChapter": 19,
       "searchTerms": [
         "Providence",
-        "the goodness of Providence"
+        "the goodness of Providence",
+        "Providence, the goodness of Providence"
       ],
       "spoilerFreeIntro": "Providence is mentioned as a guiding and protective force, suggesting a higher power watching over events."
     },
@@ -4060,11 +4226,14 @@
     "death_of_edmond_dants_father": {
       "id": "death_of_edmond_dants_father",
       "name": "death of Edmond Dantès' father",
-      "aliases": [],
+      "aliases": [
+        "death in the house / death of Valentine"
+      ],
       "type": "event",
       "firstSeenInChapter": 27,
       "searchTerms": [
-        "death of Edmond Dantès' father"
+        "death of Edmond Dantès' father",
+        "death in the house / death of Valentine"
       ]
     },
     "m_de_boville": {
@@ -4072,14 +4241,16 @@
       "name": "M. de Boville",
       "aliases": [
         "inspector of prisons",
-        "Receiver-General of the charities"
+        "Receiver-General of the charities",
+        "Receiver-General of the charities, the receiver-general"
       ],
       "type": "person",
       "firstSeenInChapter": 28,
       "searchTerms": [
         "M. de Boville",
         "inspector of prisons",
-        "Receiver-General of the charities"
+        "Receiver-General of the charities",
+        "Receiver-General of the charities, the receiver-general"
       ],
       "spoilerFreeIntro": "The inspector of prisons, M. de Boville, is a meticulous official overseeing matters of incarceration in Paris."
     },
@@ -4130,12 +4301,14 @@
       "id": "emmanuel",
       "name": "Emmanuel",
       "aliases": [
-        "Emmanuel"
+        "Emmanuel",
+        "Emmanuel (Julie's husband)"
       ],
       "type": "person",
       "firstSeenInChapter": 29,
       "searchTerms": [
-        "Emmanuel"
+        "Emmanuel",
+        "Emmanuel (Julie's husband)"
       ],
       "spoilerFreeIntro": "Emmanuel, a loyal and anxious young employee of M. Morrel, greets visitors with genuine concern."
     },
@@ -4158,25 +4331,30 @@
       "aliases": [
         "Julie",
         "his sister",
-        "Julie (Maximilian's sister, Emmanuel's wife)"
+        "Julie (Maximilian's sister, Emmanuel's wife)",
+        "Julie's sister"
       ],
       "type": "person",
       "firstSeenInChapter": 29,
       "searchTerms": [
         "Julie",
         "his sister",
-        "Julie (Maximilian's sister, Emmanuel's wife)"
+        "Julie (Maximilian's sister, Emmanuel's wife)",
+        "Julie's sister"
       ],
       "spoilerFreeIntro": "A gentle and attentive young woman, Julie is the daughter of Monsieur Morrel."
     },
     "madame_morrel": {
       "id": "madame_morrel",
       "name": "Madame Morrel",
-      "aliases": [],
+      "aliases": [
+        "wife of M. Morrel, Morrel's wife"
+      ],
       "type": "person",
       "firstSeenInChapter": 29,
       "searchTerms": [
-        "Madame Morrel"
+        "Madame Morrel",
+        "wife of M. Morrel, Morrel's wife"
       ],
       "spoilerFreeIntro": "The wife of the shipowner Morrel, a gentle and devoted woman burdened by her family's troubles."
     },
@@ -4383,11 +4561,14 @@
     "spanish_banker": {
       "id": "spanish_banker",
       "name": "Spanish banker",
-      "aliases": [],
+      "aliases": [
+        "reference to Spanish bonds or bankers (not directly identified, present as an adjective)"
+      ],
       "type": "person",
       "firstSeenInChapter": 30,
       "searchTerms": [
-        "Spanish banker"
+        "Spanish banker",
+        "reference to Spanish bonds or bankers (not directly identified, present as an adjective)"
       ],
       "spoilerFreeIntro": "A wealthy and influential Spanish banker who plays a key role in shaping Danglars’ fortunes."
     },
@@ -4401,7 +4582,9 @@
         "Ali (the Nubian servant)",
         "the Nubian / a negro",
         "Ali, the Nubian, Ali the servant",
-        "Ali Pasha"
+        "Ali Pasha",
+        "Ali, mute servant",
+        "Ali, the mute"
       ],
       "type": "person",
       "firstSeenInChapter": 31,
@@ -4412,7 +4595,9 @@
         "Ali (the Nubian servant)",
         "the Nubian / a negro",
         "Ali, the Nubian, Ali the servant",
-        "Ali Pasha"
+        "Ali Pasha",
+        "Ali, mute servant",
+        "Ali, the mute"
       ],
       "spoilerFreeIntro": "Ali, a devoted Nubian servant, quietly attends to Monte Cristo with unwavering loyalty."
     },
@@ -5271,7 +5456,8 @@
       "aliases": [
         "condemned murderer",
         "Andrea",
-        "Benedetto"
+        "Benedetto",
+        "singing partner of Eugénie (implied: Andrea Cavalcanti/Andrea/Benedetto)"
       ],
       "type": "person",
       "firstSeenInChapter": 34,
@@ -5279,7 +5465,8 @@
         "Andrea Rondolo",
         "condemned murderer",
         "Andrea",
-        "Benedetto"
+        "Benedetto",
+        "singing partner of Eugénie (implied: Andrea Cavalcanti/Andrea/Benedetto)"
       ],
       "spoilerFreeIntro": "Andrea Rondolo is one of two prisoners mentioned in a courtroom scene, known for his unfortunate fate."
     },
@@ -5891,13 +6078,15 @@
       "id": "rothschild",
       "name": "Rothschild",
       "aliases": [
-        "M. de Rothschild"
+        "M. de Rothschild",
+        "Rothschild, house of Rothschild"
       ],
       "type": "person",
       "firstSeenInChapter": 36,
       "searchTerms": [
         "Rothschild",
-        "M. de Rothschild"
+        "M. de Rothschild",
+        "Rothschild, house of Rothschild"
       ],
       "spoilerFreeIntro": "A banker, whose name carries great wealth and influence in Parisian society."
     },
@@ -6174,12 +6363,14 @@
       "id": "csar",
       "name": "Cæsar",
       "aliases": [
-        "Cæsar"
+        "Cæsar",
+        "Cæsar (author of Commentaries)"
       ],
       "type": "person",
       "firstSeenInChapter": 37,
       "searchTerms": [
-        "Cæsar"
+        "Cæsar",
+        "Cæsar (author of Commentaries)"
       ],
       "spoilerFreeIntro": "A dignified, intelligent-looking bandit, known among his companions as Cæsar."
     },
@@ -6431,7 +6622,12 @@
         "M. Debray",
         "Lucien Debray",
         "Debray, the minister's secretary",
-        "Debray"
+        "Debray",
+        "Debray, the minister’s secretary",
+        "Lucien; Debray",
+        "Lucien",
+        "minister’s secretary (Debray)",
+        "the minister’s secretary"
       ],
       "type": "person",
       "firstSeenInChapter": 39,
@@ -6440,7 +6636,12 @@
         "Debray, Lucien",
         "M. Debray",
         "Debray, the minister's secretary",
-        "Debray"
+        "Debray",
+        "Debray, the minister’s secretary",
+        "Lucien; Debray",
+        "Lucien",
+        "minister’s secretary (Debray)",
+        "the minister’s secretary"
       ],
       "spoilerFreeIntro": "A tall, young man with light hair and clear gray eyes, Lucien Debray is introduced as a well-dressed government official."
     },
@@ -6487,12 +6688,16 @@
       "id": "beauchamp",
       "name": "Beauchamp",
       "aliases": [
-        "Beauchamp"
+        "Beauchamp",
+        "Beauchamp (reference to 'pull, as Beauchamp says')",
+        "Beauchamp (as quoted by Andrea)"
       ],
       "type": "person",
       "firstSeenInChapter": 39,
       "searchTerms": [
-        "Beauchamp"
+        "Beauchamp",
+        "Beauchamp (reference to 'pull, as Beauchamp says')",
+        "Beauchamp (as quoted by Andrea)"
       ],
       "spoilerFreeIntro": "A keen and inquisitive journalist, known for his sharp wit and love of debate."
     },
@@ -6546,14 +6751,16 @@
       "aliases": [
         "Count of Château-Renaud, Baron de Château-Renaud",
         "Château-Renaud",
-        "M. de Château-Renaud"
+        "M. de Château-Renaud",
+        "the millionnaire"
       ],
       "type": "person",
       "firstSeenInChapter": 39,
       "searchTerms": [
         "Château-Renaud",
         "Count of Château-Renaud, Baron de Château-Renaud",
-        "M. de Château-Renaud"
+        "M. de Château-Renaud",
+        "the millionnaire"
       ],
       "spoilerFreeIntro": "A fashionable young nobleman known for his elegance and good breeding."
     },
@@ -6745,11 +6952,14 @@
     "bourse": {
       "id": "bourse",
       "name": "Bourse",
-      "aliases": [],
+      "aliases": [
+        "the Bourse"
+      ],
       "type": "place",
       "firstSeenInChapter": 39,
       "searchTerms": [
-        "Bourse"
+        "Bourse",
+        "the Bourse"
       ],
       "spoilerFreeIntro": "The Bourse, the bustling financial exchange of Paris, is a hive of activity where fortunes rise and fall."
     },
@@ -6901,12 +7111,14 @@
       "id": "emmanuel_herbaut",
       "name": "Emmanuel Herbaut",
       "aliases": [
-        "Emmanuel Herbaut"
+        "Emmanuel Herbaut",
+        "Emmanuel"
       ],
       "type": "person",
       "firstSeenInChapter": 40,
       "searchTerms": [
-        "Emmanuel Herbaut"
+        "Emmanuel Herbaut",
+        "Emmanuel"
       ],
       "spoilerFreeIntro": "A devoted and loyal friend to the Morrel family, Emmanuel Herbaut is introduced as a steadfast companion in their time of difficulty."
     },
@@ -6914,12 +7126,14 @@
       "id": "julie_herbaut",
       "name": "Julie Herbaut",
       "aliases": [
-        "Julie Herbaut"
+        "Julie Herbaut",
+        "Julie"
       ],
       "type": "person",
       "firstSeenInChapter": 40,
       "searchTerms": [
-        "Julie Herbaut"
+        "Julie Herbaut",
+        "Julie"
       ]
     },
     "richard_blount": {
@@ -6982,13 +7196,15 @@
       "name": "Champs-Élysées",
       "aliases": [
         "Champs-Élysées",
-        "my house in the Champs-Élysées"
+        "my house in the Champs-Élysées",
+        "the Champs-Élysées"
       ],
       "type": "place",
       "firstSeenInChapter": 40,
       "searchTerms": [
         "Champs-Élysées",
-        "my house in the Champs-Élysées"
+        "my house in the Champs-Élysées",
+        "the Champs-Élysées"
       ],
       "spoilerFreeIntro": "A fashionable, tree-lined avenue in Paris, known for its elegance and lively atmosphere."
     },
@@ -7181,14 +7397,20 @@
       "aliases": [
         "Benedetto",
         "Andrea",
-        "Andrea Cavalcanti, the young Corsican"
+        "Andrea Cavalcanti, the young Corsican",
+        "the assassin Benedetto, that wretch, Benedetto",
+        "the murderer of Caderousse, the accused, criminal, escaped galley-slave",
+        "the false Cavalcanti, Prince Andrea Cavalcanti, the accused"
       ],
       "type": "person",
       "firstSeenInChapter": 44,
       "searchTerms": [
         "Benedetto",
         "Andrea",
-        "Andrea Cavalcanti, the young Corsican"
+        "Andrea Cavalcanti, the young Corsican",
+        "the assassin Benedetto, that wretch, Benedetto",
+        "the murderer of Caderousse, the accused, criminal, escaped galley-slave",
+        "the false Cavalcanti, Prince Andrea Cavalcanti, the accused"
       ],
       "spoilerFreeIntro": "A mysterious and troubled young boy, known as Benedetto, is introduced as an orphan taken in by strangers."
     },
@@ -7224,7 +7446,8 @@
       "id": "bonapartists",
       "name": "Bonapartists",
       "aliases": [
-        "followers of the usurper"
+        "followers of the usurper",
+        "Bonapartists"
       ],
       "type": "person",
       "firstSeenInChapter": 44,
@@ -7408,11 +7631,14 @@
     "canal_from_beaucaire_to_aiguesmortes": {
       "id": "canal_from_beaucaire_to_aiguesmortes",
       "name": "Canal from Beaucaire to Aigues-Mortes",
-      "aliases": [],
+      "aliases": [
+        "the canal"
+      ],
       "type": "place",
       "firstSeenInChapter": 44,
       "searchTerms": [
-        "Canal from Beaucaire to Aigues-Mortes"
+        "Canal from Beaucaire to Aigues-Mortes",
+        "the canal"
       ]
     },
     "mantua": {
@@ -7485,13 +7711,19 @@
       "id": "the_murder_at_the_inn",
       "name": "The murder at the inn",
       "aliases": [
-        "Murder of the jeweller and La Carconte"
+        "Murder of the jeweller and La Carconte",
+        "fourth murder, murders in the house, assassinated",
+        "that affair of Benedetto",
+        "the famous waistcoat"
       ],
       "type": "event",
       "firstSeenInChapter": 45,
       "searchTerms": [
         "The murder at the inn",
-        "Murder of the jeweller and La Carconte"
+        "Murder of the jeweller and La Carconte",
+        "fourth murder, murders in the house, assassinated",
+        "that affair of Benedetto",
+        "the famous waistcoat"
       ]
     },
     "the_burning_of_assunta": {
@@ -7576,7 +7808,9 @@
         "Madame Danglars",
         "the baroness",
         "Hermine",
-        "Hermine (first name of Madame Danglars; baroness)"
+        "Hermine (first name of Madame Danglars; baroness)",
+        "Madame la Baronne Danglars (addressed in Danglars' letter)",
+        "the minister’s wife, Madame"
       ],
       "type": "person",
       "firstSeenInChapter": 46,
@@ -7585,7 +7819,9 @@
         "Madame Danglars",
         "the baroness",
         "Hermine",
-        "Hermine (first name of Madame Danglars; baroness)"
+        "Hermine (first name of Madame Danglars; baroness)",
+        "Madame la Baronne Danglars (addressed in Danglars' letter)",
+        "the minister’s wife, Madame"
       ],
       "spoilerFreeIntro": "The Baroness Danglars is a wealthy, elegant woman known for her prominent position in Parisian society."
     },
@@ -7675,7 +7911,11 @@
         "Edward de Villefort",
         "little Edward",
         "her brother",
-        "his son, the child"
+        "his son, the child",
+        "Edward, the child, their son, the boy",
+        "Edward, the infant phenomenon, young Edward",
+        "little Edward, Edward",
+        "her brother who died last September with his mother"
       ],
       "type": "person",
       "firstSeenInChapter": 47,
@@ -7684,7 +7924,11 @@
         "Edward",
         "little Edward",
         "her brother",
-        "his son, the child"
+        "his son, the child",
+        "Edward, the child, their son, the boy",
+        "Edward, the infant phenomenon, young Edward",
+        "little Edward, Edward",
+        "her brother who died last September with his mother"
       ]
     },
     "avenue_des_champslyses": {
@@ -7912,14 +8156,16 @@
       "name": "Thomson & French",
       "aliases": [
         "the house of Thomson & French",
-        "house of Thomson & French"
+        "house of Thomson & French",
+        "house of Thomson & French, Rome (banking house)"
       ],
       "type": "place",
       "firstSeenInChapter": 50,
       "searchTerms": [
         "Thomson & French",
         "the house of Thomson & French",
-        "house of Thomson & French"
+        "house of Thomson & French",
+        "house of Thomson & French, Rome (banking house)"
       ],
       "spoilerFreeIntro": "Thomson & French, a well-known banking house in Paris."
     },
@@ -8606,7 +8852,8 @@
         "the major",
         "Major Cavalcanti, Major Bartolomeo Cavalcanti",
         "Cavalcanti",
-        "M. Cavalcanti"
+        "M. Cavalcanti",
+        "M. Cavalcanti, his father, old patrician"
       ],
       "type": "person",
       "firstSeenInChapter": 54,
@@ -8616,7 +8863,8 @@
         "the major",
         "Major Cavalcanti, Major Bartolomeo Cavalcanti",
         "Cavalcanti",
-        "M. Cavalcanti"
+        "M. Cavalcanti",
+        "M. Cavalcanti, his father, old patrician"
       ],
       "spoilerFreeIntro": "A distinguished-looking Italian nobleman, newly arrived in Parisian society."
     },
@@ -8635,7 +8883,11 @@
         "M. Andrea Cavalcanti",
         "Prince Cavalcanti",
         "Andrea Cavalcanti / Benedetto",
-        "Benedetto"
+        "Benedetto",
+        "Andrea / Benedetto / the prince of Cavalcanti / the young man / the object of admiration / the unfortunate youth / the aristocratic prisoner",
+        "Benedetto (Andrea's alias within the prison)",
+        "the false Cavalcanti, the accused, Andrea Cavalcanti",
+        "Andrea Cavalcanti"
       ],
       "type": "person",
       "firstSeenInChapter": 54,
@@ -8652,7 +8904,10 @@
         "M. Andrea Cavalcanti",
         "Prince Cavalcanti",
         "Andrea Cavalcanti / Benedetto",
-        "Benedetto"
+        "Benedetto",
+        "Andrea / Benedetto / the prince of Cavalcanti / the young man / the object of admiration / the unfortunate youth / the aristocratic prisoner",
+        "Benedetto (Andrea's alias within the prison)",
+        "the false Cavalcanti, the accused, Andrea Cavalcanti"
       ]
     },
     "trport": {
@@ -8660,13 +8915,15 @@
       "name": "Tréport",
       "aliases": [
         "Tréport",
-        "my château at Tréport"
+        "my château at Tréport",
+        "Trepore (see: château at Tréport)"
       ],
       "type": "place",
       "firstSeenInChapter": 54,
       "searchTerms": [
         "Tréport",
-        "my château at Tréport"
+        "my château at Tréport",
+        "Trepore (see: château at Tréport)"
       ],
       "spoilerFreeIntro": "A picturesque seaside town on the coast of Normandy, known for its charming harbor and soaring white cliffs."
     },
@@ -8687,13 +8944,15 @@
       "id": "haiti",
       "name": "Haiti",
       "aliases": [
-        "Haiti (as in 'Haiti bonds')"
+        "Haiti (as in 'Haiti bonds')",
+        "referenced in 'Haitian bonds'"
       ],
       "type": "place",
       "firstSeenInChapter": 54,
       "searchTerms": [
         "Haiti",
-        "Haiti (as in 'Haiti bonds')"
+        "Haiti (as in 'Haiti bonds')",
+        "referenced in 'Haitian bonds'"
       ],
       "spoilerFreeIntro": "A Caribbean island nation, known for its turbulent political and financial climate."
     },
@@ -8702,13 +8961,15 @@
       "name": "Rue de la Chaussée d’Antin",
       "aliases": [
         "Rue de la Chaussée d’Antin",
-        "Danglars' house street"
+        "Danglars' house street",
+        "Chaussée d’Antin, Rue de la Chaussée d'Antin"
       ],
       "type": "place",
       "firstSeenInChapter": 54,
       "searchTerms": [
         "Rue de la Chaussée d’Antin",
-        "Danglars' house street"
+        "Danglars' house street",
+        "Chaussée d’Antin, Rue de la Chaussée d'Antin"
       ],
       "spoilerFreeIntro": "A fashionable Parisian street known for its elegance and wealthy residents."
     },
@@ -8922,11 +9183,14 @@
     "french_galleys_condemnation": {
       "id": "french_galleys_condemnation",
       "name": "French galleys (condemnation)",
-      "aliases": [],
+      "aliases": [
+        "the galleys / galley-slaves"
+      ],
       "type": "event",
       "firstSeenInChapter": 56,
       "searchTerms": [
-        "French galleys (condemnation)"
+        "French galleys (condemnation)",
+        "the galleys / galley-slaves"
       ]
     },
     "debray": {
@@ -9003,12 +9267,14 @@
       "id": "minister_of_the_interior",
       "name": "Minister of the Interior",
       "aliases": [
-        "Minister of the Interior"
+        "Minister of the Interior",
+        "Minister for the Interior"
       ],
       "type": "person",
       "firstSeenInChapter": 61,
       "searchTerms": [
-        "Minister of the Interior"
+        "Minister of the Interior",
+        "Minister for the Interior"
       ],
       "spoilerFreeIntro": "A high-ranking government official responsible for internal affairs in France."
     },
@@ -9202,11 +9468,14 @@
     "boulevards": {
       "id": "boulevards",
       "name": "Boulevards",
-      "aliases": [],
+      "aliases": [
+        "the boulevards"
+      ],
       "type": "place",
       "firstSeenInChapter": 65,
       "searchTerms": [
-        "Boulevards"
+        "Boulevards",
+        "the boulevards"
       ],
       "spoilerFreeIntro": "A lively and fashionable avenue in Paris where people often stroll and socialize."
     },
@@ -9713,11 +9982,18 @@
     "m_davrigny": {
       "id": "m_davrigny",
       "name": "M. d’Avrigny",
-      "aliases": [],
+      "aliases": [
+        "d’Avrigny",
+        "d'Avrigny",
+        "M. d’Avrigny, d’Avrigny"
+      ],
       "type": "person",
       "firstSeenInChapter": 72,
       "searchTerms": [
-        "M. d’Avrigny"
+        "M. d’Avrigny",
+        "d’Avrigny",
+        "d'Avrigny",
+        "M. d’Avrigny, d’Avrigny"
       ],
       "spoilerFreeIntro": "A respected doctor and trusted friend to many in Parisian society, M. d’Avrigny is known for his wisdom and compassion."
     },
@@ -9774,11 +10050,14 @@
     "saintphilippeduroule": {
       "id": "saintphilippeduroule",
       "name": "Saint-Philippe-du-Roule",
-      "aliases": [],
+      "aliases": [
+        "clock of Saint-Philippe-du-Roule"
+      ],
       "type": "place",
       "firstSeenInChapter": 73,
       "searchTerms": [
-        "Saint-Philippe-du-Roule"
+        "Saint-Philippe-du-Roule",
+        "clock of Saint-Philippe-du-Roule"
       ],
       "spoilerFreeIntro": "A stately Parisian church known for its tranquil, elegant interior."
     },
@@ -9809,22 +10088,32 @@
     "death_of_madame_de_saintmran": {
       "id": "death_of_madame_de_saintmran",
       "name": "Death of Madame de Saint-Méran",
-      "aliases": [],
+      "aliases": [
+        "death of Madame de Saint-Méran",
+        "death of M. de Saint-Méran (implied)"
+      ],
       "type": "event",
       "firstSeenInChapter": 73,
       "searchTerms": [
-        "Death of Madame de Saint-Méran"
+        "Death of Madame de Saint-Méran",
+        "death of Madame de Saint-Méran",
+        "death of M. de Saint-Méran (implied)"
       ],
       "spoilerFreeIntro": "A dignified, grieving woman, mother-in-law to Villefort, suffering from recent family loss."
     },
     "the_signature_of_the_marriage_contract_between_valentine_and_franz": {
       "id": "the_signature_of_the_marriage_contract_between_valentine_and_franz",
       "name": "The signature of the marriage contract between Valentine and Franz",
-      "aliases": [],
+      "aliases": [
+        "that contract, Valentine’s wedding contract",
+        "the signature of the marriage-contract"
+      ],
       "type": "event",
       "firstSeenInChapter": 73,
       "searchTerms": [
-        "The signature of the marriage contract between Valentine and Franz"
+        "The signature of the marriage contract between Valentine and Franz",
+        "that contract, Valentine’s wedding contract",
+        "the signature of the marriage-contract"
       ]
     },
     "prelachaise": {
@@ -10272,11 +10561,14 @@
     "the_dissolution_of_albert_and_eugnies_marriage_contract": {
       "id": "the_dissolution_of_albert_and_eugnies_marriage_contract",
       "name": "the dissolution of Albert and Eugénie's marriage contract",
-      "aliases": [],
+      "aliases": [
+        "the double catastrophe of Mademoiselle Danglars’ broken contract"
+      ],
       "type": "event",
       "firstSeenInChapter": 78,
       "searchTerms": [
-        "the dissolution of Albert and Eugénie's marriage contract"
+        "the dissolution of Albert and Eugénie's marriage contract",
+        "the double catastrophe of Mademoiselle Danglars’ broken contract"
       ]
     },
     "leonora_corsinari": {
@@ -10410,13 +10702,17 @@
       "id": "andrea_cavalcanti_benedetto",
       "name": "Andrea Cavalcanti / Benedetto",
       "aliases": [
-        "Benedetto"
+        "Benedetto",
+        "Andrea, Benedetto, the prince, the young man, the aristocratic prisoner",
+        "Benedetto, Andrea"
       ],
       "type": "person",
       "firstSeenInChapter": 82,
       "searchTerms": [
         "Andrea Cavalcanti / Benedetto",
-        "Benedetto"
+        "Benedetto",
+        "Andrea, Benedetto, the prince, the young man, the aristocratic prisoner",
+        "Benedetto, Andrea"
       ],
       "spoilerFreeIntro": "A young man of striking appearance, introduced as the foundling Benedetto."
     },
@@ -10585,7 +10881,8 @@
       "id": "france_country",
       "name": "France (country)",
       "aliases": [
-        "France"
+        "France",
+        "France (country)"
       ],
       "type": "place",
       "firstSeenInChapter": 85,
@@ -11138,11 +11435,14 @@
     "nurse": {
       "id": "nurse",
       "name": "nurse",
-      "aliases": [],
+      "aliases": [
+        "the nurse"
+      ],
       "type": "person",
       "firstSeenInChapter": 102,
       "searchTerms": [
-        "nurse"
+        "nurse",
+        "the nurse"
       ],
       "spoilerFreeIntro": "A devoted nurse, attentive to her patient's needs."
     },
@@ -11151,14 +11451,16 @@
       "name": "District doctor",
       "aliases": [
         "the doctor of the dead",
-        "doctor of the dead"
+        "doctor of the dead",
+        "doctor of the mayoralty / doctor of the dead"
       ],
       "type": "person",
       "firstSeenInChapter": 103,
       "searchTerms": [
         "District doctor",
         "the doctor of the dead",
-        "doctor of the dead"
+        "doctor of the dead",
+        "doctor of the mayoralty / doctor of the dead"
       ],
       "spoilerFreeIntro": "A somber district doctor, known for his calm demeanor and duties among the departed."
     },
@@ -11230,13 +11532,17 @@
       "id": "servants_unnamed",
       "name": "Servants (unnamed)",
       "aliases": [
-        "servants"
+        "servants",
+        "the servants",
+        "my servant, or rather him who will no longer be my servant tomorrow"
       ],
       "type": "person",
       "firstSeenInChapter": 102,
       "searchTerms": [
         "Servants (unnamed)",
-        "servants"
+        "servants",
+        "the servants",
+        "my servant, or rather him who will no longer be my servant tomorrow"
       ],
       "spoilerFreeIntro": "Several household servants, responding quickly to a commotion on their floor."
     },
@@ -11258,23 +11564,30 @@
       "id": "the_italian_abb",
       "name": "The Italian Abbé",
       "aliases": [
-        "abbé, priest"
+        "abbé, priest",
+        "abbé / priest / Italian abbé",
+        "Italian abbé, priest"
       ],
       "type": "person",
       "firstSeenInChapter": 103,
       "searchTerms": [
         "The Italian Abbé",
-        "abbé, priest"
+        "abbé, priest",
+        "abbé / priest / Italian abbé",
+        "Italian abbé, priest"
       ]
     },
     "dr_davrigny": {
       "id": "dr_davrigny",
       "name": "Dr. d’Avrigny",
-      "aliases": [],
+      "aliases": [
+        "d’Avrigny"
+      ],
       "type": "person",
-      "firstSeenInChapter": 104,
+      "firstSeenInChapter": 103,
       "searchTerms": [
-        "Dr. d’Avrigny"
+        "Dr. d’Avrigny",
+        "d’Avrigny"
       ],
       "spoilerFreeIntro": "A respected and thoughtful physician, Dr. d’Avrigny is known for his careful attention to his patients."
     },
@@ -11292,11 +11605,14 @@
     "bank_of_france": {
       "id": "bank_of_france",
       "name": "Bank of France",
-      "aliases": [],
+      "aliases": [
+        "bank of France, the bank"
+      ],
       "type": "place",
       "firstSeenInChapter": 104,
       "searchTerms": [
-        "Bank of France"
+        "Bank of France",
+        "bank of France, the bank"
       ],
       "spoilerFreeIntro": "A grand and secure institution in Paris known for holding and managing vast sums of money."
     },
@@ -11314,22 +11630,28 @@
     "lafitte": {
       "id": "lafitte",
       "name": "Lafitte",
-      "aliases": [],
+      "aliases": [
+        "Lafitte, house of Lafitte"
+      ],
       "type": "place",
       "firstSeenInChapter": 104,
       "searchTerms": [
-        "Lafitte"
+        "Lafitte",
+        "Lafitte, house of Lafitte"
       ],
       "spoilerFreeIntro": "A prominent Parisian banker."
     },
     "prelachaise_cemetery": {
       "id": "prelachaise_cemetery",
       "name": "Père-Lachaise Cemetery",
-      "aliases": [],
+      "aliases": [
+        "cemetery of Père-Lachaise"
+      ],
       "type": "place",
       "firstSeenInChapter": 105,
       "searchTerms": [
-        "Père-Lachaise Cemetery"
+        "Père-Lachaise Cemetery",
+        "cemetery of Père-Lachaise"
       ]
     },
     "faubourg_du_temple": {
@@ -11409,11 +11731,16 @@
     "ney": {
       "id": "ney",
       "name": "Ney",
-      "aliases": [],
+      "aliases": [
+        "Ney of the South",
+        "that Ney of the South"
+      ],
       "type": "person",
       "firstSeenInChapter": 106,
       "searchTerms": [
-        "Ney"
+        "Ney",
+        "Ney of the South",
+        "that Ney of the South"
       ],
       "spoilerFreeIntro": "A dignified officer and one of Napoleon’s most trusted marshals."
     },
@@ -11464,11 +11791,14 @@
     "la_force": {
       "id": "la_force",
       "name": "La Force",
-      "aliases": [],
+      "aliases": [
+        "a division mentioned, the prison"
+      ],
       "type": "place",
       "firstSeenInChapter": 107,
       "searchTerms": [
-        "La Force"
+        "La Force",
+        "a division mentioned, the prison"
       ],
       "spoilerFreeIntro": "La Force, a grim and well-guarded Parisian prison, holds some of the city's most dangerous inmates."
     },
@@ -11476,13 +11806,21 @@
       "id": "court_of_saintbernard",
       "name": "Court of Saint-Bernard",
       "aliases": [
-        "Lions’ Den"
+        "Lions’ Den",
+        "court of Saint-Bernard",
+        "the Lions’ Den",
+        "court of Saint-Bernard / Lions’ Den / the Den / the courtyard",
+        "Lions’ Den / the Den"
       ],
       "type": "place",
       "firstSeenInChapter": 107,
       "searchTerms": [
         "Court of Saint-Bernard",
-        "Lions’ Den"
+        "Lions’ Den",
+        "court of Saint-Bernard",
+        "the Lions’ Den",
+        "court of Saint-Bernard / Lions’ Den / the Den / the courtyard",
+        "Lions’ Den / the Den"
       ],
       "spoilerFreeIntro": "A grim courtyard within the Château d’If prison, known among inmates as the court of Saint-Bernard."
     },
@@ -11490,10 +11828,11 @@
       "id": "dr_davrigny_1",
       "name": "Dr. d'Avrigny",
       "aliases": [
-        "M. d’Avrigny"
+        "M. d’Avrigny",
+        "Dr. d'Avrigny"
       ],
       "type": "person",
-      "firstSeenInChapter": 108,
+      "firstSeenInChapter": 104,
       "searchTerms": [
         "Dr. d'Avrigny",
         "M. d’Avrigny"
@@ -11504,24 +11843,29 @@
       "id": "palais",
       "name": "Palais",
       "aliases": [
-        "the court"
+        "the court",
+        "the Palais"
       ],
       "type": "place",
       "firstSeenInChapter": 108,
       "searchTerms": [
         "Palais",
-        "the court"
+        "the court",
+        "the Palais"
       ],
       "spoilerFreeIntro": "The Palais is the grand courthouse in Paris where important trials are held."
     },
     "the_assizes": {
       "id": "the_assizes",
       "name": "the assizes",
-      "aliases": [],
+      "aliases": [
+        "the court; the court enters"
+      ],
       "type": "event",
       "firstSeenInChapter": 108,
       "searchTerms": [
-        "the assizes"
+        "the assizes",
+        "the court; the court enters"
       ],
       "spoilerFreeIntro": "The assizes— a court session where serious criminal cases are tried before judges and juries."
     },
@@ -11539,21 +11883,30 @@
     "president_of_the_court": {
       "id": "president_of_the_court",
       "name": "President of the Court",
-      "aliases": [],
+      "aliases": [
+        "president",
+        "the president"
+      ],
       "type": "person",
-      "firstSeenInChapter": 110,
+      "firstSeenInChapter": 109,
       "searchTerms": [
-        "President of the Court"
-      ]
+        "President of the Court",
+        "president",
+        "the president"
+      ],
+      "spoilerFreeIntro": "The president of the court, a stern and imposing figure, presides over the courtroom with an air of authority."
     },
     "sergeantatarms": {
       "id": "sergeantatarms",
       "name": "Sergeant-at-arms",
-      "aliases": [],
+      "aliases": [
+        "sergeant-at-arms, worthy sergeant"
+      ],
       "type": "person",
-      "firstSeenInChapter": 110,
+      "firstSeenInChapter": 109,
       "searchTerms": [
-        "Sergeant-at-arms"
+        "Sergeant-at-arms",
+        "sergeant-at-arms, worthy sergeant"
       ],
       "spoilerFreeIntro": "An attentive official entrusted with maintaining order in the courtroom."
     },
@@ -11597,13 +11950,15 @@
       "id": "assizes",
       "name": "Assizes",
       "aliases": [
-        "the assizes"
+        "the assizes",
+        "the assizes, first sitting of the assizes, coming assizes, assize court"
       ],
       "type": "event",
-      "firstSeenInChapter": 111,
+      "firstSeenInChapter": 108,
       "searchTerms": [
         "Assizes",
-        "the assizes"
+        "the assizes",
+        "the assizes, first sitting of the assizes, coming assizes, assize court"
       ],
       "spoilerFreeIntro": "The assizes are a court session where important legal cases and criminal trials are held."
     },
@@ -11653,24 +12008,29 @@
       "id": "quay",
       "name": "Quay",
       "aliases": [
-        "the quay of Marseilles"
+        "the quay of Marseilles",
+        "the quay"
       ],
       "type": "place",
       "firstSeenInChapter": 112,
       "searchTerms": [
         "Quay",
-        "the quay of Marseilles"
+        "the quay of Marseilles",
+        "the quay"
       ],
       "spoilerFreeIntro": "A waterfront promenade bustling with activity and lined with sturdy brick wharves."
     },
     "mirabeau": {
       "id": "mirabeau",
       "name": "Mirabeau",
-      "aliases": [],
+      "aliases": [
+        "Mirabeau (allusion to Mirabeau's poisoning story at Château d'If)"
+      ],
       "type": "person",
       "firstSeenInChapter": 113,
       "searchTerms": [
-        "Mirabeau"
+        "Mirabeau",
+        "Mirabeau (allusion to Mirabeau's poisoning story at Château d'If)"
       ],
       "spoilerFreeIntro": "A renowned French statesman and revolutionary orator, noted for his influence during the early days of the French Revolution."
     },
@@ -11678,13 +12038,17 @@
       "id": "ganymede",
       "name": "Ganymede",
       "aliases": [
-        "story of Ganymede"
+        "story of Ganymede",
+        "the story of Ganymede",
+        "Ganymede, figure from myth, allegory"
       ],
       "type": "person",
       "firstSeenInChapter": 113,
       "searchTerms": [
         "Ganymede",
-        "story of Ganymede"
+        "story of Ganymede",
+        "the story of Ganymede",
+        "Ganymede, figure from myth, allegory"
       ],
       "spoilerFreeIntro": "A beautiful youth from Greek mythology, known for being carried away by the gods."
     },
@@ -11759,13 +12123,17 @@
       "id": "htel_despagne",
       "name": "Hôtel d’Espagne",
       "aliases": [
-        "Casa Pastrini"
+        "Casa Pastrini",
+        "Hotel / Casa Pastrini (also Hôtel d’Espagne; as referred in dialogue)",
+        "Signor Pastrini’s (hotel)"
       ],
       "type": "place",
       "firstSeenInChapter": 114,
       "searchTerms": [
         "Hôtel d’Espagne",
-        "Casa Pastrini"
+        "Casa Pastrini",
+        "Hotel / Casa Pastrini (also Hôtel d’Espagne; as referred in dialogue)",
+        "Signor Pastrini’s (hotel)"
       ],
       "spoilerFreeIntro": "A modest inn in Rome, run by the familiar and welcoming old Pastrini."
     },
@@ -11864,7 +12232,7 @@
       "name": "Orvieto",
       "aliases": [],
       "type": "place",
-      "firstSeenInChapter": 115,
+      "firstSeenInChapter": 114,
       "searchTerms": [
         "Orvieto"
       ],
@@ -11884,13 +12252,19 @@
       "id": "mediterranean_sea",
       "name": "Mediterranean Sea",
       "aliases": [
-        "the Mediterranean, the blue ocean"
+        "the Mediterranean, the blue ocean",
+        "the Mediterranean",
+        "the welcoming ocean, the sea",
+        "Mediterranean"
       ],
       "type": "place",
-      "firstSeenInChapter": 117,
+      "firstSeenInChapter": 112,
       "searchTerms": [
         "Mediterranean Sea",
-        "the Mediterranean, the blue ocean"
+        "the Mediterranean, the blue ocean",
+        "the Mediterranean",
+        "the welcoming ocean, the sea",
+        "Mediterranean"
       ],
       "spoilerFreeIntro": "A vast, glittering expanse of water stretching between distant horizons."
     },
@@ -11898,13 +12272,19 @@
       "id": "the_fifth_of_october",
       "name": "the fifth of October",
       "aliases": [
-        "today, the end of the period of waiting"
+        "today, the end of the period of waiting",
+        "the 5th of October, that day",
+        "the fifth of October, today, the end of the period of waiting",
+        "Fac et spera"
       ],
       "type": "event",
-      "firstSeenInChapter": 117,
+      "firstSeenInChapter": 113,
       "searchTerms": [
         "the fifth of October",
-        "today, the end of the period of waiting"
+        "today, the end of the period of waiting",
+        "the 5th of October, that day",
+        "the fifth of October, today, the end of the period of waiting",
+        "Fac et spera"
       ],
       "spoilerFreeIntro": "\"The long-awaited date set by Edmond Dantès for the resolution of his promise.\""
     },
@@ -11932,6 +12312,2052 @@
         "Morrel who served in the same regiment"
       ],
       "spoilerFreeIntro": "Policar Morrel is Edmond’s uncle, once a sailor and later a captain."
+    },
+    "m_and_madame_de_saintmran": {
+      "id": "m_and_madame_de_saintmran",
+      "name": "M. and Madame de Saint-Méran",
+      "aliases": [
+        "M. and Madame de Saint-Méran"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 101,
+      "searchTerms": [
+        "M. and Madame de Saint-Méran"
+      ],
+      "spoilerFreeIntro": "Wealthy and aristocratic, M. and Madame de Saint-Méran are the dignified parents of Valentine."
+    },
+    "cupboard_in_valentines_room_medicine_closet": {
+      "id": "cupboard_in_valentines_room_medicine_closet",
+      "name": "cupboard in Valentine’s room (medicine closet)",
+      "aliases": [
+        "cupboard in Valentine’s room"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 102,
+      "searchTerms": [
+        "cupboard in Valentine’s room (medicine closet)",
+        "cupboard in Valentine’s room"
+      ]
+    },
+    "death_of_valentine_de_villefort": {
+      "id": "death_of_valentine_de_villefort",
+      "name": "Death of Valentine de Villefort",
+      "aliases": [
+        "death of Valentine",
+        "the sad event, poor girl",
+        "the corpse of the young girl, death of Valentine",
+        "Valentine's death",
+        "the death, the death of poor Valentine"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 102,
+      "searchTerms": [
+        "Death of Valentine de Villefort",
+        "death of Valentine",
+        "the sad event, poor girl",
+        "death of Valentine de Villefort",
+        "the corpse of the young girl, death of Valentine",
+        "Valentine's death",
+        "the death, the death of poor Valentine"
+      ]
+    },
+    "chemical_analysis_of_the_poison": {
+      "id": "chemical_analysis_of_the_poison",
+      "name": "chemical analysis of the poison",
+      "aliases": [
+        "analysis of the poison in the glass"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 102,
+      "searchTerms": [
+        "chemical analysis of the poison",
+        "analysis of the poison in the glass"
+      ]
+    },
+    "consummation_of_madame_de_villeforts_crimes": {
+      "id": "consummation_of_madame_de_villeforts_crimes",
+      "name": "consummation of Madame de Villefort’s crimes",
+      "aliases": [
+        "Madame de Villefort consummating her crimes"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 102,
+      "searchTerms": [
+        "consummation of Madame de Villefort’s crimes",
+        "Madame de Villefort consummating her crimes"
+      ]
+    },
+    "desertion_of_the_servants": {
+      "id": "desertion_of_the_servants",
+      "name": "Desertion of the servants",
+      "aliases": [
+        "servants fleeing the house"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 102,
+      "searchTerms": [
+        "Desertion of the servants",
+        "servants fleeing the house"
+      ]
+    },
+    "valentines_room": {
+      "id": "valentines_room",
+      "name": "Valentine’s room",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 102,
+      "searchTerms": [
+        "Valentine’s room"
+      ],
+      "spoilerFreeIntro": "Valentine’s room—a peaceful, elegantly furnished chamber in the Villefort home, reflecting its gentle young occupant."
+    },
+    "madame_de_villeforts_apartment": {
+      "id": "madame_de_villeforts_apartment",
+      "name": "Madame de Villefort’s apartment",
+      "aliases": [
+        "Madame de Villefort’s room",
+        "apartment of his wife, her own room, Madame de Villefort’s room"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 102,
+      "searchTerms": [
+        "Madame de Villefort’s apartment",
+        "Madame de Villefort’s room",
+        "apartment of his wife, her own room, Madame de Villefort’s room"
+      ]
+    },
+    "edwards_room": {
+      "id": "edwards_room",
+      "name": "Edward’s room",
+      "aliases": [
+        "Edward’s room",
+        "the little room in which Edward slept"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 102,
+      "searchTerms": [
+        "Edward’s room",
+        "the little room in which Edward slept"
+      ],
+      "spoilerFreeIntro": "A quiet bedroom within the Villefort home, belonging to young Edward."
+    },
+    "mayoralty": {
+      "id": "mayoralty",
+      "name": "mayoralty",
+      "aliases": [
+        "mayoralty office / city hall"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 103,
+      "searchTerms": [
+        "mayoralty",
+        "mayoralty office / city hall"
+      ],
+      "spoilerFreeIntro": "The mayoralty, the office of the town's civil administration, includes a doctor responsible for official examinations after a person's death."
+    },
+    "germain_pillon": {
+      "id": "germain_pillon",
+      "name": "Germain Pillon",
+      "aliases": [
+        "Pillon"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 102,
+      "searchTerms": [
+        "Germain Pillon",
+        "Pillon"
+      ],
+      "spoilerFreeIntro": "A renowned sculptor, celebrated for his graceful and delicate works."
+    },
+    "the_accursed_house": {
+      "id": "the_accursed_house",
+      "name": "the accursed house",
+      "aliases": [
+        "the house"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 102,
+      "searchTerms": [
+        "the accursed house",
+        "the house"
+      ],
+      "spoilerFreeIntro": "A dark, silent mansion now abandoned by its servants, shunned for the misfortunes that haunt it."
+    },
+    "heaven": {
+      "id": "heaven",
+      "name": "heaven",
+      "aliases": [
+        "heaven",
+        "Heaven"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 102,
+      "searchTerms": [
+        "heaven",
+        "Heaven"
+      ],
+      "spoilerFreeIntro": "A spiritual realm often invoked by characters in moments of hope, despair, or gratitude."
+    },
+    "the_cousin_of_villefort": {
+      "id": "the_cousin_of_villefort",
+      "name": "the cousin of Villefort",
+      "aliases": [
+        "the cousin who has undertaken the sad office / the cousin",
+        "Villefort's cousin"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "the cousin of Villefort",
+        "the cousin who has undertaken the sad office / the cousin",
+        "the cousin (of Villefort)",
+        "Villefort's cousin"
+      ]
+    },
+    "the_minister_of_justice": {
+      "id": "the_minister_of_justice",
+      "name": "the minister of justice",
+      "aliases": [
+        "our minister of justice"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "the minister of justice",
+        "our minister of justice"
+      ],
+      "spoilerFreeIntro": "A distinguished official, the minister of justice enters, commanding attention among the onlookers."
+    },
+    "the_governor_of_the_bank_of_france": {
+      "id": "the_governor_of_the_bank_of_france",
+      "name": "the Governor of the Bank of France",
+      "aliases": [
+        "the governor"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "the Governor of the Bank of France",
+        "the governor"
+      ],
+      "spoilerFreeIntro": "The Governor of the Bank of France, a dignified official overseeing the nation’s central finances."
+    },
+    "neapolitan_bonds": {
+      "id": "neapolitan_bonds",
+      "name": "Neapolitan bonds",
+      "aliases": [
+        "Neapolitan bonds"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "Neapolitan bonds"
+      ],
+      "spoilerFreeIntro": "A form of financial securities originating from Naples, mentioned as part of a discussion about valuable bonds."
+    },
+    "haitian_bonds": {
+      "id": "haitian_bonds",
+      "name": "Haitian bonds",
+      "aliases": [
+        "Haitian bonds"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "Haitian bonds"
+      ]
+    },
+    "spanish_bonds": {
+      "id": "spanish_bonds",
+      "name": "Spanish bonds",
+      "aliases": [
+        "Spanish bonds"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "Spanish bonds"
+      ]
+    },
+    "the_army": {
+      "id": "the_army",
+      "name": "the army",
+      "aliases": [
+        "the army (as career for Albert)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "the army",
+        "the army (as career for Albert)"
+      ],
+      "spoilerFreeIntro": "A distinguished institution in Parisian society, including many of Villefort’s accomplished acquaintances."
+    },
+    "funeral_of_valentine_de_villefort": {
+      "id": "funeral_of_valentine_de_villefort",
+      "name": "Funeral of Valentine de Villefort",
+      "aliases": [
+        "funeral of Mademoiselle de Villefort, this funeral, the funeral",
+        "funeral of Mademoiselle de Villefort, funeral procession"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "Funeral of Valentine de Villefort",
+        "funeral of Mademoiselle de Villefort, this funeral, the funeral",
+        "funeral of Mademoiselle de Villefort, funeral procession"
+      ]
+    },
+    "four_successive_deaths_in_the_villefort_household": {
+      "id": "four_successive_deaths_in_the_villefort_household",
+      "name": "Four successive deaths in the Villefort household",
+      "aliases": [
+        "four successive deaths",
+        "this strange chain of domestic afflictions, people die so multitudinously at M. de Villefort’s"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "Four successive deaths in the Villefort household",
+        "four successive deaths",
+        "this strange chain of domestic afflictions, people die so multitudinously at M. de Villefort’s"
+      ],
+      "spoilerFreeIntro": "Four unexplained deaths strike the household of the king’s attorney, M. Villefort."
+    },
+    "affair_of_benedetto": {
+      "id": "affair_of_benedetto",
+      "name": "Affair of Benedetto",
+      "aliases": [
+        "affair of Benedetto, that affair",
+        "the Benedetto affair, the trial of M. Benedetto for the murder of his comrade"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "Affair of Benedetto",
+        "affair of Benedetto, that affair",
+        "the Benedetto affair, the trial of M. Benedetto for the murder of his comrade"
+      ],
+      "spoilerFreeIntro": "A recent, notorious scandal involving a man named Benedetto."
+    },
+    "deed_of_gift_by_the_morcerfs": {
+      "id": "deed_of_gift_by_the_morcerfs",
+      "name": "Deed of gift by the Morcerfs",
+      "aliases": [
+        "deed of gift, gift to hospitals"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "Deed of gift by the Morcerfs",
+        "deed of gift, gift to hospitals"
+      ]
+    },
+    "departure_of_eugnie_danglars": {
+      "id": "departure_of_eugnie_danglars",
+      "name": "Departure of Eugénie Danglars",
+      "aliases": [
+        "Departure of Mlle. Danglars / Eugénie's leaving"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "Departure of Eugénie Danglars",
+        "Departure of Mlle. Danglars / Eugénie's leaving"
+      ]
+    },
+    "signing_of_the_marriage_contract_for_valentine": {
+      "id": "signing_of_the_marriage_contract_for_valentine",
+      "name": "Signing of the marriage contract for Valentine",
+      "aliases": [
+        "the contract signed about three weeks ago"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "Signing of the marriage contract for Valentine",
+        "the contract signed about three weeks ago"
+      ]
+    },
+    "davrignys_attendance_on_chteaurenauds_mother": {
+      "id": "davrignys_attendance_on_chteaurenauds_mother",
+      "name": "D’Avrigny's attendance on Château-Renaud's mother",
+      "aliases": [
+        "Dr. d’Avrigny who attends my mother"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "D’Avrigny's attendance on Château-Renaud's mother",
+        "Dr. d’Avrigny who attends my mother"
+      ]
+    },
+    "minister_of_justice": {
+      "id": "minister_of_justice",
+      "name": "Minister of Justice",
+      "aliases": [
+        "our minister of justice"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "Minister of Justice",
+        "our minister of justice"
+      ],
+      "spoilerFreeIntro": "A dignified and influential figure, the minister of justice is a prominent presence in political circles."
+    },
+    "the_funeral_of_mademoiselle_de_villefort": {
+      "id": "the_funeral_of_mademoiselle_de_villefort",
+      "name": "the funeral of Mademoiselle de Villefort",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "the funeral of Mademoiselle de Villefort"
+      ]
+    },
+    "funeral_of_mademoiselle_de_villefort": {
+      "id": "funeral_of_mademoiselle_de_villefort",
+      "name": "Funeral of Mademoiselle de Villefort",
+      "aliases": [
+        "the funeral on that morning"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "Funeral of Mademoiselle de Villefort",
+        "the funeral on that morning"
+      ]
+    },
+    "minister_of_justices_visit_to_the_funeral": {
+      "id": "minister_of_justices_visit_to_the_funeral",
+      "name": "Minister of Justice's visit to the funeral",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "Minister of Justice's visit to the funeral"
+      ]
+    },
+    "crsus": {
+      "id": "crsus",
+      "name": "Crœsus",
+      "aliases": [
+        "Crœsus — alluded as a metaphor for Danglars' wealth"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "Crœsus",
+        "Crœsus — alluded as a metaphor for Danglars' wealth"
+      ],
+      "spoilerFreeIntro": "A famously wealthy king, whose name has become a byword for immense riches."
+    },
+    "governor_of_the_bank": {
+      "id": "governor_of_the_bank",
+      "name": "Governor of the Bank",
+      "aliases": [
+        "the Governor of the Bank (Bank of France)",
+        "the governor of Algeria"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "Governor of the Bank",
+        "the Governor of the Bank (Bank of France)",
+        "the governor of Algeria"
+      ],
+      "spoilerFreeIntro": "The Governor of the Bank, an influential and discerning official, oversees the institution’s financial transactions."
+    },
+    "charity_fund": {
+      "id": "charity_fund",
+      "name": "Charity fund",
+      "aliases": [
+        "the charity fund, the widows and orphans fund, charities",
+        "hospitals (the five millions stolen by Danglars, reference to the charity fund)",
+        "the hospitals (reference to the money Danglars stole/restoration)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "Charity fund",
+        "the charity fund, the widows and orphans fund, charities",
+        "hospitals (the five millions stolen by Danglars, reference to the charity fund)",
+        "the hospitals (reference to the money Danglars stole/restoration)"
+      ],
+      "spoilerFreeIntro": "The charity fund, an organization dedicated to aiding those in need, is introduced as a cause to which a character feels duty-bound to make a financial contribution."
+    },
+    "the_treasury": {
+      "id": "the_treasury",
+      "name": "the Treasury",
+      "aliases": [
+        "the Treasury — French state treasury"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "the Treasury",
+        "the Treasury — French state treasury"
+      ],
+      "spoilerFreeIntro": "The Treasury, a government office handling the public funds of France."
+    },
+    "paper_currency_bonds": {
+      "id": "paper_currency_bonds",
+      "name": "paper currency / bonds",
+      "aliases": [
+        "bonds, notes, five little bonds"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "paper currency / bonds",
+        "bonds, notes, five little bonds"
+      ]
+    },
+    "funeral_procession": {
+      "id": "funeral_procession",
+      "name": "funeral procession",
+      "aliases": [
+        "Mademoiselle de Villefort's funeral procession"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "funeral procession",
+        "Mademoiselle de Villefort's funeral procession"
+      ],
+      "spoilerFreeIntro": "A somber funeral procession moves through the city, drawing the attention of curious onlookers and familiar faces."
+    },
+    "nun": {
+      "id": "nun",
+      "name": "nun",
+      "aliases": [
+        "a nun of Eugénie's acquaintance"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "nun",
+        "a nun of Eugénie's acquaintance"
+      ],
+      "spoilerFreeIntro": "A quiet nun, known for her strict devotion, accompanies the departing woman on her journey to a distant convent."
+    },
+    "convent": {
+      "id": "convent",
+      "name": "convent",
+      "aliases": [
+        "a strict convent in Italy or Spain"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "convent",
+        "a strict convent in Italy or Spain"
+      ],
+      "spoilerFreeIntro": "A secluded religious institution, known for its strict rules and solemn atmosphere."
+    },
+    "robert_macaire": {
+      "id": "robert_macaire",
+      "name": "Robert Macaire",
+      "aliases": [
+        "Robert Macaire (character from popular theatre, alluded metaphorically)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "Robert Macaire",
+        "Robert Macaire (character from popular theatre, alluded metaphorically)"
+      ],
+      "spoilerFreeIntro": "A desperate and theatrical figure, Robert Macaire is invoked here as a symbol of cunning and nervous energy."
+    },
+    "frdrick": {
+      "id": "frdrick",
+      "name": "Frédérick",
+      "aliases": [
+        "Frédérick (performer of Robert Macaire, Frédérick Lemaître)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 104,
+      "searchTerms": [
+        "Frédérick",
+        "Frédérick (performer of Robert Macaire, Frédérick Lemaître)"
+      ],
+      "spoilerFreeIntro": "A talented actor, renowned for his portrayal of Robert Macaire."
+    },
+    "families_of_saintmran_and_villefort": {
+      "id": "families_of_saintmran_and_villefort",
+      "name": "Families of Saint-Méran and Villefort",
+      "aliases": [
+        "families of Saint-Méran and Villefort"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 105,
+      "searchTerms": [
+        "Families of Saint-Méran and Villefort",
+        "families of Saint-Méran and Villefort"
+      ],
+      "spoilerFreeIntro": "Descendants of old nobility and respected magistrates, the families of Saint-Méran and Villefort are united through marriage and social standing."
+    },
+    "abelard": {
+      "id": "abelard",
+      "name": "Abélard",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 105,
+      "searchTerms": [
+        "Abélard"
+      ],
+      "spoilerFreeIntro": "Abélard is a renowned medieval philosopher and lover, whose tomb, shared with Héloïse, stands as a famous monument in the Père Lachaise cemetery."
+    },
+    "heloise": {
+      "id": "heloise",
+      "name": "Héloïse",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 105,
+      "searchTerms": [
+        "Héloïse"
+      ],
+      "spoilerFreeIntro": "Héloïse is one of the lovers buried in the famous tomb of Abélard and Héloïse in the Père Lachaise cemetery."
+    },
+    "du_prier": {
+      "id": "du_prier",
+      "name": "Du Périer",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 105,
+      "searchTerms": [
+        "Du Périer"
+      ]
+    },
+    "malherbe": {
+      "id": "malherbe",
+      "name": "Malherbe",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 105,
+      "searchTerms": [
+        "Malherbe"
+      ],
+      "spoilerFreeIntro": "A renowned French poet admired for the elegance and restraint of his verse."
+    },
+    "maximilian_morrels_suicide_attempt": {
+      "id": "maximilian_morrels_suicide_attempt",
+      "name": "Maximilian Morrel's suicide attempt",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 105,
+      "searchTerms": [
+        "Maximilian Morrel's suicide attempt"
+      ]
+    },
+    "debrays_banker": {
+      "id": "debrays_banker",
+      "name": "Debray's banker",
+      "aliases": [
+        "my banker (Debray's banker)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 106,
+      "searchTerms": [
+        "Debray's banker",
+        "my banker (Debray's banker)"
+      ]
+    },
+    "concierge": {
+      "id": "concierge",
+      "name": "concierge",
+      "aliases": [
+        "concierge; door-keeper",
+        "the jailer, the guide"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 106,
+      "searchTerms": [
+        "concierge",
+        "concierge; door-keeper",
+        "the jailer, the guide"
+      ],
+      "spoilerFreeIntro": "The concierge is the doorkeeper of the house, responsible for letting visitors in and out and observing those who come and go."
+    },
+    "debrays_servant": {
+      "id": "debrays_servant",
+      "name": "Debray's servant",
+      "aliases": [
+        "discreet servant"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 106,
+      "searchTerms": [
+        "Debray's servant",
+        "discreet servant"
+      ],
+      "spoilerFreeIntro": "A discreet servant responsible for maintaining Debray’s well-ordered apartment."
+    },
+    "debrays_valet_de_chambre": {
+      "id": "debrays_valet_de_chambre",
+      "name": "Debray's valet de chambre",
+      "aliases": [
+        "valet de chambre"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 106,
+      "searchTerms": [
+        "Debray's valet de chambre",
+        "valet de chambre"
+      ],
+      "spoilerFreeIntro": "Debray’s attentive valet de chambre, always present to assist with his master’s needs."
+    },
+    "landlord": {
+      "id": "landlord",
+      "name": "landlord",
+      "aliases": [
+        "landlord"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 106,
+      "searchTerms": [
+        "landlord"
+      ],
+      "spoilerFreeIntro": "A practical and frugal property owner responsible for renting out the modest lodgings."
+    },
+    "god": {
+      "id": "god",
+      "name": "God",
+      "aliases": [
+        "God; Heaven",
+        "the Supreme Being",
+        "the Lord, Providence",
+        "God, the Lord, Providence",
+        "God",
+        "Satan (metaphorical comparison to Dantès, not as an actual character)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 106,
+      "searchTerms": [
+        "God",
+        "God; Heaven",
+        "the Supreme Being",
+        "the Lord, Providence",
+        "God, the Lord, Providence",
+        "Satan (metaphorical comparison to Dantès, not as an actual character)"
+      ],
+      "spoilerFreeIntro": "God, invoked by characters as a source of guidance and mercy in times of deep distress."
+    },
+    "spahis": {
+      "id": "spahis",
+      "name": "Spahis",
+      "aliases": [
+        "Spahis (regiment)",
+        "substitute in the Spahis"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 106,
+      "searchTerms": [
+        "Spahis",
+        "Spahis (regiment)",
+        "substitute in the Spahis"
+      ],
+      "spoilerFreeIntro": "A young man, newly enlisted as a substitute in the Spahis cavalry regiment."
+    },
+    "governor_of_algeria": {
+      "id": "governor_of_algeria",
+      "name": "governor of Algeria",
+      "aliases": [
+        "governor of Algeria; he (the one Albert will appeal to)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 106,
+      "searchTerms": [
+        "governor of Algeria",
+        "governor of Algeria; he (the one Albert will appeal to)"
+      ],
+      "spoilerFreeIntro": "The governor of Algeria, a noble-hearted and military-minded leader, is respected for his sense of justice."
+    },
+    "the_subordinates": {
+      "id": "the_subordinates",
+      "name": "the subordinates",
+      "aliases": [
+        "minister’s clerks and subordinates"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 106,
+      "searchTerms": [
+        "the subordinates",
+        "minister’s clerks and subordinates"
+      ],
+      "spoilerFreeIntro": "A group of clerks and lower-ranking officials working under the minister."
+    },
+    "unknown_man_at_lafittes_bankinghouse": {
+      "id": "unknown_man_at_lafittes_bankinghouse",
+      "name": "unknown man at Lafitte's banking-house",
+      "aliases": [
+        "man hidden in Lafitte’s banking-house"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 106,
+      "searchTerms": [
+        "unknown man at Lafitte's banking-house",
+        "man hidden in Lafitte’s banking-house"
+      ]
+    },
+    "minister_of_the_interiors_office": {
+      "id": "minister_of_the_interiors_office",
+      "name": "Minister of the Interior's office",
+      "aliases": [
+        "Minister’s office; the office"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 106,
+      "searchTerms": [
+        "Minister of the Interior's office",
+        "Minister’s office; the office"
+      ]
+    },
+    "the_little_house_in_the_alles_de_meilhan": {
+      "id": "the_little_house_in_the_alles_de_meilhan",
+      "name": "the little house in the Allées de Meilhan",
+      "aliases": [
+        "the little house in the Allées de Meilhan"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 106,
+      "searchTerms": [
+        "the little house in the Allées de Meilhan"
+      ],
+      "spoilerFreeIntro": "A modest home nestled along the tree-lined Allées de Meilhan in Marseille."
+    },
+    "the_spahis": {
+      "id": "the_spahis",
+      "name": "the Spahis",
+      "aliases": [
+        "engagement of Albert as substitute in the Spahis"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 106,
+      "searchTerms": [
+        "the Spahis",
+        "engagement of Albert as substitute in the Spahis"
+      ]
+    },
+    "departure_of_madame_danglars": {
+      "id": "departure_of_madame_danglars",
+      "name": "departure of Madame Danglars",
+      "aliases": [
+        "Madame Danglars’ departure"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 106,
+      "searchTerms": [
+        "departure of Madame Danglars",
+        "Madame Danglars’ departure"
+      ]
+    },
+    "departure_of_albert_and_mercds": {
+      "id": "departure_of_albert_and_mercds",
+      "name": "departure of Albert and Mercédès",
+      "aliases": [
+        "Albert and Mercédès preparing to leave Paris, parting"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 106,
+      "searchTerms": [
+        "departure of Albert and Mercédès",
+        "Albert and Mercédès preparing to leave Paris, parting"
+      ]
+    },
+    "danglars_disappearance": {
+      "id": "danglars_disappearance",
+      "name": "Danglars' disappearance",
+      "aliases": [
+        "Danglars’ disappearance"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 106,
+      "searchTerms": [
+        "Danglars' disappearance",
+        "Danglars’ disappearance"
+      ],
+      "spoilerFreeIntro": "The wealthy banker, Monsieur Danglars, has suddenly vanished from Parisian society under mysterious circumstances."
+    },
+    "the_galleys": {
+      "id": "the_galleys",
+      "name": "the galleys",
+      "aliases": [
+        "the galleys (as destination for prisoners)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 107,
+      "searchTerms": [
+        "the galleys",
+        "the galleys (as destination for prisoners)"
+      ],
+      "spoilerFreeIntro": "A prison ship where convicts serve hard labor, supervised under strict guard."
+    },
+    "the_examining_magistrate": {
+      "id": "the_examining_magistrate",
+      "name": "the examining magistrate",
+      "aliases": [
+        "the examining magistrate",
+        "examining magistrate / the magistrate"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 107,
+      "searchTerms": [
+        "the examining magistrate",
+        "examining magistrate / the magistrate"
+      ],
+      "spoilerFreeIntro": "A stern official responsible for conducting judicial inquiries and overseeing the examination of prisoners."
+    },
+    "director_of_the_prison": {
+      "id": "director_of_the_prison",
+      "name": "director of the prison",
+      "aliases": [
+        "the director of the prison"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 107,
+      "searchTerms": [
+        "director of the prison",
+        "the director of the prison"
+      ],
+      "spoilerFreeIntro": "The director of the prison, an official responsible for overseeing the daily operations and security of the facility, enters with an air of authority."
+    },
+    "doctor": {
+      "id": "doctor",
+      "name": "doctor",
+      "aliases": [
+        "the doctor (of the prison)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 107,
+      "searchTerms": [
+        "doctor",
+        "the doctor (of the prison)"
+      ],
+      "spoilerFreeIntro": "A medical professional responsible for the care of prisoners at the Château d’If."
+    },
+    "guardkeeper": {
+      "id": "guardkeeper",
+      "name": "guard/keeper",
+      "aliases": [
+        "the keeper, jailer"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 107,
+      "searchTerms": [
+        "guard/keeper",
+        "the keeper, jailer"
+      ]
+    },
+    "the_director_of_the_prison": {
+      "id": "the_director_of_the_prison",
+      "name": "the director of the prison",
+      "aliases": [
+        "the director of the prison"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 107,
+      "searchTerms": [
+        "the director of the prison"
+      ],
+      "spoilerFreeIntro": "The director of the prison, a stern official responsible for overseeing the prison’s operations and its inmates."
+    },
+    "the_keeper": {
+      "id": "the_keeper",
+      "name": "the keeper",
+      "aliases": [
+        "the keeper / jailer (Saint-Bernard’s quarter)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 107,
+      "searchTerms": [
+        "the keeper",
+        "the keeper / jailer (Saint-Bernard’s quarter)"
+      ],
+      "spoilerFreeIntro": "The keeper, a vigilant jailer, routinely inspects the prison’s secure cells and bars."
+    },
+    "the_prisoners": {
+      "id": "the_prisoners",
+      "name": "the prisoners",
+      "aliases": [
+        "the prisoners / inmates / the thieves / the mob"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 107,
+      "searchTerms": [
+        "the prisoners",
+        "the prisoners / inmates / the thieves / the mob"
+      ],
+      "spoilerFreeIntro": "A group of confined individuals, watched over closely by guards, endured harsh and dreary conditions."
+    },
+    "monsieur_racine": {
+      "id": "monsieur_racine",
+      "name": "Monsieur Racine",
+      "aliases": [
+        "M. Racine"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 107,
+      "searchTerms": [
+        "Monsieur Racine",
+        "M. Racine"
+      ],
+      "spoilerFreeIntro": "Monsieur Racine is mentioned in conversation as a familiar reference, likely alluding to the famous French playwright."
+    },
+    "monsieur_pixrcourt": {
+      "id": "monsieur_pixrcourt",
+      "name": "Monsieur Pixérécourt",
+      "aliases": [
+        "Monsieur Pixérécourt"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 107,
+      "searchTerms": [
+        "Monsieur Pixérécourt"
+      ],
+      "spoilerFreeIntro": "Monsieur Pixérécourt is mentioned as a dramatist known for writing sentimental scenes of family recognition."
+    },
+    "the_salad_basket": {
+      "id": "the_salad_basket",
+      "name": "\"the salad basket\"",
+      "aliases": [
+        "the salad basket (oblong and grated prison vehicle)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 107,
+      "searchTerms": [
+        "\"the salad basket\"",
+        "the salad basket (oblong and grated prison vehicle)"
+      ]
+    },
+    "the_judge": {
+      "id": "the_judge",
+      "name": "the judge",
+      "aliases": [
+        "the judge (refers to Villefort in his professional/judicial role)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 108,
+      "searchTerms": [
+        "the judge",
+        "the judge (refers to Villefort in his professional/judicial role)"
+      ],
+      "spoilerFreeIntro": "A stern magistrate, imposing and unyielding in his pursuit of the truth."
+    },
+    "the_husband": {
+      "id": "the_husband",
+      "name": "the husband",
+      "aliases": [
+        "the husband (refers to Villefort in personal role)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 108,
+      "searchTerms": [
+        "the husband",
+        "the husband (refers to Villefort in personal role)"
+      ],
+      "spoilerFreeIntro": "A dignified magistrate, husband to Madame Villefort."
+    },
+    "the_queen": {
+      "id": "the_queen",
+      "name": "the queen",
+      "aliases": [
+        "the queen (hypothetical, mentioned by Villefort)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 108,
+      "searchTerms": [
+        "the queen",
+        "the queen (hypothetical, mentioned by Villefort)"
+      ]
+    },
+    "the_executioner": {
+      "id": "the_executioner",
+      "name": "the executioner",
+      "aliases": [
+        "the executioner (mentioned metaphorically)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 108,
+      "searchTerms": [
+        "the executioner",
+        "the executioner (mentioned metaphorically)"
+      ],
+      "spoilerFreeIntro": "The executioner is the official charged with carrying out capital punishment in Paris."
+    },
+    "the_trial_of_benedetto_affair_of_caderousse": {
+      "id": "the_trial_of_benedetto_affair_of_caderousse",
+      "name": "the trial of Benedetto (Affair of Caderousse)",
+      "aliases": [
+        "the trial, the murder case, murder of Caderousse, case against the murderer of Caderousse, case against Benedetto",
+        "the trial"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 108,
+      "searchTerms": [
+        "the trial of Benedetto (Affair of Caderousse)",
+        "the trial, the murder case, murder of Caderousse, case against the murderer of Caderousse, case against Benedetto",
+        "the trial"
+      ]
+    },
+    "death_of_barrois": {
+      "id": "death_of_barrois",
+      "name": "death of Barrois",
+      "aliases": [
+        "death of Barrois"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 108,
+      "searchTerms": [
+        "death of Barrois"
+      ],
+      "spoilerFreeIntro": "Barrois, the Morrel family's devoted old servant."
+    },
+    "villeforts_house": {
+      "id": "villeforts_house",
+      "name": "Villefort's house",
+      "aliases": [
+        "house, Villefort’s house, the house",
+        "house"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 108,
+      "searchTerms": [
+        "Villefort's house",
+        "house, Villefort’s house, the house",
+        "house"
+      ]
+    },
+    "noirtiers_room": {
+      "id": "noirtiers_room",
+      "name": "Noirtier’s room",
+      "aliases": [
+        "Noirtier’s room, window of Noirtier's room"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 108,
+      "searchTerms": [
+        "Noirtier’s room",
+        "Noirtier’s room, window of Noirtier's room"
+      ],
+      "spoilerFreeIntro": "A quiet, somber chamber where the elderly Noirtier spends his days, seldom leaving its confines."
+    },
+    "villeforts_study": {
+      "id": "villeforts_study",
+      "name": "Villefort’s study",
+      "aliases": [
+        "his study"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 108,
+      "searchTerms": [
+        "Villefort’s study",
+        "his study"
+      ],
+      "spoilerFreeIntro": "A somber, private room where Villefort spends long, solitary hours absorbed in his work."
+    },
+    "the_garden_of_villeforts_house": {
+      "id": "the_garden_of_villeforts_house",
+      "name": "the garden of Villefort's house",
+      "aliases": [
+        "the garden, garden of his house"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 108,
+      "searchTerms": [
+        "the garden of Villefort's house",
+        "the garden, garden of his house"
+      ]
+    },
+    "the_boarded_gate": {
+      "id": "the_boarded_gate",
+      "name": "the boarded gate",
+      "aliases": [
+        "the boarded gate (in the garden)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 108,
+      "searchTerms": [
+        "the boarded gate",
+        "the boarded gate (in the garden)"
+      ]
+    },
+    "the_balcony": {
+      "id": "the_balcony",
+      "name": "the balcony",
+      "aliases": [
+        "the balcony (where Noirtier sits at window)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 108,
+      "searchTerms": [
+        "the balcony",
+        "the balcony (where Noirtier sits at window)"
+      ],
+      "spoilerFreeIntro": "A narrow balcony, entwined with fading flowers and creeping vines, overlooks the quiet garden below."
+    },
+    "conciergerie": {
+      "id": "conciergerie",
+      "name": "conciergerie",
+      "aliases": [
+        "conciergerie (prison/provisional jail)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 108,
+      "searchTerms": [
+        "conciergerie",
+        "conciergerie (prison/provisional jail)"
+      ],
+      "spoilerFreeIntro": "A grim prison in Paris, known for holding those awaiting trial or execution."
+    },
+    "the_jury": {
+      "id": "the_jury",
+      "name": "jury",
+      "aliases": [
+        "jury"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 110,
+      "searchTerms": [
+        "jury"
+      ],
+      "spoilerFreeIntro": "A group of ordinary citizens, selected to weigh the evidence and deliver a verdict in the trial, took their seats with solemn attentiveness."
+    },
+    "judges": {
+      "id": "judges",
+      "name": "judges",
+      "aliases": [
+        "judges"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 110,
+      "searchTerms": [
+        "judges"
+      ],
+      "spoilerFreeIntro": "A group of solemn officials, the judges preside over the courtroom with authority and gravity."
+    },
+    "lawyer_appointed_by_the_court": {
+      "id": "lawyer_appointed_by_the_court",
+      "name": "lawyer appointed by the court",
+      "aliases": [
+        "lawyer (Andrea's court-appointed lawyer)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 110,
+      "searchTerms": [
+        "lawyer appointed by the court",
+        "lawyer (Andrea's court-appointed lawyer)"
+      ]
+    },
+    "gendarmes": {
+      "id": "gendarmes",
+      "name": "gendarmes",
+      "aliases": [
+        "gendarmes"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 110,
+      "searchTerms": [
+        "gendarmes"
+      ],
+      "spoilerFreeIntro": "Uniformed officers of the law, responsible for maintaining order and escorting the accused."
+    },
+    "doorkeepers": {
+      "id": "doorkeepers",
+      "name": "door-keepers",
+      "aliases": [
+        "door-keepers"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 110,
+      "searchTerms": [
+        "door-keepers"
+      ],
+      "spoilerFreeIntro": "Several officials stationed at the entrance, responsible for maintaining order in the courtroom."
+    },
+    "profound_silence": {
+      "id": "profound_silence",
+      "name": "profound silence",
+      "aliases": [
+        "scene at the opening of the trial"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 110,
+      "searchTerms": [
+        "profound silence",
+        "scene at the opening of the trial"
+      ],
+      "spoilerFreeIntro": "A heavy, expectant stillness fills the courtroom as the judges and jury take their places for an important trial."
+    },
+    "prince_andrea_cavalcanti": {
+      "id": "prince_andrea_cavalcanti",
+      "name": "Prince Andrea Cavalcanti",
+      "aliases": [
+        "Prince Cavalcanti (Benedetto)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 109,
+      "searchTerms": [
+        "Prince Andrea Cavalcanti",
+        "Prince Cavalcanti (Benedetto)"
+      ],
+      "spoilerFreeIntro": "A young man of noble bearing who claims the title of Prince Andrea Cavalcanti."
+    },
+    "divina_comedia": {
+      "id": "divina_comedia",
+      "name": "Divina Comedia",
+      "aliases": [
+        "Divina Comedia (genealogy allusion)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 109,
+      "searchTerms": [
+        "Divina Comedia",
+        "Divina Comedia (genealogy allusion)"
+      ],
+      "spoilerFreeIntro": "A famous medieval Italian poem written by Dante, known for its vivid journey through the afterlife."
+    },
+    "bankruptcy_of_her_husband": {
+      "id": "bankruptcy_of_her_husband",
+      "name": "bankruptcy of her husband",
+      "aliases": [
+        "Danglars' bankruptcy"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 109,
+      "searchTerms": [
+        "bankruptcy of her husband",
+        "Danglars' bankruptcy"
+      ],
+      "spoilerFreeIntro": "The financial ruin that befalls Hermine Danglars’s husband."
+    },
+    "saintsimon": {
+      "id": "saintsimon",
+      "name": "Saint-Simon",
+      "aliases": [
+        "Saint-Simon (as reference for language)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 109,
+      "searchTerms": [
+        "Saint-Simon",
+        "Saint-Simon (as reference for language)"
+      ],
+      "spoilerFreeIntro": "Saint-Simon, a famed French memoirist, is mentioned in conversation as an authority on language and wit among the Parisian elite."
+    },
+    "waistcoat": {
+      "id": "waistcoat",
+      "name": "waistcoat",
+      "aliases": [
+        "the famous waistcoat found in Monte Cristo's house"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 109,
+      "searchTerms": [
+        "waistcoat",
+        "the famous waistcoat found in Monte Cristo's house"
+      ],
+      "spoilerFreeIntro": "A blood-stained waistcoat, once belonging to Caderousse, connected to crucial evidence in a mysterious crime."
+    },
+    "the_marriagecontract": {
+      "id": "the_marriagecontract",
+      "name": "the marriage-contract",
+      "aliases": [
+        "the interrupted marriage contract (Valentine and Franz?)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 109,
+      "searchTerms": [
+        "the marriage-contract",
+        "the interrupted marriage contract (Valentine and Franz?)"
+      ]
+    },
+    "court_of_justice": {
+      "id": "court_of_justice",
+      "name": "court of justice",
+      "aliases": [
+        "the court/hall for Benedetto's trial"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 109,
+      "searchTerms": [
+        "court of justice",
+        "the court/hall for Benedetto's trial"
+      ],
+      "spoilerFreeIntro": "A grand and formal hall where magistrates assemble to judge important trials."
+    },
+    "rue_dauphine": {
+      "id": "rue_dauphine",
+      "name": "Rue Dauphine",
+      "aliases": [
+        "Rue Dauphine"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 111,
+      "searchTerms": [
+        "Rue Dauphine"
+      ],
+      "spoilerFreeIntro": "A bustling street in Paris known for its shops, cafes, and urban activity."
+    },
+    "monte_cristos_house": {
+      "id": "monte_cristos_house",
+      "name": "Monte Cristo's house",
+      "aliases": [
+        "Monte Cristo's house"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 111,
+      "searchTerms": [
+        "Monte Cristo's house"
+      ]
+    },
+    "boudoir": {
+      "id": "boudoir",
+      "name": "boudoir",
+      "aliases": [
+        "her boudoir"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 111,
+      "searchTerms": [
+        "boudoir",
+        "her boudoir"
+      ],
+      "spoilerFreeIntro": "A private, elegantly furnished sitting room belonging to Madame de Villefort."
+    },
+    "rue_de_la_dauphine": {
+      "id": "rue_de_la_dauphine",
+      "name": "Rue Dauphine",
+      "aliases": [
+        "Rue Dauphine"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 111,
+      "searchTerms": [
+        "Rue Dauphine"
+      ],
+      "spoilerFreeIntro": "A bustling street in Paris, the Rue Dauphine lies near the riverbanks, crossed by many travelers and carriages."
+    },
+    "death_of_madame_de_villefort": {
+      "id": "death_of_madame_de_villefort",
+      "name": "death of Madame de Villefort",
+      "aliases": [
+        "death of Madame de Villefort",
+        "death of his mother",
+        "who died last September with his mother"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 111,
+      "searchTerms": [
+        "death of Madame de Villefort",
+        "death of his mother",
+        "who died last September with his mother"
+      ]
+    },
+    "death_of_edward_de_villefort": {
+      "id": "death_of_edward_de_villefort",
+      "name": "death of Edward de Villefort",
+      "aliases": [
+        "death of Edward de Villefort",
+        "death of her brother who died last September",
+        "who died last September with his mother"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 111,
+      "searchTerms": [
+        "death of Edward de Villefort",
+        "death of her brother who died last September",
+        "who died last September with his mother"
+      ]
+    },
+    "virginia_jessamine": {
+      "id": "virginia_jessamine",
+      "name": "Virginia jessamine",
+      "aliases": [
+        "arbor of Virginia jessamine"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 112,
+      "searchTerms": [
+        "Virginia jessamine",
+        "arbor of Virginia jessamine"
+      ],
+      "spoilerFreeIntro": "A fragrant climbing plant with lush foliage and striking purple flowers, forming a shaded arbor in the garden."
+    },
+    "morcerf_catastrophe": {
+      "id": "morcerf_catastrophe",
+      "name": "Morcerf Catastrophe",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 112,
+      "searchTerms": [
+        "Morcerf Catastrophe"
+      ]
+    },
+    "danglars_catastrophe": {
+      "id": "danglars_catastrophe",
+      "name": "Danglars Catastrophe",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 112,
+      "searchTerms": [
+        "Danglars Catastrophe"
+      ]
+    },
+    "villefort_catastrophe": {
+      "id": "villefort_catastrophe",
+      "name": "Villefort Catastrophe",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 112,
+      "searchTerms": [
+        "Villefort Catastrophe"
+      ]
+    },
+    "the_recent_downfall_of_morcerf_danglars_and_villefort": {
+      "id": "the_recent_downfall_of_morcerf_danglars_and_villefort",
+      "name": "The recent downfall of Morcerf, Danglars, and Villefort",
+      "aliases": [
+        "three successive, sudden, and most unexpected catastrophes of Morcerf, Danglars, and Villefort"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 112,
+      "searchTerms": [
+        "The recent downfall of Morcerf, Danglars, and Villefort",
+        "three successive, sudden, and most unexpected catastrophes of Morcerf, Danglars, and Villefort"
+      ]
+    },
+    "don_quixote": {
+      "id": "don_quixote",
+      "name": "Don Quixote",
+      "aliases": [
+        "Don Quixote (mentioned as the only book Danglars read)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 115,
+      "searchTerms": [
+        "Don Quixote",
+        "Don Quixote (mentioned as the only book Danglars read)"
+      ],
+      "spoilerFreeIntro": "A tall, thin gentleman from La Mancha, obsessed with tales of chivalry and knighthood."
+    },
+    "breguet": {
+      "id": "breguet",
+      "name": "Breguet",
+      "aliases": [
+        "Breguet (watchmaker; mentioned as brand of Danglars' repeater)",
+        "Breguet's repeaters (watchmaker)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 115,
+      "searchTerms": [
+        "Breguet",
+        "Breguet (watchmaker; mentioned as brand of Danglars' repeater)",
+        "Breguet's repeaters (watchmaker)"
+      ],
+      "spoilerFreeIntro": "Breguet is a renowned watchmaker, whose finely crafted timepieces are prized by discerning clients such as Danglars."
+    },
+    "antoine": {
+      "id": "antoine",
+      "name": "Antoine",
+      "aliases": [
+        "the ancient jailer"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 113,
+      "searchTerms": [
+        "Antoine",
+        "the ancient jailer"
+      ],
+      "spoilerFreeIntro": "A concierge of the Château d’If, Antoine guides visitors through the ancient fortress."
+    },
+    "no_34": {
+      "id": "no_34",
+      "name": "No. 34",
+      "aliases": [
+        "Edmond Dantès (as a prisoner)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 113,
+      "searchTerms": [
+        "No. 34",
+        "Edmond Dantès (as a prisoner)"
+      ],
+      "spoilerFreeIntro": "A nameless prisoner, remembered only by the number assigned to him."
+    },
+    "no_27": {
+      "id": "no_27",
+      "name": "No. 27",
+      "aliases": [
+        "Abbé Faria (as a prisoner)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 113,
+      "searchTerms": [
+        "No. 27",
+        "Abbé Faria (as a prisoner)"
+      ],
+      "spoilerFreeIntro": "The late Abbé Faria, a mysterious and learned prisoner, once occupied cell No. 27."
+    },
+    "the_cemetery": {
+      "id": "the_cemetery",
+      "name": "the cemetery",
+      "aliases": [
+        "presumably the cemetery of Marseilles"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 113,
+      "searchTerms": [
+        "the cemetery",
+        "presumably the cemetery of Marseilles"
+      ],
+      "spoilerFreeIntro": "A quiet, solemn resting place on the outskirts of the city."
+    },
+    "the_port_of_bastia": {
+      "id": "the_port_of_bastia",
+      "name": "the port of Bastia",
+      "aliases": [
+        "Bastia"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 113,
+      "searchTerms": [
+        "the port of Bastia",
+        "Bastia"
+      ],
+      "spoilerFreeIntro": "The port of Bastia, a bustling harbor on the coast of Corsica, serves as a point of departure and arrival for travelers by sea."
+    },
+    "the_eurus": {
+      "id": "the_eurus",
+      "name": "the Eurus",
+      "aliases": [
+        "the yacht"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 113,
+      "searchTerms": [
+        "the Eurus",
+        "the yacht"
+      ],
+      "spoilerFreeIntro": "The Eurus, a discreet yacht waiting in the port of Bastia."
+    },
+    "the_revolution_of_july": {
+      "id": "the_revolution_of_july",
+      "name": "the revolution of July",
+      "aliases": [
+        "revolution of July",
+        "the revolution of July"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 113,
+      "searchTerms": [
+        "the revolution of July",
+        "revolution of July"
+      ],
+      "spoilerFreeIntro": "The revolution of July, a recent and significant political upheaval in France, is mentioned as a point of reference for changes at the Château d’If."
+    },
+    "the_4th_of_october": {
+      "id": "the_4th_of_october",
+      "name": "the 4th of October",
+      "aliases": [
+        "the 4th (the eve of the rendezvous at Bastia/Monte Cristo)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 113,
+      "searchTerms": [
+        "the 4th of October",
+        "the 4th (the eve of the rendezvous at Bastia/Monte Cristo)"
+      ]
+    },
+    "the_journey_to_marseilles": {
+      "id": "the_journey_to_marseilles",
+      "name": "the journey to Marseilles",
+      "aliases": [
+        "the journey"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 113,
+      "searchTerms": [
+        "the journey to Marseilles",
+        "the journey"
+      ],
+      "spoilerFreeIntro": "A boat journey across the water, bringing the traveler closer to Marseilles."
+    },
+    "harpagon": {
+      "id": "harpagon",
+      "name": "Harpagon",
+      "aliases": [
+        "Harpagon (allusion to Harpagon, character by Molière, the miser)",
+        "Harpagon"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 116,
+      "searchTerms": [
+        "Harpagon",
+        "Harpagon (allusion to Harpagon, character by Molière, the miser)"
+      ],
+      "spoilerFreeIntro": "A miserly man, renowned for his extreme avarice."
+    },
+    "papal_states": {
+      "id": "papal_states",
+      "name": "Papal States",
+      "aliases": [
+        "officers of the Papal States",
+        "the Papal States"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 114,
+      "searchTerms": [
+        "Papal States",
+        "officers of the Papal States",
+        "the Papal States"
+      ],
+      "spoilerFreeIntro": "A central Italian territory governed by the Pope and his officials."
+    },
+    "the_bandits": {
+      "id": "the_bandits",
+      "name": "the bandits",
+      "aliases": [
+        "the bandits (Luigi Vampa's men)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 116,
+      "searchTerms": [
+        "the bandits",
+        "the bandits (Luigi Vampa's men)"
+      ],
+      "spoilerFreeIntro": "A fearsome group of outlaws, led by the infamous Luigi Vampa, who command respect and obedience from those around them."
+    },
+    "the_chief": {
+      "id": "the_chief",
+      "name": "the chief",
+      "aliases": [
+        "the chief (invisible master whom Vampa obeys)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 116,
+      "searchTerms": [
+        "the chief",
+        "the chief (invisible master whom Vampa obeys)"
+      ],
+      "spoilerFreeIntro": "The chief, a commanding figure among the captors, oversees Danglars’s confinement and ransom negotiations."
+    },
+    "the_accomplices": {
+      "id": "the_accomplices",
+      "name": "the accomplices",
+      "aliases": [
+        "Danglars' accomplices; one mad, one dead (Caderousse and Fernand/ Villefort, contextually referenced)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 116,
+      "searchTerms": [
+        "the accomplices",
+        "Danglars' accomplices; one mad, one dead (Caderousse and Fernand/ Villefort, contextually referenced)"
+      ]
+    },
+    "marius": {
+      "id": "marius",
+      "name": "Marius",
+      "aliases": [
+        "descendants of Marius and the Gracchi"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 114,
+      "searchTerms": [
+        "Marius",
+        "descendants of Marius and the Gracchi"
+      ],
+      "spoilerFreeIntro": "Marius, a thoughtful and idealistic young man, appears with a reserved demeanor and earnest gaze."
+    },
+    "gracchi": {
+      "id": "gracchi",
+      "name": "Gracchi",
+      "aliases": [
+        "descendants of Marius and the Gracchi",
+        "descendants of Marius and Gracchi"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 114,
+      "searchTerms": [
+        "Gracchi",
+        "descendants of Marius and the Gracchi",
+        "descendants of Marius and Gracchi"
+      ],
+      "spoilerFreeIntro": "A barefooted, ragged young boy from a Roman family, curious and spirited like his companions in the street."
+    },
+    "st_sebastian": {
+      "id": "st_sebastian",
+      "name": "St. Sebastian",
+      "aliases": [
+        "catacombs of St. Sebastian; St. Sebastian",
+        "St. Sebastian (the catacombs named after him)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 114,
+      "searchTerms": [
+        "St. Sebastian",
+        "catacombs of St. Sebastian; St. Sebastian",
+        "St. Sebastian (the catacombs named after him)"
+      ],
+      "spoilerFreeIntro": "A network of ancient Roman catacombs, guarded by Luigi Vampa and his bandits."
+    },
+    "concierge_at_chteau_dif": {
+      "id": "concierge_at_chteau_dif",
+      "name": "Concierge (at Château d'If)",
+      "aliases": [
+        "the concierge, guide"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 113,
+      "searchTerms": [
+        "Concierge (at Château d'If)",
+        "the concierge, guide"
+      ]
+    },
+    "cemetery": {
+      "id": "cemetery",
+      "name": "cemetery",
+      "aliases": [
+        "the cemetery, churchyard"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 113,
+      "searchTerms": [
+        "cemetery",
+        "the cemetery, churchyard"
+      ],
+      "spoilerFreeIntro": "A quiet resting place for the departed, set apart from the bustling life of the city."
+    },
+    "eurus": {
+      "id": "eurus",
+      "name": "Eurus",
+      "aliases": [
+        "the Eurus (the yacht prepared for Morrel)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 113,
+      "searchTerms": [
+        "Eurus",
+        "the Eurus (the yacht prepared for Morrel)"
+      ],
+      "spoilerFreeIntro": "A yacht named Eurus, waiting in the port of Bastia at the Count’s secret instruction."
+    },
+    "satan": {
+      "id": "satan",
+      "name": "Satan",
+      "aliases": [
+        "Satan (metaphorically referenced)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 117,
+      "searchTerms": [
+        "Satan",
+        "Satan (metaphorically referenced)"
+      ],
+      "spoilerFreeIntro": "A mysterious figure evoked in conversation, symbolizing pride and the peril of equating oneself with divine power."
+    },
+    "telemachus": {
+      "id": "telemachus",
+      "name": "Telemachus",
+      "aliases": [
+        "Telemachus"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 117,
+      "searchTerms": [
+        "Telemachus"
+      ],
+      "spoilerFreeIntro": "A figure from Greek mythology, Telemachus is the loyal and searching son of Odysseus."
+    },
+    "calypso": {
+      "id": "calypso",
+      "name": "Calypso",
+      "aliases": [
+        "Calypso"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 117,
+      "searchTerms": [
+        "Calypso"
+      ],
+      "spoilerFreeIntro": "A reference from Homer’s Odyssey, Calypso is the nymph who offers hospitality and comfort to Telemachus during his journey."
+    },
+    "gibraltar": {
+      "id": "gibraltar",
+      "name": "Gibraltar",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 117,
+      "searchTerms": [
+        "Gibraltar"
+      ],
+      "spoilerFreeIntro": "A towering rocky promontory at the entrance to the Mediterranean, marking a strategic gateway between Europe and Africa."
+    },
+    "dardanelles": {
+      "id": "dardanelles",
+      "name": "Dardanelles",
+      "aliases": [
+        "the Dardanelles"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 117,
+      "searchTerms": [
+        "Dardanelles",
+        "the Dardanelles"
+      ],
+      "spoilerFreeIntro": "A narrow strait connecting the Mediterranean Sea to the Sea of Marmara."
+    },
+    "madness_of_villefort": {
+      "id": "madness_of_villefort",
+      "name": "Madness of Villefort",
+      "aliases": [
+        "Villefort now a madman"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 117,
+      "searchTerms": [
+        "Madness of Villefort",
+        "Villefort now a madman"
+      ]
+    },
+    "monte_cristos_restitutionatonement": {
+      "id": "monte_cristos_restitutionatonement",
+      "name": "Monte Cristo's restitution/atonement",
+      "aliases": [
+        "atonement; restoration of Valentine and Morrel"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 117,
+      "searchTerms": [
+        "Monte Cristo's restitution/atonement",
+        "atonement; restoration of Valentine and Morrel"
+      ]
+    },
+    "wait_and_hope": {
+      "id": "wait_and_hope",
+      "name": "Wait and hope",
+      "aliases": [
+        "'Wait and hope (Fac et spera)'"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 117,
+      "searchTerms": [
+        "Wait and hope",
+        "'Wait and hope (Fac et spera)'"
+      ],
+      "spoilerFreeIntro": "A phrase spoken by the Count, summarizing his philosophy on patience and optimism."
+    },
+    "brandy": {
+      "id": "brandy",
+      "name": "brandy",
+      "aliases": [
+        "the bandit's brandy (as an object/event)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 115,
+      "searchTerms": [
+        "brandy",
+        "the bandit's brandy (as an object/event)"
+      ],
+      "spoilerFreeIntro": "A strong alcoholic drink carried by the brigand in a leathern bottle, noted for its unpleasant smell."
+    },
+    "deniseau": {
+      "id": "deniseau",
+      "name": "Deniseau",
+      "aliases": [
+        "Monsieur Deniseau, Danglars' cook"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 115,
+      "searchTerms": [
+        "Deniseau",
+        "Monsieur Deniseau, Danglars' cook"
+      ],
+      "spoilerFreeIntro": "Deniseau is Danglars’s skilled cook, known for preparing excellent meals on request."
+    },
+    "figaro": {
+      "id": "figaro",
+      "name": "Figaro",
+      "aliases": [
+        "Figaro"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 114,
+      "searchTerms": [
+        "Figaro"
+      ],
+      "spoilerFreeIntro": "A clever and quick-witted character in a famous opera, known for his resourcefulness and lively spirit."
+    },
+    "ancona": {
+      "id": "ancona",
+      "name": "Ancona",
+      "aliases": [
+        "the Ancona road"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 114,
+      "searchTerms": [
+        "Ancona",
+        "the Ancona road"
+      ],
+      "spoilerFreeIntro": "A bustling port city on Italy’s Adriatic coast, Ancona serves as a key waypoint for travelers journeying across the region."
+    },
+    "parisian_police": {
+      "id": "parisian_police",
+      "name": "Parisian police",
+      "aliases": [
+        "Parisian police agent"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 114,
+      "searchTerms": [
+        "Parisian police",
+        "Parisian police agent"
+      ],
+      "spoilerFreeIntro": "A skilled detective, adept at tracking suspects through the bustling streets of Paris."
+    },
+    "morra": {
+      "id": "morra",
+      "name": "Morra",
+      "aliases": [
+        "game of morra"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 114,
+      "searchTerms": [
+        "Morra",
+        "game of morra"
+      ],
+      "spoilerFreeIntro": "A traditional Italian hand game played by Peppino and the porters (facchini) to pass the time."
+    },
+    "postingmaster": {
+      "id": "postingmaster",
+      "name": "Posting-master",
+      "aliases": [
+        "the posting-master"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 114,
+      "searchTerms": [
+        "Posting-master",
+        "the posting-master"
+      ],
+      "spoilerFreeIntro": "A local official responsible for managing the hiring and dispatch of horses and carriages at the posting station."
+    },
+    "postinghouse": {
+      "id": "postinghouse",
+      "name": "Posting-house",
+      "aliases": [
+        "posting-house (generic, between Rome and next places on the road)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 114,
+      "searchTerms": [
+        "Posting-house",
+        "posting-house (generic, between Rome and next places on the road)"
+      ],
+      "spoilerFreeIntro": "A roadside inn where travelers and carriages stop to rest and change horses."
     }
   },
   "lastIndexedChapter": 117
