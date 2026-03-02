@@ -51,7 +51,7 @@ export async function GET(request: NextRequest) {
     return NextResponse.json(
       {
         error:
-          "Invalid query params. Use ?chapter=<positive int>&paragraph=<non-negative int> (optional: &maxInputTokens=40000, &book=monte-cristo).",
+          "Invalid query params. Use ?chapter=<positive int>&paragraph=<non-negative int> (optional: &maxInputTokens=40000, &book=<slug>).",
       },
       { status: 400 }
     );

@@ -28,7 +28,7 @@ import { requireOpenAIClient } from "../lib/openai";
 import { createChatCompletion } from "../lib/llm";
 import { loadStyle, buildFullPrompt, generateImageToWebPBuffer, ContentPolicyError } from "../lib/image-gen";
 import { getChapterIndexEntry } from "../lib/chapter-index";
-import { getBookConfig, isBookSlug } from "../lib/books";
+import { DEFAULT_BOOK_SLUG, getBookConfig, isBookSlug } from "../lib/books";
 import { getParagraphs } from "../lib/scenes";
 import type { SceneWithDetails } from "../lib/scenes";
 
@@ -541,7 +541,7 @@ async function runSceneImages(
 async function main() {
   const args = process.argv.slice(2);
   const bookArg = args.find((a) => a.startsWith("--book="))?.split("=")[1]?.trim();
-  const bookSlug = bookArg && isBookSlug(bookArg) ? bookArg : "monte-cristo";
+  const bookSlug = bookArg && isBookSlug(bookArg) ? bookArg : DEFAULT_BOOK_SLUG;
   const entityId = args.find((a) => a.startsWith("--entity="))?.split("=")[1] ?? null;
   const sceneArg = args.find((a) => a.startsWith("--scene="))?.split("=")[1] ?? null;
   const chapterArg = args.find((a) => a.startsWith("--chapter="))?.split("=")[1];
@@ -567,11 +567,11 @@ async function main() {
   const bookTitle = config.title;
   const imageStyleHint = config.imageStyleHint;
   const publicEntitiesDir =
-    bookSlug === "monte-cristo"
+    bookSlug === DEFAULT_BOOK_SLUG
       ? join(ROOT, "public", "images", "entities")
       : join(ROOT, "public", "images", "entities", bookSlug);
   const publicScenesDir =
-    bookSlug === "monte-cristo"
+    bookSlug === DEFAULT_BOOK_SLUG
       ? join(ROOT, "public", "images", "scenes")
       : join(ROOT, "public", "images", "scenes", bookSlug);
 

@@ -10,11 +10,18 @@ export async function GET(request: NextRequest) {
   if (!config) return NextResponse.json({ error: "Book not found" }, { status: 404 });
   const index = getBookIndex(slug);
   if (!index) return NextResponse.json({ error: "Book data not found" }, { status: 404 });
+  const sourceUrl = (() => {
+    const match = index.source.match(/https?:\/\/[^\s)]+/);
+    return match ? match[0] : null;
+  })();
   return NextResponse.json({
     title: config.title,
     author: config.author,
     storageKey: config.storageKey,
     volumeLabels: config.volumeLabels,
     totalChapters: index.chapters.length,
+    source: index.source,
+    license: index.license,
+    sourceUrl,
   });
 }

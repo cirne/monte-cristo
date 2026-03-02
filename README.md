@@ -26,15 +26,16 @@ cp .env.example .env
 
 # (Optional) Re-parse the book data from the raw text
 bun run parse-book
+# Or for a specific book: bun run scripts/books/monte-cristo/parse.ts
 
 # (Optional) Rebuild chapter index for X-Ray links (persons, places, events) and scene metadata.
-bun run index-chapter --all
+bun run index-chapter --book=monte-cristo --all
 
 # (Optional) Add chapter/scene summaries + rolling "story so far" metadata
-bun run index-chapter --all --with-summaries
+bun run index-chapter --book=monte-cristo --all --with-summaries
 
 # (Optional) Refresh only summary metadata (non-destructive patch mode by default)
-bun run index-chapter --all --summaries-only
+bun run index-chapter --book=monte-cristo --all --summaries-only
 
 # Start development server
 bun run dev
@@ -53,15 +54,14 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 │   ├── search/        # Full-text search
 │   └── api/           # API routes (search + reading-context endpoints)
 ├── data/
-│   ├── book.json      # Parsed book with full chapter text
-│   ├── book-index.json # Lightweight chapter index (no content)
-│   └── chapter-index.json # Entity + scene index per chapter (run index-chapter --all)
+│   ├── <book>/       # Per-book data (e.g. monte-cristo/, gatsby/)
+│   │   ├── book.json
+│   │   ├── book-index.json
+│   │   └── chapter-index.json # Entity + scene index (run index-chapter --book=<slug> --all)
 ├── lib/
 │   ├── book.ts        # Server-side book data access
-│   ├── characters.ts  # Character definitions and metadata
+│   ├── books.ts       # Book registry (slugs, config, volume labels, storage keys)
 │   ├── chapter-index.ts # Chapter index loader (persons, places, events)
-│   ├── constants.ts   # Shared constants (volume labels, etc.)
-│   ├── entities.ts   # Places and events (X-Ray)
 │   ├── linkify.ts    # Turn paragraph text into clickable entity links
 │   ├── env.ts        # Dev-time env (OPENAI_API_KEY from .env)
 │   └── openai.ts     # OpenAI client for LLM indexing, characters, images
@@ -88,4 +88,4 @@ Both APIs accept `chapter` and `paragraph` (0-based paragraph index inside chapt
 - `GET /api/context/story-so-far?chapter=12&paragraph=34`
   - Returns a spoiler-safe recap up to that exact reading checkpoint.
 
-Optional query param: `maxInputTokens` (default `40000`).
+Optional query param: `maxInputTokens` (default `40000`). Optional: `book=<slug>` (default: first book in registry).

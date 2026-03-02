@@ -40,7 +40,7 @@ import { getSingleScene, getParagraphs, normalizeScenes, type SceneWithDetails }
 import { getScenesFromLLM } from "../lib/scenes-llm";
 import { mergeChapterIndexEntry, mergeChapterScenes } from "../lib/chapter-index-merge";
 import { mergeEntityStoreInto, mergeChapterIndexInto } from "../lib/index-write-merge";
-import { getBookConfig, isBookSlug } from "../lib/books";
+import { DEFAULT_BOOK_SLUG, getBookConfig, isBookSlug } from "../lib/books";
 
 const ROOT_DATA_DIR = join(import.meta.dir, "..", "data");
 const DEFAULT_BASELINE_INTRO =
@@ -626,10 +626,10 @@ async function indexChapter(
 async function main() {
   const args = process.argv.slice(2);
   const bookArg = args.find((a) => a.startsWith("--book="));
-  const bookSlug = bookArg ? bookArg.split("=")[1]?.trim() : "monte-cristo";
+  const bookSlug = bookArg ? bookArg.split("=")[1]?.trim() : DEFAULT_BOOK_SLUG;
   if (!bookSlug || !isBookSlug(bookSlug)) {
     console.error(
-      `Invalid or missing --book=. Use --book=monte-cristo or --book=gatsby (e.g. bun run scripts/index-chapter.ts --book=monte-cristo --all)`
+      `Invalid or missing --book=. Use --book=<slug> (e.g. bun run scripts/index-chapter.ts --book=${DEFAULT_BOOK_SLUG} --all)`
     );
     process.exit(1);
   }

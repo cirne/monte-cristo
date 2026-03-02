@@ -3,20 +3,18 @@ import { render, screen } from "@testing-library/react";
 import Link from "next/link";
 import Home from "./page";
 
-vi.mock("@/lib/book", () => ({
-  getBookIndex: () => ({
-    title: "The Count of Monte Cristo",
-    author: "Alexandre Dumas",
-    chapters: [
-      { number: 1, title: "Chapter 1", volume: "VOLUME ONE" },
-      { number: 2, title: "Chapter 2", volume: "VOLUME ONE" },
-    ],
-  }),
-  VOLUME_LABELS: { "VOLUME ONE": "Volume I" },
+vi.mock("@/lib/books", () => ({
+  BOOK_SLUGS: ["monte-cristo", "gatsby"] as const,
+  getBookConfig: (slug: string) =>
+    slug === "monte-cristo"
+      ? { title: "The Count of Monte Cristo", author: "Alexandre Dumas, père" }
+      : slug === "gatsby"
+        ? { title: "The Great Gatsby", author: "F. Scott Fitzgerald" }
+        : undefined,
 }));
 
 vi.mock("./components/StartOrContinueLink", () => ({
-  StartOrContinueLink: () => <Link href="/chapter/1">Start Reading</Link>,
+  StartOrContinueLink: () => <Link href="/book/monte-cristo/chapter/1">Start Reading</Link>,
 }));
 
 describe("app/page", () => {

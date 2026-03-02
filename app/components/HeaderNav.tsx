@@ -4,8 +4,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { BookOpen, List, Search, ChevronLeft, ChevronRight, ArrowLeft } from "lucide-react";
 import { useEffect, useState } from "react";
-
-const DEFAULT_SLUG = "monte-cristo";
+import { DEFAULT_BOOK_SLUG } from "@/lib/books";
 
 function parseBookChapter(pathname: string | null): { slug: string; chapterNum: number } | null {
   if (!pathname) return null;
@@ -17,7 +16,7 @@ function parseBookChapter(pathname: string | null): { slug: string; chapterNum: 
   const legacyMatch = pathname.match(/^\/chapter\/(\d+)\/?$/);
   if (legacyMatch) {
     const chapterNum = parseInt(legacyMatch[1], 10);
-    return Number.isNaN(chapterNum) ? null : { slug: DEFAULT_SLUG, chapterNum };
+    return Number.isNaN(chapterNum) ? null : { slug: DEFAULT_BOOK_SLUG, chapterNum };
   }
   return null;
 }
@@ -36,7 +35,7 @@ export function HeaderNav() {
 
   const slug = parsed?.slug ?? null;
   const chapterNum = parsed?.chapterNum ?? null;
-  const totalChapters = bookInfo?.totalChapters ?? (slug === DEFAULT_SLUG ? 117 : 0);
+  const totalChapters = bookInfo?.totalChapters ?? 0;
   const prev = chapterNum != null && chapterNum > 1 ? chapterNum - 1 : null;
   const next =
     chapterNum != null && totalChapters > 0 && chapterNum < totalChapters ? chapterNum + 1 : null;
@@ -52,7 +51,7 @@ export function HeaderNav() {
         setBookInfo({
           title: data.title,
           totalChapters: data.totalChapters ?? 0,
-          storageKey: data.storageKey ?? "monte-cristo-last-chapter",
+          storageKey: data.storageKey ?? "",
         });
       })
       .catch(() => {});
