@@ -17,16 +17,17 @@
  *   bun run scripts/index-chapter.ts --book=monte-cristo --chapter=6 --summaries-only
  *   bun run scripts/index-chapter.ts --book=gatsby --chapter=1 --workers=32
  *
- * Do not run multiple index-chapter processes in parallel for the same book:
- * each process reads and then overwrites the full chapter-index and entity-store,
- * so concurrent runs can lose chapters or entity data. Use --all for full reindex.
+ * Writes are guarded by a filesystem lock (data/<book>/.index.lock); concurrent runs
+ * serialize on the lock and merge their results, so parallel indexing is safe.
  *
  * Scenes are detected via LLM and written into each chapter index entry (data/chapter-index.json).
  */
 
 import "../lib/loadEnv";
-import { readFileSync, writeFileSync, existsSync } from "fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from "fs";
 import { join } from "path";
+import * as lockfile from "proper-lockfile";
+import type { LockOptions } from "proper-lockfile";
 import { createChatCompletion } from "../lib/llm";
 import type { ChapterIndex, ChapterIndexEntry, EntityType } from "../lib/chapter-index";
 import {
@@ -38,11 +39,40 @@ import {
 import { getSingleScene, getParagraphs, normalizeScenes, type SceneWithDetails } from "../lib/scenes";
 import { getScenesFromLLM } from "../lib/scenes-llm";
 import { mergeChapterIndexEntry, mergeChapterScenes } from "../lib/chapter-index-merge";
+import { mergeEntityStoreInto, mergeChapterIndexInto } from "../lib/index-write-merge";
 import { getBookConfig, isBookSlug } from "../lib/books";
 
 const ROOT_DATA_DIR = join(import.meta.dir, "..", "data");
 const DEFAULT_BASELINE_INTRO =
   "The following people, places, and events appear in this chapter.";
+
+const LOCK_STALE_MS = 60_000;
+const LOCK_RETRIES = { retries: 30, factor: 1.5, minTimeout: 1000, maxTimeout: 15_000 };
+
+/** Options for proper-lockfile when guarding the book index/store. Single place to tune timeouts and paths. */
+function getLockOptions(dataDir: string): LockOptions {
+  return {
+    stale: LOCK_STALE_MS,
+    retries: LOCK_RETRIES,
+    lockfilePath: join(dataDir, ".index.lock"),
+    realpath: false,
+    onCompromised: (err) => {
+      console.error("Index lock compromised:", err);
+      throw err;
+    },
+  };
+}
+
+/** Acquire lock on dataDir, run fn, release in finally. Manages mkdir, lock, and release. */
+async function withIndexLock<T>(dataDir: string, fn: () => Promise<T>): Promise<T> {
+  mkdirSync(dataDir, { recursive: true });
+  const release = await lockfile.lock(dataDir, getLockOptions(dataDir));
+  try {
+    return await fn();
+  } finally {
+    await release();
+  }
+}
 
 const MAX_CHAPTER_CONTENT_CHARS = 60_000;
 const MAX_SUMMARY_SOURCE_CHARS = 55_000;
@@ -717,10 +747,22 @@ async function main() {
     store.lastIndexedChapter ?? 0
   );
 
-  writeFileSync(storePath, JSON.stringify(store, null, 2));
-  writeFileSync(indexPath, JSON.stringify(index, null, 2));
-  console.log(`Wrote ${storePath} (${Object.keys(store.entities).length} entities).`);
-  console.log(`Wrote ${indexPath} (${index.chapters.length} chapters).`);
+  await withIndexLock(DATA_DIR, async () => {
+    let reReadStore: EntityStoreData = { entities: {} };
+    if (existsSync(storePath)) {
+      reReadStore = JSON.parse(readFileSync(storePath, "utf-8")) as EntityStoreData;
+    }
+    let reReadIndex: ChapterIndex = { chapters: [] };
+    if (existsSync(indexPath)) {
+      reReadIndex = JSON.parse(readFileSync(indexPath, "utf-8")) as ChapterIndex;
+    }
+    const mergedStore = mergeEntityStoreInto(reReadStore, store);
+    const mergedIndex = mergeChapterIndexInto(reReadIndex, index, toProcess);
+    writeFileSync(storePath, JSON.stringify(mergedStore, null, 2));
+    writeFileSync(indexPath, JSON.stringify(mergedIndex, null, 2));
+    console.log(`Wrote ${storePath} (${Object.keys(mergedStore.entities).length} entities).`);
+    console.log(`Wrote ${indexPath} (${mergedIndex.chapters.length} chapters).`);
+  });
 }
 
 main().catch((err) => {
