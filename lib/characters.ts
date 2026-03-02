@@ -74,6 +74,20 @@ export const CHARACTERS: Character[] = [
     role: "antagonist",
   },
   {
+    id: "rene_de_saintmran",
+    name: "Renée de Saint-Méran",
+    aliases: ["Renée", "Mademoiselle de Saint-Méran"],
+    description:
+      "Villefort's fiancée, daughter of the Marquis and Marquise de Saint-Méran.",
+    spoilerFreeIntro: "Villefort's fiancée from the Saint-Méran family.",
+    searchTerms: ["Renée de Saint-Méran", "Renée", "Mademoiselle de Saint-Méran"],
+    matchPatterns: [
+      "Ren[ée]e(?:\\s+de\\s+Saint[-\\s]?M[ée]ran)?",
+      "Mademoiselle\\s+de\\s+Saint[-\\s]?M[ée]ran(?:['’]s)?",
+    ],
+    role: "supporting",
+  },
+  {
     id: "faria",
     name: "Abbé Faria",
     aliases: ["the abbé"],
