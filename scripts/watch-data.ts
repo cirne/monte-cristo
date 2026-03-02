@@ -26,6 +26,7 @@ export const DATA_VERSION = ${Date.now()};
 }
 
 console.log("[watch-data] Watching data/ for changes…");
+bumpManifest(); // ensure manifest exists (e.g. fresh clone with lib/data-manifest.ts gitignored)
 watch(DATA_DIR, { recursive: true }, (event, filename) => {
   if (filename) bumpManifest();
 });
