@@ -17,7 +17,7 @@ export interface ReaderFooterProps {
   visibleCharacterIds: string[];
   xrayData: Record<string, XRayEntityData>;
   onOpenEntity: (entityId: string) => void;
-  /** When set, entity avatars load from /images/entities/<bookSlug>/ for non-default book. */
+  /** Entity avatars: /images/entities/<bookSlug>/ */
   bookSlug?: string;
 }
 
@@ -32,8 +32,7 @@ export function ReaderFooter({
   const { isLargeScreen, isSmallScreen, showLocationExpanded, setShowLocationExpanded } =
     useFooterViewport();
 
-  const entitiesBase =
-    bookSlug && bookSlug !== DEFAULT_BOOK_SLUG ? `/images/entities/${bookSlug}` : "/images/entities";
+  const entitiesBase = `/images/entities/${bookSlug ?? DEFAULT_BOOK_SLUG}`;
 
   const hasLocation = Boolean(locationLabel?.trim());
   const hasContent = hasLocation || displayedIds.length > 0;

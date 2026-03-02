@@ -16,8 +16,8 @@ This doc describes how entity and scene images are generated, stored, and used i
 | Shared style | `data/image-style.txt` |
 | Entity prompts | `data/entity-image-prompts.json` (keyed by entity id, e.g. `dantes`) |
 | Scene prompts | `data/scene-image-prompts.json` (keyed by `ch{N}-scene{M}`) |
-| Entity images | `public/images/entities/{id}.webp` |
-| Scene images | `public/images/scenes/ch{N}-scene{M}.webp` |
+| Entity images | `public/images/entities/<book>/{id}.webp` |
+| Scene images | `public/images/scenes/<book>/ch{N}-scene{M}.webp` |
 
 ## Shared library: `lib/image-gen.ts`
 
@@ -32,7 +32,7 @@ Used by `scripts/generate-images.ts` (entities and scenes).
 **CLI:** `bun run scripts/generate-images.ts`
 
 - **Input:** `data/image-style.txt` and `data/<book>/entity-image-prompts.json`. Entity ids match characters and places/events in the entity store.
-- **Behavior:** By default only generates images that don't already exist at `public/images/entities/{id}.webp` (or `public/images/entities/<book>/` for other books). Use `--force` to regenerate.
+- **Behavior:** By default only generates images that don't already exist at `public/images/entities/<book>/{id}.webp`. Use `--force` to regenerate.
 - **Options:**
   - `--chapter=N` — Generate all images (entities + scenes) for that chapter. Add `--entities-only` or `--scenes-only` to restrict.
   - `--entity=<id>` — Generate one entity (e.g. `--entity=dantes`).
@@ -40,7 +40,7 @@ Used by `scripts/generate-images.ts` (entities and scenes).
   - `--workers=N` — Parallel requests (default 32; lower if your OpenAI tier limits RPM).
   - `--force` — Overwrite existing images.
 
-**In the app:** The chapter page passes entity data to the X-Ray panel. The panel requests `/images/entities/{entityId}.webp` for the open entity; if the file is missing, the image fails to load and the portrait area is hidden (no broken image).
+**In the app:** The chapter page passes entity data to the X-Ray panel. The panel requests `/images/entities/<book>/{entityId}.webp` for the open entity; if the file is missing, the image fails to load and the portrait area is hidden (no broken image).
 
 ## Scene images
 
@@ -48,7 +48,7 @@ Used by `scripts/generate-images.ts` (entities and scenes).
 
 - **Input:** `data/<book>/book-index.json` + `data/<book>/chapters/*.html` (from parse-book), `data/image-style.txt`, and optionally existing `data/<book>/scene-image-prompts.json`. Scenes come from the chapter index (`data/<book>/chapter-index.json`); run `bun run index-chapter --chapter=N` or `bun run index-chapter --all` to populate scenes.
 - **Prompt generation:** For each scene we slice the chapter paragraphs by `startParagraph`/`endParagraph`, cap at 4000 characters, and call the LLM (gpt-4o-mini) with the style guide and scene text. The model is instructed to produce a single DALL·E prompt: focus on what's visible (setting, lighting, dress, atmosphere), strip or compress dialogue. The returned prompt is saved to `scene-image-prompts.json` (key `ch{N}-scene{M}`).
-- **Image generation:** Same as entities: `buildFullPrompt(prompt, style)` → `generateImageToWebPBuffer` → write to `public/images/scenes/ch{N}-scene{M}.webp`.
+- **Image generation:** Same as entities: `buildFullPrompt(prompt, style)` → `generateImageToWebPBuffer` → write to `public/images/scenes/<book>/ch{N}-scene{M}.webp`.
 - **Behavior:** Skips scenes that already have an image (and optionally skips prompt generation if a prompt already exists). Use `--force` to regenerate images.
 - **Options:**
   - `--scene=CHAPTER-SCENE` — e.g. `--scene=1-0` for chapter 1, scene 0.
@@ -57,7 +57,7 @@ Used by `scripts/generate-images.ts` (entities and scenes).
   - `--workers=N` — Parallel image generation (default 32).
   - `--force` — Overwrite existing scene images.
 
-**In the app:** The chapter page uses scenes from the chapter index (`indexEntry.scenes`) and passes them to `ChapterContent`. For each paragraph index that equals a scene's `startParagraph`, we render an image with `src=/images/scenes/ch{N}-scene{M}.webp` before that paragraph. If the file is missing, the figure is hidden on error.
+**In the app:** The chapter page uses scenes from the chapter index (`indexEntry.scenes`) and passes them to `ChapterContent`. For each paragraph index that equals a scene's `startParagraph`, we render an image with `src=/images/scenes/<book>/ch{N}-scene{M}.webp` before that paragraph. If the file is missing, the figure is hidden on error.
 
 ## Requirements
 

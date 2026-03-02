@@ -15,8 +15,8 @@ Coverage was audited by comparing:
 - `data/chapter-index.json` chapter/entity/scene metadata
 - `data/entity-image-prompts.json` and `data/scene-image-prompts.json`
 - Generated image files in:
-  - `public/images/entities/*.webp`
-  - `public/images/scenes/*.webp`
+  - `public/images/entities/<book>/*.webp`
+  - `public/images/scenes/<book>/*.webp`
 
 ## Metadata completeness (what remains to be generated)
 

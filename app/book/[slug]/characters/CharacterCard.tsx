@@ -4,7 +4,6 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import type { StoredEntity } from "@/lib/entity-store";
-import { DEFAULT_BOOK_SLUG } from "@/lib/books";
 
 interface CharacterCardProps {
   entity: StoredEntity;
@@ -12,8 +11,7 @@ interface CharacterCardProps {
   firstAppearance: { number: number; title: string } | null;
 }
 
-const entitiesBaseFor = (slug: string) =>
-  slug && slug !== DEFAULT_BOOK_SLUG ? `/images/entities/${slug}` : "/images/entities";
+const entitiesBaseFor = (slug: string) => `/images/entities/${slug}`;
 
 export function CharacterCard({ entity, slug, firstAppearance }: CharacterCardProps) {
   const [imageError, setImageError] = React.useState(false);

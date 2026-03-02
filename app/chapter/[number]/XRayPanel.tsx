@@ -23,7 +23,7 @@ interface XRayPanelProps {
   baselineIntro?: string;
   onClose: () => void;
   onSelectEntity?: (entityId: string) => void;
-  /** When set (e.g. from /book/[slug]/chapter), entity images load from /images/entities/<bookSlug>/ for non-default book. */
+  /** When set (e.g. from /book/[slug]/chapter), entity images load from /images/entities/<bookSlug>/. */
   bookSlug?: string;
 }
 
@@ -44,8 +44,7 @@ export function XRayPanel({
   const data = entityData[entityId];
   if (!data) return null;
 
-  const entitiesBase =
-    bookSlug && bookSlug !== DEFAULT_BOOK_SLUG ? `/images/entities/${bookSlug}` : "/images/entities";
+  const entitiesBase = `/images/entities/${bookSlug ?? DEFAULT_BOOK_SLUG}`;
 
   const isFirstChapter = chapterNumber === 1;
   const introText = data.spoilerFreeIntro ?? data.name;
@@ -75,7 +74,7 @@ export function XRayPanel({
             </button>
           </div>
 
-          {/* Entity portrait when image exists (convention: /images/entities/{id}.webp) */}
+          {/* Entity portrait when image exists (convention: /images/entities/<book>/{id}.webp) */}
           <div className="flex justify-center mb-4">
             {!imageError && (
               <div className="rounded-lg overflow-hidden bg-stone-100 dark:bg-stone-800 w-52 h-64 flex-shrink-0 relative">

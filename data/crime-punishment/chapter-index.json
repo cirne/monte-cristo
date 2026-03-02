@@ -1,0 +1,208 @@
+{
+  "chapters": [
+    {
+      "number": 1,
+      "baselineIntro": "The novel opens in St. Petersburg in the 1860s. The following people, places, and events appear in this chapter.",
+      "entities": [
+        {
+          "entityId": "raskolnikov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…r to all who are unable to get out of town in summer--all worked painfully upon the young man’s already overwrought nerves. The insufferable stench from the pot-houses, which are particularly numerous in that part of the town, and the drun…"
+        },
+        {
+          "entityId": "alyona-ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…t then, and so the fourth floor on this staircase would be untenanted except by the old woman. “That’s a good thing anyway,” he thought to himself, as he rang the bell of the old woman’s flat. The bell gave a faint tinkle as though it were…"
+        },
+        {
+          "entityId": "lizaveta-ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…he floor and the furniture were brightly polished; everything shone. </p>  <p> “Lizaveta’s work,” thought the young man. There was not a speck of dust to be seen in the whole flat. </p>  <p> “It’s in the houses of spiteful old widows that …"
+        },
+        {
+          "entityId": "saint-petersburg",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…and the plaster, scaffolding, bricks, and dust all about him, and that special Petersburg stench, so familiar to all who are unable to get out of town in summer--all worked painfully upon the young man’s already overwrought nerves. The ins…"
+        },
+        {
+          "entityId": "hay-market",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…shortcoming in dress would have created surprise. Owing to the proximity of the Hay Market, the number of establishments of bad character, the preponderance of the trading and working class population crowded in these streets and alleys in…"
+        },
+        {
+          "entityId": "s_place",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…evening early in July a young man came out of the garret in which he lodged in S. Place and walked slowly, as though in hesitation, towards K. bridge. </p>  <p> He had successfully avoided meeting his landlady on the staircase. His garret …"
+        },
+        {
+          "entityId": "k_bridge",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…which he lodged in S. Place and walked slowly, as though in hesitation, towards K. bridge. </p>  <p> He had successfully avoided meeting his landlady on the staircase. His garret was under the roof of a high, five-storied house and was mor…"
+        },
+        {
+          "entityId": "zimmermans",
+          "type": "place",
+          "firstSeenInChapter": 1
+        },
+        {
+          "entityId": "jack_the_giantkiller",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ed to chatter this last month, lying for days together in my den thinking... of Jack the Giant-killer. Why am I going there now? Am I capable of _that_? Is _that_ serious? It is not serious at all. It’s simply a fantasy to amuse myself; a …"
+        },
+        {
+          "entityId": "the_young_mans_landlady",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…esitation, towards K. bridge. </p>  <p> He had successfully avoided meeting his landlady on the staircase. His garret was under the roof of a high, five-storied house and was more like a cupboard than a room. The landlady who provided him …"
+        },
+        {
+          "entityId": "the_german_clerk",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…in moving furniture out of a flat. He knew that the flat had been occupied by a German clerk in the civil service, and his family. This German was moving out then, and so the fourth floor on this staircase would be untenanted except by the…"
+        },
+        {
+          "entityId": "the_german_clerks_family",
+          "type": "person",
+          "firstSeenInChapter": 1
+        },
+        {
+          "entityId": "the_drunk_man_in_the_waggon",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ed by a heavy dray horse, suddenly shouted at him as he drove past: “Hey there, German hatter” bawling at the top of his voice and pointing at him--the young man stopped suddenly and clutched tremulously at his hat. It was a tall round hat…"
+        },
+        {
+          "entityId": "the_porters",
+          "type": "person",
+          "firstSeenInChapter": 1
+        },
+        {
+          "entityId": "the_tavern",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ame of mind was also not normal. </p>  <p> There were few people at the time in the tavern. Besides the two drunken men he had met on the steps, a group consisting of about five men and a girl with a concertina had gone out at the same tim…"
+        },
+        {
+          "entityId": "the_artisan_in_the_tavern",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…re left the room quiet and rather empty. The persons still in the tavern were a man who appeared to be an artisan, drunk, but not extremely so, sitting before a pot of beer, and his companion, a huge, stout man with a grey beard, in a shor…"
+        },
+        {
+          "entityId": "artisans_companion",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…drunk, but not extremely so, sitting before a pot of beer, and his companion, a huge, stout man with a grey beard, in a short full-skirted coat. He was very drunk: and had dropped asleep on the bench; every now and then, he began as though…"
+        },
+        {
+          "entityId": "the_retired_government_clerk",
+          "type": "person",
+          "firstSeenInChapter": 1
+        },
+        {
+          "entityId": "group_with_a_girl_with_a_concertina",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…drunken men he had met on the steps, a group consisting of about five men and a girl with a concertina had gone out at the same time. Their departure left the room quiet and rather empty. The persons still in the tavern were a man who appe…"
+        },
+        {
+          "entityId": "the_young_mans_father",
+          "type": "person",
+          "firstSeenInChapter": 1
+        },
+        {
+          "entityId": "the_old_womans_sister",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ll talk about it then, sir.” </p>  <p> “Good-bye--are you always at home alone, your sister is not here with you?” He asked her as casually as possible as he went out into the passage. </p>  <p> “What business is she of yours, my good sir?…"
+        },
+        {
+          "entityId": "the_exploitproject_to_be_attempted",
+          "type": "event",
+          "firstSeenInChapter": 1
+        },
+        {
+          "entityId": "the_rehearsal_of_the_project",
+          "type": "event",
+          "firstSeenInChapter": 1,
+          "excerpt": "…hough he still did not realise this himself. He was positively going now for a “rehearsal” of his project, and at every step his excitement grew more and more violent. </p>  <p> With a sinking heart and a nervous tremor, he went up to a hu…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 4,
+          "locationDescription": "Outside Raskolnikov's garret in S. Place",
+          "imageDescription": "A narrow, dimly-lit attic corridor opens to reveal a young man descending a cramped, peeling staircase. The oppressive heat seeps through dusty windows, casting harsh amber light over battered, paint-flecked walls. The young man, tall, gaunt, with unruly dark hair and threadbare, out-of-fashion clothing, moves warily to avoid the open kitchen door below, behind which a stern landlady can be glimpsed among shadows. The atmosphere is tense and claustrophobic, embodying St. Petersburg in the mid-19th century.",
+          "characterIds": [
+            "raskolnikov",
+            "the_young_mans_landlady"
+          ]
+        },
+        {
+          "startParagraph": 5,
+          "endParagraph": 8,
+          "locationDescription": "St. Petersburg street near Hay Market",
+          "imageDescription": "A bustling, grimy St. Petersburg street in the sweltering summer twilight, lined with crooked buildings and scaffolding. Workers pass by in linen shirts and caps, while disheveled townsfolk mingle with drunken figures. Raskolnikov, in his shabby coat and battered hat, stands amidst the dust and confusion, his tall, thin frame lost and anxious in the chaos. A heavy waggon pulled by a dray horse passes by, carrying a raucous drunk, while the stench of pot-houses and the close air flattens the scene.",
+          "characterIds": [
+            "raskolnikov",
+            "the_drunk_man_in_the_waggon"
+          ]
+        },
+        {
+          "startParagraph": 9,
+          "endParagraph": 9,
+          "locationDescription": "Entrance and staircase of Alyona Ivanovna's apartment building",
+          "imageDescription": "At the grimy base of a massive tenement building typical of 19th-century St. Petersburg, Raskolnikov slips unnoticed through a shadowy side door. The back staircase is dark, narrow, and heavily worn, lit by faint daylight filtering in from a landing. Porters in work clothes maneuver heavy furniture down the passage, while Raskolnikov, tense and cautious, sneaks past them. The atmosphere is close and anonymous, the corridors echoing with the sounds of labor and movement from the occupants.",
+          "characterIds": [
+            "raskolnikov",
+            "the_porters",
+            "the_german_clerk",
+            "the_german_clerks_family"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 43,
+          "locationDescription": "Alyona Ivanovna's flat: entry and main room",
+          "imageDescription": "A cramped, meticulously tidy 19th-century Petersburg flat, washed in the golden, slanted light of the setting sun. Flowered muslin curtains, scrubbed yellow floors, and a few austere pieces of yellow-wood furniture fill the room, with a polished table and an ikon lamp burning softly in the corner. Alyona Ivanovna, small, frail, with sharp features and oily grizzled hair, stands in the center, wrapped in a faded fur cape, scrutinizing a hesitating Raskolnikov. He stands awkwardly near the door, clutching a battered watch, both figures dressed in modest, period-appropriate but worn attire. The air is thick with suspicion and poverty.",
+          "characterIds": [
+            "raskolnikov",
+            "alyona-ivanovna"
+          ]
+        },
+        {
+          "startParagraph": 44,
+          "endParagraph": 44,
+          "locationDescription": "Staircase and street outside Alyona Ivanovna's apartment",
+          "imageDescription": "Raskolnikov stumbles dazedly down the dim, narrow stairwell of a crowded Petersburg tenement, the shadows broken by slivers of fading daylight from a stairwell window. Emerging onto the busy street, he lurches among indifferent passersby, his expression twisted with agitation and self-loathing. The evening is humid and oppressive, with the city's squalor pressed into every cobblestone and facade.",
+          "characterIds": [
+            "raskolnikov"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 51,
+          "locationDescription": "A dank tavern near the Hay Market",
+          "imageDescription": "A gloomy, low-ceilinged basement tavern cluttered with sticky wooden tables, yellowed from years of smoke. Dim, warm candlelight reflects off dark walls and cheap glassware. Several patrons linger: Raskolnikov sits hunched in the far corner, drinking beer, a reddish flush on his pale face; two drunken men clumsily support each other near the steps; an artisan, slumped in a faded coat, sips beer next to his burly, bearded companion who sleeps fitfully on the bench; a solitary, anxious-looking man in faded civil servant garb occupies another table. The atmosphere is thick with the haze of drink and hardship characteristic of St. Petersburg’s underbelly.",
+          "characterIds": [
+            "raskolnikov",
+            "the_artisan_in_the_tavern",
+            "artisans_companion",
+            "the_retired_government_clerk",
+            "group_with_a_girl_with_a_concertina"
+          ]
+        }
+      ]
+    }
+  ]
+}
