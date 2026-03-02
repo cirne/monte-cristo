@@ -46,7 +46,7 @@ Used by `scripts/generate-images.ts` (entities and scenes).
 
 **CLI:** `bun run scripts/generate-images.ts` (same script; use `--scene=...`, `--chapter=N`, or `--all-scenes`; add `--scenes-only` when combined with `--chapter=N` to generate only scenes)
 
-- **Input:** `data/book.json` (from parse-book), `data/image-style.txt`, and optionally existing `data/<book>/scene-image-prompts.json`. Scenes come from the chapter index (`data/<book>/chapter-index.json`); run `bun run index-chapter --chapter=N` or `bun run index-chapter --all` to populate scenes.
+- **Input:** `data/<book>/book-index.json` + `data/<book>/chapters/*.html` (from parse-book), `data/image-style.txt`, and optionally existing `data/<book>/scene-image-prompts.json`. Scenes come from the chapter index (`data/<book>/chapter-index.json`); run `bun run index-chapter --chapter=N` or `bun run index-chapter --all` to populate scenes.
 - **Prompt generation:** For each scene we slice the chapter paragraphs by `startParagraph`/`endParagraph`, cap at 4000 characters, and call the LLM (gpt-4o-mini) with the style guide and scene text. The model is instructed to produce a single DALL·E prompt: focus on what's visible (setting, lighting, dress, atmosphere), strip or compress dialogue. The returned prompt is saved to `scene-image-prompts.json` (key `ch{N}-scene{M}`).
 - **Image generation:** Same as entities: `buildFullPrompt(prompt, style)` → `generateImageToWebPBuffer` → write to `public/images/scenes/ch{N}-scene{M}.webp`.
 - **Behavior:** Skips scenes that already have an image (and optionally skips prompt generation if a prompt already exists). Use `--force` to regenerate images.

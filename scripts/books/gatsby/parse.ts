@@ -2,7 +2,7 @@
 /**
  * Parser for The Great Gatsby.
  * Fetches Gutenberg HTML, splits by <div id="chapter-N">, sanitizes to canonical HTML
- * (preserving <p>, <strong>, <em>, etc.), writes book.json and book-index.json.
+ * (preserving <p>, <strong>, <em>, etc.), writes chapters/*.html and book-index.json.
  */
 
 import "../../../lib/loadEnv";
@@ -121,7 +121,7 @@ async function main() {
   console.log(`Parsed ${book.chapters.length} chapters.`);
 
   writeCanonicalBook(dataDir, SLUG, book);
-  console.log(`Wrote ${bookDir}/book.json and book-index.json`);
+  console.log(`Wrote ${bookDir}/chapters/*.html and book-index.json`);
 }
 
 main().catch((err) => {
