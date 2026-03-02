@@ -41,25 +41,29 @@ function buildFallbackAnswer(params: {
   return parts.join("\n\n");
 }
 
+import { DEFAULT_BOOK_SLUG, isBookSlug } from "@/lib/books";
+
 export async function GET(request: NextRequest) {
   const chapterNumber = parsePositiveIntParam(request.nextUrl.searchParams.get("chapter"));
   const paragraphIndex = parseNonNegativeIntParam(request.nextUrl.searchParams.get("paragraph"));
   const maxInputTokens = parseMaxInputTokensParam(request.nextUrl.searchParams.get("maxInputTokens"));
+  const bookParam = request.nextUrl.searchParams.get("book")?.trim();
+  const slug = bookParam && isBookSlug(bookParam) ? bookParam : DEFAULT_BOOK_SLUG;
 
   if (chapterNumber == null || paragraphIndex == null) {
     return NextResponse.json(
       {
         error:
-          "Invalid query params. Use ?chapter=<positive int>&paragraph=<non-negative int> (optional: &maxInputTokens=40000).",
+          "Invalid query params. Use ?chapter=<positive int>&paragraph=<non-negative int> (optional: &maxInputTokens=40000, &book=monte-cristo).",
       },
       { status: 400 }
     );
   }
 
   try {
-    const position = resolveReadingPosition(chapterNumber, paragraphIndex);
-    const storySoFarBefore = getStorySoFarBeforeChapter(chapterNumber);
-    const priorChapterSummaries = getChapterSummaryWindowBefore(chapterNumber, 5);
+    const position = resolveReadingPosition(slug, chapterNumber, paragraphIndex);
+    const storySoFarBefore = getStorySoFarBeforeChapter(slug, chapterNumber);
+    const priorChapterSummaries = getChapterSummaryWindowBefore(slug, chapterNumber, 5);
     const priorSceneSummaries = getSceneSummariesBeforeCurrent(position);
     const sceneText = getSceneTextUpToParagraph(position, Math.floor(maxInputTokens * 0.65));
 

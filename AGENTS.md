@@ -38,7 +38,8 @@ When you change schema or scripts that write to `data/`, run the relevant script
 - `bun run parse-book` — Regenerate book JSON
 - `bun run index-chapter --all` — Canonical full chapter index rebuild
 - `bun run index-chapter --chapter=N` — Incremental chapter patch/reindex (non-destructive by default)
-- `bun run generate-images` / `generate-scene-images` — Entity/scene images (needs `OPENAI_API_KEY`)
+- Parallel index-chapter runs for the same book are safe: writes are guarded by a lock and results are merged.
+- `bun run generate-images` — Entity and scene images (needs `OPENAI_API_KEY`). Use `--chapter=N` for all images for a chapter; `--scenes-only` or `--entities-only` to restrict.
 
 ## Conventions
 

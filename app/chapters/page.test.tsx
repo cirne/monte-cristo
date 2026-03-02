@@ -1,26 +1,19 @@
 import { describe, it, expect, vi } from "vitest";
-import { render, screen } from "@testing-library/react";
-import ChaptersPage from "./page";
+import { render } from "@testing-library/react";
+import LegacyChaptersPage from "./page";
 
-vi.mock("@/lib/book", () => ({
-  getBookIndex: () => ({
-    chapters: [
-      { number: 1, title: "Arrival", volume: "VOLUME ONE" },
-      { number: 2, title: "Father and Son", volume: "VOLUME ONE" },
-    ],
-  }),
-  VOLUME_LABELS: { "VOLUME ONE": "Volume I" },
+vi.mock("next/navigation", () => ({
+  redirect: vi.fn(),
 }));
 
 describe("app/chapters/page", () => {
-  it("renders page title", () => {
-    render(<ChaptersPage />);
-    expect(screen.getByText("All Chapters")).toBeInTheDocument();
-  });
-
-  it("renders chapter links", () => {
-    render(<ChaptersPage />);
-    expect(screen.getByText("Arrival")).toBeInTheDocument();
-    expect(screen.getByText("Father and Son")).toBeInTheDocument();
+  it("redirects to default book chapters", async () => {
+    const { redirect } = await import("next/navigation");
+    try {
+      render(<LegacyChaptersPage />);
+    } catch {
+      // redirect() may throw
+    }
+    expect(redirect).toHaveBeenCalledWith("/book/monte-cristo/chapters");
   });
 });

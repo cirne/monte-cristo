@@ -11,8 +11,7 @@
     "test:watch": "vitest",
     "parse-book": "bun run scripts/parse-book.ts",
     "index-chapter": "bun run scripts/index-chapter.ts",
-    "generate-images": "bun run scripts/generate-images.ts",
-    "generate-scene-images": "bun run scripts/generate-scene-images.ts"
+    "generate-images": "bun run scripts/generate-images.ts"
   },
   "dependencies": {
     "lucide-react": "^0.575.0",
@@ -28,6 +27,7 @@
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
     "@types/node": "^20",
+    "@types/proper-lockfile": "^4.1.4",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@vitest/coverage-v8": "^4.0.18",
@@ -35,6 +35,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "jsdom": "^28.1.0",
+    "proper-lockfile": "^4.1.2",
     "tailwindcss": "^4",
     "typescript": "^5",
     "vitest": "^4.0.18"

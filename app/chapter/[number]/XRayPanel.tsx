@@ -2,7 +2,9 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import type { EntityType } from "@/lib/chapter-index";
+import { DEFAULT_BOOK_SLUG } from "@/lib/books";
 import { parseTextForEntityLinks } from "./entityTextSegments";
 
 export interface XRayEntityData {
@@ -21,6 +23,8 @@ interface XRayPanelProps {
   baselineIntro?: string;
   onClose: () => void;
   onSelectEntity?: (entityId: string) => void;
+  /** When set (e.g. from /book/[slug]/chapter), entity images load from /images/entities/<bookSlug>/ for non-default book. */
+  bookSlug?: string;
 }
 
 export function XRayPanel({
@@ -30,6 +34,7 @@ export function XRayPanel({
   baselineIntro,
   onClose,
   onSelectEntity,
+  bookSlug,
 }: XRayPanelProps) {
   const [imageError, setImageError] = React.useState(false);
   React.useEffect(() => setImageError(false), [entityId]);
@@ -38,6 +43,9 @@ export function XRayPanel({
 
   const data = entityData[entityId];
   if (!data) return null;
+
+  const entitiesBase =
+    bookSlug && bookSlug !== "monte-cristo" ? `/images/entities/${bookSlug}` : "/images/entities";
 
   const isFirstChapter = chapterNumber === 1;
   const introText = data.spoilerFreeIntro ?? data.name;
@@ -53,12 +61,14 @@ export function XRayPanel({
         onClick={(e) => e.stopPropagation()}
       >
         <div className="p-5">
-          <div className="flex items-start justify-between gap-2 mb-3">
-            <h3 className="text-lg font-semibold text-stone-900 dark:text-stone-100">{data.name}</h3>
+          <div className="relative flex items-start justify-center gap-2 mb-3">
+            <h3 className="text-lg font-semibold text-stone-900 dark:text-stone-100 text-center pr-8">
+              {data.name}
+            </h3>
             <button
               type="button"
               onClick={onClose}
-              className="text-stone-400 hover:text-stone-600 dark:text-stone-500 dark:hover:text-stone-300 p-1 -m-1"
+              className="absolute right-0 top-0 text-stone-400 hover:text-stone-600 dark:text-stone-500 dark:hover:text-stone-300 p-1 -m-1"
               aria-label="Close"
             >
               ×
@@ -70,7 +80,7 @@ export function XRayPanel({
             {!imageError && (
               <div className="rounded-lg overflow-hidden bg-stone-100 dark:bg-stone-800 w-52 h-64 flex-shrink-0 relative">
                 <Image
-                  src={`/images/entities/${entityId}.webp`}
+                  src={`${entitiesBase}/${entityId}.webp`}
                   alt=""
                   fill
                   className="object-cover object-top"
@@ -79,12 +89,6 @@ export function XRayPanel({
               </div>
             )}
           </div>
-
-          {data.aliases.length > 0 && (
-            <p className="text-xs text-stone-500 dark:text-stone-400 mb-2">
-              Also known as: {data.aliases.join(", ")}
-            </p>
-          )}
 
           <p className="text-base text-stone-700 dark:text-stone-300 leading-relaxed mb-3">
             {introSegments.map((seg, idx) =>
@@ -107,9 +111,16 @@ export function XRayPanel({
             <p className="text-sm text-stone-600 dark:text-stone-400 mb-3 italic">{baselineIntro}</p>
           )}
 
-          <p className="text-xs text-stone-500 dark:text-stone-400 mb-2">
-            First appears in Chapter {data.firstSeenInChapter}
-          </p>
+          {chapterNumber !== data.firstSeenInChapter && (
+            <p className="text-xs text-stone-500 dark:text-stone-400 mb-2">
+              <Link
+                href={`/book/${bookSlug ?? DEFAULT_BOOK_SLUG}/chapter/${data.firstSeenInChapter}?scrollTo=${encodeURIComponent(entityId)}`}
+                className="text-amber-600 hover:text-amber-700 dark:text-amber-400 dark:hover:text-amber-300 hover:underline"
+              >
+                First appears in Chapter {data.firstSeenInChapter}
+              </Link>
+            </p>
+          )}
 
           {data.excerpt && (
             <div className="mt-3 pt-3 border-t border-stone-100 dark:border-stone-800">

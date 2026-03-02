@@ -1,4 +1,5 @@
 import { getChapter } from "./book";
+import { DEFAULT_BOOK_SLUG } from "./books";
 import { getChapterIndex, getChapterIndexEntry, type ChapterIndexEntry } from "./chapter-index";
 import { getParagraphs, normalizeScenes, type SceneWithDetails } from "./scenes";
 
@@ -45,10 +46,29 @@ function findSceneIndexByParagraph(scenes: SceneWithDetails[], paragraphIndex: n
 }
 
 export function resolveReadingPosition(
+  slug: string,
   chapterNumber: number,
   paragraphIndex: number
+): ResolvedReadingPosition;
+export function resolveReadingPosition(
+  chapterNumber: number,
+  paragraphIndex: number
+): ResolvedReadingPosition;
+export function resolveReadingPosition(
+  slugOrChapter: string | number,
+  chapterNumberOrParagraph: number,
+  paragraphIndex?: number
 ): ResolvedReadingPosition {
-  const chapter = getChapter(chapterNumber);
+  const slug =
+    typeof slugOrChapter === "string" ? slugOrChapter : DEFAULT_BOOK_SLUG;
+  const chapterNumber =
+    typeof slugOrChapter === "string" ? chapterNumberOrParagraph : slugOrChapter;
+  const resolvedParagraphIndex =
+    typeof slugOrChapter === "string"
+      ? paragraphIndex ?? 0
+      : chapterNumberOrParagraph;
+
+  const chapter = getChapter(slug, chapterNumber);
   if (!chapter) {
     throw new Error(`Chapter ${chapterNumber} not found`);
   }
@@ -58,8 +78,8 @@ export function resolveReadingPosition(
     throw new Error(`Chapter ${chapterNumber} has no paragraphs`);
   }
 
-  const clampedParagraph = clampParagraphIndex(paragraphIndex, paragraphs.length);
-  const indexEntry = getChapterIndexEntry(chapterNumber);
+  const clampedParagraph = clampParagraphIndex(resolvedParagraphIndex, paragraphs.length);
+  const indexEntry = getChapterIndexEntry(slug, chapterNumber);
   const scenes = normalizeScenes(indexEntry?.scenes, paragraphs.length);
   const sceneIndex = findSceneIndexByParagraph(scenes, clampedParagraph);
   const scene = scenes[sceneIndex] ?? {
@@ -100,12 +120,27 @@ export function getSceneSummariesBeforeCurrent(position: ResolvedReadingPosition
 }
 
 export function getChapterSummaryWindowBefore(
+  slug: string,
   chapterNumber: number,
   maxChapters: number
+): string[];
+export function getChapterSummaryWindowBefore(
+  chapterNumber: number,
+  maxChapters: number
+): string[];
+export function getChapterSummaryWindowBefore(
+  slugOrChapter: string | number,
+  chapterNumberOrMax: number,
+  maxChapters?: number
 ): string[] {
-  if (chapterNumber <= 1 || maxChapters <= 0) return [];
-  const start = Math.max(1, chapterNumber - maxChapters);
-  const index = getChapterIndex();
+  const slug =
+    typeof slugOrChapter === "string" ? slugOrChapter : DEFAULT_BOOK_SLUG;
+  const chapterNumber =
+    typeof slugOrChapter === "string" ? chapterNumberOrMax : slugOrChapter;
+  const max = typeof slugOrChapter === "string" ? (maxChapters ?? 0) : chapterNumberOrMax;
+  if (chapterNumber <= 1 || max <= 0) return [];
+  const start = Math.max(1, chapterNumber - max);
+  const index = getChapterIndex(slug);
   const byNumber = new Map(index.chapters.map((entry) => [entry.number, entry]));
   const summaries: string[] = [];
   for (let n = start; n <= chapterNumber - 1; n++) {
@@ -118,15 +153,37 @@ export function getChapterSummaryWindowBefore(
 }
 
 export function getStorySoFarBeforeChapter(
+  slug: string,
   chapterNumber: number,
-  fallbackWindowChapters = 6
+  fallbackWindowChapters?: number
+): string | undefined;
+export function getStorySoFarBeforeChapter(
+  chapterNumber: number,
+  fallbackWindowChapters?: number
+): string | undefined;
+export function getStorySoFarBeforeChapter(
+  slugOrChapter: string | number,
+  chapterNumberOrFallback?: number,
+  fallbackWindowChapters?: number
 ): string | undefined {
+  const fallbackDefault = 6;
+  const slug =
+    typeof slugOrChapter === "string" ? slugOrChapter : DEFAULT_BOOK_SLUG;
+  const chapterNumber =
+    typeof slugOrChapter === "string" ? chapterNumberOrFallback! : slugOrChapter;
+  const fallback =
+    typeof slugOrChapter === "string" ? fallbackWindowChapters : chapterNumberOrFallback;
+  const windowChapters = (fallback ?? fallbackDefault);
   if (chapterNumber <= 1) return undefined;
-  const prev = getChapterIndexEntry(chapterNumber - 1);
+  const prev = getChapterIndexEntry(slug, chapterNumber - 1);
   const rolling = prev?.storySoFarSummary?.trim();
   if (rolling) return rolling;
 
-  const fallback = getChapterSummaryWindowBefore(chapterNumber, fallbackWindowChapters);
-  if (fallback.length === 0) return undefined;
-  return fallback.join("\n");
+  const fallbackSummaries = getChapterSummaryWindowBefore(
+    slug,
+    chapterNumber,
+    windowChapters ?? 6
+  );
+  if (fallbackSummaries.length === 0) return undefined;
+  return fallbackSummaries.join("\n");
 }

@@ -31,10 +31,14 @@ export interface ChapterIndex {
 }
 
 const DATA_DIR = join(process.cwd(), "data");
-let _index: ChapterIndex | null = null;
+const indexCache = new Map<string, ChapterIndex>();
 
-function canonicalizeChapterIndex(index: ChapterIndex): ChapterIndex {
-  const canonicalById = buildCanonicalMapping(getEntityStore());
+function dataDirFor(slug: string): string {
+  return join(DATA_DIR, slug);
+}
+
+function canonicalizeChapterIndex(index: ChapterIndex, slug: string): ChapterIndex {
+  const canonicalById = buildCanonicalMapping(getEntityStore(slug));
   if (canonicalById.size === 0) return index;
 
   return {
@@ -67,19 +71,21 @@ function canonicalizeChapterIndex(index: ChapterIndex): ChapterIndex {
   };
 }
 
-export function getChapterIndex(): ChapterIndex {
-  if (!_index) {
-    const path = join(DATA_DIR, "chapter-index.json");
+export function getChapterIndex(slug: string): ChapterIndex {
+  let cached = indexCache.get(slug);
+  if (!cached) {
+    const path = join(dataDirFor(slug), "chapter-index.json");
     if (!existsSync(path)) {
-      _index = { chapters: [] };
+      cached = { chapters: [] };
     } else {
       const raw = readFileSync(path, "utf-8");
-      _index = canonicalizeChapterIndex(JSON.parse(raw) as ChapterIndex);
+      cached = canonicalizeChapterIndex(JSON.parse(raw) as ChapterIndex, slug);
     }
+    indexCache.set(slug, cached);
   }
-  return _index;
+  return cached;
 }
 
-export function getChapterIndexEntry(chapterNumber: number): ChapterIndexEntry | undefined {
-  return getChapterIndex().chapters.find((c) => c.number === chapterNumber);
+export function getChapterIndexEntry(slug: string, chapterNumber: number): ChapterIndexEntry | undefined {
+  return getChapterIndex(slug).chapters.find((c) => c.number === chapterNumber);
 }
