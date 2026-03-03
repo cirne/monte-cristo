@@ -4550,6 +4550,2201 @@
           ]
         }
       ]
+    },
+    {
+      "number": 21,
+      "entities": [
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…e to answer for it. But if there isn’t a God at all, what do they deserve, your fathers? It’s not enough to cut their heads off, for they keep back progress. Would you believe it, Ivan, that that lacerates my sentiments? No, you don’t beli…"
+        },
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…h. </p>  <p> “Get along with you, Jesuits!” he cried to the servants. “Go away, Smerdyakov. I’ll send you the gold piece I promised you to‐day, but be off! Don’t cry, Grigory. Go to Marfa. She’ll comfort you and put you to bed. The rascals…"
+        },
+        {
+          "entityId": "grigory",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…kov. I’ll send you the gold piece I promised you to‐day, but be off! Don’t cry, Grigory. Go to Marfa. She’ll comfort you and put you to bed. The rascals won’t let us sit in peace after dinner,” he snapped peevishly, as the servants promptl…"
+        },
+        {
+          "entityId": "marfa_ignatyevna",
+          "type": "person",
+          "firstSeenInChapter": 14,
+          "excerpt": "…you the gold piece I promised you to‐day, but be off! Don’t cry, Grigory. Go to Marfa. She’ll comfort you and put you to bed. The rascals won’t let us sit in peace after dinner,” he snapped peevishly, as the servants promptly withdrew at h…"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…’s you he’s so interested in. What have you done to fascinate him?” he added to Ivan. </p>  <p> “Nothing whatever,” answered Ivan. “He’s pleased to have a high opinion of me; he’s a lackey and a mean soul. Raw material for revolution, howe…"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…even you, though you fancy that he has a high opinion of you. Worse still with Alyosha, he despises Alyosha. But he doesn’t steal, that’s one thing, and he’s not a gossip, he holds his tongue, and doesn’t wash our dirty linen in public. He…"
+        },
+        {
+          "entityId": "balaams_ass",
+          "type": "person",
+          "firstSeenInChapter": 19
+        },
+        {
+          "entityId": "the_devil",
+          "type": "person",
+          "firstSeenInChapter": 16,
+          "excerpt": "…r.” </p>  <p> “Ah, brother, but a Balaam’s ass like that thinks and thinks, and the devil knows where he gets to.” </p>  <p> “He’s storing up ideas,” said Ivan, smiling. </p>  <p> “You see, I know he can’t bear me, nor any one else, even y…"
+        },
+        {
+          "entityId": "god",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…gry that I offended your Superior this morning. I lost my temper. If there is a God, if He exists, then, of course, I’m to blame, and I shall have to answer for it. But if there isn’t a God at all, what do they deserve, your fathers? It’s …"
+        },
+        {
+          "entityId": "the_superior",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…are you blushing? Don’t be bashful, child. I’m sorry I didn’t stay to dinner at the Superior’s and tell the monks about the girls at Mokroe. Alyosha, don’t be angry that I offended your Superior this morning. I lost my temper. If there is …"
+        },
+        {
+          "entityId": "elder_zossima",
+          "type": "person",
+          "firstSeenInChapter": 4
+        },
+        {
+          "entityId": "the_monks",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…be bashful, child. I’m sorry I didn’t stay to dinner at the Superior’s and tell the monks about the girls at Mokroe. Alyosha, don’t be angry that I offended your Superior this morning. I lost my temper. If there is a God, if He exists, the…"
+        },
+        {
+          "entityId": "the_russian_peasant",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…<p> “Of course he isn’t.” </p>  <p> “And as for the ideas he may be hatching, the Russian peasant, generally speaking, needs thrashing. That I’ve always maintained. Our peasants are swindlers, and don’t deserve to be pitied, and it’s a goo…"
+        },
+        {
+          "entityId": "governor_schultz",
+          "type": "person",
+          "firstSeenInChapter": 21,
+          "excerpt": "…t every one, but all the clever people who come to him. He said straight out to Governor Schultz not long ago: ‘_Credo_, but I don’t know in what.’ ” </p>  <p> “Really?” </p>  <p> “He really did. But I respect him. There’s something of Mep…"
+        },
+        {
+          "entityId": "dernidov",
+          "type": "person",
+          "firstSeenInChapter": 21,
+          "excerpt": "…d. What do you say to that? ‘I’ve plenty of tricks in my time,’ said he. He did Dernidov, the merchant, out of sixty thousand.” </p>  <p> “What, he stole it?” </p>  <p> “He brought him the money as a man he could trust, saying, ‘Take care …"
+        },
+        {
+          "entityId": "belyavsky",
+          "type": "person",
+          "firstSeenInChapter": 21,
+          "excerpt": "…y good counterfeit. That’s the great thing, to know how to take every one. Once Belyavsky—he was a handsome fellow, and rich—used to like to come here and hang about her—suddenly gave me a slap in the face in her presence. And she—such a m…"
+        },
+        {
+          "entityId": "sofya_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 3,
+          "excerpt": "…something very strange happened to Alyosha. Precisely what he was describing in the crazy woman was suddenly repeated with Alyosha. He jumped up from his seat exactly as his mother was said to have done, wrung his hands, hid his face in th…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…was heard in the hall, there were violent shouts, the door was flung open, and Dmitri burst into the room. The old man rushed to Ivan in terror. </p>  <p> “He’ll kill me! He’ll kill me! Don’t let him get at me!” he screamed, clinging to th…"
+        },
+        {
+          "entityId": "tchermashnya",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…’ve had too much brandy.” </p>  <p> “I’ve begged you for Christ’s sake to go to Tchermashnya for a day or two, and you don’t go.” </p>  <p> “I’ll go to‐morrow if you’re so set upon it.” </p>  <p> “You won’t go. You want to keep an eye on m…"
+        },
+        {
+          "entityId": "mokroe",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…ne more, and then another, and then I’ll stop. No, stay, you interrupted me. At Mokroe I was talking to an old man, and he told me: ‘There’s nothing we like so much as sentencing girls to be thrashed, and we always give the lads the job of…"
+        },
+        {
+          "entityId": "russia",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…> “Of course he isn’t.” </p>  <p> “And as for the ideas he may be hatching, the Russian peasant, generally speaking, needs thrashing. That I’ve always maintained. Our peasants are swindlers, and don’t deserve to be pitied, and it’s a good …"
+        },
+        {
+          "entityId": "the_monastery",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…st out Fyodor Pavlovitch, striking himself lightly on the forehead. “Well, your monastery may stand then, Alyosha, if that’s how it is. And we clever people will sit snug and enjoy our brandy. You know, Ivan, it must have been so ordained …"
+        },
+        {
+          "entityId": "our_lady",
+          "type": "person",
+          "firstSeenInChapter": 21,
+          "excerpt": "…e first year; then she was very fond of praying. She used to keep the feasts of Our Lady particularly and used to turn me out of her room then. I’ll knock that mysticism out of her, thought I! ‘Here,’ said I, ‘you see your holy image. Here…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 1,
+          "locationDescription": "Dining room in Fyodor Pavlovitch's house, after dinner",
+          "imageDescription": "A dimly lit 19th-century Russian dining room, heavy with shadow and the warm glow of candles on the table. Fyodor Pavlovitch Karamazov, visibly flushed and unsteady from drink, sits at the head of the table, gesturing irritably. Ivan Fyodorovitch sits upright, composed, while Alexey Fyodorovitch appears pensive, his hands folded; Smerdyakov and Grigory are departing through a doorway in the background. Marfa Ignatyevna can be glimpsed in a distant corridor. The scene is tense, the atmosphere close and charged, with period-appropriate dress: long coats, waistcoats, and Orthodox kerchiefs for the servants.",
+          "characterIds": [
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov",
+            "smerdyakov",
+            "grigory",
+            "marfa_ignatyevna"
+          ]
+        },
+        {
+          "startParagraph": 2,
+          "endParagraph": 2,
+          "locationDescription": "Dining room, now just the Karamazovs after servants exit",
+          "imageDescription": "The Karamazov brothers remain together at a well-used wooden table amid flickering candlelight, the remnants of dinner and open bottles still present. Fyodor Pavlovitch, red-faced and boisterous, leans forward aggressively towards Ivan; Ivan sits back, aloof and unsmiling, while Alyosha is caught mid-reaction, a look of concern and embarrassment on his features. The men's attire reflects the era and their station: fine but slightly disheveled tunics and waistcoats for the brothers, rumpled for their drunken father. The air is thick with the tension of philosophical debate.",
+          "characterIds": [
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 51,
+          "locationDescription": "Dining room, as the conversation turns to God and immortality",
+          "imageDescription": "The same richly appointed but cluttered 19th-century dining room. Fyodor Pavlovitch, animated and slightly slumped, raises his hand in a drunken entreaty to Ivan. Ivan regards him coolly, resting his arms on the table, while Alyosha sits quietly but intensely alive, eyes shining with emotion. The shadows deepen around them, focusing the eye on the three faces amid the candlelit gloom. Their clothing is tasteful and suitable for members of a well-to-do Russian family.",
+          "characterIds": [
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 52,
+          "endParagraph": 72,
+          "locationDescription": "Dining room, Fyodor Pavlovitch drunkenly rambles about the elder and past events",
+          "imageDescription": "Lit only by the guttering candles, the faces of the three Karamazov men stand out against a richly patterned yet somber Russian interior. Fyodor Pavlovitch, clearly inebriated, leans heavily on the table, a wild, self-important grin on his face. Ivan listens with a mixture of indifference and disdain, while Alyosha remains upright, his gaze redirected downward. The sense of late-night exhaustion mingles with the charged energy of family grievances. Period clothing is evident: Fyodor's tunic askew, Ivan's suit precise, Alyosha's simple yet neat attire.",
+          "characterIds": [
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 73,
+          "endParagraph": 74,
+          "locationDescription": "Dining room, as Fyodor Pavlovitch boasts about his views on women and recounts memories of Alyosha’s mother",
+          "imageDescription": "Fyodor Pavlovitch, momentarily energized, gestures flamboyantly in the opulent but untidy dining room, recalling past seductions. Ivan looks away, jaw clenched in anger, while Alyosha grows visibly distressed. The glow from the candles picks out streaks of silver in Fyodor’s disheveled hair and the harsh lines of emotion on the brothers’ youthful faces. Their clothing is evocative of the late imperial age in Russia—formal, somber, and distinctly layered.",
+          "characterIds": [
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 75,
+          "endParagraph": 78,
+          "locationDescription": "Dining room, as Alyosha suffers an emotional breakdown",
+          "imageDescription": "Sudden panic in the lamplit dining room: Fyodor Pavlovitch rises, eyes wide with surprise, rushing toward Alyosha, who is slumped in his chair, face hidden in his trembling hands, overcome by silent sobbing. Ivan stands abruptly, anger flashing in his eyes, looming above the scene. The atmosphere is charged, oppressive, marked by the clutter of the dinner table and the dim candlelight. The men's clothing remains sharply period: Alyosha's attire neat but unadorned, Ivan formal and severe, Fyodor visibly disheveled.",
+          "characterIds": [
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 79,
+          "endParagraph": 80,
+          "locationDescription": "Dining room, chaos as Dmitri bursts in",
+          "imageDescription": "The tense Karamazov household is thrown into chaos. In the flickering half-light, Dmitri Fyodorovitch storms through the open doorway, his figure dramatic and forceful, as Fyodor Pavlovitch recoils in terror, clinging to Ivan's coat for protection. Ivan stands tense, one hand back, his face a mask of dread and resolve. Alyosha, still shaking, looks on in dismay from his seat. The opulent but disturbed Russian interior adds to the sense of family tempest, with everyone in the garb of late 19th-century Russian gentry.",
+          "characterIds": [
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov",
+            "dmitri_fyodorovitch_karamazov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "entities": [
+        {
+          "entityId": "grigory",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "<p> Grigory and Smerdyakov ran into the room after Dmitri. They had been struggling with him in the passage, refusing to admit him, acting on instructions given them by Fy"
+        },
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "<p> Grigory and Smerdyakov ran into the room after Dmitri. They had been struggling with him in the passage, refusing to admit him, acting on instructions given them by Fyodor Pavlovitch"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> Grigory and Smerdyakov ran into the room after Dmitri. They had been struggling with him in the passage, refusing to admit him, acting on instructions given them by Fyodor Pavlovitch some days before. Taking advan"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…t up from the floor, but still seemed stunned. Ivan and Alyosha ran after their father. In the third room something was heard to fall on the floor with a ringing crash: it was a large glass vase—not an expensive one—on a marble pedestal wh…"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…Dmitri. Meanwhile Grigory had got up from the floor, but still seemed stunned. Ivan and Alyosha ran after their father. In the third room something was heard to fall on the floor with a ringing crash: it was a large glass vase—not an expen…"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…Meanwhile Grigory had got up from the floor, but still seemed stunned. Ivan and Alyosha ran after their father. In the third room something was heard to fall on the floor with a ringing crash: it was a large glass vase—not an expensive one…"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…van cried wrathfully at his father. </p>  <p> “Ivan! Alyosha! She must be here. Grushenka’s here. He said he saw her himself, running.” </p>  <p> He was choking. He was not expecting Grushenka at the time, and the sudden news that she was …"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…e she is.... Good‐by, Alexey! Not a word to Æsop about the money now. But go to Katerina Ivanovna at once and be sure to say, ‘He sends his compliments to you!’ Compliments, his compliments! Just compliments and farewell! Describe the scen…"
+        },
+        {
+          "entityId": "mother_of_god",
+          "type": "person",
+          "firstSeenInChapter": 22,
+          "excerpt": "…his heart. Tears positively glittered in his eyes. </p>  <p> “That image of the Mother of God of which I was telling you just now,” he said. “Take it home and keep it for yourself. And I’ll let you go back to the monastery.... I was joking…"
+        },
+        {
+          "entityId": "the_karamazovs_house",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…dor Pavlovitch. </p>  <p> “She’s here!” shouted Dmitri. “I saw her turn towards the house just now, but I couldn’t catch her. Where is she? Where is she?” </p>  <p> That shout, “She’s here!” produced an indescribable effect on Fyodor Pavlo…"
+        },
+        {
+          "entityId": "the_courtyard",
+          "type": "place",
+          "firstSeenInChapter": 19,
+          "excerpt": "…him be murdered as I didn’t just now. Stay here, Alyosha, I’ll go for a turn in the yard. My head’s begun to ache.” </p>  <p> Alyosha went to his father’s bedroom and sat by his bedside behind the screen for about an hour. The old man sudd…"
+        },
+        {
+          "entityId": "the_monastery",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…,” he said. “Take it home and keep it for yourself. And I’ll let you go back to the monastery.... I was joking this morning, don’t be angry with me. My head aches, Alyosha.... Alyosha, comfort my heart. Be an angel and tell me the truth!” …"
+        },
+        {
+          "entityId": "alyoshas_fathers_bedroom",
+          "type": "place",
+          "firstSeenInChapter": 22
+        },
+        {
+          "entityId": "drawingroom",
+          "type": "place",
+          "firstSeenInChapter": 19
+        },
+        {
+          "entityId": "madame_hohlakovs_daughter",
+          "type": "place",
+          "firstSeenInChapter": 8
+        },
+        {
+          "entityId": "the_fence",
+          "type": "place",
+          "firstSeenInChapter": 22,
+          "excerpt": "…n believe; was she here just now, or not? I saw her myself creeping this way by the fence from the lane. I shouted, she ran away.” </p>  <p> “I swear she’s not been here, and no one expected her.” </p>  <p> “But I saw her.... So she must .…"
+        },
+        {
+          "entityId": "the_lane",
+          "type": "place",
+          "firstSeenInChapter": 22,
+          "excerpt": "…she here just now, or not? I saw her myself creeping this way by the fence from the lane. I shouted, she ran away.” </p>  <p> “I swear she’s not been here, and no one expected her.” </p>  <p> “But I saw her.... So she must ... I’ll find ou…"
+        },
+        {
+          "entityId": "double_doors_to_the_inner_apartments",
+          "type": "place",
+          "firstSeenInChapter": 22
+        },
+        {
+          "entityId": "a_large_glass_vase_on_a_marble_pedestal",
+          "type": "event",
+          "firstSeenInChapter": 22
+        },
+        {
+          "entityId": "alyoshas_visit_to_katerina_ivanovna_with_message_from_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 22
+        },
+        {
+          "entityId": "attack_on_fyodor_pavlovitch_by_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 22
+        },
+        {
+          "entityId": "insult_to_grigory_by_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 22
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 1,
+          "locationDescription": "In Fyodor Pavlovitch's drawing-room",
+          "imageDescription": "A 19th-century Russian drawing-room with heavy drapes and dark wooden furniture. Dmitri Karamazov bursts through the door, his face contorted with rage. Grigory, the elderly servant, is moving swiftly to close the double doors, his arms spread wide in defense. Smerdyakov stands pale and trembling near Fyodor Pavlovitch, who sits clutching his armchair in terror. Gaslight flickers over everyone, illuminating the period-appropriate Russian attire—Dmitri in a rough military-style coat, Grigory in servant livery, Smerdyakov hunched and commonplace, and Fyodor Pavlovitch with disheveled hair and a velvet dressing gown. The mood is tense, chaotic, and dramatic.",
+          "characterIds": [
+            "grigory",
+            "smerdyakov",
+            "dmitri_fyodorovitch_karamazov",
+            "fyodor_pavlovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 2,
+          "endParagraph": 2,
+          "locationDescription": "In the passage towards the third room",
+          "imageDescription": "In a dark passage branching off the main room, Dmitri attempts to pull Grigory away from his post at the door. Grigory, sturdy and resolved, shoves back at Dmitri, who is wild with fury. The lighting is dim and shadowy. Farther down the passage, hints of luxurious furnishing are visible. The men are in movement—Dmitri in a heavy cloak, Grigory holding firm in a faded livery, and Smerdyakov is barely visible near the doorway, behind Fyodor Pavlovitch, who leans in anxiously.",
+          "characterIds": [
+            "grigory",
+            "smerdyakov",
+            "dmitri_fyodorovitch_karamazov",
+            "fyodor_pavlovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 2,
+          "endParagraph": 13,
+          "locationDescription": "In the third room and hallway",
+          "imageDescription": "Dmitri stands over the fallen Grigory who lies unconscious on the carpet of a lavish room. Dmitri is mid-leap, his face flushed, having just knocked Grigory down. Smerdyakov and Fyodor Pavlovitch look on in shock from the hallway, both appearing small and fearful. A smashed glass vase lays on the floor nearby, fragments glittering under golden lamplight. The men wear typical 19th-century garb—Dmitri disordered and wild, Grigory crumpled in servant dress, Smerdyakov and Fyodor Pavlovitch gaping, the latter in a velvet robe.",
+          "characterIds": [
+            "grigory",
+            "smerdyakov",
+            "dmitri_fyodorovitch_karamazov",
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 14,
+          "endParagraph": 21,
+          "locationDescription": "Returning to the drawing-room",
+          "imageDescription": "Back in the opulent, cluttered drawing-room, Dmitri storms in, disheveled and angry. Fyodor Pavlovitch points at him with a trembling hand, shouting accusations, while Ivan and Alyosha move quickly to restrain their father. The atmosphere is violent and chaotic—light from a hanging chandelier casts sharp shadows. Alyosha and Ivan look worried and determined, Fyodor Pavlovitch is red-faced and hysterical, Dmitri stands taut and dangerous, while Smerdyakov and Grigory, the latter injured, linger in the background.",
+          "characterIds": [
+            "grigory",
+            "smerdyakov",
+            "dmitri_fyodorovitch_karamazov",
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 22,
+          "endParagraph": 26,
+          "locationDescription": "In Fyodor Pavlovitch’s bedroom",
+          "imageDescription": "Fyodor Pavlovitch, his face bloody and bruised, sits slumped in an ornate armchair in a dim, richly furnished bedroom. Ivan and Grigory assist him, their faces tense with concern and disgust. Alyosha stands nearby, gentle and attentive. The mood is somber, with lamplight falling upon bandages and towels set out for care. The attire is true to the era: Ivan in a long frock coat, Alyosha gentler and humbler in darker clothes, Grigory sullen in his simple uniform, Fyodor in bedraggled house clothes.",
+          "characterIds": [
+            "grigory",
+            "smerdyakov",
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 27,
+          "endParagraph": 36,
+          "locationDescription": "In the drawing-room after Dmitri’s departure",
+          "imageDescription": "Smerdyakov gathers shards of the broken vase from the floor in the now quiet drawing-room, while Grigory stands off to one side staring at the floor, nursing his wounded pride and head. Ivan and Alyosha converse, Ivan with a grim, forced smile, Alyosha anxious and shocked. The lighting is muted, with the glow from a single oil lamp reflecting off polished wood and fabric, the aftermath of violence lingering in the air.",
+          "characterIds": [
+            "grigory",
+            "smerdyakov",
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 37,
+          "endParagraph": 66,
+          "locationDescription": "At Fyodor Pavlovitch’s bedside (behind the screen)",
+          "imageDescription": "Beside a curtained bed in a sumptuously decorated but shadowy bedroom, Alyosha sits quietly behind a folding screen, watching over his resting father. Fyodor Pavlovitch lies pale and battered in his night robe, the side of his face bruised and bloodied, hands clutching a small round mirror. The light is soft and faint, giving the space a peaceful but uneasy air. Alyosha’s expression is gentle and concerned; Fyodor Pavlovitch’s is anxious and pleading. The furnishings—heavy fabric, gilded wood—reinforce the 19th-century Russian setting.",
+          "characterIds": [
+            "fyodor_pavlovitch_karamazov",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 67,
+          "endParagraph": 80,
+          "locationDescription": "In the yard at the gateway bench",
+          "imageDescription": "Outside near the gateway of the Karamazov estate, Ivan sits on a wooden bench under the waning evening light, scribbling in a notebook. Alyosha stands near, having just entered from the house, both wrapped in long coats suitable for the cool air. The yard is gravelly, bordered by high fences and faintly illuminated windows from the house. The scene is introspective and calm after previous tumult, conveying both tension and the first signs of reconciliation.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "entities": [
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> Alyosha left his father’s house feeling even more exhausted and dejected in spirit than when he had entered it. His mind too seemed shattered and unhinged, while he fe"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> Alyosha left his father’s house feeling even more exhausted and dejected in spirit than when he had entered it. His mind too seemed shattered and unhinged, while he felt that he was a"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…al, insoluble question: How would things end between his father and his brother Dmitri with this terrible woman? Now he had himself been a witness of it, he had been present and seen them face to face. Yet only his brother Dmitri could be …"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…uld have supposed before. There was something positively mysterious in it, too. Ivan had made a step towards him, which was what Alyosha had been long desiring. Yet now he felt for some reason that he was frightened at it. And these women?…"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…ghtened at it. And these women? Strange to say, that morning he had set out for Katerina Ivanovna’s in the greatest embarrassment; now he felt nothing of the kind. On the contrary, he was hastening there as though expecting to find guidanc…"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…ne might even say sugary, feminine voice. </p>  <p> The portière was raised and Grushenka herself, smiling and beaming, came up to the table. A violent revulsion passed over Alyosha. He fixed his eyes on her and could not take them off. He…"
+        },
+        {
+          "entityId": "madame_hohlakov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…aken by the maid. </p>  <p> “The young lady forgot to give you this letter from Madame Hohlakov; it’s been left with us since dinner‐time.” </p>  <p> Alyosha took the little pink envelope mechanically and put it, almost unconsciously, into…"
+        },
+        {
+          "entityId": "generals_widow",
+          "type": "person",
+          "firstSeenInChapter": 3,
+          "excerpt": "…pt them with her as chaperons. Katerina Ivanovna herself gave way to no one but her benefactress, the general’s widow, who had been kept by illness in Moscow, and to whom she was obliged to write twice a week a full account of all her doin…"
+        },
+        {
+          "entityId": "agafya_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 17
+        },
+        {
+          "entityId": "the_aunt_agafya_ivanovnas_mothers_sister",
+          "type": "person",
+          "firstSeenInChapter": 17
+        },
+        {
+          "entityId": "moscow",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…in her father’s house when she came from boarding‐school. The other aunt was a Moscow lady of style and consequence, though in straitened circumstances. It was said that they both gave way in everything to Katerina Ivanovna, and that she o…"
+        },
+        {
+          "entityId": "the_high_street",
+          "type": "place",
+          "firstSeenInChapter": 16,
+          "excerpt": "…t was getting dark as Alyosha entered the very spacious and convenient house in the High Street occupied by Katerina Ivanovna. Alyosha knew that she lived with two aunts. One of them, a woman of little education, was that aunt of her half‐…"
+        },
+        {
+          "entityId": "katerina_ivanovnas_house",
+          "type": "place",
+          "firstSeenInChapter": 16
+        },
+        {
+          "entityId": "drawingroom",
+          "type": "place",
+          "firstSeenInChapter": 19
+        },
+        {
+          "entityId": "hall",
+          "type": "place",
+          "firstSeenInChapter": 19,
+          "excerpt": "…ice a week a full account of all her doings. </p>  <p> When Alyosha entered the hall and asked the maid who opened the door to him to take his name up, it was evident that they were already aware of his arrival. Possibly he had been notice…"
+        },
+        {
+          "entityId": "maid_at_katerina_ivanovnas",
+          "type": "person",
+          "firstSeenInChapter": 23,
+          "excerpt": "…ll account of all her doings. </p>  <p> When Alyosha entered the hall and asked the maid who opened the door to him to take his name up, it was evident that they were already aware of his arrival. Possibly he had been noticed from the wind…"
+        },
+        {
+          "entityId": "the_new_major",
+          "type": "person",
+          "firstSeenInChapter": 17
+        },
+        {
+          "entityId": "samsonov",
+          "type": "person",
+          "firstSeenInChapter": 12
+        },
+        {
+          "entityId": "the_sister_katerina_ivanovnas_sister",
+          "type": "person",
+          "firstSeenInChapter": 18
+        },
+        {
+          "entityId": "the_aunts_of_katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 23
+        },
+        {
+          "entityId": "alyoshas_visit_to_katerina_ivanovna_with_message_from_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 22
+        },
+        {
+          "entityId": "attack_on_fyodor_pavlovitch_by_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 22
+        },
+        {
+          "entityId": "maid_second_appears_at_the_end",
+          "type": "person",
+          "firstSeenInChapter": 23
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Street outside Fyodor Pavlovitch's house",
+          "imageDescription": "On a dusky evening, a young man with gentle features and religious dress steps out of a large, somber merchant's house onto a quiet street of a small Russian town. The setting sun casts a melancholic glow, and the street is deserted, lined with wooden fences and the silhouettes of bare trees. The young man’s shoulders are slightly bowed, his expression troubled and introspective, his simple cassock and modest overcoat suggest his monastic ties. The air carries an aura of heavy thoughts and emotional exhaustion.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 1,
+          "endParagraph": 2,
+          "locationDescription": "Hallway of Katerina Ivanovna’s house",
+          "imageDescription": "A spacious, well-appointed hallway dimly illuminated by evening light filters in through frosted windows. Decorated in refined mid-19th-century Russian taste, the hall features patterned rugs and ornate carved doors. A young servant maid in a simple, pale dress holds open the door, while Alyosha, in his dark cassock, stands just inside, looking forward expectantly. The faint sounds of women's voices and hurried footsteps suggest a flurry in the adjoining rooms, heightening a sense of anticipation and subtle tension.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "maid_at_katerina_ivanovnas"
+          ]
+        },
+        {
+          "startParagraph": 3,
+          "endParagraph": 3,
+          "locationDescription": "Drawing-room of Katerina Ivanovna’s house",
+          "imageDescription": "A broad and elegant 19th-century Russian drawing-room bathed in soft candlelight, with rich carpets, vases, flowers, and a large front window partly shadowed by twilight. Alyosha, modestly garbed, stands near a table with half-finished cups of chocolate and cakes. Katerina Ivanovna, tall and striking in a fashionable dress, rushes in beaming, arms outstretched in welcome. A maid quietly enters behind, setting candles on the table. The room feels charged with anticipation, warmth, and undertones of emotional undercurrents.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "katerina_ivanovna",
+            "maid_at_katerina_ivanovnas"
+          ]
+        },
+        {
+          "startParagraph": 4,
+          "endParagraph": 27,
+          "locationDescription": "Drawing-room: Alyosha and Katerina Ivanovna’s private conversation",
+          "imageDescription": "Within the grand drawing-room lit by candlesticks, Katerina Ivanovna, in a refined dark silk gown, and Alyosha, in his monk's cassock, face each other seated near an ornate table. The setting is intimate, with plush armchairs, a backdrop of floral arrangements, and the faint glimmer of a lamp. Katerina’s posture and expression radiate a mixture of excitement and vulnerability. Alyosha listens intently, visibly moved. The still atmosphere is tense with hope and sorrow as dusk gathers at the windows.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "katerina_ivanovna"
+          ]
+        },
+        {
+          "startParagraph": 28,
+          "endParagraph": 56,
+          "locationDescription": "Drawing-room: Grushenka is summoned and the three converse",
+          "imageDescription": "The atmosphere in the drawing-room shifts as a second woman enters: Grushenka, youthful and striking, dressed in sumptuous black silk and wrapped in an embroidered cashmere shawl. She sits gracefully across from Katerina Ivanovna, who remains poised but tense in her elegant gown. Alyosha looks on from a nearby chair, his eyes fixed on Grushenka, astonished. The three are positioned in a gentle triangle around a small table. The room, glowing with candlelight and filled with floral scent, feels momentarily harmonious, but undertones of rivalry and emotion are present.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "katerina_ivanovna",
+            "the_enchantress"
+          ]
+        },
+        {
+          "startParagraph": 57,
+          "endParagraph": 70,
+          "locationDescription": "Drawing-room: Rising tension and confrontation between Katerina Ivanovna and Grushenka",
+          "imageDescription": "Under the warm golden candlelight of the drawing-room, Katerina Ivanovna and Grushenka sit across from each other, holding hands, their faces close—Grushenka’s expression playful, Katerina’s hope turning quickly to confusion. Alyosha watches anxiously from beside them. The ornate furnishings, lush drapes, and scattered teacups remain background to the emotional charge; the air thickens as Grushenka, smiling slyly, teases Katerina, who stiffens and turns pale. The tension is palpable, as affection quickly gives way to abrupt hostility.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "katerina_ivanovna",
+            "the_enchantress"
+          ]
+        },
+        {
+          "startParagraph": 71,
+          "endParagraph": 84,
+          "locationDescription": "Drawing-room: Explosion and aftermath—Alyosha restrains Katerina, others rush in",
+          "imageDescription": "The scene is chaotic in the candlelit drawing-room. Katerina Ivanovna, in emotional distress, stands with face contorted in rage, restrained firmly by Alyosha, who grips her arm to hold her back. Grushenka, composed and mocking, gathers her mantle with a smirk. Two older women—Katerina’s aunts, dressed in sober 19th-century attire—hurry in, one supporting the other in alarm. A maid stands anxiously behind them. The room’s previous harmony is shattered; the air is crackling with indignation and scandal.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "katerina_ivanovna",
+            "the_enchantress",
+            "the_aunts_of_katerina_ivanovna",
+            "maid_at_katerina_ivanovnas"
+          ]
+        },
+        {
+          "startParagraph": 85,
+          "endParagraph": 87,
+          "locationDescription": "Street outside Katerina Ivanovna’s house",
+          "imageDescription": "On a chilly, dimly lit evening, Alyosha emerges on unsteady feet from the front steps of Katerina Ivanovna's grand house to the quiet street. His figure is silhouetted against the faint lamplight from the house, shoulders slumped, face anguished. The cobblestone street is empty except for a young housemaid in modest livery who hurries after him with a letter. The mood is cold and heavy, brimming with leftover emotion from the scene inside. Bare trees and the closed gates emphasize his isolation and sorrow.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "maid_second_appears_at_the_end"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "entities": [
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…was not much more than three‐quarters of a mile from the town to the monastery. Alyosha walked quickly along the road, at that hour deserted. It was almost night, and too dark to see anything clearly at thirty paces ahead. There were cross…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…shouting savagely: </p>  <p> “Your money or your life!” </p>  <p> “So it’s you, Mitya,” cried Alyosha, in surprise, violently startled however. </p>  <p> “Ha ha ha! You didn’t expect me? I wondered where to wait for you. By her house? Ther…"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…that, Mitya. There—I found them both there.” </p>  <p> “Both? Whom?” </p>  <p> “Grushenka at Katerina Ivanovna’s.” </p>  <p> Dmitri was struck dumb. </p>  <p> “Impossible!” he cried. “You’re raving! Grushenka with her?” </p>  <p> Alyosha d…"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…There—I found them both there.” </p>  <p> “Both? Whom?” </p>  <p> “Grushenka at Katerina Ivanovna’s.” </p>  <p> Dmitri was struck dumb. </p>  <p> “Impossible!” he cried. “You’re raving! Grushenka with her?” </p>  <p> Alyosha described all …"
+        },
+        {
+          "entityId": "elder_zossima",
+          "type": "person",
+          "firstSeenInChapter": 4,
+          "excerpt": "…ound the novice Porfiry and Father Païssy, who came every hour to inquire after Father Zossima. Alyosha learnt with alarm that he was getting worse and worse. Even his usual discourse with the brothers could not take place that day. As a r…"
+        },
+        {
+          "entityId": "father_passy",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…went astray at once....” </p>  <p> In the cell he found the novice Porfiry and Father Païssy, who came every hour to inquire after Father Zossima. Alyosha learnt with alarm that he was getting worse and worse. Even his usual discourse with…"
+        },
+        {
+          "entityId": "porfiry",
+          "type": "person",
+          "firstSeenInChapter": 12,
+          "excerpt": "…one lost one’s way and went astray at once....” </p>  <p> In the cell he found the novice Porfiry and Father Païssy, who came every hour to inquire after Father Zossima. Alyosha learnt with alarm that he was getting worse and worse. Even h…"
+        },
+        {
+          "entityId": "madame_hohlakovs_daughter",
+          "type": "person",
+          "firstSeenInChapter": 8,
+          "excerpt": "…r some hesitation, he opened the envelope. In it was a letter to him, signed by Lise, the young daughter of Madame Hohlakov, who had laughed at him before the elder in the morning. </p>  <p> “Alexey Fyodorovitch,” she wrote, “I am writing …"
+        },
+        {
+          "entityId": "madame_hohlakov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…the envelope. In it was a letter to him, signed by Lise, the young daughter of Madame Hohlakov, who had laughed at him before the elder in the morning. </p>  <p> “Alexey Fyodorovitch,” she wrote, “I am writing to you without any one’s know…"
+        },
+        {
+          "entityId": "the_aunt_agafya_ivanovnas_mothers_sister",
+          "type": "person",
+          "firstSeenInChapter": 17
+        },
+        {
+          "entityId": "generals_widow",
+          "type": "person",
+          "firstSeenInChapter": 3,
+          "excerpt": "…to stop her? That aunt, you know, is overbearing, herself. She’s the sister of the general’s widow in Moscow, and even more stuck‐up than she. But her husband was caught stealing government money. He lost everything, his estate and all, an…"
+        },
+        {
+          "entityId": "god",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…uds, what a wind has risen. I hid here under the willow waiting for you. And as God’s above, I suddenly thought, why go on in misery any longer, what is there to wait for? Here I have a willow, a handkerchief, a shirt, I can twist them int…"
+        },
+        {
+          "entityId": "mother_of_god",
+          "type": "person",
+          "firstSeenInChapter": 22,
+          "excerpt": "…gry this morning, but I assure you before I took up my pen, I prayed before the Image of the Mother of God, and now I’m praying, and almost crying. </p>  <p> “My secret is in your hands. When you come to‐morrow, I don’t know how I shall lo…"
+        },
+        {
+          "entityId": "the_monastery",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "<p> It was not much more than three‐quarters of a mile from the town to the monastery. Alyosha walked quickly along the road, at that hour deserted. It was almost night, and too dark to see anything clearly at thirty paces ahead. There wer…"
+        },
+        {
+          "entityId": "our_town",
+          "type": "place",
+          "firstSeenInChapter": 16,
+          "excerpt": "<p> It was not much more than three‐quarters of a mile from the town to the monastery. Alyosha walked quickly along the road, at that hour deserted. It was almost night, and too dark to see anything clearly at thirty paces ahead"
+        },
+        {
+          "entityId": "the_hermitage",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…s he mean?” </p>  <p> He went round the monastery, and crossed the pine‐wood to the hermitage. The door was opened to him, though no one was admitted at that hour. There was a tremor in his heart as he went into Father Zossima’s cell. </p>…"
+        },
+        {
+          "entityId": "the_elders_cell",
+          "type": "place",
+          "firstSeenInChapter": 7,
+          "excerpt": "…at that hour. There was a tremor in his heart as he went into Father Zossima’s cell. </p>  <p> “Why, why, had he gone forth? Why had he sent him into the world? Here was peace. Here was holiness. But there was confusion, there was darkness…"
+        },
+        {
+          "entityId": "alyoshas_fathers_bedroom",
+          "type": "place",
+          "firstSeenInChapter": 22
+        },
+        {
+          "entityId": "mokroe",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…l day,’ as Katya calls it. Yes, I did tell her, I remember! It was that time at Mokroe. I was drunk, the gypsies were singing.... But I was sobbing. I was sobbing then, kneeling and praying to Katya’s image, and Grushenka understood it. Sh…"
+        },
+        {
+          "entityId": "moscow",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…, you know, is overbearing, herself. She’s the sister of the general’s widow in Moscow, and even more stuck‐up than she. But her husband was caught stealing government money. He lost everything, his estate and all, and the proud wife had t…"
+        },
+        {
+          "entityId": "the_world",
+          "type": "place",
+          "firstSeenInChapter": 24,
+          "excerpt": "…Here he is, that man, my dear little brother, whom I love more than any one in the world, the only one I love in the world. And I loved you so much, so much at that moment that I thought, ‘I’ll fall on his neck at once.’ Then a stupid idea…"
+        },
+        {
+          "entityId": "death_of_father_zossima",
+          "type": "event",
+          "firstSeenInChapter": 24
+        },
+        {
+          "entityId": "alyoshas_visit_to_katerina_ivanovna_with_message_from_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 22
+        },
+        {
+          "entityId": "attack_on_fyodor_pavlovitch_by_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 22,
+          "excerpt": "…verge of tears for a long time, and now something seemed to snap in his soul.) “You almost killed him—cursed him—and now—here—you’re making jokes—‘Your money or your life!’ ” </p>  <p> “Well, what of that? It’s not seemly—is that it? Not s…"
+        },
+        {
+          "entityId": "the_scandal_in_the_elders_cell",
+          "type": "event",
+          "firstSeenInChapter": 11
+        },
+        {
+          "entityId": "backalley",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…and. Darkness and destruction! No need to explain. You’ll find out in due time. The filthy back‐alley and the she‐ devil. Good‐by. Don’t pray for me, I’m not worth it. And there’s no need, no need at all.... I don’t need it! Away!” </p>  <…"
+        },
+        {
+          "entityId": "the_monks",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…others could not take place that day. As a rule every evening after service the monks flocked into Father Zossima’s cell, and all confessed aloud their sins of the day, their sinful thoughts and temptations; even their disputes, if there h…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "At the crossroads near the willow outside the town",
+          "imageDescription": "A narrow country road at dusk, bordered by shadowy trees and fields, with a gusty wind visible in the leaves. A single, solitary willow tree stands at a crossroads, under which two young men confront one another: Alyosha Karamazov in his dark cassock and Dmitri Karamazov, vigorous and wild-eyed, partially obscured by the gloom. Their faces are tense with emotion, and the dim light casts dramatic shadows across 19th-century Russian rural scenery, the sky overcast with heavy, racing clouds.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "dmitri_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 27,
+          "locationDescription": "Approaching and entering the monastery, then the hermitage",
+          "imageDescription": "Outside the white-stone monastery complex at night, Alyosha is shown walking briskly, his cassock drawn close against the wind, among tall pine trees and past looming monastic buildings. The distant lanterns of the monastery glow warmly, providing a contrast to the dark forest and the cold blue night. There are no other figures present, and the atmosphere is hushed and contemplative, the ancient buildings both sacred and a little forbidding in the deepening gloom.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 28,
+          "endParagraph": 33,
+          "locationDescription": "Elder Zossima's cell in the hermitage",
+          "imageDescription": "Inside a dimly lamp-lit monastic cell with whitewashed stone walls, Alyosha stands near the threshold, his face anxious. The elderly Father Zossima lies sleeping in a narrow bed in the corner, looking peaceful and frail. Father Païssy, venerable and bearded, stands quietly next to the bed, and the young novice Porfiry waits to one side. The room is simply furnished with severe wooden furniture and a few icons along the walls. The mood is reverent and grave, the golden lamplight casting soft halos around the faces.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "elder_zossima",
+            "porfiry",
+            "father_passy"
+          ]
+        },
+        {
+          "startParagraph": 34,
+          "endParagraph": 41,
+          "locationDescription": "Father Zossima's reception room (Alyosha's sleeping quarters)",
+          "imageDescription": "A sparse but homey monastic room with a worn leather sofa in a corner, a simple wooden table, and lit only by a single oil lamp. Alyosha, in his cassock, kneels in prayer on the floor before the sofa, his posture humble and devout. The exhausted look on his face tells of inner struggle, but peace is returning. The lighting is subdued and warm, illuminating icons of saints and the Mother of God placed on a small shelf above the bed. The gentle tranquility of the space radiates spiritual solace.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "entities": [
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> Alyosha was roused early, before daybreak. Father Zossima woke up feeling very weak, though he wanted to get out of bed and sit up in a chair. His mind was quite clear"
+        },
+        {
+          "entityId": "elder_zossima",
+          "type": "person",
+          "firstSeenInChapter": 4,
+          "excerpt": "<p> Alyosha was roused early, before daybreak. Father Zossima woke up feeling very weak, though he wanted to get out of bed and sit up in a chair. His mind was quite clear; his face looked very tired, yet bright and almos"
+        },
+        {
+          "entityId": "father_passy",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…en he desired to confess and take the sacrament at once. He always confessed to Father Païssy. After taking the communion, the service of extreme unction followed. The monks assembled and the cell was gradually filled up by the inmates of …"
+        },
+        {
+          "entityId": "father_librarian",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…him. Alyosha ran at once. There was no one else in the cell but Father Païssy, Father Iosif, and the novice Porfiry. The elder, opening his weary eyes and looking intently at Alyosha, asked him suddenly: </p>  <p> “Are your people expectin…"
+        },
+        {
+          "entityId": "prohorovna",
+          "type": "person",
+          "firstSeenInChapter": 8,
+          "excerpt": "…blessing, there had been an old woman from the town, a sergeant’s widow, called Prohorovna. She had inquired whether she might pray for the rest of the soul of her son, Vassenka, who had gone to Irkutsk, and had sent her no news for over a…"
+        },
+        {
+          "entityId": "vasenka",
+          "type": "person",
+          "firstSeenInChapter": 8,
+          "excerpt": "…uture” (this was Madame Hohlakov’s expression), words of comfort: “that her son Vassya was certainly alive and he would either come himself very shortly or send a letter, and that she was to go home and expect him.” And “Would you believe …"
+        },
+        {
+          "entityId": "divinity_student",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…he gravest of all. </p>  <p> Alyosha was mysteriously summoned by a monk to see Rakitin, who had arrived from town with a singular letter for him from Madame Hohlakov. In it she informed Alyosha of a strange and very opportune incident. It…"
+        },
+        {
+          "entityId": "madame_hohlakov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…k to see Rakitin, who had arrived from town with a singular letter for him from Madame Hohlakov. In it she informed Alyosha of a strange and very opportune incident. It appeared that among the women who had come on the previous day to rece…"
+        },
+        {
+          "entityId": "the_superior",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…Hohlakov warmly entreated Alyosha to report this new “miracle of prediction” to the Superior and all the brotherhood. “All, all, ought to know of it!” she concluded. The letter had been written in haste, the excitement of the writer was ap…"
+        },
+        {
+          "entityId": "the_novice",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…at once. There was no one else in the cell but Father Païssy, Father Iosif, and the novice Porfiry. The elder, opening his weary eyes and looking intently at Alyosha, asked him suddenly: </p>  <p> “Are your people expecting you, my son?” <…"
+        },
+        {
+          "entityId": "old_monk_from_the_north",
+          "type": "person",
+          "firstSeenInChapter": 8,
+          "excerpt": "…pirits and would only converse with them, and so was silent with men. </p>  <p> The monk from Obdorsk, having been directed to the apiary by the beekeeper, who was also a very silent and surly monk, went to the corner where Father Ferapont…"
+        },
+        {
+          "entityId": "father_ferapont",
+          "type": "person",
+          "firstSeenInChapter": 25,
+          "excerpt": "…hat puzzled and did not know whom to believe. The evening before he had visited Father Ferapont in his cell apart, behind the apiary, and had been greatly impressed and overawed by the visit. This Father Ferapont was that aged monk so devo…"
+        },
+        {
+          "entityId": "father_iona",
+          "type": "person",
+          "firstSeenInChapter": 25,
+          "excerpt": "…d decaying wooden cell which had been built long ago for another great ascetic, Father Iona, who had lived to be a hundred and five, and of whose saintly doings many curious stories were still extant in the monastery and the neighborhood. …"
+        },
+        {
+          "entityId": "beekeeper_monk",
+          "type": "person",
+          "firstSeenInChapter": 25,
+          "excerpt": "…id (and indeed it was true) that he ate only two pounds of bread in three days. The beekeeper, who lived close by the apiary, used to bring him the bread every three days, and even to this man who waited upon him, Father Ferapont rarely ut…"
+        },
+        {
+          "entityId": "christ",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…</p>  <p> “It happens at night. You see those two branches? In the night it is Christ holding out His arms to me and seeking me with those arms, I see it clearly and tremble. It’s terrible, terrible!” </p>  <p> “What is there terrible if i…"
+        },
+        {
+          "entityId": "the_holy_ghost",
+          "type": "person",
+          "firstSeenInChapter": 25,
+          "excerpt": "…d even to distant lands about you, that you are in continual communication with the Holy Ghost?” </p>  <p> “He does fly down at times.” </p>  <p> “How does he fly down? In what form?” </p>  <p> “As a bird.” </p>  <p> “The Holy Ghost in the…"
+        },
+        {
+          "entityId": "the_devil",
+          "type": "person",
+          "firstSeenInChapter": 16,
+          "excerpt": "…ries, but they can’t give up their bread here, wherefore they are in bondage to the devil. Nowadays the unclean deny that there is need of such fasting. Haughty and unclean is their judgment.” </p>  <p> “Och, true,” sighed the monk. </p>  …"
+        },
+        {
+          "entityId": "st_sylvester",
+          "type": "person",
+          "firstSeenInChapter": 25,
+          "excerpt": "…one seemed more impressed by it than the monk who had come the day before from St. Sylvester, from the little monastery of Obdorsk in the far North. It was he who had been standing near Madame Hohlakov the previous day and had asked Father…"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> Alyosha was roused early, before daybreak. Father Zossima woke up feeling very weak, though he wanted to get out of bed and sit up in a chair. His mind was quite clear; his face looked very tired, yet bright a"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…old my tongue than to talk, even now, in spite of my weakness, dear Fathers and brothers,” he jested, looking with emotion at the group round him. </p>  <p> Alyosha remembered afterwards something of what he said to them. But though he spo…"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…old my tongue than to talk, even now, in spite of my weakness, dear Fathers and brothers,” he jested, looking with emotion at the group round him. </p>  <p> Alyosha remembered afterwards something of what he said to them. But though he spo…"
+        },
+        {
+          "entityId": "porfiry",
+          "type": "person",
+          "firstSeenInChapter": 12,
+          "excerpt": "…at once. There was no one else in the cell but Father Païssy, Father Iosif, and the novice Porfiry. The elder, opening his weary eyes and looking intently at Alyosha, asked him suddenly: </p>  <p> “Are your people expecting you, my son?” <…"
+        },
+        {
+          "entityId": "the_monks",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…er Païssy. After taking the communion, the service of extreme unction followed. The monks assembled and the cell was gradually filled up by the inmates of the hermitage. Meantime it was daylight. People began coming from the monastery. Aft…"
+        },
+        {
+          "entityId": "the_hermitage",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…wed. The monks assembled and the cell was gradually filled up by the inmates of the hermitage. Meantime it was daylight. People began coming from the monastery. After the service was over the elder desired to kiss and take leave of every o…"
+        },
+        {
+          "entityId": "the_monastery",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…he inmates of the hermitage. Meantime it was daylight. People began coming from the monastery. After the service was over the elder desired to kiss and take leave of every one. As the cell was so small the earlier visitors withdrew to make…"
+        },
+        {
+          "entityId": "irkutsk",
+          "type": "place",
+          "firstSeenInChapter": 8,
+          "excerpt": "…r she might pray for the rest of the soul of her son, Vassenka, who had gone to Irkutsk, and had sent her no news for over a year. To which Father Zossima had answered sternly, forbidding her to do so, and saying that to pray for the livin…"
+        },
+        {
+          "entityId": "siberia",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…that.” Scarcely had the old woman reached home when they gave her a letter from Siberia which had been awaiting her. But that was not all; in the letter written on the road from Ekaterinenburg, Vassya informed his mother that he was return…"
+        },
+        {
+          "entityId": "ekaterinenburg",
+          "type": "place",
+          "firstSeenInChapter": 25,
+          "excerpt": "…been awaiting her. But that was not all; in the letter written on the road from Ekaterinenburg, Vassya informed his mother that he was returning to Russia with an official, and that three weeks after her receiving the letter he hoped “to e…"
+        },
+        {
+          "entityId": "russia",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…e road from Ekaterinenburg, Vassya informed his mother that he was returning to Russia with an official, and that three weeks after her receiving the letter he hoped “to embrace his mother.” </p>  <p> Madame Hohlakov warmly entreated Alyos…"
+        },
+        {
+          "entityId": "saint_sylvester",
+          "type": "place",
+          "firstSeenInChapter": 9
+        },
+        {
+          "entityId": "obdorsk",
+          "type": "place",
+          "firstSeenInChapter": 9,
+          "excerpt": "…nk who had come the day before from St. Sylvester, from the little monastery of Obdorsk in the far North. It was he who had been standing near Madame Hohlakov the previous day and had asked Father Zossima earnestly, referring to the “heali…"
+        },
+        {
+          "entityId": "the_superiors_cell",
+          "type": "place",
+          "firstSeenInChapter": 25
+        },
+        {
+          "entityId": "the_elders_cell",
+          "type": "place",
+          "firstSeenInChapter": 7,
+          "excerpt": "…communion, the service of extreme unction followed. The monks assembled and the cell was gradually filled up by the inmates of the hermitage. Meantime it was daylight. People began coming from the monastery. After the service was over the …"
+        },
+        {
+          "entityId": "the_apiary",
+          "type": "place",
+          "firstSeenInChapter": 25,
+          "excerpt": "…ve. The evening before he had visited Father Ferapont in his cell apart, behind the apiary, and had been greatly impressed and overawed by the visit. This Father Ferapont was that aged monk so devout in fasting and observing silence who ha…"
+        },
+        {
+          "entityId": "father_feraponts_cell",
+          "type": "place",
+          "firstSeenInChapter": 25
+        },
+        {
+          "entityId": "cell_built_for_father_iona",
+          "type": "place",
+          "firstSeenInChapter": 25
+        },
+        {
+          "entityId": "extreme_unction_for_elder_zossima",
+          "type": "event",
+          "firstSeenInChapter": 25,
+          "excerpt": "…at once. He always confessed to Father Païssy. After taking the communion, the service of extreme unction followed. The monks assembled and the cell was gradually filled up by the inmates of the hermitage. Meantime it was daylight. People …"
+        },
+        {
+          "entityId": "miracle_of_prediction_vasenka_vassya_letter",
+          "type": "event",
+          "firstSeenInChapter": 25,
+          "excerpt": "…mother.” </p>  <p> Madame Hohlakov warmly entreated Alyosha to report this new “miracle of prediction” to the Superior and all the brotherhood. “All, all, ought to know of it!” she concluded. The letter had been written in haste, the excit…"
+        },
+        {
+          "entityId": "the_healing_of_madame_hohlakovs_daughter",
+          "type": "event",
+          "firstSeenInChapter": 25
+        },
+        {
+          "entityId": "death_of_father_zossima",
+          "type": "event",
+          "firstSeenInChapter": 24
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 4,
+          "locationDescription": "In elder Zossima's cell at daybreak",
+          "imageDescription": "A small, dimly lit monk's cell in early morning light; the elderly and frail elder Zossima sits in an armchair looking serene and joyous, his thin form draped in the black monastic robes. Around him, other monks, including the youthful and attentive Alyosha, Father Païssy, and several others, stand or kneel respectfully, their garments austere but neat. The atmosphere is solemn yet tinged with radiant hope, with icon lamps softly blazing in the background. The air is thick with expectation and reverence as the sacrament and unction services are performed.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "elder_zossima",
+            "father_passy",
+            "the_monks"
+          ]
+        },
+        {
+          "startParagraph": 5,
+          "endParagraph": 5,
+          "locationDescription": "Outside elder Zossima's cell in the monastery",
+          "imageDescription": "The stone corridor outside Zossima's cell is crowded with monks and visitors in a medley of brown and black robes and simple attire, anxious and murmuring amongst one another in the growing daylight. Faces reflect a mixture of suspense, curiosity, and awed expectation as they discuss the possibility of a forthcoming miracle. Father Païssy stands out with a notably grave countenance, quietly addressing a small group. The mood is tense, electric, and devout.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "father_passy",
+            "the_monks"
+          ]
+        },
+        {
+          "startParagraph": 6,
+          "endParagraph": 7,
+          "locationDescription": "Alyosha receives a letter from Rakitin via a monk",
+          "imageDescription": "Alyosha, earnest and wide-eyed in his simple cassock, is approached by a fellow monk handing him a hastily written letter sealed with care. They stand just inside the monastery, away from the bustle. The setting is austere, with stone walls and flickering candlelight, emphasizing the formality and secrecy of the moment. The bearing of the monks is disciplined, the air filled with the anticipation of mysterious news.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "father_librarian",
+            "the_novice",
+            "the_monks"
+          ]
+        },
+        {
+          "startParagraph": 8,
+          "endParagraph": 15,
+          "locationDescription": "In the monastery, the news of the 'miracle' spreads",
+          "imageDescription": "Father Païssy, in sober black robes, holds Madame Hohlakov's letter with an unreadable expression before a small, attentive group of monks and a few other visitors within a candlelit hall. The monks' faces cycle between skepticism, hope, and dreamy wonder as they parse the story. Shadows loom on ancient stone walls, icons illuminated by the glow, capturing a moment where disbelief and belief mingle.",
+          "characterIds": [
+            "father_passy",
+            "the_novice",
+            "the_monks",
+            "old_monk_from_the_north"
+          ]
+        },
+        {
+          "startParagraph": 16,
+          "endParagraph": 57,
+          "locationDescription": "Evening outside Father Ferapont's hut near the apiary",
+          "imageDescription": "In the deepening twilight, an old wooden hut stands beneath a sprawling ancient elm near a rustic apiary. Father Ferapont, strong and erect despite his age, sits on a rough bench at his doorway, with wild, thick gray hair and beard, wrapped in a coarse reddish peasant’s coat and rope belt, bare feet in worn slippers. Opposite, the timid monk from Obdorsk bows in reverence, clutching his robe. The beekeeper, silent and rugged, lingers nearby amid faintly buzzing beehives. The setting is quietly mystical, suffused with cool evening air and the solemn mystery of the forest.",
+          "characterIds": [
+            "father_ferapont",
+            "old_monk_from_the_north",
+            "beekeeper_monk"
+          ]
+        },
+        {
+          "startParagraph": 58,
+          "endParagraph": 63,
+          "locationDescription": "Inside elder Zossima's cell, intimate gathering",
+          "imageDescription": "The small, candlelit cell is quiet and hushed; elder Zossima, drawn and pale, lies on his bed, his frail hands resting on the coverlet. Alyosha kneels or sits nearby, his expression anxious and loving, while Father Païssy, Father Iosif, and the novice Porfiry stand or sit solemnly at the foot of the bed in their black or gray robes. The close quarters bring a sense of intimacy and spiritual intensity, as Zossima gives personal instructions, sunlight fading at the single window.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "elder_zossima",
+            "father_passy",
+            "the_novice"
+          ]
+        },
+        {
+          "startParagraph": 64,
+          "endParagraph": 65,
+          "locationDescription": "Corridor outside Zossima’s cell; Alyosha and Father Païssy",
+          "imageDescription": "In the dim corridor of the monastery, Alyosha passes beneath arched stone ceilings, pausing just outside Zossima's cell with Father Païssy, who speaks to him earnestly. Father Païssy, tall and ascetic, gestures slightly in blessing, his face both stern and gentle. Alyosha listens intently, light from the open doorway falling upon both figures. The monastery’s atmosphere is silent, timeless, and reverent.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "father_passy"
+          ]
+        },
+        {
+          "startParagraph": 66,
+          "endParagraph": 66,
+          "locationDescription": "Monastery grounds as Alyosha departs",
+          "imageDescription": "Alyosha traverses the open grounds of the monastery, his figure small against the imposing structure of stone walls and golden onion domes rising in the crisp daylight. His posture is determined yet thoughtful, monastic cassock gathered about him. The yard is nearly empty, an ambiance of reflective solitude lingering in the morning stillness. The Russian landscape stretches beyond, blending spiritual purpose and the serene austerity of the cloister.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "entities": [
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> First of all, Alyosha went to his father. On the way he remembered that his father had insisted the day before that he should come without his brother Ivan seeing him. “Why so?” Aly"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> First of all, Alyosha went to his father. On the way he remembered that his father had insisted the day before that he should come without his brother Ivan seeing him. “Why so?” Alyosha wondered sudde"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…red that his father had insisted the day before that he should come without his brother Ivan seeing him. “Why so?” Alyosha wondered suddenly. “Even if my father has something to say to me alone, why should I go in unseen? Most likely in hi…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…red that his father had insisted the day before that he should come without his brother Ivan seeing him. “Why so?” Alyosha wondered suddenly. “Even if my father has something to say to me alone, why should I go in unseen? Most likely in hi…"
+        },
+        {
+          "entityId": "marfa_ignatyevna",
+          "type": "person",
+          "firstSeenInChapter": 14,
+          "excerpt": "…day he meant to say something different,” he decided. Yet he was very glad when Marfa Ignatyevna, who opened the garden gate to him (Grigory, it appeared, was ill in bed in the lodge), told him in answer to his question that Ivan Fyodorovi…"
+        },
+        {
+          "entityId": "grigory",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…Yet he was very glad when Marfa Ignatyevna, who opened the garden gate to him (Grigory, it appeared, was ill in bed in the lodge), told him in answer to his question that Ivan Fyodorovitch had gone out two hours ago. </p>  <p> “And my fath…"
+        },
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…me accounts, rather inattentively however. He was quite alone in the house, for Smerdyakov too had gone out marketing. Though he had got up early and was trying to put a bold face on it, he looked tired and weak. His forehead, upon which h…"
+        },
+        {
+          "entityId": "elder_zossima",
+          "type": "person",
+          "firstSeenInChapter": 4,
+          "excerpt": "…white one,” he observed sententiously. “Well, how are things over there? How is your elder?” </p>  <p> “He is very bad; he may die to‐day,” answered Alyosha. But his father had not listened, and had forgotten his own question at once. </p>…"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…he does speak, he gives himself airs. Your Ivan is a scoundrel! And I’ll marry Grushenka in a minute if I want to. For if you’ve money, Alexey Fyodorovitch, you have only to want a thing and you can have it. That’s what Ivan is afraid of, …"
+        },
+        {
+          "entityId": "the_karamazovs_house",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…king through some accounts, rather inattentively however. He was quite alone in the house, for Smerdyakov too had gone out marketing. Though he had got up early and was trying to put a bold face on it, he looked tired and weak. His forehea…"
+        },
+        {
+          "entityId": "the_garden",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…different,” he decided. Yet he was very glad when Marfa Ignatyevna, who opened the garden gate to him (Grigory, it appeared, was ill in bed in the lodge), told him in answer to his question that Ivan Fyodorovitch had gone out two hours ago…"
+        },
+        {
+          "entityId": "the_lodge",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…vna, who opened the garden gate to him (Grigory, it appeared, was ill in bed in the lodge), told him in answer to his question that Ivan Fyodorovitch had gone out two hours ago. </p>  <p> “And my father?” </p>  <p> “He is up, taking his co…"
+        },
+        {
+          "entityId": "alyoshas_fathers_bedroom",
+          "type": "place",
+          "firstSeenInChapter": 22,
+          "excerpt": "d again he locked the cupboard and put the key in his pocket. Then he went into his bedroom, lay down on the bed, exhausted, and in one minute he was asleep. </p>"
+        },
+        {
+          "entityId": "tchermashnya",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…without the brandy, but with scoundrels I am a scoundrel. Ivan is not going to Tchermashnya—why is that? He wants to spy how much I give Grushenka if she comes. They are all scoundrels! But I don’t recognize Ivan, I don’t know him at all. …"
+        },
+        {
+          "entityId": "death_of_father_zossima",
+          "type": "event",
+          "firstSeenInChapter": 24
+        },
+        {
+          "entityId": "attack_on_fyodor_pavlovitch_by_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 22
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 2,
+          "locationDescription": "At the garden gate of Fyodor Pavlovitch's house",
+          "imageDescription": "A sunlit Russian country garden path leads to a wooden gate, where Marfa Ignatyevna in simple peasant dress stands holding the gate open. Alyosha, a young man in a dark monastic cassock, approaches, his expression thoughtful. Spring or early fall light bathes the neat yard, with the lodge visible in the background. The atmosphere is quiet, the air tense with expectation.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "marfa_ignatyevna"
+          ]
+        },
+        {
+          "startParagraph": 3,
+          "endParagraph": 40,
+          "locationDescription": "In Fyodor Pavlovitch's dining room",
+          "imageDescription": "A cramped, disordered Russian dining room with a heavy wooden table, scattered papers, and an untouched breakfast tray. Fyodor Pavlovitch, an aging man in slippers and a worn overcoat, sits with a red handkerchief bandaged around his bruised head, glowering at Alyosha who stands respectfully nearby in his somber cassock. Light filters dimly through small windows, highlighting the tense, uncomfortable atmosphere between father and son.",
+          "characterIds": [
+            "fyodor_pavlovitch_karamazov",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 41,
+          "endParagraph": 42,
+          "locationDescription": "In Fyodor Pavlovitch's bedroom",
+          "imageDescription": "A shadowy, cluttered bedroom with faded wallpaper and an unmade bed. Fyodor Pavlovitch stands unsteadily near a cupboard, pouring himself a drink by the faint morning light filtering through thin curtains. His face is tired and bruised, his loose overcoat hanging awkwardly. The air is heavy, the oppressive solitude of the space matching his frail condition.",
+          "characterIds": [
+            "fyodor_pavlovitch_karamazov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "entities": [
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> “Thank goodness he did not ask me about Grushenka,” thought Alyosha, as he left his father’s house and turned towards Madame Hohlakov’s, “or I might have to tell him of my meeting with Grushenka yesterday.” </p>  <p> Alyosha fe"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…“Thank goodness he did not ask me about Grushenka,” thought Alyosha, as he left his father’s house and turned towards Madame Hohlakov’s, “or I might have to tell him of my meeting with Grushenka yesterday.” </p>  <p> Alyosha felt painfully…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…er is spiteful and angry, he’s made some plan and will stick to it. And what of Dmitri? He too will be harder than yesterday, he too must be spiteful and angry, and he too, no doubt, has made some plan. Oh, I must succeed in finding him to…"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "<p> “Thank goodness he did not ask me about Grushenka,” thought Alyosha, as he left his father’s house and turned towards Madame Hohlakov’s, “or I might have to tell him of my meeting with Grushenka yesterday.” </"
+        },
+        {
+          "entityId": "madame_hohlakov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…t Grushenka,” thought Alyosha, as he left his father’s house and turned towards Madame Hohlakov’s, “or I might have to tell him of my meeting with Grushenka yesterday.” </p>  <p> Alyosha felt painfully that since yesterday both combatants …"
+        },
+        {
+          "entityId": "our_town",
+          "type": "place",
+          "firstSeenInChapter": 16
+        },
+        {
+          "entityId": "the_bridge",
+          "type": "place",
+          "firstSeenInChapter": 15,
+          "excerpt": "…ditches), he saw a group of schoolboys between the ages of nine and twelve, at the bridge. They were going home from school, some with their bags on their shoulders, others with leather satchels slung across them, some in short jackets, ot…"
+        },
+        {
+          "entityId": "the_high_street",
+          "type": "place",
+          "firstSeenInChapter": 16
+        },
+        {
+          "entityId": "mihailovsky_street",
+          "type": "place",
+          "firstSeenInChapter": 27,
+          "excerpt": "…him. Just after he had crossed the square and turned the corner coming out into Mihailovsky Street, which is divided by a small ditch from the High Street (our whole town is intersected by ditches), he saw a group of schoolboys between the…"
+        },
+        {
+          "entityId": "the_fence",
+          "type": "place",
+          "firstSeenInChapter": 22,
+          "excerpt": "…d the boys, laughing. </p>  <p> Alyosha crossed the bridge and walked uphill by the fence, straight towards the boy. </p>  <p> “You’d better look out,” the boys called after him; “he won’t be afraid of you. He will stab you in a minute, on…"
+        },
+        {
+          "entityId": "moscow",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…gerly about something, apparently holding a council. Alyosha had never from his Moscow days been able to pass children without taking notice of them, and although he was particularly fond of children of three or thereabout, he liked school…"
+        },
+        {
+          "entityId": "smurov",
+          "type": "person",
+          "firstSeenInChapter": 27,
+          "excerpt": "…boy standing the other side of the ditch. </p>  <p> “Give it him, hit him back, Smurov,” they all shouted. But Smurov, the left‐handed boy, needed no telling, and at once revenged himself; he threw a stone, but it missed the boy and hit th…"
+        },
+        {
+          "entityId": "krassotkin",
+          "type": "person",
+          "firstSeenInChapter": 27,
+          "excerpt": "…ied a boy in a red shirt in an angry childish voice. “He is a beast, he stabbed Krassotkin in class the other day with a penknife. It bled. Krassotkin wouldn’t tell tales, but he must be thrashed.” </p>  <p> “But what for? I suppose you te…"
+        },
+        {
+          "entityId": "schoolboys",
+          "type": "person",
+          "firstSeenInChapter": 27,
+          "excerpt": "…ditch from the High Street (our whole town is intersected by ditches), he saw a group of schoolboys between the ages of nine and twelve, at the bridge. They were going home from school, some with their bags on their shoulders, others with …"
+        },
+        {
+          "entityId": "boy_in_red_shirt",
+          "type": "person",
+          "firstSeenInChapter": 27
+        },
+        {
+          "entityId": "boy_in_black_jacket",
+          "type": "person",
+          "firstSeenInChapter": 27
+        },
+        {
+          "entityId": "boy_with_sparkling_black_eyes",
+          "type": "person",
+          "firstSeenInChapter": 27
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 1,
+          "locationDescription": "Outside Fyodor Pavlovitch's house, road to Madame Hohlakov’s",
+          "imageDescription": "A solitary young man in a dark monk's cassock and simple overcoat walks away from a large, old Russian house under a cold, pale December sky. Bare-branched trees line the narrow, muddy street, and the subdued morning light casts long shadows. Alyosha's demeanor is thoughtful and earnest as he walks past weathered wooden fences. The chill of winter is sensed in the air but with no snow present yet, creating a somber, expectant atmosphere.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 2,
+          "endParagraph": 2,
+          "locationDescription": "Near the bridge over the small ditch, Mihailovsky Street",
+          "imageDescription": "A lively group of six schoolboys, aged nine to twelve, are bunched together on a wooden bridge crossing a shallow ditch. They are clad in worn coats, short jackets, and high boots, carrying leather satchels. Their faces are flushed with excitement as they clutch stones in their hands, facing off against a single pale boy with sparkling black eyes who stands alone by a rickety fence about thirty paces away. Alyosha, a tall, serene young monk in simple, dark attire, approaches the group, his expression kind and concerned. The street is unpaved, flanked by wooden houses and leafless trees, and the wintry grey daylight creates a tense but childlike energy.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "boy_with_sparkling_black_eyes",
+            "schoolboys",
+            "smurov",
+            "krassotkin",
+            "boy_in_red_shirt",
+            "boy_in_black_jacket"
+          ]
+        },
+        {
+          "startParagraph": 3,
+          "endParagraph": 7,
+          "locationDescription": "On the bridge and beside the ditch with the group of schoolboys",
+          "imageDescription": "Alyosha, gentle and open-faced, is talking calmly to a group of schoolboys who eye him with a mix of suspicion and curiosity. Some boys stand confidently with stones in hand, others laugh; two are singled out: Smurov, a left-handed boy in a dark jacket, and a healthy, older boy presumed to be Krassotkin. A stone flies into the group from the distance, thrown by the solitary boy. In the muted winter daylight, the boys stand in a loose semi-circle on the wooden bridge, their faces animated, small clouds of breath visible in the chilly air.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "schoolboys",
+            "smurov",
+            "krassotkin",
+            "boy_in_red_shirt",
+            "boy_in_black_jacket"
+          ]
+        },
+        {
+          "startParagraph": 8,
+          "endParagraph": 8,
+          "locationDescription": "Bridge and area near the ditch (stone-throwing escalates)",
+          "imageDescription": "A chaotic scene with schoolboys on the bridge dodging and throwing stones towards the solitary boy by the fence. Alyosha, in monastic garb, is accidentally struck by a stone. The group of boys are animated, some stooping to scoop more stones from their pockets with delight and others shouting. Across the ditch, the pale, thin boy with sparkling black eyes retaliates, his coat pockets bulging with stones. The overcast light of the Russian winter gives the episode a harsh vibrancy. In the background, children’s school satchels are flung or swinging, boots are muddied, and wooden fences line the ditch.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "schoolboys",
+            "smurov",
+            "krassotkin",
+            "boy_in_black_jacket",
+            "boy_in_red_shirt",
+            "boy_with_sparkling_black_eyes"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 25,
+          "locationDescription": "On the bridge, after the boy runs away",
+          "imageDescription": "Several schoolboys are left standing and jeering on the bridge as the solitary boy sprints uphill, his satchel bouncing. Alyosha stands at the edge of the bridge, looking after the fleeing child with concern, while the group is animated in their taunting. The wintry Russian town is visible up the street, with uneven earthen roads and small houses receding into the distance. The atmosphere is charged—part triumph among the boys, part melancholy from Alyosha.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "schoolboys",
+            "smurov",
+            "krassotkin",
+            "boy_in_black_jacket",
+            "boy_in_red_shirt"
+          ]
+        },
+        {
+          "startParagraph": 26,
+          "endParagraph": 27,
+          "locationDescription": "Following the ditch towards the solitary boy on Mihailovsky Street",
+          "imageDescription": "Alyosha walks determinedly up a muddy path alongside a wooden fence, following the solitary boy who stands a short distance ahead. The street is quiet except for Alyosha and the boy, whose back is towards the viewer, near a bend in the road. The thin boy is visibly tensed, his oversized, shabby overcoat and satchel highlighting his poverty. Sparse morning light breaks through clouds; the overall mood is tense and expectant.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "boy_with_sparkling_black_eyes"
+          ]
+        },
+        {
+          "startParagraph": 28,
+          "endParagraph": 39,
+          "locationDescription": "Confrontation between Alyosha and the boy by the fence",
+          "imageDescription": "Atop a gentle rise beside a rickety wooden fence, Alyosha stands face-to-face with the solitary boy. The boy is small, pale, wearing a patched, outgrown greatcoat with ink-blackened boots, arms bare at the wrists. Both pockets are stuffed with stones. Alyosha's face is mild and placating. The cold morning gives the air a sharp clarity; the muddy ground beneath them is worn by foot traffic. No one else is nearby; the setting is intimate and tense.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "boy_with_sparkling_black_eyes"
+          ]
+        },
+        {
+          "startParagraph": 40,
+          "endParagraph": 43,
+          "locationDescription": "Edge of Mihailovsky Street, the boy’s attack and retreat",
+          "imageDescription": "The boy with sparkling black eyes, in his battered coat, stands fiercely before Alyosha. In a sudden outburst, he grabs Alyosha's left hand and bites hard. Alyosha, startled and grimacing in pain, begins to bind his bleeding finger with a white handkerchief, as the boy retreats a few steps, watching warily. The bleak street is nearly deserted, the open sky pale above, highlighting the isolation of this strange, violent encounter. Dry winter grass and shabby fences frame the two figures in dramatic tension.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "boy_with_sparkling_black_eyes"
+          ]
+        },
+        {
+          "startParagraph": 44,
+          "endParagraph": 44,
+          "locationDescription": "Mihailovsky Street, as the boy flees and Alyosha is left alone",
+          "imageDescription": "The slight, ragged boy runs sobbing up the muddy street, quickly shrinking into the distance, arms clutched around himself. Alyosha remains standing, cradling his bandaged hand, watching the child disappear with a look of troubled compassion. The broad, empty street curves away beneath an ashen sky; bare trees and simple wooden houses provide a stark Russian backdrop. The winter morning is still, echoing with the lone boy's distant crying, leaving the scene heavy with mystery and empathy.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "boy_with_sparkling_black_eyes"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "entities": [
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> Alyosha soon reached Madame Hohlakov’s house, a handsome stone house of two stories, one of the finest in our town. Though Madame Hohlakov spent most of her time in an"
+        },
+        {
+          "entityId": "madame_hohlakov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "<p> Alyosha soon reached Madame Hohlakov’s house, a handsome stone house of two stories, one of the finest in our town. Though Madame Hohlakov spent most of her time in another province where she had"
+        },
+        {
+          "entityId": "moscow",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…lakov spent most of her time in another province where she had an estate, or in Moscow, where she had a house of her own, yet she had a house in our town too, inherited from her forefathers. The estate in our district was the largest of he…"
+        },
+        {
+          "entityId": "our_town",
+          "type": "place",
+          "firstSeenInChapter": 16,
+          "excerpt": "…e Hohlakov’s house, a handsome stone house of two stories, one of the finest in our town. Though Madame Hohlakov spent most of her time in another province where she had an estate, or in Moscow, where she had a house of her own, yet she ha…"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…im! The whole town is in excitement, they are all suspense. But now—do you know Katerina Ivanovna is here now?” </p>  <p> “Ah, that’s lucky,” cried Alyosha. “Then I shall see her here. She told me yesterday to be sure to come and see her t…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…e_, and if I’d been in her place I don’t know what I should have done. And your brother Dmitri Fyodorovitch, what do you think of him?—my goodness! Alexey Fyodorovitch, I am forgetting, only fancy; your brother is in there with her, not th…"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…hole town is in excitement, they are all suspense. But now—do you know Katerina Ivanovna is here now?” </p>  <p> “Ah, that’s lucky,” cried Alyosha. “Then I shall see her here. She told me yesterday to be sure to come and see her to‐day.” <…"
+        },
+        {
+          "entityId": "madame_hohlakovs_daughter",
+          "type": "person",
+          "firstSeenInChapter": 8,
+          "excerpt": "…t important thing—I had quite forgotten what’s most important. Tell me, why has Lise been in hysterics? As soon as she heard you were here, she began to be hysterical!” </p>  <p> “_Maman_, it’s you who are hysterical now, not I,” Lise’s vo…"
+        },
+        {
+          "entityId": "doctor_herzenstube",
+          "type": "person",
+          "firstSeenInChapter": 9
+        },
+        {
+          "entityId": "yulia",
+          "type": "person",
+          "firstSeenInChapter": 28,
+          "excerpt": "…count I wanted to be wheeled into this room.” </p>  <p> “That’s not true, Lise, Yulia ran to tell you that Alexey Fyodorovitch was coming. She was on the look‐out for you.” </p>  <p> “My darling mamma, it’s not at all clever of you. But if…"
+        },
+        {
+          "entityId": "the_monastery",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…you must, you must.” </p>  <p> “To‐day I can’t possibly, for I am going back to the monastery and I shan’t come and see you for the next two days—three or four perhaps—for Father Zossima—” </p>  <p> “Four days, what nonsense! Listen. Did y…"
+        },
+        {
+          "entityId": "elder_zossima",
+          "type": "person",
+          "firstSeenInChapter": 4,
+          "excerpt": "…r, I warn you. I can’t bear it. A comedy, perhaps, not a tragedy. Tell me, will Father Zossima live till to‐morrow, will he? Oh, my God! What is happening to me? Every minute I close my eyes and see that it’s all nonsense, all nonsense.” <…"
+        },
+        {
+          "entityId": "katerina_ivanovnas_house",
+          "type": "place",
+          "firstSeenInChapter": 16,
+          "excerpt": "<p> Alyosha soon reached Madame Hohlakov’s house, a handsome stone house of two stories, one of the finest in our town. Though Madame Hohlakov spent most of her time in another province where she had an estate, or in Moscow, where she had …"
+        },
+        {
+          "entityId": "schoolboys",
+          "type": "person",
+          "firstSeenInChapter": 27,
+          "excerpt": "…recious for her, Alyosha hastened to tell her of his enigmatic meeting with the schoolboys in the fewest words possible. Lise clasped her hands at his story. </p>  <p> “How can you, and in that dress too, associate with schoolboys?” she cr…"
+        },
+        {
+          "entityId": "drawingroom",
+          "type": "place",
+          "firstSeenInChapter": 19
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Madame Hohlakov's front hall",
+          "imageDescription": "A spacious front hall in a stately 19th-century Russian stone house. Daylight streams through a tall window, illuminating Alyosha Karamazov as he steps inside, greeted energetically by Madame Hohlakov in an elegant, fashionable dress. The decor is refined: a patterned rug, dark wooden furniture, and framed portraits on the walls. Alyosha stands near the door, his monk's cassock modest against Madame Hohlakov's vivid attire, as she rushes toward him with an anxious, expressive face.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "madame_hohlakov"
+          ]
+        },
+        {
+          "startParagraph": 1,
+          "endParagraph": 7,
+          "locationDescription": "Madame Hohlakov's drawing-room, outside Lise's room",
+          "imageDescription": "A gracefully furnished 19th-century Russian drawing-room, rich tapestries and upholstered chairs hinting at wealth and taste. Alyosha stands beside Madame Hohlakov in lively conversation near a door slightly ajar. The tall, double door leading to Lise's room is noticeable, while the sunlight casts patterned shadows through delicate lace curtains. Madame Hohlakov gestures excitedly, her expression a mix of concern and anticipation. Both are dressed appropriately: Alyosha in his modest monastic garb and Madame Hohlakov in a smart, fashionable dress.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "madame_hohlakov"
+          ]
+        },
+        {
+          "startParagraph": 8,
+          "endParagraph": 16,
+          "locationDescription": "Drawing-room, at the door to Lise's room",
+          "imageDescription": "The threshold between the drawing-room and a smaller, well-appointed chamber. The door stands slightly open, with Madame Hohlakov peering anxiously inside. Alyosha lingers nearby, noticing the crack. From within, Lise’s face is half-hidden, framed by the door, her delicate features flushed as she calls out. The atmosphere is tense and playful, bathed in soft afternoon light filtering through long curtains, the scene full of anticipation and nervous energy. Both women are in fashionable 19th-century dresses; Alyosha's attire contrasts in its simplicity.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "madame_hohlakov",
+            "madame_hohlakovs_daughter"
+          ]
+        },
+        {
+          "startParagraph": 17,
+          "endParagraph": 26,
+          "locationDescription": "Lise's room, with Alyosha, Madame Hohlakov, and Lise",
+          "imageDescription": "A softly lit bedroom where Lise, in a wheelchair, is alarmed by Alyosha’s bleeding finger. Alyosha sits nearby, cradling his hand, his cassock sleeve rolled up. Lise, a delicate young woman in a frilled, light dress, gestures dramatically from her chair, while Madame Hohlakov, stylishly dressed, flutters about the room, panic clear on her face. The wallpaper is ornate, furniture polished, and sunlight glows gently on the scene. The overall mood is a mix of care, worry, and the busy urgency of tending a wound in an upper-class home.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "madame_hohlakov",
+            "madame_hohlakovs_daughter"
+          ]
+        },
+        {
+          "startParagraph": 27,
+          "endParagraph": 45,
+          "locationDescription": "Lise’s room, after Madame Hohlakov leaves for first aid supplies",
+          "imageDescription": "Lise's elegantly appointed bedroom, with sunlight streaming through lace curtains. Alyosha speaks quietly to Lise, seated in her wheelchair next to a side table prepared for bandaging. The atmosphere is secretive—Lise leans forward with an intense expression, her dress pale and ornate. Alyosha responds earnestly, his demeanor gentle and attentive. The rest of the room is empty, Madame Hohlakov has just exited, leaving a sense of privacy and anticipation between the young pair.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "madame_hohlakovs_daughter"
+          ]
+        },
+        {
+          "startParagraph": 46,
+          "endParagraph": 67,
+          "locationDescription": "Lise’s room, Madame Hohlakov and Yulia return",
+          "imageDescription": "Madame Hohlakov reenters the bright, well-furnished bedroom, carrying first aid supplies, accompanied by Yulia, a young maid in a plain servant's dress with a bowl of ice. Lise, lively and flushed, sits in her wheelchair, leaning toward Alyosha, while Alyosha sits with his bandaged hand, calm and composed. The room is lively with activity, lit by the afternoon sun, filled with the tension and affection of familial care. Madame Hohlakov’s dress is ornate, contrasted by Yulia's simplicity; the scene radiates bustling concern characteristic of a well-to-do Russian household.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "madame_hohlakov",
+            "madame_hohlakovs_daughter",
+            "yulia"
+          ]
+        },
+        {
+          "startParagraph": 68,
+          "endParagraph": 68,
+          "locationDescription": "Transition from Lise’s room to the drawing-room (preparing to see Katerina Ivanovna and Ivan)",
+          "imageDescription": "The threshold of Lise’s cozy room, where Madame Hohlakov leans close to Alyosha, whispering with a conspiratorial air. Lise, resting in her wheelchair, watches with sly amusement. Sunlight slants across polished wood and cushioned furnishings, hinting at the elegance of the adjoining drawing-room. Madame Hohlakov’s elaborate gown contrasts with Alyosha’s solemn attire, the atmosphere charged with intrigue and expectation, preparing for a tense encounter elsewhere in the house.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "madame_hohlakov",
+            "madame_hohlakovs_daughter"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "entities": [
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "<p> But in the drawing‐room the conversation was already over. Katerina Ivanovna was greatly excited, though she looked resolute. At the moment Alyosha and Madame Hohlakov entered, Ivan Fyodorovitch stood up to take leave. His face was rath"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…aterina Ivanovna was greatly excited, though she looked resolute. At the moment Alyosha and Madame Hohlakov entered, Ivan Fyodorovitch stood up to take leave. His face was rather pale, and Alyosha looked at him anxiously. For this moment w…"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> But in the drawing‐room the conversation was already over. Katerina Ivanovna was greatly excited, though she looked resolute. At the moment Alyosha and Madame Hohlakov entered, Ivan Fyodorovitch stood up to take leave. His face was"
+        },
+        {
+          "entityId": "madame_hohlakov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…ovna was greatly excited, though she looked resolute. At the moment Alyosha and Madame Hohlakov entered, Ivan Fyodorovitch stood up to take leave. His face was rather pale, and Alyosha looked at him anxiously. For this moment was to solve …"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…During the preceding month it had been several times suggested to him that his brother Ivan was in love with Katerina Ivanovna, and, what was more, that he meant “to carry her off” from Dmitri. Until quite lately the idea seemed to Alyosha…"
+        },
+        {
+          "entityId": "madame_hohlakovs_daughter",
+          "type": "person",
+          "firstSeenInChapter": 8,
+          "excerpt": "…’t know, but I must tell you, that we all, all—both her aunts, I and all of us, Lise, even—have been hoping and praying for nothing for the last month but that she may give up your favorite Dmitri, who takes no notice of her and does not c…"
+        },
+        {
+          "entityId": "the_captain",
+          "type": "person",
+          "firstSeenInChapter": 11
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…was a great assistance to him, Dmitri. In what way did it assist him? To marry Grushenka? But that Alyosha considered the worst thing possible. Besides all this, Alyosha had till the evening before implicitly believed that Katerina Ivanovn…"
+        },
+        {
+          "entityId": "agafya_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 17,
+          "excerpt": "…ly. “But what is fortunate is that you will be able in Moscow to see auntie and Agafya and to tell them all the horror of my present position. You can speak with complete openness to Agafya, but spare dear auntie. You will know how to do t…"
+        },
+        {
+          "entityId": "the_aunt_agafya_ivanovnas_mothers_sister",
+          "type": "person",
+          "firstSeenInChapter": 17
+        },
+        {
+          "entityId": "yulia",
+          "type": "person",
+          "firstSeenInChapter": 28,
+          "excerpt": "…to be the death of me. I ask you and you don’t answer.” </p>  <p> At the moment the maid ran in. </p>  <p> “Katerina Ivanovna is ill.... She is crying, struggling ... hysterics.” </p>  <p> “What is the matter?” cried Lise, in a tone of rea…"
+        },
+        {
+          "entityId": "lake_street",
+          "type": "place",
+          "firstSeenInChapter": 29,
+          "excerpt": "…would go myself, but you’ll know how to do it ever so much better. He lives in Lake Street, in the house of a woman called Kalmikov.... For God’s sake, Alexey Fyodorovitch, do it for me, and now ... now I am rather ... tired. Good‐ by!” </…"
+        },
+        {
+          "entityId": "the_house_of_a_woman_called_kalmikov",
+          "type": "place",
+          "firstSeenInChapter": 29,
+          "excerpt": "…, but you’ll know how to do it ever so much better. He lives in Lake Street, in the house of a woman called Kalmikov.... For God’s sake, Alexey Fyodorovitch, do it for me, and now ... now I am rather ... tired. Good‐ by!” </p>  <p> She tur…"
+        },
+        {
+          "entityId": "drawingroom",
+          "type": "place",
+          "firstSeenInChapter": 19
+        },
+        {
+          "entityId": "moscow",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…w—you two will never desert me.” </p>  <p> “Unluckily I am obliged to return to Moscow—perhaps to‐morrow—and to leave you for a long time—And, unluckily, it’s unavoidable,” Ivan said suddenly. </p>  <p> “To‐morrow—to Moscow!” her face was …"
+        },
+        {
+          "entityId": "hall",
+          "type": "place",
+          "firstSeenInChapter": 19,
+          "excerpt": "…, will bring me peace, in spite of all my sufferings, for, after your words, I shall be calm and submit—I feel that.” </p>  <p> “I don’t know what you are asking me,” said Alyosha, flushing. “I only know that I love you and at this moment …"
+        },
+        {
+          "entityId": "the_next_room",
+          "type": "place",
+          "firstSeenInChapter": 29,
+          "excerpt": "…sha kept exclaiming frantically. </p>  <p> Katerina Ivanovna went suddenly into the next room. </p>  <p> “You have done no harm. You behaved beautifully, like an angel,” Madame Hohlakov whispered rapidly and ecstatically to Alyosha. “I wil…"
+        },
+        {
+          "entityId": "the_theater",
+          "type": "place",
+          "firstSeenInChapter": 19
+        },
+        {
+          "entityId": "the_betrothedangel_of_dmitris_heart",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…e meant to), but simply a token of sympathy, of a desire to assist him from me, Dmitri Fyodorovitch’s betrothed, not from himself.... But you know.... I would go myself, but you’ll know how to do it ever so much better. He lives in Lake St…"
+        },
+        {
+          "entityId": "the_karamazovs_house",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…, but you’ll know how to do it ever so much better. He lives in Lake Street, in the house of a woman called Kalmikov.... For God’s sake, Alexey Fyodorovitch, do it for me, and now ... now I am rather ... tired. Good‐ by!” </p>  <p> She tur…"
+        },
+        {
+          "entityId": "school_here",
+          "type": "place",
+          "firstSeenInChapter": 29,
+          "excerpt": "…ulting fashion. And I am told that his son, a boy, quite a child, who is at the school here, saw it and ran beside them crying and begging for his father, appealing to every one to defend him, while every one laughed. You must forgive me, …"
+        },
+        {
+          "entityId": "the_aunts_of_katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 23,
+          "excerpt": "…lexey Fyodorovitch, you didn’t know, but I must tell you, that we all, all—both her aunts, I and all of us, Lise, even—have been hoping and praying for nothing for the last month but that she may give up your favorite Dmitri, who takes no …"
+        },
+        {
+          "entityId": "the_companyguests",
+          "type": "person",
+          "firstSeenInChapter": 11
+        },
+        {
+          "entityId": "maid_second_appears_at_the_end",
+          "type": "person",
+          "firstSeenInChapter": 23
+        },
+        {
+          "entityId": "attack_on_fyodor_pavlovitch_by_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 22
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 3,
+          "locationDescription": "In the drawing-room, Katerina Ivanovna's house",
+          "imageDescription": "A plush 19th-century Russian drawing-room, with ornate furnishings, gilded frames, and plush velvet drapes. Katerina Ivanovna sits, looking resolute and agitated on a couch, while Ivan Fyodorovitch stands ready to leave. Alyosha and Madame Hohlakov enter; Madame Hohlakov is matronly and carries herself with authority. All are dressed in elegant period attire. The lighting is warm from several lamps and candles, creating pools of light on polished wood. The overall atmosphere is tense, with Alyosha's anxious gaze directed toward Ivan, and Katerina seemingly wrestling with emotions.",
+          "characterIds": [
+            "katerina_ivanovna",
+            "alexey_fyodorovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "madame_hohlakov"
+          ]
+        },
+        {
+          "startParagraph": 4,
+          "endParagraph": 4,
+          "locationDescription": "In the drawing-room, Katerina Ivanovna's house (later same conversation)",
+          "imageDescription": "In the bright, elegantly furnished drawing-room, Katerina Ivanovna sits between Alyosha and Madame Hohlakov, her posture animated and intense as she addresses Ivan, who stands nearby, pale and conflicted. Alyosha sits beside her, attentive and concerned, while Madame Hohlakov sits opposite, upright and critical. Fine art portraits and heavy drapes enhance the luxurious, mid-evening ambiance. Everyone wears finely tailored 19th-century Russian garments, with emotional expressions revealing the strain and anticipation of the discussion.",
+          "characterIds": [
+            "katerina_ivanovna",
+            "alexey_fyodorovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "madame_hohlakov"
+          ]
+        },
+        {
+          "startParagraph": 5,
+          "endParagraph": 36,
+          "locationDescription": "In the drawing-room, mid-conversation",
+          "imageDescription": "A close grouping around a sofa and chairs: Katerina Ivanovna speaks fervently, her eyes glistening with unshed tears, gripping Alyosha's hand. Alyosha listens gravely, while Ivan sits forward, and Madame Hohlakov leans in, arms crossed and expression sharp. The lamplight is soft, casting gentle shadows. Embroidered cushions, period dresses, and subtle gestures give a sense of intimacy and high emotion in the refined Russian interior.",
+          "characterIds": [
+            "katerina_ivanovna",
+            "alexey_fyodorovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "madame_hohlakov"
+          ]
+        },
+        {
+          "startParagraph": 37,
+          "endParagraph": 39,
+          "locationDescription": "In the drawing-room, Ivan's departure",
+          "imageDescription": "Ivan stands abruptly near the door of the luxuriously appointed salon, hat in hand, his youthful frown evident. Katerina Ivanovna is frozen, pale with emotion, while Alyosha stands distressed in the foreground, hands raised in protest. Madame Hohlakov watches with surprise and concern. The room is flushed with late afternoon light, illuminating velvet drapery, a Persian rug, and the tense, dramatic tableau of Russian high society.",
+          "characterIds": [
+            "katerina_ivanovna",
+            "alexey_fyodorovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "madame_hohlakov"
+          ]
+        },
+        {
+          "startParagraph": 40,
+          "endParagraph": 41,
+          "locationDescription": "In the hall outside the drawing-room",
+          "imageDescription": "The hallway is quieter and dimmer, with heavy carpets and polished wooden panels. Katerina Ivanovna disappears through a doorway with a portière, her back to the viewer. Alyosha, hands pressed together anxiously, is drawn aside by Madame Hohlakov, who whispers to him with fervent delight on her face. Soft light filters in from the drawing-room behind them, creating an intimate, transitional atmosphere.",
+          "characterIds": [
+            "katerina_ivanovna",
+            "alexey_fyodorovitch_karamazov",
+            "madame_hohlakov"
+          ]
+        },
+        {
+          "startParagraph": 42,
+          "endParagraph": 43,
+          "locationDescription": "In the drawing-room, Katerina's favor",
+          "imageDescription": "Katerina Ivanovna enters briskly, composed and pale, holding two large paper banknotes. Alyosha stands near the center of the ornate parlor, visibly surprised. Madame Hohlakov lingers at Alyosha's side, attentive. The lamp-glow bathes the dark wood and brocade in a golden wash, with the air of an important and uncomfortable request suspended in the quiet, well-furnished room.",
+          "characterIds": [
+            "katerina_ivanovna",
+            "alexey_fyodorovitch_karamazov",
+            "madame_hohlakov"
+          ]
+        },
+        {
+          "startParagraph": 44,
+          "endParagraph": 47,
+          "locationDescription": "In the hall, Madame Hohlakov and Alyosha",
+          "imageDescription": "In the dim hallway just outside the drawing-room, Alyosha and Madame Hohlakov have a hushed, emotional exchange. Madame Hohlakov, in a dark, elegant dress, clasps Alyosha’s hand warmly, her expression an odd mixture of satisfaction and concern. The hallway is softly lit by a nearby sconce and glimmers of light spilling from the doorway, with distant sounds of movement from within the house. Period decor and a sense of secrecy mark the mood.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "madame_hohlakov"
+          ]
+        },
+        {
+          "startParagraph": 48,
+          "endParagraph": 57,
+          "locationDescription": "In the hallway, Lise's voice and the maid's entrance",
+          "imageDescription": "A luxurious hallway with doors leading to other rooms. Alyosha stands near Madame Hohlakov, who looks toward a half-open doorway; from behind the door, Lise’s youthful voice can be heard. A maid, modestly dressed, rushes in to announce Katerina Ivanovna’s illness. The lighting is scattered, some areas bright and others shadowed. The figures cluster with concern, and the mood is one of commotion and subdued anxiety.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "madame_hohlakov",
+            "madame_hohlakovs_daughter",
+            "maid_second_appears_at_the_end"
+          ]
+        },
+        {
+          "startParagraph": 58,
+          "endParagraph": 63,
+          "locationDescription": "In the hallway, Alyosha and Lise saying goodbye",
+          "imageDescription": "The hall is momentarily quiet: Madame Hohlakov hurries away out of frame, while Alyosha pauses anxiously before a closed door, speaking through it to Lise. Through the door’s panels, the suggestion of Lise’s form can be made out, eager and worried. Alyosha’s posture is tense, his head bowed. The scene is intimate, softly lit by natural afternoon light filtering from the drawing-room, and carries an air of unresolved emotion and youthful sorrow.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "madame_hohlakovs_daughter"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "entities": [
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…Street, and his brother Dmitri lived close by, in a turning out of Lake Street. Alyosha decided to go to him in any case before going to the captain, though he had a presentiment that he would not find his brother. He suspected that he wou…"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…re,” he concluded suddenly, and did not even smile at his conclusion. </p>  <p> Katerina Ivanovna’s commission took him to Lake Street, and his brother Dmitri lived close by, in a turning out of Lake Street. Alyosha decided to go to him in…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…sion. </p>  <p> Katerina Ivanovna’s commission took him to Lake Street, and his brother Dmitri lived close by, in a turning out of Lake Street. Alyosha decided to go to him in any case before going to the captain, though he had a presentim…"
+        },
+        {
+          "entityId": "elder_zossima",
+          "type": "person",
+          "firstSeenInChapter": 4,
+          "excerpt": "…deserve. The trouble is I shall certainly have caused more unhappiness.... And Father Zossima sent me to reconcile and bring them together. Is this the way to bring them together?” Then he suddenly remembered how he had tried to join their…"
+        },
+        {
+          "entityId": "the_captain",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…ng out of Lake Street. Alyosha decided to go to him in any case before going to the captain, though he had a presentiment that he would not find his brother. He suspected that he would intentionally keep out of his way now, but he must fin…"
+        },
+        {
+          "entityId": "boy_with_sparkling_black_eyes",
+          "type": "person",
+          "firstSeenInChapter": 27
+        },
+        {
+          "entityId": "varvara",
+          "type": "person",
+          "firstSeenInChapter": 30,
+          "excerpt": "…y towards her and answered her in an excited and breaking voice: </p>  <p> “No, Varvara, you are wrong. Allow me to ask,” he turned again to Alyosha, “what has brought you to—our retreat?” </p>  <p> Alyosha looked attentively at him. It wa…"
+        },
+        {
+          "entityId": "arina_petrovna",
+          "type": "person",
+          "firstSeenInChapter": 30,
+          "excerpt": "…nine: that could find favor in her eyes. But now let me present you to my wife, Arina Petrovna. She is crippled, she is forty‐ three; she can move, but very little. She is of humble origin. Arina Petrovna, compose your countenance. This is…"
+        },
+        {
+          "entityId": "nina",
+          "type": "person",
+          "firstSeenInChapter": 30,
+          "excerpt": "…u in earnest, but not within these walls. This girl sitting here is my daughter Nina; I forgot to introduce her to you. She is a heavenly angel incarnate ... who has flown down to us mortals,... if you can understand.” </p>  <p> “There he …"
+        },
+        {
+          "entityId": "foma",
+          "type": "person",
+          "firstSeenInChapter": 18,
+          "excerpt": "…instructions. When he asked whether he were not at Grushenka’s or in hiding at Foma’s (Alyosha spoke so freely on purpose), all three looked at him in alarm. “They are fond of him, they are doing their best for him,” thought Alyosha. “That…"
+        },
+        {
+          "entityId": "lake_street",
+          "type": "place",
+          "firstSeenInChapter": 29,
+          "excerpt": "…n smile at his conclusion. </p>  <p> Katerina Ivanovna’s commission took him to Lake Street, and his brother Dmitri lived close by, in a turning out of Lake Street. Alyosha decided to go to him in any case before going to the captain, thou…"
+        },
+        {
+          "entityId": "the_marketplace",
+          "type": "place",
+          "firstSeenInChapter": 16
+        },
+        {
+          "entityId": "the_monastery",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…s dying elder had not left Alyosha for one minute from the time he set off from the monastery. </p>  <p> There was one point which interested him particularly about Katerina Ivanovna’s commission; when she had mentioned the captain’s son, …"
+        },
+        {
+          "entityId": "the_army",
+          "type": "place",
+          "firstSeenInChapter": 30,
+          "excerpt": "…clouds coming over; the clouds pass and we have music again. When we were with the army, we used to have many such guests. I don’t mean to make any comparisons; every one to their taste. The deacon’s wife used to come then and say, ‘Alexan…"
+        },
+        {
+          "entityId": "the_metropolis",
+          "type": "place",
+          "firstSeenInChapter": 30
+        },
+        {
+          "entityId": "the_deacons_wife",
+          "type": "person",
+          "firstSeenInChapter": 30
+        },
+        {
+          "entityId": "alexandr_alexandrovitch",
+          "type": "person",
+          "firstSeenInChapter": 30,
+          "excerpt": "…risons; every one to their taste. The deacon’s wife used to come then and say, ‘Alexandr Alexandrovitch is a man of the noblest heart, but Nastasya Petrovna,’ she would say, ‘is of the brood of hell.’ ‘Well,’ I said, ‘that’s a matter of ta…"
+        },
+        {
+          "entityId": "nastasya_petrovna",
+          "type": "person",
+          "firstSeenInChapter": 30,
+          "excerpt": "…come then and say, ‘Alexandr Alexandrovitch is a man of the noblest heart, but Nastasya Petrovna,’ she would say, ‘is of the brood of hell.’ ‘Well,’ I said, ‘that’s a matter of taste; but you are a little spitfire.’ ‘And you want keeping i…"
+        },
+        {
+          "entityId": "schoolboys",
+          "type": "person",
+          "firstSeenInChapter": 27,
+          "excerpt": "…“Was it your finger he bit?” </p>  <p> “Yes. He was throwing stones with other schoolboys. There were six of them against him alone. I went up to him, and he threw a stone at me and then another at my head. I asked him what I had done to h…"
+        },
+        {
+          "entityId": "the_old_cabinetmaker",
+          "type": "person",
+          "firstSeenInChapter": 30
+        },
+        {
+          "entityId": "the_old_cabinetmakers_son",
+          "type": "person",
+          "firstSeenInChapter": 30
+        },
+        {
+          "entityId": "the_old_cabinetmakers_wife",
+          "type": "person",
+          "firstSeenInChapter": 30
+        },
+        {
+          "entityId": "the_old_woman_at_the_house_in_lake_street",
+          "type": "person",
+          "firstSeenInChapter": 30
+        },
+        {
+          "entityId": "her_old_daughter",
+          "type": "person",
+          "firstSeenInChapter": 30,
+          "excerpt": "…o the passage. On the left of the passage lived the old woman of the house with her old daughter. Both seemed to be deaf. In answer to his repeated inquiry for the captain, one of them at last understood that he was asking for their lodger…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 1,
+          "endParagraph": 2,
+          "locationDescription": "In the street, approaching Dmitri's lodgings",
+          "imageDescription": "A narrow, muddy street in a Russian provincial town, with timber houses on either side, faint morning sunlight filtering through a gray sky. Alexey Fyodorovitch Karamazov, clean-shaven and in a monk’s black habit, walks pensively along the lane, passing by modest wooden dwellings, some with small gardens. He appears focused and slightly distraught, clutching a small bread roll. The street is quiet except for a stray dog in the distance, and the whole has the muted palette of 19th-century Russia in early spring.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 3,
+          "endParagraph": 3,
+          "locationDescription": "Inside the old cabinet-maker’s house (Dmitri's lodgings)",
+          "imageDescription": "A cramped interior of an old Russian artisan's dwelling. Wooden walls and simple furnishings; an elderly cabinet-maker with a graying beard stands by a stove, his burly son leaning against a bench, an old woman in a faded shawl near the door. Alexey Fyodorovitch Karamazov, in his monk's cassock, stands uncertainly in the center, speaking to the trio, who eye him warily. Morning light filters through a small, grimy window illuminating dust in the air. The atmosphere is tense and suspicious.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "the_old_cabinetmaker",
+            "the_old_cabinetmakers_son",
+            "the_old_cabinetmakers_wife"
+          ]
+        },
+        {
+          "startParagraph": 4,
+          "endParagraph": 4,
+          "locationDescription": "In the muddy yard and passage of the Lake Street house",
+          "imageDescription": "A dilapidated single-story house with misaligned windows, sunken into the muddy ground. A cow stands in a puddle at the center of the yard. Alexey Fyodorovitch Karamazov, in black monastic dress, carefully crosses the muddy yard, approaching a sagging wooden door. The early morning is gray and overcast. The setting exudes poverty and decline, with broken fences and scattered household debris.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 5,
+          "locationDescription": "Passage and old woman's quarters at the Lake Street house",
+          "imageDescription": "A narrow, dimly lit passage inside the old house. To the left, in a shabby doorway, stand an elderly woman in a kerchief and her equally elderly daughter, both in threadbare peasant dresses, looking out at Alexey Fyodorovitch Karamazov. The passage walls are crooked, and the floorboards creak underfoot. The lighting is faint from a single dirty pane; the women look suspicious and confused.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "the_old_woman_at_the_house_in_lake_street",
+            "her_old_daughter"
+          ]
+        },
+        {
+          "startParagraph": 6,
+          "endParagraph": 33,
+          "locationDescription": "In the Snegiryov family’s single room",
+          "imageDescription": "A crowded, poor Russian peasant's room lit by weak daylight through greenish windowpanes. In the center, a rough table with leftover eggs and bread. Captain Snegiryov, a thin, reddish-haired man in a patched coat and short checked trousers, leaps up from the table. Near him, Arina Petrovna, thin and pale, sits on a chair by the left bed, her expression proud yet troubled. By the window stands Varvara, a plain young woman with reddish hair and a defiant air. On another bed is Nina, a frail, hunchbacked girl with gentle eyes and crutches nearby. Hidden at first, Ilusha lies under a coat and quilt behind a curtain in the corner, ill but with flashing black eyes. The furniture is old, rags hang from a string across the room, and the atmosphere is tense, expectant, and laced with family distress and poverty.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "the_captain",
+            "varvara",
+            "arina_petrovna",
+            "nina",
+            "boy_with_sparkling_black_eyes"
+          ]
+        },
+        {
+          "startParagraph": 34,
+          "endParagraph": 55,
+          "locationDescription": "Still in the Snegiryov family’s room (the 'introduction scene')",
+          "imageDescription": "The same cramped family room, now with the captain earnestly introducing his family to Alexey. The captain, animated and tearful, gestures toward Arina Petrovna (seated), Nina (the hunchback, weeping quietly), Varvara (standing by the window, arms crossed, looking away in irritation), and the sickly Ilusha on the curtained bed, propped up and watching. Alexey remains standing at the center, attentive and kindly. The light is unchanged, the room’s poverty and disorder clear, but the mood focuses on the raw emotion and awkward family pride.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "the_captain",
+            "varvara",
+            "arina_petrovna",
+            "nina",
+            "boy_with_sparkling_black_eyes"
+          ]
+        },
+        {
+          "startParagraph": 56,
+          "endParagraph": 56,
+          "locationDescription": "Outside, in the street before the Snegiryovs' house",
+          "imageDescription": "A muddy, rutted street outside the decrepit house. The captain, thin and excited, in his threadbare coat and awkward trousers, holds Alexey Fyodorovitch Karamazov by the hand, pulling him out through the battered doorway. Alexey, in his monk's attire, looks surprised but compliant. Behind them, the sagging house and a single grimy window with a glimpse of movement as the family inside watches them leave. The sky is low and gray, and the mood outside is tense but bracing.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "the_captain"
+          ]
+        }
+      ]
     }
   ]
 }
