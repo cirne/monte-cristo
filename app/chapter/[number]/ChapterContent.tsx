@@ -42,6 +42,7 @@ export function ChapterContent({
   const articleRef = React.useRef<HTMLDivElement>(null);
   const [visibleParagraphIndices, setVisibleParagraphIndices] = React.useState<Set<number>>(() => new Set());
   const [contextMenuAnchor, setContextMenuAnchor] = React.useState<ParagraphContextAnchor | null>(null);
+  const menuClosedAtRef = React.useRef<number | null>(null);
 
   /** When scrollToEntityId is set (e.g. from character guide link), scroll to the first occurrence of that entity in the chapter and run a highlight animation. */
   React.useEffect(() => {
@@ -156,12 +157,20 @@ export function ChapterContent({
       const selection = window.getSelection();
       if (selection && selection.toString().trim().length > 0) return;
 
+      // If menu was just closed via pointerdown (within last 150ms), don't reopen it
+      // This prevents the menu from reopening when clicking on a paragraph while it's open
+      if (menuClosedAtRef.current !== null && Date.now() - menuClosedAtRef.current < 150) {
+        menuClosedAtRef.current = null;
+        return;
+      }
+
       const rect = event.currentTarget.getBoundingClientRect();
       const x = event.clientX > 0 ? event.clientX : rect.left + rect.width / 2;
       const y = event.clientY > 0 ? event.clientY : rect.top + 16;
       const clampedX = Math.max(20, Math.min(x, window.innerWidth - 20));
       const clampedY = Math.max(12, Math.min(y + 8, window.innerHeight - 16));
 
+      menuClosedAtRef.current = null;
       setContextMenuAnchor({
         x: clampedX,
         y: clampedY,
@@ -262,7 +271,10 @@ export function ChapterContent({
       <ParagraphContextMenu
         anchor={contextMenuAnchor}
         chapterNumber={chapterNumber}
-        onClose={() => setContextMenuAnchor(null)}
+        onClose={() => {
+          menuClosedAtRef.current = Date.now();
+          setContextMenuAnchor(null);
+        }}
         entityData={xrayData}
         onOpenEntity={setOpenEntityId}
         bookSlug={bookSlug}

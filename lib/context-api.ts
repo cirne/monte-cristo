@@ -191,7 +191,6 @@ export async function generateNarrativeAnswer(params: {
         { role: "system", content: systemPrompt },
         { role: "user", content: userPrompt },
       ],
-      response_format: { type: "json_object" },
       max_tokens: maxOutputTokens,
     });
     const raw = completion.choices[0]?.message?.content;

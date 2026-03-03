@@ -81,6 +81,17 @@ export function Footer() {
       ) : (
         <p>Public domain texts from Project Gutenberg.</p>
       )}
+      <p className="mt-2">
+        This reader is open source (MIT) —{" "}
+        <a
+          href="https://github.com/cirne/monte-cristo"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={linkClass}
+        >
+          github.com/cirne/monte-cristo
+        </a>
+      </p>
     </footer>
   );
 }
