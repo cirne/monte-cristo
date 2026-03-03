@@ -95,7 +95,7 @@ Use recent-chapter context only as supporting background, but prioritize the cur
 Never mention events beyond the provided excerpted context.
 Do not focus on "stakes" or "implications"—simply summarize what is happening.
 Write exactly two paragraphs.
-Return strict JSON with a single key: "answer".`;
+Respond with plain prose only. Do not return JSON or any structured format.`;
     const systemPrompt =
       config?.summaryPromptFragment?.trim()
         ? `${systemPromptBase}\n\nBook-specific guidance: ${config.summaryPromptFragment!.trim()}`

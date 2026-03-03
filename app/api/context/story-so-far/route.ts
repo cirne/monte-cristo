@@ -86,7 +86,7 @@ export async function GET(request: NextRequest) {
     const systemPromptBase = `You are a spoiler-safe reading companion for a serialized novel.
 Summarize the story so far at the exact reading checkpoint and never include events beyond the provided context.
 Return between one and three paragraphs (never more than three).
-Return strict JSON with a single key: "answer".`;
+Respond with plain prose only. Do not return JSON or any structured format.`;
     const systemPrompt =
       config?.summaryPromptFragment?.trim()
         ? `${systemPromptBase}\n\nBook-specific guidance: ${config.summaryPromptFragment!.trim()}`
