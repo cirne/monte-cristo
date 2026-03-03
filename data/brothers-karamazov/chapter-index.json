@@ -21379,6 +21379,2728 @@
           ]
         }
       ]
+    },
+    {
+      "number": 81,
+      "entities": [
+        {
+          "entityId": "witnesses_for_the_prosecution",
+          "type": "person",
+          "firstSeenInChapter": 81,
+          "excerpt": "…d to call them in a certain order. But no doubt it was so. I only know that the witnesses for the prosecution were called first. I repeat I don’t intend to describe all the questions step by step. Besides, my account would be to some exten…"
+        },
+        {
+          "entityId": "witnesses_for_the_defense",
+          "type": "person",
+          "firstSeenInChapter": 81,
+          "excerpt": "<p> I do not know whether the witnesses for the defense and for the prosecution were separated into groups by the President, and whether it was arranged to call them in a certain order. But no doubt it was so. I onl"
+        },
+        {
+          "entityId": "president_of_the_court",
+          "type": "person",
+          "firstSeenInChapter": 80,
+          "excerpt": "…witnesses for the defense and for the prosecution were separated into groups by the President, and whether it was arranged to call them in a certain order. But no doubt it was so. I only know that the witnesses for the prosecution were cal…"
+        },
+        {
+          "entityId": "the_trial",
+          "type": "event",
+          "firstSeenInChapter": 74,
+          "excerpt": "…he final speeches, and undoubtedly influenced the sinister and fatal outcome of the trial. </p>  <p> I will only observe that from the first moments of the trial one peculiar characteristic of the case was conspicuous and observed by all, …"
+        },
+        {
+          "entityId": "the_prosecution",
+          "type": "person",
+          "firstSeenInChapter": 81,
+          "excerpt": "<p> I do not know whether the witnesses for the defense and for the prosecution were separated into groups by the President, and whether it was arranged to call them in a certain order. But no doubt it was so. I only know that the witnesse"
+        },
+        {
+          "entityId": "the_defense",
+          "type": "person",
+          "firstSeenInChapter": 81,
+          "excerpt": "<p> I do not know whether the witnesses for the defense and for the prosecution were separated into groups by the President, and whether it was arranged to call them in a certain order. But no doubt it was so. I onl"
+        },
+        {
+          "entityId": "the_speech_for_the_prosecution",
+          "type": "event",
+          "firstSeenInChapter": 81,
+          "excerpt": "…y step. Besides, my account would be to some extent superfluous, because in the speeches for the prosecution and for the defense the whole course of the evidence was brought together and set in a strong and significant light, and I took do…"
+        },
+        {
+          "entityId": "the_speech_for_the_defense",
+          "type": "event",
+          "firstSeenInChapter": 81
+        },
+        {
+          "entityId": "the_crime_trial_of_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 65
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…e memory of his deceased master, he yet bore witness that he had been unjust to Mitya and “hadn’t brought up his children as he should. He’d have been devoured by lice when he was little, if it hadn’t been for me,” he added, describing Mit…"
+        },
+        {
+          "entityId": "ladies_gathering",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…the prisoner was guilty, obviously and conclusively guilty. I imagine that even the ladies, who were so impatiently longing for the acquittal of the interesting prisoner, were at the same time, without exception, convinced of his guilt. Wh…"
+        },
+        {
+          "entityId": "ippolit_kirillovitch",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…o the court so impatiently. The men were more interested in the contest between the prosecutor and the famous Fetyukovitch. All were wondering and asking themselves what could even a talent like Fetyukovitch’s make of such a desperate case…"
+        },
+        {
+          "entityId": "fetyukovitch",
+          "type": "person",
+          "firstSeenInChapter": 70,
+          "excerpt": "…e men were more interested in the contest between the prosecutor and the famous Fetyukovitch. All were wondering and asking themselves what could even a talent like Fetyukovitch’s make of such a desperate case; and so they followed his ach…"
+        },
+        {
+          "entityId": "the_court",
+          "type": "place",
+          "firstSeenInChapter": 80,
+          "excerpt": "…ome into fashion,” and so on, and so on. And that was why they had crowded into the court so impatiently. The men were more interested in the contest between the prosecutor and the famous Fetyukovitch. All were wondering and asking themsel…"
+        },
+        {
+          "entityId": "jury",
+          "type": "person",
+          "firstSeenInChapter": 81,
+          "excerpt": "…ty and said that he had no more questions to ask of the witness. The public and the jury, of course, were left with a grain of doubt in their minds as to the evidence of a man who might, while undergoing a certain cure, have seen “the gate…"
+        },
+        {
+          "entityId": "grigory",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…s strength, he seemed to be diverting himself. </p>  <p> So, for instance, when Grigory, Fyodor Pavlovitch’s old servant, who had given the most damning piece of evidence about the open door, was examined, the counsel for the defense posit…"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…e,” he added, describing Mitya’s early childhood. “It wasn’t fair either of the father to wrong his son over his mother’s property, which was by right his.” </p>  <p> In reply to the prosecutor’s question what grounds he had for asserting …"
+        },
+        {
+          "entityId": "marfa_ignatyevna",
+          "type": "person",
+          "firstSeenInChapter": 14,
+          "excerpt": "…im. He gave evidence with as much confidence as though he had been talking with his Marfa, only perhaps more respectfully. It was impossible to make him contradict himself. The prosecutor questioned him first in detail about the family lif…"
+        },
+        {
+          "entityId": "the_karamazovs",
+          "type": "person",
+          "firstSeenInChapter": 32,
+          "excerpt": "…himself. The prosecutor questioned him first in detail about the family life of the Karamazovs. The family picture stood out in lurid colors. It was plain to ear and eye that the witness was guileless and impartial. In spite of his profoun…"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…elf. The prosecutor questioned him first in detail about the family life of the Karamazovs. The family picture stood out in lurid colors. It was plain to ear and eye that the witness was guileless and impartial. In spite of his profound re…"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…rsistence of all the witnesses who could be asked it, not excepting Alyosha and Ivan, but he obtained no exact information from any one; all alleged that it was so, but were unable to bring forward any distinct proof. Grigory’s description…"
+        },
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…struck him on the face; he had forgiven him long ago, he said. Of the deceased Smerdyakov he observed, crossing himself, that he was a lad of ability, but stupid and afflicted, and, worse still, an infidel, and that it was Fyodor Pavlovitc…"
+        },
+        {
+          "entityId": "the_envelope_with_three_thousand_roubles",
+          "type": "event",
+          "firstSeenInChapter": 37,
+          "excerpt": "…fense began to cross‐examine him, and the first question he asked was about the envelope in which Fyodor Pavlovitch was supposed to have put three thousand roubles for “a certain person.” “Have you ever seen it, you, who were for so many y…"
+        },
+        {
+          "entityId": "inheritance_dispute_dmitri_vs_fyodor_pavlovitch",
+          "type": "event",
+          "firstSeenInChapter": 46
+        },
+        {
+          "entityId": "the_open_door",
+          "type": "event",
+          "firstSeenInChapter": 75,
+          "excerpt": "…avlovitch’s old servant, who had given the most damning piece of evidence about the open door, was examined, the counsel for the defense positively fastened upon him when his turn came to question him. It must be noted that Grigory entered…"
+        },
+        {
+          "entityId": "the_incident_with_the_knife",
+          "type": "event",
+          "firstSeenInChapter": 66
+        },
+        {
+          "entityId": "divinity_student",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…The counsel for the defense was equally clever in dealing with the evidence of Rakitin. I may remark that Rakitin was one of the leading witnesses and one to whom the prosecutor attached great significance. It appeared that he knew everyth…"
+        },
+        {
+          "entityId": "author_of_the_pamphlet_the_life_of_the_deceased_elder_father_zossima",
+          "type": "person",
+          "firstSeenInChapter": 81,
+          "excerpt": "…with the most affable and even respectful smile, “you are, of course, the same Mr. Rakitin whose pamphlet, _The Life of the Deceased Elder, Father Zossima_, published by the diocesan authorities, full of profound and religious reflections …"
+        },
+        {
+          "entityId": "elder_zossima",
+          "type": "person",
+          "firstSeenInChapter": 4,
+          "excerpt": "…licted, and, worse still, an infidel, and that it was Fyodor Pavlovitch and his elder son who had taught him to be so. But he defended Smerdyakov’s honesty almost with warmth, and related how Smerdyakov had once found the master’s money in…"
+        },
+        {
+          "entityId": "bishop",
+          "type": "person",
+          "firstSeenInChapter": 12,
+          "excerpt": "…and religious reflections and preceded by an excellent and devout dedication to the bishop, I have just read with such pleasure?” </p>  <p> “I did not write it for publication ... it was published afterwards,” muttered Rakitin, for some re…"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…the defense at once adroitly took advantage. Answering certain questions about Grushenka, and carried away by the loftiness of his own sentiments and his success, of which he was, of course, conscious, he went so far as to speak somewhat c…"
+        },
+        {
+          "entityId": "samsonov",
+          "type": "person",
+          "firstSeenInChapter": 12,
+          "excerpt": "…speak somewhat contemptuously of Agrafena Alexandrovna as “the kept mistress of Samsonov.” He would have given a good deal to take back his words afterwards, for Fetyukovitch caught him out over it at once. And it was all because Rakitin h…"
+        },
+        {
+          "entityId": "rakitins_deal_for_twentyfive_roubles",
+          "type": "event",
+          "firstSeenInChapter": 44
+        },
+        {
+          "entityId": "the_metropolis",
+          "type": "place",
+          "firstSeenInChapter": 30
+        },
+        {
+          "entityId": "the_captain",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…he “Metropolis,” all his compromising doings and sayings, and told the story of Captain Snegiryov’s “wisp of tow.” But even Rakitin could say nothing positive about Mitya’s inheritance, and confined himself to contemptuous generalities. </…"
+        },
+        {
+          "entityId": "ilusha",
+          "type": "person",
+          "firstSeenInChapter": 31,
+          "excerpt": "…about Mitya’s attack upon him, he refused to answer. </p>  <p> “God bless him. Ilusha told me not to. God will make it up to me yonder.” </p>  <p> “Who told you not to tell? Of whom are you talking?” </p>  <p> “Ilusha, my little son. ‘Fath…"
+        },
+        {
+          "entityId": "trifon_borissovitch",
+          "type": "person",
+          "firstSeenInChapter": 51,
+          "excerpt": "…ed people more and more by his minute knowledge of the case. Thus, for example, Trifon Borissovitch made a great impression, of course, very prejudicial to Mitya. He calculated almost on his fingers that on his first visit to Mokroe, Mitya…"
+        },
+        {
+          "entityId": "mokroe",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…dicial to Mitya. He calculated almost on his fingers that on his first visit to Mokroe, Mitya must have spent three thousand roubles, “or very little less. Just think what he squandered on those gypsy girls alone! And as for our lousy peas…"
+        },
+        {
+          "entityId": "gypsy_girls",
+          "type": "person",
+          "firstSeenInChapter": 12,
+          "excerpt": "…thousand roubles, “or very little less. Just think what he squandered on those gypsy girls alone! And as for our lousy peasants, it wasn’t a case of flinging half a rouble in the street, he made them presents of twenty‐five roubles each, a…"
+        },
+        {
+          "entityId": "peasants_of_mokroe",
+          "type": "person",
+          "firstSeenInChapter": 51,
+          "excerpt": "…Just think what he squandered on those gypsy girls alone! And as for our lousy peasants, it wasn’t a case of flinging half a rouble in the street, he made them presents of twenty‐five roubles each, at least, he didn’t give them less. And w…"
+        },
+        {
+          "entityId": "girls_of_the_village",
+          "type": "person",
+          "firstSeenInChapter": 51,
+          "excerpt": "…know; they have no care for their souls. And the way he went on with the girls, our village girls! They’re completely set up since then, I tell you, they used to be poor.” He recalled, in fact, every item of expense and added it all up. So…"
+        },
+        {
+          "entityId": "timofey_the_driver",
+          "type": "person",
+          "firstSeenInChapter": 44,
+          "excerpt": "…ut an incident at the first carousal at Mokroe, a month before the arrest, when Timofey and another peasant called Akim had picked up on the floor in the passage a hundred roubles dropped by Mitya when he was drunk, and had given them to T…"
+        },
+        {
+          "entityId": "akim",
+          "type": "person",
+          "firstSeenInChapter": 62,
+          "excerpt": "…l at Mokroe, a month before the arrest, when Timofey and another peasant called Akim had picked up on the floor in the passage a hundred roubles dropped by Mitya when he was drunk, and had given them to Trifon Borissovitch and received a r…"
+        },
+        {
+          "entityId": "the_poles",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…y the prosecution was again discredited. </p>  <p> The same thing happened with the Poles. They took up an attitude of pride and independence; they vociferated loudly that they had both been in the service of the Crown, and that “Pan Mitya…"
+        },
+        {
+          "entityId": "pan_mussyalovitch",
+          "type": "person",
+          "firstSeenInChapter": 61,
+          "excerpt": "…y the prosecution was again discredited. </p>  <p> The same thing happened with the Poles. They took up an attitude of pride and independence; they vociferated loudly that they had both been in the service of the Crown, and that “Pan Mitya…"
+        },
+        {
+          "entityId": "pan_vrublevsky",
+          "type": "person",
+          "firstSeenInChapter": 61
+        },
+        {
+          "entityId": "pyotr_fomitch_kalganov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…he one he had provided, and that Pan Mussyalovitch had cheated during the game. Kalganov confirmed this, and both the Poles left the witness‐box with damaged reputations, amidst laughter from the public. </p>  <p> Then exactly the same thi…"
+        },
+        {
+          "entityId": "saint_petersburg",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "hat he was serene, and they waited, feeling that “such a man” had not come from Petersburg for nothing, and that he was not a man to return unsuccessful. </p>"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 2,
+          "locationDescription": "In the courtroom during the trial, prior to witness testimony",
+          "imageDescription": "A grand, high-ceilinged 19th-century Russian courtroom filled with rows of expectant spectators, including men in coats and cravats and women in elaborate dresses, with high windows letting in cold daylight. The President of the Court sits elevated at the front, flanked by other officials. The jury is visible to one side. Groups of witnesses wait in the background, and the prosecution and defense tables face the President. The atmosphere is tense, anticipatory, and formal.",
+          "characterIds": [
+            "witnesses_for_the_prosecution",
+            "witnesses_for_the_defense",
+            "president_of_the_court",
+            "the_prosecution",
+            "the_defense",
+            "jury",
+            "ladies_gathering",
+            "fetyukovitch",
+            "ippolit_kirillovitch"
+          ]
+        },
+        {
+          "startParagraph": 3,
+          "endParagraph": 4,
+          "locationDescription": "In the courtroom as Grigory testifies",
+          "imageDescription": "In the ornate courtroom, Grigory, an elderly peasant in simple, clean country garb, stands resolutely in the witness box, surrounded by the formal dignity of the judges and legal counsel. The President of the Court sits presiding, while Fetyukovitch and Ippolit Kirillovitch sit at their respective tables. Dmitri Karamazov is in the dock, tense and attentive. Spectators and the jury observe the proceedings; light slants through courtroom windows, illuminating the dust and the somber, serious faces.",
+          "characterIds": [
+            "grigory",
+            "president_of_the_court",
+            "the_prosecution",
+            "the_defense",
+            "fetyukovitch",
+            "ippolit_kirillovitch",
+            "jury",
+            "dmitri_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 5,
+          "endParagraph": 5,
+          "locationDescription": "Courtroom during the questioning about the envelope and balsam",
+          "imageDescription": "Grigory stands uncertainly in the witness box, the defense counsel Fetyukovitch interrogating him with keen eyes and a half-smile. Spectators murmur in the benches, some suppressing laughter. The President gestures for order while other officials observe. Grigory's plain, earnest demeanor contrasts with the fashionable, urbane dress of the lawyers. The mood is tense, but with an undercurrent of amusement and slight chaos.",
+          "characterIds": [
+            "grigory",
+            "president_of_the_court",
+            "fetyukovitch",
+            "the_defense",
+            "jury"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 39,
+          "locationDescription": "Courtroom as Mitya interrupts and the President admonishes",
+          "imageDescription": "The dignified courtroom scene is interrupted as Dmitri Karamazov leaps up in his place, gesturing passionately. The President of the Court raises a hand sternly, signaling for quiet and restraint. Grigory has just finished testifying and stands to one side, looking bewildered and slightly offended. Court officials and jury are startled, while the public gazes with a mix of shock and fascination. Candlelight and daylight interplay, catching anxious faces.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "grigory",
+            "president_of_the_court",
+            "jury"
+          ]
+        },
+        {
+          "startParagraph": 40,
+          "endParagraph": 40,
+          "locationDescription": "Courtroom during the testimony and cross-examination of Rakitin",
+          "imageDescription": "Rakitin, a young intellectual in modest attire, stands in the witness box, gesturing animatedly. The defense counsel, Fetyukovitch, questions him with a polite yet piercing expression. The President and prosecutor watch closely, while spectators, including several well-dressed ladies and attentive gentlemen, react to Rakitin’s lofty rhetoric. The air in the court is lively, a moment of intellectual debate amid the tense proceedings. The setting is bathed in afternoon light filtering through courthouse windows.",
+          "characterIds": [
+            "fetyukovitch",
+            "president_of_the_court",
+            "ippolit_kirillovitch",
+            "author_of_the_pamphlet_the_life_of_the_deceased_elder_father_zossima",
+            "ladies_gathering",
+            "jury"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 52,
+          "locationDescription": "Courtroom as Mitya outbursts after Rakitin's testimony",
+          "imageDescription": "Dmitri Karamazov, in the prisoner's dock, passionately accuses Rakitin, pointing accusatorily while the President sternly calls for order. Rakitin retreats from the witness stand, looking embarrassed and chastised. The audience and jury observe with mixed amusement and concern, while officials frown at the disruption. The moment is lively, with several faces reflecting the scandal and the heated courtroom atmosphere.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "president_of_the_court",
+            "author_of_the_pamphlet_the_life_of_the_deceased_elder_father_zossima",
+            "jury"
+          ]
+        },
+        {
+          "startParagraph": 53,
+          "endParagraph": 57,
+          "locationDescription": "Courtroom during Captain Snegiryov's testimony",
+          "imageDescription": "Captain Snegiryov, shabbily dressed and visibly drunk, stands swaying and emotional at the witness box. His clothes are ragged, boots muddy. The President of the Court and officials look perturbed and uncomfortable, while some spectators stifle laughter. The captain suddenly collapses to his knees in a fit of weeping; two bailiffs move in to lead him away. The scene is chaotic, with varied expressions of pity, humor, and exasperation among the public.",
+          "characterIds": [
+            "the_captain",
+            "president_of_the_court",
+            "jury"
+          ]
+        },
+        {
+          "startParagraph": 58,
+          "endParagraph": 60,
+          "locationDescription": "Courtroom during Trifon Borissovitch and peasants' testimony",
+          "imageDescription": "Trifon Borissovitch, an innkeeper in rustic attire, testifies animatedly, gesturing with his hands as he speaks of money spent at Mokroe. Peasants in plain clothing wait to be questioned nearby. The prosecutor and defense counsel take notes, while the President of the Court presides sternly. The jury and public listen with curiosity. The setting is filled with a mix of rustic and urban types, adding to the spectacle and vividness of the 19th-century scene.",
+          "characterIds": [
+            "trifon_borissovitch",
+            "the_prosecution",
+            "the_defense",
+            "fetyukovitch",
+            "president_of_the_court",
+            "peasants_of_mokroe",
+            "jury"
+          ]
+        },
+        {
+          "startParagraph": 61,
+          "endParagraph": 61,
+          "locationDescription": "Courtroom as the Poles testify and are discredited",
+          "imageDescription": "Pan Mussyalovitch and Pan Vrublevsky, dressed in stylish but slightly flamboyant Polish fashion, stand in the witness box, speaking with exaggerated pride and gesturing widely. Fetyukovitch questions them while the President and prosecutor observe, their faces registering skepticism. Trifon Borissovitch and Kalganov hover nearby as additional witnesses. The courtroom atmosphere is lively, with onlookers entertained by the Poles’ theatrical display and the growing comedy of their discrediting.",
+          "characterIds": [
+            "pan_mussyalovitch",
+            "pan_vrublevsky",
+            "the_poles",
+            "fetyukovitch",
+            "president_of_the_court",
+            "trifon_borissovitch",
+            "pyotr_fomitch_kalganov",
+            "jury"
+          ]
+        },
+        {
+          "startParagraph": 62,
+          "endParagraph": 62,
+          "locationDescription": "General view of the courtroom at the conclusion of the day’s testimony",
+          "imageDescription": "A wide view of the Russian courtroom late in the day: the defense and prosecution confer at their tables, the President prepares to close for the day, and witnesses file out, some looking discomfited. The public murmurs and disperses, while the jury remains seated, deep in thought. Dimming afternoon light slants through high windows, and the overall mood is one of exhausted tension, anticipation, and unresolved drama.",
+          "characterIds": [
+            "the_prosecution",
+            "the_defense",
+            "president_of_the_court",
+            "jury",
+            "witnesses_for_the_prosecution",
+            "witnesses_for_the_defense",
+            "fetyukovitch"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 82,
+      "entities": [
+        {
+          "entityId": "fetyukovitch",
+          "type": "person",
+          "firstSeenInChapter": 70,
+          "excerpt": "…cal experts, too, was of little use to the prisoner. And it appeared later that Fetyukovitch had not reckoned much upon it. The medical line of defense had only been taken up through the insistence of Katerina Ivanovna, who had sent for a …"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…t. The medical line of defense had only been taken up through the insistence of Katerina Ivanovna, who had sent for a celebrated doctor from Moscow on purpose. The case for the defense could, of course, lose nothing by it and might, with l…"
+        },
+        {
+          "entityId": "doctor_herzenstube",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…he doctors. The medical experts were the famous doctor from Moscow, our doctor, Herzenstube, and the young doctor, Varvinsky. The two latter appeared also as witnesses for the prosecution. </p>  <p> The first to be called in the capacity o…"
+        },
+        {
+          "entityId": "the_moscow_doctor",
+          "type": "person",
+          "firstSeenInChapter": 76,
+          "excerpt": "…y been taken up through the insistence of Katerina Ivanovna, who had sent for a celebrated doctor from Moscow on purpose. The case for the defense could, of course, lose nothing by it and might, with luck, gain something from it. There was…"
+        },
+        {
+          "entityId": "varvinsky",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…e the famous doctor from Moscow, our doctor, Herzenstube, and the young doctor, Varvinsky. The two latter appeared also as witnesses for the prosecution. </p>  <p> The first to be called in the capacity of expert was Doctor Herzenstube. He…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…a conscientious doctor and an excellent and pious man, a Hernguter or Moravian brother, I am not quite sure which. He had been living amongst us for many years and behaved with wonderful dignity. He was a kind‐hearted and humane man. He tr…"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…unexpectedly of use to Mitya. As an old resident in the town who had known the Karamazov family for years, he furnished some facts of great value for the prosecution, and suddenly, as though recalling something, he added: </p>  <p> “But th…"
+        },
+        {
+          "entityId": "the_jury",
+          "type": "person",
+          "firstSeenInChapter": 80
+        },
+        {
+          "entityId": "the_public",
+          "type": "person",
+          "firstSeenInChapter": 80,
+          "excerpt": "…though it would have been more natural for him to look to the left where, among the public, the ladies were sitting, seeing that he was a great admirer of the fair sex and must be thinking much of what the ladies are saying of him now,” th…"
+        },
+        {
+          "entityId": "ippolit_kirillovitch",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…wo heads and not only one.’ ” </p>  <p> “One head is good, but two are better,” the prosecutor put in impatiently. He knew the old man’s habit of talking slowly and deliberately, regardless of the impression he was making and of the delay …"
+        },
+        {
+          "entityId": "the_karamazovs",
+          "type": "person",
+          "firstSeenInChapter": 32
+        },
+        {
+          "entityId": "three_thousand_roubles_giftenvelope",
+          "type": "event",
+          "firstSeenInChapter": 55,
+          "excerpt": "…ted mania, above all, in the fact that the prisoner could not even speak of the three thousand roubles, of which he considered himself to have been cheated, without extraordinary irritation, though he could speak comparatively lightly of o…"
+        },
+        {
+          "entityId": "the_court",
+          "type": "place",
+          "firstSeenInChapter": 80,
+          "excerpt": "…ctor, with simple‐hearted directness, pointed out that the prisoner on entering the court had “an extraordinary air, remarkable in the circumstances”; that he had “marched in like a soldier, looking straight before him, though it would hav…"
+        },
+        {
+          "entityId": "our_town",
+          "type": "place",
+          "firstSeenInChapter": 16,
+          "excerpt": "…dle height and sturdy build. He was much esteemed and respected by every one in the town. He was a conscientious doctor and an excellent and pious man, a Hernguter or Moravian brother, I am not quite sure which. He had been living amongst …"
+        },
+        {
+          "entityId": "mityas_childhood_neglect",
+          "type": "event",
+          "firstSeenInChapter": 82
+        },
+        {
+          "entityId": "the_defense",
+          "type": "event",
+          "firstSeenInChapter": 81,
+          "excerpt": "…ovna, who had sent for a celebrated doctor from Moscow on purpose. The case for the defense could, of course, lose nothing by it and might, with luck, gain something from it. There was, however, an element of comedy about it, through the d…"
+        },
+        {
+          "entityId": "witnesses_for_the_prosecution",
+          "type": "person",
+          "firstSeenInChapter": 81
+        },
+        {
+          "entityId": "witnesses_for_the_defense",
+          "type": "person",
+          "firstSeenInChapter": 81
+        },
+        {
+          "entityId": "the_crime_trial_of_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 65
+        },
+        {
+          "entityId": "the_murder_of_fyodor_pavlovitch",
+          "type": "event",
+          "firstSeenInChapter": 77
+        },
+        {
+          "entityId": "catastrophe_alyoshas_foreboding",
+          "type": "event",
+          "firstSeenInChapter": 33
+        },
+        {
+          "entityId": "the_russian_proverb_one_head_is_good_but_two_are_better",
+          "type": "event",
+          "firstSeenInChapter": 82
+        },
+        {
+          "entityId": "gott_der_vater_gott_der_sohn_gott_der_heilige_geist",
+          "type": "event",
+          "firstSeenInChapter": 82
+        },
+        {
+          "entityId": "the_incident_of_the_pound_of_nuts",
+          "type": "event",
+          "firstSeenInChapter": 82
+        },
+        {
+          "entityId": "the_anecdote_of_mityas_return_and_gratitude",
+          "type": "event",
+          "firstSeenInChapter": 82
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Inside the courtroom during the medical experts' testimony",
+          "imageDescription": "A crowded 19th-century Russian courtroom bathed in late afternoon light from tall windows, wooden benches filled with attentive townsfolk in period dress. At the front, three doctors—an elderly, bald Doctor Herzenstube, an urbane, well-dressed Moscow physician, and the young local doctor Varvinsky—stand or sit near the judge's high bench. The defendant Dmitri Karamazov sits guarded in the dock, lawyers and officials arranged nearby. The air is tense but alive with murmurs and glances exchanged among the public.",
+          "characterIds": [
+            "doctor_herzenstube",
+            "the_moscow_doctor",
+            "varvinsky",
+            "dmitri_fyodorovitch_karamazov",
+            "fetyukovitch",
+            "katerina_ivanovna",
+            "the_jury",
+            "the_public",
+            "witnesses_for_the_prosecution",
+            "witnesses_for_the_defense"
+          ]
+        },
+        {
+          "startParagraph": 1,
+          "endParagraph": 3,
+          "locationDescription": "Doctor Herzenstube examined in the witness box",
+          "imageDescription": "Near the judge's bench stands Doctor Herzenstube, a gray-haired, bald old man of sturdy build. He faces the authorities and the jurors in dignified Moravian attire beneath the high domed ceiling. Fetyukovitch and Ippolit Kirillovitch are seated at their respective tables, while Dmitri sits tense in the defendant's stall. Members of the public, especially women, lean forward anticipatingly. Afternoon sunlight streams across carved paneling, lending the scene a mixture of solemnity and faint amusement.",
+          "characterIds": [
+            "doctor_herzenstube",
+            "fetyukovitch",
+            "dmitri_fyodorovitch_karamazov",
+            "the_jury",
+            "the_public",
+            "ippolit_kirillovitch"
+          ]
+        },
+        {
+          "startParagraph": 4,
+          "endParagraph": 6,
+          "locationDescription": "The Moscow doctor gives his testimony",
+          "imageDescription": "A fashionable, imposing Moscow doctor in a dark frock coat stands with academic poise in the witness box beside the judge's bench. The front rows—lawyers, jurors, and Dmitri—listen closely, some skeptical, some impressed. Lamplight and sunlight mingle, illuminating mustachioed faces and the doctor's confident expression, as he gestures to emphasize his points. The atmosphere is both formal and charged with intellectual rivalry.",
+          "characterIds": [
+            "the_moscow_doctor",
+            "fetyukovitch",
+            "dmitri_fyodorovitch_karamazov",
+            "the_jury",
+            "the_public"
+          ]
+        },
+        {
+          "startParagraph": 7,
+          "endParagraph": 7,
+          "locationDescription": "Varvinsky provides his expert opinion",
+          "imageDescription": "Young Doctor Varvinsky, slight and earnest, presents his testimony standing upright, his face flushed with conviction. The older doctors sit nearby, and Dmitri, visibly tense, reacts hopefully to his words. The judges and lawyers exchange glances, sensing a shift. The wooden surfaces and high windows reflect the late day, while the assembled townspeople and officials register surprise and growing approval.",
+          "characterIds": [
+            "varvinsky",
+            "doctor_herzenstube",
+            "the_moscow_doctor",
+            "dmitri_fyodorovitch_karamazov",
+            "the_jury",
+            "the_public"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 21,
+          "locationDescription": "Doctor Herzenstube recounts his memories of Dmitri's childhood",
+          "imageDescription": "Doctor Herzenstube, now seated or standing at the center of attention, recalls the past with an expression of gentle emotion. Dmitri listens, visibly moved, in his defendant's place. The public leans forward, faces softening; lawyers are alert for any useful angle. The lighting is warm, late in the day, filling the courtroom with a nostalgic, almost tender atmosphere that contrasts with the earlier formality. Details of period clothing—high collars, waistcoats, women's bonnets—are evident among the listeners.",
+          "characterIds": [
+            "doctor_herzenstube",
+            "dmitri_fyodorovitch_karamazov",
+            "fetyukovitch",
+            "the_jury",
+            "the_public",
+            "witnesses_for_the_defense"
+          ]
+        },
+        {
+          "startParagraph": 22,
+          "endParagraph": 22,
+          "locationDescription": "Transition as witnesses for the defense prepare to give evidence",
+          "imageDescription": "The mood in the courtroom shifts, with a subtle air of anticipation as spectators and lawyers murmur among themselves. The judges consult papers, and Fetyukovitch confers quietly with his client Dmitri. Katerina Ivanovna, elegantly dressed and resolute, prepares to take the stand, her face set and dignified amid the silent scrutiny of the assembly. Evening rays cast long shadows, emphasizing the ornate furnishings and tense composure of everyone present.",
+          "characterIds": [
+            "fetyukovitch",
+            "katerina_ivanovna",
+            "dmitri_fyodorovitch_karamazov",
+            "the_jury",
+            "the_public",
+            "witnesses_for_the_defense"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "entities": [
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> It came quite as a surprise even to Alyosha himself. He was not required to take the oath, and I remember that both sides addressed him very gently and sympathetically. It was evident that his reputation"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…his evidence modestly and with restraint, but his warm sympathy for his unhappy brother was unmistakable. In answer to one question, he sketched his brother’s character as that of a man, violent‐tempered perhaps and carried away by his pas…"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…admitted, however, that, through his passion for Grushenka and his rivalry with his father, his brother had been of late in an intolerable position. But he repelled with indignation the suggestion that his brother might have committed a mu…"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…y of the two “ladies,” as the prosecutor expressed it—that is, of Grushenka and Katya—he answered evasively and was even unwilling to answer one or two questions altogether. </p>  <p> “Did your brother tell you, anyway, that he intended to…"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…lf‐sacrifice, if necessary. He admitted, however, that, through his passion for Grushenka and his rivalry with his father, his brother had been of late in an intolerable position. But he repelled with indignation the suggestion that his br…"
+        },
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…ary inquiry,” replied Alyosha, slowly and calmly. “I made no accusation against Smerdyakov of myself.” </p>  <p> “Yet you gave evidence against him?” </p>  <p> “I was led to do so by my brother Dmitri’s words. I was told what took place at…"
+        },
+        {
+          "entityId": "ippolit_kirillovitch",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…of that three thousand without fury. As for the rivalry of the two “ladies,” as the prosecutor expressed it—that is, of Grushenka and Katya—he answered evasively and was even unwilling to answer one or two questions altogether. </p>  <p> “…"
+        },
+        {
+          "entityId": "fetyukovitch",
+          "type": "person",
+          "firstSeenInChapter": 70,
+          "excerpt": "…vidence except certain moral convictions so natural in a brother. </p>  <p> But Fetyukovitch began his cross‐examination. On his asking Alyosha when it was that the prisoner had told him of his hatred for his father and that he might kill …"
+        },
+        {
+          "entityId": "divinity_student",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…began his cross‐examination. I remember that among other things he asked about Rakitin and the twenty‐five roubles “you paid him for bringing Alexey Fyodorovitch Karamazov to see you.” </p>  <p> “There was nothing strange about his taking …"
+        },
+        {
+          "entityId": "samsonov",
+          "type": "person",
+          "firstSeenInChapter": 12,
+          "excerpt": "…ought both of them to this. It was all on account of me it happened.” </p>  <p> Samsonov’s name came up somehow. “That’s nobody’s business,” she snapped at once, with a sort of insolent defiance. “He was my benefactor; he took me when I ha…"
+        },
+        {
+          "entityId": "president_of_the_court",
+          "type": "person",
+          "firstSeenInChapter": 80,
+          "excerpt": "…up.... How could I have so completely forgotten it till this moment?” </p>  <p> The President asked Mitya what he had to say to the last witness’s evidence. Mitya confirmed it, saying that he had been pointing to the fifteen hundred rouble…"
+        },
+        {
+          "entityId": "ladies_gathering",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…the witness‐box. As she entered something extraordinary happened in the court. The ladies clutched their lorgnettes and opera‐glasses. There was a stir among the men: some stood up to get a better view. Everybody alleged afterwards that Mi…"
+        },
+        {
+          "entityId": "the_public",
+          "type": "person",
+          "firstSeenInChapter": 80,
+          "excerpt": "…ped the examination at this point. The impression left by Alyosha’s evidence on the public was most disappointing. There had been talk about Smerdyakov before the trial; some one had heard something, some one had pointed out something else…"
+        },
+        {
+          "entityId": "the_court",
+          "type": "place",
+          "firstSeenInChapter": 80,
+          "excerpt": "…lled my father,” Alyosha said firmly, in a loud voice that was heard throughout the court. </p>  <p> The prosecutor started like a war‐horse at the sound of a trumpet. </p>  <p> “Let me assure you that I fully believe in the complete since…"
+        },
+        {
+          "entityId": "the_monastery",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…w, at his last interview with Mitya that evening under the tree, on the road to the monastery, Mitya had struck himself on the breast, “the upper part of the breast,” and had repeated several times that he had a means of regaining his hono…"
+        },
+        {
+          "entityId": "mokroe",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…means but wouldn’t give back that fifteen hundred. And when he was arrested at Mokroe he cried out—I know, I was told it—that he considered it the most disgraceful act of his life that when he had the means of repaying Katerina Ivanovna ha…"
+        },
+        {
+          "entityId": "three_thousand_roubles_giftenvelope",
+          "type": "event",
+          "firstSeenInChapter": 55,
+          "excerpt": "…ght have committed a murder for the sake of gain, though he recognized that the three thousand roubles had become almost an obsession with Mitya; that he looked upon them as part of the inheritance he had been cheated of by his father, and…"
+        },
+        {
+          "entityId": "division_and_concealment_of_the_money_fifteen_hundred_sewn_up",
+          "type": "event",
+          "firstSeenInChapter": 60
+        },
+        {
+          "entityId": "mityas_theft_of_three_thousand_roubles_from_katerina_ivanovna",
+          "type": "event",
+          "firstSeenInChapter": 60
+        },
+        {
+          "entityId": "the_crime_trial_of_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 65
+        },
+        {
+          "entityId": "catastrophe_alyoshas_foreboding",
+          "type": "event",
+          "firstSeenInChapter": 33,
+          "excerpt": "…ll him, and whether he had heard it, for instance, at their last meeting before the catastrophe, Alyosha started as he answered, as though only just recollecting and understanding something. </p>  <p> “I remember one circumstance now which…"
+        },
+        {
+          "entityId": "the_murder_of_fyodor_pavlovitch",
+          "type": "event",
+          "firstSeenInChapter": 77,
+          "excerpt": "…ined. I believe absolutely that my brother is innocent, and if he didn’t commit the murder, then—” </p>  <p> “Then Smerdyakov? Why Smerdyakov? And why are you so completely persuaded of your brother’s innocence?” </p>  <p> “I cannot help b…"
+        },
+        {
+          "entityId": "katerina_ivanovnas_sister_and_another_relation_in_moscow",
+          "type": "person",
+          "firstSeenInChapter": 60
+        },
+        {
+          "entityId": "the_town",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…might come of it later (and it did, in fact, it did). It was repeated all over the town afterwards with spiteful laughter that the story was perhaps not quite complete—that is, in the statement that the officer had let the young lady depar…"
+        },
+        {
+          "entityId": "siberia",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…heard you run out of the next room and cry out: ‘It’s all my fault. We’ll go to Siberia together!’ So you already believed him to have murdered his father?” </p>  <p> “I don’t remember what I felt at the time,” answered Grushenka. “Every o…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 30,
+          "locationDescription": "In the courtroom, during Alyosha's testimony",
+          "imageDescription": "A 19th-century Russian courtroom filled with spectators seated in wooden benches, the air charged with tense anticipation. Alyosha stands in the witness box, modest and composed in simple, dark attire. Panels of judges and lawyers in formal dress sit at the front, while the public, including ladies in bonnets and gentlemen in waistcoats, look on attentively. Light streams through tall windows, casting pale illumination across the high-ceilinged room, highlighting the somber gravity of the proceedings.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "ippolit_kirillovitch",
+            "fetyukovitch",
+            "dmitri_fyodorovitch_karamazov",
+            "president_of_the_court",
+            "the_public",
+            "ladies_gathering"
+          ]
+        },
+        {
+          "startParagraph": 31,
+          "endParagraph": 42,
+          "locationDescription": "In the courtroom, during Katerina Ivanovna's testimony",
+          "imageDescription": "A packed Russian courtroom with everyone turning their attention to Katerina Ivanovna as she makes her way in, dressed in an elegant black gown with dark, somber eyes. The gathered ladies clutch their lorgnettes and fans, while men rise from their seats for a better view. Judges and attorneys look on respectfully. The light is steady and bright, illuminating Katerina’s dignified poise amid the expectant, fascinated crowd in their period-appropriate 19th-century attire.",
+          "characterIds": [
+            "katerina_ivanovna",
+            "dmitri_fyodorovitch_karamazov",
+            "president_of_the_court",
+            "fetyukovitch",
+            "the_public",
+            "ladies_gathering"
+          ]
+        },
+        {
+          "startParagraph": 43,
+          "endParagraph": 60,
+          "locationDescription": "In the courtroom, during Grushenka's (the enchantress's) testimony",
+          "imageDescription": "Inside the formal courtroom, Grushenka enters gracefully, draped in an elegant black shawl and dress, her demeanor proud and assertive. Judges and lawyers sit at their posts, while an audience of townspeople, including Katerina Ivanovna seated with downcast eyes, watch intently. Some spectators glare or whisper behind gloved hands. The light is even and cool, casting clear definition on Grushenka’s striking features as she faces the bench, the room tense with undercurrents of judgment and intrigue.",
+          "characterIds": [
+            "the_enchantress",
+            "president_of_the_court",
+            "fetyukovitch",
+            "katerina_ivanovna",
+            "dmitri_fyodorovitch_karamazov",
+            "the_public",
+            "ladies_gathering",
+            "samsonov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "entities": [
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…had little information to give after all that had been given. Time was passing. Ivan walked up with extraordinary slowness, looking at no one, and with his head bowed, as though plunged in gloomy thought. He was irreproachably dressed, but…"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> I may note that he had been called before Alyosha. But the usher of the court announced to the President that, owing to an attack of illness or some sort of fit, the witness could not appear at the moment, but"
+        },
+        {
+          "entityId": "president_of_the_court",
+          "type": "person",
+          "firstSeenInChapter": 80,
+          "excerpt": "…his seat and moaned “Ah!” I remember that, but it was hardly noticed. </p>  <p> The President began by informing him that he was a witness not on oath, that he might answer or refuse to answer, but that, of course, he must bear witness acc…"
+        },
+        {
+          "entityId": "usher_of_the_court",
+          "type": "person",
+          "firstSeenInChapter": 84,
+          "excerpt": "<p> I may note that he had been called before Alyosha. But the usher of the court announced to the President that, owing to an attack of illness or some sort of fit, the witness could not appear at the moment, but was ready to give his evi…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ered that he did not know. He knew nothing of his father’s money relations with Dmitri. “I wasn’t interested in the subject,” he added. Threats to murder his father he had heard from the prisoner. Of the money in the envelope he had heard …"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ionally. To many questions he answered that he did not know. He knew nothing of his father’s money relations with Dmitri. “I wasn’t interested in the subject,” he added. Threats to murder his father he had heard from the prisoner. Of the m…"
+        },
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…he had heard from the prisoner. Of the money in the envelope he had heard from Smerdyakov. </p>  <p> “The same thing over and over again,” he interrupted suddenly, with a look of weariness. “I have nothing particular to tell the court.” </…"
+        },
+        {
+          "entityId": "the_superintendent",
+          "type": "person",
+          "firstSeenInChapter": 73,
+          "excerpt": "…dence), “for the sake of which our father was murdered. Where shall I put them? Mr. Superintendent, take them.” </p>  <p> The usher of the court took the whole roll and handed it to the President. </p>  <p> “How could this money have come …"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…lyosha jumped up and cried, “He is ill. Don’t believe him: he has brain fever.” Katerina Ivanovna rose impulsively from her seat and, rigid with horror, gazed at Ivan. Mitya stood up and greedily looked at his brother and listened to him w…"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…e fell on the floor, sobbing and screaming. She was carried out. At that moment Grushenka, with a wail, rushed towards Mitya before they had time to prevent her. </p>  <p> “Mitya,” she wailed, “your serpent has destroyed you! There, she ha…"
+        },
+        {
+          "entityId": "ippolit_kirillovitch",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…well and understand your feelings,” the President began. </p>  <p> He turned to the prosecutor and the counsel for the defense to invite them to examine the witness, if necessary, when Ivan suddenly asked in an exhausted voice: </p>  <p> “…"
+        },
+        {
+          "entityId": "the_counsel_for_the_defense",
+          "type": "person",
+          "firstSeenInChapter": 80,
+          "excerpt": "…your feelings,” the President began. </p>  <p> He turned to the prosecutor and the counsel for the defense to invite them to examine the witness, if necessary, when Ivan suddenly asked in an exhausted voice: </p>  <p> “Let me go, your exce…"
+        },
+        {
+          "entityId": "fetyukovitch",
+          "type": "person",
+          "firstSeenInChapter": 70,
+          "excerpt": "…dent in obvious dismay. The two other judges communicated in agitated whispers. Fetyukovitch pricked up his ears as he listened: the hall was hushed in expectation. The President seemed suddenly to recollect himself. </p>  <p> “Witness, yo…"
+        },
+        {
+          "entityId": "the_moscow_doctor",
+          "type": "person",
+          "firstSeenInChapter": 76,
+          "excerpt": "…ctacle must have been satisfied—the show had been a varied one. Then I remember the Moscow doctor appeared on the scene. I believe the President had previously sent the court usher to arrange for medical aid for Ivan. The doctor announced …"
+        },
+        {
+          "entityId": "jury",
+          "type": "person",
+          "firstSeenInChapter": 81,
+          "excerpt": "…e President must, I suppose, have at once passed on the document to the judges, the jury, and the lawyers on both sides. I only remember how they began examining the witness. On being gently asked by the President whether she had recovered…"
+        },
+        {
+          "entityId": "the_lawyers",
+          "type": "person",
+          "firstSeenInChapter": 80,
+          "excerpt": "…st, I suppose, have at once passed on the document to the judges, the jury, and the lawyers on both sides. I only remember how they began examining the witness. On being gently asked by the President whether she had recovered sufficiently,…"
+        },
+        {
+          "entityId": "the_clerk",
+          "type": "person",
+          "firstSeenInChapter": 84
+        },
+        {
+          "entityId": "the_devil",
+          "type": "person",
+          "firstSeenInChapter": 16
+        },
+        {
+          "entityId": "the_peasantry",
+          "type": "person",
+          "firstSeenInChapter": 42,
+          "excerpt": "…h he had reached a decision, smiled slowly, and went back. </p>  <p> “I am like the peasant girl, your excellency ... you know. How does it go? ‘I’ll stand up if I like, and I won’t if I don’t.’ They were trying to put on her sarafan to ta…"
+        },
+        {
+          "entityId": "christ",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…et circenses_. Though I am one to talk! Have you any water? Give me a drink for Christ’s sake!” He suddenly clutched his head. </p>  <p> The usher at once approached him. Alyosha jumped up and cried, “He is ill. Don’t believe him: he has b…"
+        },
+        {
+          "entityId": "the_public",
+          "type": "person",
+          "firstSeenInChapter": 80,
+          "excerpt": "…ival ladies, had already been questioned. Curiosity was satisfied for the time; the public was feeling almost fatigued. Several more witnesses were still to be heard, who probably had little information to give after all that had been give…"
+        },
+        {
+          "entityId": "the_jury",
+          "type": "person",
+          "firstSeenInChapter": 80,
+          "excerpt": "…my mind. The President must, I suppose, have at once passed on the document to the judges, the jury, and the lawyers on both sides. I only remember how they began examining the witness. On being gently asked by the President whether she ha…"
+        },
+        {
+          "entityId": "the_defense",
+          "type": "person",
+          "firstSeenInChapter": 81,
+          "excerpt": "…the President began. </p>  <p> He turned to the prosecutor and the counsel for the defense to invite them to examine the witness, if necessary, when Ivan suddenly asked in an exhausted voice: </p>  <p> “Let me go, your excellency, I feel v…"
+        },
+        {
+          "entityId": "the_prosecution",
+          "type": "person",
+          "firstSeenInChapter": 81,
+          "excerpt": "…was electrified by the late catastrophe, and all were awaiting the speeches for the prosecution and the defense with intense impatience. Fetyukovitch was obviously shaken by Katerina Ivanovna’s evidence. But the prosecutor was triumphant. …"
+        },
+        {
+          "entityId": "the_protocol_of_evidence",
+          "type": "event",
+          "firstSeenInChapter": 61,
+          "excerpt": "…both the unexpected pieces of evidence (given by Ivan and Katerina Ivanovna) on the protocol. </p>  <p> But I will not detail the evidence of the other witnesses, who only repeated and confirmed what had been said before, though all with t…"
+        },
+        {
+          "entityId": "document_of_proof_the_letter",
+          "type": "event",
+          "firstSeenInChapter": 76
+        },
+        {
+          "entityId": "the_metropolis",
+          "type": "place",
+          "firstSeenInChapter": 30
+        },
+        {
+          "entityId": "prison",
+          "type": "place",
+          "firstSeenInChapter": 62,
+          "excerpt": "…d in the subject,” he added. Threats to murder his father he had heard from the prisoner. Of the money in the envelope he had heard from Smerdyakov. </p>  <p> “The same thing over and over again,” he interrupted suddenly, with a look of we…"
+        },
+        {
+          "entityId": "the_material_proofs",
+          "type": "event",
+          "firstSeenInChapter": 80,
+          "excerpt": "…notes that lay in that envelope” (he nodded towards the table on which lay the material evidence), “for the sake of which our father was murdered. Where shall I put them? Mr. Superintendent, take them.” </p>  <p> The usher of the court too…"
+        },
+        {
+          "entityId": "the_geological_cataclysm",
+          "type": "event",
+          "firstSeenInChapter": 78,
+          "excerpt": "…u see, listen to me. I told him I don’t want to keep quiet, and he talked about the geological cataclysm ... idiocy! Come, release the monster ... he’s been singing a hymn. That’s because his heart is light! It’s like a drunken man in the …"
+        },
+        {
+          "entityId": "the_case",
+          "type": "event",
+          "firstSeenInChapter": 70,
+          "excerpt": "…der what circumstances she received it. </p>  <p> “I received it the day before the crime was committed, but he wrote it the day before that, at the tavern—that is, two days before he committed the crime. Look, it is written on some sort o…"
+        },
+        {
+          "entityId": "the_crime_trial_of_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 65,
+          "excerpt": "…he material proofs. After some deliberation, the judges decided to proceed with the trial and to enter both the unexpected pieces of evidence (given by Ivan and Katerina Ivanovna) on the protocol. </p>  <p> But I will not detail the eviden…"
+        },
+        {
+          "entityId": "the_speech_for_the_prosecution",
+          "type": "event",
+          "firstSeenInChapter": 81,
+          "excerpt": "…h their characteristic peculiarities. I repeat, all was brought together in the prosecutor’s speech, which I shall quote immediately. Every one was excited, every one was electrified by the late catastrophe, and all were awaiting the speec…"
+        },
+        {
+          "entityId": "the_speech_for_the_defense",
+          "type": "event",
+          "firstSeenInChapter": 81
+        },
+        {
+          "entityId": "the_event",
+          "type": "event",
+          "firstSeenInChapter": 47,
+          "excerpt": "…quote immediately. Every one was excited, every one was electrified by the late catastrophe, and all were awaiting the speeches for the prosecution and the defense with intense impatience. Fetyukovitch was obviously shaken by Katerina Ivan…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "In the courtroom, before Ivan's testimony",
+          "imageDescription": "A spacious, dimly lit Russian courtroom in the late 19th century. Officials in dark coats and waistcoats wait at a long table, while the public—villagers and townsfolk—fill wooden benches. On the judges’ dais, the President sits with the other officials, surrounded by heavy wood paneling. The atmosphere is tense, with people whispering and some looking somewhat fatigued after long proceedings.",
+          "characterIds": [
+            "president_of_the_court",
+            "usher_of_the_court",
+            "the_public"
+          ]
+        },
+        {
+          "startParagraph": 1,
+          "endParagraph": 1,
+          "locationDescription": "Ivan enters and takes the witness stand",
+          "imageDescription": "Ivan Fyodorovitch Karamazov, pale and somber in immaculate dark Russian attire, walks slowly and alone toward the witness stand, head bowed. Alyosha, in a simple suit, rises suddenly from his seat in the audience, visibly distressed. The courtroom is crowded: judges at the front, lawyers to the side, and the restless audience beyond. Lamps cast a pale golden light, illuminating Ivan’s drawn features. The mood is heavy with anticipation as eyes turn towards Ivan.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov",
+            "president_of_the_court",
+            "usher_of_the_court",
+            "the_public"
+          ]
+        },
+        {
+          "startParagraph": 2,
+          "endParagraph": 17,
+          "locationDescription": "At the witness stand during Ivan's interview",
+          "imageDescription": "Ivan stands, face drawn and eyes vacant, before the judicial bench. The President of the Court, austere in formal attire, addresses him with a concerned expression. Other officials, including the prosecutor and defense attorney, lean forward attentively. Ivan’s posture is tense; behind him, Alyosha watches anxiously. The light is somber and focused, throwing shadows across dark timbered walls, evoking a stifling, expectant atmosphere.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov",
+            "president_of_the_court",
+            "usher_of_the_court",
+            "the_public",
+            "the_counsel_for_the_defense",
+            "fetyukovitch",
+            "ippolit_kirillovitch",
+            "the_lawyers"
+          ]
+        },
+        {
+          "startParagraph": 18,
+          "endParagraph": 23,
+          "locationDescription": "Courtroom as Ivan presents the money",
+          "imageDescription": "Ivan, his hand trembling, holds out a roll of banknotes before the President’s table. The President, startled, leans forward. The usher moves to take the money. Alyosha is rising from his seat, alarm in his face, while Katerina Ivanovna stands rigidly nearby, her eyes fixed on Ivan in horror. Dmitri stands behind bars, gripping them with an intense, wild expression. The audience cranes forward; the chamber’s lamplight shimmers across anxious faces.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov",
+            "president_of_the_court",
+            "usher_of_the_court",
+            "dmitri_fyodorovitch_karamazov",
+            "katerina_ivanovna",
+            "the_public"
+          ]
+        },
+        {
+          "startParagraph": 24,
+          "endParagraph": 31,
+          "locationDescription": "The courtroom descends into chaos after Ivan's breakdown",
+          "imageDescription": "Ivan, in obvious distress, clutches his head as the usher quickly approaches him; Alyosha leaps up, his concern evident. Katerina Ivanovna, pale and transfixed, stands nearby, while Dmitri watches with a strained, desperate smile. The President and judges confer nervously; Fetyukovitch leans forward, tense. The public is frozen in anticipation, some standing. The lighting is now harsh, exaggerating the fear and confusion in every face.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov",
+            "usher_of_the_court",
+            "president_of_the_court",
+            "katerina_ivanovna",
+            "dmitri_fyodorovitch_karamazov",
+            "fetyukovitch",
+            "ippolit_kirillovitch",
+            "the_lawyers",
+            "the_public"
+          ]
+        },
+        {
+          "startParagraph": 32,
+          "endParagraph": 32,
+          "locationDescription": "Ivan is forcibly removed from the courtroom",
+          "imageDescription": "Ivan is being restrained and violently flung to the floor by the usher, as police officers quickly intervene, gripping his arms. Ivan’s face is contorted in agony, mouth open in a scream. Alyosha rushes toward him but is held back. The whole courtroom is in turmoil—judges rising from their chairs, lawyers whispering, the public standing and murmuring, their faces shocked. The lighting is bright, dramatizing the chaos.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "usher_of_the_court",
+            "alexey_fyodorovitch_karamazov",
+            "president_of_the_court",
+            "the_lawyers",
+            "the_public"
+          ]
+        },
+        {
+          "startParagraph": 33,
+          "endParagraph": 35,
+          "locationDescription": "Aftermath in the courtroom: Katerina Ivanovna's hysterics and the letter",
+          "imageDescription": "Katerina Ivanovna, in a dark elegant dress, stands in the center of the courtroom sobbing hysterically, clutching a letter towards the President, who looks startled. The usher leans in to take the document, while the audience watches breathlessly. Dmitri looks anguished from the dock, his hands writhing. Alyosha remains in the background, deeply troubled. The room, still disturbed from Ivan’s removal, is tense and heavy, with gas lamps flickering across flushed, anxious faces.",
+          "characterIds": [
+            "katerina_ivanovna",
+            "president_of_the_court",
+            "usher_of_the_court",
+            "dmitri_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov",
+            "the_public"
+          ]
+        },
+        {
+          "startParagraph": 36,
+          "endParagraph": 37,
+          "locationDescription": "Katerina Ivanovna gives her testimony",
+          "imageDescription": "Katerina Ivanovna sits forward in her chair, gripping its arms, her face flushed and eyes shining with fervor. The President, pen poised, listens intently, while the prosecutor and defense attorney exchange wary glances. Dmitri, in his prisoner’s dock, watches her with a mixture of agony and longing. The murmuring public, including well-dressed ladies and local townsfolk, lean forward anxiously. The courtroom’s oil lamps cast a hot, revealing brightness on this emotional outburst.",
+          "characterIds": [
+            "katerina_ivanovna",
+            "president_of_the_court",
+            "dmitri_fyodorovitch_karamazov",
+            "the_counsel_for_the_defense",
+            "ippolit_kirillovitch",
+            "fetyukovitch",
+            "alexey_fyodorovitch_karamazov",
+            "the_lawyers",
+            "the_public"
+          ]
+        },
+        {
+          "startParagraph": 38,
+          "endParagraph": 43,
+          "locationDescription": "Katerina's confrontation with Dmitri and emotional collapse",
+          "imageDescription": "Dmitri, wild-eyed in the prisoner’s dock, shouts desperately across the court towards Katerina Ivanovna, whose face is tear-stained and defiant. The President gestures for silence. The audience, a mix of shocked and fascinated expressions, watches intently. The lighting is stark and dramatic, intensifying the confrontation as both characters’ emotions erupt, while court officials look on, caught off-guard by the raw spectacle.",
+          "characterIds": [
+            "katerina_ivanovna",
+            "dmitri_fyodorovitch_karamazov",
+            "president_of_the_court",
+            "alexey_fyodorovitch_karamazov",
+            "the_lawyers",
+            "the_public"
+          ]
+        },
+        {
+          "startParagraph": 44,
+          "endParagraph": 44,
+          "locationDescription": "Katerina Ivanovna's detailed confession and collapse",
+          "imageDescription": "Katerina Ivanovna, her posture tense and hands clenched, delivers her impassioned confession from her chair. Judges and lawyers lean forward in rapt attention, while Dmitri, slumped in despair, sits with his head in his hands. Alyosha watches, deeply moved. The audience of townsfolk and society ladies look on, captivated and aghast. Oil lamps illuminate faces gleaming with sweat, the entire room caught up in the emotional storm.",
+          "characterIds": [
+            "katerina_ivanovna",
+            "dmitri_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov",
+            "president_of_the_court",
+            "the_lawyers",
+            "the_public"
+          ]
+        },
+        {
+          "startParagraph": 41,
+          "endParagraph": 49,
+          "locationDescription": "Katerina Ivanovna collapses; Grushenka's outburst",
+          "imageDescription": "Katerina Ivanovna, overwhelmed by her outburst, collapses onto the floor, sobbing and trembling. Grushenka, disheveled and distraught in her glamorous provincial dress, rushes toward Dmitri with a wail, held back by guards as she strains to reach him. Dmitri attempts to rush to Grushenka but is restrained by officers. The entire audience and court staff are transfixed by the chaotic, emotional scene, under harsh gaslight.",
+          "characterIds": [
+            "katerina_ivanovna",
+            "dmitri_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov",
+            "the_public"
+          ]
+        },
+        {
+          "startParagraph": 50,
+          "endParagraph": 50,
+          "locationDescription": "Announcement by the Moscow doctor; proceedings resume",
+          "imageDescription": "The dignified Moscow doctor, clad in a neatly pressed black frock coat, stands addressing the bench, young assistants behind him. The President and lawyers listen gravely. The audience has settled somewhat, though the emotional strain remains visible in their postures. Ivan is no longer present; the court is quieter, luminous with softer, steady lamplight, as order begins to return and the doctor’s clinical presence brings a sense of medical authority to the tense proceedings.",
+          "characterIds": [
+            "the_moscow_doctor",
+            "president_of_the_court",
+            "ippolit_kirillovitch",
+            "the_counsel_for_the_defense",
+            "fetyukovitch",
+            "alexey_fyodorovitch_karamazov",
+            "the_lawyers",
+            "the_public"
+          ]
+        },
+        {
+          "startParagraph": 51,
+          "endParagraph": 51,
+          "locationDescription": "Courtroom resumes order for closing speeches",
+          "imageDescription": "The courtroom is calm once more, the President returned to his seat, surrounded by clerks and judges. The audience sits in tense expectation, their faces illuminated by soft lamplight as the late hour approaches. Ippolit Kirillovitch, the prosecutor, rises to begin his speech, his figure highlighted by a single lamp. Lawyers, jurors, and parties to the case sit ready, all focus converging on the front of the chamber for the closing arguments.",
+          "characterIds": [
+            "president_of_the_court",
+            "ippolit_kirillovitch",
+            "the_counsel_for_the_defense",
+            "fetyukovitch",
+            "the_lawyers",
+            "the_jury",
+            "the_public"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "entities": [
+        {
+          "entityId": "ippolit_kirillovitch",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "<p> Ippolit Kirillovitch began his speech, trembling with nervousness, with cold sweat on his forehead, feeling hot and cold all over by turns. He described this himself afterwards. He"
+        },
+        {
+          "entityId": "jury",
+          "type": "person",
+          "firstSeenInChapter": 81,
+          "excerpt": "…nd of his speech. But as soon as he had finished, he almost fainted. </p>  <p> “Gentlemen of the jury,” began the prosecutor, “this case has made a stir throughout Russia. But what is there to wonder at, what is there so peculiarly horrify…"
+        },
+        {
+          "entityId": "russia",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…lemen of the jury,” began the prosecutor, “this case has made a stir throughout Russia. But what is there to wonder at, what is there so peculiarly horrifying in it for us? We are so accustomed to such crimes! That’s what’s so horrible, th…"
+        },
+        {
+          "entityId": "europe",
+          "type": "place",
+          "firstSeenInChapter": 10,
+          "excerpt": "…us!’... </p>  <p> “Yes, one day perhaps the leading intellects of Russia and of Europe will study the psychology of Russian crime, for the subject is worth it. But this study will come later, at leisure, when all the tragic topsy‐turvydom …"
+        },
+        {
+          "entityId": "press",
+          "type": "event",
+          "firstSeenInChapter": 85,
+          "excerpt": "…ained hostile to Ippolit Kirillovitch, admitted that he made an extraordinary impression on them. He began in a breaking voice, but it soon gained strength and filled the court to the end of his speech. But as soon as he had finished, he a…"
+        },
+        {
+          "entityId": "jury_courts",
+          "type": "event",
+          "firstSeenInChapter": 85,
+          "excerpt": "…ich are continually made known by the press, not merely to those who attend the new jury courts established in the present reign, but to every one. And what do we read almost daily? Of things beside which the present case grows pale, and s…"
+        },
+        {
+          "entityId": "the_public",
+          "type": "person",
+          "firstSeenInChapter": 80,
+          "excerpt": "…be harassed by them. Our newborn and still timid press has done good service to the public already, for without it we should never have heard of the horrors of unbridled violence and moral degradation which are continually made known by th…"
+        },
+        {
+          "entityId": "the_court",
+          "type": "place",
+          "firstSeenInChapter": 80,
+          "excerpt": "…n on them. He began in a breaking voice, but it soon gained strength and filled the court to the end of his speech. But as soon as he had finished, he almost fainted. </p>  <p> “Gentlemen of the jury,” began the prosecutor, “this case has …"
+        },
+        {
+          "entityId": "the_prosecution",
+          "type": "event",
+          "firstSeenInChapter": 81,
+          "excerpt": "…as he had finished, he almost fainted. </p>  <p> “Gentlemen of the jury,” began the prosecutor, “this case has made a stir throughout Russia. But what is there to wonder at, what is there so peculiarly horrifying in it for us? We are so ac…"
+        },
+        {
+          "entityId": "the_speech_for_the_prosecution",
+          "type": "event",
+          "firstSeenInChapter": 81,
+          "excerpt": "…n older generation, ours are worse specimens still....” </p>  <p> At this point Ippolit Kirillovitch’s speech was interrupted by applause. The liberal significance of this simile was appreciated. The applause was, it’s true, of brief durat…"
+        },
+        {
+          "entityId": "ladies_gathering",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…engeance he quivered with a genuine passion “for the security of society.” Even the ladies in the audience, though they remained hostile to Ippolit Kirillovitch, admitted that he made an extraordinary impression on them. He began in a brea…"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…brought his children up to be the same. He had no feelings for his duties as a father. He ridiculed those duties. He left his little children to the servants, and was glad to be rid of them, forgot about them completely. The old man’s maxi…"
+        },
+        {
+          "entityId": "the_karamazovs",
+          "type": "person",
+          "firstSeenInChapter": 32,
+          "excerpt": "…ortunity of securing the ear of all Russia. </p>  <p> “What, after all, is this Karamazov family, which has gained such an unenviable notoriety throughout Russia?” he continued. “Perhaps I am exaggerating, but it seems to me that certain f…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…he third son. Oh, he is a devout and modest youth, who does not share his elder brother’s gloomy and destructive theory of life. He has sought to cling to the ‘ideas of the people,’ or to what goes by that name in some circles of our intel…"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…kov. At the preliminary inquiry, he told me with hysterical tears how the young Ivan Karamazov had horrified him by his spiritual audacity. ‘Everything in the world is lawful according to him, and nothing must be forbidden in the future—th…"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ortunity of securing the ear of all Russia. </p>  <p> “What, after all, is this Karamazov family, which has gained such an unenviable notoriety throughout Russia?” he continued. “Perhaps I am exaggerating, but it seems to me that certain f…"
+        },
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…formerly the servant, and possibly the illegitimate son, of Fyodor Pavlovitch, Smerdyakov. At the preliminary inquiry, he told me with hysterical tears how the young Ivan Karamazov had horrified him by his spiritual audacity. ‘Everything i…"
+        },
+        {
+          "entityId": "divinity_student",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…rk made by a young observer who has seen the Karamazov family at close quarters—Mr. Rakitin: ‘The sense of their own degradation is as essential to those reckless, unbridled natures as the sense of their lofty generosity.’ And that’s true,…"
+        },
+        {
+          "entityId": "saint_petersburg",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…intend to leave the prisoner’s defense altogether to my talented colleague from Petersburg. I will speak the truth myself, I can well understand what resentment he had heaped up in his son’s heart against him. </p>  <p> “But enough, enough…"
+        },
+        {
+          "entityId": "nozdryov",
+          "type": "person",
+          "firstSeenInChapter": 52,
+          "excerpt": "…censorship of the day. For if the troika were drawn by his heroes, Sobakevitch, Nozdryov, Tchitchikov, it could reach no rational goal, whoever might be driving it. And those were the heroes of an older generation, ours are worse specimens…"
+        },
+        {
+          "entityId": "tchitchikov",
+          "type": "person",
+          "firstSeenInChapter": 85,
+          "excerpt": "…of the day. For if the troika were drawn by his heroes, Sobakevitch, Nozdryov, Tchitchikov, it could reach no rational goal, whoever might be driving it. And those were the heroes of an older generation, ours are worse specimens still....”…"
+        },
+        {
+          "entityId": "sobakevitch",
+          "type": "person",
+          "firstSeenInChapter": 85,
+          "excerpt": "…fear of the censorship of the day. For if the troika were drawn by his heroes, Sobakevitch, Nozdryov, Tchitchikov, it could reach no rational goal, whoever might be driving it. And those were the heroes of an older generation, ours are wor…"
+        },
+        {
+          "entityId": "dead_souls",
+          "type": "event",
+          "firstSeenInChapter": 52
+        },
+        {
+          "entityId": "president_of_the_court",
+          "type": "person",
+          "firstSeenInChapter": 80,
+          "excerpt": "…simile was appreciated. The applause was, it’s true, of brief duration, so that the President did not think it necessary to caution the public, and only looked severely in the direction of the offenders. But Ippolit Kirillovitch was encour…"
+        },
+        {
+          "entityId": "europe",
+          "type": "place",
+          "firstSeenInChapter": 10,
+          "excerpt": "…us!’... </p>  <p> “Yes, one day perhaps the leading intellects of Russia and of Europe will study the psychology of Russian crime, for the subject is worth it. But this study will come later, at leisure, when all the tragic topsy‐turvydom …"
+        },
+        {
+          "entityId": "mother_russia",
+          "type": "place",
+          "firstSeenInChapter": 85,
+          "excerpt": "…ot all Russia, not all! God preserve us, if it were! Yet, here we have her, our mother Russia, the very scent and sound of her. Oh, he is spontaneous, he is a marvelous mingling of good and evil, he is a lover of culture and Schiller, yet …"
+        },
+        {
+          "entityId": "schiller",
+          "type": "person",
+          "firstSeenInChapter": 85,
+          "excerpt": "…eous, he is a marvelous mingling of good and evil, he is a lover of culture and Schiller, yet he brawls in taverns and plucks out the beards of his boon companions. Oh, he, too, can be good and noble, but only when all goes well with him. …"
+        },
+        {
+          "entityId": "the_backalley",
+          "type": "place",
+          "firstSeenInChapter": 18
+        },
+        {
+          "entityId": "the_incident_of_the_pound_of_nuts",
+          "type": "event",
+          "firstSeenInChapter": 82
+        },
+        {
+          "entityId": "inheritance_dispute_dmitri_vs_fyodor_pavlovitch",
+          "type": "event",
+          "firstSeenInChapter": 46
+        },
+        {
+          "entityId": "mityas_theft_of_three_thousand_roubles_from_katerina_ivanovna",
+          "type": "event",
+          "firstSeenInChapter": 60
+        },
+        {
+          "entityId": "division_and_concealment_of_the_money_fifteen_hundred_sewn_up",
+          "type": "event",
+          "firstSeenInChapter": 60
+        },
+        {
+          "entityId": "the_trial",
+          "type": "event",
+          "firstSeenInChapter": 74
+        },
+        {
+          "entityId": "the_case",
+          "type": "event",
+          "firstSeenInChapter": 70,
+          "excerpt": "…ign, but to every one. And what do we read almost daily? Of things beside which the present case grows pale, and seems almost commonplace. But what is most important is that the majority of our national crimes of violence bear witness to a…"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Courtroom during Ippolit Kirillovitch's address",
+          "imageDescription": "A large, wood-paneled Russian courtroom of the 19th century, filled with rows of spectators in period attire. At the front stands Ippolit Kirillovitch, a gaunt and nervous prosecutor, dabbing at his brow, beside a grand judge’s bench. Well-dressed men and women of the gentry, the assembled jury, ladies in bonnets, and assorted onlookers fill the benches. Warm oil-lamp lighting illuminates the stern faces and thick shadows, conveying a tense, expectant atmosphere.",
+          "characterIds": [
+            "ippolit_kirillovitch",
+            "jury",
+            "the_public",
+            "ladies_gathering",
+            "dmitri_fyodorovitch_karamazov",
+            "fyodor_pavlovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov",
+            "smerdyakov",
+            "president_of_the_court",
+            "katerina_ivanovna"
+          ]
+        },
+        {
+          "startParagraph": 1,
+          "endParagraph": 4,
+          "locationDescription": "Courtroom, focus on Ippolit Kirillovitch’s argument about Russian society and crime",
+          "imageDescription": "The same courtroom setting, with the focus now on Ippolit Kirillovitch passionately addressing the jury, gesturing with his hand. The jury, mostly middle-aged Russian men in dark coats, listen intently from their box. Public spectators, including ladies in shawls and bonnets, lean forward in their seats. Chandeliers cast a golden light, creating an atmosphere of heightened drama and reflection.",
+          "characterIds": [
+            "ippolit_kirillovitch",
+            "jury",
+            "the_public",
+            "ladies_gathering"
+          ]
+        },
+        {
+          "startParagraph": 5,
+          "endParagraph": 5,
+          "locationDescription": "Courtroom, discussing Russian criminal types citing classic literary figures",
+          "imageDescription": "Ippolit Kirillovitch stands beside a wooden podium, referencing Sobakevitch, Nozdryov, and Tchitchikov as examples, gesturing animatedly as he speaks. Members of the audience—men of letters, scholarly types—exchange knowing glances, some nodding. Wooden benches and the judge’s high-backed chair add to the stately ambiance. Lamplight glistens on polished boots and metallic buttons, suggesting literary and historical gravity.",
+          "characterIds": [
+            "ippolit_kirillovitch",
+            "jury",
+            "the_public",
+            "ladies_gathering",
+            "sobakevitch",
+            "nozdryov",
+            "tchitchikov"
+          ]
+        },
+        {
+          "startParagraph": 6,
+          "endParagraph": 6,
+          "locationDescription": "Courtroom, applause interrupts the speech",
+          "imageDescription": "A sudden stir among the audience in the courtroom: a few well-dressed gentlemen and ladies clap their hands, drawing stern glances from the president of the court. Ippolit Kirillovitch stands briefly startled and then encouraged. The judge’s desk, walls lined with dark panels, and the blazing lamps highlight the excitement and breach of courtroom decorum.",
+          "characterIds": [
+            "ippolit_kirillovitch",
+            "president_of_the_court",
+            "jury",
+            "the_public",
+            "ladies_gathering"
+          ]
+        },
+        {
+          "startParagraph": 7,
+          "endParagraph": 9,
+          "locationDescription": "Courtroom, return to the Karamazov family history",
+          "imageDescription": "Ippolit Kirillovitch stands before the jury, shifting his attention from Russian society to the notorious Karamazov family. The public and jury remain attentive; behind him, the figures of Dmitri, Ivan, and Alexey Karamazov are visible, each distinct in stance and dress—Dmitri restless, Ivan intellectual, Alyosha gentle. The President of the Court sits impassive above. The heavy atmosphere is tinged with scandal and fascination.",
+          "characterIds": [
+            "ippolit_kirillovitch",
+            "jury",
+            "the_public",
+            "dmitri_fyodorovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov",
+            "fyodor_pavlovitch_karamazov",
+            "president_of_the_court"
+          ]
+        },
+        {
+          "startParagraph": 10,
+          "endParagraph": 11,
+          "locationDescription": "Courtroom, sketching Ivan's and Smerdyakov's characters",
+          "imageDescription": "Ippolit Kirillovitch, pointing to Ivan in the dock, while the pale Ivan sits somberly with downcast eyes. Reference to Smerdyakov, who is absent but whose portrait hangs in the narrator’s words, creates a sombre undertone. Members of the public try to catch a glimpse of the family drama. Rich textiles and deep wood create an air of tragic inheritance.",
+          "characterIds": [
+            "ippolit_kirillovitch",
+            "ivan_fyodorovitch_karamazov",
+            "smerdyakov",
+            "jury",
+            "the_public"
+          ]
+        },
+        {
+          "startParagraph": 12,
+          "endParagraph": 13,
+          "locationDescription": "Courtroom, turn to Alexey’s (Alyosha’s) character",
+          "imageDescription": "Ippolit Kirillovitch now looks toward Alyosha—Alexey Fyodorovitch—who sits quietly, his gentle demeanor evident, dressed in simple, monkish garments. The audience and jury observe him with a mix of curiosity and admiration. There is a sense of quiet hope amid the tension. Golden lantern light falls softly on his youthful face.",
+          "characterIds": [
+            "ippolit_kirillovitch",
+            "alexey_fyodorovitch_karamazov",
+            "jury",
+            "the_public"
+          ]
+        },
+        {
+          "startParagraph": 14,
+          "endParagraph": 14,
+          "locationDescription": "Courtroom, applause at mention of chauvinism and mysticism",
+          "imageDescription": "A moment of brief, scattered applause from a few spectators in the courtroom, drawing some to look around with surprise. Ippolit Kirillovitch stands at his place, slightly flushed and self-conscious after his passionate outburst. The president remains calm, and the rest of the crowd is mostly still. The lighting remains steady, the excitement having briefly flared and faded.",
+          "characterIds": [
+            "ippolit_kirillovitch",
+            "jury",
+            "the_public"
+          ]
+        },
+        {
+          "startParagraph": 15,
+          "endParagraph": 15,
+          "locationDescription": "Courtroom, focused analysis of Dmitri and family drama",
+          "imageDescription": "Ippolit Kirillovitch solemnly addresses the court and the somber figure of Dmitri Fyodorovitch Karamazov, who sits on the defendant’s bench, dressed in a disheveled officer’s uniform, his expression a mix of defiance and vulnerability. Other Karamazovs are visible in the background, the family tragedy palpable. Courthouse officials, including the president of the court, listen with gravity.",
+          "characterIds": [
+            "ippolit_kirillovitch",
+            "dmitri_fyodorovitch_karamazov",
+            "jury",
+            "the_public",
+            "president_of_the_court"
+          ]
+        },
+        {
+          "startParagraph": 16,
+          "endParagraph": 16,
+          "locationDescription": "Courtroom, recounting Dmitri’s past, exile, and money troubles",
+          "imageDescription": "The vision shifts to a recollective scene in the courtroom: Ippolit Kirillovitch describes the impoverished childhood of Dmitri, conjuring the image of a ragged barefoot boy amid mud and snow, contrasted with the present Dmitri in the dock, older and tormented. The courtroom remains attentive, the judge stern. Lamps flicker in the dusk outside tall windows.",
+          "characterIds": [
+            "ippolit_kirillovitch",
+            "dmitri_fyodorovitch_karamazov",
+            "jury",
+            "the_public"
+          ]
+        },
+        {
+          "startParagraph": 17,
+          "endParagraph": 18,
+          "locationDescription": "Courtroom, narrative of Dmitri’s affair and the three thousand roubles",
+          "imageDescription": "In the courtroom, Ippolit Kirillovitch recounts the drama involving Dmitri and Katerina Ivanovna, mentioning the exchange of money. Katerina Ivanovna is present, pale and proud, seated among the ladies; Dmitri’s embarrassment is clear. The audience reacts with muted whispers, tension simmering among women in lavish dresses and men in formal coats.",
+          "characterIds": [
+            "ippolit_kirillovitch",
+            "dmitri_fyodorovitch_karamazov",
+            "katerina_ivanovna",
+            "jury",
+            "the_public",
+            "ladies_gathering"
+          ]
+        },
+        {
+          "startParagraph": 19,
+          "endParagraph": 21,
+          "locationDescription": "Courtroom, questioning the legend of the bag of money",
+          "imageDescription": "Ippolit Kirillovitch animatedly outlines the improbability of Dmitri’s story of the bag of money before the jury and attentive public. Dmitri’s tense posture is highlighted, while certain jurors exchange uneasy glances. The mood is probing and analytical, the scene lit by a row of oil lamps that reflect off dark, polished furniture.",
+          "characterIds": [
+            "ippolit_kirillovitch",
+            "dmitri_fyodorovitch_karamazov",
+            "jury",
+            "the_public"
+          ]
+        },
+        {
+          "startParagraph": 22,
+          "endParagraph": 22,
+          "locationDescription": "Courtroom, transitioning to financial evidence and expert testimony",
+          "imageDescription": "As the speech shifts to technical discussions, the court focuses on ledgers and official documents presented by lawyers. Ippolit Kirillovitch gestures toward the evidence table. The president of the court presides gravely, and the audience turns more subdued, some consulting their neighbors quietly. The heavy Russian decor and flicker of lamplight enhance the gravity of judicial process.",
+          "characterIds": [
+            "ippolit_kirillovitch",
+            "jury",
+            "the_public",
+            "president_of_the_court"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "entities": [
+        {
+          "entityId": "ippolit_kirillovitch",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…a special motive at the bottom of it. That motive is jealousy!” </p>  <p> Here Ippolit Kirillovitch described at length the prisoner’s fatal passion for Grushenka. He began from the moment when the prisoner went to the “young person’s” lod…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…’ ” </p>  <p> Here Ippolit Kirillovitch passed to a detailed description of all Mitya’s efforts to borrow the money. He described his visit to Samsonov, his journey to Lyagavy. “Harassed, jeered at, hungry, after selling his watch to pay f…"
+        },
+        {
+          "entityId": "varvinsky",
+          "type": "person",
+          "firstSeenInChapter": 55
+        },
+        {
+          "entityId": "the_jury",
+          "type": "person",
+          "firstSeenInChapter": 80
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…Here Ippolit Kirillovitch described at length the prisoner’s fatal passion for Grushenka. He began from the moment when the prisoner went to the “young person’s” lodgings “to beat her”—“I use his own expression,” the prosecutor explained—“…"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…er feet. That was the beginning of the passion. At the same time the prisoner’s father was captivated by the same young person—a strange and fatal coincidence, for they both lost their hearts to her simultaneously, though both had known he…"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…Here Ippolit Kirillovitch described at length the prisoner’s fatal passion for Grushenka. He began from the moment when the prisoner went to the “young person’s” lodgings “to beat her”—“I use his own expression,” the prosecutor explained—“…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…’ ” </p>  <p> Here Ippolit Kirillovitch passed to a detailed description of all Mitya’s efforts to borrow the money. He described his visit to Samsonov, his journey to Lyagavy. “Harassed, jeered at, hungry, after selling his watch to pay f…"
+        },
+        {
+          "entityId": "divinity_student",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…his arrest. </p>  <p> “The talented young man, to whom I have referred already, Mr. Rakitin, characterized this heroine in brief and impressive terms: ‘She was disillusioned early in life, deceived and ruined by a betrothed, who seduced an…"
+        },
+        {
+          "entityId": "the_officer",
+          "type": "person",
+          "firstSeenInChapter": 44
+        },
+        {
+          "entityId": "samsonov",
+          "type": "person",
+          "firstSeenInChapter": 12,
+          "excerpt": "…scription of all Mitya’s efforts to borrow the money. He described his visit to Samsonov, his journey to Lyagavy. “Harassed, jeered at, hungry, after selling his watch to pay for the journey (though he tells us he had fifteen hundred roubl…"
+        },
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…) Then he hastens back to his ambush in the back gardens, and there learns that Smerdyakov is in a fit, that the other servant is ill—the coast is clear and he knows the ‘signals’—what a temptation! Still he resists it; he goes off to a la…"
+        },
+        {
+          "entityId": "madame_hohlakov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…s for some time been residing in the town, and who is highly esteemed among us, Madame Hohlakov. That lady, who had long watched his career with compassion, gave him the most judicious advice, to give up his dissipated life, his unseemly l…"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…in order to take the envelope with the notes from under his pillow, as soon as Ivan had left. ‘As soon as Ivan had gone away’—you hear that; so he had thought everything out, weighing every circumstance, and he carried it all out just as h…"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…r before. And she inspired in both of them the most violent, characteristically Karamazov passion. We have her own confession: ‘I was laughing at both of them.’ Yes, the sudden desire to make a jest of them came over her, and she conquered…"
+        },
+        {
+          "entityId": "the_captain",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…rage and smashes up everything in the tavern. [Then followed the anecdote about Captain Snegiryov.] Those who heard the prisoner began to think at last that he might mean more than threats, and that such a frenzy might turn threats into ac…"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9
+        },
+        {
+          "entityId": "lyagavy",
+          "type": "person",
+          "firstSeenInChapter": 38,
+          "excerpt": "…efforts to borrow the money. He described his visit to Samsonov, his journey to Lyagavy. “Harassed, jeered at, hungry, after selling his watch to pay for the journey (though he tells us he had fifteen hundred roubles on him—a likely story)…"
+        },
+        {
+          "entityId": "the_metropolis",
+          "type": "place",
+          "firstSeenInChapter": 30
+        },
+        {
+          "entityId": "the_town",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…ely story), tortured by jealousy at having left the object of his affections in the town, suspecting that she would go to Fyodor Pavlovitch in his absence, he returned at last to the town, to find, to his joy, that she had not been near hi…"
+        },
+        {
+          "entityId": "siberia",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…his father and rival. It was in that position that he was arrested. ‘Send me to Siberia with him, I have brought him to this, I am most to blame,’ the woman herself cried, in genuine remorse at the moment of his arrest. </p>  <p> “The tale…"
+        },
+        {
+          "entityId": "the_goldmines",
+          "type": "place",
+          "firstSeenInChapter": 54
+        },
+        {
+          "entityId": "samsonovs_house",
+          "type": "place",
+          "firstSeenInChapter": 46,
+          "excerpt": "…tion and the moment when the prisoner learnt that Grushenka had not remained at Samsonov’s, the sudden frenzy of the luckless man worn out with jealousy and nervous exhaustion, at the thought that she had deceived him and was now with his …"
+        },
+        {
+          "entityId": "the_garden",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…of Samsonov, which is psychologically interesting.) Then he hastens back to his ambush in the back gardens, and there learns that Smerdyakov is in a fit, that the other servant is ill—the coast is clear and he knows the ‘signals’—what a te…"
+        },
+        {
+          "entityId": "the_secret_of_the_knocks",
+          "type": "event",
+          "firstSeenInChapter": 75
+        },
+        {
+          "entityId": "the_copse_sale_negotiations",
+          "type": "event",
+          "firstSeenInChapter": 46
+        },
+        {
+          "entityId": "sale_of_his_watch",
+          "type": "event",
+          "firstSeenInChapter": 57
+        },
+        {
+          "entityId": "mokroe",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…the fatal influence of chance. “Had the maid told him that her mistress was at Mokroe with her former lover, nothing would have happened. But she lost her head, she could only swear and protest her ignorance, and if the prisoner did not ki…"
+        },
+        {
+          "entityId": "the_envelope_with_three_thousand_roubles",
+          "type": "event",
+          "firstSeenInChapter": 37,
+          "excerpt": "…, that I would agree with, but only in one point, that is, his fixed idea about the three thousand. Yet I think one might find a much simpler cause than his tendency to insanity. For my part I agree thoroughly with the young doctor who mai…"
+        },
+        {
+          "entityId": "the_brass_mortar_object",
+          "type": "event",
+          "firstSeenInChapter": 48
+        },
+        {
+          "entityId": "the_screen_chinese",
+          "type": "place",
+          "firstSeenInChapter": 49
+        },
+        {
+          "entityId": "the_window",
+          "type": "place",
+          "firstSeenInChapter": 58,
+          "excerpt": "…ehind the screen; and the unhappy man would have us believe that he stole up to the window, peeped respectfully in, and discreetly withdrew, for fear something terrible and immoral should happen. And he tries to persuade us of that, us, wh…"
+        },
+        {
+          "entityId": "the_scandal_in_the_elders_cell",
+          "type": "event",
+          "firstSeenInChapter": 11
+        },
+        {
+          "entityId": "alyoshas_last_meeting_with_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 48
+        },
+        {
+          "entityId": "the_murder_of_fyodor_pavlovitch",
+          "type": "event",
+          "firstSeenInChapter": 77,
+          "excerpt": "…yourselves heard that young lady’s exclamation, ‘It is the plan, the program of the murder!’ That is how she defined that miserable, drunken letter of the unhappy prisoner. And, in fact, from that letter we see that the whole fact of the m…"
+        },
+        {
+          "entityId": "attack_on_fyodor_pavlovitch_by_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 22
+        },
+        {
+          "entityId": "his_letter_sentence_of_death",
+          "type": "event",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "document_of_proof_the_letter",
+          "type": "event",
+          "firstSeenInChapter": 76
+        },
+        {
+          "entityId": "smerdyakovs_epileptic_fitfall_in_the_cellar",
+          "type": "event",
+          "firstSeenInChapter": 38,
+          "excerpt": "…) Then he hastens back to his ambush in the back gardens, and there learns that Smerdyakov is in a fit, that the other servant is ill—the coast is clear and he knows the ‘signals’—what a temptation! Still he resists it; he goes off to a la…"
+        },
+        {
+          "entityId": "the_event",
+          "type": "event",
+          "firstSeenInChapter": 47,
+          "excerpt": "…tar, you know! I must confess, too, that he did a great deal to avoid the fatal catastrophe. ‘To‐morrow I shall try and borrow the money from every one,’ as he writes in his peculiar language, ‘and if they won’t give it to me, there will b…"
+        },
+        {
+          "entityId": "the_court",
+          "type": "place",
+          "firstSeenInChapter": 80,
+          "excerpt": "…But I was only uncertain till to‐day, till that fatal document was presented to the court just now. You yourselves heard that young lady’s exclamation, ‘It is the plan, the program of the murder!’ That is how she defined that miserable, dr…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 12,
+          "locationDescription": "Courtroom, during the prosecutor’s closing speech",
+          "imageDescription": "A spacious 19th-century Russian courtroom, lit by tall windows casting pale morning light across heavy wooden benches and desks. Ippolit Kirillovitch stands at a lectern, animatedly addressing an attentive audience. The jury sits in a distinguished enclosure, while Dmitri Fyodorovitch Karamazov is visible in the dock, guarded by officials. Other participants cluster nearby, some seated in rows, others standing. All wear period-appropriate Russian legal and civilian attire. The mood is tense and serious.",
+          "characterIds": [
+            "ippolit_kirillovitch",
+            "dmitri_fyodorovitch_karamazov",
+            "the_jury"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "entities": [
+        {
+          "entityId": "ippolit_kirillovitch",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "<p> “To begin with, what was the source of this suspicion?” (Ippolit Kirillovitch began.) “The first person who cried out that Smerdyakov had committed the murder was the prisoner himself at the moment of his arrest, yet from that time to …"
+        },
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…suspicion?” (Ippolit Kirillovitch began.) “The first person who cried out that Smerdyakov had committed the murder was the prisoner himself at the moment of his arrest, yet from that time to this he had not brought forward a single fact to…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…est suggestion of a fact. The charge is confirmed by three persons only—the two brothers of the prisoner and Madame Svyetlov. The elder of these brothers expressed his suspicions only to‐day, when he was undoubtedly suffering from brain fe…"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…est suggestion of a fact. The charge is confirmed by three persons only—the two brothers of the prisoner and Madame Svyetlov. The elder of these brothers expressed his suspicions only to‐day, when he was undoubtedly suffering from brain fe…"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…was a guarantee that no harm would come to pass. Remember the phrase in Dmitri Karamazov’s drunken letter, ‘I shall kill the old man, if only Ivan goes away.’ So Ivan Fyodorovitch’s presence seemed to every one a guarantee of peace and ord…"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…charge is confirmed by three persons only—the two brothers of the prisoner and Madame Svyetlov. The elder of these brothers expressed his suspicions only to‐day, when he was undoubtedly suffering from brain fever. But we know that for the …"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…e learnt in practice from the reckless life of his master, who was also perhaps his father—Fyodor Pavlovitch; and, theoretically, from various strange philosophical conversations with his master’s elder son, Ivan Fyodorovitch, who readily …"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…est suggestion of a fact. The charge is confirmed by three persons only—the two brothers of the prisoner and Madame Svyetlov. The elder of these brothers expressed his suspicions only to‐day, when he was undoubtedly suffering from brain fe…"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…was a guarantee that no harm would come to pass. Remember the phrase in Dmitri Karamazov’s drunken letter, ‘I shall kill the old man, if only Ivan goes away.’ So Ivan Fyodorovitch’s presence seemed to every one a guarantee of peace and ord…"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…est suggestion of a fact. The charge is confirmed by three persons only—the two brothers of the prisoner and Madame Svyetlov. The elder of these brothers expressed his suspicions only to‐day, when he was undoubtedly suffering from brain fe…"
+        },
+        {
+          "entityId": "grigory",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…too have borne witness to it—the prisoner himself, his brother, and the servant Grigory—that is, all who knew him well. </p>  <p> “Moreover, Smerdyakov, whose health was shaken by his attacks of epilepsy, had not the courage of a chicken. …"
+        },
+        {
+          "entityId": "marfa_ignatyevna",
+          "type": "person",
+          "firstSeenInChapter": 14,
+          "excerpt": "…Grigory, but he was almost killed himself; the third person was Grigory’s wife, Marfa Ignatyevna, but it would be simply shameful to imagine her murdering her master. Two persons are left—the prisoner and Smerdyakov. But, if we are to beli…"
+        },
+        {
+          "entityId": "jury",
+          "type": "person",
+          "firstSeenInChapter": 81,
+          "excerpt": "…the attention of the household by having a fit just before? </p>  <p> “You see, gentlemen of the jury, on the night of the murder, there were five persons in Fyodor Pavlovitch’s—Fyodor Pavlovitch himself (but he did not kill himself, that’…"
+        },
+        {
+          "entityId": "the_brass_mortar_object",
+          "type": "event",
+          "firstSeenInChapter": 48
+        },
+        {
+          "entityId": "the_envelope_with_three_thousand_roubles",
+          "type": "event",
+          "firstSeenInChapter": 37
+        },
+        {
+          "entityId": "three_thousand_roubles_giftenvelope",
+          "type": "event",
+          "firstSeenInChapter": 55,
+          "excerpt": "…o suicide and not to avowing his guilt? </p>  <p> “And what followed? Notes for three thousand roubles were brought into the court just now, and we were told that they were the same that lay in the envelope now on the table before us, and …"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "event",
+          "firstSeenInChapter": 1,
+          "excerpt": "…est suggestion of a fact. The charge is confirmed by three persons only—the two brothers of the prisoner and Madame Svyetlov. The elder of these brothers expressed his suspicions only to‐day, when he was undoubtedly suffering from brain fe…"
+        },
+        {
+          "entityId": "ivans_illness",
+          "type": "event",
+          "firstSeenInChapter": 79
+        },
+        {
+          "entityId": "smerdyakovs_suicide",
+          "type": "event",
+          "firstSeenInChapter": 79
+        },
+        {
+          "entityId": "the_murder_of_fyodor_pavlovitch",
+          "type": "event",
+          "firstSeenInChapter": 77,
+          "excerpt": "…illovitch began.) “The first person who cried out that Smerdyakov had committed the murder was the prisoner himself at the moment of his arrest, yet from that time to this he had not brought forward a single fact to confirm the charge, nor…"
+        },
+        {
+          "entityId": "his_letter_sentence_of_death",
+          "type": "event",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "smerdyakovs_epileptic_fitfall_in_the_cellar",
+          "type": "event",
+          "firstSeenInChapter": 38
+        },
+        {
+          "entityId": "ivans_visit_to_smerdyakov_final_major_meetingconfrontation",
+          "type": "event",
+          "firstSeenInChapter": 77
+        },
+        {
+          "entityId": "mokroe",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "dging and learnt an unexpected and astounding piece of news—she had gone off to Mokroe to meet her first lover.” </p>"
+        },
+        {
+          "entityId": "grushenkas_rooms",
+          "type": "place",
+          "firstSeenInChapter": 44
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…est suggestion of a fact. The charge is confirmed by three persons only—the two brothers of the prisoner and Madame Svyetlov. The elder of these brothers expressed his suspicions only to‐day, when he was undoubtedly suffering from brain fe…"
+        },
+        {
+          "entityId": "the_chief_town_of_the_province",
+          "type": "place",
+          "firstSeenInChapter": 46,
+          "excerpt": "…wo five per cent. coupons of five thousand each—that is, ten thousand in all—to the chief town of the province to be changed. I only mention this to point out that any one may have money, and that it can’t be proved that these notes are th…"
+        },
+        {
+          "entityId": "the_interrogation_of_mitya",
+          "type": "event",
+          "firstSeenInChapter": 56
+        },
+        {
+          "entityId": "the_court",
+          "type": "place",
+          "firstSeenInChapter": 80,
+          "excerpt": "…servation might well have confessed the truth. For he might well have seen that the court would at once judge how far he was responsible, and so he might well have reckoned that if he were punished, it would be far less severely than the r…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 23,
+          "locationDescription": "In the courtroom during Ippolit Kirillovitch's closing argument",
+          "imageDescription": "A grand 19th-century Russian courtroom filled with richly dressed townsfolk and solemn officials. At the forefront, the prosecutor Ippolit Kirillovitch stands addressing the attentive jury. In the foreground, Dmitri Karamazov is seated in the dock, with the figures of Ivan and Alexey Karamazov visible nearby among an array of earnest listeners and legal officials. Large windows allow cold daylight to wash over ornate woodwork, casting serious expressions in sharply realistic detail. Period-appropriate uniforms and dresses emphasize the gravity and historical setting.",
+          "characterIds": [
+            "ippolit_kirillovitch",
+            "dmitri_fyodorovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov",
+            "jury"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "entities": [
+        {
+          "entityId": "ippolit_kirillovitch",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "<p> Ippolit Kirillovitch had chosen the historical method of exposition, beloved by all nervous orators, who find in its limitation a check on their own eager rhetoric. At this moment"
+        },
+        {
+          "entityId": "the_crime_trial_of_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 65,
+          "excerpt": "…with his eloquence, especially as they had no apprehensions as to the upshot of the trial and had full trust in Fetyukovitch. “He will speak at last and of course carry all before him.” </p>  <p> Every one looked at Mitya; he sat silent th…"
+        },
+        {
+          "entityId": "agrafena_alexandrovnas_marriage",
+          "type": "event",
+          "firstSeenInChapter": 50
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…eet, I shall dash out my brains before her and punish myself! She will remember Mitya Karamazov sometimes, she will see how Mitya loved her, she will feel for Mitya!’ </p>  <p> “Here we see in excess a love of effect, a romantic despair an…"
+        },
+        {
+          "entityId": "the_murder_of_fyodor_pavlovitch",
+          "type": "event",
+          "firstSeenInChapter": 77,
+          "excerpt": "…rayed it in its most improbable shape, for Smerdyakov could only have committed the murder after he had knocked Grigory down and run away. When we told him that Grigory saw the door was open before he fell down, and had heard Smerdyakov be…"
+        },
+        {
+          "entityId": "three_thousand_roubles_giftenvelope",
+          "type": "event",
+          "firstSeenInChapter": 55,
+          "excerpt": "…hide it somewhere—I cannot otherwise explain the disappearance of quite half of the three thousand he had just taken from his father’s pillow. He had been in Mokroe more than once before, he had caroused there for two days together already…"
+        },
+        {
+          "entityId": "perhotins_servantboy",
+          "type": "person",
+          "firstSeenInChapter": 58
+        },
+        {
+          "entityId": "pistols",
+          "type": "event",
+          "firstSeenInChapter": 55,
+          "excerpt": "…able way out of his terrible position. That way out was suicide. He ran for the pistols he had left in pledge with his friend Perhotin and on the way, as he ran, he pulled out of his pocket the money, for the sake of which he had stained h…"
+        },
+        {
+          "entityId": "mokroe",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…iving a murderer!’ But it was impossible for him to speak out, he had to get to Mokroe and there to finish his romance. But what was awaiting the luckless man? Almost from the first minute at Mokroe he saw that his invincible rival was per…"
+        },
+        {
+          "entityId": "the_inn",
+          "type": "place",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "gypsy_girls",
+          "type": "person",
+          "firstSeenInChapter": 12,
+          "excerpt": "…ed and talked of long after! In the midst of shouts of wild merriment, reckless gypsy songs and dances I shall raise the glass and drink to the woman I adore and her new‐found happiness! And then, on the spot, at her feet, I shall dash out…"
+        },
+        {
+          "entityId": "the_bedroom_grushenkas",
+          "type": "place",
+          "firstSeenInChapter": 44,
+          "excerpt": "…prisoner’s hands now. In any case he was at her side, on his knees before her, she was lying on the bed, he had his hands stretched out to her and he had so entirely forgotten everything that he did not even hear the men coming to arrest h…"
+        },
+        {
+          "entityId": "the_murder_of_fyodor_pavlovitch",
+          "type": "event",
+          "firstSeenInChapter": 77,
+          "excerpt": "…rayed it in its most improbable shape, for Smerdyakov could only have committed the murder after he had knocked Grigory down and run away. When we told him that Grigory saw the door was open before he fell down, and had heard Smerdyakov be…"
+        },
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…awyers asked him, as it were incidentally, the most simple question, ‘Wasn’t it Smerdyakov killed him?’ Then, as we expected, he was horribly angry at our having anticipated him and caught him unawares, before he had time to pave the way t…"
+        },
+        {
+          "entityId": "grigory",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…ed to explain by declaring that he was responsible for the death of the servant Grigory only. ‘Of that bloodshed I am guilty, but who has killed my father, gentlemen, who has killed him? Who can have killed him, _if not I_?’ Do you hear, h…"
+        },
+        {
+          "entityId": "the_peasant_driver_in_the_dream",
+          "type": "person",
+          "firstSeenInChapter": 61
+        },
+        {
+          "entityId": "mityas_lodgings",
+          "type": "place",
+          "firstSeenInChapter": 46
+        },
+        {
+          "entityId": "the_screen_chinese",
+          "type": "place",
+          "firstSeenInChapter": 49
+        },
+        {
+          "entityId": "divinity_student",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…istened, especially when Grushenka was spoken of. When the prosecutor mentioned Rakitin’s opinion of her, a smile of contempt and anger passed over his face and he murmured rather audibly, “The Bernards!” When Ippolit Kirillovitch describe…"
+        },
+        {
+          "entityId": "division_and_concealment_of_the_money_fifteen_hundred_sewn_up",
+          "type": "event",
+          "firstSeenInChapter": 60
+        },
+        {
+          "entityId": "the_investigating_lawyer",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…his bedroom—Karamazov was positively crushed. My esteemed and witty colleague, Nikolay Parfenovitch, told me afterwards that he was almost moved to tears at the sight of him. And to improve matters, the prisoner hastened to tell us about t…"
+        },
+        {
+          "entityId": "fetyukovitch",
+          "type": "person",
+          "firstSeenInChapter": 70,
+          "excerpt": "…s they had no apprehensions as to the upshot of the trial and had full trust in Fetyukovitch. “He will speak at last and of course carry all before him.” </p>  <p> Every one looked at Mitya; he sat silent through the whole of the prosecuto…"
+        },
+        {
+          "entityId": "jury",
+          "type": "person",
+          "firstSeenInChapter": 81,
+          "excerpt": "…one hope of her life. Grasping this instantly, he resigned himself. </p>  <p> “Gentlemen of the jury, I cannot help dwelling on this unexpected trait in the prisoner’s character. He suddenly evinces an irresistible desire for justice, a re…"
+        },
+        {
+          "entityId": "the_witnesses",
+          "type": "person",
+          "firstSeenInChapter": 80,
+          "excerpt": "…the shop, with the drivers. He quoted numerous words and actions, confirmed by witnesses, and the picture made a terrible impression on the audience. The guilt of this harassed and desperate man stood out clear and convincing, when the fac…"
+        },
+        {
+          "entityId": "hamlet",
+          "type": "place",
+          "firstSeenInChapter": 35,
+          "excerpt": "…v wondered at that moment ‘What lies beyond,’ and whether Karamazov could, like Hamlet, wonder ‘What lies beyond.’ No, gentlemen of the jury, they have their Hamlets, but we still have our Karamazovs!” </p>  <p> Here Ippolit Kirillovitch d…"
+        },
+        {
+          "entityId": "claude_bernard",
+          "type": "person",
+          "firstSeenInChapter": 73
+        },
+        {
+          "entityId": "the_bell",
+          "type": "event",
+          "firstSeenInChapter": 62,
+          "excerpt": "“In America. They get it from America now.” </p>  <p> “Nonsense!” </p>  <p> But the bell rang, all rushed to their places. Fetyukovitch mounted the tribune. </p>"
+        },
+        {
+          "entityId": "saint_petersburg",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…<p> In another group I heard: </p>  <p> “He had no business to make a thrust at the Petersburg man like that; ‘appealing to your sensibilities’—do you remember?” </p>  <p> “Yes, that was awkward of him.” </p>  <p> “He was in too great a hu…"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ght to love. And all this at the very moment when he had stained his hands with his father’s blood for her sake! It is true that the blood he had shed was already crying out for vengeance, for, after having ruined his soul and his life in …"
+        },
+        {
+          "entityId": "russia",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…stice. Remember that you are the champions of our justice, the champions of our holy Russia, of her principles, her family, everything that she holds sacred! Yes, you represent Russia here at this moment, and your verdict will be heard not…"
+        },
+        {
+          "entityId": "europe",
+          "type": "place",
+          "firstSeenInChapter": 10,
+          "excerpt": "…ety, enlightenment and civilization. Already we have heard voices of alarm from Europe, they already begin to sound. Do not tempt them! Do not heap up their growing hatred by a sentence justifying the murder of a father by his son!” </p>  …"
+        },
+        {
+          "entityId": "the_english_parliament",
+          "type": "place",
+          "firstSeenInChapter": 88,
+          "excerpt": "…ther nations not standing it.” </p>  <p> “What do you mean?” </p>  <p> “Why, in the English Parliament a Member got up last week and speaking about the Nihilists asked the Ministry whether it was not high time to intervene, to educate this…"
+        },
+        {
+          "entityId": "the_ministry",
+          "type": "place",
+          "firstSeenInChapter": 78
+        },
+        {
+          "entityId": "america",
+          "type": "place",
+          "firstSeenInChapter": 36,
+          "excerpt": "onstadt and not let them have any corn. Where would they get it?” </p>  <p> “In America. They get it from America now.” </p>  <p> “Nonsense!” </p>  <p> But the bell rang, all rushed to their places. Fetyukovitch mounted the tribune. </p>"
+        },
+        {
+          "entityId": "kronstadt",
+          "type": "place",
+          "firstSeenInChapter": 88,
+          "excerpt": "…n easy job.” </p>  <p> “Not an easy job? Why not?” </p>  <p> “Why, we’d shut up Kronstadt and not let them have any corn. Where would they get it?” </p>  <p> “In America. They get it from America now.” </p>  <p> “Nonsense!” </p>  <p> But t…"
+        },
+        {
+          "entityId": "the_public",
+          "type": "person",
+          "firstSeenInChapter": 80
+        },
+        {
+          "entityId": "the_lawyer",
+          "type": "person",
+          "firstSeenInChapter": 73
+        },
+        {
+          "entityId": "ladies_gathering",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…ing room. There was no applause in the court, but serious persons were pleased. The ladies were not so well satisfied, though even they were pleased with his eloquence, especially as they had no apprehensions as to the upshot of the trial …"
+        },
+        {
+          "entityId": "the_police",
+          "type": "person",
+          "firstSeenInChapter": 88
+        },
+        {
+          "entityId": "family",
+          "type": "event",
+          "firstSeenInChapter": 88,
+          "excerpt": "…mpions of our justice, the champions of our holy Russia, of her principles, her family, everything that she holds sacred! Yes, you represent Russia here at this moment, and your verdict will be heard not in this hall only but will reëcho t…"
+        },
+        {
+          "entityId": "the_court",
+          "type": "place",
+          "firstSeenInChapter": 80,
+          "excerpt": "…entioned before, almost fainted in the adjoining room. There was no applause in the court, but serious persons were pleased. The ladies were not so well satisfied, though even they were pleased with his eloquence, especially as they had no…"
+        },
+        {
+          "entityId": "trial_adjournment",
+          "type": "event",
+          "firstSeenInChapter": 88
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 21,
+          "locationDescription": "In the courtroom, during Ippolit Kirillovitch's speech",
+          "imageDescription": "A grand, high-ceilinged Russian courtroom in the late 19th century, filled with wooden benches and flickering sunlight falling through large windows. At a central tribunal stands Ippolit Kirillovitch, a middle-aged lawyer in a dark formal frock coat, his expression intense as he addresses the court. The audience—men and women in period Russian dress, some in uniforms or elaborate gowns—watches intently. To one side, Dmitri Karamazov sits at the defendant’s bench, hands clasped, head bowed, occasionally glancing up in torment. Across from him, legal officials and a jury table with grave-faced men are present. The painterly atmosphere is tense and expectant, filled with the somber air of justice.",
+          "characterIds": [
+            "ippolit_kirillovitch",
+            "dmitri_fyodorovitch_karamazov",
+            "jury",
+            "the_public",
+            "the_witnesses",
+            "the_police",
+            "fetyukovitch",
+            "ladies_gathering",
+            "the_investigating_lawyer"
+          ]
+        },
+        {
+          "startParagraph": 22,
+          "endParagraph": 23,
+          "locationDescription": "Courtroom, after Ippolit Kirillovitch concludes his speech",
+          "imageDescription": "Inside the same elegant courtroom, the atmosphere now subdued as Ippolit Kirillovitch, pale and visibly exhausted, leaves the speaker's stand. The room has shifted into low murmurs; serious gentlemen in long coats confer, while ladies in ornate dresses clutch fans, exchanging glances of mixed approval and concern. In the background, Dmitri Karamazov remains seated, his posture rigid, fists clenched, lost in thought. The air is heavy with tension and anticipation; sunlight catches dust motes above the richly carved woodwork as the scene nears a pause in proceedings.",
+          "characterIds": [
+            "ippolit_kirillovitch",
+            "dmitri_fyodorovitch_karamazov",
+            "fetyukovitch",
+            "ladies_gathering",
+            "the_public",
+            "jury"
+          ]
+        },
+        {
+          "startParagraph": 24,
+          "endParagraph": 71,
+          "locationDescription": "Courtroom, during adjournment and audience conversations",
+          "imageDescription": "The crowded courtroom, chairs loosened from rows as gentlemen cluster in small groups, gesturing animatedly in discussion. Ladies, some fanning themselves, some peering through lorgnettes, lean toward each other gossiping. The legal officials are away from their posts, and Dmitri Karamazov sits aside, silent and isolated, ignored by the milling court attendees. Light from the high windows gives the scene a mix of warm and cool tones, with an undercurrent of restless energy as people debate and speculate, waiting for the next dramatic scene.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_public",
+            "ladies_gathering",
+            "jury"
+          ]
+        },
+        {
+          "startParagraph": 72,
+          "endParagraph": 72,
+          "locationDescription": "Courtroom, as Fetyukovitch takes the stand",
+          "imageDescription": "Everyone in the courtroom hastily returns to their assigned seats as the court reconvenes. Fetyukovitch, the celebrated defense attorney, ascends the speaker's platform elegantly dressed in distinguished legal garb, his manner poised and assured. Judges and jury sit upright at their benches, and the diverse audience is once more attentive, their faces reflecting expectation and curiosity. Dmitri looks up, tense yet hopeful. The light sharpens, casting a spotlight effect on Fetyukovitch as all eyes turn to the defense. The dignified mood signals the beginning of a pivotal argument.",
+          "characterIds": [
+            "fetyukovitch",
+            "dmitri_fyodorovitch_karamazov",
+            "the_public",
+            "ladies_gathering",
+            "jury"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "entities": [
+        {
+          "entityId": "fetyukovitch",
+          "type": "person",
+          "firstSeenInChapter": 70,
+          "excerpt": "…separately was unproved and fantastic, that I undertook the case.” </p>  <p> So Fetyukovitch began. </p>  <p> “Gentlemen of the jury,” he suddenly protested, “I am new to this district. I have no preconceived ideas. The prisoner, a man of …"
+        },
+        {
+          "entityId": "the_crime_trial_of_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 65,
+          "excerpt": "…conviction or at least a preconceived idea. “That is what has happened to me in the present case,” he explained. “From the very first accounts in the newspapers I was struck by something which strongly prepossessed me in the prisoner’s fav…"
+        },
+        {
+          "entityId": "saint_petersburg",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…e went straight to the point, and began by saying that although he practiced in Petersburg, he had more than once visited provincial towns to defend prisoners, of whose innocence he had a conviction or at least a preconceived idea. “That i…"
+        },
+        {
+          "entityId": "jury",
+          "type": "person",
+          "firstSeenInChapter": 81,
+          "excerpt": "…tastic, that I undertook the case.” </p>  <p> So Fetyukovitch began. </p>  <p> “Gentlemen of the jury,” he suddenly protested, “I am new to this district. I have no preconceived ideas. The prisoner, a man of turbulent and unbridled temper,…"
+        },
+        {
+          "entityId": "ippolit_kirillovitch",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…erce the heart with untold power.” His language was perhaps more irregular than Ippolit Kirillovitch’s, but he spoke without long phrases, and indeed, with more precision. One thing did not please the ladies: he kept bending forward, espec…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…kly suppressed, but noticed by all. All of us knew that the prosecutor received Mitya against his will, solely because he had somehow interested his wife—a lady of the highest virtue and moral worth, but fanciful, capricious, and fond of o…"
+        },
+        {
+          "entityId": "the_town",
+          "type": "place",
+          "firstSeenInChapter": 14
+        },
+        {
+          "entityId": "jury",
+          "type": "person",
+          "firstSeenInChapter": 81,
+          "excerpt": "…tastic, that I undertook the case.” </p>  <p> So Fetyukovitch began. </p>  <p> “Gentlemen of the jury,” he suddenly protested, “I am new to this district. I have no preconceived ideas. The prisoner, a man of turbulent and unbridled temper,…"
+        },
+        {
+          "entityId": "the_public",
+          "type": "person",
+          "firstSeenInChapter": 80,
+          "excerpt": "…t profound as psychology is, it’s a knife that cuts both ways.” (Laughter among the public.) “You will, of course, forgive me my comparison; I can’t boast of eloquence. But I will take as an example any point in the prosecutor’s speech. </…"
+        },
+        {
+          "entityId": "the_envelope_with_three_thousand_roubles",
+          "type": "event",
+          "firstSeenInChapter": 37
+        },
+        {
+          "entityId": "three_thousand_roubles_giftenvelope",
+          "type": "event",
+          "firstSeenInChapter": 55,
+          "excerpt": "…idence in the shape of a torn envelope, with an inscription that there had been three thousand roubles in it. ‘If he had carried that envelope away with him, no one in the world would have known of that envelope and of the notes in it, and…"
+        },
+        {
+          "entityId": "the_room_where_fyodor_pavlovitch_was_lying",
+          "type": "place",
+          "firstSeenInChapter": 55
+        },
+        {
+          "entityId": "grigory",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…d the prosecutor refuses to believe the prisoner’s statement that he ran to old Grigory out of pity. ‘No,’ he says, ‘such sensibility is impossible at such a moment, that’s unnatural; he ran to find out whether the only witness of his crim…"
+        },
+        {
+          "entityId": "the_murder_of_the_old_servant",
+          "type": "event",
+          "firstSeenInChapter": 60
+        },
+        {
+          "entityId": "the_murder_of_fyodor_pavlovitch",
+          "type": "event",
+          "firstSeenInChapter": 77,
+          "excerpt": "…nly witness of his crime was dead or alive, and so showed that he had committed the murder, since he would not have run back for any other reason.’ </p>  <p> “Here you have psychology; but let us take the same method and apply it to the ca…"
+        },
+        {
+          "entityId": "the_garden",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…any point in the prosecutor’s speech. </p>  <p> “The prisoner, running away in the garden in the dark, climbed over the fence, was seized by the servant, and knocked him down with a brass pestle. Then he jumped back into the garden and spe…"
+        },
+        {
+          "entityId": "the_fence",
+          "type": "place",
+          "firstSeenInChapter": 22,
+          "excerpt": "…. </p>  <p> “The prisoner, running away in the garden in the dark, climbed over the fence, was seized by the servant, and knocked him down with a brass pestle. Then he jumped back into the garden and spent five minutes over the man, trying…"
+        },
+        {
+          "entityId": "the_brass_mortar_object",
+          "type": "event",
+          "firstSeenInChapter": 48,
+          "excerpt": "…climbed over the fence, was seized by the servant, and knocked him down with a brass pestle. Then he jumped back into the garden and spent five minutes over the man, trying to discover whether he had killed him or not. And the prosecutor r…"
+        },
+        {
+          "entityId": "the_two_women",
+          "type": "person",
+          "firstSeenInChapter": 89,
+          "excerpt": "…he left another witness on the path, that brass pestle which he had taken from the two women, and which they could always recognize afterwards as theirs, and prove that he had taken it from them. And it is not as though he had forgotten it…"
+        },
+        {
+          "entityId": "ladies_gathering",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…without long phrases, and indeed, with more precision. One thing did not please the ladies: he kept bending forward, especially at the beginning of his speech, not exactly bowing, but as though he were about to dart at his listeners, bendi…"
+        },
+        {
+          "entityId": "the_province",
+          "type": "place",
+          "firstSeenInChapter": 31
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 10,
+          "locationDescription": "In the courtroom, at the defense's table",
+          "imageDescription": "A grand 19th-century Russian courtroom filled with a tense, expectant audience. Fetyukovitch, a tall and elegant lawyer in a dark frock coat, stands poised at the defense table, bending forward slightly as he addresses the silent room. Across from him sit rows of attentive jurors in formal attire and stern expressions. Ippolit Kirillovitch, the prosecutor, is seated at the prosecution table, watching intently. Dmitri Fyodorovitch Karamazov sits in the dock, guarded, with a weary and anxious look. In the background, a diverse crowd of townsfolk and local ladies fill the benches; the lighting is bright, with sunlight filtering in through tall windows, illuminating the ornate wood and plasterwork of the chamber. The atmosphere is charged with anticipation.",
+          "characterIds": [
+            "fetyukovitch",
+            "jury",
+            "ippolit_kirillovitch",
+            "dmitri_fyodorovitch_karamazov",
+            "the_public",
+            "ladies_gathering"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 90,
+      "entities": [
+        {
+          "entityId": "fetyukovitch",
+          "type": "person",
+          "firstSeenInChapter": 70,
+          "excerpt": "<p> There was one point that struck every one in Fetyukovitch’s speech. He flatly denied the existence of the fatal three thousand roubles, and consequently, the possibility of their having been stolen. </p>  <p> “Gentlem"
+        },
+        {
+          "entityId": "jury",
+          "type": "person",
+          "firstSeenInChapter": 81,
+          "excerpt": "…bles, and consequently, the possibility of their having been stolen. </p>  <p> “Gentlemen of the jury,” he began. “Every new and unprejudiced observer must be struck by a characteristic peculiarity in the present case, namely, the charge o…"
+        },
+        {
+          "entityId": "three_thousand_roubles_giftenvelope",
+          "type": "event",
+          "firstSeenInChapter": 55,
+          "excerpt": "…at struck every one in Fetyukovitch’s speech. He flatly denied the existence of the fatal three thousand roubles, and consequently, the possibility of their having been stolen. </p>  <p> “Gentlemen of the jury,” he began. “Every new and un…"
+        },
+        {
+          "entityId": "the_envelope_with_three_thousand_roubles",
+          "type": "event",
+          "firstSeenInChapter": 37,
+          "excerpt": "…n the notes? The only person who saw them, and stated that they had been put in the envelope, was the servant, Smerdyakov. He had spoken of it to the prisoner and his brother, Ivan Fyodorovitch, before the catastrophe. Madame Svyetlov, too…"
+        },
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…nly person who saw them, and stated that they had been put in the envelope, was the servant, Smerdyakov. He had spoken of it to the prisoner and his brother, Ivan Fyodorovitch, before the catastrophe. Madame Svyetlov, too, had been told of…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…d been put in the envelope, was the servant, Smerdyakov. He had spoken of it to the prisoner and his brother, Ivan Fyodorovitch, before the catastrophe. Madame Svyetlov, too, had been told of it. But not one of these three persons had actu…"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…envelope, was the servant, Smerdyakov. He had spoken of it to the prisoner and his brother, Ivan Fyodorovitch, before the catastrophe. Madame Svyetlov, too, had been told of it. But not one of these three persons had actually seen the note…"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…it to the prisoner and his brother, Ivan Fyodorovitch, before the catastrophe. Madame Svyetlov, too, had been told of it. But not one of these three persons had actually seen the notes, no one but Smerdyakov had seen them. </p>  <p> “Here …"
+        },
+        {
+          "entityId": "death_of_fyodor_pavlovitch_karamazov",
+          "type": "event",
+          "firstSeenInChapter": 1,
+          "excerpt": "…He had spoken of it to the prisoner and his brother, Ivan Fyodorovitch, before the catastrophe. Madame Svyetlov, too, had been told of it. But not one of these three persons had actually seen the notes, no one but Smerdyakov had seen them.…"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…o easy‐going as the prisoner, above all, as he expected to receive shortly from his father the three thousand roubles that he reckoned was owing to him. It was unreflecting of him, but it was just his irresponsible want of reflection that …"
+        },
+        {
+          "entityId": "the_cashbox",
+          "type": "place",
+          "firstSeenInChapter": 90,
+          "excerpt": "…t if his master had taken the notes from under his bed and put them back in his cash‐box without telling him? Note, that according to Smerdyakov’s story the notes were kept under the mattress; the prisoner must have pulled them out, and ye…"
+        },
+        {
+          "entityId": "the_mattress",
+          "type": "place",
+          "firstSeenInChapter": 77,
+          "excerpt": "…lling him? Note, that according to Smerdyakov’s story the notes were kept under the mattress; the prisoner must have pulled them out, and yet the bed was absolutely unrumpled; that is carefully recorded in the protocol. How could the priso…"
+        },
+        {
+          "entityId": "the_protocol_of_evidence",
+          "type": "event",
+          "firstSeenInChapter": 61,
+          "excerpt": "…em out, and yet the bed was absolutely unrumpled; that is carefully recorded in the protocol. How could the prisoner have found the notes without disturbing the bed? How could he have helped soiling with his blood‐ stained hands the fine a…"
+        },
+        {
+          "entityId": "ippolit_kirillovitch",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…ng a word or two about that envelope. I was somewhat surprised just now to hear the highly talented prosecutor declare of himself—of himself, observe—that but for that envelope, but for its being left on the floor, no one in the world woul…"
+        },
+        {
+          "entityId": "the_castle_of_udolpho",
+          "type": "place",
+          "firstSeenInChapter": 90,
+          "excerpt": "…ecutor to assume that the money is hidden in some crevice at Mokroe. Why not in the dungeons of the castle of Udolpho, gentlemen? Isn’t this supposition really too fantastic and too romantic? And observe, if that supposition breaks down, t…"
+        },
+        {
+          "entityId": "mokroe",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…at has led the prosecutor to assume that the money is hidden in some crevice at Mokroe. Why not in the dungeons of the castle of Udolpho, gentlemen? Isn’t this supposition really too fantastic and too romantic? And observe, if that supposi…"
+        },
+        {
+          "entityId": "fifteen_hundred_roubles",
+          "type": "event",
+          "firstSeenInChapter": 90,
+          "excerpt": "…d, but he was carousing that night, squandering money; he was shown to have had fifteen hundred roubles—where did he get the money? But the very fact that only fifteen hundred could be found, and the other half of the sum could nowhere be …"
+        },
+        {
+          "entityId": "pyotr_fomitch_kalganov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…preliminary inquiry that the prisoner ran straight from those women servants to Perhotin’s without going home, and that he had been nowhere. So he had been all the time in company and therefore could not have divided the three thousand in …"
+        },
+        {
+          "entityId": "the_town",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…therefore could not have divided the three thousand in half and hidden half in the town. It’s just this consideration that has led the prosecutor to assume that the money is hidden in some crevice at Mokroe. Why not in the dungeons of the …"
+        },
+        {
+          "entityId": "costermonger_murder_in_petersburg",
+          "type": "event",
+          "firstSeenInChapter": 90
+        },
+        {
+          "entityId": "saint_petersburg",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…beyond doubt. Yet no one had ever seen these notes. </p>  <p> “Not long ago in Petersburg a young man of eighteen, hardly more than a boy, who carried on a small business as a costermonger, went in broad daylight into a moneychanger’s shop…"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…of it. </p>  <p> “A month before the catastrophe the prisoner was entrusted by Katerina Ivanovna with three thousand roubles to send off by post. But the question is: is it true that they were entrusted to him in such an insulting and degr…"
+        },
+        {
+          "entityId": "maximov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…one of these witnesses counted that money; they all judged simply at sight. And the witness Maximov has testified that the prisoner had twenty thousand in his hand. You see, gentlemen of the jury, psychology is a two‐ edged weapon. Let me …"
+        },
+        {
+          "entityId": "the_witness",
+          "type": "person",
+          "firstSeenInChapter": 90,
+          "excerpt": "…invented quite a different man! </p>  <p> “I shall be told, perhaps, there are witnesses that he spent on one day all that three thousand given him by his betrothed a month before the catastrophe, so he could not have divided the sum in ha…"
+        },
+        {
+          "entityId": "the_karamazovs",
+          "type": "person",
+          "firstSeenInChapter": 32
+        },
+        {
+          "entityId": "the_separation_of_mitya_and_grushenka_during_interrogation",
+          "type": "event",
+          "firstSeenInChapter": 56
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…it to the prisoner and his brother, Ivan Fyodorovitch, before the catastrophe. Madame Svyetlov, too, had been told of it. But not one of these three persons had actually seen the notes, no one but Smerdyakov had seen them. </p>  <p> “Here …"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…us, he couldn’t have had such feelings. But yet he talked himself of the broad Karamazov nature; he cried out about the two extremes which a Karamazov can contemplate at once. Karamazov is just such a two‐sided nature, fluctuating between …"
+        },
+        {
+          "entityId": "his_letter_sentence_of_death",
+          "type": "event",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "the_open_window",
+          "type": "place",
+          "firstSeenInChapter": 59,
+          "excerpt": "…, but how can you prove that he did it? Did the prisoner take the envelope from under the pillow, did he find the money, did that money exist indeed? And was it to get money that the prisoner ran off, if you remember? He ran off post‐haste…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 16,
+          "locationDescription": "In the courtroom during Fetyukovitch's speech",
+          "imageDescription": "A spacious 19th-century Russian courtroom filled with wooden benches and high windows letting in daylight. Fetyukovitch, a stout, confident lawyer in formal attire, stands in front of the jury, gesturing emphatically as he speaks. The jury, a row of serious-faced men in dark coats, sits attentively. Dmitri Fyodorovitch Karamazov, pale and tense, is visible in the dock in prisoner’s garb. Other courtroom figures—lawyers, a few witnesses, and spectators—are present, clad in period dress. The atmosphere is tense and charged with anticipation.",
+          "characterIds": [
+            "fetyukovitch",
+            "jury",
+            "dmitri_fyodorovitch_karamazov",
+            "smerdyakov",
+            "ivan_fyodorovitch_karamazov",
+            "fyodor_pavlovitch_karamazov",
+            "katerina_ivanovna",
+            "alexey_fyodorovitch_karamazov",
+            "maximov",
+            "ippolit_kirillovitch"
+          ]
+        }
+      ]
     }
   ]
 }
