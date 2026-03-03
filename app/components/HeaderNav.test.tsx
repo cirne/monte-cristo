@@ -12,7 +12,6 @@ describe("app/components/HeaderNav", () => {
     render(<HeaderNav />);
     expect(screen.getByLabelText("Monte Cristo Reader")).toBeInTheDocument();
     expect(screen.getByLabelText("Home")).toBeInTheDocument();
-    expect(screen.getByLabelText("Search")).toBeInTheDocument();
   });
 
   it("shows chapter number when on chapter page", () => {

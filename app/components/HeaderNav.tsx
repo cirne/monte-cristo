@@ -5,6 +5,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { Home, ChevronLeft, ChevronRight, ArrowLeft } from "lucide-react";
 import { useEffect, useState } from "react";
 import { DEFAULT_BOOK_SLUG } from "@/lib/books";
+import { HeaderProgressBar } from "./HeaderProgressBar";
 
 function parseBookChapter(pathname: string | null): { slug: string; chapterNum: number } | null {
   if (!pathname) return null;
@@ -77,8 +78,8 @@ export function HeaderNav() {
   if (pathname === "/") return null;
 
   return (
-    <header className="border-b border-stone-200 bg-white sticky top-0 z-10 dark:border-stone-800 dark:bg-stone-900">
-    <nav className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between gap-6 text-sm w-full">
+    <header className="border-stone-200 bg-white sticky top-0 z-10 dark:border-stone-800 dark:bg-stone-900">
+    <nav className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between gap-6 text-sm w-full border-b border-stone-200 dark:border-stone-800">
       <div className="flex items-center gap-4 sm:gap-6">
         {showBack ? (
           <button
@@ -144,6 +145,7 @@ export function HeaderNav() {
         </div>
       ) : null}
     </nav>
+    <HeaderProgressBar />
     </header>
   );
 }
