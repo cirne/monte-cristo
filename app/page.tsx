@@ -23,7 +23,7 @@ export default function Home() {
           Monte Cristo Reader
         </h1>
         <p className="text-lg text-stone-500 dark:text-stone-400">
-          Great literature for the short-attention generation.
+          Great novels, built for distractable minds.
         </p>
       </div>
 
