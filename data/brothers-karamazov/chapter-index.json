@@ -18606,6 +18606,2779 @@
           ]
         }
       ]
+    },
+    {
+      "number": 71,
+      "entities": [
+        {
+          "entityId": "madame_hohlakov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "<p> The first of these things was at the house of Madame Hohlakov, and he hurried there to get it over as quickly as possible and not be too late for Mitya. Madame Hohlakov had been slightly ailing for the last three weeks: h"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…lining on the couch in her boudoir, in a fascinating but decorous _déshabillé_. Alyosha had once noted with innocent amusement that, in spite of her illness, Madame Hohlakov had begun to be rather dressy—top‐knots, ribbons, loose wrappers,…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…he hurried there to get it over as quickly as possible and not be too late for Mitya. Madame Hohlakov had been slightly ailing for the last three weeks: her foot had for some reason swollen up, and though she was not in bed, she lay all da…"
+        },
+        {
+          "entityId": "madame_hohlakovs_daughter",
+          "type": "person",
+          "firstSeenInChapter": 8,
+          "excerpt": "…<p> Alyosha had not called for four days and he was in haste to go straight to Lise, as it was with her he had to speak, for Lise had sent a maid to him the previous day, specially asking him to come to her “about something very important,…"
+        },
+        {
+          "entityId": "the_maid_at_madame_hohlakovs",
+          "type": "person",
+          "firstSeenInChapter": 54,
+          "excerpt": "…ant,” a request which, for certain reasons, had interest for Alyosha. But while the maid went to take his name in to Lise, Madame Hohlakov heard of his arrival from some one, and immediately sent to beg him to come to her “just for one min…"
+        },
+        {
+          "entityId": "yulia",
+          "type": "person",
+          "firstSeenInChapter": 28,
+          "excerpt": "…ant,” a request which, for certain reasons, had interest for Alyosha. But while the maid went to take his name in to Lise, Madame Hohlakov heard of his arrival from some one, and immediately sent to beg him to come to her “just for one min…"
+        },
+        {
+          "entityId": "glafira",
+          "type": "person",
+          "firstSeenInChapter": 71,
+          "excerpt": "…all I shall see of you. Goodness! Why are we sitting here and no coffee? Yulia, Glafira, coffee!” </p>  <p> Alyosha made haste to thank her, and said that he had only just had coffee. </p>  <p> “Where?” </p>  <p> “At Agrafena Alexandrovna’…"
+        },
+        {
+          "entityId": "elder_zossima",
+          "type": "person",
+          "firstSeenInChapter": 4,
+          "excerpt": "…r at his brother’s crime. Another contradicted this, and stated that he and his elder, Father Zossima, had broken into the monastery chest and “made tracks from the monastery.” The present paragraph in the paper _Gossip_ was under the head…"
+        },
+        {
+          "entityId": "pyotr_fomitch_kalganov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…surprise. You know, two months ago, that modest, charming, excellent young man, Pyotr Ilyitch Perhotin, who’s in the service here, began to be a regular visitor at the house. You met him here ever so many times yourself. And he is an excel…"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…n so long confined to her chair—thank God, she can walk now!... that new doctor Katya sent for from Moscow for your unhappy brother, who will to‐morrow—But why speak of to‐ morrow? I am ready to die at the very thought of to‐morrow. Ready …"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…he can walk now!... that new doctor Katya sent for from Moscow for your unhappy brother, who will to‐morrow—But why speak of to‐ morrow? I am ready to die at the very thought of to‐morrow. Ready to die of curiosity.... That doctor was with…"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ar Alexey Fyodorovitch, I trust you implicitly with my Lise. Since the death of Father Zossima—God rest his soul!” (she crossed herself)—“I look upon you as a monk, though you look charming in your new suit. Where did you find such a tailo…"
+        },
+        {
+          "entityId": "divinity_student",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…harms, as I forgive him! You know it’s— Do you know who it is? It’s your friend Rakitin.” </p>  <p> “Perhaps,” said Alyosha, “though I’ve heard nothing about it.” </p>  <p> “It’s he, it’s he! No ‘perhaps’ about it. You know I turned him ou…"
+        },
+        {
+          "entityId": "pushkin",
+          "type": "person",
+          "firstSeenInChapter": 12,
+          "excerpt": "…write verses.... But they are good poetry. They want to put a monument to your Pushkin for writing about women’s feet, while I wrote with a moral purpose, and you,’ said he, ‘are an advocate of serfdom. You’ve no humane ideas,’ said he. ‘Y…"
+        },
+        {
+          "entityId": "grigory",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…re sick with anxiety and impatience. </p>  <p> “Yes, I know it was that old man Grigory murdered him.” </p>  <p> “Grigory?” cried Alyosha. </p>  <p> “Yes, yes; it was Grigory. He lay as Dmitri Fyodorovitch struck him down, and then got up,…"
+        },
+        {
+          "entityId": "the_new_doctor",
+          "type": "person",
+          "firstSeenInChapter": 67
+        },
+        {
+          "entityId": "the_goldmines",
+          "type": "place",
+          "firstSeenInChapter": 54
+        },
+        {
+          "entityId": "siberia",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…you put me out! Ah! this trial, this savage act, and then they are all going to Siberia, some are getting married, and all this so quickly, so quickly, everything’s changing, and at last—nothing. All grow old and have death to look forward…"
+        },
+        {
+          "entityId": "the_crime_trial_of_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 65
+        },
+        {
+          "entityId": "saint_petersburg",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…y. The story has been told a million times over in all the papers in Moscow and Petersburg. Ah! yes, would you believe it, there’s a paragraph that I was ‘a dear friend’ of your brother’s ——, I can’t repeat the horrid word. Just fancy, jus…"
+        },
+        {
+          "entityId": "moscow",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…o her chair—thank God, she can walk now!... that new doctor Katya sent for from Moscow for your unhappy brother, who will to‐morrow—But why speak of to‐ morrow? I am ready to die at the very thought of to‐morrow. Ready to die of curiosity.…"
+        },
+        {
+          "entityId": "our_town",
+          "type": "place",
+          "firstSeenInChapter": 16
+        },
+        {
+          "entityId": "the_paper_gossip",
+          "type": "event",
+          "firstSeenInChapter": 71
+        },
+        {
+          "entityId": "the_karamazovs",
+          "type": "person",
+          "firstSeenInChapter": 32,
+          "excerpt": "…d all over Russia. And, good heavens! what wild rumors about his brother, about the Karamazovs, and about himself he had read in the course of those two months, among other equally credible items! One paper had even stated that he had gone…"
+        },
+        {
+          "entityId": "the_monastery",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…other equally credible items! One paper had even stated that he had gone into a monastery and become a monk, in horror at his brother’s crime. Another contradicted this, and stated that he and his elder, Father Zossima, had broken into the…"
+        },
+        {
+          "entityId": "the_murdered_servant",
+          "type": "person",
+          "firstSeenInChapter": 71
+        },
+        {
+          "entityId": "reformed_law_courts",
+          "type": "event",
+          "firstSeenInChapter": 71,
+          "excerpt": "…ration as soon as the law courts were reformed. It’s all the good effect of the reformed law courts. The doctor has been here and questioned me about that evening, about the gold mines. ‘How did he seem then?’ he asked me. He must have bee…"
+        },
+        {
+          "entityId": "katchalnikov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…that he could always be led out if he did anything. And then he might be made a justice of the peace or something in another town, for those who have been in trouble themselves make the best judges. And, besides, who isn’t suffering from a…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Madame Hohlakov's boudoir",
+          "imageDescription": "A refined 19th-century Russian boudoir with elegant patterned wallpaper, ornate furnishings, and a plush couch. Daylight streams in softly through laced windows, illuminating Madame Hohlakov reclining on a settee in fashionable loose attire with top-knots and ribbons. Alexey Fyodorovitch Karamazov stands nearby, respectfully attentive, dressed in a dark suit. The atmosphere is vibrant but tinged with nervous energy, and a sense of hurried anticipation fills the room.",
+          "characterIds": [
+            "madame_hohlakov",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 2,
+          "locationDescription": "In the same boudoir, with servants present",
+          "imageDescription": "Inside the same rosy-lit boudoir, Madame Hohlakov is animated on her couch, addressing Alyosha across a delicate tea table. Two maids, Yulia and Glafira, in simple but neat 19th-century servant attire, bustle quietly in the background, preparing coffee. The scene exudes domestic elegance and social tension as Madame Hohlakov commands the setting.",
+          "characterIds": [
+            "madame_hohlakov",
+            "alexey_fyodorovitch_karamazov",
+            "yulia",
+            "glafira"
+          ]
+        },
+        {
+          "startParagraph": 3,
+          "endParagraph": 10,
+          "locationDescription": "Still in the boudoir, with only Madame Hohlakov and Alyosha",
+          "imageDescription": "In the softly furnished boudoir with its genteel 19th-century décor, Madame Hohlakov, in elaborate dressing gowns, converses energetically from her couch with Alyosha, who stands politely in front of her. A feeling of intimacy yet emotional agitation pervades; the lighting is bright from the windows, showing both faces in profile.",
+          "characterIds": [
+            "madame_hohlakov",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 11,
+          "endParagraph": 11,
+          "locationDescription": "Madame Hohlakov's boudoir as she shares the newspaper",
+          "imageDescription": "In the decorated boudoir, Madame Hohlakov, half-reclined and animated, offers a crumpled newspaper page to Alyosha, who reads intently. Both are clad in period-appropriate clothing, she in flamboyant loose attire, he in a sober dark suit. The daylight illuminates subtle details, with a hint of clutter around Madame Hohlakov's couch suggesting her state of agitation.",
+          "characterIds": [
+            "madame_hohlakov",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Boudoir, shifting to discussion of Rakitin and Perhotin",
+          "imageDescription": "The elegant boudoir remains the backdrop. Madame Hohlakov sits upright, gesticulating as she speaks spiritedly about Rakitin and Perhotin. Alyosha listens attentively, standing. The room is cozy but filled with suppressed tension and lively gossip, the early afternoon glow giving everything a warm but slightly feverish hue.",
+          "characterIds": [
+            "madame_hohlakov",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Boudoir, as Madame Hohlakov describes her falling-out with Rakitin",
+          "imageDescription": "Madame Hohlakov dramatically recounts past events from her settee, recalling moments of social tension. Alyosha stands by, a considerate figure in modest clerical garb. The light is gentle and indirect. The room is quiet except for their conversation, with glimpses of Parisian-inspired décor and personal effects scattered near Madame Hohlakov's side.",
+          "characterIds": [
+            "madame_hohlakov",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Boudoir, Alyosha preparing to leave for Lise's room",
+          "imageDescription": "Alyosha stands, making to leave, his expression resolute yet anxious, while Madame Hohlakov, reclining, raises a hand as if to halt him. The mood is fretful, each figure illuminated by the fading afternoon light. The period room is undisturbed; a service bell and medicine bottles nearby hint at Madame Hohlakov’s ailments.",
+          "characterIds": [
+            "madame_hohlakov",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Madame Hohlakov's boudoir, urgent mother-daughter discussion",
+          "imageDescription": "In the richly appointed boudoir, Madame Hohlakov, her cheeks flushed with emotion, sits forward on her settee, hands clasped. Alyosha listens, standing tensely by a side table. Afternoon shadows deepen across the plush carpet and embroidered cushions. The air is thick with worries about Lise and Ivan Fyodorovitch.",
+          "characterIds": [
+            "madame_hohlakov",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 42,
+          "locationDescription": "Boudoir, as Perhotin enters and Alyosha departs",
+          "imageDescription": "The boudoir opens up as Pyotr Fomitch Kalganov (Perhotin), dressed in a crisp, formal 19th-century official’s attire, enters at the doorway. Madame Hohlakov turns toward him with a brightened smile, gesturing for him to sit, while Alyosha, hurrying, pauses at the threshold, half-turned to leave. The scene is lively, full of expectation, with rich daylight accentuating the genteel clutter of the room.",
+          "characterIds": [
+            "madame_hohlakov",
+            "alexey_fyodorovitch_karamazov",
+            "pyotr_fomitch_kalganov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 72,
+      "entities": [
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…his face. There was a feverish look in her eyes, her face was pale and yellow. Alyosha was amazed at the change that had taken place in her in three days. She was positively thinner. She did not hold out her hand to him. He touched the thi…"
+        },
+        {
+          "entityId": "madame_hohlakovs_daughter",
+          "type": "person",
+          "firstSeenInChapter": 8,
+          "excerpt": "<p> Going in to Lise, he found her half reclining in the invalid‐chair, in which she had been wheeled when she was unable to walk. She did not move to meet him, but her sharp, keen"
+        },
+        {
+          "entityId": "madame_hohlakov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…>  <p> “I know you are in a hurry to get to the prison,” Lise said curtly, “and mamma’s kept you there for hours; she’s just been telling you about me and Yulia.” </p>  <p> “How do you know?” asked Alyosha. </p>  <p> “I’ve been listening. …"
+        },
+        {
+          "entityId": "yulia",
+          "type": "person",
+          "firstSeenInChapter": 28,
+          "excerpt": "…“and mamma’s kept you there for hours; she’s just been telling you about me and Yulia.” </p>  <p> “How do you know?” asked Alyosha. </p>  <p> “I’ve been listening. Why do you stare at me? I want to listen and I do listen, there’s no harm i…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…p>  <p> Lise laughed nervously again; she spoke rapidly. </p>  <p> “I sent your brother, Dmitri Fyodorovitch, some sweets in prison. Alyosha, you know, you are quite pretty! I shall love you awfully for having so quickly allowed me not to …"
+        },
+        {
+          "entityId": "pyotr_fomitch_kalganov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…hall become a peasant, a real peasant; we’ll keep a colt, shall we? Do you know Kalganov?” </p>  <p> “Yes.” </p>  <p> “He is always wandering about, dreaming. He says, ‘Why live in real life? It’s better to dream. One can dream the most de…"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…p>  <p> Lise laughed nervously again; she spoke rapidly. </p>  <p> “I sent your brother, Dmitri Fyodorovitch, some sweets in prison. Alyosha, you know, you are quite pretty! I shall love you awfully for having so quickly allowed me not to …"
+        },
+        {
+          "entityId": "god",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…the next world for the greatest sin? You must know all about that.” </p>  <p> “God will censure you.” Alyosha was watching her steadily. </p>  <p> “That’s just what I should like. I would go up and they would censure me, and I would burst …"
+        },
+        {
+          "entityId": "the_devil",
+          "type": "person",
+          "firstSeenInChapter": 16,
+          "excerpt": "…r telling lies. Oh, I must tell you a funny dream of mine. I sometimes dream of devils. It’s night; I am in my room with a candle and suddenly there are devils all over the place, in all the corners, under the table, and they open the door…"
+        },
+        {
+          "entityId": "jews_who_play_the_cymbals_and_the_fiddle",
+          "type": "person",
+          "firstSeenInChapter": 51,
+          "excerpt": "…a, why am I not ashamed with you, not a bit? Alyosha, is it true that at Easter the Jews steal a child and kill it?” </p>  <p> “I don’t know.” </p>  <p> “There’s a book here in which I read about the trial of a Jew, who took a child of fou…"
+        },
+        {
+          "entityId": "prison",
+          "type": "place",
+          "firstSeenInChapter": 62,
+          "excerpt": "…facing her, without a word. </p>  <p> “I know you are in a hurry to get to the prison,” Lise said curtly, “and mamma’s kept you there for hours; she’s just been telling you about me and Yulia.” </p>  <p> “How do you know?” asked Alyosha. <…"
+        },
+        {
+          "entityId": "the_crime_trial_of_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 65,
+          "excerpt": "…railway lines when the train was passing. Lucky fellow! Listen, your brother is being tried now for murdering his father and every one loves his having killed his father.” </p>  <p> “Loves his having killed his father?” </p>  <p> “Yes, lov…"
+        },
+        {
+          "entityId": "death_of_fyodor_pavlovitch_karamazov",
+          "type": "event",
+          "firstSeenInChapter": 1,
+          "excerpt": "…he train was passing. Lucky fellow! Listen, your brother is being tried now for murdering his father and every one loves his having killed his father.” </p>  <p> “Loves his having killed his father?” </p>  <p> “Yes, loves it; every one lov…"
+        },
+        {
+          "entityId": "pineapple_compote",
+          "type": "event",
+          "firstSeenInChapter": 72
+        },
+        {
+          "entityId": "the_letter_from_lise",
+          "type": "event",
+          "firstSeenInChapter": 32,
+          "excerpt": "…th pained surprise, when he was suddenly aware of a letter in his right hand, a tiny letter folded up tight and sealed. He glanced at it and instantly read the address, “To Ivan Fyodorovitch Karamazov.” He looked quickly at Lise. Her face …"
+        },
+        {
+          "entityId": "maid_second_appears_at_the_end",
+          "type": "person",
+          "firstSeenInChapter": 23
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 92,
+          "locationDescription": "In Lise's room, Madame Hohlakov's house",
+          "imageDescription": "A refined 19th-century Russian drawing room filled with soft daylight from a curtained window. Lise (Madame Hohlakov's daughter), pale and thin, reclines in an invalid's chair with a feverish expression, her dress simple but elegant, hands limp on her lap. Alexey Fyodorovitch Karamazov (Alyosha), in dark monastic dress, sits nearby facing her. The scene exudes a tense and intimate atmosphere, filled with emotional intensity. The decor is rich and genteel, with period furnishings and ornate wallpaper.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "madame_hohlakovs_daughter"
+          ]
+        },
+        {
+          "startParagraph": 93,
+          "endParagraph": 93,
+          "locationDescription": "At the threshold of Lise's room",
+          "imageDescription": "At the threshold of a genteel Russian bedroom, Alyosha stands surprised, holding his hat and a sealed letter in his hand, while Lise, flushed and frantic, stands by the door, her hand extended as if she has just forced him out. The doorway separates the two figures; the hallway beyond is dim compared to the brighter room interior. 19th-century Russian period details abound: carved wood trim, hints of patterned carpet, silk dressing gown on Lise, simple black attire for Alyosha. The mood is charged with distress and urgency.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "madame_hohlakovs_daughter"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 96,
+          "locationDescription": "Alone in Lise's room after Alyosha exits",
+          "imageDescription": "A solitary Lise sits upright in her invalid chair in a lavishly furnished Russian bedroom, her lips quivering and eyes fixed intensely on a blackening, bleeding finger. Her dress is rumpled, reflecting inner turmoil. Morning light casts stark shadows, heightening the scene's raw emotional pain. The room's ornate, plush decor clashes with the bleakness of her solitary torment, a bloodstained hand dominating the foreground.",
+          "characterIds": [
+            "madame_hohlakovs_daughter"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "entities": [
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> It was quite late (days are short in November) when Alyosha rang at the prison gate. It was beginning to get dusk. But Alyosha knew that he would be admitted without difficulty. Things were managed in our little town, a"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ry inquiry, relations and a few other persons could only obtain interviews with Mitya by going through certain inevitable formalities. But later, though the formalities were not relaxed, exceptions were made for some, at least, of Mitya’s …"
+        },
+        {
+          "entityId": "prison",
+          "type": "place",
+          "firstSeenInChapter": 62,
+          "excerpt": "<p> It was quite late (days are short in November) when Alyosha rang at the prison gate. It was beginning to get dusk. But Alyosha knew that he would be admitted without difficulty. Things were managed in our little town, as everywhere els…"
+        },
+        {
+          "entityId": "divinity_student",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…<p> These exceptions, however, were few in number; only Grushenka, Alyosha and Rakitin were treated like this. But the captain of the police, Mihail Mihailovitch, was very favorably disposed to Grushenka. His abuse of her at Mokroe weighed…"
+        },
+        {
+          "entityId": "the_captain_of_police_mr_ispravnik",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…few in number; only Grushenka, Alyosha and Rakitin were treated like this. But the captain of the police, Mihail Mihailovitch, was very favorably disposed to Grushenka. His abuse of her at Mokroe weighed on the old man’s conscience, and wh…"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…ly _tête‐à‐tête_. </p>  <p> These exceptions, however, were few in number; only Grushenka, Alyosha and Rakitin were treated like this. But the captain of the police, Mihail Mihailovitch, was very favorably disposed to Grushenka. His abuse …"
+        },
+        {
+          "entityId": "madame_hohlakov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…of the environment. He writes poetry, too, the rascal. He’s written in honor of Madame Hohlakov’s foot. Ha ha ha!” </p>  <p> “I’ve heard about it,” said Alyosha. </p>  <p> “Have you? And have you heard the poem?” </p>  <p> “No.” </p>  <p> …"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ent, who was fond of talking to him, generally on sacred subjects. He respected Ivan Fyodorovitch, and stood in awe of his opinion, though he was a great philosopher himself; “self‐ taught,” of course. But Alyosha had an irresistible attra…"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…was very favorably disposed to Grushenka. His abuse of her at Mokroe weighed on the old man’s conscience, and when he learned the whole story, he completely changed his view of her. And strange to say, though he was firmly persuaded of his…"
+        },
+        {
+          "entityId": "madame_hohlakovs_daughter",
+          "type": "person",
+          "firstSeenInChapter": 8
+        },
+        {
+          "entityId": "pyotr_fomitch_kalganov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…eaming with delight. And then, all of a sudden, he was turned out of the house. Perhotin’s carrying everything before him, bravo! I could kiss the silly old noodle for turning him out of the house. And he had written this doggerel. ‘It’s t…"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…lting things that have been written about Grushenka, for instance.... And about Katya, too.... H’m!” </p>  <p> He walked across the room with a harassed air. </p>  <p> “Brother, I cannot stay long,” Alyosha said, after a pause. “To‐morrow …"
+        },
+        {
+          "entityId": "the_murdered_servant",
+          "type": "person",
+          "firstSeenInChapter": 71
+        },
+        {
+          "entityId": "lizaveta_smerdyastchaya",
+          "type": "person",
+          "firstSeenInChapter": 14,
+          "excerpt": "…talked enough of him. I don’t want to say more of the stinking son of Stinking Lizaveta! God will kill him, you will see. Hush!” </p>  <p> He went up to Alyosha excitedly and kissed him. His eyes glowed. </p>  <p> “Rakitin wouldn’t underst…"
+        },
+        {
+          "entityId": "the_crime_trial_of_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 65
+        },
+        {
+          "entityId": "america",
+          "type": "place",
+          "firstSeenInChapter": 36,
+          "excerpt": "…ll been thought out: it can all be arranged. Hush, don’t decide. I should go to America with Grusha. You know I can’t live without Grusha! What if they won’t let her follow me to Siberia? Do they let convicts get married? Ivan thinks not. …"
+        },
+        {
+          "entityId": "siberia",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…. You know I can’t live without Grusha! What if they won’t let her follow me to Siberia? Do they let convicts get married? Ivan thinks not. And without Grusha what should I do there underground with a hammer? I should only smash my skull w…"
+        },
+        {
+          "entityId": "the_goldmines",
+          "type": "place",
+          "firstSeenInChapter": 54
+        },
+        {
+          "entityId": "our_town",
+          "type": "place",
+          "firstSeenInChapter": 16,
+          "excerpt": "…yosha knew that he would be admitted without difficulty. Things were managed in our little town, as everywhere else. At first, of course, on the conclusion of the preliminary inquiry, relations and a few other persons could only obtain int…"
+        },
+        {
+          "entityId": "the_paper_gossip",
+          "type": "event",
+          "firstSeenInChapter": 71,
+          "excerpt": "…Madame Hohlakov.” </p>  <p> And Alyosha told him briefly about the paragraph in _Gossip_. </p>  <p> “That’s his doing, that’s his doing!” Mitya assented, frowning. “That’s him! These paragraphs ... I know ... the insulting things that have…"
+        },
+        {
+          "entityId": "russian_bishops",
+          "type": "person",
+          "firstSeenInChapter": 7
+        },
+        {
+          "entityId": "the_superintendent",
+          "type": "person",
+          "firstSeenInChapter": 73
+        },
+        {
+          "entityId": "claude_bernard",
+          "type": "person",
+          "firstSeenInChapter": 73
+        },
+        {
+          "entityId": "socialism",
+          "type": "event",
+          "firstSeenInChapter": 65,
+          "excerpt": "…his environment,’ and so on. He explained it all to me. He is going to put in a tinge of Socialism, he says. But there, damn the fellow, he can put in a tinge if he likes, I don’t care. He can’t bear Ivan, he hates him. He’s not fond of yo…"
+        },
+        {
+          "entityId": "pyotr_alexandrovitch_misov_1",
+          "type": "person",
+          "firstSeenInChapter": 73
+        },
+        {
+          "entityId": "the_masons",
+          "type": "person",
+          "firstSeenInChapter": 36
+        },
+        {
+          "entityId": "pushkin",
+          "type": "person",
+          "firstSeenInChapter": 12,
+          "excerpt": "…cial justification for every nasty thing they do! ‘Anyway it’s better than your Pushkin’s poetry,’ he said, ‘for I’ve managed to advocate enlightenment even in that.’ I understand what he means about Pushkin, I quite see that, if he really…"
+        },
+        {
+          "entityId": "the_baby_in_the_dream",
+          "type": "person",
+          "firstSeenInChapter": 61,
+          "excerpt": "…o blame for them. Why was it I dreamed of that ‘babe’ at such a moment? ‘Why is the babe so poor?’ That was a sign to me at that moment. It’s for the babe I’m going. Because we are all responsible for all. For all the ‘babes,’ for there ar…"
+        },
+        {
+          "entityId": "the_warder",
+          "type": "person",
+          "firstSeenInChapter": 73,
+          "excerpt": "…spered to him with an air of mystery, though in reality no one could hear them: the old warder was dozing in the corner, and not a word could reach the ears of the soldiers on guard. </p>  <p> “I will tell you all our secret,” Mitya whispe…"
+        },
+        {
+          "entityId": "doctor",
+          "type": "person",
+          "firstSeenInChapter": 68,
+          "excerpt": "…fellow. </p>  <p> A captivating little foot, Though swollen and red and tender! The doctors come and plasters put, But still they cannot mend her. </p>  <p> Yet, ’tis not for her foot I dread— A theme for Pushkin’s muse more fit— It’s not …"
+        },
+        {
+          "entityId": "the_lawyer",
+          "type": "person",
+          "firstSeenInChapter": 73
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 1,
+          "locationDescription": "At the prison gate at dusk",
+          "imageDescription": "A snow-dusted prison yard in a small Russian town at dusk, with the sky fading to deep blue. Alyosha, a young monk in black cassock and cloak, stands before heavy iron gates as a sentry in winter uniform looks on. The setting is cold and twilight shadows stretch across the yard, reflecting the time of late autumn in 19th-century Russia. The atmosphere is somber but expectant.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 2,
+          "endParagraph": 8,
+          "locationDescription": "In the prison interview room",
+          "imageDescription": "Inside a sparsely furnished interview room with peeling plaster walls and a few wooden benches, fading evening light filters through barred windows. Dmitri (Mitya), rugged in appearance and prison garb, is laughing heartily near the door as Rakitin, an intellectual-looking man, frowns and hurriedly fastens a fur-trimmed overcoat, umbrella in hand. Alyosha, youthful and serene in his dark monastic attire, has just entered, catching both men's attention. The lighting is dim, casting elongated shadows. The mood is tense, with the friction of a recent conversation still in the air.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "dmitri_fyodorovitch_karamazov",
+            "divinity_student"
+          ]
+        },
+        {
+          "startParagraph": 9,
+          "endParagraph": 44,
+          "locationDescription": "On the bench in the prison interview room",
+          "imageDescription": "Mitya and Alyosha sit side by side on a simple wooden bench against a peeling wall in the prison interview room. Mitya's expressive face is animated, his posture restless, while Alyosha listens intently, calm and attentive in his monk's habit. The room is bathed in the last gray light of day; near a darkened corner sits an elderly warder, dozing. A sense of intimacy and emotional weight fills the air.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "dmitri_fyodorovitch_karamazov",
+            "the_warder"
+          ]
+        },
+        {
+          "startParagraph": 45,
+          "endParagraph": 47,
+          "locationDescription": "In the prison interview room, pacing and confessing",
+          "imageDescription": "Mitya paces with anxious energy near the shadowy end of the interview room while Alyosha, seated, watches him with apprehension. The walls are worn, and the single oil lamp throws flickers on the scene. A sense of foreboding and emotional exhaustion pervades, with Mitya's figure partially outlined against the fading daylight through a barred window.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "dmitri_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 48,
+          "endParagraph": 68,
+          "locationDescription": "Still in the interview room, a moment of confession and brotherly support",
+          "imageDescription": "Mitya, with glowing eyes and trembling lips, embraces Alyosha warmly in the dimly lit interview room. Alyosha stands slightly apart, accepting his brother's outburst with quiet empathy. The old warder is asleep in the background. The gloom of approaching night deepens, amplifying the emotional intensity between the brothers. The atmosphere is saturated with confession, hope, and desperation.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "dmitri_fyodorovitch_karamazov",
+            "the_warder"
+          ]
+        },
+        {
+          "startParagraph": 69,
+          "endParagraph": 72,
+          "locationDescription": "Still in the prison interview room, in hushed secrecy",
+          "imageDescription": "Near the center of the shadow-filled room, Mitya leans toward Alyosha, gripping him by the shoulders and whispering intensely. Alyosha's face is rapt, uncertain. The old warder slumps asleep on a bench in the far corner. The only illumination is from a small lamp, casting their faces into sharp relief against the encroaching darkness. Their posture suggests secrecy and urgency.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "dmitri_fyodorovitch_karamazov",
+            "the_warder"
+          ]
+        },
+        {
+          "startParagraph": 73,
+          "endParagraph": 86,
+          "locationDescription": "Concluding the visit in the prison interview room",
+          "imageDescription": "Alyosha faces Mitya, still held by the shoulders, both men's expressions etched with intensity and a hint of fear. The darkness in the room has deepened; outlines of furniture and the dozing warder barely visible. Mitya's features are pale and anxious in the failing light, while Alyosha radiates compassion and solemnity. The emotional density of the moment hangs tangibly in the air.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "dmitri_fyodorovitch_karamazov",
+            "the_warder"
+          ]
+        },
+        {
+          "startParagraph": 87,
+          "endParagraph": 95,
+          "locationDescription": "At the threshold of the prison interview room",
+          "imageDescription": "At the half-opened door of the bleak interview room, Alyosha turns back as Mitya, pale and desperate, seizes his shoulders for a final intense question. Their faces are close, filled with urgency and vulnerability, shadows pooling around them. In the background, the prison corridor beyond is even darker, adding to the sense of impending separation and trial.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "dmitri_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 96,
+          "endParagraph": 96,
+          "locationDescription": "In the prison yard as Alyosha departs",
+          "imageDescription": "Alyosha, in his monk's habit, walks alone across the cold, dimly-lit prison yard. His head is bowed in sorrow, wiping tears from his face. Behind him, the grim facade of the prison and its barred windows loom in silence, evening mist curling low on the ground. The scene is bleak and wintry, echoing Alyosha's ache of compassion and worry for his brothers.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "entities": [
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…was instantly flung open above, and a voice cried suddenly: </p>  <p> “No, no! Alexey Fyodorovitch, have you come from him?” </p>  <p> “Yes, I have been with him.” </p>  <p> “Has he sent me any message? Come up, Alyosha, and you, Ivan Fyod…"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> On the way to Ivan he had to pass the house where Katerina Ivanovna was living. There was light in the windows. He suddenly stopped and resolved to go in. He had not seen Katerin"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "<p> On the way to Ivan he had to pass the house where Katerina Ivanovna was living. There was light in the windows. He suddenly stopped and resolved to go in. He had not seen Katerina Ivanovna for more than a week. But now it struc"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ve been to see Smerdyakov.... It was you, you who persuaded me that he murdered his father. It’s only you I believed!” she continued, still addressing Ivan. He gave her a sort of strained smile. Alyosha started at her tone. He had not susp…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…se lantern, he saw a man coming down, and as they met, he recognized him as his brother. So he was just coming from Katerina Ivanovna. </p>  <p> “Ah, it’s only you,” said Ivan dryly. “Well, good‐by! You are going to her?” </p>  <p> “Yes.” …"
+        },
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…e hundredth, and that they had ended by quarreling. </p>  <p> “I’ve been to see Smerdyakov.... It was you, you who persuaded me that he murdered his father. It’s only you I believed!” she continued, still addressing Ivan. He gave her a sor…"
+        },
+        {
+          "entityId": "mother_of_god",
+          "type": "person",
+          "firstSeenInChapter": 22,
+          "excerpt": "…silent again for a moment. </p>  <p> “She will be praying all night now to the Mother of God to show her how to act to‐morrow at the trial,” he said sharply and angrily again. </p>  <p> “You ... you mean Katerina Ivanovna?” </p>  <p> “Yes.…"
+        },
+        {
+          "entityId": "madame_hohlakovs_daughter",
+          "type": "person",
+          "firstSeenInChapter": 8,
+          "excerpt": "…hile I think of it, I have a letter for you,” said Alyosha timidly, and he took Lise’s note from his pocket and held it out to Ivan. They were just under a lamp‐post. Ivan recognized the handwriting at once. </p>  <p> “Ah, from that little…"
+        },
+        {
+          "entityId": "the_widow_of_a_former_provincial_secretary",
+          "type": "person",
+          "firstSeenInChapter": 63,
+          "excerpt": "…comfortable lodge attached to a fine house that belonged to a well‐to‐do lady, the widow of an official. But his only attendant was a deaf and rheumatic old crone who went to bed at six o’clock every evening and got up at six in the mornin…"
+        },
+        {
+          "entityId": "marya_kondratyevna",
+          "type": "person",
+          "firstSeenInChapter": 33,
+          "excerpt": "…walked a mile and a half to a tiny, slanting, wooden house, almost a hut, where Marya Kondratyevna, the neighbor who used to come to Fyodor Pavlovitch’s kitchen for soup and to whom Smerdyakov had once sung his songs and played on the guit…"
+        },
+        {
+          "entityId": "her_mother",
+          "type": "person",
+          "firstSeenInChapter": 74
+        },
+        {
+          "entityId": "the_lodgings_of_ivan",
+          "type": "place",
+          "firstSeenInChapter": 74
+        },
+        {
+          "entityId": "the_crone_at_ivans_lodgings",
+          "type": "person",
+          "firstSeenInChapter": 74
+        },
+        {
+          "entityId": "the_house_where_katerina_ivanovna_lives",
+          "type": "place",
+          "firstSeenInChapter": 74
+        },
+        {
+          "entityId": "chinese_lantern",
+          "type": "event",
+          "firstSeenInChapter": 74,
+          "excerpt": "…terrible day. Ringing, and mounting the staircase, which was dimly lighted by a Chinese lantern, he saw a man coming down, and as they met, he recognized him as his brother. So he was just coming from Katerina Ivanovna. </p>  <p> “Ah, it’s…"
+        },
+        {
+          "entityId": "the_drawingroom_katerina_ivanovna",
+          "type": "place",
+          "firstSeenInChapter": 74
+        },
+        {
+          "entityId": "the_trial",
+          "type": "event",
+          "firstSeenInChapter": 74,
+          "excerpt": "…ing her straight in the face, “that you would spare yourself and say nothing at the trial of what” (he was a little confused) “... passed between you ... at the time of your first acquaintance ... in that town.” </p>  <p> “Ah! that I bowed…"
+        },
+        {
+          "entityId": "lodgings_of_alyosha",
+          "type": "place",
+          "firstSeenInChapter": 74,
+          "excerpt": "…to live in Fyodor Pavlovitch’s empty house. Alyosha had a furnished room in the house of some working people. Ivan lived some distance from him. He had taken a roomy and fairly comfortable lodge attached to a fine house that belonged to a …"
+        },
+        {
+          "entityId": "house_of_marya_kondratyevna",
+          "type": "place",
+          "firstSeenInChapter": 74
+        },
+        {
+          "entityId": "death_of_fyodor_pavlovitch_karamazov",
+          "type": "event",
+          "firstSeenInChapter": 1
+        },
+        {
+          "entityId": "document_in_mityas_handwriting",
+          "type": "event",
+          "firstSeenInChapter": 74
+        },
+        {
+          "entityId": "the_street",
+          "type": "place",
+          "firstSeenInChapter": 48,
+          "excerpt": "…believe, and already offering herself,” he said contemptuously, striding along the street again. </p>  <p> “How do you mean, offering herself?” exclaimed Alyosha. </p>  <p> “As wanton women offer themselves, to be sure.” </p>  <p> “How can…"
+        },
+        {
+          "entityId": "the_turning_crossroads",
+          "type": "place",
+          "firstSeenInChapter": 74
+        },
+        {
+          "entityId": "the_lamppost",
+          "type": "place",
+          "firstSeenInChapter": 74
+        },
+        {
+          "entityId": "ivans_room",
+          "type": "place",
+          "firstSeenInChapter": 38
+        },
+        {
+          "entityId": "the_gate_of_ivans_house",
+          "type": "place",
+          "firstSeenInChapter": 74
+        },
+        {
+          "entityId": "the_letter_from_lise",
+          "type": "event",
+          "firstSeenInChapter": 32
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Outside Katerina Ivanovna's house, on the street",
+          "imageDescription": "A wintry Russian street at night, snow on the ground reflecting the glow from house windows. Alexey Fyodorovitch Karamazov approaches a modest, two-story home with light shining from the windows. He pauses outside, wrapped in a thick coat, with a worried expression. The scene is peaceful but tense under dim street lighting, capturing 19th-century Russian urban life.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 9,
+          "locationDescription": "Staircase and landing inside Katerina Ivanovna's house",
+          "imageDescription": "A modest, candlelit Russian staircase illuminated by a single Chinese lantern. Alexey Fyodorovitch Karamazov ascends the stairs, while Ivan Fyodorovitch Karamazov descends, their faces catching the lantern light in the otherwise dark space. Both men are in dark, heavy coats, and their expressions are tense and expectant, hinting at the seriousness of their meeting in this quiet nighttime setting.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "ivan_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 10,
+          "endParagraph": 24,
+          "locationDescription": "Katerina Ivanovna's drawing-room",
+          "imageDescription": "A well-appointed Russian drawing-room, decorated with elegant 19th-century furnishings, delicate wallpaper, and a soft lamp glow. Katerina Ivanovna stands rigid and strikingly handsome near a velvet armchair, Alyosha sits or stands nearby, attentive and compassionate. Ivan, still in his greatcoat, stands apart, tense and ready to leave. The atmosphere is charged, the three form a loose triangle in the genteel but anxious space.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "ivan_fyodorovitch_karamazov",
+            "katerina_ivanovna"
+          ]
+        },
+        {
+          "startParagraph": 25,
+          "endParagraph": 34,
+          "locationDescription": "Outside on the street, following Ivan",
+          "imageDescription": "A snowy, dimly lit Russian street at night, lined with wooden houses and the faint light of distant lamp-posts. Ivan strides angrily ahead, Alyosha hurries after him, their figures partially illuminated by a lamplight. Both are in period coats and hats; the cold and isolation is palpable, reflecting the tense and heartfelt nature of their pursuit.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "ivan_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 35,
+          "endParagraph": 70,
+          "locationDescription": "At a lamp-post at the crossroads",
+          "imageDescription": "Two brothers stand beneath a weathered iron lamp-post at a crossroads, the warm pool of lamplight highlighting their pale, strained faces against the dark Russian night. Alyosha offers Ivan a letter; Ivan rips it up, casting the scraps into a cold wind. Both wear heavy winter coats and hats, their breath visible in the frigid air. The mood is tense and dramatic.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "ivan_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 71,
+          "endParagraph": 82,
+          "locationDescription": "Street near the lamp-post, walking and confronting",
+          "imageDescription": "Ivan and Alyosha stand facing each other near the same crossroads, illuminated by the lamplight. Ivan, trembling, grabs Alyosha’s shoulder, their gazes intense and troubled. The deserted, snowy street stretches away into the darkness, highlighting their isolation. Their expressions convey desperation, fear, and brotherly concern, set against the stark realism of late 19th-century provincial Russia.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "ivan_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 83,
+          "endParagraph": 83,
+          "locationDescription": "At the cross roads, alone",
+          "imageDescription": "Alyosha stands alone beneath the iron lamp-post where four snowy streets meet. The darkness has swallowed Ivan, and Alyosha gazes pensively after him. The lamp’s pale glow casts elongated shadows on the snow, emphasizing the feeling of solitude and contemplation. The Russian town is quiet and still under the cold, moonless sky, capturing Alyosha’s loneliness at this critical moment.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 84,
+          "endParagraph": 84,
+          "locationDescription": "Outside Ivan's lodgings, at the gate",
+          "imageDescription": "A large, stately Russian house with a wrought-iron gate set on a quiet street at night. Ivan, wrapped in his winter coat, stands at the gateway with his hand on the bell, hesitation and anger etched on his pale face. The scene is solitary and tense, under sparse lamplight, with the imposing facade of the house hinting at Ivan’s isolation.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 84,
+          "locationDescription": "Outside Marya Kondratyevna's hut",
+          "imageDescription": "A snow-covered, slightly crooked wooden hut stands at the edge of a Russian town under a gray, early-morning sky. Ivan approaches on foot, bundled against the winter cold, with the hut’s warm light barely visible through a frosted window. The humble structure looks worn, with faint smoke rising from a chimney, suggesting life within. The mood is somber and foreboding.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "marya_kondratyevna",
+            "her_mother",
+            "smerdyakov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "entities": [
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> This was the third time that Ivan had been to see Smerdyakov since his return from Moscow. The first time he had seen him and talked to him was on the first day of his arrival, then he had visi"
+        },
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "<p> This was the third time that Ivan had been to see Smerdyakov since his return from Moscow. The first time he had seen him and talked to him was on the first day of his arrival, then he had visited him once more, a fortni"
+        },
+        {
+          "entityId": "moscow",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…s was the third time that Ivan had been to see Smerdyakov since his return from Moscow. The first time he had seen him and talked to him was on the first day of his arrival, then he had visited him once more, a fortnight later. But his vis…"
+        },
+        {
+          "entityId": "death_of_fyodor_pavlovitch_karamazov",
+          "type": "event",
+          "firstSeenInChapter": 1
+        },
+        {
+          "entityId": "funeral",
+          "type": "event",
+          "firstSeenInChapter": 75,
+          "excerpt": "…returned five days after his father’s death, so that he was not present at the funeral, which took place the day before he came back. The cause of his delay was that Alyosha, not knowing his Moscow address, had to apply to Katerina Ivanovn…"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…, which took place the day before he came back. The cause of his delay was that Alyosha, not knowing his Moscow address, had to apply to Katerina Ivanovna to telegraph to him, and she, not knowing his address either, telegraphed to her sis…"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…of his delay was that Alyosha, not knowing his Moscow address, had to apply to Katerina Ivanovna to telegraph to him, and she, not knowing his address either, telegraphed to her sister and aunt, reckoning on Ivan’s going to see them as soo…"
+        },
+        {
+          "entityId": "katerina_ivanovnas_sister_and_another_relation_in_moscow",
+          "type": "person",
+          "firstSeenInChapter": 60,
+          "excerpt": "…na to telegraph to him, and she, not knowing his address either, telegraphed to her sister and aunt, reckoning on Ivan’s going to see them as soon as he arrived in Moscow. But he did not go to them till four days after his arrival. When he…"
+        },
+        {
+          "entityId": "our_town",
+          "type": "place",
+          "firstSeenInChapter": 16,
+          "excerpt": "…his arrival. When he got the telegram, he had, of course, set off post‐haste to our town. The first to meet him was Alyosha, and Ivan was greatly surprised to find that, in opposition to the general opinion of the town, he refused to enter…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…to the general opinion of the town, he refused to entertain a suspicion against Mitya, and spoke openly of Smerdyakov as the murderer. Later on, after seeing the police captain and the prosecutor, and hearing the details of the charge and …"
+        },
+        {
+          "entityId": "the_captain_of_police_mr_ispravnik",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…t Mitya, and spoke openly of Smerdyakov as the murderer. Later on, after seeing the police captain and the prosecutor, and hearing the details of the charge and the arrest, he was still more surprised at Alyosha, and ascribed his opinion o…"
+        },
+        {
+          "entityId": "ippolit_kirillovitch",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…ly of Smerdyakov as the murderer. Later on, after seeing the police captain and the prosecutor, and hearing the details of the charge and the arrest, he was still more surprised at Alyosha, and ascribed his opinion only to his exaggerated …"
+        },
+        {
+          "entityId": "grigory",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…continually firing up and abusing every one. He only laughed contemptuously at Grigory’s evidence about the open door, and declared that it was “the devil that opened it.” But he could not bring forward any coherent explanation of the fact…"
+        },
+        {
+          "entityId": "marfa_ignatyevna",
+          "type": "person",
+          "firstSeenInChapter": 14,
+          "excerpt": "…ell. Is there anything you want?” </p>  <p> “I am very thankful for everything. Marfa Ignatyevna does not forget me, and provides me anything I want, according to her kindness. Good people visit me every day.” </p>  <p> “Good‐by. But I sha…"
+        },
+        {
+          "entityId": "three_thousand_roubles_giftenvelope",
+          "type": "event",
+          "firstSeenInChapter": 55,
+          "excerpt": "…accused Smerdyakov, and was fearfully muddled. He talked principally about the three thousand roubles, which he said had been “stolen” from him by his father. </p>  <p> “The money was mine, it was my money,” Mitya kept repeating. “Even if …"
+        },
+        {
+          "entityId": "the_devil",
+          "type": "person",
+          "firstSeenInChapter": 16,
+          "excerpt": "…emptuously at Grigory’s evidence about the open door, and declared that it was “the devil that opened it.” But he could not bring forward any coherent explanation of the fact. He even succeeded in insulting Ivan during their first intervie…"
+        },
+        {
+          "entityId": "tchermashnya",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…n’t tell them that either.” </p>  <p> “Tell me now, why did you send me then to Tchermashnya?” </p>  <p> “I was afraid you’d go away to Moscow; Tchermashnya is nearer, anyway.” </p>  <p> “You are lying; you suggested my going away yourself…"
+        },
+        {
+          "entityId": "smerdyakovs_epileptic_fitfall_in_the_cellar",
+          "type": "event",
+          "firstSeenInChapter": 38
+        },
+        {
+          "entityId": "doctor_herzenstube",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…ff till he had seen Smerdyakov, who was at that time in the hospital. </p>  <p> Doctor Herzenstube and Varvinsky, the doctor he met in the hospital, confidently asserted in reply to Ivan’s persistent questions, that Smerdyakov’s epileptic …"
+        },
+        {
+          "entityId": "varvinsky",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…rdyakov, who was at that time in the hospital. </p>  <p> Doctor Herzenstube and Varvinsky, the doctor he met in the hospital, confidently asserted in reply to Ivan’s persistent questions, that Smerdyakov’s epileptic attack was unmistakably…"
+        },
+        {
+          "entityId": "the_investigating_lawyer",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…things seemed to him puzzling and suspicious. But when he gave his evidence to the investigating lawyer Ivan said nothing, for the time, of that conversation. He put that off till he had seen Smerdyakov, who was at that time in the hospita…"
+        },
+        {
+          "entityId": "catastrophe_alyoshas_foreboding",
+          "type": "event",
+          "firstSeenInChapter": 33
+        },
+        {
+          "entityId": "the_hospital",
+          "type": "place",
+          "firstSeenInChapter": 75,
+          "excerpt": "…the hospital. </p>  <p> Doctor Herzenstube and Varvinsky, the doctor he met in the hospital, confidently asserted in reply to Ivan’s persistent questions, that Smerdyakov’s epileptic attack was unmistakably genuine, and were surprised inde…"
+        },
+        {
+          "entityId": "a_tradesman_of_the_town",
+          "type": "person",
+          "firstSeenInChapter": 75,
+          "excerpt": "…bed in a separate ward. There was only one other bed in the room, and in it lay a tradesman of the town, swollen with dropsy, who was obviously almost dying; he could be no hindrance to their conversation. Smerdyakov grinned uncertainly on…"
+        },
+        {
+          "entityId": "the_corridor",
+          "type": "place",
+          "firstSeenInChapter": 75,
+          "excerpt": "…n it happened that Ivan went out, and only when he had gone a dozen steps along the corridor, he suddenly felt that there was an insulting significance in Smerdyakov’s last words. He was almost on the point of turning back, but it was only…"
+        },
+        {
+          "entityId": "partition_wall",
+          "type": "place",
+          "firstSeenInChapter": 75,
+          "excerpt": "…stions, declared that Smerdyakov had been lying all night the other side of the partition wall. “He was not three paces from our bed,” and that although she was a sound sleeper she waked several times and heard him moaning, “He was moaning…"
+        },
+        {
+          "entityId": "fenya",
+          "type": "person",
+          "firstSeenInChapter": 44,
+          "excerpt": "…weight of evidence against him. There was evidence of people of no importance, Fenya and her mother, for instance, but the effect of it was almost overpowering. As to Perhotin, the people at the tavern, and at Plotnikov’s shop, as well as …"
+        },
+        {
+          "entityId": "fenyas_mother",
+          "type": "person",
+          "firstSeenInChapter": 75
+        },
+        {
+          "entityId": "pyotr_fomitch_kalganov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…d her mother, for instance, but the effect of it was almost overpowering. As to Perhotin, the people at the tavern, and at Plotnikov’s shop, as well as the witnesses at Mokroe, their evidence seemed conclusive. It was the details that were…"
+        },
+        {
+          "entityId": "the_tavern",
+          "type": "place",
+          "firstSeenInChapter": 34,
+          "excerpt": "…ce, but the effect of it was almost overpowering. As to Perhotin, the people at the tavern, and at Plotnikov’s shop, as well as the witnesses at Mokroe, their evidence seemed conclusive. It was the details that were so damning. The secret …"
+        },
+        {
+          "entityId": "plotnikovs_shop",
+          "type": "place",
+          "firstSeenInChapter": 50
+        },
+        {
+          "entityId": "mokroe",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…the people at the tavern, and at Plotnikov’s shop, as well as the witnesses at Mokroe, their evidence seemed conclusive. It was the details that were so damning. The secret of the knocks impressed the lawyers almost as much as Grigory’s ev…"
+        },
+        {
+          "entityId": "the_secret_of_the_knocks",
+          "type": "event",
+          "firstSeenInChapter": 75,
+          "excerpt": "…roe, their evidence seemed conclusive. It was the details that were so damning. The secret of the knocks impressed the lawyers almost as much as Grigory’s evidence as to the open door. Grigory’s wife, Marfa, in answer to Ivan’s questions, …"
+        },
+        {
+          "entityId": "the_open_door",
+          "type": "event",
+          "firstSeenInChapter": 75,
+          "excerpt": "…d abusing every one. He only laughed contemptuously at Grigory’s evidence about the open door, and declared that it was “the devil that opened it.” But he could not bring forward any coherent explanation of the fact. He even succeeded in i…"
+        },
+        {
+          "entityId": "marfa_ignatyevna",
+          "type": "person",
+          "firstSeenInChapter": 14,
+          "excerpt": "…ell. Is there anything you want?” </p>  <p> “I am very thankful for everything. Marfa Ignatyevna does not forget me, and provides me anything I want, according to her kindness. Good people visit me every day.” </p>  <p> “Good‐by. But I sha…"
+        },
+        {
+          "entityId": "doctor_herzenstube",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…ff till he had seen Smerdyakov, who was at that time in the hospital. </p>  <p> Doctor Herzenstube and Varvinsky, the doctor he met in the hospital, confidently asserted in reply to Ivan’s persistent questions, that Smerdyakov’s epileptic …"
+        },
+        {
+          "entityId": "exercisebook_with_french_words",
+          "type": "event",
+          "firstSeenInChapter": 75
+        },
+        {
+          "entityId": "the_incident_with_the_knife",
+          "type": "event",
+          "firstSeenInChapter": 66,
+          "excerpt": "…. He stopped him at once, and put a question to him: </p>  <p> “Do you remember when Dmitri burst in after dinner and beat father, and afterwards I told you in the yard that I reserved ‘the right to desire’?... Tell me, did you think then …"
+        },
+        {
+          "entityId": "alyoshas_last_meeting_with_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 48
+        },
+        {
+          "entityId": "the_event",
+          "type": "event",
+          "firstSeenInChapter": 47
+        },
+        {
+          "entityId": "ivans_infamous_listening_episode",
+          "type": "event",
+          "firstSeenInChapter": 38
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 6,
+          "locationDescription": "Narrator’s overview of Ivan’s recent actions and thoughts",
+          "imageDescription": "A montage-like illustration showing Ivan Karamazov boarding a train with a suitcase in hand, a shadowy figure (Alyosha) at the station sending him off. In the background, Katerina Ivanovna stands beside a wagon, looking anxious, with snow on the ground and distant Russian onion domes. The light is pale winter daylight, evoking a somber, tense atmosphere. All are dressed in thick 19th-century Russian clothing—coats, hats, and gloves appropriate for travel and mourning.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov",
+            "katerina_ivanovna",
+            "katerina_ivanovnas_sister_and_another_relation_in_moscow",
+            "dmitri_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 7,
+          "endParagraph": 68,
+          "locationDescription": "A hospital ward with Smerdyakov",
+          "imageDescription": "A sparse hospital room in a 19th-century Russian provincial building, dimly lit by a small window from which daylight streams onto whitewashed walls. Smerdyakov, gaunt and pallid, reclines on a simple truckle-bed, covered in a rough blanket, his hair disheveled. Next to him, Ivan Karamazov sits on a wooden stool at the bedside, tense and intent. In the other bed, partially visible, is another dying townsman, swathed in bedding. The overall mood is grim and introspective, with Ivan and Smerdyakov as the central visual focus, both in period peasant and modest bourgeois attire.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "smerdyakov",
+            "a_tradesman_of_the_town"
+          ]
+        },
+        {
+          "startParagraph": 69,
+          "endParagraph": 69,
+          "locationDescription": "Ivan leaving the hospital and considering evidence in town",
+          "imageDescription": "Outside the hospital, Ivan Karamazov walks alone along a snow-dusted street. His posture is hunched, lost in troubled thought as townsfolk pass by at a distance—some dressed as modest shopkeepers or tradespeople, others as peasants in shawls and felt boots. The sky is overcast and the mood heavy. Wooden buildings and a church spire rise in the background. Ivan’s dark overcoat and fur hat mark him as of educated class, but his isolation is palpable.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "grigory",
+            "marfa_ignatyevna",
+            "doctor_herzenstube",
+            "varvinsky",
+            "fenya",
+            "fenyas_mother",
+            "pyotr_fomitch_kalganov"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 83,
+          "locationDescription": "A street in town where Ivan meets Alyosha",
+          "imageDescription": "A wintry provincial Russian street scene in late afternoon, gray light falling on snow-lined roadways. Ivan Karamazov stops Alyosha midstep. Ivan stands stern and tormented, Alyosha looks gentle but pained. Both wear heavy 19th-century cloaks and hats; other townsfolk pass distantly. The mood is hushed and tense, suggesting an emotionally charged exchange amidst the ordinary urban winter landscape.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "entities": [
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "<p> By that time Smerdyakov had been discharged from the hospital. Ivan knew his new lodging, the dilapidated little wooden house, divided in two by a passage on one side of which lived M"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> By that time Smerdyakov had been discharged from the hospital. Ivan knew his new lodging, the dilapidated little wooden house, divided in two by a passage on one side of which lived Marya Kondratyevna and her mother, and on the"
+        },
+        {
+          "entityId": "marya_kondratyevna",
+          "type": "person",
+          "firstSeenInChapter": 33,
+          "excerpt": "…ted little wooden house, divided in two by a passage on one side of which lived Marya Kondratyevna and her mother, and on the other, Smerdyakov. No one knew on what terms he lived with them, whether as a friend or as a lodger. It was suppo…"
+        },
+        {
+          "entityId": "her_mother",
+          "type": "person",
+          "firstSeenInChapter": 74,
+          "excerpt": "…, divided in two by a passage on one side of which lived Marya Kondratyevna and her mother, and on the other, Smerdyakov. No one knew on what terms he lived with them, whether as a friend or as a lodger. It was supposed afterwards that he …"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ust received. </p>  <p> “So you thought then, you scoundrel, that together with Dmitri I meant to kill my father?” </p>  <p> “I didn’t know what thoughts were in your mind then,” said Smerdyakov resentfully; “and so I stopped you then at t…"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…life is not worth living!” </p>  <p> Ivan did not go home, but went straight to Katerina Ivanovna and alarmed her by his appearance. He was like a madman. He repeated all his conversation with Smerdyakov, every syllable of it. He couldn’t …"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…“So you thought then, you scoundrel, that together with Dmitri I meant to kill my father?” </p>  <p> “I didn’t know what thoughts were in your mind then,” said Smerdyakov resentfully; “and so I stopped you then at the gate to sound you on …"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…roads on the way to the monastery, after the scene at Katerina Ivanovna’s, when Grushenka had insulted her. Then, parting from Alyosha, Mitya had rushed to Grushenka. I don’t know whether he saw her, but in the evening he was at the “Metro…"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ff to exile; so his share of the inheritance would come to you and your brother Alexey Fyodorovitch in equal parts; so you’d each have not forty, but sixty thousand each. There’s not a doubt you did reckon on Dmitri Fyodorovitch.” </p>  <p…"
+        },
+        {
+          "entityId": "varvinsky",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…ear that he was very ill and out of his mind. </p>  <p> “He’ll end in madness,” the young doctor Varvinsky observed about him, and Ivan remembered this. During the last week of that month Ivan himself began to feel very ill. He went to con…"
+        },
+        {
+          "entityId": "the_moscow_doctor",
+          "type": "person",
+          "firstSeenInChapter": 76,
+          "excerpt": "…week of that month Ivan himself began to feel very ill. He went to consult the Moscow doctor who had been sent for by Katerina Ivanovna just before the trial. And just at that time his relations with Katerina Ivanovna became acutely strain…"
+        },
+        {
+          "entityId": "house_of_marya_kondratyevna",
+          "type": "place",
+          "firstSeenInChapter": 74
+        },
+        {
+          "entityId": "tchermashnya",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…coundrel! So that’s how you understood it!” </p>  <p> “It was all that going to Tchermashnya. Why! You were meaning to go to Moscow and refused all your father’s entreaties to go to Tchermashnya—and simply at a foolish word from me you con…"
+        },
+        {
+          "entityId": "moscow",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…/p>  <p> “It was all that going to Tchermashnya. Why! You were meaning to go to Moscow and refused all your father’s entreaties to go to Tchermashnya—and simply at a foolish word from me you consented at once! What reason had you to consen…"
+        },
+        {
+          "entityId": "document_in_mityas_handwriting",
+          "type": "event",
+          "firstSeenInChapter": 74
+        },
+        {
+          "entityId": "alyoshas_visit_to_katerina_ivanovna_with_message_from_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 22
+        },
+        {
+          "entityId": "the_metropolis",
+          "type": "place",
+          "firstSeenInChapter": 30
+        },
+        {
+          "entityId": "the_turning_crossroads",
+          "type": "place",
+          "firstSeenInChapter": 74,
+          "excerpt": "…Katerina Ivanovna when he was drunk, on the very evening he met Alyosha at the crossroads on the way to the monastery, after the scene at Katerina Ivanovna’s, when Grushenka had insulted her. Then, parting from Alyosha, Mitya had rushed to…"
+        },
+        {
+          "entityId": "siberia",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…take the money from under the pillow, if only Ivan has gone. If I have to go to Siberia for it, I’ll give you back your three thousand. And farewell. I bow down to the ground before you, for I’ve been a scoundrel to you. Forgive me! No, be…"
+        },
+        {
+          "entityId": "the_pillow",
+          "type": "place",
+          "firstSeenInChapter": 59
+        },
+        {
+          "entityId": "three_thousand_roubles_giftenvelope",
+          "type": "event",
+          "firstSeenInChapter": 55,
+          "excerpt": "…s follows: </p>  <p> FATAL KATYA: To‐morrow I will get the money and repay your three thousand and farewell, woman of great wrath, but farewell, too, my love! Let us make an end! To‐morrow I shall try and get it from every one, and if I ca…"
+        },
+        {
+          "entityId": "the_trial",
+          "type": "event",
+          "firstSeenInChapter": 74,
+          "excerpt": "…onsult the Moscow doctor who had been sent for by Katerina Ivanovna just before the trial. And just at that time his relations with Katerina Ivanovna became acutely strained. They were like two enemies in love with one another. Katerina Iv…"
+        },
+        {
+          "entityId": "the_crime_trial_of_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 65
+        },
+        {
+          "entityId": "the_murdered_servant",
+          "type": "event",
+          "firstSeenInChapter": 71
+        },
+        {
+          "entityId": "death_of_fyodor_pavlovitch_karamazov",
+          "type": "event",
+          "firstSeenInChapter": 1
+        },
+        {
+          "entityId": "the_incident_with_the_knife",
+          "type": "event",
+          "firstSeenInChapter": 66
+        },
+        {
+          "entityId": "mityas_intention_to_shoot_himself_at_dawn",
+          "type": "event",
+          "firstSeenInChapter": 60
+        },
+        {
+          "entityId": "document_of_proof_the_letter",
+          "type": "event",
+          "firstSeenInChapter": 76
+        },
+        {
+          "entityId": "the_escape_plan_for_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 76
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Outside Smerdyakov's new lodging, the dilapidated wooden house",
+          "imageDescription": "A rickety, weathered wooden house stands on a dirt lane under a gray sky, its timbers worn and patched. Sparse weeds grow beside the foundation. A narrow passage splits the home, with the faint glow of light behind worn curtains. Ivan Fyodorovitch Karamazov stands at the threshold, about to knock, bundled in a heavy overcoat and hat typical of 19th-century Russia. The air is tense; Ivan's posture is rigid with anticipation.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "smerdyakov",
+            "marya_kondratyevna",
+            "her_mother"
+          ]
+        },
+        {
+          "startParagraph": 1,
+          "endParagraph": 57,
+          "locationDescription": "Inside Smerdyakov's room, left side of the house",
+          "imageDescription": "A cramped, poorly furnished room with shabby blue wallpaper peeling in places and cockroaches rustling in odd corners. The tiled stove glows softly, lending a stifling heat. Smerdyakov sits at a plain wooden table, an exercise-book open before him, wearing a tattered wadded dressing gown and spectacles, his hair mussed. Ivan has just entered, coat in hand, his face tense and flushed. There is a copper samovar, two empty cups, and two benches flanking the table. Geraniums sit on the windowsill, and holy ikons are displayed in the corner. The dim light casts heavy shadows, reinforcing the heavy, uneasy mood between the two men.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "smerdyakov"
+          ]
+        },
+        {
+          "startParagraph": 58,
+          "endParagraph": 58,
+          "locationDescription": "Outdoors, in the moonlit street after leaving Smerdyakov's house",
+          "imageDescription": "Outside the wooden house under a bright, full moon, Ivan stands momentarily alone on the empty dirt road, his figure tense and shoulders hunched. The air is cold and crisp; his breath clouds in the night. Moonlight bathes the rutted path and the sagging fence in a silver-blue glow, contrasting with the golden lamplight leaking from windows behind. Ivan's face is tormented, his gaze distant as he clutches his coat tightly, lost in anguished thought.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 59,
+          "endParagraph": 59,
+          "locationDescription": "Katerina Ivanovna's room, later that evening",
+          "imageDescription": "A well-appointed room lit by the warm glow of an oil lamp on a side table. Period Russian furniture includes a writing desk, a few upholstered chairs, and curtains drawn against the night. Ivan sits at the table or paces the carpeted floor, agitated and wild-eyed, still in his overcoat. Katerina Ivanovna, in an elegant 19th-century dress, tries in vain to comfort him. Her expression is anxious; she stands or sits near her writing table, poised to intervene. The setting conveys both intimacy and emotional turmoil.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "katerina_ivanovna"
+          ]
+        },
+        {
+          "startParagraph": 60,
+          "endParagraph": 60,
+          "locationDescription": "Katerina Ivanovna's writing table, the letter is produced",
+          "imageDescription": "The lamplight glows over an elegant but practical writing table covered with papers and a small box. Katerina Ivanovna, dignified in her dark, high-collared dress, stands with a determined posture as she produces the damning letter, her features grave. Ivan sits before her with his head buried in his hands, the letter lying between them. The room’s furnishings—bookshelves, a heavy drape, patterned carpet—recede into soft shadow, making the tense moment the visual focal point.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "katerina_ivanovna"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 65,
+          "locationDescription": "Various locations in the town, passage of time over the next month",
+          "imageDescription": "A montage of somber 19th-century Russian settings: Ivan walking thoughtfully along muddy town streets; a gloomy corner of a tavern where he sits alone, deep in thought; glimpses of Smerdyakov seen from a window, pale and unkempt. Dr. Varvinsky is seen conferring with townsfolk near a fence, while Ivan is shown visiting the Moscow doctor in an austere consulting room. The scenes are threaded with an atmosphere of restlessness, illness, and suspicion.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "varvinsky",
+            "the_moscow_doctor",
+            "smerdyakov"
+          ]
+        },
+        {
+          "startParagraph": 66,
+          "endParagraph": 66,
+          "locationDescription": "The entryway to Ivan's lodgings, evening, as recollection prompts action",
+          "imageDescription": "A shadowed, narrow hallway in a modest Russian lodging house, illuminated by the faint flicker of a wall sconce. Ivan stands in his overcoat, hand poised tensely on the bell rope beside a plain wooden door, his face contorted in an urgent emotional conflict. The wainscoted walls and scuffed tile floor suggest utilitarian comfort, and the overall lighting is dusky, heightening the mood of sudden determination and suppressed rage.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "entities": [
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…re were scarcely any lamp‐posts in the part of the town where Smerdyakov lived. Ivan strode alone in the darkness, unconscious of the storm, instinctively picking out his way. His head ached and there was a painful throbbing in his temples…"
+        },
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…lar snowstorm. There were scarcely any lamp‐posts in the part of the town where Smerdyakov lived. Ivan strode alone in the darkness, unconscious of the storm, instinctively picking out his way. His head ached and there was a painful throbb…"
+        },
+        {
+          "entityId": "marya_kondratyevna",
+          "type": "person",
+          "firstSeenInChapter": 33,
+          "excerpt": "…n his temples. He felt that his hands were twitching convulsively. Not far from Marya Kondratyevna’s cottage, Ivan suddenly came upon a solitary drunken little peasant. He was wearing a coarse and patched coat, and was walking in zigzags, …"
+        },
+        {
+          "entityId": "the_peasant",
+          "type": "person",
+          "firstSeenInChapter": 77,
+          "excerpt": "…nd felt an irresistible impulse to knock him down. At that moment they met, and the peasant with a violent lurch fell full tilt against Ivan, who pushed him back furiously. The peasant went flying backwards and fell like a log on the froze…"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…ith one question, and I swear I won’t go without an answer. Has the young lady, Katerina Ivanovna, been with you?” </p>  <p> Smerdyakov still remained silent, looking quietly at Ivan as before. Suddenly, with a motion of his hand, he turne…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…” Smerdyakov asked once more. </p>  <p> “No, I did not know. I kept thinking of Dmitri. Brother, brother! Ach!” He suddenly clutched his head in both hands. </p>  <p> “Listen. Did you kill him alone? With my brother’s help or without?” </p…"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…that? Go home, _you_ did not murder him.” </p>  <p> Ivan started. He remembered Alyosha. </p>  <p> “I know it was not I,” he faltered. </p>  <p> “Do you?” Smerdyakov caught him up again. </p>  <p> Ivan jumped up and seized him by the shoul…"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…on the table, and put it over the notes. The book was _The Sayings of the Holy Father Isaac the Syrian_. Ivan read it mechanically. </p>  <p> “I won’t have any lemonade,” he said. “Talk of me later. Sit down and tell me how you did it. Tel…"
+        },
+        {
+          "entityId": "marfa_ignatyevna",
+          "type": "person",
+          "firstSeenInChapter": 14,
+          "excerpt": "…the bed. I knew I’d be the other side of the partition, for whenever I was ill, Marfa Ignatyevna used to put me there, near them. She’s always been very kind to me, from my birth up. At night I moaned, but quietly. I kept expecting Dmitri …"
+        },
+        {
+          "entityId": "grigory",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…re to tell! I lay there and I thought I heard the master shout. And before that Grigory Vassilyevitch had suddenly got up and came out, and he suddenly gave a scream, and then all was silence and darkness. I lay there waiting, my heart bea…"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…you’d have received your inheritance through me, seeing that if he had married Agrafena Alexandrovna, you wouldn’t have had a farthing.” </p>  <p> “Ah! Then you intended to worry me all my life afterwards,” snarled Ivan. “And what if I had…"
+        },
+        {
+          "entityId": "god",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…about him, his eyes hastily searching in every corner. </p>  <p> “That third is God Himself—Providence. He is the third beside us now. Only don’t look for Him, you won’t find Him.” </p>  <p> “It’s a lie that you killed him!” Ivan cried mad…"
+        },
+        {
+          "entityId": "ippolit_kirillovitch",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…’d go and take his property from Fyodor Pavlovitch. I didn’t say that openly to the prosecutor when I was being examined, but quite the contrary, I brought him to it by a hint, as though I didn’t see it myself, and as though he’d thought o…"
+        },
+        {
+          "entityId": "yefim_petrovitch_polenov",
+          "type": "person",
+          "firstSeenInChapter": 3
+        },
+        {
+          "entityId": "policestation_man",
+          "type": "person",
+          "firstSeenInChapter": 77
+        },
+        {
+          "entityId": "the_crone_at_ivans_lodgings",
+          "type": "person",
+          "firstSeenInChapter": 74
+        },
+        {
+          "entityId": "the_sayings_and_sermons_of_the_godfearing_father_isaac_the_syrian",
+          "type": "event",
+          "firstSeenInChapter": 14
+        },
+        {
+          "entityId": "ivans_visit_to_smerdyakov_final_major_meetingconfrontation",
+          "type": "event",
+          "firstSeenInChapter": 77
+        },
+        {
+          "entityId": "death_of_fyodor_pavlovitch_karamazov",
+          "type": "event",
+          "firstSeenInChapter": 1
+        },
+        {
+          "entityId": "the_trial",
+          "type": "event",
+          "firstSeenInChapter": 74,
+          "excerpt": "…d at him, not simply with contempt, but almost with repulsion. “Is this because the trial begins to‐ morrow? Nothing will happen to you; can’t you believe that at last? Go home, go to bed and sleep in peace, don’t be afraid of anything.” <…"
+        },
+        {
+          "entityId": "smerdyakovs_epileptic_fitfall_in_the_cellar",
+          "type": "event",
+          "firstSeenInChapter": 38
+        },
+        {
+          "entityId": "the_murder_of_the_old_servant",
+          "type": "event",
+          "firstSeenInChapter": 60
+        },
+        {
+          "entityId": "the_murder_of_fyodor_pavlovitch",
+          "type": "event",
+          "firstSeenInChapter": 77,
+          "excerpt": "…he mattress. A stupid thing to believe. So if Dmitri Fyodorovitch had committed the murder, finding nothing, he would either have run away in a hurry, afraid of every sound, as always happens with murderers, or he would have been arrested.…"
+        },
+        {
+          "entityId": "the_secret_of_the_knocks",
+          "type": "event",
+          "firstSeenInChapter": 75
+        },
+        {
+          "entityId": "the_envelope_with_three_thousand_roubles",
+          "type": "event",
+          "firstSeenInChapter": 37,
+          "excerpt": "…r were three packets of hundred‐rouble notes. </p>  <p> “They are all here, all the three thousand roubles; you need not count them. Take them,” Smerdyakov suggested to Ivan, nodding at the notes. Ivan sank back in his chair. He was as whi…"
+        },
+        {
+          "entityId": "the_icon_corner",
+          "type": "place",
+          "firstSeenInChapter": 77,
+          "excerpt": "…place, especially if they came in a hurry. So that’s where the envelope lay, in the corner behind the ikons. It would have been absurd to keep it under the mattress; the box, anyway, could be locked. But all believe it was under the mattre…"
+        },
+        {
+          "entityId": "the_box",
+          "type": "place",
+          "firstSeenInChapter": 77,
+          "excerpt": "…rner behind the ikons. It would have been absurd to keep it under the mattress; the box, anyway, could be locked. But all believe it was under the mattress. A stupid thing to believe. So if Dmitri Fyodorovitch had committed the murder, fin…"
+        },
+        {
+          "entityId": "the_mattress",
+          "type": "place",
+          "firstSeenInChapter": 77,
+          "excerpt": "…r have found the money. That was only what I told him, that the money was under the mattress. But that wasn’t true. It had been lying in a box. And afterwards I suggested to Fyodor Pavlovitch, as I was the only person he trusted, to hide t…"
+        },
+        {
+          "entityId": "the_window",
+          "type": "place",
+          "firstSeenInChapter": 58,
+          "excerpt": "…aiting, my heart beating; I couldn’t bear it. I got up at last, went out. I saw the window open on the left into the garden, and I stepped to the left to listen whether he was sitting there alive, and I heard the master moving about, sighi…"
+        },
+        {
+          "entityId": "the_garden",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…n’t bear it. I got up at last, went out. I saw the window open on the left into the garden, and I stepped to the left to listen whether he was sitting there alive, and I heard the master moving about, sighing, so I knew he was alive. ‘Ech!…"
+        },
+        {
+          "entityId": "the_appletree_with_a_hollow",
+          "type": "place",
+          "firstSeenInChapter": 77
+        },
+        {
+          "entityId": "partition_wall",
+          "type": "place",
+          "firstSeenInChapter": 75
+        },
+        {
+          "entityId": "the_peasants_policestation_trip",
+          "type": "event",
+          "firstSeenInChapter": 77
+        },
+        {
+          "entityId": "the_preparation_for_the_trialconfession",
+          "type": "event",
+          "firstSeenInChapter": 77
+        },
+        {
+          "entityId": "the_town",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…here was a regular snowstorm. There were scarcely any lamp‐posts in the part of the town where Smerdyakov lived. Ivan strode alone in the darkness, unconscious of the storm, instinctively picking out his way. His head ached and there was a…"
+        },
+        {
+          "entityId": "marya_kondratyevnas_cottage",
+          "type": "place",
+          "firstSeenInChapter": 77,
+          "excerpt": "…n his temples. He felt that his hands were twitching convulsively. Not far from Marya Kondratyevna’s cottage, Ivan suddenly came upon a solitary drunken little peasant. He was wearing a coarse and patched coat, and was walking in zigzags, …"
+        },
+        {
+          "entityId": "the_passage",
+          "type": "place",
+          "firstSeenInChapter": 66,
+          "excerpt": "…be frozen,” thought Ivan, and he went on his way to Smerdyakov’s. </p>  <p> In the passage, Marya Kondratyevna, who ran out to open the door with a candle in her hand, whispered that Smerdyakov was very ill, “It’s not that he’s laid up, bu…"
+        },
+        {
+          "entityId": "ivans_room",
+          "type": "place",
+          "firstSeenInChapter": 38
+        },
+        {
+          "entityId": "the_sofa",
+          "type": "place",
+          "firstSeenInChapter": 77,
+          "excerpt": "…ed had been made up, with fairly clean white pillows. Smerdyakov was sitting on the sofa, wearing the same dressing‐gown. The table had been brought out in front of the sofa, so that there was hardly room to move. On the table lay a thick …"
+        },
+        {
+          "entityId": "the_table",
+          "type": "place",
+          "firstSeenInChapter": 77,
+          "excerpt": "…te pillows. Smerdyakov was sitting on the sofa, wearing the same dressing‐gown. The table had been brought out in front of the sofa, so that there was hardly room to move. On the table lay a thick book in yellow cover, but Smerdyakov was n…"
+        },
+        {
+          "entityId": "the_policestation",
+          "type": "place",
+          "firstSeenInChapter": 77
+        },
+        {
+          "entityId": "saint_petersburg",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…e would begin singing in a husky drunken voice: </p>  <p> “Ach, Vanka’s gone to Petersburg; I won’t wait till he comes back.” </p>  <p> But he broke off every time at the second line and began swearing again; then he would begin the same s…"
+        },
+        {
+          "entityId": "tchermashnya",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…t off discussing himself till the end of the conversation. “You still mean that Tchermashnya? Stay, tell me, why did you want my consent, if you really took Tchermashnya for consent? How will you explain that now?” </p>  <p> “Assured of yo…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 2,
+          "locationDescription": "Street outside Marya Kondratyevna’s cottage during a snowstorm",
+          "imageDescription": "A wintry 19th-century Russian street obscured by a swirling snowstorm under a dark, overcast sky. Sparse lamp-posts barely illuminate the gloom. Ivan Fyodorovitch Karamazov, dressed in a thick winter coat and hat, strides alone, his figure tense and hunched against the cold and wind. Not far ahead, a drunken peasant in coarse, patched clothing staggers along, his posture loose and swaying. The snow collects on their shoulders and hats, and nearby, the dim silhouette of a simple wooden cottage, windows glowing faintly with candlelight, stands as a backdrop.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "the_peasant"
+          ]
+        },
+        {
+          "startParagraph": 3,
+          "endParagraph": 5,
+          "locationDescription": "Passage of Marya Kondratyevna’s cottage",
+          "imageDescription": "A cramped, dimly lit passageway inside a modest Russian cottage. Marya Kondratyevna stands with a candle in her hand, wearing a plain, belted dress and shawl typical of the era, her face anxious as she speaks to Ivan, who stands in the doorway still wrapped in his winter attire. The glow from the candle casts dramatic shadows on the worn walls and rough wooden floor, imbuing the scene with an air of quiet tension.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "marya_kondratyevna"
+          ]
+        },
+        {
+          "startParagraph": 6,
+          "endParagraph": 8,
+          "locationDescription": "Smerdyakov’s room in Marya Kondratyevna’s cottage",
+          "imageDescription": "A stifling, cluttered room filled with heavy air, lit by a single candle. Smerdyakov, pale and frail, sits slumped on an old leather sofa with a makeshift bed. The table in front of him is crowded with a thick yellow-bound book, a bundle of papers, and a handkerchief. Ivan sits tensely at the far end of the table, having just removed his coat, while Marya Kondratyevna hovers briefly in the doorway. The atmosphere is dense with suspicion and dread, and the period furniture and bare wooden walls enhance the sense of claustrophobia.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "smerdyakov",
+            "marya_kondratyevna"
+          ]
+        },
+        {
+          "startParagraph": 9,
+          "endParagraph": 52,
+          "locationDescription": "Smerdyakov’s room, moments later (continued conversation)",
+          "imageDescription": "The cramped room remains stifling, its single candle flame flickering. Ivan leans forward intensely from his chair, locked in a tense and probing confrontation with Smerdyakov, who sits on the sofa, hands loosely folded and gaze alternately averted and sharp. Shadows elongate and cluster on the walls, reflecting the charged, psychological struggle between them. Marya Kondratyevna has exited, leaving just the two men, both showing visible strain and agitation in their period garments.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "smerdyakov"
+          ]
+        },
+        {
+          "startParagraph": 53,
+          "endParagraph": 72,
+          "locationDescription": "Smerdyakov’s room, as the confession and struggle over the money intensifies",
+          "imageDescription": "The lamplight glows eerily on Smerdyakov as he bends forward on the sofa, awkwardly pulling up his pant leg to retrieve something from his stocking. Ivan stands pressed against the wall, his posture rigid with horror and disbelief, face ashen. The thick book, 'The Sayings of the Holy Father Isaac the Syrian', lies askew on the table, covering money packets. The air is thick with the tension of the secrets unfolding between the two men; their faces are sharply defined by anxious sweat and stark candlelight.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "smerdyakov"
+          ]
+        },
+        {
+          "startParagraph": 73,
+          "endParagraph": 111,
+          "locationDescription": "Smerdyakov’s room, Smerdyakov’s detailed recounting of the murder",
+          "imageDescription": "Lit by the single candle, Smerdyakov reclines weakly on the sofa, speaking with measured intensity. Ivan sits opposite him, head in his hands at moments, sometimes leaning forward, sometimes slumped in despair. The blanket and the thick book cover packets of currency on the table. The props and their subtle arrangements—the paper-weight, icons, hidden envelope, and rag from the account—add to a tableau soaked in psychological suspense and moral gravity. The atmosphere is suffocating and the room’s plain Russian decor adds to the stark, confessional mood.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "smerdyakov"
+          ]
+        },
+        {
+          "startParagraph": 112,
+          "endParagraph": 134,
+          "locationDescription": "Smerdyakov’s room, Ivan's resolve and final accusation",
+          "imageDescription": "The confrontation reaches its apex: Ivan stands beside his chair, his arm raised and face flushed with emotion, openly accusing Smerdyakov, who watches with a mixture of weariness and morbid satisfaction from his sofa. The dim room's shadows deepen the mood of exposure and threatened violence. Period details—the leather sofa, icons, and heavy coat flung aside—reinforce the historical setting.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "smerdyakov"
+          ]
+        },
+        {
+          "startParagraph": 135,
+          "endParagraph": 147,
+          "locationDescription": "Smerdyakov’s room, conclusion and Ivan’s departure",
+          "imageDescription": "Smerdyakov, thin and haggard on the sofa, gestures conclusively toward Ivan, who pockets the rolls of bank notes with a look of steely resolve. The yellow-bound book rests open on the table, the candle guttering. The atmosphere is charged but exhausted—the close of a reckoning. Ivan stands ready to depart, heavy winter coat in hand, as Smerdyakov gazes at him coldly. The Russian cottage setting is rendered in somber browns and golds.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "smerdyakov"
+          ]
+        },
+        {
+          "startParagraph": 148,
+          "endParagraph": 150,
+          "locationDescription": "Street outside and police station during the snowstorm",
+          "imageDescription": "Back outside, the snowstorm has thickened. Ivan, now carrying the unconscious peasant in his arms, trudges through blowing snow toward a small, lamplit house, where another man soon emerges to assist him. The two, bundled in rough outerwear typical for the period, brace themselves as they carry the peasant toward the distant silhouette of the police station. The world is cold and blanketed in swirling white, the figures small against the lonely winter streets of provincial Russia.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "the_peasant",
+            "policestation_man"
+          ]
+        },
+        {
+          "startParagraph": 151,
+          "endParagraph": 151,
+          "locationDescription": "Ivan’s own room, late at night",
+          "imageDescription": "Ivan’s small, gloomy room reflects his mental turmoil. The samovar steams unattended on the side table; Ivan, exhausted and sickly, sits on the shabby sofa, his head in his hands, surrounded by the trappings of late 19th-century Russian intellectual life—simple furniture, muted wallpaper, and scattered papers. The lighting is dim, with only a small lamp or candle pushing against the oppressive shadows. A sense of foreboding and unrest pervades the space, foreshadowing the feverish struggle in his own mind.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "the_crone_at_ivans_lodgings"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "entities": [
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…t has come when I must inevitably give the reader some account of the nature of Ivan’s illness. Anticipating events I can say at least one thing: he was at that moment on the very eve of an attack of brain fever. Though his health had long…"
+        },
+        {
+          "entityId": "the_new_doctor",
+          "type": "person",
+          "firstSeenInChapter": 67,
+          "excerpt": "…utely and “to justify himself to himself.” </p>  <p> He had, however, consulted the new doctor, who had been brought from Moscow by a fantastic notion of Katerina Ivanovna’s to which I have referred already. After listening to him and exam…"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…ulted the new doctor, who had been brought from Moscow by a fantastic notion of Katerina Ivanovna’s to which I have referred already. After listening to him and examining him the doctor came to the conclusion that he was actually suffering…"
+        },
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…in, for he had not been in the room when Ivan came into it, on his return from Smerdyakov. This was a person or, more accurately speaking, a Russian gentleman of a particular kind, no longer young, _qui faisait la cinquantaine_, as the Fre…"
+        },
+        {
+          "entityId": "the_devil",
+          "type": "person",
+          "firstSeenInChapter": 16,
+          "excerpt": "…. only fancy, they imagine that they are serving the cause of religion, because the devils show them their horns from the other world. That, they say, is a material proof, so to speak, of the existence of another world. The other world and…"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…on you—” </p>  <p> “Excuse me, excuse me, I’ll catch you. When you flew out at Alyosha under the lamp‐post this evening and shouted to him, ‘You learnt it from _him_! How do you know that _he_ visits me?’ you were thinking of me then. So f…"
+        },
+        {
+          "entityId": "apostle_thomas",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…our will? Besides, proofs are no help to believing, especially material proofs. Thomas believed, not because he saw Christ risen, but because he wanted to believe, before he saw. Look at the spiritualists, for instance.... I am very fond o…"
+        },
+        {
+          "entityId": "christ",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…ht of their children altogether, though at intervals they receive a birthday or Christmas letter from them and sometimes even answer it. </p>  <p> The countenance of the unexpected visitor was not so much good‐natured, as accommodating and…"
+        },
+        {
+          "entityId": "elder_zossima",
+          "type": "person",
+          "firstSeenInChapter": 4
+        },
+        {
+          "entityId": "the_jesuits",
+          "type": "person",
+          "firstSeenInChapter": 20
+        },
+        {
+          "entityId": "jonah",
+          "type": "person",
+          "firstSeenInChapter": 39,
+          "excerpt": "…soul of an enlightened Russian atheist and mix it with the soul of the prophet Jonah, who sulked for three days and nights in the belly of the whale, and you get the character of that thinker who lay across the road.” </p>  <p> “What did h…"
+        },
+        {
+          "entityId": "jonah",
+          "type": "person",
+          "firstSeenInChapter": 39,
+          "excerpt": "…e!’ Take the soul of an enlightened Russian atheist and mix it with the soul of the prophet Jonah, who sulked for three days and nights in the belly of the whale, and you get the character of that thinker who lay across the road.” </p>  <p…"
+        },
+        {
+          "entityId": "job",
+          "type": "person",
+          "firstSeenInChapter": 39,
+          "excerpt": "…ow many honorable reputations destroyed for the sake of that one righteous man, Job, over whom they made such a fool of me in old days! Yes, till the secret is revealed, there are two sorts of truths for me—one, their truth, yonder, which …"
+        },
+        {
+          "entityId": "byelinsky",
+          "type": "person",
+          "firstSeenInChapter": 68,
+          "excerpt": "…t man as you! Yes, there is that romantic strain in you, that was so derided by Byelinsky. I can’t help it, young man, as I got ready to come to you I did think as a joke of appearing in the figure of a retired general who had served in th…"
+        },
+        {
+          "entityId": "heine",
+          "type": "person",
+          "firstSeenInChapter": 78,
+          "excerpt": "…nnah in the skies really wasn’t bad, was it? And then that ironical tone _à la_ Heine, eh?” </p>  <p> “No, I was never such a flunkey! How then could my soul beget a flunkey like you?” </p>  <p> “My dear fellow, I know a most charming and …"
+        },
+        {
+          "entityId": "mephistopheles",
+          "type": "person",
+          "firstSeenInChapter": 78,
+          "excerpt": "…m stupid, but, mercy on us! I make no claim to be equal to you in intelligence. Mephistopheles declared to Faust that he desired evil, but did only good. Well, he can say what he likes, it’s quite the opposite with me. I am perhaps the one…"
+        },
+        {
+          "entityId": "faust",
+          "type": "person",
+          "firstSeenInChapter": 78,
+          "excerpt": "…I make no claim to be equal to you in intelligence. Mephistopheles declared to Faust that he desired evil, but did only good. Well, he can say what he likes, it’s quite the opposite with me. I am perhaps the one man in all creation who lov…"
+        },
+        {
+          "entityId": "the_word",
+          "type": "person",
+          "firstSeenInChapter": 34,
+          "excerpt": "…n all creation who loves the truth and genuinely desires good. I was there when the Word, Who died on the Cross, rose up into heaven bearing on His bosom the soul of the penitent thief. I heard the glad shrieks of the cherubim singing and …"
+        },
+        {
+          "entityId": "the_penitent_thief",
+          "type": "person",
+          "firstSeenInChapter": 78
+        },
+        {
+          "entityId": "the_cherubim",
+          "type": "person",
+          "firstSeenInChapter": 78,
+          "excerpt": "…earing on His bosom the soul of the penitent thief. I heard the glad shrieks of the cherubim singing and shouting hosannah and the thunderous rapture of the seraphim which shook heaven and all creation, and I swear to you by all that’s sac…"
+        },
+        {
+          "entityId": "the_seraphim",
+          "type": "person",
+          "firstSeenInChapter": 78,
+          "excerpt": "…eks of the cherubim singing and shouting hosannah and the thunderous rapture of the seraphim which shook heaven and all creation, and I swear to you by all that’s sacred, I longed to join the choir and shout hosannah with them all. The wor…"
+        },
+        {
+          "entityId": "the_grand_inquisitor",
+          "type": "person",
+          "firstSeenInChapter": 36,
+          "excerpt": "…d a great lover of literature and art, the author of a promising poem entitled _The Grand Inquisitor_. I was only thinking of him!” </p>  <p> “I forbid you to speak of _The Grand Inquisitor_,” cried Ivan, crimson with shame. </p>  <p> “And…"
+        },
+        {
+          "entityId": "the_poem_the_grand_inquisitor",
+          "type": "event",
+          "firstSeenInChapter": 35
+        },
+        {
+          "entityId": "the_geological_cataclysm",
+          "type": "event",
+          "firstSeenInChapter": 78
+        },
+        {
+          "entityId": "the_legendanecdote_about_the_quadrillion_kilometers",
+          "type": "event",
+          "firstSeenInChapter": 78
+        },
+        {
+          "entityId": "the_nose_anecdote",
+          "type": "event",
+          "firstSeenInChapter": 78
+        },
+        {
+          "entityId": "the_confession_of_the_norman_girl",
+          "type": "event",
+          "firstSeenInChapter": 78
+        },
+        {
+          "entityId": "god",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…ext! And if you come to that, does proving there’s a devil prove that there’s a God? I want to join an idealist society, I’ll lead the opposition in it, I’ll say I am a realist, but not a materialist, he he!” </p>  <p> “Listen,” Ivan sudde…"
+        },
+        {
+          "entityId": "satan",
+          "type": "person",
+          "firstSeenInChapter": 42,
+          "excerpt": "…metimes put on fleshly form? I put on fleshly form and I take the consequences. Satan _sum et nihil humanum a me alienum puto_.” </p>  <p> “What, what, Satan _sum et nihil humanum_ ... that’s not bad for the devil!” </p>  <p> “I am glad I’…"
+        },
+        {
+          "entityId": "leo_tolstoy",
+          "type": "person",
+          "firstSeenInChapter": 78,
+          "excerpt": "…details from the most exalted matters to the last button on a cuff, as I swear Leo Tolstoy has never invented. Yet such dreams are sometimes seen not by writers, but by the most ordinary people, officials, journalists, priests.... The subj…"
+        },
+        {
+          "entityId": "count_mattei",
+          "type": "person",
+          "firstSeenInChapter": 78,
+          "excerpt": "…nt, smeared myself all over and it did me no good at all. In despair I wrote to Count Mattei in Milan. He sent me a book and some drops, bless him, and, only fancy, Hoff’s malt extract cured me! I bought it by accident, drank a bottle and …"
+        },
+        {
+          "entityId": "hoff",
+          "type": "person",
+          "firstSeenInChapter": 78,
+          "excerpt": "…Mattei in Milan. He sent me a book and some drops, bless him, and, only fancy, Hoff’s malt extract cured me! I bought it by accident, drank a bottle and a half of it, and I was ready to dance, it took it away completely. I made up my mind …"
+        },
+        {
+          "entityId": "gatzuk",
+          "type": "person",
+          "firstSeenInChapter": 78,
+          "excerpt": "…tellite. The astronomers would calculate the rising and the setting of the ax, _Gatzuk_ would put it in his calendar, that’s all.” </p>  <p> “You are stupid, awfully stupid,” said Ivan peevishly. “Fib more cleverly or I won’t listen. You w…"
+        },
+        {
+          "entityId": "gorbunov",
+          "type": "person",
+          "firstSeenInChapter": 78,
+          "excerpt": "…at they are within a hair’s‐breadth of being ‘turned upside down,’ as the actor Gorbunov says.” </p>  <p> “Well, did you get your nose pulled?”[8] </p>  <p> “My dear fellow,” observed the visitor sententiously, “it’s better to get off with…"
+        },
+        {
+          "entityId": "moscow",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…</p>  <p> He had, however, consulted the new doctor, who had been brought from Moscow by a fantastic notion of Katerina Ivanovna’s to which I have referred already. After listening to him and examining him the doctor came to the conclusion…"
+        },
+        {
+          "entityId": "saint_petersburg",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…s hurrying then to a diplomatic _soirée_ at the house of a lady of high rank in Petersburg, who was aiming at influence in the Ministry. Well, an evening suit, white tie, gloves, though I was God knows where and had to fly through space to…"
+        },
+        {
+          "entityId": "the_other_world",
+          "type": "place",
+          "firstSeenInChapter": 78,
+          "excerpt": "…re serving the cause of religion, because the devils show them their horns from the other world. That, they say, is a material proof, so to speak, of the existence of another world. The other world and material proofs, what next! And if yo…"
+        },
+        {
+          "entityId": "earth",
+          "type": "place",
+          "firstSeenInChapter": 78,
+          "excerpt": "…C’est charmant_, poor relation. Yes, I am in my natural shape. For what am I on earth but a poor relation? By the way, I am listening to you and am rather surprised to find you are actually beginning to take me for something real, not simp…"
+        },
+        {
+          "entityId": "paradise",
+          "type": "place",
+          "firstSeenInChapter": 78,
+          "excerpt": "…secrets out of friendship for you; though it’s forbidden. This legend is about Paradise. There was, they say, here on earth a thinker and philosopher. He rejected everything, ‘laws, conscience, faith,’ and, above all, the future life. He d…"
+        },
+        {
+          "entityId": "the_ministry",
+          "type": "place",
+          "firstSeenInChapter": 78,
+          "excerpt": "…the house of a lady of high rank in Petersburg, who was aiming at influence in the Ministry. Well, an evening suit, white tie, gloves, though I was God knows where and had to fly through space to reach your earth.... Of course, it took onl…"
+        },
+        {
+          "entityId": "the_kingdom_of_heaven",
+          "type": "place",
+          "firstSeenInChapter": 78
+        },
+        {
+          "entityId": "the_public_baths",
+          "type": "place",
+          "firstSeenInChapter": 78,
+          "excerpt": "…become superstitious. I adopt all your habits here: I’ve grown fond of going to the public baths, would you believe it? and I go and steam myself with merchants and priests. What I dream of is becoming incarnate once for all and irrevocabl…"
+        },
+        {
+          "entityId": "the_foundling_hospital",
+          "type": "place",
+          "firstSeenInChapter": 78
+        },
+        {
+          "entityId": "the_wilderness",
+          "type": "place",
+          "firstSeenInChapter": 78,
+          "excerpt": "…k‐tree that, sitting on it, you will long to enter the ranks of ‘the hermits in the wilderness and the saintly women,’ for that is what you are secretly longing for. You’ll dine on locusts, you’ll wander into the wilderness to save your so…"
+        },
+        {
+          "entityId": "the_wilderness_of_the_saints",
+          "type": "place",
+          "firstSeenInChapter": 78
+        },
+        {
+          "entityId": "the_universe",
+          "type": "place",
+          "firstSeenInChapter": 78,
+          "excerpt": "…tion. No, live, I am told, for there’d be nothing without you. If everything in the universe were sensible, nothing would happen. There would be no events without you, and there must be events. So against the grain I serve to produce event…"
+        },
+        {
+          "entityId": "the_water_above_the_firmament",
+          "type": "place",
+          "firstSeenInChapter": 78,
+          "excerpt": "…, been frozen; cracked, broken to bits, disintegrated into its elements, again ‘the water above the firmament,’ then again a comet, again a sun, again from the sun it becomes earth—and the same sequence may have been repeated endlessly and…"
+        },
+        {
+          "entityId": "heaven",
+          "type": "place",
+          "firstSeenInChapter": 78,
+          "excerpt": "…etric system, you know) and when he has finished that quadrillion, the gates of heaven would be opened to him and he’ll be forgiven—” </p>  <p> “And what tortures have you in the other world besides the quadrillion kilometers?” asked Ivan,…"
+        },
+        {
+          "entityId": "the_earth",
+          "type": "place",
+          "firstSeenInChapter": 78,
+          "excerpt": "…dée!_ If it were to fall to any distance, it would begin, I think, flying round the earth without knowing why, like a satellite. The astronomers would calculate the rising and the setting of the ax, _Gatzuk_ would put it in his calendar, t…"
+        },
+        {
+          "entityId": "the_high_school",
+          "type": "place",
+          "firstSeenInChapter": 78,
+          "excerpt": "…e about the quadrillion years, I made up myself! I was seventeen then, I was at the high school. I made up that anecdote and told it to a schoolfellow called Korovkin, it was at Moscow.... The anecdote is so characteristic that I couldn’t …"
+        },
+        {
+          "entityId": "the_road_to_paradise",
+          "type": "place",
+          "firstSeenInChapter": 78
+        },
+        {
+          "entityId": "the_gates_of_heaven",
+          "type": "place",
+          "firstSeenInChapter": 78,
+          "excerpt": "…adopted the metric system, you know) and when he has finished that quadrillion, the gates of heaven would be opened to him and he’ll be forgiven—” </p>  <p> “And what tortures have you in the other world besides the quadrillion kilometers?…"
+        },
+        {
+          "entityId": "the_wilderness_as_in_the_saints_desert",
+          "type": "place",
+          "firstSeenInChapter": 78
+        },
+        {
+          "entityId": "korovkin",
+          "type": "person",
+          "firstSeenInChapter": 78,
+          "excerpt": "…t the high school. I made up that anecdote and told it to a schoolfellow called Korovkin, it was at Moscow.... The anecdote is so characteristic that I couldn’t have taken it from anywhere. I thought I’d forgotten it ... but I’ve unconscio…"
+        },
+        {
+          "entityId": "a_hundred_and_four_stories_from_the_old_and_new_testament",
+          "type": "event",
+          "firstSeenInChapter": 39
+        },
+        {
+          "entityId": "ivans_confession_of_his_creed",
+          "type": "event",
+          "firstSeenInChapter": 34
+        },
+        {
+          "entityId": "the_legend_of_the_quadrillion_kilometers",
+          "type": "event",
+          "firstSeenInChapter": 78
+        },
+        {
+          "entityId": "the_nightmarevision_of_the_devil_by_ivan",
+          "type": "event",
+          "firstSeenInChapter": 78
+        },
+        {
+          "entityId": "the_eternal_questions",
+          "type": "event",
+          "firstSeenInChapter": 34
+        },
+        {
+          "entityId": "the_lamppost",
+          "type": "place",
+          "firstSeenInChapter": 74
+        },
+        {
+          "entityId": "the_steps",
+          "type": "place",
+          "firstSeenInChapter": 62,
+          "excerpt": "yakov hanged himself,” Alyosha answered from the yard. </p>  <p> “Come round to the steps, I’ll open at once,” said Ivan, going to open the door to Alyosha. </p>"
+        },
+        {
+          "entityId": "the_window",
+          "type": "place",
+          "firstSeenInChapter": 58,
+          "excerpt": "…stop up your ears.” </p>  <p> A loud, persistent knocking was suddenly heard at the window. Ivan jumped up from the sofa. </p>  <p> “Do you hear? You’d better open,” cried the visitor; “it’s your brother Alyosha with the most interesting a…"
+        },
+        {
+          "entityId": "the_glass",
+          "type": "event",
+          "firstSeenInChapter": 78,
+          "excerpt": "…p from the sofa. He looked round him wildly. Both candles had almost burnt out, the glass he had just thrown at his visitor stood before him on the table, and there was no one on the sofa opposite. The knocking on the window frame went on …"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 1,
+          "locationDescription": "Ivan's room, late evening",
+          "imageDescription": "A shadowy, lamp-lit study with heavy curtains drawn against a snowy night. Ivan sits at a cluttered table, his posture tense, deep in thought, a glass near at hand. Books and scattered papers mark the room of an intellectual in distress. The setting is intimate but oppressive, with 19th-century Russian furnishings—sturdy mahogany and rich rug on the floor—casting long, dramatic shadows from a pair of guttering candles. Ivan wears a dark frock coat, a vest slightly askew, his brow furrowed and hair disheveled.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "the_new_doctor",
+            "katerina_ivanovna"
+          ]
+        },
+        {
+          "startParagraph": 2,
+          "endParagraph": 8,
+          "locationDescription": "Ivan's room — alone with the apparition",
+          "imageDescription": "The same somber study, lamplight pooling softly over Ivan seated rigidly at the table, but now tension focuses on the faded upholstered sofa opposite. Upon it sits a spectral visitor: a middle-aged Russian gentleman with a pointed beard, dark hair just graying, a brown, worn reefer jacket, checkered trousers, and a threadbare white scarf—all outmoded but retaining a genteel air. He lounges, legs crossed, giving an impression of unctuous charm, his tortoiseshell lorgnette hanging from a ribbon. The contrast between Ivan’s rigid anxiety and the visitor’s relaxed, almost mocking composure heightens the uncanny atmosphere. Period decor and clothing set this as an intense psychological moment.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "the_devil"
+          ]
+        },
+        {
+          "startParagraph": 9,
+          "endParagraph": 14,
+          "locationDescription": "Ivan's room, intra-room movement (Ivan walks about)",
+          "imageDescription": "A wider view of Ivan's room as Ivan paces agitatedly, a white towel damply wrapped around his forehead. The mysterious visitor remains seated on the sofa, observing with bemused detachment, hands folded delicately over his knee. The candlelight accentuates Ivan’s restless motion, his long coat falling open and his face pale under the glimmer, while papers flutter from the movement he creates. The entire scene feels tense and feverish, with the persistent presence of the devilish gentleman anchoring the room’s psychological charge.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "the_devil"
+          ]
+        },
+        {
+          "startParagraph": 15,
+          "endParagraph": 99,
+          "locationDescription": "Ivan's room, conversation deepens (philosophy, legend, and personal confessions)",
+          "imageDescription": "A close, intense depiction of Ivan once again seated at his desk, gripping his head in both hands, his face marked by emotional turmoil. Across from him, the visitor (the devil) leans forward with an impish smile, gesturing animatedly, his opal ring glinting in the candlelight. The room is more claustrophobic now, shadows looming larger as the conversation veers into metaphysics and stories of paradise. The setting is unchanged but the mood is more oppressive, Ivan’s suffering etched in the deep lines of his expression.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "the_devil",
+            "alexey_fyodorovitch_karamazov",
+            "apostle_thomas",
+            "christ",
+            "elder_zossima",
+            "the_jesuits",
+            "jonah",
+            "job",
+            "byelinsky",
+            "heine",
+            "mephistopheles",
+            "faust",
+            "the_word",
+            "the_penitent_thief",
+            "the_cherubim",
+            "the_seraphim",
+            "the_grand_inquisitor",
+            "god",
+            "satan",
+            "leo_tolstoy",
+            "count_mattei",
+            "hoff",
+            "gatzuk",
+            "gorbunov",
+            "korovkin"
+          ]
+        },
+        {
+          "startParagraph": 100,
+          "endParagraph": 101,
+          "locationDescription": "Ivan's room, escalating confrontation (glass thrown, window knocking)",
+          "imageDescription": "Candles burning low, Ivan, trembling and furious, has just hurled a water glass toward the sofa, its contents spattered, and the spectral visitor leaps up, shaking droplets from his sleeve in wild indignation. Ivan presses his hands over his ears, nearly coming unmoored, while outside, the window is rattled by urgent knocking. Candlelight flickers over Ivan’s strained features, the visitor’s face caught in an expression of feigned outrage, set against the disordered study. Snow accumulates outside the frosted pane, hinting at the storm beyond.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "the_devil"
+          ]
+        },
+        {
+          "startParagraph": 102,
+          "endParagraph": 110,
+          "locationDescription": "Ivan's room, reality reasserts itself (Alyosha calls at the window)",
+          "imageDescription": "Ivan stands abruptly beside a frost-rimed window, clutching the sash as he peels it back, his features wild with confusion. Outside, in the swirling snow and blue night shadows, Alyosha’s face is visible, earnest and worried against the cold backdrop of the yard beyond—a figure wrapped in a greatcoat, scarf, and fur hat. The lamplight from the room spills out, catching on Alyosha’s snow-flecked shoulders and illuminating Ivan’s pale, haunted form, both men isolated yet intensely connected in the frigid night air.",
+          "characterIds": [
+            "ivan_fyodorovitch_karamazov",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "entities": [
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> Alyosha coming in told Ivan that a little over an hour ago Marya Kondratyevna had run to his rooms and informed him Smerdyakov had taken his own life. “I went in to cl"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> Alyosha coming in told Ivan that a little over an hour ago Marya Kondratyevna had run to his rooms and informed him Smerdyakov had taken his own life. “I went in to clear away the samovar"
+        },
+        {
+          "entityId": "marya_kondratyevna",
+          "type": "person",
+          "firstSeenInChapter": 33,
+          "excerpt": "<p> Alyosha coming in told Ivan that a little over an hour ago Marya Kondratyevna had run to his rooms and informed him Smerdyakov had taken his own life. “I went in to clear away the samovar and he was hanging on a nail in the wall.” On A…"
+        },
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…ittle over an hour ago Marya Kondratyevna had run to his rooms and informed him Smerdyakov had taken his own life. “I went in to clear away the samovar and he was hanging on a nail in the wall.” On Alyosha’s inquiring whether she had infor…"
+        },
+        {
+          "entityId": "the_captain_of_police_mr_ispravnik",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…w no blame on any one.” Alyosha left the note on the table and went straight to the police captain and told him all about it. “And from him I’ve come straight to you,” said Alyosha, in conclusion, looking intently into Ivan’s face. He had …"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…you are going to perform an act of heroic virtue: to confess you murdered your father, that the valet murdered him at your instigation.’ ” </p>  <p> “Brother,” Alyosha interposed, “restrain yourself. It was not you murdered him. It’s not t…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…he told his story, as though struck by something in his expression. </p>  <p> “Brother,” he cried suddenly, “you must be terribly ill. You look and don’t seem to understand what I tell you.” </p>  <p> “It’s a good thing you came,” said Iva…"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…I said something nasty about her. It was a lie. I like her ... I am afraid for Katya to‐morrow. I am more afraid of her than of anything. On account of the future. She will cast me off to‐morrow and trample me under foot. She thinks that I…"
+        },
+        {
+          "entityId": "madame_hohlakovs_daughter",
+          "type": "person",
+          "firstSeenInChapter": 8,
+          "excerpt": "…ead. He sat down beside him. </p>  <p> “What were you telling me just now about Lise?” Ivan began again. (He was becoming very talkative.) “I like Lise. I said something nasty about her. It was a lie. I like her ... I am afraid for Katya t…"
+        },
+        {
+          "entityId": "the_devil",
+          "type": "person",
+          "firstSeenInChapter": 16,
+          "excerpt": "…d? Of whom are you talking, brother?” Alyosha asked anxiously again. </p>  <p> “The devil! He’s taken to visiting me. He’s been here twice, almost three times. He taunted me with being angry at his being a simple devil and not Satan, with …"
+        },
+        {
+          "entityId": "the_cherubim",
+          "type": "person",
+          "firstSeenInChapter": 78
+        },
+        {
+          "entityId": "the_seraphim",
+          "type": "person",
+          "firstSeenInChapter": 78,
+          "excerpt": "…‘pure cherub.’ Dmitri calls you a cherub. Cherub!... the thunderous rapture of the seraphim. What are seraphim? Perhaps a whole constellation. But perhaps that constellation is only a chemical molecule. There’s a constellation of the Lion …"
+        },
+        {
+          "entityId": "the_lion_and_the_sun",
+          "type": "place",
+          "firstSeenInChapter": 79
+        },
+        {
+          "entityId": "siberia",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…ough pride, still you had a hope that Smerdyakov might be convicted and sent to Siberia, and Mitya would be acquitted, while you would only be punished with moral condemnation’ (‘Do you hear?’ he laughed then)—‘and some people will praise …"
+        },
+        {
+          "entityId": "god",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…of mankind for the seven thousand years. So let us give it up, and we shall be gods.’ It was he said that, it was he said that!” </p>  <p> “And not you, not you?” Alyosha could not help crying, looking frankly at his brother. “Never mind h…"
+        },
+        {
+          "entityId": "the_day_of_the_trial",
+          "type": "event",
+          "firstSeenInChapter": 70
+        },
+        {
+          "entityId": "the_murder_of_fyodor_pavlovitch",
+          "type": "event",
+          "firstSeenInChapter": 77,
+          "excerpt": "…my face. ‘Oh, you are going to perform an act of heroic virtue: to confess you murdered your father, that the valet murdered him at your instigation.’ ” </p>  <p> “Brother,” Alyosha interposed, “restrain yourself. It was not you murdered h…"
+        },
+        {
+          "entityId": "the_crime_trial_of_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 65
+        },
+        {
+          "entityId": "the_confession_of_love_and_devotion_between_mitya_and_grushenka",
+          "type": "event",
+          "firstSeenInChapter": 56,
+          "excerpt": "…nging for their praise—“he is a criminal, a murderer, but what a generous soul; he wanted to save his brother and he confessed.” ’ That’s a lie, Alyosha!” Ivan cried suddenly, with flashing eyes. “I don’t want the low rabble to praise me, …"
+        },
+        {
+          "entityId": "prayer_for_mitya_and_ivan",
+          "type": "event",
+          "firstSeenInChapter": 79
+        },
+        {
+          "entityId": "ivans_illness",
+          "type": "event",
+          "firstSeenInChapter": 79
+        },
+        {
+          "entityId": "smerdyakovs_suicide",
+          "type": "event",
+          "firstSeenInChapter": 79
+        },
+        {
+          "entityId": "the_nightmarevision_of_the_devil_by_ivan",
+          "type": "event",
+          "firstSeenInChapter": 78
+        },
+        {
+          "entityId": "ivans_confession_of_his_creed",
+          "type": "event",
+          "firstSeenInChapter": 34
+        },
+        {
+          "entityId": "the_lodgings_of_ivan",
+          "type": "place",
+          "firstSeenInChapter": 74
+        },
+        {
+          "entityId": "the_sofa",
+          "type": "place",
+          "firstSeenInChapter": 77,
+          "excerpt": "…p> “Brother, sit down,” said Alyosha in alarm. “For goodness’ sake, sit down on the sofa! You are delirious; put your head on the pillow, that’s right. Would you like a wet towel on your head? Perhaps it will do you good.” </p>  <p> “Give …"
+        },
+        {
+          "entityId": "the_pillow",
+          "type": "place",
+          "firstSeenInChapter": 59
+        },
+        {
+          "entityId": "the_glass",
+          "type": "event",
+          "firstSeenInChapter": 78,
+          "excerpt": "…the low rabble to praise me, I swear I don’t! That’s a lie! That’s why I threw the glass at him and it broke against his ugly face.” </p>  <p> “Brother, calm yourself, stop!” Alyosha entreated him. </p>  <p> “Yes, he knows how to torment o…"
+        },
+        {
+          "entityId": "the_washingstand",
+          "type": "place",
+          "firstSeenInChapter": 79
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 35,
+          "locationDescription": "In Ivan's rooms, evening",
+          "imageDescription": "A dimly lit 19th-century Russian study, candlelight flickering and casting elongated shadows across the walls. Ivan Karamazov stands in the center in a dressing gown, his face gaunt and brooding, while Alyosha, in simple but clean winter clothing, is speaking earnestly to him. The room is modest but cluttered, with a samovar and a towel on a chair, books and glassware scattered across a table, and heavy drapes curtaining the windows. The overall atmosphere is tense and somber, tinged with the coldness of late night.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "ivan_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 36,
+          "endParagraph": 36,
+          "locationDescription": "Still in Ivan's rooms, Ivan collapses and is put to bed",
+          "imageDescription": "Night deepens in Ivan Karamazov's shadowed room, the last stubs of candle illuminating a chaotic scene: Ivan staggers, disheveled and pale, while Alyosha hurriedly supports him, guiding him towards the narrow bed in the corner. Ivan's coat is slipping off his shoulders, and Alyosha is focused, helping his delirious brother lie down. The study is silent except for Ivan's incoherent ramblings; beside the bed, a simple wooden chair and the damp towel on the floor. The atmosphere feels both urgent and compassionate.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "ivan_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 37,
+          "endParagraph": 37,
+          "locationDescription": "Ivan's rooms, night, Alyosha prays as Ivan sleeps",
+          "imageDescription": "In the soft, trembling glow of a single dying candle, Ivan lies unconscious and feverish in the narrow bed, breathing gently under a thin blanket. Alyosha, still fully clothed, takes a pillow and lies on the nearby sofa, hands clasped in silent prayer, his face illuminated with quiet determination. The small room around them is still: a sense of exhaustion and watchful hope pervades the cold air, with heavy drapes blocking the winter night from outside. The late hour and quiet create a hushed, devotional mood, highlighting the brothers’ bond and struggle.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "ivan_fyodorovitch_karamazov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "entities": [
+        {
+          "entityId": "the_trial",
+          "type": "event",
+          "firstSeenInChapter": 74,
+          "excerpt": "…At ten o’clock in the morning of the day following the events I have described, the trial of Dmitri Karamazov began in our district court. </p>  <p> I hasten to emphasize the fact that I am far from esteeming myself capable of reporting al…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…k in the morning of the day following the events I have described, the trial of Dmitri Karamazov began in our district court. </p>  <p> I hasten to emphasize the fact that I am far from esteeming myself capable of reporting all that took p…"
+        },
+        {
+          "entityId": "the_chief_town_of_the_province",
+          "type": "place",
+          "firstSeenInChapter": 46
+        },
+        {
+          "entityId": "moscow",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…ief town of our province, but from several other Russian towns, as well as from Moscow and Petersburg. Among them were lawyers, ladies, and even several distinguished personages. Every ticket of admission had been snatched up. A special pl…"
+        },
+        {
+          "entityId": "saint_petersburg",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…our province, but from several other Russian towns, as well as from Moscow and Petersburg. Among them were lawyers, ladies, and even several distinguished personages. Every ticket of admission had been snatched up. A special place behind t…"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…rts. It was known that two women rivals were to appear in the case. One of them—Katerina Ivanovna—was an object of general interest. All sorts of extraordinary tales were told about her, amazing anecdotes of her passion for Mitya, in spite…"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…l to Siberia and to be married to him somewhere in the mines. The appearance of Grushenka in court was awaited with no less impatience. The public was looking forward with anxious curiosity to the meeting of the two rivals—the proud aristo…"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…avlovitch and his unhappy son,” and all, almost without exception, wondered how father and son could be so in love with “such a very common, ordinary Russian girl, who was not even pretty.” </p>  <p> In brief, there was a great deal of tal…"
+        },
+        {
+          "entityId": "russia",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…n local society. Every one knew, too, that the case had become known throughout Russia, but yet we had not imagined that it had aroused such burning, such intense, interest in every one, not only among ourselves, but all over Russia. This …"
+        },
+        {
+          "entityId": "fetyukovitch",
+          "type": "person",
+          "firstSeenInChapter": 70,
+          "excerpt": "…case. </p>  <p> Everybody was excited at the presence of the celebrated lawyer, Fetyukovitch. His talent was well known, and this was not the first time he had defended notorious criminal cases in the provinces. And if he defended them, su…"
+        },
+        {
+          "entityId": "ippolit_kirillovitch",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…oo, about our prosecutor and about the President of the Court. It was said that Ippolit Kirillovitch was in a tremor at meeting Fetyukovitch, and that they had been enemies from the beginning of their careers in Petersburg, that though our…"
+        },
+        {
+          "entityId": "president_of_the_court",
+          "type": "person",
+          "firstSeenInChapter": 80,
+          "excerpt": "…mbered all over Russia. There were stories, too, about our prosecutor and about the President of the Court. It was said that Ippolit Kirillovitch was in a tremor at meeting Fetyukovitch, and that they had been enemies from the beginning of…"
+        },
+        {
+          "entityId": "maximov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…evidence at the preliminary inquiry, but was now in Paris; Madame Hohlakov and Maximov, who were absent through illness; and Smerdyakov, through his sudden death, of which an official statement from the police was presented. The news of Sm…"
+        },
+        {
+          "entityId": "madame_hohlakov",
+          "type": "person",
+          "firstSeenInChapter": 6
+        },
+        {
+          "entityId": "pyotr_alexandrovitch_misov",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…tnesses and experts. It was a long list. Four of the witnesses were not present—Miüsov, who had given evidence at the preliminary inquiry, but was now in Paris; Madame Hohlakov and Maximov, who were absent through illness; and Smerdyakov, …"
+        },
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…now in Paris; Madame Hohlakov and Maximov, who were absent through illness; and Smerdyakov, through his sudden death, of which an official statement from the police was presented. The news of Smerdyakov’s death produced a sudden stir and w…"
+        },
+        {
+          "entityId": "the_court",
+          "type": "place",
+          "firstSeenInChapter": 80,
+          "excerpt": "…y following the events I have described, the trial of Dmitri Karamazov began in our district court. </p>  <p> I hasten to emphasize the fact that I am far from esteeming myself capable of reporting all that took place at the trial in full …"
+        },
+        {
+          "entityId": "the_public",
+          "type": "person",
+          "firstSeenInChapter": 80,
+          "excerpt": "…, which had never been allowed before. A large proportion—not less than half of the public—were ladies. There was such a large number of lawyers from all parts that they did not know where to seat them, for every ticket had long since been…"
+        },
+        {
+          "entityId": "the_jury",
+          "type": "person",
+          "firstSeenInChapter": 80,
+          "excerpt": "…ere on a raised platform, a table and two rows of chairs had been put ready for the jury. On the left was the place for the prisoner and the counsel for the defense. In the middle of the court, near the judges, was a table with the “materi…"
+        },
+        {
+          "entityId": "the_lawyers",
+          "type": "person",
+          "firstSeenInChapter": 80,
+          "excerpt": "…he men were certainly hoping for the conviction of the criminal, except perhaps the lawyers, who were more interested in the legal than in the moral aspect of the case. </p>  <p> Everybody was excited at the presence of the celebrated lawy…"
+        },
+        {
+          "entityId": "the_witnesses",
+          "type": "person",
+          "firstSeenInChapter": 80,
+          "excerpt": "…followed a list of persons who were to take part in the proceedings—that is, of the witnesses and experts. It was a long list. Four of the witnesses were not present—Miüsov, who had given evidence at the preliminary inquiry, but was now in…"
+        },
+        {
+          "entityId": "the_counsel_for_the_defense",
+          "type": "person",
+          "firstSeenInChapter": 80,
+          "excerpt": "…had been put ready for the jury. On the left was the place for the prisoner and the counsel for the defense. In the middle of the court, near the judges, was a table with the “material proofs.” On it lay Fyodor Pavlovitch’s white silk dres…"
+        },
+        {
+          "entityId": "the_president_of_the_court",
+          "type": "person",
+          "firstSeenInChapter": 80,
+          "excerpt": "…mbered all over Russia. There were stories, too, about our prosecutor and about the President of the Court. It was said that Ippolit Kirillovitch was in a tremor at meeting Fetyukovitch, and that they had been enemies from the beginning of…"
+        },
+        {
+          "entityId": "ippolit_kirillovitch",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…oo, about our prosecutor and about the President of the Court. It was said that Ippolit Kirillovitch was in a tremor at meeting Fetyukovitch, and that they had been enemies from the beginning of their careers in Petersburg, that though our…"
+        },
+        {
+          "entityId": "the_material_proofs",
+          "type": "event",
+          "firstSeenInChapter": 80
+        },
+        {
+          "entityId": "the_event",
+          "type": "event",
+          "firstSeenInChapter": 47,
+          "excerpt": "<p> At ten o’clock in the morning of the day following the events I have described, the trial of Dmitri Karamazov began in our district court. </p>  <p> I hasten to emphasize the fact that I am far from esteeming myself capa"
+        },
+        {
+          "entityId": "the_murder_of_fyodor_pavlovitch",
+          "type": "event",
+          "firstSeenInChapter": 77,
+          "excerpt": "…hey were stern and frowning. </p>  <p> At last the President opened the case of the murder of Fyodor Pavlovitch Karamazov. I don’t quite remember how he described him. The court usher was told to bring in the prisoner, and Mitya made his a…"
+        },
+        {
+          "entityId": "the_brass_mortar_object",
+          "type": "event",
+          "firstSeenInChapter": 48,
+          "excerpt": "…s.” On it lay Fyodor Pavlovitch’s white silk dressing‐gown, stained with blood; the fatal brass pestle with which the supposed murder had been committed; Mitya’s shirt, with a blood‐stained sleeve; his coat, stained with blood in patches o…"
+        },
+        {
+          "entityId": "the_envelope_with_three_thousand_roubles",
+          "type": "event",
+          "firstSeenInChapter": 37,
+          "excerpt": "…ken from him on the sly at Mokroe by Trifon Borissovitch; the envelope in which the three thousand roubles had been put ready for Grushenka, the narrow pink ribbon with which it had been tied, and many other articles I don’t remember. In t…"
+        },
+        {
+          "entityId": "three_thousand_roubles_giftenvelope",
+          "type": "event",
+          "firstSeenInChapter": 55,
+          "excerpt": "…from him on the sly at Mokroe by Trifon Borissovitch; the envelope in which the three thousand roubles had been put ready for Grushenka, the narrow pink ribbon with which it had been tied, and many other articles I don’t remember. In the b…"
+        },
+        {
+          "entityId": "tragedy",
+          "type": "event",
+          "firstSeenInChapter": 80,
+          "excerpt": "…de a great impression on me. The clerk read it loudly and distinctly. The whole tragedy was suddenly unfolded before us, concentrated, in bold relief, in a fatal and pitiless light. I remember how, immediately after it had been read, the P…"
+        },
+        {
+          "entityId": "mityas_suicide_plan",
+          "type": "event",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "trifon_borissovitch",
+          "type": "person",
+          "firstSeenInChapter": 51,
+          "excerpt": "…t Perhotin’s with a view to suicide, and taken from him on the sly at Mokroe by Trifon Borissovitch; the envelope in which the three thousand roubles had been put ready for Grushenka, the narrow pink ribbon with which it had been tied, and…"
+        },
+        {
+          "entityId": "pyotr_fomitch_kalganov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…itself, stiff with blood and by now quite yellow; the pistol loaded by Mitya at Perhotin’s with a view to suicide, and taken from him on the sly at Mokroe by Trifon Borissovitch; the envelope in which the three thousand roubles had been pu…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 7,
+          "locationDescription": "District courthouse exterior and general town",
+          "imageDescription": "A busy scene outside a 19th-century Russian courthouse in a provincial town on a bright, crisp morning. Horse-drawn carriages arrive, well-dressed men and women in fur-lined coats and elaborate hats disembark while clusters of townsfolk, lawyers, and curious visitors gather near the entrance. The courthouse is a stately stone building with columns and ornate details. Anticipation and tension fill the air among the mixed crowd.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "katerina_ivanovna",
+            "the_enchantress",
+            "fetyukovitch",
+            "ippolit_kirillovitch",
+            "president_of_the_court",
+            "the_public",
+            "the_lawyers"
+          ]
+        },
+        {
+          "startParagraph": 8,
+          "endParagraph": 8,
+          "locationDescription": "Inside the packed courtroom before judges enter",
+          "imageDescription": "A spacious, vaulted Russian courtroom filled with rows of chairs and throngs of townspeople, visitors, and elegantly attired ladies. Behind a balustrade, observers jostle for space while groups of lawyers in formal dress cluster behind a makeshift partition. Sunlight streams through tall windows, glinting off polished wood and gilt details, with an air of hushed expectancy before official proceedings begin.",
+          "characterIds": [
+            "the_public",
+            "the_lawyers",
+            "the_jury",
+            "the_witnesses"
+          ]
+        },
+        {
+          "startParagraph": 9,
+          "endParagraph": 9,
+          "locationDescription": "Courtroom as judges and officials enter",
+          "imageDescription": "Three solemn Russian judges in dark official robes ascend to a raised platform; the President, stout and middle-aged, takes his seat at the center, flanked by two justices. The prosecutor, pale and tense, enters and sits at his desk. Lawyers consult papers, and the crowded hall grows silent. The atmosphere is formal and charged, as court functionaries stand ready near side tables displaying various pieces of evidence.",
+          "characterIds": [
+            "president_of_the_court",
+            "fetyukovitch",
+            "ippolit_kirillovitch",
+            "the_jury",
+            "the_lawyers",
+            "the_public"
+          ]
+        },
+        {
+          "startParagraph": 10,
+          "endParagraph": 10,
+          "locationDescription": "Courtroom during juror selection and public observation",
+          "imageDescription": "A close-up scene in the front of the Russian courtroom as clerks and officials confer over a list of jurors. Twelve men—officials, merchants, artisans, and peasants—sit stiffly in two rows, faces stern and apprehensive. Observers watch with keen curiosity; the room glows in the morning light. Hum of whispered commentary amongst the well-dressed public and lawyers continues in the background.",
+          "characterIds": [
+            "the_jury",
+            "the_public",
+            "the_lawyers",
+            "president_of_the_court",
+            "ippolit_kirillovitch"
+          ]
+        },
+        {
+          "startParagraph": 11,
+          "endParagraph": 12,
+          "locationDescription": "Courtroom as the trial formally opens and Dmitri enters",
+          "imageDescription": "The President, dignified and grave, addresses the crowded Russian courtroom from the judges’ platform. The prisoner, Dmitri Karamazov, strides in wearing a new black frock coat and gloves, sitting stiffly at the defense table. The counsel for the defense, Fetyukovitch, enters next, his tall, spare figure in evening dress and white tie. All eyes are fixed on Dmitri’s composed but rigid demeanor; the room is hushed and tense.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "fetyukovitch",
+            "president_of_the_court",
+            "the_public",
+            "the_lawyers",
+            "the_jury"
+          ]
+        },
+        {
+          "startParagraph": 13,
+          "endParagraph": 13,
+          "locationDescription": "Courtroom during initial questioning and reading of statement",
+          "imageDescription": "A fine court scene: the President, seated above, questions the accused Dmitri, who answers sharply from a simple chair. Fetyukovitch sits close by, attentive, while the prosecutor waits across the aisle. Courthouse clerks read documents aloud; the public and jury watch, faces ranging from curious to severe, as the drama of the trial begins to unfold under the high ceilings of the courtroom lit by daylight.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "fetyukovitch",
+            "ippolit_kirillovitch",
+            "president_of_the_court",
+            "the_public",
+            "the_jury",
+            "the_lawyers"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 16,
+          "locationDescription": "Courtroom as Smerdyakov’s death is announced and Dmitri reacts",
+          "imageDescription": "A subtle moment in court: as an official announces Smerdyakov’s death, an audible stir passes through the elegant crowd and the jury. Dmitri Karamazov, pale and agitated, shouts emotionally from the dock while his attorney Fetyukovitch rushes to restrain him. The President looks on sternly, warning against disorder. The ornate hall is tense; dignified men and colorfully dressed women lean forward in shock.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "fetyukovitch",
+            "president_of_the_court",
+            "ippolit_kirillovitch",
+            "the_public",
+            "the_jury",
+            "the_lawyers"
+          ]
+        },
+        {
+          "startParagraph": 17,
+          "endParagraph": 21,
+          "locationDescription": "Courtroom during Mitya's plea and the administration of oaths",
+          "imageDescription": "Dmitri rises from his place, trembling with emotion as he loudly proclaims his innocence of murder and theft. The President presides gravely from above, admonishing order. Witnesses cluster nearby, and various officials, including defense and prosecution, observe the scene as the tension in the courtroom mounts. The mood is heavy and fraught, with some onlookers leaning in with fascination, others with skepticism.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "president_of_the_court",
+            "fetyukovitch",
+            "ippolit_kirillovitch",
+            "the_public",
+            "the_jury",
+            "the_witnesses",
+            "the_lawyers"
+          ]
+        }
+      ]
     }
   ]
 }
