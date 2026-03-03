@@ -6,9 +6,17 @@
  */
 
 import "../../../lib/loadEnv";
-import { mkdirSync, writeFileSync, readFileSync } from "fs";
+import { mkdirSync, writeFileSync, readFileSync, existsSync } from "fs";
 import { join } from "path";
-import { writeCanonicalBook, type Book, type Chapter } from "../../../lib/canonical-book";
+import {
+  writeCanonicalBook,
+  remapChapterIndexScenes,
+  splitParagraphs,
+  type Book,
+  type Chapter,
+  type ParagraphIndexRemap,
+  type ChapterIndexLike,
+} from "../../../lib/canonical-book";
 import { sanitizeToCanonicalHtml } from "../../../lib/canonical-html";
 
 const HTML_URL = "https://www.gutenberg.org/files/64317/64317-h/64317-h.htm";
@@ -22,6 +30,16 @@ function preprocessHtml(html: string): string {
     .replace(/&mdash;/g, "—")
     .replace(/&ndash;/g, "–")
     .replace(/&nbsp;/g, " ");
+}
+
+/** Remove the first <p>...</p> paragraph from canonical HTML. */
+function stripFirstParagraph(html: string): string {
+  const firstPRegex = /^<p(?:\s[^>]*)?>[\s\S]*?<\/p>/i;
+  const match = html.match(firstPRegex);
+  if (match) {
+    return html.slice(match[0].length).trim();
+  }
+  return html.trim();
 }
 
 /** Extract chapter HTML and sanitize to canonical format (<p>, <strong>, <em>, etc.). */
@@ -55,26 +73,50 @@ function splitChaptersFromHtml(html: string): Array<{ number: number; title: str
   return chapters;
 }
 
-async function fetchBook(): Promise<string> {
-  console.log("Fetching The Great Gatsby from Project Gutenberg...");
-  const res = await fetch(HTML_URL);
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  return res.text();
-}
+function parseBookWithParagraphRemaps(html: string): {
+  book: Book;
+  paragraphRemaps: ParagraphIndexRemap[];
+} {
+  const chapterDivRegex = /<div\s+id="chapter-(\d+)">/g;
+  const matches: { contentStart: number; divStart: number; num: number }[] = [];
+  let m: RegExpExecArray | null;
+  while ((m = chapterDivRegex.exec(html)) !== null) {
+    matches.push({
+      divStart: m.index,
+      contentStart: m.index + m[0].length,
+      num: parseInt(m[1], 10),
+    });
+  }
 
-function parseBook(html: string): Book {
-  const chapterSplits = splitChaptersFromHtml(html);
-  if (chapterSplits.length === 0) {
+  if (matches.length === 0) {
     throw new Error("No chapters found (expected <div id=\"chapter-N\">)");
   }
 
   const volume = "Full";
-  const chapters: Chapter[] = chapterSplits.map(({ number, title, content }) => ({
-    number,
-    title,
-    volume,
-    content,
-  }));
+  const chapters: Chapter[] = [];
+  const paragraphRemaps: ParagraphIndexRemap[] = [];
+
+  for (let i = 0; i < matches.length; i++) {
+    const contentEnd = i + 1 < matches.length ? matches[i + 1].divStart : html.length;
+    const rawContent = html.slice(matches[i].contentStart, contentEnd);
+    const sourceContent = sanitizeToCanonicalHtml(preprocessHtml(rawContent)).trim();
+    const strippedContent = stripFirstParagraph(sourceContent);
+
+    const number = matches[i].num;
+    paragraphRemaps.push({
+      chapterNumber: number,
+      sourceParagraphCount: splitParagraphs(sourceContent).length,
+      targetParagraphCount: splitParagraphs(strippedContent).length,
+      removedParagraphIndices: [0],
+    });
+
+    chapters.push({
+      number,
+      title: `Chapter ${number}`,
+      volume,
+      content: strippedContent,
+    });
+  }
 
   // Strip Gutenberg end marker from last chapter if present (may appear in text or HTML)
   const lastCh = chapters[chapters.length - 1];
@@ -90,12 +132,26 @@ function parseBook(html: string): Book {
   }
 
   return {
-    title: "The Great Gatsby",
-    author: "F. Scott Fitzgerald",
-    source: "Project Gutenberg (https://www.gutenberg.org/ebooks/64317)",
-    license: "Public Domain",
-    chapters,
+    book: {
+      title: "The Great Gatsby",
+      author: "F. Scott Fitzgerald",
+      source: "Project Gutenberg (https://www.gutenberg.org/ebooks/64317)",
+      license: "Public Domain",
+      chapters,
+    },
+    paragraphRemaps,
   };
+}
+
+async function fetchBook(): Promise<string> {
+  console.log("Fetching The Great Gatsby from Project Gutenberg...");
+  const res = await fetch(HTML_URL);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return res.text();
+}
+
+function parseBook(html: string): Book {
+  return parseBookWithParagraphRemaps(html).book;
 }
 
 async function main() {
@@ -117,14 +173,35 @@ async function main() {
   }
 
   console.log("Parsing chapters...");
-  const book = parseBook(html);
-  console.log(`Parsed ${book.chapters.length} chapters.`);
+  const parsed = parseBookWithParagraphRemaps(html);
+  console.log(`Parsed ${parsed.book.chapters.length} chapters.`);
 
-  writeCanonicalBook(dataDir, SLUG, book);
+  writeCanonicalBook(dataDir, SLUG, parsed.book);
   console.log(`Wrote ${bookDir}/chapters/*.html and book-index.json`);
+
+  const chapterIndexPath = join(bookDir, "chapter-index.json");
+  if (existsSync(chapterIndexPath)) {
+    const chapterIndex = JSON.parse(readFileSync(chapterIndexPath, "utf-8")) as ChapterIndexLike;
+    const { updatedIndex, chaptersTouched, scenesTouched } = remapChapterIndexScenes(
+      chapterIndex,
+      parsed.paragraphRemaps
+    );
+    if (scenesTouched > 0) {
+      writeFileSync(chapterIndexPath, JSON.stringify(updatedIndex, null, 2));
+      console.log(
+        `Updated chapter-index.json scene ranges (${scenesTouched} scenes across ${chaptersTouched} chapters).`
+      );
+    } else {
+      console.log("No chapter-index scene range updates were needed.");
+    }
+  }
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+export { parseBookWithParagraphRemaps, parseBook, main };
+
+if (import.meta.main) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}

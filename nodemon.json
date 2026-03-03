@@ -1,0 +1,6 @@
+{
+  "watch": ["data"],
+  "ext": "json,html,ts,tsx,js,jsx",
+  "ignore": ["data/**/*.lock", "data/**/.index.lock"],
+  "exec": "next dev --turbopack"
+}
