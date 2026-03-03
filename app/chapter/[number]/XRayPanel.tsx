@@ -69,7 +69,7 @@ export function XRayPanel({
       }}
       ariaLabel={data.name}
       title={data.name}
-      contentClassName="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 shadow-xl max-w-md w-full max-h-[85vh] overflow-y-auto rounded-xl"
+      contentClassName="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 shadow-xl w-full max-h-[85vh] overflow-y-auto rounded-xl"
     >
       <div className="px-5 pb-5">
         <div className="flex items-start justify-center gap-2 mb-3">

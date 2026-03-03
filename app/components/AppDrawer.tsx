@@ -44,11 +44,13 @@ export function AppDrawer({
           aria-label={ariaLabel}
           aria-describedby={undefined}
         >
-          <div className={`${drawerPanelClass} max-w-[min(80vw,36rem)] rounded-t-xl rounded-b-none`}>
-            <div className="mx-auto mt-2 h-1.5 w-12 flex-shrink-0 rounded-full bg-stone-300 dark:bg-stone-600" />
-            <Drawer.Title className="sr-only">{title ?? ariaLabel}</Drawer.Title>
-            <div className="overflow-y-auto max-h-[calc(90vh-3rem)] shrink-0 px-4 pt-0 pb-4">
-              {children}
+          <div className="w-full px-2 sm:px-0" style={{ maxWidth: "min(80vw, 36rem)" }}>
+            <div className={`${drawerPanelClass} rounded-t-xl rounded-b-none`}>
+              <div className="mx-auto mt-2 h-1.5 w-12 flex-shrink-0 rounded-full bg-stone-300 dark:bg-stone-600" />
+              <Drawer.Title className="sr-only">{title ?? ariaLabel}</Drawer.Title>
+              <div className="overflow-y-auto max-h-[calc(90vh-3rem)] shrink-0 px-4 pt-0 pb-4">
+                {children}
+              </div>
             </div>
           </div>
         </Drawer.Content>

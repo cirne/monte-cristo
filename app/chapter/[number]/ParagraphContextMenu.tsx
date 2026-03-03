@@ -246,7 +246,7 @@ export function ParagraphContextMenu({
         }}
         ariaLabel="Reading context summary"
         title={actionLabel(action ?? "current-scene")}
-        contentClassName="bg-white dark:bg-stone-900 rounded-xl shadow-xl w-full max-w-5xl max-h-[90vh] min-h-[200px] overflow-y-auto border border-stone-200 dark:border-stone-800 p-4 sm:p-6"
+        contentClassName="bg-white dark:bg-stone-900 rounded-xl shadow-xl w-full max-h-[90vh] min-h-[200px] overflow-y-auto border border-stone-200 dark:border-stone-800 p-4 sm:p-6"
       >
         <div data-testid="paragraph-context-scroll">
           {mode === "loading" && (
