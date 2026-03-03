@@ -34,7 +34,7 @@ describe("app/page", () => {
 
   it("renders book cards to pick a book", () => {
     render(<Home />);
-    expect(screen.getByText(/Great literature for the short-attention generation/)).toBeInTheDocument();
+    expect(screen.getByText(/Great novels, built for distractable minds/)).toBeInTheDocument();
     expect(screen.getByText("The Count of Monte Cristo")).toBeInTheDocument();
     expect(screen.getByText("The Great Gatsby")).toBeInTheDocument();
     expect(screen.getAllByRole("link", { name: /Table of Contents/i }).length).toBeGreaterThanOrEqual(1);
