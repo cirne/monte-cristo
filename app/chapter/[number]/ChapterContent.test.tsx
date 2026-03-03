@@ -47,7 +47,7 @@ describe("app/chapter/[number]/ChapterContent", () => {
       />
     );
     fireEvent.click(screen.getByRole("button", { name: "Dantès" }));
-    expect(screen.getByRole("heading", { name: "Edmond Dantès" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Edmond Dantès", level: 3 })).toBeInTheDocument();
     expect(screen.queryByRole("button", { name: "Explain current scene" })).not.toBeInTheDocument();
   });
 });
