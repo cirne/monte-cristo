@@ -15,7 +15,14 @@
         "Alyosha; Karamazov",
         "Alyosha, Alexey Fyodorovitch, Karamazov",
         "Alyosha; Alexey Fyodorovitch; Alyosha; Alexey",
-        "Ivan's brother; remembered briefly by Ivan"
+        "Ivan's brother; remembered briefly by Ivan",
+        "Alexey Fyodorovitch, Alyosha",
+        "Alyosha (called for examination)",
+        "the third son, devout and modest youth",
+        "Alyosha, Alexey, brother",
+        "the two brothers of the prisoner (Ivan and Alexey Karamazov)",
+        "the younger brother / Alyosha",
+        "Alexey Karamazov; his younger brother"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -32,7 +39,14 @@
         "Alyosha; Karamazov",
         "Alyosha, Alexey Fyodorovitch, Karamazov",
         "Alyosha; Alexey Fyodorovitch; Alyosha; Alexey",
-        "Ivan's brother; remembered briefly by Ivan"
+        "Ivan's brother; remembered briefly by Ivan",
+        "Alexey Fyodorovitch, Alyosha",
+        "Alyosha (called for examination)",
+        "the third son, devout and modest youth",
+        "Alyosha, Alexey, brother",
+        "the two brothers of the prisoner (Ivan and Alexey Karamazov)",
+        "the younger brother / Alyosha",
+        "Alexey Karamazov; his younger brother"
       ],
       "spoilerFreeIntro": "A gentle and thoughtful young man, Alexey Fyodorovitch Karamazov is the youngest son of Fyodor Pavlovitch Karamazov."
     },
@@ -61,7 +75,11 @@
         "his old father; Fyodor Pavlovitch",
         "father; Fyodor Pavlovitch; your papa",
         "Fyodor Pavlovitch, our papa, father",
-        "the master, Ivan's father, the victim"
+        "the master, Ivan's father, the victim",
+        "the father, his father, Fyodor Pavlovitch, the old man",
+        "our father; his father",
+        "the prisoner’s father, the old man, father, the crazy old man, his rival",
+        "old Fyodor Pavlovitch; his master"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -88,7 +106,11 @@
         "his old father; Fyodor Pavlovitch",
         "father; Fyodor Pavlovitch; your papa",
         "Fyodor Pavlovitch, our papa, father",
-        "the master, Ivan's father, the victim"
+        "the master, Ivan's father, the victim",
+        "the father, his father, Fyodor Pavlovitch, the old man",
+        "our father; his father",
+        "the prisoner’s father, the old man, father, the crazy old man, his rival",
+        "old Fyodor Pavlovitch; his master"
       ],
       "spoilerFreeIntro": "A wealthy landowner known for his scandalous behavior and reputation in the district."
     },
@@ -117,7 +139,16 @@
         "Mitya; Dmitri Fyodorovitch; Mitya",
         "Dmitri Fyodorovitch; Mitya; your brother",
         "Dmitri, Mitya, your brother, Mitya",
-        "Mitya, the prisoner"
+        "Mitya, the prisoner",
+        "Mitya, the prisoner, brother",
+        "the prisoner, eldest son, Mitya",
+        "the prisoner, the unhappy young man, the accused, Mitya",
+        "the son (Dmitri)",
+        "the prisoner (Dmitri/Karamazov)",
+        "the son of the murdered man (Dmitri/Mitya Karamazov)",
+        "Mitya, the prisoner, Karamazov, Mitya Karamazov, the criminal",
+        "the prisoner, my unfortunate client",
+        "the prisoner"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -144,7 +175,16 @@
         "Mitya; Dmitri Fyodorovitch; Mitya",
         "Dmitri Fyodorovitch; Mitya; your brother",
         "Dmitri, Mitya, your brother, Mitya",
-        "Mitya, the prisoner"
+        "Mitya, the prisoner",
+        "Mitya, the prisoner, brother",
+        "the prisoner, eldest son, Mitya",
+        "the prisoner, the unhappy young man, the accused, Mitya",
+        "the son (Dmitri)",
+        "the prisoner (Dmitri/Karamazov)",
+        "the son of the murdered man (Dmitri/Mitya Karamazov)",
+        "Mitya, the prisoner, Karamazov, Mitya Karamazov, the criminal",
+        "the prisoner, my unfortunate client",
+        "the prisoner"
       ],
       "spoilerFreeIntro": "The passionate and impulsive eldest son of Fyodor Pavlovitch, born of his first marriage."
     },
@@ -159,7 +199,13 @@
         "little brother Ivan (Alyosha's reference to Ivan, but Ivan is already above)",
         "Ivan; his brother Ivan",
         "Ivan; your brother Ivan Fyodorovitch",
-        "Ivan Fyodorovitch Karamazov"
+        "Ivan Fyodorovitch Karamazov",
+        "the elder (second) son, young Ivan Karamazov",
+        "Ivan, his brother Ivan, Ivan",
+        "the two brothers of the prisoner (Ivan and Alexey Karamazov)",
+        "the elder brother / Ivan",
+        "Ivan Fyodorovitch had sent two 5% coupons of five thousand each (ten thousand)",
+        "his brother, Ivan Fyodorovitch"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -171,7 +217,13 @@
         "Ivan, his brother Ivan",
         "little brother Ivan (Alyosha's reference to Ivan, but Ivan is already above)",
         "Ivan; his brother Ivan",
-        "Ivan; your brother Ivan Fyodorovitch"
+        "Ivan; your brother Ivan Fyodorovitch",
+        "the elder (second) son, young Ivan Karamazov",
+        "Ivan, his brother Ivan, Ivan",
+        "the two brothers of the prisoner (Ivan and Alexey Karamazov)",
+        "the elder brother / Ivan",
+        "Ivan Fyodorovitch had sent two 5% coupons of five thousand each (ten thousand)",
+        "his brother, Ivan Fyodorovitch"
       ],
       "spoilerFreeIntro": "A quiet and intelligent young man, Ivan is the middle son of Fyodor Pavlovitch Karamazov."
     },
@@ -213,7 +265,8 @@
         "Petersburg, where Fyodor Pavlovitch's first wife died",
         "Petersburg, the city Varvara longs to return to",
         "Petersburg; St. Petersburg (home of the paper 'Gossip', where rumors are discussed)",
-        "mentioned in the peasant's song ('Vanka’s gone to Petersburg')"
+        "mentioned in the peasant's song ('Vanka’s gone to Petersburg')",
+        "the Petersburg man"
       ],
       "type": "place",
       "firstSeenInChapter": 1,
@@ -222,7 +275,8 @@
         "Petersburg, where Fyodor Pavlovitch's first wife died",
         "Petersburg, the city Varvara longs to return to",
         "Petersburg; St. Petersburg (home of the paper 'Gossip', where rumors are discussed)",
-        "mentioned in the peasant's song ('Vanka’s gone to Petersburg')"
+        "mentioned in the peasant's song ('Vanka’s gone to Petersburg')",
+        "the Petersburg man"
       ],
       "spoilerFreeIntro": "Petersburg, a bustling Russian city alive with new ideas and restless seekers of change."
     },
@@ -233,7 +287,10 @@
         "Rakitin",
         "Mikhail Osipovitch; Misha",
         "Mr. Rakitin",
-        "divinity student; your friend; turned out of house; author of the poem about a foot"
+        "divinity student; your friend; turned out of house; author of the poem about a foot",
+        "Rakitin, Mr. Rakitin",
+        "Mr. Rakitin, a young observer",
+        "the talented young man, Mr. Rakitin"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -242,7 +299,10 @@
         "Rakitin",
         "Mikhail Osipovitch; Misha",
         "Mr. Rakitin",
-        "divinity student; your friend; turned out of house; author of the poem about a foot"
+        "divinity student; your friend; turned out of house; author of the poem about a foot",
+        "Rakitin, Mr. Rakitin",
+        "Mr. Rakitin, a young observer",
+        "the talented young man, Mr. Rakitin"
       ],
       "spoilerFreeIntro": "A young divinity student, impoverished and earnest in his studies."
     },
@@ -256,7 +316,8 @@
         "murder of my father, Fyodor Pavlovitch's murder and robbery",
         "murdering his father",
         "his father's death, the murder",
-        "death of Fyodor Pavlovitch"
+        "death of Fyodor Pavlovitch",
+        "the catastrophe"
       ],
       "type": "event",
       "firstSeenInChapter": 1,
@@ -268,7 +329,8 @@
         "murder of my father, Fyodor Pavlovitch's murder and robbery",
         "murdering his father",
         "his father's death, the murder",
-        "death of Fyodor Pavlovitch"
+        "death of Fyodor Pavlovitch",
+        "the catastrophe"
       ]
     },
     "death_of_adelada_ivanovna_misov": {
@@ -307,7 +369,8 @@
         "Grigory Vassilyevitch",
         "Grigory, the old man",
         "the old man",
-        "Grigory—accused by Madame Hohlakov of murder (erroneously)"
+        "Grigory—accused by Madame Hohlakov of murder (erroneously)",
+        "the servant, old Grigory"
       ],
       "type": "person",
       "firstSeenInChapter": 2,
@@ -316,7 +379,8 @@
         "Grigory Vassilyevitch",
         "Grigory, the old man",
         "the old man",
-        "Grigory—accused by Madame Hohlakov of murder (erroneously)"
+        "Grigory—accused by Madame Hohlakov of murder (erroneously)",
+        "the servant, old Grigory"
       ],
       "spoilerFreeIntro": "A loyal and long-serving family servant, Grigory cares for the children with devoted attention."
     },
@@ -524,7 +588,8 @@
         "his elder, beloved elder, that holy man, his adored teacher",
         "the elder; Alyosha's elder; Father Zossima, the saint",
         "Father Zossima; the elder; the dead figure so precious; little, thin old man",
-        "elder; Zossima"
+        "elder; Zossima",
+        "the deceased Elder, Father Zossima"
       ],
       "type": "person",
       "firstSeenInChapter": 4,
@@ -541,7 +606,8 @@
         "his elder, beloved elder, that holy man, his adored teacher",
         "the elder; Alyosha's elder; Father Zossima, the saint",
         "Father Zossima; the elder; the dead figure so precious; little, thin old man",
-        "elder; Zossima"
+        "elder; Zossima",
+        "the deceased Elder, Father Zossima"
       ],
       "spoilerFreeIntro": "The elder Zossima is a wise and revered monk living in the monastery hermitage."
     },
@@ -621,13 +687,15 @@
       "id": "russia",
       "name": "Russia",
       "aliases": [
-        "holy Russia"
+        "holy Russia",
+        "Russia, holy Russia, our justice, our lawlessness"
       ],
       "type": "place",
       "firstSeenInChapter": 5,
       "searchTerms": [
         "Russia",
-        "holy Russia"
+        "holy Russia",
+        "Russia, holy Russia, our justice, our lawlessness"
       ],
       "spoilerFreeIntro": "A vast and varied nation, stretching across Europe and Asia, with unique customs and spiritual traditions."
     },
@@ -896,13 +964,15 @@
       "id": "maximov",
       "name": "Maximov",
       "aliases": [
-        "old Maximov"
+        "old Maximov",
+        "the witness Maximov"
       ],
       "type": "person",
       "firstSeenInChapter": 6,
       "searchTerms": [
         "Maximov",
-        "old Maximov"
+        "old Maximov",
+        "the witness Maximov"
       ],
       "spoilerFreeIntro": "A kindly landowner from Tula, Maximov introduces himself with a gentle lisp and eager friendliness."
     },
@@ -917,7 +987,8 @@
         "Madame Hohlakov (owner of the carriage at the gate)",
         "widow Morozov",
         "mamma",
-        "Madame Hohlakov"
+        "Madame Hohlakov",
+        "the lady, highly esteemed, his confidante in the town"
       ],
       "type": "person",
       "firstSeenInChapter": 6,
@@ -929,7 +1000,8 @@
         "Madame Hohlakov, the lady",
         "Madame Hohlakov (owner of the carriage at the gate)",
         "widow Morozov",
-        "mamma"
+        "mamma",
+        "the lady, highly esteemed, his confidante in the town"
       ],
       "spoilerFreeIntro": "Madame Hohlakov is a lady from Harkov who has come to visit with her ailing daughter."
     },
@@ -1672,7 +1744,11 @@
         "Katya or the young lady",
         "Katerina Ivanovna (benefactress/friend)",
         "Katerina Ivanovna; Katya; charming, charming creature",
-        "Katya, Katerina Ivanovna"
+        "Katya, Katerina Ivanovna",
+        "Katya, the young lady",
+        "his betrothed, the young girl, the same lady",
+        "the young lady, she, Katerina Ivanovna (revealed to be the one who exclaims about the plan and program of the murder)",
+        "his betrothed; the young lady; that highly respected young lady"
       ],
       "type": "person",
       "firstSeenInChapter": 9,
@@ -1684,7 +1760,11 @@
         "Katya or the young lady",
         "Katerina Ivanovna (benefactress/friend)",
         "Katerina Ivanovna; Katya; charming, charming creature",
-        "Katya, Katerina Ivanovna"
+        "Katya, Katerina Ivanovna",
+        "Katya, the young lady",
+        "his betrothed, the young girl, the same lady",
+        "the young lady, she, Katerina Ivanovna (revealed to be the one who exclaims about the plan and program of the murder)",
+        "his betrothed; the young lady; that highly respected young lady"
       ],
       "spoilerFreeIntro": "A proud and dignified young woman, Katerina Ivanovna is known for her strong will and passionate temperament."
     },
@@ -1880,7 +1960,10 @@
         "the valet, the valet Smerdyakov, the contemplative, soup-maker",
         "the valet Smerdyakov; the contemplative",
         "the invalid; Pavel Fyodorovitch",
-        "Smerdyakov, the servant Smerdyakov"
+        "Smerdyakov, the servant Smerdyakov",
+        "the lackey, wicked wretch",
+        "an afflicted idiot, possibly the illegitimate son, the servant",
+        "the servant, Smerdyakov"
       ],
       "type": "person",
       "firstSeenInChapter": 11,
@@ -1891,7 +1974,10 @@
         "the valet, the valet Smerdyakov, the contemplative, soup-maker",
         "the valet Smerdyakov; the contemplative",
         "the invalid; Pavel Fyodorovitch",
-        "Smerdyakov, the servant Smerdyakov"
+        "Smerdyakov, the servant Smerdyakov",
+        "the lackey, wicked wretch",
+        "an afflicted idiot, possibly the illegitimate son, the servant",
+        "the servant, Smerdyakov"
       ],
       "spoilerFreeIntro": "Smerdyakov, the enigmatic valet in Fyodor Pavlovitch’s household, enters the scene with an air of quiet reserve."
     },
@@ -2010,7 +2096,8 @@
         "the captain, the captain Ilusha was defending, Snegiryov",
         "his father; Ilusha's father",
         "the captain, retired captain Snegiryov, Mr. Snegiryov",
-        "the captain; Ilusha's father"
+        "the captain; Ilusha's father",
+        "Captain Snegiryov, anecdote about Captain Snegiryov"
       ],
       "type": "person",
       "firstSeenInChapter": 11,
@@ -2027,7 +2114,8 @@
         "the captain, the captain Ilusha was defending, Snegiryov",
         "his father; Ilusha's father",
         "the captain, retired captain Snegiryov, Mr. Snegiryov",
-        "the captain; Ilusha's father"
+        "the captain; Ilusha's father",
+        "Captain Snegiryov, anecdote about Captain Snegiryov"
       ]
     },
     "the_enchantress": {
@@ -2049,7 +2137,12 @@
         "Grusha",
         "my mistress",
         "my angel Grushenka",
-        "Grushenka, Grusha"
+        "Grushenka, Grusha",
+        "Grushenka, Madame Svyetlov",
+        "the young person, the enchantress, the woman, heroine, ‘her’, object of passion",
+        "'the woman herself' who cried at the arrest (Grushenka)",
+        "Madame Svyetlov",
+        "the woman he, the prisoner, loved"
       ],
       "type": "person",
       "firstSeenInChapter": 11,
@@ -2069,7 +2162,12 @@
         "Grusha",
         "my mistress",
         "my angel Grushenka",
-        "Grushenka, Grusha"
+        "Grushenka, Grusha",
+        "Grushenka, Madame Svyetlov",
+        "the young person, the enchantress, the woman, heroine, ‘her’, object of passion",
+        "'the woman herself' who cried at the arrest (Grushenka)",
+        "Madame Svyetlov",
+        "the woman he, the prisoner, loved"
       ]
     },
     "the_betrothedangel_of_dmitris_heart": {
@@ -2095,13 +2193,21 @@
       "id": "ladies_gathering",
       "name": "Ladies (gathering)",
       "aliases": [
-        "ladies at the gathering where Ivan spoke"
+        "ladies at the gathering where Ivan spoke",
+        "the ladies",
+        "ladies in the audience",
+        "The ladies, ladies in the audience",
+        "the ladies (in the courtroom, the audience)"
       ],
       "type": "person",
       "firstSeenInChapter": 11,
       "searchTerms": [
         "Ladies (gathering)",
-        "ladies at the gathering where Ivan spoke"
+        "ladies at the gathering where Ivan spoke",
+        "the ladies",
+        "ladies in the audience",
+        "The ladies, ladies in the audience",
+        "the ladies (in the courtroom, the audience)"
       ]
     },
     "the_gallant_colonel": {
@@ -2296,7 +2402,8 @@
         "merchant; Kuzma Samsonov; Kuzma Kuzmitch; her protector; the old man",
         "Kuzma Kuzmitch",
         "merchant Samsonov, the merchant Samsonov, Samsonov (of the town)",
-        "the merchant Samsonov"
+        "the merchant Samsonov",
+        "her protector, Samsonov"
       ],
       "type": "person",
       "firstSeenInChapter": 12,
@@ -2311,7 +2418,8 @@
         "merchant; Kuzma Samsonov; Kuzma Kuzmitch; her protector; the old man",
         "Kuzma Kuzmitch",
         "merchant Samsonov, the merchant Samsonov, Samsonov (of the town)",
-        "the merchant Samsonov"
+        "the merchant Samsonov",
+        "her protector, Samsonov"
       ],
       "spoilerFreeIntro": "Samsonov is a coarse and uneducated old provincial merchant, known for his wealth and connection to Grushenka."
     },
@@ -2393,13 +2501,15 @@
       "id": "gypsy_girls",
       "name": "gypsy girls",
       "aliases": [
-        "gypsy girls in a tavern"
+        "gypsy girls in a tavern",
+        "gypsy songs and dances"
       ],
       "type": "person",
       "firstSeenInChapter": 12,
       "searchTerms": [
         "gypsy girls",
-        "gypsy girls in a tavern"
+        "gypsy girls in a tavern",
+        "gypsy songs and dances"
       ],
       "spoilerFreeIntro": "A group of lively entertainers, the gypsy girls sing and dance in the tavern, captivating the attention of the patrons."
     },
@@ -2410,7 +2520,8 @@
         "Marfa, Marfa Ignatyevna, Grigory's wife",
         "Marfa",
         "Marfa Ignatyevna",
-        "Grigory's wife, Marfa"
+        "Grigory's wife, Marfa",
+        "his Marfa"
       ],
       "type": "person",
       "firstSeenInChapter": 14,
@@ -2418,7 +2529,8 @@
         "Marfa Ignatyevna",
         "Marfa, Marfa Ignatyevna, Grigory's wife",
         "Marfa",
-        "Grigory's wife, Marfa"
+        "Grigory's wife, Marfa",
+        "his Marfa"
       ],
       "spoilerFreeIntro": "Marfa Ignatyevna, the devoted and persistent wife of a landowner, is introduced as a woman accustomed to obeying her husband yet determined in her own concerns."
     },
@@ -2510,7 +2622,9 @@
         "the garden (behind Fyodor Pavlovitch’s, where Mitya might be lurking/ambush)",
         "the garden (of Fyodor Pavlovitch's house, mentioned in Mitya's imagined vision)",
         "garden (Fyodor Pavlovitch's garden)",
-        "Fyodor Pavlovitch's garden, his father's garden"
+        "Fyodor Pavlovitch's garden, his father's garden",
+        "ambush in the back gardens",
+        "the garden"
       ],
       "type": "place",
       "firstSeenInChapter": 14,
@@ -2523,7 +2637,8 @@
         "the garden (behind Fyodor Pavlovitch’s, where Mitya might be lurking/ambush)",
         "the garden (of Fyodor Pavlovitch's house, mentioned in Mitya's imagined vision)",
         "garden (Fyodor Pavlovitch's garden)",
-        "Fyodor Pavlovitch's garden, his father's garden"
+        "Fyodor Pavlovitch's garden, his father's garden",
+        "ambush in the back gardens"
       ],
       "spoilerFreeIntro": "A quiet, blooming space behind the house where characters seek solitude and tend the earth."
     },
@@ -2538,7 +2653,8 @@
         "the town; out of the town",
         "our town",
         "the town (where Mitya claims the rest of the money is, refers to their home town)",
-        "town, the town"
+        "town, the town",
+        "the town (where events occur, where Grushenka and characters are)"
       ],
       "type": "place",
       "firstSeenInChapter": 14,
@@ -2550,7 +2666,8 @@
         "the town; out of the town",
         "our town",
         "the town (where Mitya claims the rest of the money is, refers to their home town)",
-        "town, the town"
+        "town, the town",
+        "the town (where events occur, where Grushenka and characters are)"
       ],
       "spoilerFreeIntro": "A provincial Russian town, quiet and old-fashioned, where the Karamazovs live."
     },
@@ -2675,7 +2792,8 @@
         "devils",
         "the devil (who opened the door)",
         "the unexpected visitor; the gentleman; the apparition; the devil; the phantom of Ivan",
-        "the devil, he, the impostor, a paltry, trivial devil, simply a devil"
+        "the devil, he, the impostor, a paltry, trivial devil, simply a devil",
+        "devil; Satan"
       ],
       "type": "person",
       "firstSeenInChapter": 16,
@@ -2688,7 +2806,8 @@
         "devils",
         "the devil (who opened the door)",
         "the unexpected visitor; the gentleman; the apparition; the devil; the phantom of Ivan",
-        "the devil, he, the impostor, a paltry, trivial devil, simply a devil"
+        "the devil, he, the impostor, a paltry, trivial devil, simply a devil",
+        "devil; Satan"
       ],
       "spoilerFreeIntro": "A figure symbolizing temptation and evil, invoked in moments of inner conflict and spiritual struggle."
     },
@@ -2892,7 +3011,8 @@
         "our town",
         "the town",
         "our little town; Skotoprigonyevsk (revealed as town's name; where the case happens)",
-        "our little town"
+        "our little town",
+        "the town (where the trial is taking place)"
       ],
       "type": "place",
       "firstSeenInChapter": 16,
@@ -2901,7 +3021,8 @@
         "our town",
         "the town",
         "our little town; Skotoprigonyevsk (revealed as town's name; where the case happens)",
-        "our little town"
+        "our little town",
+        "the town (where the trial is taking place)"
       ],
       "spoilerFreeIntro": "A small Russian provincial town, home to merchants, officials, and families intertwined by daily life and gossip."
     },
@@ -3609,7 +3730,8 @@
       "aliases": [
         "the back‐alley",
         "back‐alley",
-        "back alley"
+        "back alley",
+        "back yard"
       ],
       "type": "place",
       "firstSeenInChapter": 18,
@@ -3617,7 +3739,8 @@
         "the back-alley",
         "the back‐alley",
         "back‐alley",
-        "back alley"
+        "back alley",
+        "back yard"
       ],
       "spoilerFreeIntro": "A narrow, shadowy lane in town, known for its unsavory reputation."
     },
@@ -4175,7 +4298,8 @@
         "what he did yesterday",
         "beating of his father by Dmitri, what he did yesterday",
         "killed his old father, has he killed somebody else?, murder",
-        "snatched up the pestle to go and kill my father, attack on Fyodor Pavlovitch"
+        "snatched up the pestle to go and kill my father, attack on Fyodor Pavlovitch",
+        "the horrible scene of violence; when Dmitri rushed into his father’s house after dinner"
       ],
       "type": "event",
       "firstSeenInChapter": 22,
@@ -4186,7 +4310,8 @@
         "what he did yesterday",
         "beating of his father by Dmitri, what he did yesterday",
         "killed his old father, has he killed somebody else?, murder",
-        "snatched up the pestle to go and kill my father, attack on Fyodor Pavlovitch"
+        "snatched up the pestle to go and kill my father, attack on Fyodor Pavlovitch",
+        "the horrible scene of violence; when Dmitri rushed into his father’s house after dinner"
       ]
     },
     "insult_to_grigory_by_dmitri": {
@@ -4703,7 +4828,9 @@
         "the tavern where captain suggests Dmitri might go on his knees",
         "The Metropolis",
         "The Metropolis tavern",
-        "Metropolis tavern"
+        "Metropolis tavern",
+        "\"Metropolis\" tavern",
+        "the 'Metropolis' tavern, the tavern"
       ],
       "type": "place",
       "firstSeenInChapter": 30,
@@ -4711,7 +4838,9 @@
         "The Metropolis",
         "the tavern where captain suggests Dmitri might go on his knees",
         "The Metropolis tavern",
-        "Metropolis tavern"
+        "Metropolis tavern",
+        "\"Metropolis\" tavern",
+        "the 'Metropolis' tavern, the tavern"
       ]
     },
     "the_deacons_wife": {
@@ -5056,7 +5185,9 @@
         "inevitable catastrophe about to happen",
         "great inevitable catastrophe",
         "the catastrophe; awful catastrophe",
-        "the day of the catastrophe"
+        "the day of the catastrophe",
+        "the 'catastrophe' (as referenced by the Moscow doctor, meaning the murder/event)",
+        "the catastrophe"
       ],
       "type": "event",
       "firstSeenInChapter": 33,
@@ -5065,7 +5196,9 @@
         "inevitable catastrophe about to happen",
         "great inevitable catastrophe",
         "the catastrophe; awful catastrophe",
-        "the day of the catastrophe"
+        "the day of the catastrophe",
+        "the 'catastrophe' (as referenced by the Moscow doctor, meaning the murder/event)",
+        "the catastrophe"
       ]
     },
     "threats_against_smerdyakov_by_dmitri": {
@@ -5332,14 +5465,22 @@
       "aliases": [
         "the Karamazovs",
         "the Karamazovs; Karamazov baseness; strength of the Karamazovs",
-        "the Karamazovs; about his brother, about the Karamazovs (family)"
+        "the Karamazovs; about his brother, about the Karamazovs (family)",
+        "the family, the Karamazovs",
+        "the Karamazov family (referenced as a unit)",
+        "Karamazov family",
+        "the Karamazov nature"
       ],
       "type": "person",
       "firstSeenInChapter": 32,
       "searchTerms": [
         "the Karamazovs",
         "the Karamazovs; Karamazov baseness; strength of the Karamazovs",
-        "the Karamazovs; about his brother, about the Karamazovs (family)"
+        "the Karamazovs; about his brother, about the Karamazovs (family)",
+        "the family, the Karamazovs",
+        "the Karamazov family (referenced as a unit)",
+        "Karamazov family",
+        "the Karamazov nature"
       ],
       "spoilerFreeIntro": "The Karamazovs are a passionate and tumultuous family known for their intense emotions and unpredictable natures."
     },
@@ -5474,13 +5615,15 @@
       "id": "hamlet",
       "name": "Hamlet",
       "aliases": [
-        "the play Hamlet"
+        "the play Hamlet",
+        "Hamlet (literary allusion, \"they have their Hamlets, we have our Karamazovs\")"
       ],
       "type": "event",
       "firstSeenInChapter": 35,
       "searchTerms": [
         "Hamlet",
-        "the play Hamlet"
+        "the play Hamlet",
+        "Hamlet (literary allusion, \"they have their Hamlets, we have our Karamazovs\")"
       ],
       "spoilerFreeIntro": "A counselor to the king in Denmark, known for his long-winded advice."
     },
@@ -6314,7 +6457,12 @@
         "three thousand roubles, three thousand to‐day, the money from Madame Hohlakov",
         "the envelope; the money envelope",
         "envelope of my father's, the envelope, the envelope that contained the three thousand roubles",
-        "the money, three thousand roubles, the notes"
+        "the money, three thousand roubles, the notes",
+        "envelope in which Fyodor Pavlovitch was supposed to have put three thousand roubles",
+        "the envelope with the notes, the three thousand roubles",
+        "envelope with money/three thousand roubles",
+        "torn envelope with inscription",
+        "the envelope"
       ],
       "type": "event",
       "firstSeenInChapter": 37,
@@ -6326,7 +6474,12 @@
         "three thousand roubles, three thousand to‐day, the money from Madame Hohlakov",
         "the envelope; the money envelope",
         "envelope of my father's, the envelope, the envelope that contained the three thousand roubles",
-        "the money, three thousand roubles, the notes"
+        "the money, three thousand roubles, the notes",
+        "envelope in which Fyodor Pavlovitch was supposed to have put three thousand roubles",
+        "the envelope with the notes, the three thousand roubles",
+        "envelope with money/three thousand roubles",
+        "torn envelope with inscription",
+        "the envelope"
       ]
     },
     "maslovs": {
@@ -6609,13 +6762,15 @@
       "id": "the_province",
       "name": "the province",
       "aliases": [
-        "the province (where Doctor Herzenstube is most careful doctor)"
+        "the province (where Doctor Herzenstube is most careful doctor)",
+        "provincial towns (where Fetyukovitch visits to defend cases)"
       ],
       "type": "place",
       "firstSeenInChapter": 31,
       "searchTerms": [
         "the province",
-        "the province (where Doctor Herzenstube is most careful doctor)"
+        "the province (where Doctor Herzenstube is most careful doctor)",
+        "provincial towns (where Fetyukovitch visits to defend cases)"
       ],
       "spoilerFreeIntro": "A large rural district in Russia, home to many of the novel’s characters and villages."
     },
@@ -6710,7 +6865,9 @@
       "aliases": [
         "Smerdyakov's fall/fit in the cellar",
         "his attack, the fit",
-        "falling into the cellar/shamming a fit"
+        "falling into the cellar/shamming a fit",
+        "Smerdyakov is in a fit",
+        "the fit, falling into the cellar/shamming a fit"
       ],
       "type": "event",
       "firstSeenInChapter": 38,
@@ -6718,7 +6875,9 @@
         "Smerdyakov's epileptic fit/fall in the cellar",
         "Smerdyakov's fall/fit in the cellar",
         "his attack, the fit",
-        "falling into the cellar/shamming a fit"
+        "falling into the cellar/shamming a fit",
+        "Smerdyakov is in a fit",
+        "the fit, falling into the cellar/shamming a fit"
       ]
     },
     "departure_scene_household_sees_off_ivan": {
@@ -7996,13 +8155,15 @@
       "id": "the_peasantry",
       "name": "the peasantry",
       "aliases": [
-        "the peasantry, peasants of the town"
+        "the peasantry, peasants of the town",
+        "the peasant girl"
       ],
       "type": "person",
       "firstSeenInChapter": 42,
       "searchTerms": [
         "the peasantry",
-        "the peasantry, peasants of the town"
+        "the peasantry, peasants of the town",
+        "the peasant girl"
       ],
       "spoilerFreeIntro": "A group of local villagers, mostly gathered outside the gates, curious but hesitant to enter."
     },
@@ -8295,7 +8456,8 @@
         "the officer who betrayed Grushenka; her officer; the man who wronged her; he; the scoundrel; her officer at Mokroe; the one who became a widower",
         "her seducer; the man who had been such a fatal influence in Grushenka’s life; Grushenka’s rival; suitor; rival from Siberia",
         "her officer",
-        "the first, rightful lover; that fateful figure"
+        "the first, rightful lover; that fateful figure",
+        "her betrothed who seduced and abandoned her (Grushenka’s seducer, her officer—referenced only in background)"
       ],
       "type": "person",
       "firstSeenInChapter": 44,
@@ -8304,7 +8466,8 @@
         "the officer who betrayed Grushenka; her officer; the man who wronged her; he; the scoundrel; her officer at Mokroe; the one who became a widower",
         "her seducer; the man who had been such a fatal influence in Grushenka’s life; Grushenka’s rival; suitor; rival from Siberia",
         "her officer",
-        "the first, rightful lover; that fateful figure"
+        "the first, rightful lover; that fateful figure",
+        "her betrothed who seduced and abandoned her (Grushenka’s seducer, her officer—referenced only in background)"
       ],
       "spoilerFreeIntro": "An officer, once briefly involved with Grushenka, whose actions left a lasting mark on her life."
     },
@@ -8457,7 +8620,8 @@
       "aliases": [
         "Grushenka's rooms (three rooms in her lodge); the drawing‐room; her rooms",
         "the house where Grushenka lived",
-        "my mistress's place, Grushenka's lodging (implied)"
+        "my mistress's place, Grushenka's lodging (implied)",
+        "the house of his mistress/her lodging"
       ],
       "type": "place",
       "firstSeenInChapter": 44,
@@ -8465,7 +8629,8 @@
         "Grushenka's rooms",
         "Grushenka's rooms (three rooms in her lodge); the drawing‐room; her rooms",
         "the house where Grushenka lived",
-        "my mistress's place, Grushenka's lodging (implied)"
+        "my mistress's place, Grushenka's lodging (implied)",
+        "the house of his mistress/her lodging"
       ]
     },
     "courtyard": {
@@ -8487,14 +8652,16 @@
       "name": "the bedroom (Grushenka's)",
       "aliases": [
         "Grushenka's bedroom; her bedroom; the window from which she calls out",
-        "the bedroom on the right, where Mitya takes the Poles for their private discussion"
+        "the bedroom on the right, where Mitya takes the Poles for their private discussion",
+        "she was lying on the bed"
       ],
       "type": "place",
       "firstSeenInChapter": 44,
       "searchTerms": [
         "the bedroom (Grushenka's)",
         "Grushenka's bedroom; her bedroom; the window from which she calls out",
-        "the bedroom on the right, where Mitya takes the Poles for their private discussion"
+        "the bedroom on the right, where Mitya takes the Poles for their private discussion",
+        "she was lying on the bed"
       ]
     },
     "another_street": {
@@ -8611,13 +8778,15 @@
       "id": "rakitins_deal_for_twentyfive_roubles",
       "name": "Rakitin's deal for twenty-five roubles",
       "aliases": [
-        "Rakitin's acceptance of money to bring Alyosha; twenty-five roubles transaction"
+        "Rakitin's acceptance of money to bring Alyosha; twenty-five roubles transaction",
+        "promised you twenty five roubles if you would bring him to her"
       ],
       "type": "event",
       "firstSeenInChapter": 44,
       "searchTerms": [
         "Rakitin's deal for twenty-five roubles",
-        "Rakitin's acceptance of money to bring Alyosha; twenty-five roubles transaction"
+        "Rakitin's acceptance of money to bring Alyosha; twenty-five roubles transaction",
+        "promised you twenty five roubles if you would bring him to her"
       ]
     },
     "grushenkas_struggle_with_forgiveness": {
@@ -8869,13 +9038,15 @@
       "id": "mityas_lodgings",
       "name": "Mitya's lodgings",
       "aliases": [
-        "his lodgings; the people at his lodgings"
+        "his lodgings; the people at his lodgings",
+        "his lodgings, the lodgings"
       ],
       "type": "place",
       "firstSeenInChapter": 46,
       "searchTerms": [
         "Mitya's lodgings",
-        "his lodgings; the people at his lodgings"
+        "his lodgings; the people at his lodgings",
+        "his lodgings, the lodgings"
       ]
     },
     "samsonovs_house": {
@@ -8940,27 +9111,33 @@
       "name": "inheritance dispute (Dmitri vs. Fyodor Pavlovitch)",
       "aliases": [
         "my disputes with my father; inheritance; my inheritance from my mother",
-        "quarrel over inheritance between Mitya and his father"
+        "quarrel over inheritance between Mitya and his father",
+        "money relations, Dmitri's inheritance",
+        "financial conflict, claim to inheritance, the last six thousand"
       ],
       "type": "event",
       "firstSeenInChapter": 46,
       "searchTerms": [
         "inheritance dispute (Dmitri vs. Fyodor Pavlovitch)",
         "my disputes with my father; inheritance; my inheritance from my mother",
-        "quarrel over inheritance between Mitya and his father"
+        "quarrel over inheritance between Mitya and his father",
+        "money relations, Dmitri's inheritance",
+        "financial conflict, claim to inheritance, the last six thousand"
       ]
     },
     "the_copse_sale_negotiations": {
       "id": "the_copse_sale_negotiations",
       "name": "the copse sale negotiations",
       "aliases": [
-        "business of the copse; haggling with Fyodor Pavlovitch over the copse at Tchermashnya; business concerning the copse"
+        "business of the copse; haggling with Fyodor Pavlovitch over the copse at Tchermashnya; business concerning the copse",
+        "all Mitya’s efforts to borrow the money"
       ],
       "type": "event",
       "firstSeenInChapter": 46,
       "searchTerms": [
         "the copse sale negotiations",
-        "business of the copse; haggling with Fyodor Pavlovitch over the copse at Tchermashnya; business concerning the copse"
+        "business of the copse; haggling with Fyodor Pavlovitch over the copse at Tchermashnya; business concerning the copse",
+        "all Mitya’s efforts to borrow the money"
       ]
     },
     "inheritance_from_dmitris_mother": {
@@ -9096,7 +9273,9 @@
         "something must have happened there, murder",
         "the crime; the murder (of father)",
         "that night in Fyodor Pavlovitch’s house",
-        "events I have described, the event (recent murder/robbery and trial of Dmitri)"
+        "events I have described, the event (recent murder/robbery and trial of Dmitri)",
+        "catastrophe",
+        "the catastrophic event, the crime, the tragedy"
       ],
       "type": "event",
       "firstSeenInChapter": 47,
@@ -9108,7 +9287,9 @@
         "something must have happened there, murder",
         "the crime; the murder (of father)",
         "that night in Fyodor Pavlovitch’s house",
-        "events I have described, the event (recent murder/robbery and trial of Dmitri)"
+        "events I have described, the event (recent murder/robbery and trial of Dmitri)",
+        "catastrophe",
+        "the catastrophic event, the crime, the tragedy"
       ],
       "spoilerFreeIntro": "The event: The shocking incident around which the town's rumors and investigations soon begin to swirl."
     },
@@ -9188,7 +9369,10 @@
         "pestle from the mortar",
         "the brass pestle; weapon",
         "the brass pestle, the pestle, weapon",
-        "the fatal brass pestle"
+        "the fatal brass pestle",
+        "the brass pestle used as weapon",
+        "the brass pestle (object used in murder)",
+        "brass pestle"
       ],
       "type": "event",
       "firstSeenInChapter": 48,
@@ -9200,7 +9384,10 @@
         "pestle from the mortar",
         "the brass pestle; weapon",
         "the brass pestle, the pestle, weapon",
-        "the fatal brass pestle"
+        "the fatal brass pestle",
+        "the brass pestle used as weapon",
+        "the brass pestle (object used in murder)",
+        "brass pestle"
       ]
     },
     "alyoshas_last_meeting_with_dmitri": {
@@ -9319,14 +9506,18 @@
       "name": "the screen ('Chinese')",
       "aliases": [
         "the red screen, 'Chinese,' dividing the bedroom",
-        "the screen, the screen behind which the empty envelope was found"
+        "the screen, the screen behind which the empty envelope was found",
+        "the screen behind which she must be, the Chinese screen",
+        "the screen (in his lodgings, behind which he would hide if someone came in)"
       ],
       "type": "place",
       "firstSeenInChapter": 49,
       "searchTerms": [
         "the screen ('Chinese')",
         "the red screen, 'Chinese,' dividing the bedroom",
-        "the screen, the screen behind which the empty envelope was found"
+        "the screen, the screen behind which the empty envelope was found",
+        "the screen behind which she must be, the Chinese screen",
+        "the screen (in his lodgings, behind which he would hide if someone came in)"
       ]
     },
     "the_garden_shrubs": {
@@ -9545,13 +9736,15 @@
       "id": "agrafena_alexandrovnas_marriage",
       "name": "Agrafena Alexandrovna's marriage",
       "aliases": [
-        "her marriage to the officer"
+        "her marriage to the officer",
+        "Grushenka’s “first lover,” the former lover, her officer, her first lover"
       ],
       "type": "event",
       "firstSeenInChapter": 50,
       "searchTerms": [
         "Agrafena Alexandrovna's marriage",
-        "her marriage to the officer"
+        "her marriage to the officer",
+        "Grushenka’s “first lover,” the former lover, her officer, her first lover"
       ]
     },
     "the_pool_on_the_road": {
@@ -9767,14 +9960,16 @@
       "name": "peasants of Mokroe",
       "aliases": [
         "peasants",
-        "peasants, peasant men"
+        "peasants, peasant men",
+        "peasants, our lousy peasants"
       ],
       "type": "person",
       "firstSeenInChapter": 51,
       "searchTerms": [
         "peasants of Mokroe",
         "peasants",
-        "peasants, peasant men"
+        "peasants, peasant men",
+        "peasants, our lousy peasants"
       ],
       "spoilerFreeIntro": "A group of rural villagers from Mokroe, accustomed to the local customs and life of the countryside."
     },
@@ -9802,14 +9997,16 @@
       "name": "girls of the village",
       "aliases": [
         "girls (village chorus)",
-        "girls (the chorus, the girls preparing to sing and dance in next room)"
+        "girls (the chorus, the girls preparing to sing and dance in next room)",
+        "our village girls"
       ],
       "type": "person",
       "firstSeenInChapter": 51,
       "searchTerms": [
         "girls of the village",
         "girls (village chorus)",
-        "girls (the chorus, the girls preparing to sing and dance in next room)"
+        "girls (the chorus, the girls preparing to sing and dance in next room)",
+        "our village girls"
       ]
     },
     "plastunovs_inn": {
@@ -9827,14 +10024,16 @@
       "name": "the inn",
       "aliases": [
         "Trifon Borissovitch's inn",
-        "Trifon Borissovitch's inn, Mokroe"
+        "Trifon Borissovitch's inn, Mokroe",
+        "big house with all its passages and outbuildings (Mokroe Inn)"
       ],
       "type": "place",
       "firstSeenInChapter": 51,
       "searchTerms": [
         "the inn",
         "Trifon Borissovitch's inn",
-        "Trifon Borissovitch's inn, Mokroe"
+        "Trifon Borissovitch's inn, Mokroe",
+        "big house with all its passages and outbuildings (Mokroe Inn)"
       ],
       "spoilerFreeIntro": "A modest roadside inn run by Plastunov, known for letting out horses to travelers."
     },
@@ -9939,14 +10138,20 @@
       "name": "his letter (sentence of death)",
       "aliases": [
         "Mitya's note: 'I punish myself'",
-        "the letter Mitya wrote (suicide note)"
+        "the letter Mitya wrote (suicide note)",
+        "the fatal document, the drunken letter, Mitya’s suicide letter",
+        "the document/letter written two days before the crime (Mitya’s ‘program’ for murder)",
+        "that fatal letter; he wrote that fatal letter, and that letter is the chief, the most stupendous proof of the prisoner having committed robbery"
       ],
       "type": "event",
       "firstSeenInChapter": 51,
       "searchTerms": [
         "his letter (sentence of death)",
         "Mitya's note: 'I punish myself'",
-        "the letter Mitya wrote (suicide note)"
+        "the letter Mitya wrote (suicide note)",
+        "the fatal document, the drunken letter, Mitya’s suicide letter",
+        "the document/letter written two days before the crime (Mitya’s ‘program’ for murder)",
+        "that fatal letter; he wrote that fatal letter, and that letter is the chief, the most stupendous proof of the prisoner having committed robbery"
       ]
     },
     "the_escapade_with_grushenka_a_month_ago": {
@@ -10246,13 +10451,15 @@
       "id": "dead_souls",
       "name": "Dead Souls",
       "aliases": [
-        "Dead Souls (the novel by Gogol, discussed as point of anecdote; not a literal event in this chapter)"
+        "Dead Souls (the novel by Gogol, discussed as point of anecdote; not a literal event in this chapter)",
+        "the great writer[9] of the last epoch"
       ],
       "type": "event",
       "firstSeenInChapter": 52,
       "searchTerms": [
         "Dead Souls",
-        "Dead Souls (the novel by Gogol, discussed as point of anecdote; not a literal event in this chapter)"
+        "Dead Souls (the novel by Gogol, discussed as point of anecdote; not a literal event in this chapter)",
+        "the great writer[9] of the last epoch"
       ],
       "spoilerFreeIntro": "A timid, insignificant landowner who is easily confused and mocked by others."
     },
@@ -10338,7 +10545,8 @@
         "Nikolay Parfenovitch, the investigating lawyer",
         "Nikolay Parfenovitch, the investigating lawyer, the junior, the boy",
         "Nikolay Parfenovitch; investigating lawyer",
-        "Nikolay Parfenovitch"
+        "Nikolay Parfenovitch",
+        "Nikolay Parfenovitch, witty colleague, the lawyer, investigating lawyer"
       ],
       "type": "person",
       "firstSeenInChapter": 53,
@@ -10350,7 +10558,8 @@
         "Nikolay Parfenovitch, the investigating lawyer",
         "Nikolay Parfenovitch, the investigating lawyer, the junior, the boy",
         "Nikolay Parfenovitch; investigating lawyer",
-        "Nikolay Parfenovitch"
+        "Nikolay Parfenovitch",
+        "Nikolay Parfenovitch, witty colleague, the lawyer, investigating lawyer"
       ]
     },
     "mavriky_mavrikyevitch": {
@@ -10587,7 +10796,10 @@
         "the prosecutor",
         "the prosecutor, Ippolit Kirillovitch, sickly prosecutor, our prosecutor",
         "Mr. Prosecutor",
-        "the prosecutor (Ippolit Kirillovitch)"
+        "the prosecutor (Ippolit Kirillovitch)",
+        "Ippolit Kirillovitch",
+        "Ippolit Kirillovitch; my opponent; the talented prosecutor",
+        "the highly talented prosecutor"
       ],
       "type": "person",
       "firstSeenInChapter": 55,
@@ -10597,7 +10809,9 @@
         "the prosecutor",
         "the prosecutor, Ippolit Kirillovitch, sickly prosecutor, our prosecutor",
         "Mr. Prosecutor",
-        "the prosecutor (Ippolit Kirillovitch)"
+        "the prosecutor (Ippolit Kirillovitch)",
+        "Ippolit Kirillovitch; my opponent; the talented prosecutor",
+        "the highly talented prosecutor"
       ],
       "spoilerFreeIntro": "Ippolit Kirillovitch, the somewhat peculiar deputy prosecutor, was commonly known simply as the prosecutor."
     },
@@ -10607,7 +10821,9 @@
       "aliases": [
         "our district doctor",
         "the doctor he met in the hospital; Mr. Varvinsky",
-        "the young doctor Varvinsky"
+        "the young doctor Varvinsky",
+        "Doctor Varvinsky, the young doctor",
+        "the young doctor who maintained the prisoner’s mental faculties were normal"
       ],
       "type": "person",
       "firstSeenInChapter": 55,
@@ -10615,7 +10831,9 @@
         "Varvinsky",
         "our district doctor",
         "the doctor he met in the hospital; Mr. Varvinsky",
-        "the young doctor Varvinsky"
+        "the young doctor Varvinsky",
+        "Doctor Varvinsky, the young doctor",
+        "the young doctor who maintained the prisoner’s mental faculties were normal"
       ],
       "spoilerFreeIntro": "Varvinsky, the district doctor and a recent, accomplished graduate from the Academy of Medicine in Petersburg, enters the scene."
     },
@@ -10680,14 +10898,16 @@
       "name": "pistols",
       "aliases": [
         "the pistols; box with the pistols",
-        "pledge (referenced in amount of ten roubles)"
+        "pledge (referenced in amount of ten roubles)",
+        "Mitya’s pistols, pistols left at Perhotin’s"
       ],
       "type": "event",
       "firstSeenInChapter": 55,
       "searchTerms": [
         "pistols",
         "the pistols; box with the pistols",
-        "pledge (referenced in amount of ten roubles)"
+        "pledge (referenced in amount of ten roubles)",
+        "Mitya’s pistols, pistols left at Perhotin’s"
       ],
       "spoilerFreeIntro": "A pair of loaded pistols, mentioned as having been prepared in advance."
     },
@@ -10699,7 +10919,13 @@
         "three thousand",
         "the three thousand / question of the three thousand roubles",
         "three thousand roubles, the money, the envelope",
-        "Katerina Ivanovna's three thousand"
+        "Katerina Ivanovna's three thousand",
+        "the three thousand roubles, issue at trial",
+        "the three thousand",
+        "three thousand roubles (the stolen money)",
+        "the money, the three thousand",
+        "notes in the envelope, three thousand roubles",
+        "the fatal three thousand roubles"
       ],
       "type": "event",
       "firstSeenInChapter": 55,
@@ -10709,17 +10935,26 @@
         "three thousand",
         "the three thousand / question of the three thousand roubles",
         "three thousand roubles, the money, the envelope",
-        "Katerina Ivanovna's three thousand"
+        "Katerina Ivanovna's three thousand",
+        "the three thousand roubles, issue at trial",
+        "the three thousand",
+        "three thousand roubles (the stolen money)",
+        "the money, the three thousand",
+        "notes in the envelope, three thousand roubles",
+        "the fatal three thousand roubles"
       ]
     },
     "the_room_where_fyodor_pavlovitch_was_lying": {
       "id": "the_room_where_fyodor_pavlovitch_was_lying",
       "name": "the room where Fyodor Pavlovitch was lying",
-      "aliases": [],
+      "aliases": [
+        "his murdered father's study"
+      ],
       "type": "place",
       "firstSeenInChapter": 55,
       "searchTerms": [
-        "the room where Fyodor Pavlovitch was lying"
+        "the room where Fyodor Pavlovitch was lying",
+        "his murdered father's study"
       ],
       "spoilerFreeIntro": "A dimly lit chamber in Fyodor Pavlovitch’s house, furnished with a bed and a discreet screen."
     },
@@ -10929,13 +11164,15 @@
       "id": "the_separation_of_mitya_and_grushenka_during_interrogation",
       "name": "the separation of Mitya and Grushenka during interrogation",
       "aliases": [
-        "Grushenka removed, not allowed together"
+        "Grushenka removed, not allowed together",
+        "the case"
       ],
       "type": "event",
       "firstSeenInChapter": 56,
       "searchTerms": [
         "the separation of Mitya and Grushenka during interrogation",
-        "Grushenka removed, not allowed together"
+        "Grushenka removed, not allowed together",
+        "the case"
       ]
     },
     "the_confession_of_love_and_devotion_between_mitya_and_grushenka": {
@@ -11038,26 +11275,30 @@
       "id": "perhotins_servantboy",
       "name": "Perhotin's servant-boy",
       "aliases": [
-        "his servant-boy"
+        "his servant-boy",
+        "Perhotin, friend Perhotin (the friend with whom Mitya left the pistols in pledge)"
       ],
       "type": "person",
       "firstSeenInChapter": 58,
       "searchTerms": [
         "Perhotin's servant-boy",
-        "his servant-boy"
+        "his servant-boy",
+        "Perhotin, friend Perhotin (the friend with whom Mitya left the pistols in pledge)"
       ]
     },
     "the_window": {
       "id": "the_window",
       "name": "the window",
       "aliases": [
-        "the window (of Fyodor Pavlovitch's room)"
+        "the window (of Fyodor Pavlovitch's room)",
+        "the window (where Mitya allegedly peeped in)"
       ],
       "type": "place",
       "firstSeenInChapter": 58,
       "searchTerms": [
         "the window",
-        "the window (of Fyodor Pavlovitch's room)"
+        "the window (of Fyodor Pavlovitch's room)",
+        "the window (where Mitya allegedly peeped in)"
       ],
       "spoilerFreeIntro": "A window at the Morrel family home, quietly overlooking the garden."
     },
@@ -11109,13 +11350,15 @@
       "id": "the_open_window",
       "name": "the_open_window",
       "aliases": [
-        "the open window"
+        "the open window",
+        "under the pillow"
       ],
       "type": "place",
       "firstSeenInChapter": 59,
       "searchTerms": [
         "the_open_window",
-        "the open window"
+        "the open window",
+        "under the pillow"
       ],
       "spoilerFreeIntro": "A window left open on the night of the crime, its position crucial to what was seen and understood."
     },
@@ -11205,26 +11448,34 @@
       "id": "mityas_theft_of_three_thousand_roubles_from_katerina_ivanovna",
       "name": "Mitya's theft of three thousand roubles from Katerina Ivanovna",
       "aliases": [
-        "appropriation (stealing) of three thousand roubles"
+        "appropriation (stealing) of three thousand roubles",
+        "appropriating the three thousand from his betrothed"
       ],
       "type": "event",
       "firstSeenInChapter": 60,
       "searchTerms": [
         "Mitya's theft of three thousand roubles from Katerina Ivanovna",
-        "appropriation (stealing) of three thousand roubles"
+        "appropriation (stealing) of three thousand roubles",
+        "appropriating the three thousand from his betrothed"
       ]
     },
     "division_and_concealment_of_the_money_fifteen_hundred_sewn_up": {
       "id": "division_and_concealment_of_the_money_fifteen_hundred_sewn_up",
       "name": "division and concealment of the money (fifteen hundred sewn up)",
       "aliases": [
-        "sewing and carrying fifteen hundred roubles as an amulet"
+        "sewing and carrying fifteen hundred roubles as an amulet",
+        "the little bag with fifteen hundred roubles",
+        "sewing up half the sum in a little bag/talisman",
+        "the little bag, the bag with 1500 roubles"
       ],
       "type": "event",
       "firstSeenInChapter": 60,
       "searchTerms": [
         "division and concealment of the money (fifteen hundred sewn up)",
-        "sewing and carrying fifteen hundred roubles as an amulet"
+        "sewing and carrying fifteen hundred roubles as an amulet",
+        "the little bag with fifteen hundred roubles",
+        "sewing up half the sum in a little bag/talisman",
+        "the little bag, the bag with 1500 roubles"
       ]
     },
     "mityas_intention_to_shoot_himself_at_dawn": {
@@ -11247,14 +11498,16 @@
       "name": "the murder of 'the old servant'",
       "aliases": [
         "the thought that I'd killed the old servant",
-        "the supposed killing of Grigory by Dmitri"
+        "the supposed killing of Grigory by Dmitri",
+        "knocked him down, killed another man"
       ],
       "type": "event",
       "firstSeenInChapter": 60,
       "searchTerms": [
         "the murder of 'the old servant'",
         "the thought that I'd killed the old servant",
-        "the supposed killing of Grigory by Dmitri"
+        "the supposed killing of Grigory by Dmitri",
+        "knocked him down, killed another man"
       ]
     },
     "katerina_ivanovnas_sister_and_another_relation_in_moscow": {
@@ -11262,14 +11515,16 @@
       "name": "Katerina Ivanovna's sister and another relation in Moscow",
       "aliases": [
         "her sister and another relation in Moscow",
-        "her sister and aunt"
+        "her sister and aunt",
+        "her sister, her relations"
       ],
       "type": "person",
       "firstSeenInChapter": 60,
       "searchTerms": [
         "Katerina Ivanovna's sister and another relation in Moscow",
         "her sister and another relation in Moscow",
-        "her sister and aunt"
+        "her sister and aunt",
+        "her sister, her relations"
       ]
     },
     "stepan": {
@@ -11346,13 +11601,15 @@
       "id": "the_peasant_driver_in_the_dream",
       "name": "the peasant driver (in the dream)",
       "aliases": [
-        "peasant driver in the dream"
+        "peasant driver in the dream",
+        "the peasant who drove him"
       ],
       "type": "person",
       "firstSeenInChapter": 61,
       "searchTerms": [
         "the peasant driver (in the dream)",
-        "peasant driver in the dream"
+        "peasant driver in the dream",
+        "the peasant who drove him"
       ]
     },
     "the_village_burnt_out_in_mityas_dream": {
@@ -11385,13 +11642,15 @@
       "id": "the_protocol_of_evidence",
       "name": "the protocol of evidence",
       "aliases": [
-        "protocol"
+        "protocol",
+        "the protocol"
       ],
       "type": "event",
       "firstSeenInChapter": 61,
       "searchTerms": [
         "the protocol of evidence",
-        "protocol"
+        "protocol",
+        "the protocol"
       ],
       "spoilerFreeIntro": "A formal record, signed by each witness, summarizing the statements given during testimony."
     },
@@ -11525,14 +11784,16 @@
       "name": "prison",
       "aliases": [
         "prison (in the town, where Mitya will be confined)",
-        "prison gate, the cell, the place for interviews"
+        "prison gate, the cell, the place for interviews",
+        "where Mitya was arrested; the prisoner"
       ],
       "type": "place",
       "firstSeenInChapter": 62,
       "searchTerms": [
         "prison",
         "prison (in the town, where Mitya will be confined)",
-        "prison gate, the cell, the place for interviews"
+        "prison gate, the cell, the place for interviews",
+        "where Mitya was arrested; the prisoner"
       ],
       "spoilerFreeIntro": "A stark, confining space where the accused awaits judgment and the proceedings of justice unfold."
     },
@@ -11554,14 +11815,16 @@
       "name": "the bell",
       "aliases": [
         "the bell (rings as Mitya is driven off)",
-        "The Bell (periodical)"
+        "The Bell (periodical)",
+        "the bell rang (signal to reconvene court)"
       ],
       "type": "event",
       "firstSeenInChapter": 62,
       "searchTerms": [
         "the bell",
         "the bell (rings as Mitya is driven off)",
-        "The Bell (periodical)"
+        "The Bell (periodical)",
+        "the bell rang (signal to reconvene court)"
       ],
       "spoilerFreeIntro": "The bell signals the departure of the cart carrying Mitya away."
     },
@@ -12066,7 +12329,11 @@
         "trial of Alexey's brother; crime for which Alexey's brother is to be tried",
         "the trial; the criminal case; this awful trial; Karamazov Case at Skotoprigonyevsk",
         "being tried now for murdering his father",
-        "the trial, the judgment of God, to-morrow will be a great and awful day"
+        "the trial, the judgment of God, to-morrow will be a great and awful day",
+        "the case, the trial",
+        "the trial",
+        "the trial, the case, the court, in this chapter",
+        "the present case"
       ],
       "type": "event",
       "firstSeenInChapter": 65,
@@ -12075,7 +12342,11 @@
         "trial of Alexey's brother; crime for which Alexey's brother is to be tried",
         "the trial; the criminal case; this awful trial; Karamazov Case at Skotoprigonyevsk",
         "being tried now for murdering his father",
-        "the trial, the judgment of God, to-morrow will be a great and awful day"
+        "the trial, the judgment of God, to-morrow will be a great and awful day",
+        "the case, the trial",
+        "the trial",
+        "the trial, the case, the court, in this chapter",
+        "the present case"
       ]
     },
     "the_goose_incident": {
@@ -12115,14 +12386,16 @@
       "name": "the incident (with the knife)",
       "aliases": [
         "the incident (with the knife, the quarrel and stabbing)",
-        "when Dmitri burst in after dinner and beat father"
+        "when Dmitri burst in after dinner and beat father",
+        "scene at the dinner-table, when Dmitri burst in and beat his father, threatening to come back to kill him"
       ],
       "type": "event",
       "firstSeenInChapter": 66,
       "searchTerms": [
         "the incident (with the knife)",
         "the incident (with the knife, the quarrel and stabbing)",
-        "when Dmitri burst in after dinner and beat father"
+        "when Dmitri burst in after dinner and beat father",
+        "scene at the dinner-table, when Dmitri burst in and beat his father, threatening to come back to kill him"
       ]
     },
     "the_house_of_the_snegiryovs": {
@@ -12583,13 +12856,19 @@
       "id": "fetyukovitch",
       "name": "Fetyukovitch",
       "aliases": [
-        "the celebrated lawyer, counsel for defense"
+        "the celebrated lawyer, counsel for defense",
+        "the famous Fetyukovitch, counsel for the defense, the 'great magician'",
+        "the counsel for the defense, the famous Fetyukovitch, the talented and celebrated counsel",
+        "the famous orator; the celebrated lawyer; the counsel for the defense"
       ],
       "type": "person",
       "firstSeenInChapter": 70,
       "searchTerms": [
         "Fetyukovitch",
-        "the celebrated lawyer, counsel for defense"
+        "the celebrated lawyer, counsel for defense",
+        "the famous Fetyukovitch, counsel for the defense, the 'great magician'",
+        "the counsel for the defense, the famous Fetyukovitch, the talented and celebrated counsel",
+        "the famous orator; the celebrated lawyer; the counsel for the defense"
       ],
       "spoilerFreeIntro": "Fetyukovitch is a renowned defense attorney from St. Petersburg, famous for taking on high-profile cases."
     },
@@ -12611,13 +12890,17 @@
       "id": "the_case",
       "name": "the case",
       "aliases": [
-        "Mitya's case"
+        "Mitya's case",
+        "the crime",
+        "the present case"
       ],
       "type": "event",
       "firstSeenInChapter": 70,
       "searchTerms": [
         "the case",
-        "Mitya's case"
+        "Mitya's case",
+        "the crime",
+        "the present case"
       ],
       "spoilerFreeIntro": "The case: A notorious crime that has drawn national attention and is discussed throughout Russia."
     },
@@ -12724,26 +13007,30 @@
       "id": "the_superintendent",
       "name": "the_superintendent",
       "aliases": [
-        "the superintendent (of the prison, kind-hearted old man)"
+        "the superintendent (of the prison, kind-hearted old man)",
+        "Mr. Superintendent"
       ],
       "type": "person",
       "firstSeenInChapter": 73,
       "searchTerms": [
         "the_superintendent",
-        "the superintendent (of the prison, kind-hearted old man)"
+        "the superintendent (of the prison, kind-hearted old man)",
+        "Mr. Superintendent"
       ]
     },
     "claude_bernard": {
       "id": "claude_bernard",
       "name": "claude_bernard",
       "aliases": [
-        "Claude Bernard (confused with Karl Bernard)"
+        "Claude Bernard (confused with Karl Bernard)",
+        "The Bernards"
       ],
       "type": "person",
       "firstSeenInChapter": 73,
       "searchTerms": [
         "claude_bernard",
-        "Claude Bernard (confused with Karl Bernard)"
+        "Claude Bernard (confused with Karl Bernard)",
+        "The Bernards"
       ]
     },
     "pyotr_alexandrovitch_misov_1": {
@@ -12777,13 +13064,15 @@
       "id": "the_lawyer",
       "name": "the_lawyer",
       "aliases": [
-        "the counsel (lawyer defending Mitya, possibly Fetyukovitch but not named here)"
+        "the counsel (lawyer defending Mitya, possibly Fetyukovitch but not named here)",
+        "the lawyer/counsel for the defense"
       ],
       "type": "person",
       "firstSeenInChapter": 73,
       "searchTerms": [
         "the_lawyer",
-        "the counsel (lawyer defending Mitya, possibly Fetyukovitch but not named here)"
+        "the counsel (lawyer defending Mitya, possibly Fetyukovitch but not named here)",
+        "the lawyer/counsel for the defense"
       ]
     },
     "her_mother": {
@@ -13054,13 +13343,15 @@
       "name": "the secret of the knocks",
       "aliases": [
         "the secret of the knocks",
-        "the agreed‐upon taps as signal"
+        "the agreed‐upon taps as signal",
+        "the 'signals' by which Mitya could enter the house"
       ],
       "type": "event",
       "firstSeenInChapter": 75,
       "searchTerms": [
         "the secret of the knocks",
-        "the agreed‐upon taps as signal"
+        "the agreed‐upon taps as signal",
+        "the 'signals' by which Mitya could enter the house"
       ],
       "spoilerFreeIntro": "A method of signaling by knocks, known only to certain characters, becomes important courtroom evidence."
     },
@@ -13068,13 +13359,15 @@
       "id": "the_open_door",
       "name": "the open door",
       "aliases": [
-        "the open door (Grigory's evidence)"
+        "the open door (Grigory's evidence)",
+        "the door into the garden had been open"
       ],
       "type": "event",
       "firstSeenInChapter": 75,
       "searchTerms": [
         "the open door",
-        "the open door (Grigory's evidence)"
+        "the open door (Grigory's evidence)",
+        "the door into the garden had been open"
       ],
       "spoilerFreeIntro": "A detail from the night of the crime, puzzling witnesses by being found wide open when it should have been shut."
     },
@@ -13095,13 +13388,16 @@
       "id": "the_moscow_doctor",
       "name": "the Moscow doctor",
       "aliases": [
-        "Moscow doctor who had been sent for by Katerina Ivanovna just before the trial"
+        "Moscow doctor who had been sent for by Katerina Ivanovna just before the trial",
+        "celebrated doctor from Moscow",
+        "the Moscow doctor"
       ],
       "type": "person",
       "firstSeenInChapter": 76,
       "searchTerms": [
         "the Moscow doctor",
-        "Moscow doctor who had been sent for by Katerina Ivanovna just before the trial"
+        "Moscow doctor who had been sent for by Katerina Ivanovna just before the trial",
+        "celebrated doctor from Moscow"
       ],
       "spoilerFreeIntro": "A well-respected physician from Moscow, recently arrived in town at Katerina Ivanovna’s request."
     },
@@ -13109,13 +13405,17 @@
       "id": "document_of_proof_the_letter",
       "name": "document of proof (the letter)",
       "aliases": [
-        "the document of which Ivan spoke to Alyosha later on as a \"conclusive proof\""
+        "the document of which Ivan spoke to Alyosha later on as a \"conclusive proof\"",
+        "the letter; mathematical proof",
+        "the plan, the program of the murder (the letter as plan of the crime)"
       ],
       "type": "event",
       "firstSeenInChapter": 76,
       "searchTerms": [
         "document of proof (the letter)",
-        "the document of which Ivan spoke to Alyosha later on as a \"conclusive proof\""
+        "the document of which Ivan spoke to Alyosha later on as a \"conclusive proof\"",
+        "the letter; mathematical proof",
+        "the plan, the program of the murder (the letter as plan of the crime)"
       ]
     },
     "the_escape_plan_for_dmitri": {
@@ -13162,13 +13462,15 @@
       "id": "ivans_visit_to_smerdyakov_final_major_meetingconfrontation",
       "name": "Ivan's visit to Smerdyakov (final major meeting/confrontation)",
       "aliases": [
-        "Ivan's confrontation with Smerdyakov, full confession scene"
+        "Ivan's confrontation with Smerdyakov, full confession scene",
+        "confession and giving of the money on the day before Smerdyakov's suicide"
       ],
       "type": "event",
       "firstSeenInChapter": 77,
       "searchTerms": [
         "Ivan's visit to Smerdyakov (final major meeting/confrontation)",
-        "Ivan's confrontation with Smerdyakov, full confession scene"
+        "Ivan's confrontation with Smerdyakov, full confession scene",
+        "confession and giving of the money on the day before Smerdyakov's suicide"
       ]
     },
     "the_murder_of_fyodor_pavlovitch": {
@@ -13177,7 +13479,12 @@
       "aliases": [
         "the murder",
         "murdered your father",
-        "the murder, the case of the murder of Fyodor Pavlovitch Karamazov"
+        "the murder, the case of the murder of Fyodor Pavlovitch Karamazov",
+        "murder of his father",
+        "the murder/catastrophe/that night",
+        "the murder of the father, his father’s blood, bloodshed",
+        "father's blood, his father’s gore",
+        "his father's murder"
       ],
       "type": "event",
       "firstSeenInChapter": 77,
@@ -13185,7 +13492,12 @@
         "the murder of Fyodor Pavlovitch",
         "the murder",
         "murdered your father",
-        "the murder, the case of the murder of Fyodor Pavlovitch Karamazov"
+        "the murder, the case of the murder of Fyodor Pavlovitch Karamazov",
+        "murder of his father",
+        "the murder/catastrophe/that night",
+        "the murder of the father, his father’s blood, bloodshed",
+        "father's blood, his father’s gore",
+        "his father's murder"
       ],
       "spoilerFreeIntro": "The death of Fyodor Pavlovitch, the wealthy and disreputable patriarch, marks a turning point in the story's suspense and intrigue."
     },
@@ -13221,13 +13533,15 @@
       "id": "the_mattress",
       "name": "the mattress",
       "aliases": [
-        "under the mattress (misdirection for money's location)"
+        "under the mattress (misdirection for money's location)",
+        "the bed; the mattress"
       ],
       "type": "place",
       "firstSeenInChapter": 77,
       "searchTerms": [
         "the mattress",
-        "under the mattress (misdirection for money's location)"
+        "under the mattress (misdirection for money's location)",
+        "the bed; the mattress"
       ],
       "spoilerFreeIntro": "A simple bed mattress in Fyodor Pavlovitch’s house, rumored to conceal hidden money."
     },
@@ -13407,13 +13721,15 @@
       "id": "the_geological_cataclysm",
       "name": "the Geological Cataclysm",
       "aliases": [
-        "the Geological Cataclysm (poem/idea Ivan wrote about)"
+        "the Geological Cataclysm (poem/idea Ivan wrote about)",
+        "the geological cataclysm"
       ],
       "type": "event",
       "firstSeenInChapter": 78,
       "searchTerms": [
         "the Geological Cataclysm",
-        "the Geological Cataclysm (poem/idea Ivan wrote about)"
+        "the Geological Cataclysm (poem/idea Ivan wrote about)",
+        "the geological cataclysm"
       ]
     },
     "the_legendanecdote_about_the_quadrillion_kilometers": {
@@ -13570,13 +13886,15 @@
       "id": "the_ministry",
       "name": "the Ministry",
       "aliases": [
-        "the Ministry (in St. Petersburg; government office of the lady’s salon)"
+        "the Ministry (in St. Petersburg; government office of the lady’s salon)",
+        "the Ministry (government office, referenced in English Parliament discussion)"
       ],
       "type": "place",
       "firstSeenInChapter": 78,
       "searchTerms": [
         "the Ministry",
-        "the Ministry (in St. Petersburg; government office of the lady’s salon)"
+        "the Ministry (in St. Petersburg; government office of the lady’s salon)",
+        "the Ministry (government office, referenced in English Parliament discussion)"
       ],
       "spoilerFreeIntro": "The Ministry, a seat of governmental power and influence in Petersburg, looms large in the ambitions of the city’s elite."
     },
@@ -13841,13 +14159,15 @@
       "id": "ivans_illness",
       "name": "Ivan's illness",
       "aliases": [
-        "Ivan’s delirium, fever, complete loss of consciousness"
+        "Ivan’s delirium, fever, complete loss of consciousness",
+        "Ivan’s brain fever/illness"
       ],
       "type": "event",
       "firstSeenInChapter": 79,
       "searchTerms": [
         "Ivan's illness",
-        "Ivan’s delirium, fever, complete loss of consciousness"
+        "Ivan’s delirium, fever, complete loss of consciousness",
+        "Ivan’s brain fever/illness"
       ]
     },
     "smerdyakovs_suicide": {
@@ -13894,7 +14214,8 @@
       "id": "the_court",
       "name": "the court",
       "aliases": [
-        "our district court"
+        "our district court",
+        "the court"
       ],
       "type": "place",
       "firstSeenInChapter": 80,
@@ -13908,13 +14229,21 @@
       "id": "the_public",
       "name": "the public",
       "aliases": [
-        "the public, the audience, the people present at the trial"
+        "the public, the audience, the people present at the trial",
+        "the public (audience at the trial)",
+        "the public; the audience",
+        "the audience in the courtroom",
+        "audience, public"
       ],
       "type": "person",
       "firstSeenInChapter": 80,
       "searchTerms": [
         "the public",
-        "the public, the audience, the people present at the trial"
+        "the public, the audience, the people present at the trial",
+        "the public (audience at the trial)",
+        "the public; the audience",
+        "the audience in the courtroom",
+        "audience, public"
       ],
       "spoilerFreeIntro": "A large and diverse crowd gathered eagerly to witness the proceedings."
     },
@@ -13922,13 +14251,19 @@
       "id": "the_jury",
       "name": "the jury",
       "aliases": [
-        "the twelve jurymen"
+        "the twelve jurymen",
+        "the judges (collective, presiding at trial)",
+        "the judges",
+        "gentlemen of the jury"
       ],
       "type": "person",
       "firstSeenInChapter": 80,
       "searchTerms": [
         "the jury",
-        "the twelve jurymen"
+        "the twelve jurymen",
+        "the judges (collective, presiding at trial)",
+        "the judges",
+        "gentlemen of the jury"
       ],
       "spoilerFreeIntro": "A group of citizens selected to determine the verdict at the trial."
     },
@@ -13936,13 +14271,15 @@
       "id": "the_lawyers",
       "name": "the lawyers",
       "aliases": [
-        "all the lawyers in the courtroom"
+        "all the lawyers in the courtroom",
+        "the lawyers on both sides"
       ],
       "type": "person",
       "firstSeenInChapter": 80,
       "searchTerms": [
         "the lawyers",
-        "all the lawyers in the courtroom"
+        "all the lawyers in the courtroom",
+        "the lawyers on both sides"
       ],
       "spoilerFreeIntro": "A group of legal professionals, present in the courtroom, whose primary concern is the intricacies of the law rather than the moral implications of the case."
     },
@@ -13950,13 +14287,15 @@
       "id": "the_witnesses",
       "name": "the witnesses",
       "aliases": [
-        "the witnesses at the trial"
+        "the witnesses at the trial",
+        "witnesses"
       ],
       "type": "person",
       "firstSeenInChapter": 80,
       "searchTerms": [
         "the witnesses",
-        "the witnesses at the trial"
+        "the witnesses at the trial",
+        "witnesses"
       ],
       "spoilerFreeIntro": "A group of individuals called to provide testimony and expert opinions at the trial."
     },
@@ -13992,13 +14331,15 @@
       "id": "the_material_proofs",
       "name": "the 'material proofs'",
       "aliases": [
-        "table with evidence"
+        "table with evidence",
+        "material evidence"
       ],
       "type": "event",
       "firstSeenInChapter": 80,
       "searchTerms": [
         "the 'material proofs'",
-        "table with evidence"
+        "table with evidence",
+        "material evidence"
       ]
     },
     "tragedy": {
@@ -14014,7 +14355,459 @@
         "the tragedy (the whole affair unfolding in trial context)"
       ],
       "spoilerFreeIntro": "A series of grim events, shrouded in emotion and consequence, revealed to the assembled listeners."
+    },
+    "witnesses_for_the_prosecution": {
+      "id": "witnesses_for_the_prosecution",
+      "name": "witnesses for the prosecution",
+      "aliases": [
+        "witnesses for the prosecution",
+        "witnesses for the prosecution (Herzenstube and Varvinsky in this context)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 81,
+      "searchTerms": [
+        "witnesses for the prosecution",
+        "witnesses for the prosecution (Herzenstube and Varvinsky in this context)"
+      ],
+      "spoilerFreeIntro": "Several men and women, called to give evidence against the accused, enter the courtroom to testify before the judges."
+    },
+    "witnesses_for_the_defense": {
+      "id": "witnesses_for_the_defense",
+      "name": "witnesses for the defense",
+      "aliases": [
+        "witnesses for the defense",
+        "witnesses à décharge"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 81,
+      "searchTerms": [
+        "witnesses for the defense",
+        "witnesses à décharge"
+      ],
+      "spoilerFreeIntro": "Several men and women, summoned to testify for the defense, wait anxiously to speak on behalf of the accused."
+    },
+    "the_prosecution": {
+      "id": "the_prosecution",
+      "name": "the prosecution",
+      "aliases": [
+        "the prosecutor, the prosecution",
+        "the prosecutor"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 81,
+      "searchTerms": [
+        "the prosecution",
+        "the prosecutor, the prosecution",
+        "the prosecutor"
+      ],
+      "spoilerFreeIntro": "A representative for the prosecution, tasked with presenting evidence and arguments against the accused."
+    },
+    "the_defense": {
+      "id": "the_defense",
+      "name": "the defense",
+      "aliases": [
+        "the defense, counsel for the defense",
+        "case for the defense/counsel for the defense"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 81,
+      "searchTerms": [
+        "the defense",
+        "the defense, counsel for the defense",
+        "case for the defense/counsel for the defense"
+      ],
+      "spoilerFreeIntro": "A representative speaking on behalf of the accused, tasked with arguing in their favor during the trial."
+    },
+    "the_speech_for_the_prosecution": {
+      "id": "the_speech_for_the_prosecution",
+      "name": "the speech for the prosecution",
+      "aliases": [
+        "speeches for the prosecution",
+        "prosecutor’s speech",
+        "Ippolit Kirillovitch’s speech"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 81,
+      "searchTerms": [
+        "the speech for the prosecution",
+        "speeches for the prosecution",
+        "prosecutor’s speech",
+        "Ippolit Kirillovitch’s speech"
+      ],
+      "spoilerFreeIntro": "The formal address by the prosecution, presenting the case against the accused in court."
+    },
+    "the_speech_for_the_defense": {
+      "id": "the_speech_for_the_defense",
+      "name": "the speech for the defense",
+      "aliases": [
+        "speeches for the defense",
+        "speech for the defense"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 81,
+      "searchTerms": [
+        "the speech for the defense",
+        "speeches for the defense",
+        "speech for the defense"
+      ]
+    },
+    "jury": {
+      "id": "jury",
+      "name": "jury",
+      "aliases": [
+        "the jury",
+        "Gentlemen of the jury",
+        "the jury, gentlemen of the jury"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 81,
+      "searchTerms": [
+        "jury",
+        "the jury",
+        "Gentlemen of the jury",
+        "the jury, gentlemen of the jury"
+      ],
+      "spoilerFreeIntro": "A group of citizens selected to listen to evidence and decide the outcome of the trial."
+    },
+    "author_of_the_pamphlet_the_life_of_the_deceased_elder_father_zossima": {
+      "id": "author_of_the_pamphlet_the_life_of_the_deceased_elder_father_zossima",
+      "name": "author of the pamphlet The Life of the Deceased Elder, Father Zossima",
+      "aliases": [
+        "Mr. Rakitin"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 81,
+      "searchTerms": [
+        "author of the pamphlet The Life of the Deceased Elder, Father Zossima",
+        "Mr. Rakitin"
+      ],
+      "spoilerFreeIntro": "A thoughtful writer, known for his recently published pamphlet on the late Elder Zossima."
+    },
+    "mityas_childhood_neglect": {
+      "id": "mityas_childhood_neglect",
+      "name": "Mitya's childhood neglect",
+      "aliases": [
+        "reminiscence of Mitya as a poor, neglected child in the back yard"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 82,
+      "searchTerms": [
+        "Mitya's childhood neglect",
+        "reminiscence of Mitya as a poor, neglected child in the back yard"
+      ]
+    },
+    "the_russian_proverb_one_head_is_good_but_two_are_better": {
+      "id": "the_russian_proverb_one_head_is_good_but_two_are_better",
+      "name": "the Russian proverb: 'One head is good, but two are better'",
+      "aliases": [
+        "\"One head is good, but two are better\" (proverb, repeatedly referenced as saying and as a thematic point)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 82,
+      "searchTerms": [
+        "the Russian proverb: 'One head is good, but two are better'",
+        "\"One head is good, but two are better\" (proverb, repeatedly referenced as saying and as a thematic point)"
+      ]
+    },
+    "gott_der_vater_gott_der_sohn_gott_der_heilige_geist": {
+      "id": "gott_der_vater_gott_der_sohn_gott_der_heilige_geist",
+      "name": "Gott der Vater, Gott der Sohn, Gott der heilige Geist",
+      "aliases": [
+        "Doctor Herzenstube's anecdote of teaching child the Trinity in German"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 82,
+      "searchTerms": [
+        "Gott der Vater, Gott der Sohn, Gott der heilige Geist",
+        "Doctor Herzenstube's anecdote of teaching child the Trinity in German"
+      ]
+    },
+    "the_incident_of_the_pound_of_nuts": {
+      "id": "the_incident_of_the_pound_of_nuts",
+      "name": "the incident of the pound of nuts",
+      "aliases": [
+        "Herzenstube's anecdote of buying Mitya a pound of nuts as a child",
+        "without boots on his feet"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 82,
+      "searchTerms": [
+        "the incident of the pound of nuts",
+        "Herzenstube's anecdote of buying Mitya a pound of nuts as a child",
+        "without boots on his feet"
+      ]
+    },
+    "the_anecdote_of_mityas_return_and_gratitude": {
+      "id": "the_anecdote_of_mityas_return_and_gratitude",
+      "name": "the anecdote of Mitya's return and gratitude",
+      "aliases": [
+        "Herzenstube's recollection of grown Mitya coming to thank him for the nuts"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 82,
+      "searchTerms": [
+        "the anecdote of Mitya's return and gratitude",
+        "Herzenstube's recollection of grown Mitya coming to thank him for the nuts"
+      ]
+    },
+    "usher_of_the_court": {
+      "id": "usher_of_the_court",
+      "name": "usher of the court",
+      "aliases": [
+        "usher"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 84,
+      "searchTerms": [
+        "usher of the court",
+        "usher"
+      ],
+      "spoilerFreeIntro": "A court official responsible for managing the courtroom proceedings."
+    },
+    "the_clerk": {
+      "id": "the_clerk",
+      "name": "the clerk",
+      "aliases": [
+        "the clerk"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 84,
+      "searchTerms": [
+        "the clerk"
+      ]
+    },
+    "press": {
+      "id": "press",
+      "name": "press",
+      "aliases": [
+        "the press (as institution and engine of public awareness)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 85,
+      "searchTerms": [
+        "press",
+        "the press (as institution and engine of public awareness)"
+      ],
+      "spoilerFreeIntro": "A public figure working for the court, the press reports and observes the proceedings of the trial."
+    },
+    "jury_courts": {
+      "id": "jury_courts",
+      "name": "jury courts",
+      "aliases": [
+        "new jury courts established in the present reign"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 85,
+      "searchTerms": [
+        "jury courts",
+        "new jury courts established in the present reign"
+      ],
+      "spoilerFreeIntro": "The newly established jury courts, created under the current reign, are public venues where legal cases are decided by citizens."
+    },
+    "tchitchikov": {
+      "id": "tchitchikov",
+      "name": "Tchitchikov",
+      "aliases": [
+        "Tchitchikov"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 85,
+      "searchTerms": [
+        "Tchitchikov"
+      ],
+      "spoilerFreeIntro": "A shrewd and mysterious gentleman, known for his polished manners and secretive ambitions."
+    },
+    "sobakevitch": {
+      "id": "sobakevitch",
+      "name": "Sobakevitch",
+      "aliases": [
+        "Sobakevitch"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 85,
+      "searchTerms": [
+        "Sobakevitch"
+      ],
+      "spoilerFreeIntro": "A stout, stubborn landowner known for his blunt manners and physical solidity."
+    },
+    "mother_russia": {
+      "id": "mother_russia",
+      "name": "mother Russia",
+      "aliases": [
+        "Russia as Mother, mother earth"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 85,
+      "searchTerms": [
+        "mother Russia",
+        "Russia as Mother, mother earth"
+      ],
+      "spoilerFreeIntro": "Mother Russia, the vast and soulful homeland revered by its people."
+    },
+    "schiller": {
+      "id": "schiller",
+      "name": "Schiller",
+      "aliases": [
+        "Schiller (referenced in Dmitri's character: 'a lover of culture and Schiller')"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 85,
+      "searchTerms": [
+        "Schiller",
+        "Schiller (referenced in Dmitri's character: 'a lover of culture and Schiller')"
+      ],
+      "spoilerFreeIntro": "Schiller is mentioned as a celebrated writer whose works are admired by cultured characters in the novel."
+    },
+    "the_english_parliament": {
+      "id": "the_english_parliament",
+      "name": "the_english_parliament",
+      "aliases": [
+        "the English Parliament"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 88,
+      "searchTerms": [
+        "the_english_parliament",
+        "the English Parliament"
+      ],
+      "spoilerFreeIntro": "The legislative body of Great Britain, where debates and decisions about national and foreign matters take place."
+    },
+    "kronstadt": {
+      "id": "kronstadt",
+      "name": "kronstadt",
+      "aliases": [
+        "Kronstadt"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 88,
+      "searchTerms": [
+        "kronstadt",
+        "Kronstadt"
+      ],
+      "spoilerFreeIntro": "A heavily fortified Russian naval base on an island near St. Petersburg."
+    },
+    "the_police": {
+      "id": "the_police",
+      "name": "the_police",
+      "aliases": [
+        "the police, the arresting/investigating authorities"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 88,
+      "searchTerms": [
+        "the_police",
+        "the police, the arresting/investigating authorities"
+      ]
+    },
+    "family": {
+      "id": "family",
+      "name": "family",
+      "aliases": [
+        "her family, family as mentioned in patriotic context"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 88,
+      "searchTerms": [
+        "family",
+        "her family, family as mentioned in patriotic context"
+      ],
+      "spoilerFreeIntro": "A group of relatives bound together by close ties and shared traditions."
+    },
+    "trial_adjournment": {
+      "id": "trial_adjournment",
+      "name": "trial_adjournment",
+      "aliases": [
+        "the adjournment, the adjournment of court, interval"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 88,
+      "searchTerms": [
+        "trial_adjournment",
+        "the adjournment, the adjournment of court, interval"
+      ]
+    },
+    "the_two_women": {
+      "id": "the_two_women",
+      "name": "the two women",
+      "aliases": [
+        "the two women (who owned the brass pestle)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 89,
+      "searchTerms": [
+        "the two women",
+        "the two women (who owned the brass pestle)"
+      ],
+      "spoilerFreeIntro": "Two women who own a recognizable brass pestle, crossing paths with a key character."
+    },
+    "the_cashbox": {
+      "id": "the_cashbox",
+      "name": "the cash-box",
+      "aliases": [
+        "cash‐box"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 90,
+      "searchTerms": [
+        "the cash-box",
+        "cash‐box"
+      ],
+      "spoilerFreeIntro": "A locked container where valuables, such as notes or money, are securely kept."
+    },
+    "the_castle_of_udolpho": {
+      "id": "the_castle_of_udolpho",
+      "name": "the castle of Udolpho",
+      "aliases": [
+        "the dungeons of the castle of Udolpho"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 90,
+      "searchTerms": [
+        "the castle of Udolpho",
+        "the dungeons of the castle of Udolpho"
+      ],
+      "spoilerFreeIntro": "A mysterious and evocatively named place, the castle of Udolpho is referenced as a symbol of gothic intrigue and hidden secrets."
+    },
+    "fifteen_hundred_roubles": {
+      "id": "fifteen_hundred_roubles",
+      "name": "fifteen hundred roubles",
+      "aliases": [
+        "fifteen hundred roubles"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 90,
+      "searchTerms": [
+        "fifteen hundred roubles"
+      ],
+      "spoilerFreeIntro": "Fifteen hundred roubles, a significant sum of money found during an investigation, raise questions about their source and meaning."
+    },
+    "costermonger_murder_in_petersburg": {
+      "id": "costermonger_murder_in_petersburg",
+      "name": "costermonger murder in Petersburg",
+      "aliases": [
+        "Not long ago in Petersburg a young man of eighteen...killed the master of the shop and carried off fifteen hundred roubles"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 90,
+      "searchTerms": [
+        "costermonger murder in Petersburg",
+        "Not long ago in Petersburg a young man of eighteen...killed the master of the shop and carried off fifteen hundred roubles"
+      ]
+    },
+    "the_witness": {
+      "id": "the_witness",
+      "name": "the witness",
+      "aliases": [
+        "witnesses"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 90,
+      "searchTerms": [
+        "the witness",
+        "witnesses"
+      ],
+      "spoilerFreeIntro": "A witness called to testify, an ordinary person drawn into the case by circumstance."
     }
   },
-  "lastIndexedChapter": 80
+  "lastIndexedChapter": 90
 }
