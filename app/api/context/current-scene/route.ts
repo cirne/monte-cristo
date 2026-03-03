@@ -10,8 +10,8 @@ import {
 import {
   estimateTokens,
   getChapterSummaryWindowBefore,
+  getChapterTextUpToParagraph,
   getSceneSummariesBeforeCurrent,
-  getSceneTextUpToParagraph,
   getStorySoFarBeforeChapter,
   resolveReadingPosition,
 } from "@/lib/reading-context";
@@ -21,9 +21,9 @@ function buildFallbackAnswer(params: {
   priorChapterSummaries: string[];
   priorSceneSummaries: string[];
   storySoFarBefore?: string;
-  sceneText: string;
+  chapterText: string;
 }): string {
-  const { chapterNumber, priorChapterSummaries, priorSceneSummaries, storySoFarBefore, sceneText } = params;
+  const { chapterNumber, priorChapterSummaries, priorSceneSummaries, storySoFarBefore, chapterText } = params;
   const parts: string[] = [];
   if (storySoFarBefore?.trim()) {
     parts.push(`Story context before chapter ${chapterNumber}: ${storySoFarBefore.trim()}`);
@@ -34,7 +34,7 @@ function buildFallbackAnswer(params: {
   if (priorSceneSummaries.length > 0) {
     parts.push(`Within chapter ${chapterNumber}, earlier scenes:\n${priorSceneSummaries.join("\n")}`);
   }
-  const excerpt = sceneText.replace(/\s+/g, " ").trim().slice(0, 480);
+  const excerpt = chapterText.replace(/\s+/g, " ").trim().slice(0, 480);
   parts.push(
     `Current chapter text up to this paragraph indicates: ${excerpt}${excerpt.length >= 480 ? "…" : ""}`
   );
@@ -65,17 +65,19 @@ export async function GET(request: NextRequest) {
     const storySoFarBefore = getStorySoFarBeforeChapter(slug, chapterNumber);
     const priorChapterSummaries = getChapterSummaryWindowBefore(slug, chapterNumber, 5);
     const priorSceneSummaries = getSceneSummariesBeforeCurrent(position);
-    const sceneText = getSceneTextUpToParagraph(position, Math.floor(maxInputTokens * 0.65));
+    // Reserve ~50% of tokens for chapter text (can handle largest chapter ~16.5k tokens)
+    // Remaining ~50% for supporting context
+    const chapterText = getChapterTextUpToParagraph(position, Math.floor(maxInputTokens * 0.5));
 
     const context = buildContextPrompt(
       [
+        {
+          label: "Chapter text up to selected paragraph",
+          content: chapterText,
+        },
         { label: "Story so far before this chapter", content: storySoFarBefore },
         { label: "Supporting context from the last five chapters", content: priorChapterSummaries.join("\n") },
         { label: "Earlier scenes in current chapter", content: priorSceneSummaries.join("\n") },
-        {
-          label: "Current scene text up to selected paragraph",
-          content: sceneText,
-        },
       ],
       maxInputTokens
     );
@@ -85,16 +87,18 @@ export async function GET(request: NextRequest) {
       priorChapterSummaries,
       priorSceneSummaries,
       storySoFarBefore,
-      sceneText,
+      chapterText,
     });
 
     const config = getBookConfig(slug);
     const systemPromptBase = `You are a spoiler-safe literary reading companion.
-Summarize what is happening in the current scene at the reader's exact checkpoint.
-Use recent-chapter context only as supporting background, but prioritize the current-scene evidence.
-Never mention events beyond the provided excerpted context.
-Do not focus on "stakes" or "implications"—simply summarize what is happening.
+Summarize what has happened in this chapter so far, up to the reader's exact checkpoint.
+Use recent-chapter context only as supporting background, but prioritize the chapter text provided.
+Never mention events beyond the provided chapter text (the checkpoint paragraph).
+Do not focus on "stakes" or "implications"—simply summarize what has happened in the chapter so far.
+Naturally include location context (where events occur) along with who and when, when it helps clarify the narrative.
 Write exactly two paragraphs.
+Write the summary as if you are telling what happened, not describing the narrative. Avoid phrases like "In this chapter...", "So far...", "The narrative follows...", "The chapter shows...", or any other meta-commentary about the narrative itself. Just state what happened directly.
 Respond with plain prose only. Do not return JSON or any structured format.`;
     const systemPrompt =
       config?.summaryPromptFragment?.trim()
@@ -106,13 +110,11 @@ Respond with plain prose only. Do not return JSON or any structured format.`;
       userPrompt: `Reading checkpoint:
 - Chapter: ${chapterNumber}
 - Paragraph index (0-based): ${position.paragraphIndex}
-- Scene index (0-based): ${position.sceneIndex}
-- Scene paragraph range: ${position.scene.startParagraph}-${position.scene.endParagraph}
 
 Context:
 ${context.text}
 
-Summarize the current scene at this checkpoint in up to 2 paragraphs.`,
+Summarize what has happened in this chapter so far, up to this checkpoint, in up to 2 paragraphs.`,
       fallbackAnswer,
       maxOutputTokens: 420,
     });
@@ -131,7 +133,7 @@ Summarize the current scene at this checkpoint in up to 2 paragraphs.`,
       contextMeta: {
         includedSections: context.includedSections,
         estimatedInputTokens: context.estimatedInputTokens,
-        sceneTextEstimatedTokens: estimateTokens(sceneText),
+        chapterTextEstimatedTokens: estimateTokens(chapterText),
       },
     });
   } catch (error) {

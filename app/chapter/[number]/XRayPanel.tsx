@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { EntityType } from "@/lib/chapter-index";
 import { DEFAULT_BOOK_SLUG } from "@/lib/books";
-import { ResponsiveDialog, useIsMobile } from "@/app/components/ResponsiveDialog";
+import { AppDrawer } from "@/app/components/AppDrawer";
 import { parseTextForEntityLinks } from "./entityTextSegments";
 
 export interface XRayEntityData {
@@ -37,7 +37,6 @@ export function XRayPanel({
   onSelectEntity,
   bookSlug,
 }: XRayPanelProps) {
-  const isMobile = useIsMobile();
   const [imageError, setImageError] = React.useState(false);
   React.useEffect(() => setImageError(false), [entityId]);
 
@@ -56,7 +55,7 @@ export function XRayPanel({
       : [{ type: "text" as const, content: introText }];
 
   return (
-    <ResponsiveDialog
+    <AppDrawer
       open={true}
       onOpenChange={(next) => {
         if (!next) onClose();
@@ -65,21 +64,11 @@ export function XRayPanel({
       title={data.name}
       contentClassName="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 shadow-xl max-w-md w-full max-h-[85vh] overflow-y-auto rounded-xl"
     >
-      <div className="p-5">
-        <div className="relative flex items-start justify-center gap-2 mb-3">
-          <h3 className={`text-lg font-semibold text-stone-900 dark:text-stone-100 text-center ${isMobile ? "" : "pr-8"}`}>
+      <div className="px-5 pb-5">
+        <div className="flex items-start justify-center gap-2 mb-3">
+          <h3 className="text-lg font-semibold text-stone-900 dark:text-stone-100 text-center">
             {data.name}
           </h3>
-          {!isMobile && (
-            <button
-              type="button"
-              onClick={onClose}
-              className="absolute right-0 top-0 text-stone-400 hover:text-stone-600 dark:text-stone-500 dark:hover:text-stone-300 p-1 -m-1"
-              aria-label="Close"
-            >
-              ×
-            </button>
-          )}
         </div>
 
         {/* Entity portrait when image exists (convention: /images/entities/<book>/{id}.webp) */}
@@ -140,6 +129,6 @@ export function XRayPanel({
           </div>
         )}
       </div>
-    </ResponsiveDialog>
+    </AppDrawer>
   );
 }

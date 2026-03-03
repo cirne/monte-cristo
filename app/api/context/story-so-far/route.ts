@@ -9,6 +9,7 @@ import {
 } from "@/lib/context-api";
 import {
   estimateTokens,
+  getChapterSummaryWindowBefore,
   getSceneSummariesBeforeCurrent,
   getSceneTextUpToParagraph,
   getStorySoFarBeforeChapter,
@@ -60,12 +61,20 @@ export async function GET(request: NextRequest) {
   try {
     const position = resolveReadingPosition(slug, chapterNumber, paragraphIndex);
     const storySoFarBefore = getStorySoFarBeforeChapter(slug, chapterNumber);
+    // If rolling summary exists, use it. Otherwise, get all chapter summaries from the beginning
+    const allChapterSummaries = storySoFarBefore
+      ? undefined
+      : getChapterSummaryWindowBefore(slug, chapterNumber, chapterNumber - 1);
     const priorSceneSummaries = getSceneSummariesBeforeCurrent(position);
     const currentSceneExcerpt = getSceneTextUpToParagraph(position, Math.floor(maxInputTokens * 0.45));
 
     const context = buildContextPrompt(
       [
-        { label: "Story so far before this chapter", content: storySoFarBefore },
+        ...(storySoFarBefore
+          ? [{ label: "Story so far before this chapter", content: storySoFarBefore }]
+          : allChapterSummaries && allChapterSummaries.length > 0
+            ? [{ label: "All previous chapter summaries", content: allChapterSummaries.join("\n") }]
+            : []),
         { label: "Completed scenes in current chapter", content: priorSceneSummaries.join("\n") },
         {
           label: "Current scene excerpt up to selected paragraph",
@@ -84,8 +93,10 @@ export async function GET(request: NextRequest) {
 
     const config = getBookConfig(slug);
     const systemPromptBase = `You are a spoiler-safe reading companion for a serialized novel.
-Summarize the story so far at the exact reading checkpoint and never include events beyond the provided context.
-Return between one and three paragraphs (never more than three).
+Summarize the ENTIRE story from the beginning of the book up to the exact reading checkpoint. Cover all major events, characters, and plot threads from chapter 1 through the current checkpoint. Never include events beyond the provided context.
+Return exactly three paragraphs. Never exceed three paragraphs.
+Naturally include location context (where events occur) along with who and when, when it helps clarify the narrative.
+Write the summary as if you are telling what happened, not describing the narrative. Avoid phrases like "The narrative follows...", "The story has...", "So far...", "The story introduces...", or any other meta-commentary about the narrative itself. Just state what happened directly.
 Respond with plain prose only. Do not return JSON or any structured format.`;
     const systemPrompt =
       config?.summaryPromptFragment?.trim()
@@ -103,9 +114,10 @@ Context:
 ${context.text}
 
 Task:
-Write a concise "story so far" recap as of this exact checkpoint.
+Write a comprehensive "story so far" recap covering the ENTIRE story from the beginning of the book up to this exact checkpoint.
+Include all major events, characters, and plot developments from chapter 1 through the current checkpoint.
 Cover the major threads in progress and how the current moment fits into them.
-Use 2-3 short paragraphs, with a hard maximum of 3 paragraphs.`,
+Write exactly 3 paragraphs. Do not exceed 3 paragraphs.`,
       fallbackAnswer,
       maxOutputTokens: 620,
     });

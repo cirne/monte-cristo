@@ -14,7 +14,7 @@ describe("app/api/context/current-scene/route integration", () => {
     mockCreateChatCompletion.mockReset();
   });
 
-  it("builds a contextual prompt from real chapter data", async () => {
+  it("builds a chapter-so-far prompt from real chapter data", async () => {
     mockCreateChatCompletion.mockResolvedValue({
       choices: [
         {
@@ -37,10 +37,10 @@ describe("app/api/context/current-scene/route integration", () => {
 
     expect(response.status).toBe(200);
     expect(data.answerSource).toBe("llm");
-    expect(data.answer).toContain("scene");
+    expect(data.answer).toContain("interactions");
     expect(paragraphs).toHaveLength(2);
     expect(data.contextMeta.estimatedInputTokens).toBeGreaterThan(60);
-    expect(data.contextMeta.includedSections).toContain("Current scene text up to selected paragraph");
+    expect(data.contextMeta.includedSections).toContain("Chapter text up to selected paragraph");
 
     expect(mockCreateChatCompletion).toHaveBeenCalledTimes(1);
     const callArg = mockCreateChatCompletion.mock.calls[0]?.[0] as {
@@ -56,7 +56,7 @@ describe("app/api/context/current-scene/route integration", () => {
     expect(userPrompt).toContain("Reading checkpoint:");
     expect(userPrompt).toContain("- Chapter: 1");
     expect(userPrompt).toContain("Context:");
-    expect(userPrompt).toContain("Current scene text up to selected paragraph:");
+    expect(userPrompt).toContain("Chapter text up to selected paragraph:");
     // Avoid brittle exact-token checks: just ensure substantial real context is present.
     expect(userPrompt.length).toBeGreaterThan(500);
   });

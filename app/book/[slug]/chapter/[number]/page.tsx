@@ -6,10 +6,11 @@ import { getChapterIndexEntry } from "@/lib/chapter-index";
 import { getParagraphs } from "@/lib/scenes";
 import { linkifyParagraph } from "@/lib/linkify";
 import { ChapterContent } from "@/app/chapter/[number]/ChapterContent";
-import { SummaryButton } from "@/app/chapter/[number]/SummaryButton";
+import { SummaryButtonWithEntities } from "./SummaryButtonWithEntities";
 import type { Metadata } from "next";
 import type { XRayEntityData } from "@/app/chapter/[number]/XRayPanel";
 import { BOOK_SLUGS } from "@/lib/books";
+import { getEntityStore } from "@/lib/entity-store";
 
 interface Props {
   params: Promise<{ slug: string; number: string }>;
@@ -67,6 +68,21 @@ function buildXRayData(
   return data;
 }
 
+function buildAllEntityData(slug: string): Record<string, XRayEntityData> {
+  const store = getEntityStore(slug);
+  const data: Record<string, XRayEntityData> = {};
+  for (const [entityId, stored] of Object.entries(store.entities)) {
+    data[entityId] = {
+      name: stored.name,
+      aliases: stored.type === "person" ? stored.aliases : [],
+      spoilerFreeIntro: stored.spoilerFreeIntro,
+      firstSeenInChapter: stored.firstSeenInChapter,
+      type: stored.type,
+    };
+  }
+  return data;
+}
+
 export default async function BookChapterPage({ params, searchParams }: Props) {
   const { slug, number } = await params;
   const sp = await searchParams;
@@ -87,6 +103,7 @@ export default async function BookChapterPage({ params, searchParams }: Props) {
   const paragraphSegments = paragraphStrings.map((p) => linkifyParagraph(p, num, slug));
   const scenes = indexEntry?.scenes ?? [];
   const xrayData = buildXRayData(slug, num, indexEntry);
+  const allEntityData = buildAllEntityData(slug);
   const baselineIntro = indexEntry?.number === 1 ? indexEntry.baselineIntro : undefined;
 
   const book = getBookIndex(slug);
@@ -104,13 +121,14 @@ export default async function BookChapterPage({ params, searchParams }: Props) {
             {volumeLabels[chapter.volume] ?? chapter.volume}
           </p>
           {num > 1 && (
-            <SummaryButton
+            <SummaryButtonWithEntities
               label="Story so far"
               dialogLabel="Story so far"
               endpoint="/api/context/story-so-far"
               chapterNumber={num}
               bookSlug={slug}
               paragraphIndex={0}
+              entityData={allEntityData}
             />
           )}
         </div>
@@ -135,13 +153,14 @@ export default async function BookChapterPage({ params, searchParams }: Props) {
       </div>
 
       <div className="mt-12 flex justify-center">
-        <SummaryButton
+        <SummaryButtonWithEntities
           label="Summarize this chapter"
           dialogLabel="Chapter summary"
           endpoint="/api/context/current-scene"
           chapterNumber={num}
           bookSlug={slug}
           paragraphIndex={paragraphStrings.length - 1}
+          entityData={allEntityData}
         />
       </div>
 
