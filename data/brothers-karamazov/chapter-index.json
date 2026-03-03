@@ -16271,6 +16271,2341 @@
           ]
         }
       ]
+    },
+    {
+      "number": 61,
+      "entities": [
+        {
+          "entityId": "the_investigating_lawyer",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…ot continue our story in such detail as before. And so we will not dwell on how Nikolay Parfenovitch impressed on every witness called that he must give his evidence in accordance with truth and conscience, and that he would afterwards hav…"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…n of the three thousand roubles, that is, was the sum spent here, at Mokroe, by Mitya on the first occasion, a month before, three thousand or fifteen hundred? And again had he spent three thousand or fifteen hundred yesterday? Alas, all t…"
+        },
+        {
+          "entityId": "trifon_borissovitch",
+          "type": "person",
+          "firstSeenInChapter": 51,
+          "excerpt": "…contradiction of his, Mitya’s, story. </p>  <p> The first witness examined was Trifon Borissovitch. He was not in the least abashed as he stood before the lawyers. He had, on the contrary, an air of stern and severe indignation with the ac…"
+        },
+        {
+          "entityId": "gypsy_girls",
+          "type": "person",
+          "firstSeenInChapter": 12
+        },
+        {
+          "entityId": "andrey",
+          "type": "person",
+          "firstSeenInChapter": 50,
+          "excerpt": "…e thousand?” </p>  <p> “You did say so, Dmitri Fyodorovitch. You said it before Andrey. Andrey himself is still here. Send for him. And in the hall, when you were treating the chorus, you shouted straight out that you would leave your sixt…"
+        },
+        {
+          "entityId": "stepan",
+          "type": "person",
+          "firstSeenInChapter": 61,
+          "excerpt": "…our sixth thousand here—that is with what you spent before, we must understand. Stepan and Semyon heard it, and Pyotr Fomitch Kalganov, too, was standing beside you at the time. Maybe he’d remember it....” </p>  <p> The evidence as to the …"
+        },
+        {
+          "entityId": "semyon",
+          "type": "person",
+          "firstSeenInChapter": 61,
+          "excerpt": "…housand here—that is with what you spent before, we must understand. Stepan and Semyon heard it, and Pyotr Fomitch Kalganov, too, was standing beside you at the time. Maybe he’d remember it....” </p>  <p> The evidence as to the “sixth” tho…"
+        },
+        {
+          "entityId": "pyotr_fomitch_kalganov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…with what you spent before, we must understand. Stepan and Semyon heard it, and Pyotr Fomitch Kalganov, too, was standing beside you at the time. Maybe he’d remember it....” </p>  <p> The evidence as to the “sixth” thousand made an extraor…"
+        },
+        {
+          "entityId": "ippolit_kirillovitch",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…nd shall I be forgiven in the next world or not?’ ” </p>  <p> The psychological Ippolit Kirillovitch heard this with a subtle smile, and ended by recommending that these remarks as to where Dmitri Fyodorovitch would go should be “included …"
+        },
+        {
+          "entityId": "the_poles",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…ld see he “didn’t know” how much money Mitya had in his hands. He affirmed that the Poles had cheated at cards. In reply to reiterated questions he stated that, after the Poles had been turned out, Mitya’s position with Agrafena Alexandrov…"
+        },
+        {
+          "entityId": "pan_mussyalovitch",
+          "type": "person",
+          "firstSeenInChapter": 61,
+          "excerpt": "…for. They gave their evidence with dignity, though not without some uneasiness. The little Pole turned out to be a retired official of the twelfth class, who had served in Siberia as a veterinary surgeon. His name was Mussyalovitch. Pan Vr…"
+        },
+        {
+          "entityId": "pan_vrublevsky",
+          "type": "person",
+          "firstSeenInChapter": 61,
+          "excerpt": "…who had served in Siberia as a veterinary surgeon. His name was Mussyalovitch. Pan Vrublevsky turned out to be an uncertificated dentist. Although Nikolay Parfenovitch asked them questions on entering the room they both addressed their ans…"
+        },
+        {
+          "entityId": "the_captain_of_police_mr_ispravnik",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…asked them questions on entering the room they both addressed their answers to Mihail Makarovitch, who was standing on one side, taking him in their ignorance for the most important person and in command, and addressed him at every word as…"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…ions he stated that, after the Poles had been turned out, Mitya’s position with Agrafena Alexandrovna had certainly improved, and that she had said that she loved him. He spoke of Agrafena Alexandrovna with reserve and respect, as though s…"
+        },
+        {
+          "entityId": "siberia",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…ole turned out to be a retired official of the twelfth class, who had served in Siberia as a veterinary surgeon. His name was Mussyalovitch. Pan Vrublevsky turned out to be an uncertificated dentist. Although Nikolay Parfenovitch asked the…"
+        },
+        {
+          "entityId": "samsonov",
+          "type": "person",
+          "firstSeenInChapter": 12,
+          "excerpt": "…ts to the village of Tchermashnya, those rights which he had already offered to Samsonov and Madame Hohlakov. The prosecutor positively smiled at the “innocence of this subterfuge.” </p>  <p> “And you imagine he would have accepted such a …"
+        },
+        {
+          "entityId": "madame_hohlakov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…lage of Tchermashnya, those rights which he had already offered to Samsonov and Madame Hohlakov. The prosecutor positively smiled at the “innocence of this subterfuge.” </p>  <p> “And you imagine he would have accepted such a deed as a sub…"
+        },
+        {
+          "entityId": "maximov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…So the two hundred roubles remained in the pockets of the Poles. </p>  <p> Then old Maximov was summoned. He came in timidly, approached with little steps, looking very disheveled and depressed. He had, all this time, taken refuge below wi…"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…o, where that money had come from, and that Dmitri Fyodorovitch had got it from Katerina Ivanovna. </p>  <p> “And did you never, once, hear that the money spent a month ago was not three thousand, but less, and that Dmitri Fyodorovitch had…"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…the job, and might have got, not three thousand, but the whole property out of the old man.” </p>  <p> The evidence of Pan Mussyalovitch was, of course, entered in the protocol in the fullest detail. Then they let the Poles go. The inciden…"
+        },
+        {
+          "entityId": "the_town",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…ime that he had not the whole sum with him at Mokroe, but that his money was in the town. Mitya observed hotly that he had not said that he would be sure to pay him the remainder next day in the town. But Pan Vrublevsky confirmed the state…"
+        },
+        {
+          "entityId": "three_thousand_roubles_giftenvelope",
+          "type": "event",
+          "firstSeenInChapter": 55,
+          "excerpt": "…the point principally insisted upon in the examination was the question of the three thousand roubles, that is, was the sum spent here, at Mokroe, by Mitya on the first occasion, a month before, three thousand or fifteen hundred? And again…"
+        },
+        {
+          "entityId": "the_escapade_with_grushenka_a_month_ago",
+          "type": "event",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "tchermashnya",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…ap,” not money, but a formal deed of conveyance of his rights to the village of Tchermashnya, those rights which he had already offered to Samsonov and Madame Hohlakov. The prosecutor positively smiled at the “innocence of this subterfuge.…"
+        },
+        {
+          "entityId": "mokroe",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…the question of the three thousand roubles, that is, was the sum spent here, at Mokroe, by Mitya on the first occasion, a month before, three thousand or fifteen hundred? And again had he spent three thousand or fifteen hundred yesterday? …"
+        },
+        {
+          "entityId": "peasants_of_mokroe",
+          "type": "person",
+          "firstSeenInChapter": 51,
+          "excerpt": "…spent a month before could not have been less than three thousand, that all the peasants about here would testify that they had heard the sum of three thousand mentioned by Dmitri Fyodorovitch himself. “What a lot of money he flung away on…"
+        },
+        {
+          "entityId": "jews_who_play_the_cymbals_and_the_fiddle",
+          "type": "person",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "the_karamazovs",
+          "type": "person",
+          "firstSeenInChapter": 32,
+          "excerpt": "…it at once, at once, regardless of all obstacles, with all the recklessness of the Karamazovs. </p>  <p> “And I’m coming with you. I won’t leave you now for the rest of my life, I’m coming with you,” he heard close beside him Grushenka’s t…"
+        },
+        {
+          "entityId": "the_baby_in_the_dream",
+          "type": "person",
+          "firstSeenInChapter": 61,
+          "excerpt": "…ng? Why are they crying?” Mitya asked, as they dashed gayly by. </p>  <p> “It’s the babe,” answered the driver, “the babe weeping.” </p>  <p> And Mitya was struck by his saying, in his peasant way, “the babe,” and he liked the peasant’s ca…"
+        },
+        {
+          "entityId": "the_peasant_driver_in_the_dream",
+          "type": "person",
+          "firstSeenInChapter": 61
+        },
+        {
+          "entityId": "the_village_burnt_out_in_mityas_dream",
+          "type": "place",
+          "firstSeenInChapter": 61
+        },
+        {
+          "entityId": "peasant_women_and_the_mother_with_the_baby_in_the_dream",
+          "type": "person",
+          "firstSeenInChapter": 61
+        },
+        {
+          "entityId": "the_protocol_of_evidence",
+          "type": "event",
+          "firstSeenInChapter": 61,
+          "excerpt": "…e to repeat his evidence on oath, how every witness was called upon to sign the protocol of his evidence, and so on. We will only note that the point principally insisted upon in the examination was the question of the three thousand roubl…"
+        },
+        {
+          "entityId": "the_opening_of_witness_examination_legal_event",
+          "type": "event",
+          "firstSeenInChapter": 60
+        },
+        {
+          "entityId": "death_of_fyodor_pavlovitch_karamazov",
+          "type": "event",
+          "firstSeenInChapter": 1
+        },
+        {
+          "entityId": "pillow_under_mityas_head_kindness",
+          "type": "event",
+          "firstSeenInChapter": 61
+        },
+        {
+          "entityId": "the_secretary_of_the_investigating_lawyer",
+          "type": "person",
+          "firstSeenInChapter": 56
+        },
+        {
+          "entityId": "god",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…</p>  <p> “Agrafena Alexandrovna!” Mitya got up from his chair, “have faith in God and in me. I am not guilty of my father’s murder!” </p>  <p> Having uttered these words Mitya sat down again on his chair. Grushenka stood up and crossed he…"
+        },
+        {
+          "entityId": "ikon",
+          "type": "event",
+          "firstSeenInChapter": 61,
+          "excerpt": "…again on his chair. Grushenka stood up and crossed herself devoutly before the ikon. “Thanks be to Thee, O Lord,” she said, in a voice thrilled with emotion, and still standing, she turned to Nikolay Parfenovitch and added: </p>  <p> “As h…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 22,
+          "locationDescription": "In the room where the witness examination is conducted at Mokroe",
+          "imageDescription": "A densely furnished inn's parlor in late evening, with heavy curtains and wooden furniture. Candlelight throws long shadows across stern-faced lawyers and grim peasants seated or standing along the walls. Dmitri Fyodorovitch Karamazov sits slumped in a chair near a corner, looking exhausted and sullen. Trifon Borissovitch stands upright and resolute while speaking; the investigating lawyer sits authoritatively with documents, and nearby the secretary of the lawyer quietly records. Several peasants, Kalganov, Andrey, Stepan, and Semyon linger in the background, all in 19th-century Russian garb—worn caftans, felt boots, and winter cloaks. The tense atmosphere is heavy with formality.",
+          "characterIds": [
+            "the_investigating_lawyer",
+            "dmitri_fyodorovitch_karamazov",
+            "trifon_borissovitch",
+            "andrey",
+            "stepan",
+            "semyon",
+            "pyotr_fomitch_kalganov",
+            "ippolit_kirillovitch",
+            "the_secretary_of_the_investigating_lawyer",
+            "the_poles",
+            "pan_mussyalovitch",
+            "pan_vrublevsky",
+            "maximov"
+          ]
+        },
+        {
+          "startParagraph": 23,
+          "endParagraph": 49,
+          "locationDescription": "In the same examining room at Mokroe, during Grushenka's testimony",
+          "imageDescription": "A somber, candlelit room with plain wallpaper and a table covered in legal documents. Grushenka enters with a noble, composed presence, draped in a dark Russian shawl, her pale face set with dignity. Dmitri Karamazov sits nearby, fatigue still visible. The investigating lawyer and his secretary watch with keen attention; Maximov, frail and nervous, lingers by the wall, and officials surround the table. Shadows emphasize the seriousness of the proceedings, and the atmosphere is heavy yet tinged with awe at Grushenka’s dignity.",
+          "characterIds": [
+            "the_investigating_lawyer",
+            "trifon_borissovitch",
+            "dmitri_fyodorovitch_karamazov",
+            "maximov",
+            "ippolit_kirillovitch",
+            "pyotr_fomitch_kalganov",
+            "the_secretary_of_the_investigating_lawyer"
+          ]
+        },
+        {
+          "startParagraph": 50,
+          "endParagraph": 50,
+          "locationDescription": "In the room at Mokroe after the examination, with Dmitri falling asleep",
+          "imageDescription": "The exhausted Dmitri Karamazov lies on a large wooden chest draped with a worn rug in the shadowy corner of the room. The legal officials quietly confer at a table in the background amid piles of papers and candles burning low. The secretary glances up from his work. The room is quiet and subdued after the tense examinations; faint early morning light filters through heavy curtains, casting dim blue hues that hint at night’s end.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "the_secretary_of_the_investigating_lawyer"
+          ]
+        },
+        {
+          "startParagraph": 51,
+          "endParagraph": 62,
+          "locationDescription": "Mitya’s dream in the wintry steppe",
+          "imageDescription": "A bleak, wintry Russian steppe under gray skies and swirling wet snow. A simple peasant cart drawn by two sturdy horses travels along a muddy road. Dmitri Karamazov, gaunt and huddled, sits in the cart, wrapped against the cold. A peasant driver with a fair long beard in a gray smock holds the reins. Along the roadside, several gaunt, weary peasant women stand in a mournful line; one tall, bony woman clutches a frail, crying baby. The blackened ruins of burned village huts loom behind them, and the whole scene is suffused with cold light and palpable misery.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_baby_in_the_dream",
+            "the_peasant_driver_in_the_dream",
+            "peasant_women_and_the_mother_with_the_baby_in_the_dream",
+            "god"
+          ]
+        },
+        {
+          "startParagraph": 63,
+          "endParagraph": 66,
+          "locationDescription": "Back in the examining room as Mitya awakes",
+          "imageDescription": "Dim golden morning light filters into the cluttered examining room. Dmitri Karamazov sits upright on the chest, looking freshly animated and emotionally moved, tears in his eyes. A pillow has been gently placed beneath his head. The investigating lawyer and his secretary stand nearby, observing him with guarded curiosity. Papers and inkpots are scattered on the table, and the remnants of the long night’s proceedings linger in the still air—an atmosphere of exhausted hope and quiet transformation.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "the_secretary_of_the_investigating_lawyer"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "entities": [
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…g lawyer of such‐ and‐such a district court, having examined so‐and‐so (to wit, Mitya) accused of this and of that (all the charges were carefully written out) and having considered that the accused, not pleading guilty to the charges made…"
+        },
+        {
+          "entityId": "the_investigating_lawyer",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "<p> When the protocol had been signed, Nikolay Parfenovitch turned solemnly to the prisoner and read him the “Committal,” setting forth, that in such a year, on such a day, in such a place, the investigating lawyer of s"
+        },
+        {
+          "entityId": "mavriky_mavrikyevitch",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…ormed him gently that he would be escorted at once by the rural police officer, Mavriky Mavrikyevitch, who happened to be on the spot.... </p>  <p> “Stay,” Mitya interrupted, suddenly, and impelled by uncontrollable feeling he pronounced, …"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…in the presence of—” </p>  <p> “Oh, well, if it must be so, it must!” </p>  <p> Grushenka was brought in, but the farewell was brief, and of few words, and did not at all satisfy Nikolay Parfenovitch. Grushenka made a deep bow to Mitya. </…"
+        },
+        {
+          "entityId": "trifon_borissovitch",
+          "type": "person",
+          "firstSeenInChapter": 51,
+          "excerpt": "…got in. At the gates there was a crowd of people, peasants, women and drivers. Trifon Borissovitch came down the steps too. All stared at Mitya. </p>  <p> “Forgive me at parting, good people!” Mitya shouted suddenly from the cart. </p>  <p…"
+        },
+        {
+          "entityId": "pyotr_fomitch_kalganov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…<p> “Good‐by, Dmitri Fyodorovitch, good‐by!” he heard all at once the voice of Kalganov, who had suddenly darted out. Running up to the cart he held out his hand to Mitya. He had no cap on. </p>  <p> Mitya had time to seize and press his h…"
+        },
+        {
+          "entityId": "andrey",
+          "type": "person",
+          "firstSeenInChapter": 50,
+          "excerpt": "…tom of the steps to which he had driven up with such a dash the day before with Andrey’s three horses, two carts stood in readiness. Mavriky Mavrikyevitch, a sturdy, thick‐set man with a wrinkled face, was annoyed about something, some sud…"
+        },
+        {
+          "entityId": "akim",
+          "type": "person",
+          "firstSeenInChapter": 62,
+          "excerpt": "…s pulling on his smock, stoutly maintaining that it was not his turn to go, but Akim’s. But Akim was not to be seen. They ran to look for him. The peasant persisted and besought them to wait. </p>  <p> “You see what our peasants are, Mavri…"
+        },
+        {
+          "entityId": "peasants",
+          "type": "person",
+          "firstSeenInChapter": 50,
+          "excerpt": "…t face,” thought Mitya, as he got in. At the gates there was a crowd of people, peasants, women and drivers. Trifon Borissovitch came down the steps too. All stared at Mitya. </p>  <p> “Forgive me at parting, good people!” Mitya shouted su…"
+        },
+        {
+          "entityId": "women",
+          "type": "person",
+          "firstSeenInChapter": 62,
+          "excerpt": "…hought Mitya, as he got in. At the gates there was a crowd of people, peasants, women and drivers. Trifon Borissovitch came down the steps too. All stared at Mitya. </p>  <p> “Forgive me at parting, good people!” Mitya shouted suddenly fro…"
+        },
+        {
+          "entityId": "drivers",
+          "type": "person",
+          "firstSeenInChapter": 62,
+          "excerpt": "…ya, as he got in. At the gates there was a crowd of people, peasants, women and drivers. Trifon Borissovitch came down the steps too. All stared at Mitya. </p>  <p> “Forgive me at parting, good people!” Mitya shouted suddenly from the cart…"
+        },
+        {
+          "entityId": "constables",
+          "type": "person",
+          "firstSeenInChapter": 62,
+          "excerpt": "…It appeared that everything was not yet ready in the second cart, in which two constables were to accompany Mavriky Mavrikyevitch. The peasant who had been ordered to drive the second cart was pulling on his smock, stoutly maintaining that…"
+        },
+        {
+          "entityId": "the_town",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…at he was, from that moment, a prisoner, and that he would be driven at once to the town, and there shut up in a very unpleasant place. Mitya listened attentively, and only shrugged his shoulders. </p>  <p> “Well, gentlemen, I don’t blame …"
+        },
+        {
+          "entityId": "the_steps",
+          "type": "place",
+          "firstSeenInChapter": 62,
+          "excerpt": "…as at once surrounded by men who kept a constant watch on him. At the bottom of the steps to which he had driven up with such a dash the day before with Andrey’s three horses, two carts stood in readiness. Mavriky Mavrikyevitch, a sturdy, …"
+        },
+        {
+          "entityId": "the_gates",
+          "type": "place",
+          "firstSeenInChapter": 62,
+          "excerpt": "…he tavern, the man had quite a different face,” thought Mitya, as he got in. At the gates there was a crowd of people, peasants, women and drivers. Trifon Borissovitch came down the steps too. All stared at Mitya. </p>  <p> “Forgive me at …"
+        },
+        {
+          "entityId": "the_cart",
+          "type": "place",
+          "firstSeenInChapter": 62,
+          "excerpt": "…, some sudden irregularity. He was shouting angrily. He asked Mitya to get into the cart with somewhat excessive surliness. </p>  <p> “When I stood him drinks in the tavern, the man had quite a different face,” thought Mitya, as he got in.…"
+        },
+        {
+          "entityId": "the_tavern",
+          "type": "place",
+          "firstSeenInChapter": 34,
+          "excerpt": "…e cart with somewhat excessive surliness. </p>  <p> “When I stood him drinks in the tavern, the man had quite a different face,” thought Mitya, as he got in. At the gates there was a crowd of people, peasants, women and drivers. Trifon Bor…"
+        },
+        {
+          "entityId": "prison",
+          "type": "place",
+          "firstSeenInChapter": 62,
+          "excerpt": "…When the protocol had been signed, Nikolay Parfenovitch turned solemnly to the prisoner and read him the “Committal,” setting forth, that in such a year, on such a day, in such a place, the investigating lawyer of such‐ and‐such a district…"
+        },
+        {
+          "entityId": "the_protocol_of_evidence",
+          "type": "event",
+          "firstSeenInChapter": 61,
+          "excerpt": "<p> When the protocol had been signed, Nikolay Parfenovitch turned solemnly to the prisoner and read him the “Committal,” setting forth, that in such a year, on such a day, in such"
+        },
+        {
+          "entityId": "the_interrogation_of_mitya",
+          "type": "event",
+          "firstSeenInChapter": 56,
+          "excerpt": "…ed this, and started. He let his outstretched hand fall at once. </p>  <p> “The preliminary inquiry is not yet over,” Nikolay Parfenovitch faltered, somewhat embarrassed. “We will continue it in the town, and I, for my part, of course, am …"
+        },
+        {
+          "entityId": "the_committal",
+          "type": "event",
+          "firstSeenInChapter": 62
+        },
+        {
+          "entityId": "the_bell",
+          "type": "event",
+          "firstSeenInChapter": 62,
+          "excerpt": "…erosity,” he cried warmly. </p>  <p> But the cart moved and their hands parted. The bell began ringing and Mitya was driven off. </p>  <p> Kalganov ran back, sat down in a corner, bent his head, hid his face in his hands, and burst out cry…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 3,
+          "locationDescription": "In the room where Mitya is formally charged",
+          "imageDescription": "A dark, plainly furnished 19th-century Russian interior with simple wooden furniture under a heavy lamp’s yellow glow. Dmitri sits, tense and upright, facing the investigating lawyer and other officers in uniform. Papers are spread on a desk, which the lawyer stands beside, reading aloud. Period attire on all: Mitya in a rumpled rural suit, the officials in buttoned coats. The mood is somber and formal.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer"
+          ]
+        },
+        {
+          "startParagraph": 4,
+          "endParagraph": 8,
+          "locationDescription": "Still in the room, Mitya gives his impassioned farewell",
+          "imageDescription": "Inside the same official, dimly-lit room, Dmitri stands with emotion, hand outstretched towards a circle of legal officials and policemen, who look on with mixed discomfort and surprise. Most are in modest uniforms and dark jackets. The air is heavy with tension and regret.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer"
+          ]
+        },
+        {
+          "startParagraph": 9,
+          "endParagraph": 15,
+          "locationDescription": "In the same room, Mitya asks to see Grushenka and they say farewell",
+          "imageDescription": "A small, close room made crowded by Grushenka’s entry. Dmitri and Grushenka stand close, her head bowed and cheeks glistening with tears; she is dressed in an embroidered rural dress and shawl, he in his simple suit. The lawyer and other officials stand awkwardly back, observing. The mood is deeply emotional and sorrowful.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "the_enchantress"
+          ]
+        },
+        {
+          "startParagraph": 16,
+          "endParagraph": 20,
+          "locationDescription": "Outside the inn, at the steps with carts ready for departure",
+          "imageDescription": "A gray, overcast afternoon in front of a rustic Russian inn. Two old wooden carts stand ready near muddy steps. Dmitri, watched by a gruff Mavriky Mavrikyevitch, is led to the first cart; Trifon Borissovitch is bustling nearby, shouting orders. Peasants, women, and drivers cluster under the eaves, some frowning, others curious. The scene is bustling and chilly, with period-appropriate peasant tunics and rough cloaks.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "mavriky_mavrikyevitch",
+            "trifon_borissovitch",
+            "peasants",
+            "women",
+            "drivers"
+          ]
+        },
+        {
+          "startParagraph": 21,
+          "endParagraph": 26,
+          "locationDescription": "Outside by the carts, confusion over the second driver",
+          "imageDescription": "Near the loaded carts at the muddy roadside, Trifon Borissovitch gestures in agitation beside drivers and a few constables. One peasant debates with him, while others search nearby outbuildings. Akim is absent but the confusion is evident. The weather is windy, with everyone wrapped in thick coats. The mood is one of impatience and petty argument.",
+          "characterIds": [
+            "trifon_borissovitch",
+            "drivers",
+            "peasants",
+            "constables"
+          ]
+        },
+        {
+          "startParagraph": 27,
+          "endParagraph": 33,
+          "locationDescription": "Mitya and Mavriky depart in the cart as villagers and Kalganov see them off",
+          "imageDescription": "Dmitri sits hunched and cold in the back of a wooden cart, rain-damp hair, wrapped in his coat, beside the stern Mavriky Mavrikyevitch. Trifon Borissovitch stands proudly watching them depart, while a young, capless Kalganov dashes to clasp Mitya’s hand. Townsfolk—peasants, women, drivers—watch the scene; the ringing bell sounds their farewell. The sky remains bleak and overcast.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "mavriky_mavrikyevitch",
+            "trifon_borissovitch",
+            "pyotr_fomitch_kalganov",
+            "peasants",
+            "women",
+            "drivers"
+          ]
+        },
+        {
+          "startParagraph": 34,
+          "endParagraph": 36,
+          "locationDescription": "Back inside the inn, Kalganov left alone in despair",
+          "imageDescription": "Inside a quiet, simple Russian room with wooden walls and crude benches, Kalganov, young and hatless in a light shirt and vest, sits alone at a corner table, head buried in his arms, weeping. Outside the rain-stained window, the empty yard and departing cart are barely visible. The atmosphere is heavy with sorrow and solitude.",
+          "characterIds": [
+            "pyotr_fomitch_kalganov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "entities": [
+        {
+          "entityId": "our_town",
+          "type": "place",
+          "firstSeenInChapter": 16,
+          "excerpt": "…ght, and a keen dry wind was lifting and blowing it along the dreary streets of our town, especially about the market‐place. It was a dull morning, but the snow had ceased. </p>  <p> Not far from the market‐place, close to Plotnikov’s shop…"
+        },
+        {
+          "entityId": "the_marketplace",
+          "type": "place",
+          "firstSeenInChapter": 16
+        },
+        {
+          "entityId": "plotnikovs_shop",
+          "type": "place",
+          "firstSeenInChapter": 50
+        },
+        {
+          "entityId": "madame_krassotkin",
+          "type": "person",
+          "firstSeenInChapter": 63,
+          "excerpt": "…, there stood a small house, very clean both without and within. It belonged to Madame Krassotkin, the widow of a former provincial secretary, who had been dead for fourteen years. His widow, still a nice‐looking woman of thirty‐two, was l…"
+        },
+        {
+          "entityId": "the_widow_of_a_former_provincial_secretary",
+          "type": "person",
+          "firstSeenInChapter": 63,
+          "excerpt": "…, there stood a small house, very clean both without and within. It belonged to Madame Krassotkin, the widow of a former provincial secretary, who had been dead for fourteen years. His widow, still a nice‐looking woman of thirty‐two, was l…"
+        },
+        {
+          "entityId": "kolya_krassotkin",
+          "type": "person",
+          "firstSeenInChapter": 63,
+          "excerpt": "…ted and grateful heart. </p>  <p> I have forgotten, by the way, to mention that Kolya Krassotkin was the boy stabbed with a penknife by the boy already known to the reader as the son of Captain Snegiryov. Ilusha had been defending his fath…"
+        },
+        {
+          "entityId": "the_school",
+          "type": "place",
+          "firstSeenInChapter": 31,
+          "excerpt": "…limb on a chair and fall off it, and so on and so on. When Kolya began going to school, the mother devoted herself to studying all the sciences with him so as to help him, and go through his lessons with him. She hastened to make the acqua…"
+        },
+        {
+          "entityId": "the_teacher_dardanelov",
+          "type": "person",
+          "firstSeenInChapter": 63,
+          "excerpt": "…He was good at lessons, and there was a rumor in the school that he could beat the teacher, Dardanelov, at arithmetic and universal history. Though he looked down upon every one, he was a good comrade and not supercilious. He accepted his …"
+        },
+        {
+          "entityId": "schoolfellows",
+          "type": "person",
+          "firstSeenInChapter": 63,
+          "excerpt": "…make the acquaintance of the teachers and their wives, even made up to Kolya’s schoolfellows, and fawned upon them in the hope of thus saving Kolya from being teased, laughed at, or beaten by them. She went so far that the boys actually be…"
+        },
+        {
+          "entityId": "anna_fyodorovna",
+          "type": "person",
+          "firstSeenInChapter": 63,
+          "excerpt": "…, there stood a small house, very clean both without and within. It belonged to Madame Krassotkin, the widow of a former provincial secretary, who had been dead for fourteen years. His widow, still a nice‐looking woman of thirty‐two, was l…"
+        },
+        {
+          "entityId": "universal_history",
+          "type": "event",
+          "firstSeenInChapter": 63,
+          "excerpt": "…mor in the school that he could beat the teacher, Dardanelov, at arithmetic and universal history. Though he looked down upon every one, he was a good comrade and not supercilious. He accepted his schoolfellows’ respect as his due, but was…"
+        },
+        {
+          "entityId": "the_masters",
+          "type": "person",
+          "firstSeenInChapter": 63,
+          "excerpt": "…came back to the town it penetrated to the school and even reached the ears of the masters. But then Kolya’s mother hastened to entreat the masters on her boy’s behalf, and in the end Dardanelov, a respected and influential teacher, exerte…"
+        },
+        {
+          "entityId": "katchalnikov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…rue, he got into another scrape, which even brought his name to the ears of our Justice of the Peace, but it was a scrape of quite another kind, amusing, foolish, and he did not, as it turned out, take the leading part in it, but was only …"
+        },
+        {
+          "entityId": "perezvon",
+          "type": "person",
+          "firstSeenInChapter": 63,
+          "excerpt": "…wling, or would investigate the state of his boots, or would shout angrily for “Perezvon,” the big, shaggy, mangy dog, which he had picked up a month before, brought home, and kept for some reason secretly indoors, not showing him to any o…"
+        },
+        {
+          "entityId": "ilusha",
+          "type": "person",
+          "firstSeenInChapter": 31,
+          "excerpt": "enknife by the boy already known to the reader as the son of Captain Snegiryov. Ilusha had been defending his father when the schoolboys jeered at him, shouting the nickname “wisp of tow.” </p>"
+        },
+        {
+          "entityId": "the_captain",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "oy stabbed with a penknife by the boy already known to the reader as the son of Captain Snegiryov. Ilusha had been defending his father when the schoolboys jeered at him, shouting the nickname “wisp of tow.” </p>"
+        },
+        {
+          "entityId": "the_boys_at_the_station",
+          "type": "person",
+          "firstSeenInChapter": 63
+        },
+        {
+          "entityId": "the_railway_station",
+          "type": "place",
+          "firstSeenInChapter": 63
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…tation (the very station, the nearest one to our town, from which a month later Ivan Fyodorovitch Karamazov set off for Moscow). There Kolya began by carefully investigating every detail connected with the railways, knowing that he could i…"
+        },
+        {
+          "entityId": "moscow",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…e to our town, from which a month later Ivan Fyodorovitch Karamazov set off for Moscow). There Kolya began by carefully investigating every detail connected with the railways, knowing that he could impress his schoolfellows when he got hom…"
+        },
+        {
+          "entityId": "smaragdovs_universal_history",
+          "type": "event",
+          "firstSeenInChapter": 19
+        },
+        {
+          "entityId": "troy",
+          "type": "place",
+          "firstSeenInChapter": 63,
+          "excerpt": "…uld “beat” even Dardanelov. Kolya did indeed ask him the question, “Who founded Troy?” to which Dardanelov had made a very vague reply, referring to the movements and migrations of races, to the remoteness of the period, to the mythical le…"
+        },
+        {
+          "entityId": "the_holy_image",
+          "type": "event",
+          "firstSeenInChapter": 63,
+          "excerpt": "…s honor that such pranks should never be repeated. He swore on his knees before the holy image, and swore by the memory of his father, at Madame Krassotkin’s instance, and the “manly” Kolya burst into tears like a boy of six. And all that …"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "The market-place and streets of the town in early November",
+          "imageDescription": "A bleak, overcast morning in a small Russian town marketplace at the beginning of November, with a thin layer of dry snow blown about by a sharp wind. Figures in thick 19th-century coats hurry along the street past shuttered shops and worn wooden houses. The ground is frozen, and the sky is gray, casting a cold, dull light over the scene. The atmosphere suggests an early winter chill, with bundled townsfolk bracing themselves as they move through the open, treeless square."
+        },
+        {
+          "startParagraph": 1,
+          "endParagraph": 2,
+          "locationDescription": "Outside and inside Madame Krassotkin's house near the market-place",
+          "imageDescription": "A modest but spotless house stands near a busy street, its neatly tended doorstep and shutters indicating careful upkeep. Inside, in a warmly lit, tidy parlor, Madame Krassotkin, a well-groomed woman of thirty-two in widow’s black, sits quietly with an air of gentle concern. Kolya Krassotkin, a robust and lively boy of fourteen, is visible in the next room, perhaps at a wooden table with books. The decor is simple but comfortable, reflecting respectable modest means. The atmosphere is intimate and dignified, with subtle tension beneath the domestic order.",
+          "characterIds": [
+            "madame_krassotkin",
+            "kolya_krassotkin"
+          ]
+        },
+        {
+          "startParagraph": 3,
+          "endParagraph": 3,
+          "locationDescription": "Madame Krassotkin’s bookcase and study area",
+          "imageDescription": "A small, well-worn bookcase filled with old volumes stands in a corner of Madame Krassotkin's parlor. Kolya, dressed in a neat but slightly rumpled school uniform of the late 19th century, stands intently reading, bathed in the soft natural light from a nearby window. The setting is serene and scholarly, with the quiet domesticity of a middle-class Russian home. Madame Krassotkin is seated in a nearby chair, watching her son with a fond mixture of worry and pride.",
+          "characterIds": [
+            "madame_krassotkin",
+            "kolya_krassotkin"
+          ]
+        },
+        {
+          "startParagraph": 4,
+          "endParagraph": 4,
+          "locationDescription": "The bookcase and the parlor in Madame Krassotkin's house",
+          "imageDescription": "The action centers on Madame Krassotkin, who sits with visible concern in her parlor as Kolya, bold and restless, paces or gestures animatedly near the bookcase. The room is still homely, lit by the wan November daylight. Aware of his increasingly daring pranks, Madame Krassotkin's expression is tense and anxious, while Kolya appears confident and somewhat mischievous.",
+          "characterIds": [
+            "madame_krassotkin",
+            "kolya_krassotkin"
+          ]
+        },
+        {
+          "startParagraph": 5,
+          "endParagraph": 5,
+          "locationDescription": "Railway station and surrounding area forty-five miles from the town (summer)",
+          "imageDescription": "A bustling rural railway station in central Russia during a warm July evening of the late 19th century. Kolya stands with a group of boys, ranging from twelve to fifteen, near the tracks and old railway buildings, all dressed in summer shirts and short jackets. Some boys loiter on the embankment, others gather around Kolya, actively discussing and joking. In the distance, an open countryside bathed in fading golden sunset light frames the scene, giving it the lively yet tense anticipation of a boys’ holiday adventure.",
+          "characterIds": [
+            "madame_krassotkin",
+            "kolya_krassotkin",
+            "the_boys_at_the_station"
+          ]
+        },
+        {
+          "startParagraph": 6,
+          "endParagraph": 6,
+          "locationDescription": "By the railway tracks, half a mile from the station, at night",
+          "imageDescription": "A pitch-dark moonless night on a remote stretch of railway, illuminated only by the approach of an oncoming train with two red lanterns glowing. Kolya lies flat between the rails, his face pale and taut with tension. Five older boys hide in the underbrush of the embankment, eyes wide with terror. Trees and open fields surround the tracks, and the drama is heightened by stark contrasts of headlight beams against the engulfing darkness.",
+          "characterIds": [
+            "kolya_krassotkin",
+            "the_boys_at_the_station"
+          ]
+        },
+        {
+          "startParagraph": 7,
+          "endParagraph": 7,
+          "locationDescription": "Around the tracks, after the train has passed",
+          "imageDescription": "The scene is near the railway tracks under the dim starlight, moments after the train has thundered by. The five boys in summer shirts huddle anxiously around Kolya, who lies stiff and seemingly unconscious between the rails. As they begin to help him up, their faces show a mixture of fear, relief, and awe. The wild grass on the embankment rustles in the night wind, and the whole area feels charged from the recent danger.",
+          "characterIds": [
+            "kolya_krassotkin",
+            "the_boys_at_the_station"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Back at the railway station, the next day",
+          "imageDescription": "Inside a modest railway station office the morning after Kolya’s harrowing ordeal. Kolya stands pale and drawn but smiling with pride, surrounded by a small group of local boys who look at him with new respect. A relative in a uniform stands in the background, unaware or unconcerned. Early sunlight filters through dusty windows, the air tense with excitement and whispered stories.",
+          "characterIds": [
+            "kolya_krassotkin",
+            "the_boys_at_the_station"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 8,
+          "locationDescription": "Back in town, at school and among the masters",
+          "imageDescription": "A 19th-century schoolroom with rows of wooden desks and high windows. Kolya stands confidently among his classmates, some admiring, others whispering. A group of stern-faced teachers, including Dardanelov, gather near the teacher’s desk in the background, discussing the rumor with grave expressions. The room is lit by weak daylight, with a sense of both scandal and excitement among students and staff.",
+          "characterIds": [
+            "kolya_krassotkin",
+            "schoolfellows",
+            "the_teacher_dardanelov",
+            "the_masters"
+          ]
+        },
+        {
+          "startParagraph": 9,
+          "endParagraph": 9,
+          "locationDescription": "Madame Krassotkin’s house after the railway incident",
+          "imageDescription": "An emotionally charged scene unfolds in the small parlor of Madame Krassotkin’s house. The mother, visibly overwrought and tearful, embraces Kolya, who kneels before her at a simple home altar, his face streaked with tears. Candlelight and icons provide a soft, golden glow, accentuating the sincerity and tension of their reconciliation. The atmosphere is tender yet somber, with both mother and son emotionally spent but united.",
+          "characterIds": [
+            "madame_krassotkin",
+            "kolya_krassotkin"
+          ]
+        },
+        {
+          "startParagraph": 10,
+          "endParagraph": 10,
+          "locationDescription": "Classroom and domestic scenes in the weeks after the event",
+          "imageDescription": "A composite illustration blending a school scene and home life: in the classroom, Kolya recites a lesson, distant from yet watched attentively by Dardanelov and surrounded by his fellow pupils. At home, Madame Krassotkin, still worried, consults with the dignified Dardanelov in the parlor; Kolya passes by, avoiding eye contact, while in a corner, the large, shaggy dog Perezvon lounges restlessly. School uniforms and modest 19th-century civilian attire evoke the period, with a constant undercurrent of tension and hope.",
+          "characterIds": [
+            "madame_krassotkin",
+            "kolya_krassotkin",
+            "the_teacher_dardanelov",
+            "schoolfellows",
+            "perezvon"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 10,
+          "locationDescription": "In Madame Krassotkin's house, with Kolya and Perezvon",
+          "imageDescription": "In the cozy lamplight of Madame Krassotkin's parlor, she sits talking with a guest, blushing delicately. Kolya stands to the side, pretending to be engrossed by his boots or looking away irritably. By his leg, Perezvon, a large, shaggy, mangy dog, looks up at Kolya with eager affection, ready to perform a trick. The furnishings are plain but clean, and the emotional currents are subtly visible in the body language of both mother and son.",
+          "characterIds": [
+            "madame_krassotkin",
+            "kolya_krassotkin",
+            "perezvon"
+          ]
+        },
+        {
+          "startParagraph": 11,
+          "endParagraph": 11,
+          "locationDescription": "Schoolyard, recalling a past conflict with Ilusha",
+          "imageDescription": "A chilly fall day in a sandy schoolyard encircled by wooden fencing. Kolya and Ilusha, both in simple school uniforms, stand tension-filled amongst a small ring of schoolboys. Ilusha faces Kolya defiantly, clutching a penknife, while other boys look on—some taunting, some anxious. The scene is charged with conflict and childhood distress, set against the bleak background of the Russian provincial school.",
+          "characterIds": [
+            "kolya_krassotkin",
+            "ilusha",
+            "schoolfellows"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "entities": [
+        {
+          "entityId": "kolya_krassotkin",
+          "type": "person",
+          "firstSeenInChapter": 63,
+          "excerpt": "<p> And so on that frosty, snowy, and windy day in November, Kolya Krassotkin was sitting at home. It was Sunday and there was no school. It had just struck eleven, and he particularly wanted to go out “on very urgent business,” but he w"
+        },
+        {
+          "entityId": "perezvon",
+          "type": "person",
+          "firstSeenInChapter": 63,
+          "excerpt": "…re left alone. Kolya was not afraid of taking care of the house, besides he had Perezvon, who had been told to lie flat, without moving, under the bench in the hall. Every time Kolya, walking to and fro through the rooms, came into the hal…"
+        },
+        {
+          "entityId": "madame_krassotkin",
+          "type": "person",
+          "firstSeenInChapter": 63,
+          "excerpt": "…ed that all its elder inmates were absent owing to a sudden and singular event. Madame Krassotkin had let two little rooms, separated from the rest of the house by a passage, to a doctor’s wife with her two small children. This lady was th…"
+        },
+        {
+          "entityId": "anna_fyodorovna",
+          "type": "person",
+          "firstSeenInChapter": 63,
+          "excerpt": "…ed that all its elder inmates were absent owing to a sudden and singular event. Madame Krassotkin had let two little rooms, separated from the rest of the house by a passage, to a doctor’s wife with her two small children. This lady was th…"
+        },
+        {
+          "entityId": "agafya_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 17,
+          "excerpt": "…. </p>  <p> So both the ladies were absent from home, the Krassotkins’ servant, Agafya, had gone out to the market, and Kolya was thus left for a time to protect and look after “the kids,” that is, the son and daughter of the doctor’s wife…"
+        },
+        {
+          "entityId": "katerina",
+          "type": "person",
+          "firstSeenInChapter": 64,
+          "excerpt": "…ly have completely dissolved away in tears. And now, to add to her misfortunes, Katerina, her only servant, was suddenly moved the evening before to announce, to her mistress’s amazement, that she proposed to bring a child into the world b…"
+        },
+        {
+          "entityId": "the_doctors_wife",
+          "type": "person",
+          "firstSeenInChapter": 64
+        },
+        {
+          "entityId": "yefim_petrovitch_polenov",
+          "type": "person",
+          "firstSeenInChapter": 3,
+          "excerpt": "…y was the same age as Anna Fyodorovna, and a great friend of hers. Her husband, the doctor, had taken his departure twelve months before, going first to Orenburg and then to Tashkend, and for the last six months she had not heard a word fr…"
+        },
+        {
+          "entityId": "orenburg",
+          "type": "place",
+          "firstSeenInChapter": 64,
+          "excerpt": "…sband, the doctor, had taken his departure twelve months before, going first to Orenburg and then to Tashkend, and for the last six months she had not heard a word from him. Had it not been for her friendship with Madame Krassotkin, which …"
+        },
+        {
+          "entityId": "tashkend",
+          "type": "place",
+          "firstSeenInChapter": 64,
+          "excerpt": "…d taken his departure twelve months before, going first to Orenburg and then to Tashkend, and for the last six months she had not heard a word from him. Had it not been for her friendship with Madame Krassotkin, which was some consolation …"
+        },
+        {
+          "entityId": "midwifes_establishment_in_the_town",
+          "type": "place",
+          "firstSeenInChapter": 64
+        },
+        {
+          "entityId": "nastya",
+          "type": "person",
+          "firstSeenInChapter": 64,
+          "excerpt": "…very fond of the bereaved “kiddies,” and had already taken them a picture‐book. Nastya, the elder, a girl of eight, could read, and Kostya, the boy, aged seven, was very fond of being read to by her. Krassotkin could, of course, have provi…"
+        },
+        {
+          "entityId": "kostya",
+          "type": "person",
+          "firstSeenInChapter": 64,
+          "excerpt": "…taken them a picture‐book. Nastya, the elder, a girl of eight, could read, and Kostya, the boy, aged seven, was very fond of being read to by her. Krassotkin could, of course, have provided more diverting entertainment for them. He could h…"
+        },
+        {
+          "entityId": "schoolboys",
+          "type": "person",
+          "firstSeenInChapter": 27
+        },
+        {
+          "entityId": "the_house_of_madame_krassotkin",
+          "type": "place",
+          "firstSeenInChapter": 64
+        },
+        {
+          "entityId": "the_market",
+          "type": "place",
+          "firstSeenInChapter": 64
+        },
+        {
+          "entityId": "the_rooms_of_the_doctors_wife",
+          "type": "place",
+          "firstSeenInChapter": 64,
+          "excerpt": "…om market. He had several times already crossed the passage, opened the door of the lodgers’ room and looked anxiously at “the kids” who were sitting over the book, as he had bidden them. Every time he opened the door they grinned at him, …"
+        },
+        {
+          "entityId": "kitchengarden",
+          "type": "place",
+          "firstSeenInChapter": 64
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Kolya's family home, main living area",
+          "imageDescription": "A warmly lit interior of a well-kept 19th-century Russian home, with heavy winter light filtering through the frosted window. Kolya Krassotkin, a proud boy of thirteen in a modest period suit, sits near a table with books. The room feels tidy yet lived-in, with evidence of children's presence and tasteful, period-appropriate furnishings. A medium-sized, rough-haired dog, Perezvon, waits obediently under a bench in the hall. The wintry atmosphere is hinted at through the glowing windows, casting cool shadows across the wooden floor.",
+          "characterIds": [
+            "kolya_krassotkin",
+            "perezvon"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 2,
+          "locationDescription": "Kolya's house, the lodgers' rooms across the passage",
+          "imageDescription": "A simple, slightly smaller adjoining room in the same Russian house, with Nastya, an eight-year-old girl in a modest winter dress, and Kostya, a seven-year-old boy in simple childhood attire, sitting huddled at a small wooden table with a colorful picture-book. The lighting is soft and domestic. The atmosphere is cozy but expectant, with Kolya seen just outside or peeking in the door, hesitating, dressed for the cold in his wadded winter overcoat with a fur collar. The scene feels intimate and the furnishings are plain but homey.",
+          "characterIds": [
+            "kolya_krassotkin",
+            "nastya",
+            "kostya"
+          ]
+        },
+        {
+          "startParagraph": 3,
+          "endParagraph": 3,
+          "locationDescription": "The passage outside the lodgers' room",
+          "imageDescription": "The narrow wooden passage between rooms, lit dimly by daylight seeping through frosted glass. Kolya stands in the midst of putting on his winter coat and slinging his satchel on his shoulder, boots on his feet but ignoring a pair of galoshes nearby. Perezvon, his loyal dog, is perking up expectantly, tail twitching in anticipation, still obeying the order to stay under the bench but visibly eager. The scene captures the feeling of restless urgency and winter chill.",
+          "characterIds": [
+            "kolya_krassotkin",
+            "perezvon"
+          ]
+        },
+        {
+          "startParagraph": 4,
+          "endParagraph": 22,
+          "locationDescription": "Lodgers' room, children's discussion",
+          "imageDescription": "Back in the lodgers’ room, with the same children, Nastya and Kostya, now animatedly discussing across the table, faces lively and expressive. Kolya stands in the doorway listening, posed with curiosity and slight impatience, dressed for outdoors. Natural pale daylight through the window brings out the muted colors of their winter clothes. The dog waits in the hallway beyond. The modest, domestic setting enhances the intimacy and innocence of the scene.",
+          "characterIds": [
+            "kolya_krassotkin",
+            "nastya",
+            "kostya"
+          ]
+        },
+        {
+          "startParagraph": 23,
+          "endParagraph": 43,
+          "locationDescription": "Lodgers' room, cannon demonstration",
+          "imageDescription": "In the small, neat room, Kolya stands by the table displaying a tiny bronze toy cannon to the awe-stricken Nastya and Kostya, who lean in with wide-eyed fascination. The cloudy daylight from the window softly lights the scene, highlighting the period details of the children's clothing and Kolya's winter coat. The table is scattered with small items: the cannon, a flask of gunpowder, and paper with shot. The atmosphere is a mix of excitement and childlike wonder.",
+          "characterIds": [
+            "kolya_krassotkin",
+            "nastya",
+            "kostya"
+          ]
+        },
+        {
+          "startParagraph": 44,
+          "endParagraph": 50,
+          "locationDescription": "Lodgers' room, Perezvon's performances and Agafya's return",
+          "imageDescription": "The cheerful, cluttered warmth of the lodgers’ room now includes not only the children and Kolya but Perezvon, the dog, in action: standing, rolling, and playing dead as directed by Kolya, who kneels beside him with theatrical gestures. The children are on the edge of the table, faces gleaming with delight. At the doorway, Agafya Ivanovna enters, a slightly stout, middle-aged woman in a peasant shawl and apron, holding a full market bag. She pauses, amused and attentive, watching the dog’s performance in the winter-lit room.",
+          "characterIds": [
+            "kolya_krassotkin",
+            "nastya",
+            "kostya",
+            "perezvon",
+            "agafya_ivanovna"
+          ]
+        },
+        {
+          "startParagraph": 51,
+          "endParagraph": 58,
+          "locationDescription": "Lodgers' room, arrangements for Kolya's departure",
+          "imageDescription": "Kolya stands upright in the cozy, well-used room, addressing Agafya Ivanovna with mock solemnity as she fusses with provisions near the stove. The two children watch the exchange from the table with attentive faces. The light is warmer now, reflecting off the copper and wood of household implements. Perezvon sits loyally beside Kolya. Agafya is in her simple peasant dress and shawl, Kolya still in his winter attire. The scene radiates a feeling of gentle good-humor, security, and the busy-ness of domestic life.",
+          "characterIds": [
+            "kolya_krassotkin",
+            "nastya",
+            "kostya",
+            "perezvon",
+            "agafya_ivanovna"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 65,
+      "entities": [
+        {
+          "entityId": "kolya_krassotkin",
+          "type": "person",
+          "firstSeenInChapter": 63,
+          "excerpt": "…to meet him. This was Smurov, a boy in the preparatory class (two classes below Kolya Krassotkin), son of a well‐to‐do official. Apparently he was forbidden by his parents to associate with Krassotkin, who was well known to be a desperatel…"
+        },
+        {
+          "entityId": "smurov",
+          "type": "person",
+          "firstSeenInChapter": 27,
+          "excerpt": "…n, wearing a warm, neat and even stylish coat, darted out to meet him. This was Smurov, a boy in the preparatory class (two classes below Kolya Krassotkin), son of a well‐to‐do official. Apparently he was forbidden by his parents to associ…"
+        },
+        {
+          "entityId": "perezvon",
+          "type": "person",
+          "firstSeenInChapter": 63,
+          "excerpt": "…for coming with me?” </p>  <p> “Come, I say, I’m never thrashed! And you’ve got Perezvon with you?” </p>  <p> “Yes.” </p>  <p> “You’re taking him, too?” </p>  <p> “Yes.” </p>  <p> “Ah! if it were only Zhutchka!” </p>  <p> “That’s impossibl…"
+        },
+        {
+          "entityId": "ilusha",
+          "type": "person",
+          "firstSeenInChapter": 31,
+          "excerpt": "…t forgotten—one of the group of boys who two months before had thrown stones at Ilusha. He was the one who told Alyosha Karamazov about Ilusha. </p>  <p> “I’ve been waiting for you for the last hour, Krassotkin,” said Smurov stolidly, and …"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…boys who two months before had thrown stones at Ilusha. He was the one who told Alyosha Karamazov about Ilusha. </p>  <p> “I’ve been waiting for you for the last hour, Krassotkin,” said Smurov stolidly, and the boys strode towards the mark…"
+        },
+        {
+          "entityId": "the_captain",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…n’t comfort him with Perezvon,” said Smurov, with a sigh. “You know his father, the captain, ‘the wisp of tow,’ told us that he was going to bring him a real mastiff pup, with a black nose, to‐day. He thinks that would comfort Ilusha; but …"
+        },
+        {
+          "entityId": "doctor_herzenstube",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…de him stagger, but it was simply weakness, really. He won’t live another week. Herzenstube is looking after him. Now they are rich again—they’ve got heaps of money.” </p>  <p> “They are rogues.” </p>  <p> “Who are rogues?” </p>  <p> “Doct…"
+        },
+        {
+          "entityId": "divinity_student",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…hat, because I am convinced that there is far more foolishness among us. That’s Rakitin’s idea—a remarkable idea. I am a Socialist, Smurov.” </p>  <p> “And what is a Socialist?” asked Smurov. </p>  <p> “That’s when all are equal and all ha…"
+        },
+        {
+          "entityId": "natasha",
+          "type": "person",
+          "firstSeenInChapter": 65,
+          "excerpt": "…ut with you.” </p>  <p> “Don’t be uneasy, nothing will happen this time. Hallo, Natasha!” he shouted to a market woman in one of the booths. </p>  <p> “Call me Natasha! What next! My name is Marya,” the middle‐aged market woman shouted at …"
+        },
+        {
+          "entityId": "marya_kondratyevna",
+          "type": "person",
+          "firstSeenInChapter": 33,
+          "excerpt": "…t woman in one of the booths. </p>  <p> “Call me Natasha! What next! My name is Marya,” the middle‐aged market woman shouted at him. </p>  <p> “I am so glad it’s Marya. Good‐by!” </p>  <p> “Ah, you young rascal! A brat like you to carry on…"
+        },
+        {
+          "entityId": "matvey",
+          "type": "person",
+          "firstSeenInChapter": 65,
+          "excerpt": "…rov. </p>  <p> “It’s all right; he won’t be cross; he’s a nice fellow. Good‐by, Matvey.” </p>  <p> “Good‐by.” </p>  <p> “Is your name Matvey?” </p>  <p> “Yes. Didn’t you know?” </p>  <p> “No, I didn’t. It was a guess.” </p>  <p> “You don’t…"
+        },
+        {
+          "entityId": "trifon_nikititch",
+          "type": "person",
+          "firstSeenInChapter": 65,
+          "excerpt": "…your business.” </p>  <p> “Whose then? Whose then? Whose then?” </p>  <p> “It’s Trifon Nikititch’s business, not yours.” </p>  <p> “What Trifon Nikititch?” asked the youth, staring with loutish amazement at Kolya, but still as angry as eve…"
+        },
+        {
+          "entityId": "zhutchka",
+          "type": "person",
+          "firstSeenInChapter": 65,
+          "excerpt": "…<p> “You’re taking him, too?” </p>  <p> “Yes.” </p>  <p> “Ah! if it were only Zhutchka!” </p>  <p> “That’s impossible. Zhutchka’s non‐existent. Zhutchka is lost in the mists of obscurity.” </p>  <p> “Ah! couldn’t we do this?” Smurov sudden…"
+        },
+        {
+          "entityId": "market_women",
+          "type": "person",
+          "firstSeenInChapter": 65,
+          "excerpt": "…were many loaded wagons from the country and a great number of live fowls. The market women were selling rolls, cottons and threads, etc., in their booths. These Sunday markets were naïvely called “fairs” in the town, and there were many s…"
+        },
+        {
+          "entityId": "youthmerchants_clerk",
+          "type": "person",
+          "firstSeenInChapter": 65
+        },
+        {
+          "entityId": "sabaneyev",
+          "type": "person",
+          "firstSeenInChapter": 65,
+          "excerpt": "…o, I haven’t,” said the young man, somewhat taken aback. </p>  <p> “Do you know Sabaneyev?” Kolya went on even more emphatically and even more severely. </p>  <p> “What Sabaneyev? No, I don’t know him.” </p>  <p> “Well then you can go to t…"
+        },
+        {
+          "entityId": "kuzmitchovs",
+          "type": "person",
+          "firstSeenInChapter": 65,
+          "excerpt": "…brandishing his right arm. </p>  <p> “It must be a Sabaneyev who worked for the Kuzmitchovs, that’s who it must be,” one of the women suggested. </p>  <p> The young man stared at her wildly. </p>  <p> “For the Kuzmitchovs?” repeated anothe…"
+        },
+        {
+          "entityId": "kuzma",
+          "type": "person",
+          "firstSeenInChapter": 52,
+          "excerpt": "…e Kuzmitchovs?” repeated another woman. “But his name wasn’t Trifon. His name’s Kuzma, not Trifon; but the boy said Trifon Nikititch, so it can’t be the same.” </p>  <p> “His name is not Trifon and not Sabaneyev, it’s Tchizhov,” put in sud…"
+        },
+        {
+          "entityId": "tchizhov_alexey_ivanitch",
+          "type": "person",
+          "firstSeenInChapter": 65,
+          "excerpt": "…who had hitherto been silent, listening gravely. “Alexey Ivanitch is his name. Tchizhov, Alexey Ivanitch.” </p>  <p> “Not a doubt about it, it’s Tchizhov,” a fourth woman emphatically confirmed the statement. </p>  <p> The bewildered youth…"
+        },
+        {
+          "entityId": "schoolboys",
+          "type": "person",
+          "firstSeenInChapter": 27,
+          "excerpt": "…e first word. Some things can’t be explained. According to a peasant’s notions, schoolboys are whipped, and must be whipped. What would a schoolboy be if he were not whipped? And if I were to tell him we are not, he’d be disappointed. But …"
+        },
+        {
+          "entityId": "the_peasantry",
+          "type": "person",
+          "firstSeenInChapter": 42,
+          "excerpt": "…tell I had hit on a clever one? I am always ready to recognize intelligence in the peasantry.” </p>  <p> In the distance the cathedral clock struck half‐past eleven. The boys made haste and they walked as far as Captain Snegiryov’s lodging…"
+        },
+        {
+          "entityId": "the_marketplace",
+          "type": "place",
+          "firstSeenInChapter": 16
+        },
+        {
+          "entityId": "the_street",
+          "type": "place",
+          "firstSeenInChapter": 48,
+          "excerpt": "…im, shrugged up his shoulders, and saying “It is freezing,” went straight along the street and turned off to the right towards the market‐place. When he reached the last house but one before the market‐place he stopped at the gate, pulled …"
+        },
+        {
+          "entityId": "the_town",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…ads, etc., in their booths. These Sunday markets were naïvely called “fairs” in the town, and there were many such fairs in the year. </p>  <p> Perezvon ran about in the wildest spirits, sniffing about first one side, then the other. When …"
+        },
+        {
+          "entityId": "captain_snegiryovs_lodging",
+          "type": "place",
+          "firstSeenInChapter": 65,
+          "excerpt": "…al clock struck half‐past eleven. The boys made haste and they walked as far as Captain Snegiryov’s lodging, a considerable distance, quickly and almost in silence. Twenty paces from the house Kolya stopped and told Smurov to go on ahead a…"
+        },
+        {
+          "entityId": "the_cathedral",
+          "type": "place",
+          "firstSeenInChapter": 45,
+          "excerpt": "…ys ready to recognize intelligence in the peasantry.” </p>  <p> In the distance the cathedral clock struck half‐past eleven. The boys made haste and they walked as far as Captain Snegiryov’s lodging, a considerable distance, quickly and al…"
+        },
+        {
+          "entityId": "the_fair",
+          "type": "event",
+          "firstSeenInChapter": 65
+        },
+        {
+          "entityId": "the_crime_trial_of_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 65
+        },
+        {
+          "entityId": "the_goose_incident",
+          "type": "event",
+          "firstSeenInChapter": 65
+        },
+        {
+          "entityId": "socialism",
+          "type": "event",
+          "firstSeenInChapter": 65
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Street near the market-place",
+          "imageDescription": "A frosty 19th-century Russian street in morning light, with Kolya Krassotkin bundled in a dark schoolboy’s coat and cap, striding determinedly. He looks over his shoulder at a warmly dressed, rosy-cheeked boy, Smurov, who emerges from a gated yard to join him. Kolya carries a whistle, and both boys are dressed in period school uniforms. The cold air is visible, shimmering from their breath, and the atmosphere is brisk, with the promise of youthful purpose in their posture.",
+          "characterIds": [
+            "kolya_krassotkin",
+            "smurov"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 33,
+          "locationDescription": "Through the market-place",
+          "imageDescription": "A lively rural Russian market square, crowded with loaded wooden wagons, peasant women in shawls selling rolls and fabrics from rough stalls, and bundles of live fowl. Kolya and Smurov walk together, accompanied by a lively dog—Perezvon—who darts among the stalls sniffing. Market women cluster under awnings, wrapped against the cold. The early winter sunlight slants through chilly air, creating a vibrant, bustling scene.",
+          "characterIds": [
+            "kolya_krassotkin",
+            "smurov",
+            "perezvon",
+            "market_women",
+            "the_peasantry"
+          ]
+        },
+        {
+          "startParagraph": 34,
+          "endParagraph": 60,
+          "locationDescription": "Beside a peasant’s wagon in the market-place",
+          "imageDescription": "At the edge of the bustling market, a tall peasant stands by his horse-drawn wagon, wrapped in a heavy sheepskin coat with a beard white with frost, clapping his gloved hands to warm them. Kolya and Smurov pause nearby, looking at him with curiosity and amusement. The scene is set under the pale blue winter sky, with bystanders and wagons in the background, and the air tinged with cold but hearty conversation.",
+          "characterIds": [
+            "kolya_krassotkin",
+            "smurov",
+            "matvey"
+          ]
+        },
+        {
+          "startParagraph": 61,
+          "endParagraph": 66,
+          "locationDescription": "Market booths among the women sellers",
+          "imageDescription": "Lined market booths in a snowy town square, filled with middle-aged women—market vendors—wrapped in heavy shawls and kerchiefs, jeering good-naturedly. Kolya stands cheekily in front of one bustling booth, addressing a robust woman, Marya Kondratyevna, who points at him sternly. Smurov stands behind Kolya, looking uneasy. Cold sunlight glints off the frozen ground, and surrounding women laugh and gesture animatedly.",
+          "characterIds": [
+            "kolya_krassotkin",
+            "smurov",
+            "natasha",
+            "marya_kondratyevna",
+            "market_women"
+          ]
+        },
+        {
+          "startParagraph": 67,
+          "endParagraph": 86,
+          "locationDescription": "Arcade near market booths",
+          "imageDescription": "Near the market’s covered arcade, a pale young man with curly hair and a smallpox-scarred face, dressed in a long blue coat and peaked cap, brandishes his fist at Kolya, who stands calmly, undaunted. Smurov hovers at Kolya’s shoulder, watching warily. Nearby, the market women turn to watch the confrontation, shawls wrapped tightly against the chill. The arcade’s dark arches frame the tense scene, with passersby pausing amid market bustle.",
+          "characterIds": [
+            "kolya_krassotkin",
+            "smurov",
+            "youthmerchants_clerk",
+            "market_women"
+          ]
+        },
+        {
+          "startParagraph": 87,
+          "endParagraph": 111,
+          "locationDescription": "Group of women at the market after Kolya leaves",
+          "imageDescription": "Clustered at a wooden market stall, several boisterous market women in colorful shawls and aprons converse animatedly with the indignant youth/merchant’s clerk, who gestures wildly. The women respond with laughter, sly smiles, and exaggerated shrugs. In the background, the market’s activity continues, with peasants and townsfolk bustling by. The atmosphere is lively, full of rustic camaraderie and winter energy.",
+          "characterIds": [
+            "market_women",
+            "youthmerchants_clerk",
+            "kuzmitchovs",
+            "kuzma",
+            "tchizhov_alexey_ivanitch"
+          ]
+        },
+        {
+          "startParagraph": 112,
+          "endParagraph": 128,
+          "locationDescription": "Passing another peasant on the street beyond the market",
+          "imageDescription": "On a snowy street just beyond the noisy market square, Kolya exchanges a few words with a stocky peasant whose simple, shrewd face and grizzled beard show wisdom and resignation. Smurov stands at Kolya’s side. The scene is quieter, with less foot traffic. The buildings cast long shadows in icy sunlight, and the air is sharp and still. The peasant’s dress is practical: a thick coat and boots, with a humble dignity.",
+          "characterIds": [
+            "kolya_krassotkin",
+            "smurov",
+            "the_peasantry"
+          ]
+        },
+        {
+          "startParagraph": 129,
+          "endParagraph": 132,
+          "locationDescription": "Outside Captain Snegiryov’s lodging",
+          "imageDescription": "A humble lane on the outskirts of town under pale midday light; in the background stands a modest, weatherbeaten house—Captain Snegiryov’s lodging. Kolya, in his school attire, stops a short distance from the gate, issuing instructions to Smurov, who listens attentively. The ground is icy, bare trees flank the lane, and the town’s cathedral is just visible far off. The winter silence is poised, with a sense of expectation as the boys prepare to visit.",
+          "characterIds": [
+            "kolya_krassotkin",
+            "smurov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "entities": [
+        {
+          "entityId": "kolya_krassotkin",
+          "type": "person",
+          "firstSeenInChapter": 63
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> Kolya leaned against the fence with an air of dignity, waiting for Alyosha to appear. Yes, he had long wanted to meet him. He had heard a great deal about him from the boys, but hitherto he had always maintained an appearance of disda"
+        },
+        {
+          "entityId": "ilusha",
+          "type": "person",
+          "firstSeenInChapter": 31,
+          "excerpt": "…a long time coming here.” </p>  <p> “Tell me, how are things going?” </p>  <p> “Ilusha is very ill. He is certainly dying.” </p>  <p> “How awful! You must admit that medicine is a fraud, Karamazov,” cried Kolya warmly. </p>  <p> “Ilusha ha…"
+        },
+        {
+          "entityId": "smurov",
+          "type": "person",
+          "firstSeenInChapter": 27,
+          "excerpt": "…ing more to do with you for a time. I’ll think it over and let you know through Smurov’—that’s the boy who’s just come with me; he’s always ready to do anything for me—‘whether I will have anything to do with you in the future or whether I…"
+        },
+        {
+          "entityId": "perezvon",
+          "type": "person",
+          "firstSeenInChapter": 63,
+          "excerpt": "…... Then there’s another reason.... Tell me, is that your dog?” </p>  <p> “Yes, Perezvon.” </p>  <p> “Not Zhutchka?” Alyosha looked at Kolya with eyes full of pity. “Is she lost for ever?” </p>  <p> “I know you would all like it to be Zhut…"
+        },
+        {
+          "entityId": "zhutchka",
+          "type": "person",
+          "firstSeenInChapter": 65,
+          "excerpt": "…eason.... Tell me, is that your dog?” </p>  <p> “Yes, Perezvon.” </p>  <p> “Not Zhutchka?” Alyosha looked at Kolya with eyes full of pity. “Is she lost for ever?” </p>  <p> “I know you would all like it to be Zhutchka. I’ve heard all about…"
+        },
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…he tragedy was. I have pumped him and found out that he had somehow got to know Smerdyakov, who was footman to your late father—it was before his death, of course—and he taught the little fool a silly trick—that is, a brutal, nasty trick. …"
+        },
+        {
+          "entityId": "the_school",
+          "type": "place",
+          "firstSeenInChapter": 31,
+          "excerpt": "…e we go in,” he began with animation. “You see, Karamazov, Ilusha came into the preparatory class last spring. Well, you know what our preparatory class is—a lot of small boys. They began teasing Ilusha at once. I am two classes higher up,…"
+        },
+        {
+          "entityId": "the_boys_at_the_station",
+          "type": "person",
+          "firstSeenInChapter": 63
+        },
+        {
+          "entityId": "the_captain",
+          "type": "person",
+          "firstSeenInChapter": 11
+        },
+        {
+          "entityId": "the_incident_with_the_knife",
+          "type": "event",
+          "firstSeenInChapter": 66
+        },
+        {
+          "entityId": "schillers_robbers",
+          "type": "event",
+          "firstSeenInChapter": 11
+        },
+        {
+          "entityId": "the_fence",
+          "type": "place",
+          "firstSeenInChapter": 22,
+          "excerpt": "<p> Kolya leaned against the fence with an air of dignity, waiting for Alyosha to appear. Yes, he had long wanted to meet him. He had heard a great deal about him from the boys, but hitherto he"
+        },
+        {
+          "entityId": "the_house_of_the_snegiryovs",
+          "type": "place",
+          "firstSeenInChapter": 66
+        },
+        {
+          "entityId": "the_theater",
+          "type": "place",
+          "firstSeenInChapter": 19,
+          "excerpt": "…t you must look at it like this,” said Alyosha, smiling. “Grown‐up people go to the theater and there the adventures of all sorts of heroes are represented—sometimes there are robbers and battles, too—and isn’t that just the same thing, in…"
+        },
+        {
+          "entityId": "art",
+          "type": "event",
+          "firstSeenInChapter": 66,
+          "excerpt": "…felt awfully sorry for him, in another minute I would have run up to take his part. But he suddenly met my eyes. I don’t know what he fancied; but he pulled out a penknife, rushed at me, and struck at my thigh, here in my right leg. I didn…"
+        },
+        {
+          "entityId": "the_passage",
+          "type": "place",
+          "firstSeenInChapter": 66
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 1,
+          "locationDescription": "Outside Ilusha's house, by the fence",
+          "imageDescription": "A wintery street scene in a provincial Russian town of the 19th century. A fair-skinned, freckled teenage boy in a thick, dark coat leans thoughtfully against a wooden fence. There is a faint dusting of snow on the ground and rooftops. The boy's small, lively eyes and turned-up nose are visible. The sky is overcast, lending a cold, subdued light and a contemplative, slightly anxious mood. The houses and fences are rustic, typical of Russian provincial architecture.",
+          "characterIds": [
+            "kolya_krassotkin"
+          ]
+        },
+        {
+          "startParagraph": 2,
+          "endParagraph": 2,
+          "locationDescription": "Outside Ilusha's house, as Alyosha arrives",
+          "imageDescription": "Two young men meet outside a wooden Russian fence in wintry light. Kolya, a boy of about fourteen, bundled in a dark coat, stands by the fence, while Alyosha approaches, dressed in a well-cut civilian coat and a soft round hat with his hair cropped short, looking friendly and open. Frosty air is visible as they greet each other. The background includes snow-shrouded rooftops of modest houses, and a sense of anticipation fills the atmosphere.",
+          "characterIds": [
+            "kolya_krassotkin",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 31,
+          "locationDescription": "Outside Ilusha's house, during Kolya and Alyosha's conversation",
+          "imageDescription": "Kolya and Alyosha stand together near the fence, deep in conversation. Kolya gestures animatedly while Alyosha listens intently. Nearby, a shaggy dog—Perezvon—waits obediently, and another boy, Smurov, stands at a respectful distance, prepared to help. The setting remains the frosty Russian street, with smoke curling from chimneys and a gentle stillness in the winter afternoon light. Their clothing is warm and period-appropriate. A sense of earnestness and youthful gravity permeates the scene.",
+          "characterIds": [
+            "kolya_krassotkin",
+            "alexey_fyodorovitch_karamazov",
+            "perezvon",
+            "smurov"
+          ]
+        },
+        {
+          "startParagraph": 32,
+          "endParagraph": 35,
+          "locationDescription": "Passage to Ilusha's house entrance",
+          "imageDescription": "The two boys, Kolya and Alyosha, now stand at the threshold of a simple Russian home. Kolya is smiling with nervous energy, while Alyosha, calm and gentle, stands nearby. Perezvon, the dog, lies obediently in the hallway, 'playing dead.' Inside the dark, warm entryway, winter coats and hats hang on nails. The lighting is dimmer here but softly illuminated by the daylight from outside. Smurov can be glimpsed ready to carry out Kolya's instructions. The mood is quietly expectant, with a sense of preparation for something important about to occur.",
+          "characterIds": [
+            "kolya_krassotkin",
+            "alexey_fyodorovitch_karamazov",
+            "perezvon",
+            "smurov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "entities": [
+        {
+          "entityId": "the_captain",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "<p> The room inhabited by the family of the retired captain Snegiryov is already familiar to the reader. It was close and crowded at that moment with a number of visitors. Several boys were sitting with Ilusha, and though all of"
+        },
+        {
+          "entityId": "ilusha",
+          "type": "person",
+          "firstSeenInChapter": 31,
+          "excerpt": "…rowded at that moment with a number of visitors. Several boys were sitting with Ilusha, and though all of them, like Smurov, were prepared to deny that it was Alyosha who had brought them and reconciled them with Ilusha, it was really the …"
+        },
+        {
+          "entityId": "kolya_krassotkin",
+          "type": "person",
+          "firstSeenInChapter": 63,
+          "excerpt": "…and the captain had been told to expect him. He hadn’t the slightest idea that Kolya Krassotkin was coming, though he had long wished for a visit from the boy for whom Ilusha was fretting. </p>  <p> At the moment when Krassotkin opened the…"
+        },
+        {
+          "entityId": "smurov",
+          "type": "person",
+          "firstSeenInChapter": 27,
+          "excerpt": "…f visitors. Several boys were sitting with Ilusha, and though all of them, like Smurov, were prepared to deny that it was Alyosha who had brought them and reconciled them with Ilusha, it was really the fact. All the art he had used had bee…"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…Ilusha, and though all of them, like Smurov, were prepared to deny that it was Alyosha who had brought them and reconciled them with Ilusha, it was really the fact. All the art he had used had been to take them, one by one, to Ilusha, with…"
+        },
+        {
+          "entityId": "nina",
+          "type": "person",
+          "firstSeenInChapter": 30,
+          "excerpt": "…y haunted by the memory of the “wisp of tow” and that “terrible day.” </p>  <p> Nina, Ilusha’s gentle, crippled sister, did not like her father’s buffoonery either (Varvara had been gone for some time past to Petersburg to study at the uni…"
+        },
+        {
+          "entityId": "varvara",
+          "type": "person",
+          "firstSeenInChapter": 30,
+          "excerpt": "…Ilusha’s gentle, crippled sister, did not like her father’s buffoonery either (Varvara had been gone for some time past to Petersburg to study at the university). But the half‐imbecile mother was greatly diverted and laughed heartily when …"
+        },
+        {
+          "entityId": "arina_petrovna",
+          "type": "person",
+          "firstSeenInChapter": 30,
+          "excerpt": "…r visitors they come in one on the top of another.” </p>  <p> “How do you mean, mamma, one on the top of another, how is that?” muttered the captain affectionately, though a little anxious on her account. </p>  <p> “That’s how they ride in…"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…all this time he had plenty of money. He had taken the two hundred roubles from Katerina Ivanovna just as Alyosha had predicted he would. And afterwards Katerina Ivanovna, learning more about their circumstances and Ilusha’s illness, visit…"
+        },
+        {
+          "entityId": "doctor_herzenstube",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…g, forgot his pride and humbly accepted her assistance. </p>  <p> All this time Doctor Herzenstube, who was called in by Katerina Ivanovna, came punctually every other day, but little was gained by his visits and he dosed the invalid merci…"
+        },
+        {
+          "entityId": "the_new_doctor",
+          "type": "person",
+          "firstSeenInChapter": 67
+        },
+        {
+          "entityId": "perezvon",
+          "type": "person",
+          "firstSeenInChapter": 63,
+          "excerpt": "…g was based on the words Kolya had dropped that “they must be asses not to find the dog, if it was alive.” When Smurov, waiting for an opportunity, timidly hinted at his guess about the dog, Krassotkin flew into a violent rage. “I’m not su…"
+        },
+        {
+          "entityId": "zhutchka",
+          "type": "person",
+          "firstSeenInChapter": 65,
+          "excerpt": "…omfort and amuse Ilusha, who was still fretting over the lost and probably dead Zhutchka. Ilusha, who had heard three days before that he was to be presented with a puppy, not an ordinary puppy, but a pedigree mastiff (a very important poi…"
+        },
+        {
+          "entityId": "the_fedotov_family",
+          "type": "person",
+          "firstSeenInChapter": 67
+        },
+        {
+          "entityId": "morozov",
+          "type": "person",
+          "firstSeenInChapter": 67,
+          "excerpt": "…his thing for a long while; it’s for you, old man, it’s for you. It belonged to Morozov, it was no use to him, he had it from his brother. I swopped a book from father’s book‐case for it, _A Kinsman of Mahomet or Salutary Folly_, a scandal…"
+        },
+        {
+          "entityId": "the_brother_of_morozov",
+          "type": "person",
+          "firstSeenInChapter": 67
+        },
+        {
+          "entityId": "borovikov",
+          "type": "person",
+          "firstSeenInChapter": 67,
+          "excerpt": "…bring you as much powder as you like, Ilusha. We make the powder ourselves now. Borovikov found out how it’s made—twenty‐four parts of saltpeter, ten of sulphur and six of birchwood charcoal. It’s all pounded together, mixed into a paste w…"
+        },
+        {
+          "entityId": "bulkin",
+          "type": "person",
+          "firstSeenInChapter": 67,
+          "excerpt": "…and if you rub it through ... but of course you know best, I don’t know.... And Bulkin’s father thrashed him on account of our powder, did you hear?” he turned to Ilusha. </p>  <p> “Yes,” answered Ilusha. He listened to Kolya with immense …"
+        },
+        {
+          "entityId": "the_father_of_bulkin",
+          "type": "person",
+          "firstSeenInChapter": 67
+        },
+        {
+          "entityId": "kolbasnikov",
+          "type": "person",
+          "firstSeenInChapter": 67,
+          "excerpt": "…o the ears of the masters. Their ears are long, you know! The classical master, Kolbasnikov, was particularly shocked about it, but Dardanelov got me off again. But Kolbasnikov is savage with every one now like a green ass. Did you know, I…"
+        },
+        {
+          "entityId": "the_teacher_dardanelov",
+          "type": "person",
+          "firstSeenInChapter": 63
+        },
+        {
+          "entityId": "kartashov",
+          "type": "person",
+          "firstSeenInChapter": 67,
+          "excerpt": "…He was silent and seemed to be shy. He was a pretty boy of about eleven, called Kartashov. He was sitting near the door. Kolya looked at him with dignified amazement. </p>  <p> The fact was that the identity of the founders of Troy had bec…"
+        },
+        {
+          "entityId": "smaragdovs_universal_history",
+          "type": "event",
+          "firstSeenInChapter": 19,
+          "excerpt": "…secret for the whole school, a secret which could only be discovered by reading Smaragdov, and no one had Smaragdov but Kolya. One day, when Kolya’s back was turned, Kartashov hastily opened Smaragdov, which lay among Kolya’s books, and im…"
+        },
+        {
+          "entityId": "troy",
+          "type": "place",
+          "firstSeenInChapter": 63,
+          "excerpt": "…use he stood up for me.” </p>  <p> “But you took him down about the founders of Troy!” Smurov put in suddenly, unmistakably proud of Krassotkin at such a moment. He was particularly pleased with the story of the goose. </p>  <p> “Did you r…"
+        },
+        {
+          "entityId": "teucer",
+          "type": "person",
+          "firstSeenInChapter": 67,
+          "excerpt": "…speak, a discordant note in the general harmony. </p>  <p> “Troy was founded by Teucer, Dardanus, Ilius and Tros,” the boy rapped out at once, and in the same instant he blushed, blushed so, that it was painful to look at him. But the boys…"
+        },
+        {
+          "entityId": "dardanus",
+          "type": "person",
+          "firstSeenInChapter": 67,
+          "excerpt": "…discordant note in the general harmony. </p>  <p> “Troy was founded by Teucer, Dardanus, Ilius and Tros,” the boy rapped out at once, and in the same instant he blushed, blushed so, that it was painful to look at him. But the boys stared a…"
+        },
+        {
+          "entityId": "ilius",
+          "type": "person",
+          "firstSeenInChapter": 67,
+          "excerpt": "…t note in the general harmony. </p>  <p> “Troy was founded by Teucer, Dardanus, Ilius and Tros,” the boy rapped out at once, and in the same instant he blushed, blushed so, that it was painful to look at him. But the boys stared at him, st…"
+        },
+        {
+          "entityId": "tros",
+          "type": "person",
+          "firstSeenInChapter": 67,
+          "excerpt": "…the general harmony. </p>  <p> “Troy was founded by Teucer, Dardanus, Ilius and Tros,” the boy rapped out at once, and in the same instant he blushed, blushed so, that it was painful to look at him. But the boys stared at him, stared at hi…"
+        },
+        {
+          "entityId": "the_marketplace",
+          "type": "place",
+          "firstSeenInChapter": 16
+        },
+        {
+          "entityId": "plotnikovs_shop",
+          "type": "place",
+          "firstSeenInChapter": 50
+        },
+        {
+          "entityId": "kolbasnikov",
+          "type": "person",
+          "firstSeenInChapter": 67,
+          "excerpt": "…ised abroad and came to the ears of the masters. Their ears are long, you know! The classical master, Kolbasnikov, was particularly shocked about it, but Dardanelov got me off again. But Kolbasnikov is savage with every one now like a gree…"
+        },
+        {
+          "entityId": "katchalnikov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…t on purpose.’ ‘Yes, you did, on purpose!’ Well, they shouted, ‘Take him to the justice of the peace!’ They took me, too. ‘You were there, too,’ they said, ‘you helped, you’re known all over the market!’ And, for some reason, I really am k…"
+        },
+        {
+          "entityId": "the_founders_of_troy",
+          "type": "event",
+          "firstSeenInChapter": 67
+        },
+        {
+          "entityId": "the_goose_incident",
+          "type": "event",
+          "firstSeenInChapter": 65
+        },
+        {
+          "entityId": "the_peasantry",
+          "type": "person",
+          "firstSeenInChapter": 42,
+          "excerpt": "…t him; he was a stupid, moon‐faced fellow of twenty. I am always on the side of the peasantry, you know. I like talking to the peasants.... We’ve dropped behind the peasants—that’s an axiom. I believe you are laughing, Karamazov?” </p>  <p…"
+        },
+        {
+          "entityId": "the_cart_full_of_oats",
+          "type": "event",
+          "firstSeenInChapter": 67
+        },
+        {
+          "entityId": "the_school",
+          "type": "place",
+          "firstSeenInChapter": 31,
+          "excerpt": "…a had not left his little bed under the ikons in the corner. He had not been to school since the day he met Alyosha and bit his finger. He was taken ill the same day, though for a month afterwards he was sometimes able to get up and walk a…"
+        },
+        {
+          "entityId": "the_masters",
+          "type": "person",
+          "firstSeenInChapter": 63,
+          "excerpt": "…e, and thrashed him on the spot. He was going to make a complaint against me to the masters. He is not allowed to go about with me now, no one is allowed to go about with me now. Smurov is not allowed to either, I’ve got a bad name with ev…"
+        },
+        {
+          "entityId": "the_third_class",
+          "type": "event",
+          "firstSeenInChapter": 67
+        },
+        {
+          "entityId": "the_landlady",
+          "type": "person",
+          "firstSeenInChapter": 67,
+          "excerpt": "…of meat, haven’t you got any?” </p>  <p> The captain ran across the passage to the landlady, where their cooking was done. Not to lose precious time, Kolya, in desperate haste, shouted to Perezvon, “Dead!” And the dog immediately turned ro…"
+        },
+        {
+          "entityId": "madame_hohlakov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…!” cried Nina, who had been silent till then. </p>  <p> A carriage belonging to Madame Hohlakov drove up to the gate. The captain, who had been expecting the doctor all the morning, rushed headlong out to meet him. “Mamma” pulled herself t…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 7,
+          "locationDescription": "In the Snegiryovs' small, crowded front room",
+          "imageDescription": "A cramped, poorly lit peasant room with faded wallpaper and icons hanging in a corner above a narrow bed, where a wan, sickly boy lies surrounded by several boys in school uniforms. The Captain, thin and emotional, stands nearby, while his wife, pale and confused, sits in an armchair, and a young crippled girl occupies a modest chair. Scattered toys, a small table with a teapot, and shabby furniture evoke a sense of struggling gentility. There's a general mood of anxious anticipation mixed with moments of childish energy.",
+          "characterIds": [
+            "the_captain",
+            "ilusha",
+            "smurov",
+            "nina",
+            "arina_petrovna",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 8,
+          "endParagraph": 37,
+          "locationDescription": "In the Snegiryovs' room as Kolya Krassotkin arrives with Perezvon",
+          "imageDescription": "The front door to the modest Snegiryov home swings open, letting in a blast of cold winter air and Kolya Krassotkin, a tall, self-assured boy in a dark winter coat and school cap, just stepping over the threshold. All eyes—those of the captain and half a dozen attentive boys—turn towards him. Ilusha sits upright in his bed, visibly excited, stroking a tiny puppy. The lighting is subdued, but daylight from the frosty window touches the faces with a silvery glow. There is a tangible sense of expectancy and emotion in the air.",
+          "characterIds": [
+            "the_captain",
+            "ilusha",
+            "kolya_krassotkin",
+            "smurov",
+            "alexey_fyodorovitch_karamazov",
+            "nina",
+            "arina_petrovna"
+          ]
+        },
+        {
+          "startParagraph": 38,
+          "endParagraph": 57,
+          "locationDescription": "In the same room — the reunion with Zhutchka and the dog’s tricks",
+          "imageDescription": "Kolya, animated and proud, commands Perezvon, a shaggy, medium-sized dog, to stand on its hind legs by Ilusha’s bed, thrilling the sick boy and all the gathered children. The Captain beams with childlike delight; the mother claps her hands in glee. Sun struggles through a frost-covered window, spotlighting the reunion scene. The room is alive with youthful laughter, a momentary brightness overtaking the underlying poverty and worry.",
+          "characterIds": [
+            "the_captain",
+            "ilusha",
+            "kolya_krassotkin",
+            "smurov",
+            "nina",
+            "arina_petrovna",
+            "alexey_fyodorovitch_karamazov",
+            "perezvon"
+          ]
+        },
+        {
+          "startParagraph": 58,
+          "endParagraph": 76,
+          "locationDescription": "In the Snegiryovs' room — cannon firing and gifts exchanged",
+          "imageDescription": "Kolya sits on the bed’s edge, excitedly pulling a tiny bronze cannon from his satchel and displaying it for Ilusha, whose eyes light up with joy as he clings to Perezvon. The Captain loads the toy cannon on the floor, while the other children gather close, watching eagerly. Ilusha’s mother, with a childish delight, rolls the cannon on her lap. Warm yellow lamplight glows over faces full of anticipation and laughter as the toy is fired. The stove glows in the corner, lending coziness amid threadbare surroundings.",
+          "characterIds": [
+            "the_captain",
+            "ilusha",
+            "kolya_krassotkin",
+            "smurov",
+            "nina",
+            "arina_petrovna",
+            "alexey_fyodorovitch_karamazov",
+            "perezvon"
+          ]
+        },
+        {
+          "startParagraph": 77,
+          "endParagraph": 92,
+          "locationDescription": "The Snegiryov room, conversation turns to school exploits and history",
+          "imageDescription": "The group, now more relaxed, sits and stands around Ilusha's bed, Kolya taking the lead in storytelling. Ilusha listens with bright, animated interest, clutching the gift cannon, while the Captain leans forward admiringly. Boys in school dress crowd the room, some sitting on benches, others standing by the window. Pale mother and fragile Nina look on, quieter. The rustic stove radiates warmth; fading daylight filters in. Period books, simple artillery, and earnest young faces blend into a tableau of camaraderie and youthful braggadocio.",
+          "characterIds": [
+            "the_captain",
+            "ilusha",
+            "kolya_krassotkin",
+            "smurov",
+            "nina",
+            "arina_petrovna",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 93,
+          "endParagraph": 112,
+          "locationDescription": "In the room — historical debate and Kolya’s philosophical opinions",
+          "imageDescription": "A circle of boys stands and sits, rapt with attention, as the shy Kartashov, blushing, announces the legendary founders of Troy; Kolya, arms crossed, listens arrogantly, while Ilusha and Smurov watch admiringly. The Captain looks on, eyes wide in appreciation. Alexey Karamazov stands at the edge, silent and serious. Wintry dusk deepens outside, and the lamplight becomes more pronounced, throwing long shadows and making the room feel close but animated with the boys' heated discussion.",
+          "characterIds": [
+            "the_captain",
+            "ilusha",
+            "kolya_krassotkin",
+            "smurov",
+            "nina",
+            "arina_petrovna",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 113,
+          "endParagraph": 122,
+          "locationDescription": "Arrival of the new doctor — Snegiryovs’ room and threshold",
+          "imageDescription": "The front door stands open to reveal a distinguished, bewhiskered doctor in a bearskin coat and peaked sealskin cap, pausing uncertainly on the snowy threshold. The Captain bows obsequiously, eager and anxious. Inside, the room is in mild disarray: household laundry hangs in one corner, the mother sits upright with forced dignity, and the children cluster around Ilusha’s bed. Daylight fades as the doctor’s imposing figure brings a hush and tension to the impoverished but hopeful scene.",
+          "characterIds": [
+            "the_captain",
+            "ilusha",
+            "kolya_krassotkin",
+            "smurov",
+            "nina",
+            "arina_petrovna",
+            "alexey_fyodorovitch_karamazov",
+            "the_new_doctor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 68,
+      "entities": [
+        {
+          "entityId": "kolya_krassotkin",
+          "type": "person",
+          "firstSeenInChapter": 63,
+          "excerpt": "<p> “What do you think the doctor will say to him?” Kolya asked quickly. “What a repulsive mug, though, hasn’t he? I can’t endure medicine!” </p>  <p> “Ilusha is dying. I think that’s certain,” answered Alyosha, mourn"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…endure medicine!” </p>  <p> “Ilusha is dying. I think that’s certain,” answered Alyosha, mournfully. </p>  <p> “They are rogues! Medicine’s a fraud! I am glad to have made your acquaintance, though, Karamazov. I wanted to know you for a lo…"
+        },
+        {
+          "entityId": "ilusha",
+          "type": "person",
+          "firstSeenInChapter": 31,
+          "excerpt": "…“What a repulsive mug, though, hasn’t he? I can’t endure medicine!” </p>  <p> “Ilusha is dying. I think that’s certain,” answered Alyosha, mournfully. </p>  <p> “They are rogues! Medicine’s a fraud! I am glad to have made your acquaintance…"
+        },
+        {
+          "entityId": "doctor",
+          "type": "person",
+          "firstSeenInChapter": 68,
+          "excerpt": "<p> “What do you think the doctor will say to him?” Kolya asked quickly. “What a repulsive mug, though, hasn’t he? I can’t endure medicine!” </p>  <p> “Ilusha is dying. I think that’s certain,”"
+        },
+        {
+          "entityId": "god",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…mean by mystic? Cure me of what?” Alyosha was rather astonished. </p>  <p> “Oh, God and all the rest of it.” </p>  <p> “What, don’t you believe in God?” </p>  <p> “Oh, I’ve nothing against God. Of course, God is only a hypothesis, but ... …"
+        },
+        {
+          "entityId": "voltaire",
+          "type": "person",
+          "firstSeenInChapter": 68,
+          "excerpt": "…ossible for one who doesn’t believe in God to love mankind, don’t you think so? Voltaire didn’t believe in God and loved mankind?” (“I am at it again,” he thought to himself.) </p>  <p> “Voltaire believed in God, though not very much, I th…"
+        },
+        {
+          "entityId": "divinity_student",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…>  <p> “Come, the truth will out! It has so chanced that I have often talked to Mr. Rakitin, of course, but ... old Byelinsky said that, too, so they say.” </p>  <p> “Byelinsky? I don’t remember. He hasn’t written that anywhere.” </p>  <p>…"
+        },
+        {
+          "entityId": "byelinsky",
+          "type": "person",
+          "firstSeenInChapter": 68,
+          "excerpt": "…has so chanced that I have often talked to Mr. Rakitin, of course, but ... old Byelinsky said that, too, so they say.” </p>  <p> “Byelinsky? I don’t remember. He hasn’t written that anywhere.” </p>  <p> “If he didn’t write it, they say he …"
+        },
+        {
+          "entityId": "smurov",
+          "type": "person",
+          "firstSeenInChapter": 27,
+          "excerpt": "…you don’t ... understand that already?” </p>  <p> “Why, you seem to take me for little Smurov,” said Kolya, with a grin of irritation. “But please don’t suppose I am such a revolutionist. I often disagree with Mr. Rakitin. Though I mention…"
+        },
+        {
+          "entityId": "tatyana",
+          "type": "person",
+          "firstSeenInChapter": 68,
+          "excerpt": "…<p> “Well, no ... I haven’t read all of him, but ... I read the passage about Tatyana, why she didn’t go off with Onyegin.” </p>  <p> “Didn’t go off with Onyegin? Surely you don’t ... understand that already?” </p>  <p> “Why, you seem to t…"
+        },
+        {
+          "entityId": "onyegin",
+          "type": "person",
+          "firstSeenInChapter": 68,
+          "excerpt": "…ll of him, but ... I read the passage about Tatyana, why she didn’t go off with Onyegin.” </p>  <p> “Didn’t go off with Onyegin? Surely you don’t ... understand that already?” </p>  <p> “Why, you seem to take me for little Smurov,” said Ko…"
+        },
+        {
+          "entityId": "napoleon",
+          "type": "person",
+          "firstSeenInChapter": 33,
+          "excerpt": "…wledge that women are a subject race and must obey. _Les femmes tricottent_, as Napoleon said.” Kolya, for some reason, smiled, “And on that question at least I am quite of one mind with that pseudo‐great man. I think, too, that to leave o…"
+        },
+        {
+          "entityId": "america",
+          "type": "place",
+          "firstSeenInChapter": 36,
+          "excerpt": "…that pseudo‐great man. I think, too, that to leave one’s own country and fly to America is mean, worse than mean—silly. Why go to America when one may be of great service to humanity here? Now especially. There’s a perfect mass of fruitful…"
+        },
+        {
+          "entityId": "the_chain_bridge",
+          "type": "place",
+          "firstSeenInChapter": 68,
+          "excerpt": "…all anxious to fall into the clutches of the secret police and take lessons at the Chain bridge. </p>  <p> Long will you remember The house at the Chain bridge. </p>  <p> Do you remember? It’s splendid. Why are you laughing? You don’t supp…"
+        },
+        {
+          "entityId": "the_bell",
+          "type": "event",
+          "firstSeenInChapter": 62,
+          "excerpt": "…bbing, do you?” (“What if he should find out that I’ve only that one number of _The Bell_ in father’s bookcase, and haven’t read any more of it?” Kolya thought with a shudder.) </p>  <p> “Oh, no, I am not laughing and don’t suppose for a m…"
+        },
+        {
+          "entityId": "pushkin",
+          "type": "person",
+          "firstSeenInChapter": 12,
+          "excerpt": "…t suppose so, for all this, alas! is perfectly true. But tell me, have you read Pushkin—_Onyegin_, for instance?... You spoke just now of Tatyana.” </p>  <p> “No, I haven’t read it yet, but I want to read it. I have no prejudices, Karamazo…"
+        },
+        {
+          "entityId": "german",
+          "type": "person",
+          "firstSeenInChapter": 68,
+          "excerpt": "…ifferent. I’ll tell you why I smiled. Not long ago I read the criticism made by a German who had lived in Russia, on our students and schoolboys of to‐day. ‘Show a Russian schoolboy,’ he writes, ‘a map of the stars, which he knows nothing …"
+        },
+        {
+          "entityId": "russians",
+          "type": "person",
+          "firstSeenInChapter": 68,
+          "excerpt": "…rman who had lived in Russia, on our students and schoolboys of to‐day. ‘Show a Russian schoolboy,’ he writes, ‘a map of the stars, which he knows nothing about, and he will give you back the map next day with corrections on it.’ No knowle…"
+        },
+        {
+          "entityId": "nina",
+          "type": "person",
+          "firstSeenInChapter": 30,
+          "excerpt": "…s been a long time in there. But perhaps he’s examining the mamma and that poor crippled Nina. I liked that Nina, you know. She whispered to me suddenly as I was coming away, ‘Why didn’t you come before?’ And in such a voice, so reproachfu…"
+        },
+        {
+          "entityId": "arina_petrovna",
+          "type": "person",
+          "firstSeenInChapter": 30,
+          "excerpt": "…hing, and that doctor has been a long time in there. But perhaps he’s examining the mamma and that poor crippled Nina. I liked that Nina, you know. She whispered to me suddenly as I was coming away, ‘Why didn’t you come before?’ And in suc…"
+        },
+        {
+          "entityId": "socialism",
+          "type": "person",
+          "firstSeenInChapter": 65
+        },
+        {
+          "entityId": "the_emancipation_of_women",
+          "type": "event",
+          "firstSeenInChapter": 68,
+          "excerpt": "…often disagree with Mr. Rakitin. Though I mention Tatyana, I am not at all for the emancipation of women. I acknowledge that women are a subject race and must obey. _Les femmes tricottent_, as Napoleon said.” Kolya, for some reason, smiled…"
+        },
+        {
+          "entityId": "the_emancipation_of_the_serfs",
+          "type": "event",
+          "firstSeenInChapter": 14
+        },
+        {
+          "entityId": "the_devil",
+          "type": "person",
+          "firstSeenInChapter": 16,
+          "excerpt": "…the very children have begun to suffer from it. It’s almost a sort of insanity. The devil has taken the form of that vanity and entered into the whole generation; it’s simply the devil,” added Alyosha, without a trace of the smile that Kol…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 71,
+          "locationDescription": "Outside Ilusha's room, possibly in a hallway or adjoining space",
+          "imageDescription": "In the dimly lit, narrow corridor of a modest 19th-century Russian home, Kolya Krassotkin and Alexey Karamazov stand side by side, both in winter coats and hats, visibly anxious. The old wallpaper and a faint light from a room behind them set a tense but intimate atmosphere. Their figures are youthful and expressive, Kolya animated and flushed, Alyosha gentle and mournful, as they converse quietly, waiting for news. The fine-art rendering captures the subtle emotions and the sense of earnestness between the two young men.",
+          "characterIds": [
+            "kolya_krassotkin",
+            "alexey_fyodorovitch_karamazov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "entities": [
+        {
+          "entityId": "yefim_petrovitch_polenov",
+          "type": "person",
+          "firstSeenInChapter": 3,
+          "excerpt": "<p> The doctor came out of the room again, muffled in his fur coat and with his cap on his head. His face looked almost angry and disgusted, as though he were afraid of getti"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…f getting dirty. He cast a cursory glance round the passage, looking sternly at Alyosha and Kolya as he did so. Alyosha waved from the door to the coachman, and the carriage that had brought the doctor drove up. The captain darted out afte…"
+        },
+        {
+          "entityId": "kolya_krassotkin",
+          "type": "person",
+          "firstSeenInChapter": 63,
+          "excerpt": "…rty. He cast a cursory glance round the passage, looking sternly at Alyosha and Kolya as he did so. Alyosha waved from the door to the coachman, and the carriage that had brought the doctor drove up. The captain darted out after the doctor…"
+        },
+        {
+          "entityId": "the_captain",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…he door to the coachman, and the carriage that had brought the doctor drove up. The captain darted out after the doctor, and, bowing apologetically, stopped him to get the last word. The poor fellow looked utterly crushed; there was a scar…"
+        },
+        {
+          "entityId": "perezvon",
+          "type": "person",
+          "firstSeenInChapter": 63,
+          "excerpt": "…te you,” Kolya rapped out loudly, noticing the doctor’s rather uneasy glance at Perezvon, who was standing in the doorway. There was a wrathful note in Kolya’s voice. He used the word apothecary instead of doctor on purpose, and, as he exp…"
+        },
+        {
+          "entityId": "ilusha",
+          "type": "person",
+          "firstSeenInChapter": 31,
+          "excerpt": "…him into the carriage. Alyosha followed Kolya into the room. He was already by Ilusha’s bedside. The sick boy was holding his hand and calling for his father. A minute later the captain, too, came back. </p>  <p> “Father, father, come ... …"
+        },
+        {
+          "entityId": "nina",
+          "type": "person",
+          "firstSeenInChapter": 30,
+          "excerpt": "…ather!” </p>  <p> His voice broke. They were all three silent, still embracing. Nina was crying quietly in her chair, and at last seeing them all crying, “mamma,” too, burst into tears. </p>  <p> “Ilusha! Ilusha!” she exclaimed. </p>  <p> …"
+        },
+        {
+          "entityId": "arina_petrovna",
+          "type": "person",
+          "firstSeenInChapter": 30,
+          "excerpt": "…aptain, “but you’ve seen”—he spread out his hands, indicating his surroundings—“mamma and my family?” </p>  <p> “N—no, Sicily is not the place for the family, the family should go to Caucasus in the early spring ... your daughter must go t…"
+        },
+        {
+          "entityId": "paris",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…e of the waters in the Caucasus for her rheumatism ... must be sent straight to Paris to the mental specialist Lepelletier; I could give you a note to him, and then ... there might be a change—” </p>  <p> “Doctor, doctor! But you see!” The…"
+        },
+        {
+          "entityId": "syracuse",
+          "type": "place",
+          "firstSeenInChapter": 69,
+          "excerpt": "…ctor uttered with an almost wrathful sternness that made the captain start) “to Syracuse, the change to the new be‐ne‐ficial climatic conditions might possibly effect—” </p>  <p> “To Syracuse!” cried the captain, unable to grasp what was s…"
+        },
+        {
+          "entityId": "sicily",
+          "type": "place",
+          "firstSeenInChapter": 69,
+          "excerpt": "…e!” cried the captain, unable to grasp what was said. </p>  <p> “Syracuse is in Sicily,” Kolya jerked out suddenly in explanation. The doctor looked at him. </p>  <p> “Sicily! your Excellency,” faltered the captain, “but you’ve seen”—he sp…"
+        },
+        {
+          "entityId": "the_caucasus",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…/p>  <p> “N—no, Sicily is not the place for the family, the family should go to Caucasus in the early spring ... your daughter must go to the Caucasus, and your wife ... after a course of the waters in the Caucasus for her rheumatism ... m…"
+        },
+        {
+          "entityId": "coachman",
+          "type": "person",
+          "firstSeenInChapter": 69,
+          "excerpt": "…oking sternly at Alyosha and Kolya as he did so. Alyosha waved from the door to the coachman, and the carriage that had brought the doctor drove up. The captain darted out after the doctor, and, bowing apologetically, stopped him to get th…"
+        },
+        {
+          "entityId": "lepelletier",
+          "type": "person",
+          "firstSeenInChapter": 69,
+          "excerpt": "…for her rheumatism ... must be sent straight to Paris to the mental specialist Lepelletier; I could give you a note to him, and then ... there might be a change—” </p>  <p> “Doctor, doctor! But you see!” The captain flung wide his hands ag…"
+        },
+        {
+          "entityId": "jerusalem",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…er boy!” he muttered in a wild whisper, clenching his teeth. “If I forget thee, Jerusalem, may my tongue—” He broke off with a sob and sank on his knees before the wooden bench. Pressing his fists against his head, he began sobbing with ab…"
+        },
+        {
+          "entityId": "god",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…im might still change the poor boy’s fate. </p>  <p> “I can’t help it, I am not God!” the doctor answered offhand, though with the customary impressiveness. </p>  <p> “Doctor ... your Excellency ... and will it be soon, soon?” </p>  <p> “Y…"
+        },
+        {
+          "entityId": "bible",
+          "type": "place",
+          "firstSeenInChapter": 39,
+          "excerpt": "…hat he said about Jerusalem?... What did he mean by that?” </p>  <p> “It’s from the Bible. ‘If I forget thee, Jerusalem,’ that is, if I forget all that is most precious to me, if I let anything take its place, then may—” </p>  <p> “I under…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 23,
+          "locationDescription": "In the passage outside Ilusha's room",
+          "imageDescription": "An austere wooden corridor in a modest Russian home, lit by weak daylight filtering through a frosted window. The doctor, heavily bundled in a fur coat and cap, stands near the door, his face stern and impatient. Alyosha, a young man in dark, sober clothing, is seen waving toward a coachman outside, while Kolya, a sharp-featured schoolboy, stands defiantly beside him. The gaunt and anxious Captain darts out after the doctor, hands clasped pleadingly. Nearby, the large black dog Perezvon lurks in the doorway. The atmosphere is tense and sorrowful, filled with discomfort and suppressed distress.",
+          "characterIds": [
+            "yefim_petrovitch_polenov",
+            "alexey_fyodorovitch_karamazov",
+            "kolya_krassotkin",
+            "the_captain",
+            "perezvon",
+            "coachman"
+          ]
+        },
+        {
+          "startParagraph": 24,
+          "endParagraph": 35,
+          "locationDescription": "Inside Ilusha's sickroom",
+          "imageDescription": "Within a cramped and sparsely furnished Russian bedroom, soft gray light falls on Ilusha’s narrow bed covered with worn linens. Ilusha, pale and frail, lies propped up, clutching the hands of his father and Kolya, who lean close, overwhelmed by emotion. Alyosha stands nearby, looking on with quiet compassion. In a chair, Nina weeps softly, while Arina Petrovna, their mother, wrings her hands in silent despair. The family’s poverty is evident, but the scene is intimate, full of anguish and tenderness. The dog Perezvon hovers at Kolya’s heels.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "kolya_krassotkin",
+            "the_captain",
+            "perezvon",
+            "ilusha",
+            "nina",
+            "arina_petrovna"
+          ]
+        },
+        {
+          "startParagraph": 36,
+          "endParagraph": 38,
+          "locationDescription": "In the passage outside Ilusha's room",
+          "imageDescription": "A dim corridor with rough timber walls, faintly illuminated by daylight leaking through cracks. Kolya, disheveled and red-eyed, stands apart, struggling to compose himself but overtaken by sobs. Alyosha approaches gently, offering silent solace, his demeanor empathetic and sincere. The atmosphere is heavy with grief, the cold air contrasting with the emotional warmth between the two young men. Soft sounds from the sickroom carry into the hall.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "kolya_krassotkin"
+          ]
+        },
+        {
+          "startParagraph": 39,
+          "endParagraph": 40,
+          "locationDescription": "In the passage, near the wooden bench",
+          "imageDescription": "In the narrow, shadowed passage, the Captain collapses to his knees before a plain wooden bench, his fists pressed to his head in inconsolable sorrow. His face is contorted with grief. Alyosha and Kolya are still nearby, watching with sympathy and alarm. The old boards underfoot and the meager walls reflect the poverty and emotional strain inside the home. The scene is suffused with despair and a sense of helplessness.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "kolya_krassotkin",
+            "the_captain"
+          ]
+        },
+        {
+          "startParagraph": 41,
+          "endParagraph": 46,
+          "locationDescription": "In the street outside the house",
+          "imageDescription": "A bleak Russian street, muddy with patches of melting snow, lies beyond the humble house. Kolya, tightly gripping Perezvon’s leash, stands in the cold, calling back sharply to Alyosha, who appears at the threshold, his features determined yet caring. The dog paces restlessly beside Kolya. The wintry air and stark, gray sky enhance the sense of emotional exhaustion and resolve, as the world outside carries on indifferent to the pain inside the home.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "kolya_krassotkin",
+            "perezvon"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "entities": [
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> Alyosha went towards the cathedral square to the widow Morozov’s house to see Grushenka, who had sent Fenya to him early in the morning with an urgent message begging"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…> Alyosha went towards the cathedral square to the widow Morozov’s house to see Grushenka, who had sent Fenya to him early in the morning with an urgent message begging him to come. Questioning Fenya, Alyosha learned that her mistress had …"
+        },
+        {
+          "entityId": "fenya",
+          "type": "person",
+          "firstSeenInChapter": 44,
+          "excerpt": "…he cathedral square to the widow Morozov’s house to see Grushenka, who had sent Fenya to him early in the morning with an urgent message begging him to come. Questioning Fenya, Alyosha learned that her mistress had been particularly distre…"
+        },
+        {
+          "entityId": "maximov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…on the table. A bed had been made up on the leather sofa on the other side and Maximov lay, half‐reclining, on it. He wore a dressing‐ gown and a cotton nightcap, and was evidently ill and weak, though he was smiling blissfully. When the h…"
+        },
+        {
+          "entityId": "pyotr_fomitch_kalganov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…, Grushenka learned from him that he had literally nowhere to go, and that “Mr. Kalganov, my benefactor, told me straight that he wouldn’t receive me again and gave me five roubles.” </p>  <p> “Well, God bless you, you’d better stay, then,…"
+        },
+        {
+          "entityId": "madame_hohlakov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "<p> Alyosha went towards the cathedral square to the widow Morozov’s house to see Grushenka, who had sent Fenya to him early in the morning with an urgent message begging him to come. Questioning Fenya, Alyosha learned that he"
+        },
+        {
+          "entityId": "the_cooks_granddaughter",
+          "type": "person",
+          "firstSeenInChapter": 44
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…distressed since the previous day. During the two months that had passed since Mitya’s arrest, Alyosha had called frequently at the widow Morozov’s house, both from his own inclination and to take messages for Mitya. Three days after Mitya…"
+        },
+        {
+          "entityId": "pan_mussyalovitch",
+          "type": "person",
+          "firstSeenInChapter": 61,
+          "excerpt": "…yosha. </p>  <p> “I didn’t expect it in the least. Only fancy, he is jealous of the Pole. ‘Why are you keeping him?’ he said. ‘So you’ve begun keeping him.’ He is jealous, jealous of me all the time, jealous eating and sleeping! He even to…"
+        },
+        {
+          "entityId": "pan_vrublevsky",
+          "type": "person",
+          "firstSeenInChapter": 61,
+          "excerpt": "…receipt for the sum, with a promise to repay it within three months, signed by Pan Vrublevsky as well. Grushenka had received many such letters, accompanied by such receipts, from her former lover during the fortnight of her convalescence.…"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…en she lay in delirium. Alyosha knew that she was fearfully jealous of her. Yet Katerina Ivanovna had not once visited Mitya in his prison, though she might have done it whenever she liked. All this made a difficult problem for Alyosha, fo…"
+        },
+        {
+          "entityId": "divinity_student",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…nd began scolding about him. I am ashamed to repeat what he said. Silly fellow! Rakitin went in as I came out. Perhaps Rakitin is egging him on. What do you think?” she added carelessly. </p>  <p> “He loves you, that’s what it is: he loves…"
+        },
+        {
+          "entityId": "ivan_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ever in her heart. The object of that uneasiness was the same as ever—Katerina Ivanovna, of whom Grushenka had even raved when she lay in delirium. Alyosha knew that she was fearfully jealous of her. Yet Katerina Ivanovna had not once visi…"
+        },
+        {
+          "entityId": "grigory",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…Grushenka decided in her grief, smiling compassionately at him. Her smile wrung the old man’s heart and his lips twitched with grateful tears. And so the destitute wanderer had stayed with her ever since. He did not leave the house even wh…"
+        },
+        {
+          "entityId": "old_merchant",
+          "type": "person",
+          "firstSeenInChapter": 47,
+          "excerpt": "…one else beside Alyosha, who did not come every day and never stayed long. Her old merchant lay seriously ill at this time, “at his last gasp” as they said in the town, and he did, in fact, die a week after Mitya’s trial. Three weeks befor…"
+        },
+        {
+          "entityId": "the_merchant_samsonovs_sons",
+          "type": "person",
+          "firstSeenInChapter": 44
+        },
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…o‐morrow he’ll be tried, you know. Tell me, how will he be tried? You know it’s the valet, the valet killed him! Good heavens! Can they condemn him in place of the valet and will no one stand up for him? They haven’t troubled the valet at …"
+        },
+        {
+          "entityId": "fetyukovitch",
+          "type": "person",
+          "firstSeenInChapter": 70,
+          "excerpt": "…and I—but she paid two thousand for the doctor from Moscow herself. The counsel Fetyukovitch would have charged more, but the case has become known all over Russia; it’s talked of in all the papers and journals. Fetyukovitch agreed to come…"
+        },
+        {
+          "entityId": "saint_petersburg",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…unsel yourself and tell him the whole thing by yourself? He’s been brought from Petersburg for three thousand roubles, they say.” </p>  <p> “We gave these three thousand together—Ivan, Katerina Ivanovna and I—but she paid two thousand for …"
+        },
+        {
+          "entityId": "moscow",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…n, of Katerina, saying she was this and that, how she had ordered a doctor from Moscow for him, to try and save him; how she had ordered the best counsel, the most learned one, too. So he loves her, if he’ll praise her to my face, more sha…"
+        },
+        {
+          "entityId": "the_house_of_the_widow_morozov",
+          "type": "place",
+          "firstSeenInChapter": 44,
+          "excerpt": "<p> Alyosha went towards the cathedral square to the widow Morozov’s house to see Grushenka, who had sent Fenya to him early in the morning with an urgent message begging him to come. Questioning Fenya, Alyosha learned that her mistre"
+        },
+        {
+          "entityId": "the_cathedral_square",
+          "type": "place",
+          "firstSeenInChapter": 44,
+          "excerpt": "<p> Alyosha went towards the cathedral square to the widow Morozov’s house to see Grushenka, who had sent Fenya to him early in the morning with an urgent message begging him to come. Questioning Fenya, Al"
+        },
+        {
+          "entityId": "mokroe",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…was smiling blissfully. When the homeless old man returned with Grushenka from Mokroe two months before, he had simply stayed on and was still staying with her. He arrived with her in rain and sleet, sat down on the sofa, drenched and scar…"
+        },
+        {
+          "entityId": "the_prison",
+          "type": "place",
+          "firstSeenInChapter": 70,
+          "excerpt": "…arfully jealous of her. Yet Katerina Ivanovna had not once visited Mitya in his prison, though she might have done it whenever she liked. All this made a difficult problem for Alyosha, for he was the only person to whom Grushenka opened he…"
+        },
+        {
+          "entityId": "the_crime_trial_of_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 65
+        },
+        {
+          "entityId": "the_case",
+          "type": "event",
+          "firstSeenInChapter": 70,
+          "excerpt": "…ctor from Moscow herself. The counsel Fetyukovitch would have charged more, but the case has become known all over Russia; it’s talked of in all the papers and journals. Fetyukovitch agreed to come more for the glory of the thing, because …"
+        },
+        {
+          "entityId": "death_of_fyodor_pavlovitch_karamazov",
+          "type": "event",
+          "firstSeenInChapter": 1
+        },
+        {
+          "entityId": "the_day_of_the_trial",
+          "type": "event",
+          "firstSeenInChapter": 70
+        },
+        {
+          "entityId": "kuzma",
+          "type": "person",
+          "firstSeenInChapter": 52,
+          "excerpt": "…me, jealous eating and sleeping! He even took it into his head to be jealous of Kuzma last week.” </p>  <p> “But he knew about the Pole before?” </p>  <p> “Yes, but there it is. He has known about him from the very beginning, but to‐day he…"
+        },
+        {
+          "entityId": "the_poles",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…of it, so now I shall send some! Ah, here’s Fenya with a letter! Yes, it’s from the Poles—begging again!” </p>  <p> Pan Mussyalovitch had indeed sent an extremely long and characteristically eloquent letter in which he begged her to lend h…"
+        },
+        {
+          "entityId": "the_shop",
+          "type": "place",
+          "firstSeenInChapter": 70,
+          "excerpt": "…st him, the whole town. Even Fenya’s evidence went to prove he had done it. And the people at the shop, and that official, and at the tavern, too, before, people had heard him say so! They are all, all against him, all crying out against h…"
+        },
+        {
+          "entityId": "the_tavern",
+          "type": "place",
+          "firstSeenInChapter": 34,
+          "excerpt": "…to prove he had done it. And the people at the shop, and that official, and at the tavern, too, before, people had heard him say so! They are all, all against him, all crying out against him.” </p>  <p> “Yes, there’s a fearful accumulation…"
+        },
+        {
+          "entityId": "the_baby_in_the_dream",
+          "type": "person",
+          "firstSeenInChapter": 61,
+          "excerpt": "…he suddenly began talking to me about a babe—that is, about some child. ‘Why is the babe poor?’ he said. ‘It’s for that babe I am going to Siberia now. I am not a murderer, but I must go to Siberia!’ What that meant, what babe, I couldn’t …"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 1,
+          "locationDescription": "Approaching the widow Morozov’s house",
+          "imageDescription": "A snowy 19th-century Russian street in early morning, with the imposing yet modest widow Morozov’s house visible near the cathedral square. Alyosha, a young monk in a simple cassock, walks with purposeful steps along the icy path, his breath misting in the cold air, concern showing on his face. The pale winter sun casts a cold, slanting light, highlighting the crispness of the setting and the sense of urgency. The atmosphere is tense yet quietly hopeful.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 2,
+          "endParagraph": 22,
+          "locationDescription": "Inside Grushenka’s parlor at the widow Morozov’s house",
+          "imageDescription": "A cozy, tastefully modest late 19th-century Russian parlor warmly lit by daylight through frosted windows. Grushenka, striking yet pale and thinner than before, rises energetically from a chair by a table strewn with playing cards. Alyosha, modestly dressed in his monk’s attire, stands at the threshold, concern evident in his bearing. On a leather sofa across the room, the elderly Maximov reclines, wrapped in a dressing gown and cotton nightcap, looking frail but smiling faintly. Fenya, a servant girl, lingers near the sideboard, ready to bring coffee. The furniture and decorations aptly reflect provincial Russian taste, and the mood is intimate, tense with underlying care and anxiety.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "the_enchantress",
+            "fenya",
+            "maximov"
+          ]
+        },
+        {
+          "startParagraph": 23,
+          "endParagraph": 29,
+          "locationDescription": "Grushenka’s parlor, later in the same visit",
+          "imageDescription": "The same parlor in natural afternoon light; Grushenka stands by the table, unfolding a letter, her expression a mix of annoyance and resignation. Alyosha sits nearby, attentive and gentle. Fenya enters or stands at the edge of the room, holding a letter or a tray with pies. Maximov dozes or observes from the sofa. The room’s Victorian furnishings and colorful textiles offer a comforting background, while the air feels charged with news and distraction.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "the_enchantress",
+            "fenya",
+            "maximov"
+          ]
+        },
+        {
+          "startParagraph": 30,
+          "endParagraph": 64,
+          "locationDescription": "Grushenka’s parlor, as conversation grows more heartfelt",
+          "imageDescription": "In the quiet parlor, Grushenka slumps in her chair, face partly hidden as she weeps into her handkerchief. Alyosha, moved and compassionate, leans forward at the table, attentive and comforting, dressed plainly. Maximov remains in the background, subdued and politely distant. The afternoon light is softer now, the atmosphere intimate and sorrowful; details such as a samovar and modest artwork reinforce the domesticity and period authenticity.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "the_enchantress",
+            "maximov"
+          ]
+        },
+        {
+          "startParagraph": 65,
+          "endParagraph": 65,
+          "locationDescription": "Grushenka’s parlor, conclusion of Alyosha’s visit",
+          "imageDescription": "The parting moment in Grushenka’s parlor: Alyosha, gentle yet determined, clasps Grushenka’s hand as she sits with teary eyes, her handkerchief still in hand. The late afternoon light bathes the room, which is now calm after the emotional outpouring. Maximov is present but quietly respectful on the sofa, aware of the sensitivity of the farewell. Fenya is possibly glimpsed leaving, giving privacy to the pair. The surrounding decor is cozy Russian provincial, conveying reassurance despite lingering sorrow.",
+          "characterIds": [
+            "alexey_fyodorovitch_karamazov",
+            "the_enchantress",
+            "maximov"
+          ]
+        }
+      ]
     }
   ]
 }
