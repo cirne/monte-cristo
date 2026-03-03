@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { HeaderNav } from "./components/HeaderNav";
-import { HeaderProgressBar } from "./components/HeaderProgressBar";
 import { Footer } from "./components/Footer";
 
 export const metadata: Metadata = {
@@ -20,10 +19,7 @@ export default function RootLayout({
       <body
         className="antialiased min-h-screen bg-stone-50 text-stone-900 dark:bg-stone-950 dark:text-stone-100"
       >
-        <header className="border-b border-stone-200 bg-white sticky top-0 z-10 flex flex-col dark:border-stone-800 dark:bg-stone-900">
-          <HeaderNav />
-          <HeaderProgressBar />
-        </header>
+        <HeaderNav />
         {children}
         <Footer />
       </body>

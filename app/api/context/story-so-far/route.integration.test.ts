@@ -48,7 +48,7 @@ describe("app/api/context/story-so-far/route integration", () => {
       messages: Array<{ role: string; content: string }>;
       response_format?: { type: string };
     };
-    expect(callArg?.response_format).toEqual({ type: "json_object" });
+    expect(callArg?.response_format).toBeUndefined();
 
     const systemPrompt = callArg.messages[0]?.content ?? "";
     const userPrompt = callArg.messages[1]?.content ?? "";

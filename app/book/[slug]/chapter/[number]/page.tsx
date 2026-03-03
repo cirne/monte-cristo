@@ -6,6 +6,7 @@ import { getChapterIndexEntry } from "@/lib/chapter-index";
 import { getParagraphs } from "@/lib/scenes";
 import { linkifyParagraph } from "@/lib/linkify";
 import { ChapterContent } from "@/app/chapter/[number]/ChapterContent";
+import { SummaryButton } from "@/app/chapter/[number]/SummaryButton";
 import type { Metadata } from "next";
 import type { XRayEntityData } from "@/app/chapter/[number]/XRayPanel";
 import { BOOK_SLUGS } from "@/lib/books";
@@ -98,9 +99,21 @@ export default async function BookChapterPage({ params, searchParams }: Props) {
   return (
     <main className="max-w-3xl mx-auto px-4 py-8">
       <div className="mb-8">
-        <p className="text-xs font-semibold uppercase tracking-widest text-amber-600 dark:text-amber-400 mb-1">
-          {volumeLabels[chapter.volume] ?? chapter.volume}
-        </p>
+        <div className="flex items-center justify-between mb-1">
+          <p className="text-xs font-semibold uppercase tracking-widest text-amber-600 dark:text-amber-400">
+            {volumeLabels[chapter.volume] ?? chapter.volume}
+          </p>
+          {num > 1 && (
+            <SummaryButton
+              label="Story so far"
+              dialogLabel="Story so far"
+              endpoint="/api/context/story-so-far"
+              chapterNumber={num}
+              bookSlug={slug}
+              paragraphIndex={0}
+            />
+          )}
+        </div>
         <h1 className="text-3xl font-bold text-stone-900 dark:text-stone-100 mb-1">
           Chapter {chapter.number}
         </h1>
@@ -121,7 +134,18 @@ export default async function BookChapterPage({ params, searchParams }: Props) {
         </article>
       </div>
 
-      <nav className="mt-12 pt-6 border-t border-stone-200 dark:border-stone-800 flex items-center justify-between gap-4">
+      <div className="mt-12 flex justify-center">
+        <SummaryButton
+          label="Summarize this chapter"
+          dialogLabel="Chapter summary"
+          endpoint="/api/context/current-scene"
+          chapterNumber={num}
+          bookSlug={slug}
+          paragraphIndex={paragraphStrings.length - 1}
+        />
+      </div>
+
+      <nav className="mt-6 pt-6 border-t border-stone-200 dark:border-stone-800 flex items-center justify-between gap-4">
         {prev ? (
           <Link
             href={`/book/${slug}/chapter/${prev}`}

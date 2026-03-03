@@ -3889,7 +3889,7 @@
       "scenes": [
         {
           "startParagraph": 0,
-          "endParagraph": 1,
+          "endParagraph": 0,
           "locationDescription": "Gatsby's house, exterior and pool area",
           "imageDescription": "A rain-soaked day outside Gatsby's grand mansion in West Egg. Police and news photographers bustle at the front door, while a rope blocks the main gate, guarded by a uniformed policeman. Curious children peep through hedges and around the pool, their faces a mix of fascination and awe. 1920s autos are parked nearby, and the mood is tense and chaotic.",
           "characterIds": [
@@ -3899,8 +3899,8 @@
           ]
         },
         {
-          "startParagraph": 2,
-          "endParagraph": 2,
+          "startParagraph": 1,
+          "endParagraph": 1,
           "locationDescription": "Gatsby's house, drawing-room and interior",
           "imageDescription": "Inside Gatsby's lavish drawing-room, Nick stands isolated as police, detectives, and a few officials pass through, some pausing by the covered body of Gatsby visible on a sofa or nearby. The furnishings are elegant, with jazz-age decor and heavy drapes. The light is subdued, dust motes swirling in the haze, and the loneliness is palpable on Nick’s face.",
           "characterIds": [
@@ -3912,8 +3912,8 @@
           ]
         },
         {
-          "startParagraph": 3,
-          "endParagraph": 10,
+          "startParagraph": 2,
+          "endParagraph": 9,
           "locationDescription": "Nick's room, telephone calls",
           "imageDescription": "A small, tidy bedroom with a telephone placed on a writing desk. Nick, weary and anxious, holds the receiver to his ear. Sunlight slants through drawn curtains, casting long shadows. The atmosphere is tense and expectant, with a sense of loneliness in the historic setting.",
           "characterIds": [
@@ -3923,8 +3923,8 @@
           ]
         },
         {
-          "startParagraph": 11,
-          "endParagraph": 18,
+          "startParagraph": 10,
+          "endParagraph": 17,
           "locationDescription": "Gatsby's house, further attempts to reach Wolfshiem",
           "imageDescription": "Nick stands in a richly furnished hallway, phone in hand with a notepad. The butler, dignified in dark livery, offers Wolfshiem’s address on a slip of paper. Distant figures bustle in the background as the silent house looms with jazz-era opulence and an air of mourning.",
           "characterIds": [
@@ -3933,8 +3933,8 @@
           ]
         },
         {
-          "startParagraph": 19,
-          "endParagraph": 24,
+          "startParagraph": 18,
+          "endParagraph": 23,
           "locationDescription": "Gatsby's house, next day, in the parlor",
           "imageDescription": "Morning in Gatsby’s parlor—Nick waits anxiously as the butler hands him a letter from Wolfshiem. A thick envelope rests on a polished table, while outside, more police and reporters gather by the gates seen through the window. The ambiance is somber and heavy, the grandeur of the home contrasting with the loneliness inside.",
           "characterIds": [
@@ -3946,8 +3946,8 @@
           ]
         },
         {
-          "startParagraph": 25,
-          "endParagraph": 32,
+          "startParagraph": 24,
+          "endParagraph": 31,
           "locationDescription": "Nick’s house, telephone call with Slagle",
           "imageDescription": "Nick sits at his modest, tastefully decorated writing desk, the old-fashioned telephone pressed to his ear. Afternoon sunlight illuminates the quiet room, while Nick’s posture is tense from the unexpected news from the anonymous Chicago caller. The space is atmospheric with deep shadows and golden light.",
           "characterIds": [
@@ -3956,8 +3956,8 @@
           ]
         },
         {
-          "startParagraph": 33,
-          "endParagraph": 33,
+          "startParagraph": 32,
+          "endParagraph": 32,
           "locationDescription": "Gatsby’s house, arrival of Henry C. Gatz",
           "imageDescription": "The front hall of Gatsby's mansion, Henry C. Gatz—an elderly, frail man in a long, outdated overcoat—stands bewildered beside Nick. Gatz clutches a battered bag and umbrella, his eyes red-rimmed. The room is grand and welcoming but tinged with sorrow, shadows cast by ornate lamps and heavy marble. Nick consoles the old man, helping him with his coat.",
           "characterIds": [
@@ -3977,7 +3977,7 @@
         },
         {
           "startParagraph": 0,
-          "endParagraph": 55,
+          "endParagraph": 54,
           "locationDescription": "Gatsby’s house, Gatz’s bedroom",
           "imageDescription": "A stately guest bedroom with four-poster bed and embroidered covers; Henry C. Gatz sits at the bedside exhausted, his sparse grey beard in one hand, Nick standing nearby in a respectful posture. Late afternoon sun filters through drawn curtains, and the luxurious bedding contrasts the old man’s worn clothing.",
           "characterIds": [
@@ -3986,8 +3986,8 @@
           ]
         },
         {
-          "startParagraph": 56,
-          "endParagraph": 70,
+          "startParagraph": 55,
+          "endParagraph": 69,
           "locationDescription": "Nick's house, telephone call from Klipspringer",
           "imageDescription": "A nighttime scene in Nick’s parlor, the lamplight casting a golden glow. Nick, still dressed in mourning, clutches the telephone impatiently, his face both hopeful and exasperated. There is a palpable sense of isolation and disappointment in the quiet, tastefully decorated room, with Klipspringer’s presence implied only by Nick’s tense conversation.",
           "characterIds": [
@@ -3996,8 +3996,8 @@
           ]
         },
         {
-          "startParagraph": 71,
-          "endParagraph": 100,
+          "startParagraph": 70,
+          "endParagraph": 99,
           "locationDescription": "Wolfshiem's office, New York",
           "imageDescription": "Nick stands inside a dim office suite with frosted glass labeled 'The Swastika Holding Company.' Wolfshiem, solemn in a dark suit, greets him at the door, the interior cluttered with 1920s period decor: heavy desks, paper-strewn tables. Stella, the beautiful secretary, eyes Nick mistrustfully from an interior door. The atmosphere is secretive and tense under the artificial light.",
           "characterIds": [
@@ -4007,8 +4007,8 @@
           ]
         },
         {
-          "startParagraph": 101,
-          "endParagraph": 120,
+          "startParagraph": 100,
+          "endParagraph": 119,
           "locationDescription": "Gatsby’s house, Gatz shows Nick mementos",
           "imageDescription": "In a hallway lined with glossy wood and gilded picture frames, Henry C. Gatz excitedly shows Nick a worn photograph and a battered copy of Hopalong Cassidy. Gatz’s hands tremble with pride as he turns the relics toward Nick, who listens intently. The room is bright with interior lighting and the rain visible outside the windows adds a damp somberness.",
           "characterIds": [
@@ -4017,8 +4017,8 @@
           ]
         },
         {
-          "startParagraph": 121,
-          "endParagraph": 121,
+          "startParagraph": 120,
+          "endParagraph": 120,
           "locationDescription": "Gatsby's house, waiting for the funeral",
           "imageDescription": "A richly decorated hallway and parlor; the Lutheran minister in dark clerical attire stands near Nick and Gatz, who glance anxiously out the rain-streaked windows. Gatsby’s servants linger in the background, clustered together, and the house feels vast and silent except for the ticking clock and the patter of rain on glass.",
           "characterIds": [
@@ -4029,8 +4029,8 @@
           ]
         },
         {
-          "startParagraph": 122,
-          "endParagraph": 124,
+          "startParagraph": 121,
+          "endParagraph": 123,
           "locationDescription": "Cemetery and Gatsby’s funeral",
           "imageDescription": "A small rain-soaked cemetery, headstones half-hidden in mist. A black hearse is parked at the gate; Nick, Gatz, and the Lutheran minister stand solemnly by the open grave. Gatsby’s servants and the postman, soaked and subdued, cluster quietly. Owl Eyes, in his thick spectacles, rushes in last, removing his glasses to wipe them. Everyone is dressed in black, the sky overcast and the ground muddy.",
           "characterIds": [
@@ -4043,8 +4043,8 @@
           ]
         },
         {
-          "startParagraph": 125,
-          "endParagraph": 130,
+          "startParagraph": 124,
+          "endParagraph": 129,
           "locationDescription": "Gatsby's gate, after the funeral",
           "imageDescription": "Nick and Owl Eyes stand together by the wrought-iron cemetery gate as rain falls. Owl Eyes wipes his glasses, distraught, while Nick listens silently. The overcast sky, puddled road, and distant trees complete the dreary, mournful mood of a Long Island afternoon.",
           "characterIds": [
@@ -4053,8 +4053,8 @@
           ]
         },
         {
-          "startParagraph": 131,
-          "endParagraph": 131,
+          "startParagraph": 130,
+          "endParagraph": 130,
           "locationDescription": "Memory: Chicago Union Station, Christmas",
           "imageDescription": "A bustling 1920s train station at dusk, travelers cloaked in heavy winter coats and furs gather under high-arched ceilings and ornate lamps. Steam rises from idling trains, and glamorous girls chat with friends as families bid goodbye. Suitcases, mufflers, and gloved hands are everywhere; the air is festive, filled with golden light and a nostalgic atmosphere.",
           "characterIds": [
@@ -4065,8 +4065,8 @@
           ]
         },
         {
-          "startParagraph": 132,
-          "endParagraph": 132,
+          "startParagraph": 131,
+          "endParagraph": 131,
           "locationDescription": "Memory: Midwestern winter train journey",
           "imageDescription": "Inside an old-fashioned Pullman railway car, young men and women in wool coats and cloche hats sit by frosted windows, gazing out at snow-covered fields. The lights of small towns flash past outside beneath a twinkling night sky. The air is festive; illuminated luggage racks and elegant train decor evoke a sense of adventure and nostalgia.",
           "characterIds": [
@@ -4075,7 +4075,7 @@
         },
         {
           "startParagraph": 0,
-          "endParagraph": 134,
+          "endParagraph": 133,
           "locationDescription": "Imagined West Egg, night, El Greco vision",
           "imageDescription": "A surreal, moonlit West Egg street: gaudy, oversized Gatsby-esque mansions crouch under a brooding sky. In the foreground, four men in tuxedos carry a stretcher with a glamorous, bejeweled woman in a white evening gown, her hand limp. The colors and shadows are elongated; the scene is both grotesque and alluring—a Jazz Age dream in the style of El Greco.",
           "characterIds": [
@@ -4083,8 +4083,8 @@
           ]
         },
         {
-          "startParagraph": 135,
-          "endParagraph": 144,
+          "startParagraph": 134,
+          "endParagraph": 143,
           "locationDescription": "Nick’s house, decision to go home and see Jordan",
           "imageDescription": "A modestly elegant living room with autumn sunlight filtering through windows and laundry wafting on a line outside. Jordan Baker, poised and athletic, sits upright in a large armchair, dressed for golf. Nick stands nearby, mid-conversation, both visible in the soft, melancholic light. The mood is subdued and bittersweet.",
           "characterIds": [
@@ -4093,8 +4093,8 @@
           ]
         },
         {
-          "startParagraph": 145,
-          "endParagraph": 155,
+          "startParagraph": 144,
+          "endParagraph": 154,
           "locationDescription": "Fifth Avenue, New York — Nick and Tom’s meeting",
           "imageDescription": "An autumn afternoon on bustling Fifth Avenue: Tom Buchanan, broad-shouldered in an expensive overcoat, strides past high-end shop windows. Nick, in a classic 1920s suit, approaches him. The city is alive with well-dressed pedestrians. Shopfronts gleam behind glass and a jewelry store window shines in the midday sun, lending the scene an opulent yet tense air.",
           "characterIds": [
@@ -4103,8 +4103,8 @@
           ]
         },
         {
-          "startParagraph": 156,
-          "endParagraph": 157,
+          "startParagraph": 155,
+          "endParagraph": 155,
           "locationDescription": "Gatsby’s house, empty, and Nick’s last night",
           "imageDescription": "Twilight on the neglected lawn of Gatsby’s vast mansion; wild grass overtakes the driveway. Nick stands alone by the white marble steps, dimly illuminated by the glow of a distant streetlamp. The air is quiet, nostalgic, and slightly eerie; a taxicab waits at the gate in the shadows, and the palace-like house looms silent in the dying light.",
           "characterIds": [
@@ -4113,8 +4113,8 @@
           ]
         },
         {
-          "startParagraph": 158,
-          "endParagraph": 162,
+          "startParagraph": 155,
+          "endParagraph": 155,
           "locationDescription": "Gatsby’s house and the beach, Nick’s farewell",
           "imageDescription": "Late at night, under a bright moon, Nick stands on the white steps of Gatsby’s shuttered mansion. An obscene word is scrawled in red brick on the lowest step, illuminated by moonlight. Nick solemnly wipes it away with his shoe, then walks down to the deserted beach and sinks into the sand, gazing out over the Sound and distant, flickering lights of ferryboats. The scene is hushed, lonely, and reflective.",
           "characterIds": [

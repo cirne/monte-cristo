@@ -2,9 +2,10 @@
 
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { BookOpen, List, Search, ChevronLeft, ChevronRight, ArrowLeft } from "lucide-react";
+import { Home, ChevronLeft, ChevronRight, ArrowLeft } from "lucide-react";
 import { useEffect, useState } from "react";
 import { DEFAULT_BOOK_SLUG } from "@/lib/books";
+import { HeaderProgressBar } from "./HeaderProgressBar";
 
 function parseBookChapter(pathname: string | null): { slug: string; chapterNum: number } | null {
   if (!pathname) return null;
@@ -20,6 +21,7 @@ function parseBookChapter(pathname: string | null): { slug: string; chapterNum: 
   }
   return null;
 }
+
 
 interface BookInfo {
   title: string;
@@ -73,8 +75,11 @@ export function HeaderNav() {
   const homeHref = slug ? `/book/${slug}` : "/";
   const titleLabel = bookInfo?.title ?? "Monte Cristo Reader";
 
+  if (pathname === "/") return null;
+
   return (
-    <nav className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between gap-6 text-sm w-full">
+    <header className="border-stone-200 bg-white sticky top-0 z-10 dark:border-stone-800 dark:bg-stone-900">
+    <nav className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between gap-6 text-sm w-full border-b border-stone-200 dark:border-stone-800">
       <div className="flex items-center gap-4 sm:gap-6">
         {showBack ? (
           <button
@@ -87,47 +92,23 @@ export function HeaderNav() {
           </button>
         ) : null}
         <Link
+          href="/"
+          className="hidden sm:flex items-center gap-2 text-stone-500 hover:text-stone-700 dark:text-stone-400 dark:hover:text-stone-200"
+          aria-label="Home"
+        >
+          <Home className="size-5 shrink-0" aria-hidden />
+          <span>Library</span>
+        </Link>
+        <Link
           href={homeHref}
           className="flex items-center gap-2 font-semibold text-stone-800 hover:text-stone-600 dark:text-stone-100 dark:hover:text-stone-300"
           aria-label={titleLabel}
         >
-          <BookOpen className="size-5 shrink-0 sm:hidden" aria-hidden />
-          <span className="hidden sm:inline">{titleLabel}</span>
+          {titleLabel}
         </Link>
-        {slug ? (
-          <>
-            <Link
-              href={`/book/${slug}/chapters`}
-              className="flex items-center gap-2 text-stone-500 hover:text-stone-700 dark:text-stone-400 dark:hover:text-stone-200"
-              aria-label="Table of Contents"
-            >
-              <List className="size-5 shrink-0 sm:hidden" aria-hidden />
-              <span className="hidden sm:inline">Table of Contents</span>
-            </Link>
-            <Link
-              href={`/book/${slug}/search`}
-              className="flex items-center gap-2 text-stone-500 hover:text-stone-700 dark:text-stone-400 dark:hover:text-stone-200"
-              aria-label="Search"
-            >
-              <Search className="size-5 shrink-0 sm:hidden" aria-hidden />
-              <span className="hidden sm:inline">Search</span>
-            </Link>
-          </>
-        ) : (
-          <>
-            <Link
-              href="/"
-              className="flex items-center gap-2 text-stone-500 hover:text-stone-700 dark:text-stone-400 dark:hover:text-stone-200"
-              aria-label="Home"
-            >
-              <List className="size-5 shrink-0 sm:hidden" aria-hidden />
-              <span className="hidden sm:inline">Books</span>
-            </Link>
-          </>
-        )}
       </div>
       {slug && chapterNum != null ? (
-        <div className="flex items-center gap-3 text-stone-600 dark:text-stone-300">
+        <div className="flex items-center text-stone-600 dark:text-stone-300">
           {prev ? (
             <Link
               href={`/book/${slug}/chapter/${prev}`}
@@ -142,11 +123,11 @@ export function HeaderNav() {
             </span>
           )}
           <Link
-            href={`/book/${slug}/chapters`}
-            className="font-medium text-stone-800 tabular-nums min-w-[3rem] text-center hover:text-stone-600 dark:text-stone-100 dark:hover:text-stone-300 transition-colors block"
-            aria-label="Open table of contents"
+            href={`/book/${slug}`}
+            className="font-medium text-stone-800 tabular-nums min-w-[2rem] text-center hover:text-stone-600 dark:text-stone-100 dark:hover:text-stone-300 transition-colors block"
+            aria-label="Book home"
           >
-            Ch. {chapterNum}
+            <span className="hidden sm:inline">Ch. </span>{chapterNum}
           </Link>
           {next ? (
             <Link
@@ -164,5 +145,7 @@ export function HeaderNav() {
         </div>
       ) : null}
     </nav>
+    <HeaderProgressBar />
+    </header>
   );
 }

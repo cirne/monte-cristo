@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "nodemon --watch data --exec \"next dev --turbopack\"",
+    "dev": "nodemon",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
@@ -19,7 +19,8 @@
     "openai": "^6.25.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "sharp": "^0.33.5"
+    "sharp": "^0.33.5",
+    "vaul": "^1.1.2"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
