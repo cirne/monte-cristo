@@ -10,7 +10,10 @@
         "Alexey, Alexey Fyodorovitch Karamazov",
         "Alyosha, Alexey",
         "Alyosha; Alexey",
-        "my brother"
+        "my brother",
+        "Karamazov",
+        "Alyosha; Karamazov",
+        "Alyosha, Alexey Fyodorovitch, Karamazov"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -22,7 +25,10 @@
         "Alexey, Alexey Fyodorovitch Karamazov",
         "Alyosha, Alexey",
         "Alyosha; Alexey",
-        "my brother"
+        "my brother",
+        "Karamazov",
+        "Alyosha; Karamazov",
+        "Alyosha, Alexey Fyodorovitch, Karamazov"
       ],
       "spoilerFreeIntro": "A gentle and thoughtful young man, Alexey Fyodorovitch Karamazov is the youngest son of Fyodor Pavlovitch Karamazov."
     },
@@ -47,7 +53,8 @@
         "Fyodor Pavlovitch, my father, father",
         "the old man; father",
         "father, the old man, my father; the deceased father",
-        "my father"
+        "my father",
+        "his old father; Fyodor Pavlovitch"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -70,7 +77,8 @@
         "Fyodor Pavlovitch, my father, father",
         "the old man; father",
         "father, the old man, my father; the deceased father",
-        "my father"
+        "my father",
+        "his old father; Fyodor Pavlovitch"
       ],
       "spoilerFreeIntro": "A wealthy landowner known for his scandalous behavior and reputation in the district."
     },
@@ -95,7 +103,8 @@
         "Dmitri Fyodorovitch",
         "Mitya, Dmitri",
         "Mitya, Mitya Karamazov, Dmitri, Dmitri Fyodorovitch, accused, the criminal, he",
-        "Mitya, Dmitri, Mitya Karamazov"
+        "Mitya, Dmitri, Mitya Karamazov",
+        "Mitya; Dmitri Fyodorovitch; Mitya"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -118,7 +127,8 @@
         "Dmitri Fyodorovitch",
         "Mitya, Dmitri",
         "Mitya, Mitya Karamazov, Dmitri, Dmitri Fyodorovitch, accused, the criminal, he",
-        "Mitya, Dmitri, Mitya Karamazov"
+        "Mitya, Dmitri, Mitya Karamazov",
+        "Mitya; Dmitri Fyodorovitch; Mitya"
       ],
       "spoilerFreeIntro": "The passionate and impulsive eldest son of Fyodor Pavlovitch, born of his first marriage."
     },
@@ -198,14 +208,16 @@
       "name": "Divinity student",
       "aliases": [
         "Rakitin",
-        "Mikhail Osipovitch; Misha"
+        "Mikhail Osipovitch; Misha",
+        "Mr. Rakitin"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
       "searchTerms": [
         "Divinity student",
         "Rakitin",
-        "Mikhail Osipovitch; Misha"
+        "Mikhail Osipovitch; Misha",
+        "Mr. Rakitin"
       ],
       "spoilerFreeIntro": "A young divinity student, impoverished and earnest in his studies."
     },
@@ -447,13 +459,15 @@
       "id": "yefim_petrovitch_polenov",
       "name": "Yefim Petrovitch Polenov",
       "aliases": [
-        "the doctor"
+        "the doctor",
+        "husband of the doctor's wife"
       ],
       "type": "person",
       "firstSeenInChapter": 3,
       "searchTerms": [
         "Yefim Petrovitch Polenov",
-        "the doctor"
+        "the doctor",
+        "husband of the doctor's wife"
       ],
       "spoilerFreeIntro": "Yefim Petrovitch Polenov, the province's Marshal of Nobility and principal heir, is introduced as a man of honesty and upright character."
     },
@@ -636,11 +650,14 @@
     "the_caucasus": {
       "id": "the_caucasus",
       "name": "the Caucasus",
-      "aliases": [],
+      "aliases": [
+        "Caucasus"
+      ],
       "type": "place",
       "firstSeenInChapter": 5,
       "searchTerms": [
-        "the Caucasus"
+        "the Caucasus",
+        "Caucasus"
       ],
       "spoilerFreeIntro": "A mountainous region at the crossroads of Europe and Asia, known for its rugged landscapes and history of military service."
     },
@@ -707,7 +724,8 @@
         "the Creator",
         "God",
         "Lord, Thou",
-        "Heaven; God"
+        "Heaven; God",
+        "O Lord"
       ],
       "type": "person",
       "firstSeenInChapter": 5,
@@ -716,7 +734,8 @@
         "God Himself",
         "the Creator",
         "Lord, Thou",
-        "Heaven; God"
+        "Heaven; God",
+        "O Lord"
       ],
       "spoilerFreeIntro": "An unseen presence, worshipped and questioned by the faithful and the doubtful alike."
     },
@@ -824,11 +843,14 @@
     "maximov": {
       "id": "maximov",
       "name": "Maximov",
-      "aliases": [],
+      "aliases": [
+        "old Maximov"
+      ],
       "type": "person",
       "firstSeenInChapter": 6,
       "searchTerms": [
-        "Maximov"
+        "Maximov",
+        "old Maximov"
       ],
       "spoilerFreeIntro": "A kindly landowner from Tula, Maximov introduces himself with a gentle lisp and eager friendliness."
     },
@@ -839,7 +861,9 @@
         "the lady, Lise's mother, society lady",
         "the lady of the house; Hohlakov",
         "the lady, K. HOHLAKOV",
-        "Madame Hohlakov, the lady"
+        "Madame Hohlakov, the lady",
+        "Madame Hohlakov (owner of the carriage at the gate)",
+        "widow Morozov"
       ],
       "type": "person",
       "firstSeenInChapter": 6,
@@ -848,7 +872,9 @@
         "the lady, Lise's mother, society lady",
         "the lady of the house; Hohlakov",
         "the lady, K. HOHLAKOV",
-        "Madame Hohlakov, the lady"
+        "Madame Hohlakov, the lady",
+        "Madame Hohlakov (owner of the carriage at the gate)",
+        "widow Morozov"
       ],
       "spoilerFreeIntro": "Madame Hohlakov is a lady from Harkov who has come to visit with her ailing daughter."
     },
@@ -1580,7 +1606,8 @@
         "Katenka",
         "Katya",
         "the young lady; Alyosha's 'young lady'",
-        "Katya or the young lady"
+        "Katya or the young lady",
+        "Katerina Ivanovna (benefactress/friend)"
       ],
       "type": "person",
       "firstSeenInChapter": 9,
@@ -1589,7 +1616,8 @@
         "Katenka",
         "Katya",
         "the young lady; Alyosha's 'young lady'",
-        "Katya or the young lady"
+        "Katya or the young lady",
+        "Katerina Ivanovna (benefactress/friend)"
       ],
       "spoilerFreeIntro": "A proud and dignified young woman, Katerina Ivanovna is known for her strong will and passionate temperament."
     },
@@ -1600,7 +1628,8 @@
         "Doctor Herzenstube",
         "Herzenstube, the doctor here",
         "Herzenstube",
-        "the doctor here; Herzenstube"
+        "the doctor here; Herzenstube",
+        "Doctor Herzenstube, the local doctor"
       ],
       "type": "person",
       "firstSeenInChapter": 9,
@@ -1608,7 +1637,8 @@
         "Doctor Herzenstube",
         "Herzenstube, the doctor here",
         "Herzenstube",
-        "the doctor here; Herzenstube"
+        "the doctor here; Herzenstube",
+        "Doctor Herzenstube, the local doctor"
       ],
       "spoilerFreeIntro": "An elderly and compassionate German doctor, known for his long service in the town."
     },
@@ -1802,13 +1832,15 @@
       "id": "katchalnikov",
       "name": "Katchalnikov",
       "aliases": [
-        "justice of the peace"
+        "justice of the peace",
+        "the justice of the peace, (legal official in the goose case)"
       ],
       "type": "person",
       "firstSeenInChapter": 11,
       "searchTerms": [
         "Katchalnikov",
-        "justice of the peace"
+        "justice of the peace",
+        "the justice of the peace, (legal official in the goose case)"
       ],
       "spoilerFreeIntro": "Katchalnikov, the justice of the peace, is a sharply dressed man known for his precise judgments."
     },
@@ -1905,7 +1937,11 @@
         "the poor officer",
         "Ilusha's father",
         "the captain; captain whom Grushenka is told not to 'keep on with'; the captain is referenced/might be Dmitri",
-        "the captain"
+        "the captain",
+        "the captain, the captain Ilusha was defending, Snegiryov",
+        "his father; Ilusha's father",
+        "the captain, retired captain Snegiryov, Mr. Snegiryov",
+        "the captain; Ilusha's father"
       ],
       "type": "person",
       "firstSeenInChapter": 11,
@@ -1918,7 +1954,11 @@
         "the poor officer",
         "Ilusha's father",
         "the captain; captain whom Grushenka is told not to 'keep on with'; the captain is referenced/might be Dmitri",
-        "the captain"
+        "the captain",
+        "the captain, the captain Ilusha was defending, Snegiryov",
+        "his father; Ilusha's father",
+        "the captain, retired captain Snegiryov, Mr. Snegiryov",
+        "the captain; Ilusha's father"
       ]
     },
     "the_enchantress": {
@@ -2142,14 +2182,16 @@
       "name": "Schiller's Robbers",
       "aliases": [
         "the play referenced by Fyodor Pavlovitch",
-        "out of Schiller's Robbers"
+        "out of Schiller's Robbers",
+        "playing robbers"
       ],
       "type": "event",
       "firstSeenInChapter": 11,
       "searchTerms": [
         "Schiller's Robbers",
         "the play referenced by Fyodor Pavlovitch",
-        "out of Schiller's Robbers"
+        "out of Schiller's Robbers",
+        "playing robbers"
       ]
     },
     "porfiry": {
@@ -2829,13 +2871,15 @@
       "id": "the_marketplace",
       "name": "the market-place",
       "aliases": [
-        "market-place"
+        "market-place",
+        "market-place in the town"
       ],
       "type": "place",
       "firstSeenInChapter": 16,
       "searchTerms": [
         "the market-place",
-        "market-place"
+        "market-place",
+        "market-place in the town"
       ]
     },
     "summertime": {
@@ -2980,14 +3024,16 @@
       "name": "Agafya Ivanovna",
       "aliases": [
         "her half-sister Agafya Ivanovna",
-        "Agafya"
+        "Agafya",
+        "the servant, Madame Krassotkin’s servant"
       ],
       "type": "person",
       "firstSeenInChapter": 17,
       "searchTerms": [
         "Agafya Ivanovna",
         "her half-sister Agafya Ivanovna",
-        "Agafya"
+        "Agafya",
+        "the servant, Madame Krassotkin’s servant"
       ],
       "spoilerFreeIntro": "Agafya Ivanovna, a warm-hearted and stout Russian woman with striking eyes, is introduced as a figure of kindness and practical charm."
     },
@@ -3519,12 +3565,14 @@
       "id": "smaragdovs_universal_history",
       "name": "Smaragdov’s Universal History",
       "aliases": [
-        "Smaragdov’s Universal History"
+        "Smaragdov’s Universal History",
+        "Smaragdov"
       ],
       "type": "event",
       "firstSeenInChapter": 19,
       "searchTerms": [
-        "Smaragdov’s Universal History"
+        "Smaragdov’s Universal History",
+        "Smaragdov"
       ]
     },
     "kramskoy": {
@@ -4338,11 +4386,16 @@
     "smurov": {
       "id": "smurov",
       "name": "Smurov",
-      "aliases": [],
+      "aliases": [
+        "Smurov, clever little Smurov",
+        "little Smurov"
+      ],
       "type": "person",
       "firstSeenInChapter": 27,
       "searchTerms": [
-        "Smurov"
+        "Smurov",
+        "Smurov, clever little Smurov",
+        "little Smurov"
       ],
       "spoilerFreeIntro": "A left-handed boy, quick to act when provoked by his companions."
     },
@@ -4481,14 +4534,16 @@
       "name": "Varvara",
       "aliases": [
         "the girl at the window, daughter of the captain",
-        "the relics of the holy martyr, Saint Varvara"
+        "the relics of the holy martyr, Saint Varvara",
+        "Varvara, Ilusha's other sister (gone to Petersburg)"
       ],
       "type": "person",
       "firstSeenInChapter": 30,
       "searchTerms": [
         "Varvara",
         "the girl at the window, daughter of the captain",
-        "the relics of the holy martyr, Saint Varvara"
+        "the relics of the holy martyr, Saint Varvara",
+        "Varvara, Ilusha's other sister (gone to Petersburg)"
       ],
       "spoilerFreeIntro": "A gentle and caring woman, Varvara is present as a quiet companion in the household."
     },
@@ -4498,7 +4553,10 @@
       "aliases": [
         "the captain's wife (referred to as a cripple, mad woman)",
         "mamma",
-        "mamma, Ilusha's mother"
+        "mamma, Ilusha's mother",
+        "the captain's wife, Ilusha’s mother, the half-imbecile mother, mamma",
+        "the mamma",
+        "mamma; Ilusha's mother"
       ],
       "type": "person",
       "firstSeenInChapter": 30,
@@ -4506,7 +4564,10 @@
         "Arina Petrovna",
         "the captain's wife (referred to as a cripple, mad woman)",
         "mamma",
-        "mamma, Ilusha's mother"
+        "mamma, Ilusha's mother",
+        "the captain's wife, Ilusha’s mother, the half-imbecile mother, mamma",
+        "the mamma",
+        "mamma; Ilusha's mother"
       ],
       "spoilerFreeIntro": "Arina Petrovna, a woman of humble origin and limited mobility, is introduced as the wife of the household’s master."
     },
@@ -4515,14 +4576,18 @@
       "name": "Nina",
       "aliases": [
         "crippled, hunchbacked daughter of the captain",
-        "Nina, hunchback daughter"
+        "Nina, hunchback daughter",
+        "Nina, Ilusha’s sister, gentle, crippled sister",
+        "crippled Nina"
       ],
       "type": "person",
       "firstSeenInChapter": 30,
       "searchTerms": [
         "Nina",
         "crippled, hunchbacked daughter of the captain",
-        "Nina, hunchback daughter"
+        "Nina, hunchback daughter",
+        "Nina, Ilusha’s sister, gentle, crippled sister",
+        "crippled Nina"
       ],
       "spoilerFreeIntro": "A gentle and angelic young woman, Nina is introduced as the daughter of the speaker."
     },
@@ -4669,13 +4734,16 @@
       "id": "ilusha",
       "name": "Ilusha",
       "aliases": [
-        "the captain's son; Ilusha"
+        "the captain's son; Ilusha",
+        "Ilusha",
+        "Ilusha, the sick boy"
       ],
       "type": "person",
       "firstSeenInChapter": 31,
       "searchTerms": [
         "Ilusha",
-        "the captain's son; Ilusha"
+        "the captain's son; Ilusha",
+        "Ilusha, the sick boy"
       ],
       "spoilerFreeIntro": "A kind-hearted schoolboy, Ilusha is the devoted son of Captain Snegiryov."
     },
@@ -4697,13 +4765,18 @@
       "id": "the_school",
       "name": "the school",
       "aliases": [
-        "school"
+        "school",
+        "Kolya's school",
+        "preparatory class",
+        "the school"
       ],
       "type": "place",
       "firstSeenInChapter": 31,
       "searchTerms": [
         "the school",
-        "school"
+        "school",
+        "Kolya's school",
+        "preparatory class"
       ],
       "spoilerFreeIntro": "A local school frequently mentioned in town, often attended by mischievous boys who give nicknames and stir up small-town gossip."
     },
@@ -4817,7 +4890,8 @@
         "Marya (girl not yet arrived among those in the next room at the inn)",
         "Marya Kondratyevna (neighbor and witness)",
         "Marya Kondratyevna, her house, Marya, Marya Kondratyevna (house at the back of Fyodor Pavlovitch's garden)",
-        "Marya Kondratyevna's house, house at back of the garden"
+        "Marya Kondratyevna's house, house at back of the garden",
+        "Marya (market woman)"
       ],
       "type": "person",
       "firstSeenInChapter": 33,
@@ -4829,7 +4903,8 @@
         "Marya (girl not yet arrived among those in the next room at the inn)",
         "Marya Kondratyevna (neighbor and witness)",
         "Marya Kondratyevna, her house, Marya, Marya Kondratyevna (house at the back of Fyodor Pavlovitch's garden)",
-        "Marya Kondratyevna's house, house at back of the garden"
+        "Marya Kondratyevna's house, house at back of the garden",
+        "Marya (market woman)"
       ],
       "spoilerFreeIntro": "A middle-aged, insinuating woman, Marya Kondratyevna is quick to join in conversation with keen curiosity."
     },
@@ -5028,13 +5103,15 @@
       "id": "the_tavern",
       "name": "the tavern",
       "aliases": [
-        "tavern, in which Ivan meets Alyosha"
+        "tavern, in which Ivan meets Alyosha",
+        "tavern"
       ],
       "type": "place",
       "firstSeenInChapter": 34,
       "searchTerms": [
         "the tavern",
-        "tavern, in which Ivan meets Alyosha"
+        "tavern, in which Ivan meets Alyosha",
+        "tavern"
       ],
       "spoilerFreeIntro": "A lively tavern filled with noise, games, and the bustle of its patrons."
     },
@@ -6856,7 +6933,8 @@
         "the Bible, Scripture, God's word",
         "the Bible",
         "the Gospel/teaching of Christ",
-        "book/text being read over the body"
+        "book/text being read over the body",
+        "Bible (as text referenced by Alyosha)"
       ],
       "type": "event",
       "firstSeenInChapter": 39,
@@ -6865,7 +6943,8 @@
         "the Bible, Scripture, God's word",
         "the Bible",
         "the Gospel/teaching of Christ",
-        "book/text being read over the body"
+        "book/text being read over the body",
+        "Bible (as text referenced by Alyosha)"
       ],
       "spoilerFreeIntro": "A book treasured by the narrator in childhood, filled with Scripture stories and memorable illustrations."
     },
@@ -7799,11 +7878,14 @@
     "the_peasantry": {
       "id": "the_peasantry",
       "name": "the peasantry",
-      "aliases": [],
+      "aliases": [
+        "the peasantry, peasants of the town"
+      ],
       "type": "person",
       "firstSeenInChapter": 42,
       "searchTerms": [
-        "the peasantry"
+        "the peasantry",
+        "the peasantry, peasants of the town"
       ],
       "spoilerFreeIntro": "A group of local villagers, mostly gathered outside the gates, curious but hesitant to enter."
     },
@@ -8144,13 +8226,15 @@
       "id": "the_cooks_granddaughter",
       "name": "the cook's granddaughter",
       "aliases": [
-        "maid; granddaughter who performed duties of a maid; smart young girl of twenty"
+        "maid; granddaughter who performed duties of a maid; smart young girl of twenty",
+        "Fenya's grandmother, the cook"
       ],
       "type": "person",
       "firstSeenInChapter": 44,
       "searchTerms": [
         "the cook's granddaughter",
-        "maid; granddaughter who performed duties of a maid; smart young girl of twenty"
+        "maid; granddaughter who performed duties of a maid; smart young girl of twenty",
+        "Fenya's grandmother, the cook"
       ]
     },
     "the_cook_at_grushenkas_old_home": {
@@ -8820,13 +8904,15 @@
       "id": "old_merchant",
       "name": "old merchant",
       "aliases": [
-        "old merchant (who gives Mitya ride to Volovya)"
+        "old merchant (who gives Mitya ride to Volovya)",
+        "Grushenka's old merchant"
       ],
       "type": "person",
       "firstSeenInChapter": 47,
       "searchTerms": [
         "old merchant",
-        "old merchant (who gives Mitya ride to Volovya)"
+        "old merchant (who gives Mitya ride to Volovya)",
+        "Grushenka's old merchant"
       ],
       "spoilerFreeIntro": "An old merchant, traveling by hired carriage through the countryside."
     },
@@ -9164,13 +9250,15 @@
       "id": "plotnikovs_shop",
       "name": "Plotnikov's shop",
       "aliases": [
-        "Plotnikov’s; grocery shop"
+        "Plotnikov’s; grocery shop",
+        "Plotnikov’s (shop where the errand-boy works)"
       ],
       "type": "place",
       "firstSeenInChapter": 50,
       "searchTerms": [
         "Plotnikov's shop",
-        "Plotnikov’s; grocery shop"
+        "Plotnikov’s; grocery shop",
+        "Plotnikov’s (shop where the errand-boy works)"
       ]
     },
     "andrey": {
@@ -9179,7 +9267,8 @@
       "aliases": [
         "Andrey, the driver",
         "Andrey (servant, driver, being sent vodka by Mitya)",
-        "Andrey (servant or driver at the inn, not thoroughly described here, but referenced as person to bring vodka to)"
+        "Andrey (servant or driver at the inn, not thoroughly described here, but referenced as person to bring vodka to)",
+        "Andrey (servant/driver mentioned about horses)"
       ],
       "type": "person",
       "firstSeenInChapter": 50,
@@ -9187,7 +9276,8 @@
         "Andrey",
         "Andrey, the driver",
         "Andrey (servant, driver, being sent vodka by Mitya)",
-        "Andrey (servant or driver at the inn, not thoroughly described here, but referenced as person to bring vodka to)"
+        "Andrey (servant or driver at the inn, not thoroughly described here, but referenced as person to bring vodka to)",
+        "Andrey (servant/driver mentioned about horses)"
       ],
       "spoilerFreeIntro": "Andrey, the driver, waits with the cart and horses ready outside the shop."
     },
@@ -9771,13 +9861,15 @@
       "id": "kuzma",
       "name": "Kuzma",
       "aliases": [
-        "Kuzma (the man from Grushenka's past, not present in scene but referenced as a standard for Grushenka's virtue)"
+        "Kuzma (the man from Grushenka's past, not present in scene but referenced as a standard for Grushenka's virtue)",
+        "Kuzma (referenced as the real name of an employee)"
       ],
       "type": "person",
       "firstSeenInChapter": 52,
       "searchTerms": [
         "Kuzma",
-        "Kuzma (the man from Grushenka's past, not present in scene but referenced as a standard for Grushenka's virtue)"
+        "Kuzma (the man from Grushenka's past, not present in scene but referenced as a standard for Grushenka's virtue)",
+        "Kuzma (referenced as the real name of an employee)"
       ],
       "spoilerFreeIntro": "A man from Grushenka’s past, of whom she speaks with bitterness and pride."
     },
@@ -10459,14 +10551,16 @@
       "name": "three thousand roubles gift/envelope",
       "aliases": [
         "the envelope with the inscription: “A present of three thousand roubles for my angel Grushenka, if she is willing to come.”",
-        "three thousand"
+        "three thousand",
+        "the three thousand / question of the three thousand roubles"
       ],
       "type": "event",
       "firstSeenInChapter": 55,
       "searchTerms": [
         "three thousand roubles gift/envelope",
         "the envelope with the inscription: “A present of three thousand roubles for my angel Grushenka, if she is willing to come.”",
-        "three thousand"
+        "three thousand",
+        "the three thousand / question of the three thousand roubles"
       ]
     },
     "the_room_where_fyodor_pavlovitch_was_lying": {
@@ -10544,13 +10638,15 @@
       "id": "the_secretary_of_the_investigating_lawyer",
       "name": "the secretary of the investigating lawyer",
       "aliases": [
-        "the secretary"
+        "the secretary",
+        "Nikolay Parfenovitch’s little secretary"
       ],
       "type": "person",
       "firstSeenInChapter": 56,
       "searchTerms": [
         "the secretary of the investigating lawyer",
-        "the secretary"
+        "the secretary",
+        "Nikolay Parfenovitch’s little secretary"
       ],
       "spoilerFreeIntro": "A man in a worn hunting-jacket, quietly prepared with ink and paper, served as the investigating lawyer's attentive secretary."
     },
@@ -10654,7 +10750,8 @@
       "aliases": [
         "the interrogation, the inquiry, the examination",
         "the investigation; the interrogation",
-        "examination, search, and questioning of Mitya"
+        "examination, search, and questioning of Mitya",
+        "preliminary inquiry"
       ],
       "type": "event",
       "firstSeenInChapter": 56,
@@ -10662,7 +10759,8 @@
         "the interrogation of Mitya",
         "the interrogation, the inquiry, the examination",
         "the investigation; the interrogation",
-        "examination, search, and questioning of Mitya"
+        "examination, search, and questioning of Mitya",
+        "preliminary inquiry"
       ]
     },
     "the_feastdance_in_the_inn": {
@@ -11014,7 +11112,1358 @@
         "Katerina Ivanovna's sister and another relation in Moscow",
         "her sister and another relation in Moscow"
       ]
+    },
+    "stepan": {
+      "id": "stepan",
+      "name": "Stepan",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 61,
+      "searchTerms": [
+        "Stepan"
+      ],
+      "spoilerFreeIntro": "Stepan is one of the servants who assists and often overhears conversations in the Karamazov household."
+    },
+    "semyon": {
+      "id": "semyon",
+      "name": "Semyon",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 61,
+      "searchTerms": [
+        "Semyon"
+      ],
+      "spoilerFreeIntro": "Semyon, one of the men quietly present among the onlookers, listens to the conversation with attentive interest."
+    },
+    "pan_mussyalovitch": {
+      "id": "pan_mussyalovitch",
+      "name": "Pan Mussyalovitch",
+      "aliases": [
+        "the little Pole",
+        "the Pole"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 61,
+      "searchTerms": [
+        "Pan Mussyalovitch",
+        "the little Pole",
+        "the Pole"
+      ],
+      "spoilerFreeIntro": "A small, dignified Polish gentleman and retired veterinary official, Pan Mussyalovitch is introduced among the group giving evidence."
+    },
+    "pan_vrublevsky": {
+      "id": "pan_vrublevsky",
+      "name": "Pan Vrublevsky",
+      "aliases": [
+        "the second Pole"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 61,
+      "searchTerms": [
+        "Pan Vrublevsky",
+        "the second Pole"
+      ],
+      "spoilerFreeIntro": "Pan Vrublevsky, an uncertificated dentist, appears among the witnesses questioned by the investigators."
+    },
+    "the_baby_in_the_dream": {
+      "id": "the_baby_in_the_dream",
+      "name": "the baby (in the dream)",
+      "aliases": [
+        "the babe",
+        "the babe, some child Mitya talks about"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 61,
+      "searchTerms": [
+        "the baby (in the dream)",
+        "the babe",
+        "the babe, some child Mitya talks about"
+      ],
+      "spoilerFreeIntro": "A tiny infant, whose faint cries drift through Mitya’s restless dream."
+    },
+    "the_peasant_driver_in_the_dream": {
+      "id": "the_peasant_driver_in_the_dream",
+      "name": "the peasant driver (in the dream)",
+      "aliases": [
+        "peasant driver in the dream"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 61,
+      "searchTerms": [
+        "the peasant driver (in the dream)",
+        "peasant driver in the dream"
+      ]
+    },
+    "the_village_burnt_out_in_mityas_dream": {
+      "id": "the_village_burnt_out_in_mityas_dream",
+      "name": "the village (burnt out, in Mitya's dream)",
+      "aliases": [
+        "burnt-out village in the dream"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 61,
+      "searchTerms": [
+        "the village (burnt out, in Mitya's dream)",
+        "burnt-out village in the dream"
+      ]
+    },
+    "peasant_women_and_the_mother_with_the_baby_in_the_dream": {
+      "id": "peasant_women_and_the_mother_with_the_baby_in_the_dream",
+      "name": "peasant women and the mother with the baby (in the dream)",
+      "aliases": [
+        "peasant women in the dream"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 61,
+      "searchTerms": [
+        "peasant women and the mother with the baby (in the dream)",
+        "peasant women in the dream"
+      ]
+    },
+    "the_protocol_of_evidence": {
+      "id": "the_protocol_of_evidence",
+      "name": "the protocol of evidence",
+      "aliases": [
+        "protocol"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 61,
+      "searchTerms": [
+        "the protocol of evidence",
+        "protocol"
+      ],
+      "spoilerFreeIntro": "A formal record, signed by each witness, summarizing the statements given during testimony."
+    },
+    "pillow_under_mityas_head_kindness": {
+      "id": "pillow_under_mityas_head_kindness",
+      "name": "pillow under Mitya's head (kindness)",
+      "aliases": [
+        "the pillow"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 61,
+      "searchTerms": [
+        "pillow under Mitya's head (kindness)",
+        "the pillow"
+      ]
+    },
+    "ikon": {
+      "id": "ikon",
+      "name": "ikon",
+      "aliases": [
+        "icon (religious object Grushenka crosses herself before)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 61,
+      "searchTerms": [
+        "ikon",
+        "icon (religious object Grushenka crosses herself before)"
+      ],
+      "spoilerFreeIntro": "A sacred religious image, venerated by the characters as part of their Orthodox faith."
+    },
+    "akim": {
+      "id": "akim",
+      "name": "Akim",
+      "aliases": [
+        "Akim (peasant/driver expected for the second cart)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 62,
+      "searchTerms": [
+        "Akim",
+        "Akim (peasant/driver expected for the second cart)"
+      ],
+      "spoilerFreeIntro": "Akim, a humble and often-overlooked peasant, appears in the midst of the commotion among the serfs."
+    },
+    "women": {
+      "id": "women",
+      "name": "women",
+      "aliases": [
+        "women (in the crowd at the gate)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 62,
+      "searchTerms": [
+        "women",
+        "women (in the crowd at the gate)"
+      ],
+      "spoilerFreeIntro": "One of the women from the crowd at the inn, curious and watchful as Mitya passes by."
+    },
+    "drivers": {
+      "id": "drivers",
+      "name": "drivers",
+      "aliases": [
+        "drivers (at the gate, with the carts)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 62,
+      "searchTerms": [
+        "drivers",
+        "drivers (at the gate, with the carts)"
+      ],
+      "spoilerFreeIntro": "A group of local men who drive carts for a living, gathered among the crowd at the gates."
+    },
+    "constables": {
+      "id": "constables",
+      "name": "constables",
+      "aliases": [
+        "constables (to accompany Mavriky Mavrikyevitch in the second cart)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 62,
+      "searchTerms": [
+        "constables",
+        "constables (to accompany Mavriky Mavrikyevitch in the second cart)"
+      ],
+      "spoilerFreeIntro": "Two law officers, tasked with escorting Mavriky Mavrikyevitch on his journey."
+    },
+    "the_steps": {
+      "id": "the_steps",
+      "name": "the steps",
+      "aliases": [
+        "the steps (outside the inn or house)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 62,
+      "searchTerms": [
+        "the steps",
+        "the steps (outside the inn or house)"
+      ],
+      "spoilerFreeIntro": "A set of steps at the entrance, where carts and onlookers gather, marking a point of arrival and departure."
+    },
+    "the_gates": {
+      "id": "the_gates",
+      "name": "the gates",
+      "aliases": [
+        "the gates (entrance/exit where carts wait, crowd stands)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 62,
+      "searchTerms": [
+        "the gates",
+        "the gates (entrance/exit where carts wait, crowd stands)"
+      ],
+      "spoilerFreeIntro": "A large entrance where crowds of peasants, women, and drivers gather outside the establishment."
+    },
+    "the_cart": {
+      "id": "the_cart",
+      "name": "the cart",
+      "aliases": [
+        "the cart (Mitya's vehicle for transfer to prison/town)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 62,
+      "searchTerms": [
+        "the cart",
+        "the cart (Mitya's vehicle for transfer to prison/town)"
+      ],
+      "spoilerFreeIntro": "A rough, shabby conveyance driven by an irritable peasant, hired to carry Mitya through the night."
+    },
+    "prison": {
+      "id": "prison",
+      "name": "prison",
+      "aliases": [
+        "prison (in the town, where Mitya will be confined)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 62,
+      "searchTerms": [
+        "prison",
+        "prison (in the town, where Mitya will be confined)"
+      ],
+      "spoilerFreeIntro": "A stark, confining space where the accused awaits judgment and the proceedings of justice unfold."
+    },
+    "the_committal": {
+      "id": "the_committal",
+      "name": "the committal",
+      "aliases": [
+        "the Committal (official procedure of remanding to prison)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 62,
+      "searchTerms": [
+        "the committal",
+        "the Committal (official procedure of remanding to prison)"
+      ]
+    },
+    "the_bell": {
+      "id": "the_bell",
+      "name": "the bell",
+      "aliases": [
+        "the bell (rings as Mitya is driven off)",
+        "The Bell (periodical)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 62,
+      "searchTerms": [
+        "the bell",
+        "the bell (rings as Mitya is driven off)",
+        "The Bell (periodical)"
+      ],
+      "spoilerFreeIntro": "The bell signals the departure of the cart carrying Mitya away."
+    },
+    "madame_krassotkin": {
+      "id": "madame_krassotkin",
+      "name": "Madame Krassotkin",
+      "aliases": [
+        "widow of a former provincial secretary",
+        "Anna Fyodorovna"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 63,
+      "searchTerms": [
+        "Madame Krassotkin",
+        "widow of a former provincial secretary",
+        "Anna Fyodorovna"
+      ],
+      "spoilerFreeIntro": "Madame Krassotkin is a neat and pleasant widow in her early thirties, who keeps a tidy little house."
+    },
+    "the_widow_of_a_former_provincial_secretary": {
+      "id": "the_widow_of_a_former_provincial_secretary",
+      "name": "the widow of a former provincial secretary",
+      "aliases": [
+        "Madame Krassotkin"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 63,
+      "searchTerms": [
+        "the widow of a former provincial secretary",
+        "Madame Krassotkin"
+      ],
+      "spoilerFreeIntro": "A nice-looking woman of thirty-two, Madame Krassotkin is the widow of a former provincial secretary."
+    },
+    "kolya_krassotkin": {
+      "id": "kolya_krassotkin",
+      "name": "Kolya Krassotkin",
+      "aliases": [
+        "Kolya, her boy Kolya, her precious treasure, Kolya, Kolya Krassotkin",
+        "Kolya, Krassotkin",
+        "Kolya; Krassotkin; Nikolay Ivanovitch Krassotkin",
+        "Krassotkin, Kolya",
+        "Kolya",
+        "Kolya; Krassotkin; Nikolay Krassotkin"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 63,
+      "searchTerms": [
+        "Kolya Krassotkin",
+        "Kolya, her boy Kolya, her precious treasure, Kolya, Kolya Krassotkin",
+        "Kolya, Krassotkin",
+        "Kolya; Krassotkin; Nikolay Ivanovitch Krassotkin",
+        "Krassotkin, Kolya",
+        "Kolya",
+        "Kolya; Krassotkin; Nikolay Krassotkin"
+      ],
+      "spoilerFreeIntro": "A clever, spirited schoolboy known for his leadership among his friends."
+    },
+    "the_teacher_dardanelov": {
+      "id": "the_teacher_dardanelov",
+      "name": "the teacher, Dardanelov",
+      "aliases": [
+        "Dardanelov, respected and influential teacher",
+        "Dardanelov, the teacher"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 63,
+      "searchTerms": [
+        "the teacher, Dardanelov",
+        "Dardanelov, respected and influential teacher",
+        "Dardanelov, the teacher"
+      ],
+      "spoilerFreeIntro": "Dardanelov is a schoolteacher known for his skill in arithmetic and history."
+    },
+    "schoolfellows": {
+      "id": "schoolfellows",
+      "name": "schoolfellows",
+      "aliases": [
+        "Kolya's schoolfellows"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 63,
+      "searchTerms": [
+        "schoolfellows",
+        "Kolya's schoolfellows"
+      ],
+      "spoilerFreeIntro": "A group of boys who attend school with Kolya."
+    },
+    "anna_fyodorovna": {
+      "id": "anna_fyodorovna",
+      "name": "Anna Fyodorovna",
+      "aliases": [
+        "Madame Krassotkin"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 63,
+      "searchTerms": [
+        "Anna Fyodorovna",
+        "Madame Krassotkin"
+      ],
+      "spoilerFreeIntro": "Anna Fyodorovna, a still youthful and pleasant widow, is the owner of the tidy house where Madame Krassotkin resides."
+    },
+    "universal_history": {
+      "id": "universal_history",
+      "name": "universal history",
+      "aliases": [
+        "subject at school (history lessons)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 63,
+      "searchTerms": [
+        "universal history",
+        "subject at school (history lessons)"
+      ],
+      "spoilerFreeIntro": "Universal history: A school subject covering the broad sweep of world history taught to students."
+    },
+    "the_masters": {
+      "id": "the_masters",
+      "name": "the masters",
+      "aliases": [
+        "the teachers at the school",
+        "the masters (teachers at the school)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 63,
+      "searchTerms": [
+        "the masters",
+        "the teachers at the school",
+        "the masters (teachers at the school)"
+      ],
+      "spoilerFreeIntro": "The masters, a group of teachers at the school, hold authority over the students and their affairs."
+    },
+    "perezvon": {
+      "id": "perezvon",
+      "name": "Perezvon",
+      "aliases": [
+        "the big, shaggy, mangy dog",
+        "the dog",
+        "Perezvon, Kolya's dog",
+        "Perezvon; the dog"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 63,
+      "searchTerms": [
+        "Perezvon",
+        "the big, shaggy, mangy dog",
+        "the dog",
+        "Perezvon, Kolya's dog",
+        "Perezvon; the dog"
+      ],
+      "spoilerFreeIntro": "Perezvon is a big, shaggy, mangy dog recently adopted and kept secretly indoors by his owner."
+    },
+    "the_boys_at_the_station": {
+      "id": "the_boys_at_the_station",
+      "name": "the boys at the station",
+      "aliases": [
+        "group of boys in another district (the summer incident)",
+        "the boys; the schoolboys"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 63,
+      "searchTerms": [
+        "the boys at the station",
+        "group of boys in another district (the summer incident)",
+        "the boys; the schoolboys"
+      ]
+    },
+    "the_railway_station": {
+      "id": "the_railway_station",
+      "name": "the railway station",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 63,
+      "searchTerms": [
+        "the railway station"
+      ]
+    },
+    "troy": {
+      "id": "troy",
+      "name": "Troy",
+      "aliases": [
+        "ancient city referenced in a schoolboy debate"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 63,
+      "searchTerms": [
+        "Troy",
+        "ancient city referenced in a schoolboy debate"
+      ],
+      "spoilerFreeIntro": "Troy, the legendary ancient city famed in Greek mythology."
+    },
+    "the_holy_image": {
+      "id": "the_holy_image",
+      "name": "the holy image",
+      "aliases": [
+        "icon before which Kolya swore"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 63,
+      "searchTerms": [
+        "the holy image",
+        "icon before which Kolya swore"
+      ],
+      "spoilerFreeIntro": "A revered religious icon before which characters make solemn vows."
+    },
+    "katerina": {
+      "id": "katerina",
+      "name": "Katerina",
+      "aliases": [
+        "the servant of the doctor's wife"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 64,
+      "searchTerms": [
+        "Katerina",
+        "the servant of the doctor's wife"
+      ],
+      "spoilerFreeIntro": "Katerina, the devoted servant, appears troubled as she confides unexpected news to her mistress."
+    },
+    "the_doctors_wife": {
+      "id": "the_doctors_wife",
+      "name": "the doctor's wife",
+      "aliases": [
+        "the lodger, friend of Madame Krassotkin"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 64,
+      "searchTerms": [
+        "the doctor's wife",
+        "the lodger, friend of Madame Krassotkin"
+      ]
+    },
+    "orenburg": {
+      "id": "orenburg",
+      "name": "Orenburg",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 64,
+      "searchTerms": [
+        "Orenburg"
+      ],
+      "spoilerFreeIntro": "A city in Russia, Orenburg lies on the border of Europe and Asia."
+    },
+    "tashkend": {
+      "id": "tashkend",
+      "name": "Tashkend",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 64,
+      "searchTerms": [
+        "Tashkend"
+      ],
+      "spoilerFreeIntro": "Tashkend, a distant city in Central Asia, lies far from the familiar towns of the novel’s setting."
+    },
+    "midwifes_establishment_in_the_town": {
+      "id": "midwifes_establishment_in_the_town",
+      "name": "midwife's establishment in the town",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 64,
+      "searchTerms": [
+        "midwife's establishment in the town"
+      ]
+    },
+    "nastya": {
+      "id": "nastya",
+      "name": "Nastya",
+      "aliases": [
+        "the elder kid, daughter of the doctor's wife"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 64,
+      "searchTerms": [
+        "Nastya",
+        "the elder kid, daughter of the doctor's wife"
+      ],
+      "spoilerFreeIntro": "Nastya, the elder of the two bereaved children, is an eight-year-old girl who can read and cares for her younger brother."
+    },
+    "kostya": {
+      "id": "kostya",
+      "name": "Kostya",
+      "aliases": [
+        "the boy, son of the doctor's wife"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 64,
+      "searchTerms": [
+        "Kostya",
+        "the boy, son of the doctor's wife"
+      ],
+      "spoilerFreeIntro": "Kostya, a seven-year-old boy, eagerly listens as his older sister Nastya reads to him from a picture book."
+    },
+    "the_house_of_madame_krassotkin": {
+      "id": "the_house_of_madame_krassotkin",
+      "name": "the house of Madame Krassotkin",
+      "aliases": [
+        "home, the Krassotkins' house"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 64,
+      "searchTerms": [
+        "the house of Madame Krassotkin",
+        "home, the Krassotkins' house"
+      ]
+    },
+    "the_market": {
+      "id": "the_market",
+      "name": "the market",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 64,
+      "searchTerms": [
+        "the market"
+      ]
+    },
+    "the_rooms_of_the_doctors_wife": {
+      "id": "the_rooms_of_the_doctors_wife",
+      "name": "the rooms of the doctor's wife",
+      "aliases": [
+        "the lodgers’ room"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 64,
+      "searchTerms": [
+        "the rooms of the doctor's wife",
+        "the lodgers’ room"
+      ],
+      "spoilerFreeIntro": "The rooms of the doctor's wife are a modest and quiet lodging where her family and several boarders reside."
+    },
+    "kitchengarden": {
+      "id": "kitchengarden",
+      "name": "kitchen-garden",
+      "aliases": [
+        "the kitchen-garden, used in story about old women and babies"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 64,
+      "searchTerms": [
+        "kitchen-garden",
+        "the kitchen-garden, used in story about old women and babies"
+      ]
+    },
+    "natasha": {
+      "id": "natasha",
+      "name": "Natasha",
+      "aliases": [
+        "Natasha (market woman)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 65,
+      "searchTerms": [
+        "Natasha",
+        "Natasha (market woman)"
+      ],
+      "spoilerFreeIntro": "A middle-aged market woman selling goods at a booth in the marketplace."
+    },
+    "matvey": {
+      "id": "matvey",
+      "name": "Matvey",
+      "aliases": [
+        "Matvey (peasant, owner of frozen beard)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 65,
+      "searchTerms": [
+        "Matvey",
+        "Matvey (peasant, owner of frozen beard)"
+      ],
+      "spoilerFreeIntro": "Matvey is a servant whose quiet presence is noted during a brief encounter at the household."
+    },
+    "trifon_nikititch": {
+      "id": "trifon_nikititch",
+      "name": "Trifon Nikititch",
+      "aliases": [
+        "Trifon Nikititch (name used by Kolya to confuse the clerk)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 65,
+      "searchTerms": [
+        "Trifon Nikititch",
+        "Trifon Nikititch (name used by Kolya to confuse the clerk)"
+      ],
+      "spoilerFreeIntro": "Trifon Nikititch is a local man known for handling village affairs."
+    },
+    "zhutchka": {
+      "id": "zhutchka",
+      "name": "Zhutchka",
+      "aliases": [
+        "Zhutchka (dog, subject of confusion and loss)",
+        "Zhutchka, the lost dog, Ilusha's dog"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 65,
+      "searchTerms": [
+        "Zhutchka",
+        "Zhutchka (dog, subject of confusion and loss)",
+        "Zhutchka, the lost dog, Ilusha's dog"
+      ],
+      "spoilerFreeIntro": "Zhutchka is a dog fondly remembered by some of the characters, though no longer present."
+    },
+    "market_women": {
+      "id": "market_women",
+      "name": "market women",
+      "aliases": [
+        "market women (group of women at the booths)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 65,
+      "searchTerms": [
+        "market women",
+        "market women (group of women at the booths)"
+      ],
+      "spoilerFreeIntro": "Market women, local vendors bustling in their booths with everyday goods, add vibrant life to the Sunday fair."
+    },
+    "youthmerchants_clerk": {
+      "id": "youthmerchants_clerk",
+      "name": "youth/merchant's clerk",
+      "aliases": [
+        "young man (not a native of the town, long blue coat)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 65,
+      "searchTerms": [
+        "youth/merchant's clerk",
+        "young man (not a native of the town, long blue coat)"
+      ]
+    },
+    "sabaneyev": {
+      "id": "sabaneyev",
+      "name": "Sabaneyev",
+      "aliases": [
+        "Sabaneyev (name Kolya uses as a joke)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 65,
+      "searchTerms": [
+        "Sabaneyev",
+        "Sabaneyev (name Kolya uses as a joke)"
+      ],
+      "spoilerFreeIntro": "A young man mentioned by Kolya as a point of comparison in conversation."
+    },
+    "kuzmitchovs": {
+      "id": "kuzmitchovs",
+      "name": "Kuzmitchovs",
+      "aliases": [
+        "Kuzmitchovs (family or employer referenced by market women)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 65,
+      "searchTerms": [
+        "Kuzmitchovs",
+        "Kuzmitchovs (family or employer referenced by market women)"
+      ],
+      "spoilerFreeIntro": "A notable family in the town, known as merchants employing various workers."
+    },
+    "tchizhov_alexey_ivanitch": {
+      "id": "tchizhov_alexey_ivanitch",
+      "name": "Tchizhov, Alexey Ivanitch",
+      "aliases": [
+        "Tchizhov, Alexey Ivanitch (tall, sniveling fellow, market figure)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 65,
+      "searchTerms": [
+        "Tchizhov, Alexey Ivanitch",
+        "Tchizhov, Alexey Ivanitch (tall, sniveling fellow, market figure)"
+      ],
+      "spoilerFreeIntro": "A grave and silent man, known to the group as Alexey Ivanitch Tchizhov."
+    },
+    "captain_snegiryovs_lodging": {
+      "id": "captain_snegiryovs_lodging",
+      "name": "Captain Snegiryov’s lodging",
+      "aliases": [
+        "Captain Snegiryov’s lodging (house near Ilusha)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 65,
+      "searchTerms": [
+        "Captain Snegiryov’s lodging",
+        "Captain Snegiryov’s lodging (house near Ilusha)"
+      ],
+      "spoilerFreeIntro": "A modest and shabby residence on the outskirts of town, home to a proud but impoverished former army captain and his family."
+    },
+    "the_fair": {
+      "id": "the_fair",
+      "name": "the fair",
+      "aliases": [
+        "Sunday markets/fairs in the town"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 65,
+      "searchTerms": [
+        "the fair",
+        "Sunday markets/fairs in the town"
+      ]
+    },
+    "the_crime_trial_of_dmitri": {
+      "id": "the_crime_trial_of_dmitri",
+      "name": "the crime / trial of Dmitri",
+      "aliases": [
+        "trial of Alexey's brother; crime for which Alexey's brother is to be tried"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 65,
+      "searchTerms": [
+        "the crime / trial of Dmitri",
+        "trial of Alexey's brother; crime for which Alexey's brother is to be tried"
+      ]
+    },
+    "the_goose_incident": {
+      "id": "the_goose_incident",
+      "name": "the goose incident",
+      "aliases": [
+        "Kolya's previous scrape involving a goose",
+        "the goose incident, Kolya and the errand-boy break a goose’s neck in the market"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 65,
+      "searchTerms": [
+        "the goose incident",
+        "Kolya's previous scrape involving a goose",
+        "the goose incident, Kolya and the errand-boy break a goose’s neck in the market"
+      ]
+    },
+    "socialism": {
+      "id": "socialism",
+      "name": "Socialism",
+      "aliases": [
+        "Kolya's statement of being a Socialist",
+        "I am a Socialist, Socialism"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 65,
+      "searchTerms": [
+        "Socialism",
+        "Kolya's statement of being a Socialist",
+        "I am a Socialist, Socialism"
+      ]
+    },
+    "the_incident_with_the_knife": {
+      "id": "the_incident_with_the_knife",
+      "name": "the incident (with the knife)",
+      "aliases": [
+        "the incident (with the knife, the quarrel and stabbing)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 66,
+      "searchTerms": [
+        "the incident (with the knife)",
+        "the incident (with the knife, the quarrel and stabbing)"
+      ]
+    },
+    "the_house_of_the_snegiryovs": {
+      "id": "the_house_of_the_snegiryovs",
+      "name": "the house (of the Snegiryovs)",
+      "aliases": [
+        "the house; people of the house"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 66,
+      "searchTerms": [
+        "the house (of the Snegiryovs)",
+        "the house; people of the house"
+      ]
+    },
+    "art": {
+      "id": "art",
+      "name": "art",
+      "aliases": [
+        "art in its first stage; games as art"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 66,
+      "searchTerms": [
+        "art",
+        "art in its first stage; games as art"
+      ],
+      "spoilerFreeIntro": "A troubled, artistic young man whose sudden, desperate act hints at deeper struggles."
+    },
+    "the_passage": {
+      "id": "the_passage",
+      "name": "the passage",
+      "aliases": [
+        "the passage"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 66,
+      "searchTerms": [
+        "the passage"
+      ]
+    },
+    "the_new_doctor": {
+      "id": "the_new_doctor",
+      "name": "the new doctor",
+      "aliases": [
+        "the new doctor, doctor from Moscow"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 67,
+      "searchTerms": [
+        "the new doctor",
+        "the new doctor, doctor from Moscow"
+      ]
+    },
+    "the_fedotov_family": {
+      "id": "the_fedotov_family",
+      "name": "the Fedotov family",
+      "aliases": [
+        "the Fedotovs (whose yard Zhutchka/Perezvon lived in)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 67,
+      "searchTerms": [
+        "the Fedotov family",
+        "the Fedotovs (whose yard Zhutchka/Perezvon lived in)"
+      ]
+    },
+    "morozov": {
+      "id": "morozov",
+      "name": "Morozov",
+      "aliases": [
+        "Morozov, previous owner of the bronze cannon"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 67,
+      "searchTerms": [
+        "Morozov",
+        "Morozov, previous owner of the bronze cannon"
+      ],
+      "spoilerFreeIntro": "Morozov is a man mentioned in passing, known to have once owned the mysterious object now changing hands among the characters."
+    },
+    "the_brother_of_morozov": {
+      "id": "the_brother_of_morozov",
+      "name": "the brother of Morozov",
+      "aliases": [
+        "Morozov’s brother, previous owner of the cannon"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 67,
+      "searchTerms": [
+        "the brother of Morozov",
+        "Morozov’s brother, previous owner of the cannon"
+      ]
+    },
+    "borovikov": {
+      "id": "borovikov",
+      "name": "Borovikov",
+      "aliases": [
+        "Borovikov (boy assisted in making home-made powder)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 67,
+      "searchTerms": [
+        "Borovikov",
+        "Borovikov (boy assisted in making home-made powder)"
+      ],
+      "spoilerFreeIntro": "Borovikov is an inventive acquaintance known for discovering how to make gunpowder."
+    },
+    "bulkin": {
+      "id": "bulkin",
+      "name": "Bulkin",
+      "aliases": [
+        "Bulkin (boy, had home-made powder, was punished)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 67,
+      "searchTerms": [
+        "Bulkin",
+        "Bulkin (boy, had home-made powder, was punished)"
+      ],
+      "spoilerFreeIntro": "Bulkin is a boy from the neighborhood, mentioned by Kolya in conversation with Ilusha."
+    },
+    "the_father_of_bulkin": {
+      "id": "the_father_of_bulkin",
+      "name": "the father of Bulkin",
+      "aliases": [
+        "Bulkin's father"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 67,
+      "searchTerms": [
+        "the father of Bulkin",
+        "Bulkin's father"
+      ]
+    },
+    "kolbasnikov": {
+      "id": "kolbasnikov",
+      "name": "Kolbasnikov",
+      "aliases": [
+        "Kolbasnikov, classical master at the school",
+        "the classical master, Kolbasnikov"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 67,
+      "searchTerms": [
+        "Kolbasnikov",
+        "Kolbasnikov, classical master at the school",
+        "the classical master, Kolbasnikov"
+      ],
+      "spoilerFreeIntro": "Kolbasnikov, the classical master, is a strict and easily shocked teacher at the school."
+    },
+    "kartashov": {
+      "id": "kartashov",
+      "name": "Kartashov",
+      "aliases": [
+        "Kartashov, the shy, pretty boy who knew the founders of Troy"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 67,
+      "searchTerms": [
+        "Kartashov",
+        "Kartashov, the shy, pretty boy who knew the founders of Troy"
+      ],
+      "spoilerFreeIntro": "A shy, good-looking eleven-year-old boy called Kartashov sat quietly near the door."
+    },
+    "teucer": {
+      "id": "teucer",
+      "name": "Teucer",
+      "aliases": [
+        "Teucer, founder of Troy"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 67,
+      "searchTerms": [
+        "Teucer",
+        "Teucer, founder of Troy"
+      ],
+      "spoilerFreeIntro": "A shy, knowledgeable boy, eager to answer questions about ancient Troy."
+    },
+    "dardanus": {
+      "id": "dardanus",
+      "name": "Dardanus",
+      "aliases": [
+        "Dardanus, founder of Troy"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 67,
+      "searchTerms": [
+        "Dardanus",
+        "Dardanus, founder of Troy"
+      ],
+      "spoilerFreeIntro": "A shy, knowledgeable boy who quickly recites the names of Troy’s founders."
+    },
+    "ilius": {
+      "id": "ilius",
+      "name": "Ilius",
+      "aliases": [
+        "Ilius, founder of Troy"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 67,
+      "searchTerms": [
+        "Ilius",
+        "Ilius, founder of Troy"
+      ],
+      "spoilerFreeIntro": "A shy and knowledgeable boy, eager to answer questions about ancient Troy."
+    },
+    "tros": {
+      "id": "tros",
+      "name": "Tros",
+      "aliases": [
+        "Tros, founder of Troy"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 67,
+      "searchTerms": [
+        "Tros",
+        "Tros, founder of Troy"
+      ],
+      "spoilerFreeIntro": "A shy but knowledgeable boy, eager to prove himself among his classmates."
+    },
+    "the_founders_of_troy": {
+      "id": "the_founders_of_troy",
+      "name": "the founder(s) of Troy",
+      "aliases": [
+        "the question who founded Troy"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 67,
+      "searchTerms": [
+        "the founder(s) of Troy",
+        "the question who founded Troy"
+      ]
+    },
+    "the_cart_full_of_oats": {
+      "id": "the_cart_full_of_oats",
+      "name": "the cart full of oats",
+      "aliases": [
+        "cart full of oats (object/event in the goose incident)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 67,
+      "searchTerms": [
+        "the cart full of oats",
+        "cart full of oats (object/event in the goose incident)"
+      ]
+    },
+    "the_third_class": {
+      "id": "the_third_class",
+      "name": "the third class",
+      "aliases": [
+        "third class at the school (Kartashov, Kolya, etc.)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 67,
+      "searchTerms": [
+        "the third class",
+        "third class at the school (Kartashov, Kolya, etc.)"
+      ]
+    },
+    "the_landlady": {
+      "id": "the_landlady",
+      "name": "the landlady",
+      "aliases": [
+        "the landlady (cooking for Snegiryovs in another room)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 67,
+      "searchTerms": [
+        "the landlady",
+        "the landlady (cooking for Snegiryovs in another room)"
+      ],
+      "spoilerFreeIntro": "The landlady, a bustling woman who manages the kitchen and household at the inn, oversees the meals and daily affairs."
+    },
+    "doctor": {
+      "id": "doctor",
+      "name": "doctor",
+      "aliases": [
+        "the doctor"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 68,
+      "searchTerms": [
+        "doctor",
+        "the doctor"
+      ],
+      "spoilerFreeIntro": "A local doctor is called to examine the sickly Ilusha."
+    },
+    "voltaire": {
+      "id": "voltaire",
+      "name": "Voltaire",
+      "aliases": [
+        "Voltaire"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 68,
+      "searchTerms": [
+        "Voltaire"
+      ],
+      "spoilerFreeIntro": "A famous philosopher and writer known for his wit and criticism of society."
+    },
+    "byelinsky": {
+      "id": "byelinsky",
+      "name": "Byelinsky",
+      "aliases": [
+        "Byelinsky"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 68,
+      "searchTerms": [
+        "Byelinsky"
+      ],
+      "spoilerFreeIntro": "A respected critic and essayist, Byelinsky is referenced in conversation for his literary opinions."
+    },
+    "tatyana": {
+      "id": "tatyana",
+      "name": "Tatyana",
+      "aliases": [
+        "Tatyana"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 68,
+      "searchTerms": [
+        "Tatyana"
+      ],
+      "spoilerFreeIntro": "A celebrated literary heroine whose character is discussed for her feelings toward Onyegin."
+    },
+    "onyegin": {
+      "id": "onyegin",
+      "name": "Onyegin",
+      "aliases": [
+        "Onyegin"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 68,
+      "searchTerms": [
+        "Onyegin"
+      ],
+      "spoilerFreeIntro": "A worldly and aloof young man, Onyegin is the hero of a classic Russian novel beloved by many."
+    },
+    "the_chain_bridge": {
+      "id": "the_chain_bridge",
+      "name": "the Chain bridge",
+      "aliases": [
+        "Chain bridge"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 68,
+      "searchTerms": [
+        "the Chain bridge",
+        "Chain bridge"
+      ],
+      "spoilerFreeIntro": "A famous bridge in the city, known for its mysterious reputation."
+    },
+    "german": {
+      "id": "german",
+      "name": "German",
+      "aliases": [
+        "a German who had lived in Russia"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 68,
+      "searchTerms": [
+        "German",
+        "a German who had lived in Russia"
+      ],
+      "spoilerFreeIntro": "A perceptive German writer who lived in Russia and offered thoughtful critiques on Russian students."
+    },
+    "russians": {
+      "id": "russians",
+      "name": "Russians",
+      "aliases": [
+        "Russian schoolboy"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 68,
+      "searchTerms": [
+        "Russians",
+        "Russian schoolboy"
+      ],
+      "spoilerFreeIntro": "A group of Russian schoolboys, eager and self-assured, each quick to offer opinions on subjects new to them."
+    },
+    "the_emancipation_of_women": {
+      "id": "the_emancipation_of_women",
+      "name": "the emancipation of women",
+      "aliases": [
+        "the emancipation of women"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 68,
+      "searchTerms": [
+        "the emancipation of women"
+      ],
+      "spoilerFreeIntro": "A hotly debated social idea of the era, discussed thoughtfully—and sometimes ironically—by various characters."
+    },
+    "syracuse": {
+      "id": "syracuse",
+      "name": "Syracuse",
+      "aliases": [
+        "Syracuse (city in Sicily)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 69,
+      "searchTerms": [
+        "Syracuse",
+        "Syracuse (city in Sicily)"
+      ],
+      "spoilerFreeIntro": "A city on the eastern coast of Sicily, long famed for its ancient Greek heritage and sunlit shores."
+    },
+    "sicily": {
+      "id": "sicily",
+      "name": "Sicily",
+      "aliases": [
+        "Sicily"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 69,
+      "searchTerms": [
+        "Sicily"
+      ],
+      "spoilerFreeIntro": "An island in the Mediterranean, known for its rich history and striking landscapes."
+    },
+    "coachman": {
+      "id": "coachman",
+      "name": "coachman",
+      "aliases": [
+        "the coachman"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 69,
+      "searchTerms": [
+        "coachman",
+        "the coachman"
+      ],
+      "spoilerFreeIntro": "The coachman, waiting by the carriage, stands ready to drive the visitors to their next destination."
+    },
+    "lepelletier": {
+      "id": "lepelletier",
+      "name": "Lepelletier",
+      "aliases": [
+        "Lepelletier; mental specialist in Paris"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 69,
+      "searchTerms": [
+        "Lepelletier",
+        "Lepelletier; mental specialist in Paris"
+      ],
+      "spoilerFreeIntro": "Lepelletier is a mental specialist in Paris whom the doctor recommends for consultation."
+    },
+    "fetyukovitch": {
+      "id": "fetyukovitch",
+      "name": "Fetyukovitch",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 70,
+      "searchTerms": [
+        "Fetyukovitch"
+      ],
+      "spoilerFreeIntro": "Fetyukovitch is a renowned defense attorney from St. Petersburg, famous for taking on high-profile cases."
+    },
+    "the_prison": {
+      "id": "the_prison",
+      "name": "the prison",
+      "aliases": [
+        "prison"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 70,
+      "searchTerms": [
+        "the prison",
+        "prison"
+      ],
+      "spoilerFreeIntro": "A somber, confining place where Mitya awaits his fate."
+    },
+    "the_case": {
+      "id": "the_case",
+      "name": "the case",
+      "aliases": [
+        "Mitya's case"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 70,
+      "searchTerms": [
+        "the case",
+        "Mitya's case"
+      ],
+      "spoilerFreeIntro": "The case: A notorious crime that has drawn national attention and is discussed throughout Russia."
+    },
+    "the_day_of_the_trial": {
+      "id": "the_day_of_the_trial",
+      "name": "the day of the trial",
+      "aliases": [
+        "trial to-morrow"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 70,
+      "searchTerms": [
+        "the day of the trial",
+        "trial to-morrow"
+      ]
+    },
+    "the_shop": {
+      "id": "the_shop",
+      "name": "the shop",
+      "aliases": [
+        "the people at the shop"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 70,
+      "searchTerms": [
+        "the shop",
+        "the people at the shop"
+      ],
+      "spoilerFreeIntro": "A bustling local store where townspeople gather and gossip."
     }
   },
-  "lastIndexedChapter": 60
+  "lastIndexedChapter": 70
 }
