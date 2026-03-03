@@ -232,19 +232,21 @@ export function ChapterContent({
               seg.type === "text" ? (
                 <React.Fragment key={j}>{seg.content}</React.Fragment>
               ) : (
-                <button
+                <a
                   key={j}
-                  type="button"
+                  href="#"
+                  role="button"
                   data-entity-link="true"
                   {...(seg.entityType === "person" ? { "data-person-entity-id": seg.entityId } : {})}
-                  onClick={() => {
+                  onClick={(e) => {
+                    e.preventDefault();
                     setContextMenuAnchor(null);
                     setOpenEntityId(seg.entityId);
                   }}
                   className="text-amber-700 hover:text-amber-800 dark:text-amber-300 dark:hover:text-amber-200 hover:underline font-medium cursor-pointer bg-transparent border-none p-0 align-baseline"
                 >
                   {seg.content}
-                </button>
+                </a>
               )
             )}
             </p>

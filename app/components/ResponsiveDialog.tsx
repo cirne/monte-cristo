@@ -76,6 +76,7 @@ export function ResponsiveDialog({
           <Drawer.Content
             className="fixed inset-x-0 bottom-0 z-50 flex w-full justify-center outline-none"
             aria-label={ariaLabel}
+            aria-describedby={undefined}
           >
             <div className={drawerPanelClass}>
               <div className="mx-auto mt-2 h-1.5 w-12 flex-shrink-0 rounded-full bg-stone-300 dark:bg-stone-600" />
@@ -101,6 +102,7 @@ export function ResponsiveDialog({
           <div
             role="dialog"
             aria-label={ariaLabel}
+            aria-describedby={undefined}
             className={`${sharedContentClass} w-full max-h-[90vh] overflow-y-auto rounded-xl p-4 sm:p-6`}
             onClick={(e) => e.stopPropagation()}
           >
