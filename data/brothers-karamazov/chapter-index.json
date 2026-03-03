@@ -13387,6 +13387,2890 @@
           ]
         }
       ]
+    },
+    {
+      "number": 51,
+      "entities": [
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> But Dmitri Fyodorovitch was speeding along the road. It was a little more than twenty versts to Mokroe, but Andrey’s three horses galloped at such a pace that the distanc"
+        },
+        {
+          "entityId": "andrey",
+          "type": "person",
+          "firstSeenInChapter": 50,
+          "excerpt": "…speeding along the road. It was a little more than twenty versts to Mokroe, but Andrey’s three horses galloped at such a pace that the distance might be covered in an hour and a quarter. The swift motion revived Mitya. The air was fresh an…"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…shining in the sky. It was the very night, and perhaps the very hour, in which Alyosha fell on the earth, and rapturously swore to love it for ever and ever. </p>  <p> All was confusion, confusion, in Mitya’s soul, but although many things…"
+        },
+        {
+          "entityId": "the_queen_of_my_soul",
+          "type": "person",
+          "firstSeenInChapter": 51,
+          "excerpt": "…and now for just five hours ... till the first light of Thy day ... for I love the queen of my soul ... I love her and I cannot help loving her. Thou seest my whole heart.... I shall gallop up, I shall fall before her and say, ‘You are rig…"
+        },
+        {
+          "entityId": "the_officer",
+          "type": "person",
+          "firstSeenInChapter": 44,
+          "excerpt": "…ep aside, Mitya, and make way! What am I now? Now everything is over apart from the officer—even if he had not appeared, everything would be over ...” </p>  <p> These words would roughly have expressed his feelings, if he had been capable …"
+        },
+        {
+          "entityId": "fenya",
+          "type": "person",
+          "firstSeenInChapter": 44,
+          "excerpt": "…son at that moment. His present plan of action had arisen without reasoning. At Fenya’s first words, it had sprung from feeling, and been adopted in a flash, with all its consequences. And yet, in spite of his resolution, there was confusi…"
+        },
+        {
+          "entityId": "god",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…ush or torment a man, or any kind of creature, for every creature is created by God. Take a horse, for instance, for some folks, even among us drivers, drive anyhow. Nothing will restrain them, they just force it along.” </p>  <p> “To hell…"
+        },
+        {
+          "entityId": "the_devil",
+          "type": "person",
+          "firstSeenInChapter": 16,
+          "excerpt": "…t down to hell from the Cross, and set free all sinners that were in agony. And the devil groaned, because he thought that he would get no more sinners in hell. And God said to him, then, ‘Don’t groan, for you shall have all the mighty of …"
+        },
+        {
+          "entityId": "christ",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…> “I don’t know, darling, it depends on you, for you are ... you see, sir, when the Son of God was nailed on the Cross and died, He went straight down to hell from the Cross, and set free all sinners that were in agony. And the devil groan…"
+        },
+        {
+          "entityId": "trifon_borissovitch",
+          "type": "person",
+          "firstSeenInChapter": 51,
+          "excerpt": "…ay to bed, peeped out from the steps curious to see who had arrived. </p>  <p> “Trifon Borissovitch, is that you?” </p>  <p> The innkeeper bent down, looked intently, ran down the steps, and rushed up to the guest with obsequious delight. …"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…not three hundred roubles out of Dmitri, when he had come on his escapade with Grushenka, he met him now with eager welcome, scenting his prey the moment Mitya drove up to the steps. </p>  <p> “Dmitri Fyodorovitch, dear sir, we see you onc…"
+        },
+        {
+          "entityId": "a_pole",
+          "type": "person",
+          "firstSeenInChapter": 51,
+          "excerpt": "…With whom? With whom?” </p>  <p> “Some strangers. One is an official gentleman, a Pole, to judge from his speech. He sent the horses for her from here; and there’s another with him, a friend of his, or a fellow traveler, there’s no telling…"
+        },
+        {
+          "entityId": "maximov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…forgotten his name ... and I expect you know the other, too, a gentleman called Maximov. He’s been on a pilgrimage, so he says, to the monastery in the town. He’s traveling with this young relation of Mr. Miüsov.” </p>  <p> “Is that all?” …"
+        },
+        {
+          "entityId": "pyotr_fomitch_kalganov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…gentleman that’s Mr. Miüsov’s relation ... I’ve forgotten his name.” </p>  <p> “Kalganov.” </p>  <p> “That’s it, Kalganov!” </p>  <p> “All right. I’ll see for myself. Are they playing cards?” </p>  <p> “They have been playing, but they’ve …"
+        },
+        {
+          "entityId": "the_young_gentleman_relation_of_mr_misov",
+          "type": "person",
+          "firstSeenInChapter": 51,
+          "excerpt": "…gentleman that’s Mr. Miüsov’s relation ... I’ve forgotten his name.” </p>  <p> “Kalganov.” </p>  <p> “That’s it, Kalganov!” </p>  <p> “All right. I’ll see for myself. Are they playing cards?” </p>  <p> “They have been playing, but they’ve …"
+        },
+        {
+          "entityId": "pyotr_alexandrovitch_misov",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…erny, and are putting up here. One’s quite a young gentleman, a relative of Mr. Miüsov, he must be, but I’ve forgotten his name ... and I expect you know the other, too, a gentleman called Maximov. He’s been on a pilgrimage, so he says, to…"
+        },
+        {
+          "entityId": "two_strangers",
+          "type": "person",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "the_companion_of_the_pole",
+          "type": "person",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "timofey_the_driver",
+          "type": "person",
+          "firstSeenInChapter": 44,
+          "excerpt": "…mself. </p>  <p> “But maybe they’re not in bed!” Andrey went on after a pause. “Timofey said they were a lot of them there—” </p>  <p> “At the station?” </p>  <p> “Not at the posting‐station, but at Plastunov’s, at the inn, where they let …"
+        },
+        {
+          "entityId": "marya_kondratyevna",
+          "type": "person",
+          "firstSeenInChapter": 33,
+          "excerpt": "…nd for them!” cried Mitya. “And you can get the girls together as you did then, Marya especially, Stepanida, too, and Arina. Two hundred roubles for a chorus!” </p>  <p> “Oh, for a sum like that I can get all the village together, though b…"
+        },
+        {
+          "entityId": "stepanida_ilyinishna",
+          "type": "person",
+          "firstSeenInChapter": 8,
+          "excerpt": "…d Mitya. “And you can get the girls together as you did then, Marya especially, Stepanida, too, and Arina. Two hundred roubles for a chorus!” </p>  <p> “Oh, for a sum like that I can get all the village together, though by now they’re asle…"
+        },
+        {
+          "entityId": "arina",
+          "type": "person",
+          "firstSeenInChapter": 51,
+          "excerpt": "…n get the girls together as you did then, Marya especially, Stepanida, too, and Arina. Two hundred roubles for a chorus!” </p>  <p> “Oh, for a sum like that I can get all the village together, though by now they’re asleep. Are the peasants…"
+        },
+        {
+          "entityId": "the_daughters_of_trifon_borissovitch",
+          "type": "person",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "the_widow_daughter_of_trifon_borissovitch",
+          "type": "person",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "the_grandchildren_of_trifon_borissovitch",
+          "type": "person",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "the_daughter_married_to_a_petty_official",
+          "type": "person",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "the_petty_official_soninlaw_of_trifon_borissovitch",
+          "type": "person",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "the_two_younger_daughters_of_trifon_borissovitch",
+          "type": "person",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "peasants_of_mokroe",
+          "type": "person",
+          "firstSeenInChapter": 51,
+          "excerpt": "…her fat face. His expression was severe and uncompromising, especially with the peasants of Mokroe, but he had the power of assuming the most obsequious countenance, when he had an inkling that it was to his interest. He dressed in Russian…"
+        },
+        {
+          "entityId": "jews_who_play_the_cymbals_and_the_fiddle",
+          "type": "person",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "girls_of_the_village",
+          "type": "person",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "christ",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…> “I don’t know, darling, it depends on you, for you are ... you see, sir, when the Son of God was nailed on the Cross and died, He went straight down to hell from the Cross, and set free all sinners that were in agony. And the devil groan…"
+        },
+        {
+          "entityId": "mokroe",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…rovitch was speeding along the road. It was a little more than twenty versts to Mokroe, but Andrey’s three horses galloped at such a pace that the distance might be covered in an hour and a quarter. The swift motion revived Mitya. The air …"
+        },
+        {
+          "entityId": "plastunovs_inn",
+          "type": "place",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "the_inn",
+          "type": "place",
+          "firstSeenInChapter": 51,
+          "excerpt": "…“At the station?” </p>  <p> “Not at the posting‐station, but at Plastunov’s, at the inn, where they let out horses, too.” </p>  <p> “I know. So you say there are a lot of them? How’s that? Who are they?” cried Mitya, greatly dismayed at th…"
+        },
+        {
+          "entityId": "mokroe",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…rovitch was speeding along the road. It was a little more than twenty versts to Mokroe, but Andrey’s three horses galloped at such a pace that the distance might be covered in an hour and a quarter. The swift motion revived Mitya. The air …"
+        },
+        {
+          "entityId": "the_town",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…cted news. </p>  <p> “Well, Timofey was saying they’re all gentlefolk. Two from our town—who they are I can’t say—and there are two others, strangers, maybe more besides. I didn’t ask particularly. They’ve set to playing cards, so Timofey …"
+        },
+        {
+          "entityId": "tcherny",
+          "type": "place",
+          "firstSeenInChapter": 51,
+          "excerpt": "…ers?” </p>  <p> “They’re two gentlemen from the town.... They’ve come back from Tcherny, and are putting up here. One’s quite a young gentleman, a relative of Mr. Miüsov, he must be, but I’ve forgotten his name ... and I expect you know th…"
+        },
+        {
+          "entityId": "the_monastery",
+          "type": "place",
+          "firstSeenInChapter": 2,
+          "excerpt": "…her, too, a gentleman called Maximov. He’s been on a pilgrimage, so he says, to the monastery in the town. He’s traveling with this young relation of Mr. Miüsov.” </p>  <p> “Is that all?” </p>  <p> “Yes.” </p>  <p> “Stay, listen, Trifon Bo…"
+        },
+        {
+          "entityId": "the_blue_room",
+          "type": "place",
+          "firstSeenInChapter": 51,
+          "excerpt": "…let me first get a look at them, so that they don’t see me. Where are they? In the blue room?” </p>  <p> Trifon Borissovitch looked apprehensively at Mitya, but at once obediently did his bidding. Leading him into the passage, he went hims…"
+        },
+        {
+          "entityId": "the_street",
+          "type": "place",
+          "firstSeenInChapter": 48,
+          "excerpt": "…ovs’ inn, which was at the entrance to the village. The six windows, looking on the street, were all brightly lighted up. </p>  <p> “They’re not asleep,” Mitya repeated joyously. “Quicker, Andrey! Gallop! Drive up with a dash! Set the bell…"
+        },
+        {
+          "entityId": "the_sky",
+          "type": "place",
+          "firstSeenInChapter": 51,
+          "excerpt": "…tion revived Mitya. The air was fresh and cool, there were big stars shining in the sky. It was the very night, and perhaps the very hour, in which Alyosha fell on the earth, and rapturously swore to love it for ever and ever. </p>  <p> Al…"
+        },
+        {
+          "entityId": "stars",
+          "type": "place",
+          "firstSeenInChapter": 45,
+          "excerpt": "…ter. The swift motion revived Mitya. The air was fresh and cool, there were big stars shining in the sky. It was the very night, and perhaps the very hour, in which Alyosha fell on the earth, and rapturously swore to love it for ever and e…"
+        },
+        {
+          "entityId": "the_road",
+          "type": "place",
+          "firstSeenInChapter": 45,
+          "excerpt": "<p> But Dmitri Fyodorovitch was speeding along the road. It was a little more than twenty versts to Mokroe, but Andrey’s three horses galloped at such a pace that the distance might be covered in an hour and a quart"
+        },
+        {
+          "entityId": "the_morning_goldenhaired_phbus",
+          "type": "event",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "mityas_suicide_plan",
+          "type": "event",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "pistol",
+          "type": "event",
+          "firstSeenInChapter": 51,
+          "excerpt": "…per: “I punish myself,” and the paper was lying there in his pocket, ready; the pistol was loaded; he had already resolved how, next morning, he would meet the first warm ray of “golden‐haired Phœbus.” </p>  <p> And yet he could not be qui…"
+        },
+        {
+          "entityId": "pistolcase",
+          "type": "event",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "his_letter_sentence_of_death",
+          "type": "event",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "the_escapade_with_grushenka_a_month_ago",
+          "type": "event",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "grushenka_combing_kalganovs_hair",
+          "type": "event",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "drinking_tea_and_playing_cards",
+          "type": "event",
+          "firstSeenInChapter": 51
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 43,
+          "locationDescription": "On the road to Mokroe, in Andrey's cart under the night sky",
+          "imageDescription": "A dirt road stretches under a vast, starlit night sky. Three lean bay horses pull a cart at a gallop, their breath steaming in the cool air. Dmitri sits tense and intent in the cart, clutching his coat around him, while Andrey, a sturdy, weathered peasant in traditional Russian dress, urges the horses on. The landscape is open fields fading into shadow. The lighting is dim but sharp from the stars, casting silvery highlights on faces and harness.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "andrey"
+          ]
+        },
+        {
+          "startParagraph": 44,
+          "endParagraph": 51,
+          "locationDescription": "Arriving at the steps of the Plastunovs' inn in Mokroe",
+          "imageDescription": "A rustic Russian inn stands at the edge of a quiet village. Six brightly lit windows face the dirt street, contrasting with the sleeping darkness of the village. A troika cart, horses steaming, stands by a flight of wooden steps. Dmitri leaps energetically from the cart, cloak billowing. The innkeeper Trifon Borissovitch, broad and thick-set in side-buttoned shirt and skirted coat, rushes out with an eager, welcoming smile. The lantern light spills warmly onto the dirt and illuminates the faces of both men. The atmosphere buzzes with excitement and anticipation.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "andrey",
+            "trifon_borissovitch"
+          ]
+        },
+        {
+          "startParagraph": 52,
+          "endParagraph": 85,
+          "locationDescription": "Just inside the entrance of the inn, Dmitri and Trifon Borissovitch confer",
+          "imageDescription": "In the dimly lit entryway of the inn, wooden beams and plaster walls surround Dmitri and Trifon Borissovitch as they confer in hurried whispers. Dmitri, intense and animated, holds up a roll of notes; Trifon Borissovitch, watchful and slightly ingratiating, listens attentively. A hungry, calculated glint lingers in the innkeeper's eyes. The rustic interior, furnished with benches and a few icons, is functional yet bustling with anticipation. Shadows from a single oil lamp flicker across both figures.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "trifon_borissovitch"
+          ]
+        },
+        {
+          "startParagraph": 86,
+          "endParagraph": 86,
+          "locationDescription": "In a dark adjoining room, Dmitri secretly observes the company in the blue room",
+          "imageDescription": "A shadowy side room with a wooden chest and bare walls is dimly lit, allowing Dmitri to watch the next room through a narrow opening. Dmitri stands half-hidden in a corner, eyes wide with emotion. Through the doorway, the blue room glows with lamplight. Grushenka sits sideways to a table in a low chair, elegant and radiant in a dark, fitted Russian dress. Kalganov, youthful and smartly dressed, sits close by, his hand in hers. Maximov across the table laughs uproariously, while two unfamiliar men—a stout, pipe-smoking Pole and a tall companion—lounge nearby. The group exudes energy and hints of revelry, unaware of Dmitri's presence. The overall atmosphere is charged with tension, longing, and a prelude to confrontation.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "trifon_borissovitch",
+            "the_queen_of_my_soul",
+            "pyotr_fomitch_kalganov",
+            "maximov",
+            "a_pole",
+            "the_companion_of_the_pole"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 88,
+          "locationDescription": "The blue room at the inn, as Dmitri enters and disturbs the company",
+          "imageDescription": "A spacious, cozily ornamented blue room glows under oil-lamp light, with a large table set with glasses and remnants of a meal. Grushenka, beautiful and startled, rises from a low chair, hand to her mouth. Kalganov, finely dressed youth, looks up from his place on the sofa, surprised. Maximov, a jovial, older man, sits at the table mid-laugh. The stout Pole, pipe in hand, and his tall companion watch Dmitri's dramatic entrance with a mix of curiosity and alarm. Dmitri stands tense in the doorway, face pale, overcoat thrown open, pistol case recently set aside. Furnishings are warm and period-appropriate, with patterned drapes and samovar catching the lamplight. There's a sudden, crackling energy as the company reacts to the unexpected intrusion.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_queen_of_my_soul",
+            "pyotr_fomitch_kalganov",
+            "maximov",
+            "a_pole",
+            "the_companion_of_the_pole"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "entities": [
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> With his long, rapid strides, Mitya walked straight up to the table. </p>  <p> “Gentlemen,” he said in a loud voice, almost shouting, yet stammering at every word, “I ... I’m all right! Don’t be"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…be afraid!” he exclaimed, “I—there’s nothing the matter,” he turned suddenly to Grushenka, who had shrunk back in her chair towards Kalganov, and clasped his hand tightly. “I ... I’m coming, too. I’m here till morning. Gentlemen, may I sta…"
+        },
+        {
+          "entityId": "pyotr_fomitch_kalganov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…ter,” he turned suddenly to Grushenka, who had shrunk back in her chair towards Kalganov, and clasped his hand tightly. “I ... I’m coming, too. I’m here till morning. Gentlemen, may I stay with you till morning? Only till morning, for the …"
+        },
+        {
+          "entityId": "maximov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…e would come in and speak like this at such a moment. </p>  <p> “Good evening,” Maximov ventured blandly on the left. Mitya rushed up to him, too. </p>  <p> “Good evening. You’re here, too! How glad I am to find you here, too! Gentlemen, g…"
+        },
+        {
+          "entityId": "trifon_borissovitch",
+          "type": "person",
+          "firstSeenInChapter": 51,
+          "excerpt": "…ia, the old grandmother!” tittered Maximov. </p>  <p> “All! All!” cried Mitya. “Trifon Borissovitch, some more bottles!” </p>  <p> The other three bottles Mitya had brought with him were put on the table. Mitya filled the glasses. </p>  <p…"
+        },
+        {
+          "entityId": "the_companion_of_the_pole",
+          "type": "person",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "a_pole",
+          "type": "person",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "the_companion_of_the_pole",
+          "type": "person",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "marya_kondratyevna",
+          "type": "person",
+          "firstSeenInChapter": 33,
+          "excerpt": "…nd ran into the next room to give orders, but only three girls had arrived, and Marya was not there yet. And he did not know himself what orders to give and why he had run out. He only told them to take out of the box the presents for the …"
+        },
+        {
+          "entityId": "andrey",
+          "type": "person",
+          "firstSeenInChapter": 50,
+          "excerpt": "…presents for the girls, the sweets, the toffee and the fondants. “And vodka for Andrey, vodka for Andrey!” he cried in haste. “I was rude to Andrey!” </p>  <p> Suddenly Maximov, who had followed him out, touched him on the shoulder. </p>  …"
+        },
+        {
+          "entityId": "kuzma",
+          "type": "person",
+          "firstSeenInChapter": 52,
+          "excerpt": "…d Grushenka. “It wasn’t virtue kept me pure, and it wasn’t that I was afraid of Kuzma, but that I might hold up my head when I met him, and tell him he’s a scoundrel. And he did actually refuse the money?” </p>  <p> “He took it! He took it…"
+        },
+        {
+          "entityId": "nozdryov",
+          "type": "person",
+          "firstSeenInChapter": 52,
+          "excerpt": "…uls_ about him. Do you remember, there’s a landowner called Maximov in it, whom Nozdryov thrashed. He was charged, do you remember, ‘for inflicting bodily injury with rods on the landowner Maximov in a drunken condition.’ Would you believe…"
+        },
+        {
+          "entityId": "maximov_character_in_dead_souls",
+          "type": "person",
+          "firstSeenInChapter": 52
+        },
+        {
+          "entityId": "gogol",
+          "type": "person",
+          "firstSeenInChapter": 52,
+          "excerpt": "…ure. Only fancy, he claims (he was arguing about it all the way yesterday) that Gogol wrote _Dead Souls_ about him. Do you remember, there’s a landowner called Maximov in it, whom Nozdryov thrashed. He was charged, do you remember, ‘for in…"
+        },
+        {
+          "entityId": "kuvshinikov_shkvornev",
+          "type": "person",
+          "firstSeenInChapter": 52
+        },
+        {
+          "entityId": "fenardi",
+          "type": "person",
+          "firstSeenInChapter": 52,
+          "excerpt": "…led Nosov, and Kuvshinikov had quite a different name, he was called Shkvornev. Fenardi really was called Fenardi, only he wasn’t an Italian but a Russian, and Mamsel Fenardi was a pretty girl with her pretty little legs in tights, and she…"
+        },
+        {
+          "entityId": "mamsel_fenardi",
+          "type": "person",
+          "firstSeenInChapter": 52,
+          "excerpt": "…Fenardi really was called Fenardi, only he wasn’t an Italian but a Russian, and Mamsel Fenardi was a pretty girl with her pretty little legs in tights, and she had a little short skirt with spangles, and she kept turning round and round, o…"
+        },
+        {
+          "entityId": "piron",
+          "type": "person",
+          "firstSeenInChapter": 52,
+          "excerpt": "…ne...” </p>  <p> “But what were you beaten for?” cried Kalganov. </p>  <p> “For Piron!” answered Maximov. </p>  <p> “What Piron?” cried Mitya. </p>  <p> “The famous French writer, Piron. We were all drinking then, a big party of us, in a t…"
+        },
+        {
+          "entityId": "boileau",
+          "type": "person",
+          "firstSeenInChapter": 52,
+          "excerpt": "…ir. They’d invited me, and first of all I began quoting epigrams. ‘Is that you, Boileau? What a funny get‐up!’ and Boileau answers that he’s going to a masquerade, that is to the baths, he he! And they took it to themselves, so I made hast…"
+        },
+        {
+          "entityId": "sappho",
+          "type": "person",
+          "firstSeenInChapter": 52,
+          "excerpt": "…peat another, very sarcastic, well known to all educated people: </p>  <p> Yes, Sappho and Phaon are we! But one grief is weighing on me. You don’t know your way to the sea! </p>  <p> They were still more offended and began abusing me in t…"
+        },
+        {
+          "entityId": "phaon",
+          "type": "person",
+          "firstSeenInChapter": 52,
+          "excerpt": "…r, very sarcastic, well known to all educated people: </p>  <p> Yes, Sappho and Phaon are we! But one grief is weighing on me. You don’t know your way to the sea! </p>  <p> They were still more offended and began abusing me in the most uns…"
+        },
+        {
+          "entityId": "pan_podvysotsky",
+          "type": "person",
+          "firstSeenInChapter": 52,
+          "excerpt": "…” </p>  <p> “A million!” laughed Mitya. </p>  <p> “The Pan Captain has heard of Pan Podvysotsky, perhaps?” </p>  <p> “What Podvysotsky?” </p>  <p> “In Warsaw there was a bank and any one comes and stakes against it. Podvysotsky comes, sees…"
+        },
+        {
+          "entityId": "monsieur",
+          "type": "person",
+          "firstSeenInChapter": 52,
+          "excerpt": "…away. I’ve had that unpleasant experience,” Maximov modestly assented, “with a _monsieur_. And what was worse, she’d had all my little property transferred to her beforehand. ‘You’re an educated man,’ she said to me. ‘You can always get yo…"
+        },
+        {
+          "entityId": "a_venerable_bishop",
+          "type": "person",
+          "firstSeenInChapter": 52,
+          "excerpt": "…aid to me. ‘You can always get your living.’ She settled my business with that. A venerable bishop once said to me: ‘One of your wives was lame, but the other was too light‐footed.’ He he!” </p>  <p> “Listen, listen!” cried Kalganov, bubbl…"
+        },
+        {
+          "entityId": "the_landlord",
+          "type": "person",
+          "firstSeenInChapter": 52,
+          "excerpt": "…a lot to you. Take your cards. Make the bank.” </p>  <p> “We’ll have cards from the landlord, _panie_,” said the little Pole, gravely and emphatically. </p>  <p> “That’s much the best way,” chimed in Pan Vrublevsky. </p>  <p> “From the lan…"
+        },
+        {
+          "entityId": "jews_who_play_the_cymbals_and_the_fiddle",
+          "type": "person",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "girls_of_the_village",
+          "type": "person",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "andrey",
+          "type": "person",
+          "firstSeenInChapter": 50,
+          "excerpt": "…presents for the girls, the sweets, the toffee and the fondants. “And vodka for Andrey, vodka for Andrey!” he cried in haste. “I was rude to Andrey!” </p>  <p> Suddenly Maximov, who had followed him out, touched him on the shoulder. </p>  …"
+        },
+        {
+          "entityId": "mokroe",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…k in her low chair and hid her face in her hands. At that instant the chorus of Mokroe began singing in the room on the left—a rollicking dance song. </p>  <p> “A regular Sodom!” Vrublevsky roared suddenly. “Landlord, send the shameless hu…"
+        },
+        {
+          "entityId": "the_inn",
+          "type": "place",
+          "firstSeenInChapter": 51,
+          "excerpt": "…confusion he thrust them hurriedly into his pocket. He flushed. At that moment the innkeeper brought in an uncorked bottle of champagne, and glasses on a tray. Mitya snatched up the bottle, but he was so bewildered that he did not know wha…"
+        },
+        {
+          "entityId": "the_bedroom_grushenkas",
+          "type": "place",
+          "firstSeenInChapter": 44
+        },
+        {
+          "entityId": "the_next_room",
+          "type": "place",
+          "firstSeenInChapter": 29,
+          "excerpt": "…the provisions had not yet arrived. Mitya jumped up from the table and ran into the next room to give orders, but only three girls had arrived, and Marya was not there yet. And he did not know himself what orders to give and why he had run…"
+        },
+        {
+          "entityId": "siberia",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…in Mitya. He was not even particularly struck by the Pole’s absurd wig made in Siberia, with love‐locks foolishly combed forward over the temples. “I suppose it’s all right since he wears a wig,” he went on, musing blissfully. The other, y…"
+        },
+        {
+          "entityId": "poland",
+          "type": "place",
+          "firstSeenInChapter": 52,
+          "excerpt": "…ushenka, suddenly vexed. </p>  <p> “_Pani_ Agrippina, what the gentleman saw in Poland were servant girls, and not ladies of good birth,” the Pole with the pipe observed to Grushenka. </p>  <p> “You can reckon on that,” the tall Pole snapp…"
+        },
+        {
+          "entityId": "russia",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…is impossible,” the Pole with the pipe observed to Maximov. </p>  <p> He spoke Russian fairly well, much better, anyway, than he pretended. If he used Russian words, he always distorted them into a Polish form. </p>  <p> “But I was married…"
+        },
+        {
+          "entityId": "warsaw",
+          "type": "place",
+          "firstSeenInChapter": 52,
+          "excerpt": "…heard of Pan Podvysotsky, perhaps?” </p>  <p> “What Podvysotsky?” </p>  <p> “In Warsaw there was a bank and any one comes and stakes against it. Podvysotsky comes, sees a thousand gold pieces, stakes against the bank. The banker says, ‘_Pa…"
+        },
+        {
+          "entityId": "smolensk",
+          "type": "place",
+          "firstSeenInChapter": 52,
+          "excerpt": "…ose you weren’t married in Poland, were you?” </p>  <p> “No, in the Province of Smolensk. Only, a Uhlan had brought her to Russia before that, my future wife, with her mamma and her aunt, and another female relation with a grown‐up son. He…"
+        },
+        {
+          "entityId": "the_town",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…urney, and as a first installment, and two thousand five hundred to‐ morrow, in the town—I swear on my honor, I’ll get it, I’ll get it at any cost!” cried Mitya. </p>  <p> The Poles exchanged glances again. The short man’s face looked more…"
+        },
+        {
+          "entityId": "dead_souls",
+          "type": "event",
+          "firstSeenInChapter": 52,
+          "excerpt": "…cy, he claims (he was arguing about it all the way yesterday) that Gogol wrote _Dead Souls_ about him. Do you remember, there’s a landowner called Maximov in it, whom Nozdryov thrashed. He was charged, do you remember, ‘for inflicting bodi…"
+        },
+        {
+          "entityId": "faro_card_game",
+          "type": "event",
+          "firstSeenInChapter": 52
+        },
+        {
+          "entityId": "drinking_tea_and_playing_cards",
+          "type": "event",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "the_chorus_of_mokroe",
+          "type": "event",
+          "firstSeenInChapter": 52,
+          "excerpt": "…> She sank back in her low chair and hid her face in her hands. At that instant the chorus of Mokroe began singing in the room on the left—a rollicking dance song. </p>  <p> “A regular Sodom!” Vrublevsky roared suddenly. “Landlord, send th…"
+        },
+        {
+          "entityId": "the_scene_of_card_cheating_and_exposure",
+          "type": "event",
+          "firstSeenInChapter": 52
+        },
+        {
+          "entityId": "jews_who_play_the_cymbals_and_the_fiddle",
+          "type": "person",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "trifon_borissovitch",
+          "type": "person",
+          "firstSeenInChapter": 51,
+          "excerpt": "…ia, the old grandmother!” tittered Maximov. </p>  <p> “All! All!” cried Mitya. “Trifon Borissovitch, some more bottles!” </p>  <p> The other three bottles Mitya had brought with him were put on the table. Mitya filled the glasses. </p>  <p…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 21,
+          "locationDescription": "In the private sitting room at the inn in Mokroe",
+          "imageDescription": "A warmly lit, smoky period inn with carved wooden furniture and a slightly shabby air; a table stands at the center, scattered with glasses, bottles, and playing cards. Dmitri Karamazov enters with hurried steps, his expression strained and intense. Around the table are Grushenka, elegant yet watchful; Kalganov, young and fair-haired in stylish attire; Maximov, older, balding, with a nervous smile; two Poles, one stout and mustachioed with a pipe, the other tall and thin, both in worn formal dress; a sense of anticipation and tension fills the air, heightened by Grushenka's vibrant presence.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_enchantress",
+            "pyotr_fomitch_kalganov",
+            "maximov",
+            "a_pole",
+            "the_companion_of_the_pole"
+          ]
+        },
+        {
+          "startParagraph": 22,
+          "endParagraph": 22,
+          "locationDescription": "In the private sitting room, after Mitya's arrival—drinks and storytelling",
+          "imageDescription": "The inn's private room under low golden lamplight, with revelers gathered closer about the table. Mitya sits beside Grushenka, his manner softened; Kalganov lounges nearby, smiling. Maximov gestures animatedly as he tells a story; two Poles—one on the sofa puffing his pipe dignifiedly, the other, taller and brooding, stands close by. Glasses of champagne and bottles cluster on the table. Grushenka's dress is richly embroidered, and the men wear Russian and Polish jackets. Conversation and laughter animate the cozy, tense scene.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_enchantress",
+            "pyotr_fomitch_kalganov",
+            "maximov",
+            "a_pole",
+            "the_companion_of_the_pole"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "The private sitting room, climax of drinking and arguments with the Poles",
+          "imageDescription": "A dramatically lit scene at the table where Mitya, flushed and exuberant, raises his glass in a toast; the Poles respond, one standing and the other sitting, both showing varying degrees of irritation and pride. Grushenka sparkles defiantly, glass in hand, while Kalganov and Maximov observe, Maximov tittering nervously. The table is crowded with bottles and half-filled glasses. The warmth of candlelight softens the aggressive air of rivalry, but visible tension is growing between the Russian and Polish guests.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_enchantress",
+            "pyotr_fomitch_kalganov",
+            "maximov",
+            "a_pole",
+            "the_companion_of_the_pole"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 168,
+          "locationDescription": "In the sitting room: Gambling with the Poles",
+          "imageDescription": "The candlelit room is alive with the tense concentration of gambling; Mitya, animated and feverish, stakes money on the table, joined by the two Poles—one severe and meticulous, the other brooding. Kalganov interjects anxiously from his chair, while Maximov fidgets gleefully, crossing himself as he places a small bet. Playing cards, roubles, and glasses are scattered across the table. Grushenka watches, both anxious and excited. The Poles' attire, worn and slightly greasy, contrasts with Mitya's disheveled opulence and Grushenka's vibrant Russian dress.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_enchantress",
+            "pyotr_fomitch_kalganov",
+            "maximov",
+            "a_pole",
+            "the_companion_of_the_pole"
+          ]
+        },
+        {
+          "startParagraph": 169,
+          "endParagraph": 169,
+          "locationDescription": "In a side room (bedroom) of the inn: Mitya offers money to the Poles",
+          "imageDescription": "A small bedroom reminiscent of a peasant inn, with trunks and large beds piled with white cotton pillows. In the golden light of a single candle, Mitya and the short Pole sit face-to-face at a deal table, both intense and rigid; the tall companion stands behind, arms folded. Mitya offers money, his expression desperate yet forceful, while the Poles respond with suspicion and indignation. The air is heavy with the threat of confrontation, the shadows long and dramatic.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "a_pole",
+            "the_companion_of_the_pole"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 225,
+          "locationDescription": "Back in the sitting room: Confrontation and aftermath",
+          "imageDescription": "In the inn's main room, Grushenka stands in a blaze of emotion, rising from her chair and facing the little Pole, whose posture is dramatic and offended. Mitya hovers anxiously nearby. The tall Pole glowers at the doorway, the others (Maximov, Kalganov) watch in surprise and discomfort. The landlord enters, stern, as accusations fly; the Poles are red-faced and furious, Grushenka defiant, Mitya tense and physically protective. The lighting is intense, shadows adding drama to the crowded, confrontational scene.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_enchantress",
+            "pyotr_fomitch_kalganov",
+            "maximov",
+            "a_pole",
+            "the_companion_of_the_pole",
+            "trifon_borissovitch"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "entities": [
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…“I want to drink. I want to be quite drunk, as we were before. Do you remember, Mitya, do you remember how we made friends here last time!” </p>  <p> Mitya himself was almost delirious, feeling that his happiness was at hand. But Grushenka…"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "<p> What followed was almost an orgy, a feast to which all were welcome. Grushenka was the first to call for wine. </p>  <p> “I want to drink. I want to be quite drunk, as we were before. Do you remember, Mitya, do you remember how we made…"
+        },
+        {
+          "entityId": "pyotr_fomitch_kalganov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…him. “I was rude to him just now,” he repeated with a sinking, softened voice. Kalganov did not want to drink, and at first did not care for the girls’ singing; but after he had drunk a couple of glasses of champagne he became extraordinar…"
+        },
+        {
+          "entityId": "maximov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…ughing and praising the music and the songs, admiring every one and everything. Maximov, blissfully drunk, never left his side. Grushenka, too, was beginning to get drunk. Pointing to Kalganov, she said to Mitya: </p>  <p> “What a dear, ch…"
+        },
+        {
+          "entityId": "stepanida_ilyinishna",
+          "type": "person",
+          "firstSeenInChapter": 8,
+          "excerpt": "…he dances were as bad. Two girls dressed up as bears, and a lively girl, called Stepanida, with a stick in her hand, acted the part of keeper, and began to “show them.” </p>  <p> “Look alive, Marya, or you’ll get the stick!” </p>  <p> The …"
+        },
+        {
+          "entityId": "trifon_borissovitch",
+          "type": "person",
+          "firstSeenInChapter": 51,
+          "excerpt": "…pulled out his notes and given them away right and left. This was probably why the landlord, Trifon Borissovitch, kept hovering about Mitya to protect him. He seemed to have given up all idea of going to bed that night; but he drank little…"
+        },
+        {
+          "entityId": "andrey",
+          "type": "person",
+          "firstSeenInChapter": 50,
+          "excerpt": "…hey’d take it as an honor—that’s all they’re worth!” </p>  <p> Mitya remembered Andrey again, and ordered punch to be sent out to him. “I was rude to him just now,” he repeated with a sinking, softened voice. Kalganov did not want to drink…"
+        },
+        {
+          "entityId": "marya_kondratyevna",
+          "type": "person",
+          "firstSeenInChapter": 33,
+          "excerpt": "…and, acted the part of keeper, and began to “show them.” </p>  <p> “Look alive, Marya, or you’ll get the stick!” </p>  <p> The bears rolled on the ground at last in the most unseemly fashion, amid roars of laughter from the closely‐packed …"
+        },
+        {
+          "entityId": "fenya",
+          "type": "person",
+          "firstSeenInChapter": 44,
+          "excerpt": "…ld you be frightened of any one? It’s me he’s afraid of, I thought, only me. So Fenya told you, you little stupid, how I called to Alyosha out of the window that I’d loved Mityenka for one hour, and that I was going now to love ... another…"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…. “Grusha, you wanted to be honest, but I’m a thief. But I’ve stolen money from Katya.... Disgrace, a disgrace!” </p>  <p> “From Katya, from that young lady? No, you didn’t steal it. Give it her back, take it from me.... Why make a fuss? N…"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…d of, I thought, only me. So Fenya told you, you little stupid, how I called to Alyosha out of the window that I’d loved Mityenka for one hour, and that I was going now to love ... another. Mitya, Mitya, how could I be such a fool as to th…"
+        },
+        {
+          "entityId": "timofey_the_driver",
+          "type": "person",
+          "firstSeenInChapter": 44,
+          "excerpt": "…same; he’s different altogether. I shouldn’t have known him. I drove here with Timofey, and all the way I was thinking how I should meet him, what I should say to him, how we should look at one another. My soul was faint, and all of a sudd…"
+        },
+        {
+          "entityId": "the_officer",
+          "type": "person",
+          "firstSeenInChapter": 44
+        },
+        {
+          "entityId": "the_poles",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…> Mitya walked with a drunken swagger to the locked door, and began knocking to the Poles with his fist. </p>  <p> “Hi, you ... Podvysotskys! Come, she’s going to dance. She calls you.” </p>  <p> “_Lajdak!_” one of the Poles shouted in rep…"
+        },
+        {
+          "entityId": "pan_podvysotsky",
+          "type": "person",
+          "firstSeenInChapter": 52,
+          "excerpt": "…ked door, and began knocking to the Poles with his fist. </p>  <p> “Hi, you ... Podvysotskys! Come, she’s going to dance. She calls you.” </p>  <p> “_Lajdak!_” one of the Poles shouted in reply. </p>  <p> “You’re a _lajdak_ yourself! You’r…"
+        },
+        {
+          "entityId": "the_companion_of_the_pole",
+          "type": "person",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…!” </p>  <p> “No, brother, we’ve none of that special sort.” </p>  <p> “I say,” the old man bent down to whisper in Mitya’s ear. “That girl there, little Marya, he he! How would it be if you were to help me make friends with her?” </p>  <p…"
+        },
+        {
+          "entityId": "the_captain_of_police_mr_ispravnik",
+          "type": "person",
+          "firstSeenInChapter": 7
+        },
+        {
+          "entityId": "the_deputy_prosecutor",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…“consumptive‐looking” trim dandy, “who always has such polished boots”—that was the deputy prosecutor. “He has a chronometer worth four hundred roubles; he showed it to me.” And that small young man in spectacles.... Mitya forgot his surna…"
+        },
+        {
+          "entityId": "the_investigating_lawyer",
+          "type": "person",
+          "firstSeenInChapter": 53
+        },
+        {
+          "entityId": "mavriky_mavrikyevitch",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…e,” who had only lately come to the town. And this man—the inspector of police, Mavriky Mavrikyevitch, a man he knew well. And those fellows with the brass plates on, why are they here? And those other two ... peasants.... And there at the…"
+        },
+        {
+          "entityId": "the_chorus_of_mokroe",
+          "type": "event",
+          "firstSeenInChapter": 52
+        },
+        {
+          "entityId": "the_chorus_girls",
+          "type": "person",
+          "firstSeenInChapter": 53
+        },
+        {
+          "entityId": "the_peasant_girls",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…ll, money to the peasants as he had done before. He was very indignant, too, at the peasant girls drinking liqueur, and eating sweets. </p>  <p> “They’re a lousy lot, Dmitri Fyodorovitch,” he said. “I’d give them a kick, every one of them,…"
+        },
+        {
+          "entityId": "peasants_of_mokroe",
+          "type": "person",
+          "firstSeenInChapter": 51,
+          "excerpt": "…Mitya bustled about. All sorts of people began coming into the room to look on, peasants and their women, who had been roused from sleep and attracted by the hopes of another marvelous entertainment such as they had enjoyed a month before.…"
+        },
+        {
+          "entityId": "the_merchant",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…nd producing a furore in the audience. The song ends with a merchant: </p>  <p> The merchant came to try the girls: Would they love him, would they not? </p>  <p> And it appears that he wins their love because: </p>  <p> The merchant will …"
+        },
+        {
+          "entityId": "the_gypsy",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…n’t do for me. </p>  <p> Then a gypsy comes along and he, too, tries: </p>  <p> The gypsy came to try the girls: Would they love him, would they not? </p>  <p> But they couldn’t love the gypsy either: </p>  <p> He would be a thief, I fear,…"
+        },
+        {
+          "entityId": "the_soldier",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…<p> And many more men come to try their luck, among them a soldier: </p>  <p> The soldier came to try the girls: Would they love him, would they not? </p>  <p> But the soldier is rejected with contempt, in two indecent lines, sung with abs…"
+        },
+        {
+          "entityId": "the_master",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…nd tried his luck with the girls, to see whether they would love him: </p>  <p> The master came to try the girls: Would they love him, would they not? </p>  <p> But the girls could not love the master: </p>  <p> He would beat me cruelly An…"
+        },
+        {
+          "entityId": "jews_who_play_the_cymbals_and_the_fiddle",
+          "type": "person",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "girls_in_bear_costumes",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…on, gradually became coarse and more reckless. And the dances were as bad. Two girls dressed up as bears, and a lively girl, called Stepanida, with a stick in her hand, acted the part of keeper, and began to “show them.” </p>  <p> “Look al…"
+        },
+        {
+          "entityId": "the_inn",
+          "type": "place",
+          "firstSeenInChapter": 51,
+          "excerpt": "…ng. He went outside to the wooden balcony which ran round the whole building on the inner side, overlooking the courtyard. The fresh air revived him. He stood alone in a dark corner, and suddenly clutched his head in both hands. His scatte…"
+        },
+        {
+          "entityId": "the_blue_room",
+          "type": "place",
+          "firstSeenInChapter": 51,
+          "excerpt": "…to the room where the girls were dancing. But she was not there. She was not in the blue room either; there was no one but Kalganov asleep on the sofa. Mitya peeped behind the curtain—she was there. She was sitting in the corner, on a trun…"
+        },
+        {
+          "entityId": "siberia",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…yes with a needle....” </p>  <p> “I love you. I love only you. I’ll love you in Siberia....” </p>  <p> “Why Siberia? Never mind, Siberia, if you like. I don’t care ... we’ll work ... there’s snow in Siberia.... I love driving in the snow .…"
+        },
+        {
+          "entityId": "mokroe",
+          "type": "place",
+          "firstSeenInChapter": 18
+        },
+        {
+          "entityId": "the_nunnery",
+          "type": "place",
+          "firstSeenInChapter": 53,
+          "excerpt": "…I shall remember all my life.... Yes.... But to‐day let us dance. To‐morrow to the nunnery, but to‐day we’ll dance. I want to play to‐day, good people, and what of it? God will forgive us. If I were God, I’d forgive every one: ‘My dear sin…"
+        },
+        {
+          "entityId": "the_onion_story",
+          "type": "event",
+          "firstSeenInChapter": 44
+        },
+        {
+          "entityId": "parricide_accusation",
+          "type": "event",
+          "firstSeenInChapter": 11,
+          "excerpt": "…own down by a scythe. </p>  <p> “You understand? He understands it! Monster and parricide! Your father’s blood cries out against you!” the old captain of police roared suddenly, stepping up to Mitya. </p>  <p> He was beside himself, crimso…"
+        },
+        {
+          "entityId": "the_event",
+          "type": "event",
+          "firstSeenInChapter": 47
+        },
+        {
+          "entityId": "the_brass_mortar_object",
+          "type": "event",
+          "firstSeenInChapter": 48
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 63,
+          "locationDescription": "In the main room at Mokroe inn",
+          "imageDescription": "A rustic, candle-lit room crowded with peasants, chorus girls, and men drinking and feasting in wild celebration. Long wooden tables are heaped with bottles, glasses, and food. Grushenka, wearing an elegant 19th-century Russian dress, sits at the door of a smaller adjoining room in an easy chair, with Dmitri Karamazov bustling about among the guests. In the background, Maximov leans close to Pyotr Kalganov, both in fine but slightly disheveled clothing. Trifon Borissovitch, the landlord, watches Mitya carefully, while peasant girls enjoy tea and sweets. The scene is lively, chaotic, and festive.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_enchantress",
+            "pyotr_fomitch_kalganov",
+            "maximov",
+            "trifon_borissovitch",
+            "andrey",
+            "peasants_of_mokroe",
+            "the_chorus_girls",
+            "the_peasant_girls"
+          ]
+        },
+        {
+          "startParagraph": 64,
+          "endParagraph": 72,
+          "locationDescription": "In the passage and on the balcony of Mokroe inn",
+          "imageDescription": "A dark, moonlit wooden balcony looping around the interior courtyard of a 19th-century Russian inn. Dmitri, in slightly rumpled formal Russian attire, stands alone in a shadowy corner, clutching his head, lost in deep and conflicted thought. The night air is crisp, and faint light spills through the windows back into the house. The atmosphere is tense and introspective, in stark contrast to the revels inside.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 73,
+          "endParagraph": 79,
+          "locationDescription": "Behind the curtains in the guest bedroom at Mokroe",
+          "imageDescription": "A dim, private corner of a guest bedroom, separated from the main room by cotton curtains. Grushenka, in a stylish but slightly disheveled Russian dress, sits hunched, weeping bitterly with her head on the bed and arms thrown across the cotton pillows. Dmitri enters and kneels beside her, holding her hand tightly. The intimate setting is filled with the low light of a single lamp, emphasizing the emotional intensity and vulnerability.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_enchantress"
+          ]
+        },
+        {
+          "startParagraph": 80,
+          "endParagraph": 90,
+          "locationDescription": "Back in the main room at Mokroe inn",
+          "imageDescription": "The main room of the inn is bright with candlelight, crowded with peasants, chorus girls, Pyotr Kalganov, and Maximov. Grushenka, flushed and beaming, sits in her easy chair while Dmitri sits close to her, both reveling in the moment. Kalganov approaches with admiration; Maximov skips about, trying to entertain with dances. The atmosphere is joyous, chaotic, and filled with the warmth and laughter of late-night festivity.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_enchantress",
+            "pyotr_fomitch_kalganov",
+            "maximov",
+            "the_chorus_girls",
+            "the_peasant_girls",
+            "peasants_of_mokroe"
+          ]
+        },
+        {
+          "startParagraph": 91,
+          "endParagraph": 102,
+          "locationDescription": "At the locked door and dance floor, Mokroe inn",
+          "imageDescription": "A boisterous and crowded dance floor in a rustic Russian inn. Dmitri, evidently drunk and animated, knocks at a locked inner door, calling to the Poles. Kalganov, also flushed with drink, counters his remarks nearby. Grushenka stands ready to dance, holding a white handkerchief. Maximov, excited, skips about in front. Peasant girls and villagers gather expectantly around the room, all in period-appropriate rural and festive attire, illuminated by the glow of oil lamps and candles.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_enchantress",
+            "pyotr_fomitch_kalganov",
+            "maximov",
+            "the_poles",
+            "the_chorus_girls",
+            "the_peasant_girls",
+            "peasants_of_mokroe",
+            "pan_podvysotsky"
+          ]
+        },
+        {
+          "startParagraph": 103,
+          "endParagraph": 118,
+          "locationDescription": "Behind the curtains, guest bedroom at Mokroe",
+          "imageDescription": "A dimly lit guest bedroom behind heavy curtains, set aside from the noise of the feast. Dmitri gently lays Grushenka on a large feather bed, the soft light from a single lamp casting warm shadows. Grushenka, in a rumpled dress, appears exhausted and emotional, reaching for Dmitri. The mood is intimate, with both characters' faces expressing fatigue, deep emotion, and tenderness.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_enchantress"
+          ]
+        },
+        {
+          "startParagraph": 119,
+          "endParagraph": 136,
+          "locationDescription": "Behind the curtains, guest bedroom at Mokroe; the moment of intrusion",
+          "imageDescription": "A tense, dramatic moment in the dim guest bedroom behind curtains. Dmitri and Grushenka are closely seated on the bed; their faces suddenly alarmed as the curtain parts and several grim, well-dressed officials enter the room. At the front stands the imposing police captain in an overcoat and cockaded forage-cap, the deputy prosecutor and the investigating lawyer in formal 19th-century Russian attire, with brass-badged assistants and a few peasants lingering in the shadows. Kalganov and Trifon Borissovitch stand anxiously at the door. The mood is suspended—heavy and foreboding.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_enchantress",
+            "pyotr_fomitch_kalganov",
+            "trifon_borissovitch",
+            "the_captain_of_police_mr_ispravnik",
+            "the_deputy_prosecutor",
+            "the_investigating_lawyer",
+            "mavriky_mavrikyevitch",
+            "peasants_of_mokroe"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "entities": [
+        {
+          "entityId": "pyotr_fomitch_kalganov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "<p> Pyotr Ilyitch Perhotin, whom we left knocking at the strong locked gates of the widow Morozov’s house, ended, of course, by making himself heard. Fenya, who was still excite"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…e gate. Though she had herself seen him drive away, she fancied that it must be Dmitri Fyodorovitch knocking again, no one else could knock so savagely. She ran to the house‐porter, who had already waked up and gone out to the gate, and be…"
+        },
+        {
+          "entityId": "fenya",
+          "type": "person",
+          "firstSeenInChapter": 44,
+          "excerpt": "…gates of the widow Morozov’s house, ended, of course, by making himself heard. Fenya, who was still excited by the fright she had had two hours before, and too much “upset” to go to bed, was almost frightened into hysterics on hearing the …"
+        },
+        {
+          "entityId": "the_old_servant_of_samsonov",
+          "type": "person",
+          "firstSeenInChapter": 46
+        },
+        {
+          "entityId": "madame_hohlakov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…grily and swore at himself, he set off again, not to Fyodor Pavlovitch’s but to Madame Hohlakov’s. He decided that if she denied having just given Dmitri Fyodorovitch three thousand roubles, he would go straight to the police captain, but …"
+        },
+        {
+          "entityId": "houseporter_at_the_house_of_the_widow_morozov",
+          "type": "person",
+          "firstSeenInChapter": 54,
+          "excerpt": "…yodorovitch knocking again, no one else could knock so savagely. She ran to the house‐porter, who had already waked up and gone out to the gate, and began imploring him not to open it. But having questioned Pyotr Ilyitch, and learned that …"
+        },
+        {
+          "entityId": "the_maid_at_madame_hohlakovs",
+          "type": "person",
+          "firstSeenInChapter": 54,
+          "excerpt": "…r, followed such excitement. She was surprised on hearing the announcement from the maid. She irritably declined to see him, however, though the unexpected visit at such an hour, of an “official living in the town,” who was a total strange…"
+        },
+        {
+          "entityId": "the_captain_of_police_mr_ispravnik",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…ind out whether anything had happened there, and if so, what; and only to go to the police captain, as Pyotr Ilyitch firmly intended doing, when he had satisfied himself of the fact. But the night was dark, Fyodor Pavlovitch’s gates were s…"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…most vital fact, that is, that when Dmitri Fyodorovitch had run out to look for Grushenka, he had snatched up a pestle from the mortar, and that when he returned, the pestle was not with him and his hands were smeared with blood. </p>  <p>…"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…rried away a conviction that Dmitri Fyodorovitch could have gone nowhere but to his father’s house, and that therefore something must have happened there. </p>  <p> “And when he came back,” Fenya added with excitement, “I told him the whol…"
+        },
+        {
+          "entityId": "elder_zossima",
+          "type": "person",
+          "firstSeenInChapter": 4,
+          "excerpt": "…shakes me, and I’m ready to believe in anything you like. Have you heard about Father Zossima?... But I don’t know what I’m saying ... and only fancy, with the ikon on his neck he spat at me.... He only spat, it’s true, he didn’t murder me…"
+        },
+        {
+          "entityId": "varvara",
+          "type": "person",
+          "firstSeenInChapter": 30,
+          "excerpt": "…was ashamed to murder me because, in this very place, I put the holy ikon from the relics of the holy martyr, Saint Varvara, on his neck.... And to think how near I was to death at that minute, I went close up to him and he stretched out h…"
+        },
+        {
+          "entityId": "widow_morozov",
+          "type": "person",
+          "firstSeenInChapter": 44,
+          "excerpt": "<p> Pyotr Ilyitch Perhotin, whom we left knocking at the strong locked gates of the widow Morozov’s house, ended, of course, by making himself heard. Fenya, who was still excited by the fright she had had two hours before, and too much “up…"
+        },
+        {
+          "entityId": "the_superior",
+          "type": "person",
+          "firstSeenInChapter": 5
+        },
+        {
+          "entityId": "plotnikovs_shop",
+          "type": "place",
+          "firstSeenInChapter": 50
+        },
+        {
+          "entityId": "mokroe",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…t down and began thinking, where’s he run off to now like a madman? He’ll go to Mokroe, I thought, and kill my mistress there. I ran out to beg him not to kill her. I was running to his lodgings, but I looked at Plotnikov’s shop, and saw h…"
+        },
+        {
+          "entityId": "the_house_of_the_widow_morozov",
+          "type": "place",
+          "firstSeenInChapter": 44
+        },
+        {
+          "entityId": "grushenkas_rooms",
+          "type": "place",
+          "firstSeenInChapter": 44
+        },
+        {
+          "entityId": "the_kitchen",
+          "type": "place",
+          "firstSeenInChapter": 38,
+          "excerpt": "…ess,” the man made up his mind at last to open. Pyotr Ilyitch was admitted into Fenya’s kitchen, but the girl begged him to allow the house‐porter to be present, “because of her misgivings.” He began questioning her and at once learnt the …"
+        },
+        {
+          "entityId": "drawingroom",
+          "type": "place",
+          "firstSeenInChapter": 19
+        },
+        {
+          "entityId": "madame_hohlakov",
+          "type": "place",
+          "firstSeenInChapter": 6,
+          "excerpt": "…grily and swore at himself, he set off again, not to Fyodor Pavlovitch’s but to Madame Hohlakov’s. He decided that if she denied having just given Dmitri Fyodorovitch three thousand roubles, he would go straight to the police captain, but …"
+        },
+        {
+          "entityId": "the_goldmines",
+          "type": "place",
+          "firstSeenInChapter": 54,
+          "excerpt": "…t received it from you, that you had given him a sum of three thousand to go to the gold‐mines....” </p>  <p> Madame Hohlakov’s face assumed an expression of intense and painful excitement. </p>  <p> “Good God! He must have killed his old …"
+        },
+        {
+          "entityId": "the_sign_of_the_cross",
+          "type": "event",
+          "firstSeenInChapter": 32,
+          "excerpt": "…Ilyitch. “Go, save him. It’s a noble deed on your part!” </p>  <p> And she made the sign of the cross three times over him. She ran out to accompany him to the passage. </p>  <p> “How grateful I am to you! You can’t think how grateful I am…"
+        },
+        {
+          "entityId": "insult_to_madame_hohlakov_by_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 54
+        },
+        {
+          "entityId": "attack_on_fyodor_pavlovitch_by_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 22
+        },
+        {
+          "entityId": "the_brass_mortar_object",
+          "type": "event",
+          "firstSeenInChapter": 48,
+          "excerpt": "…hen Dmitri Fyodorovitch had run out to look for Grushenka, he had snatched up a pestle from the mortar, and that when he returned, the pestle was not with him and his hands were smeared with blood. </p>  <p> “And the blood was simply flowi…"
+        },
+        {
+          "entityId": "blood_on_mityas_handsface",
+          "type": "event",
+          "firstSeenInChapter": 50,
+          "excerpt": "…ut I looked at Plotnikov’s shop, and saw him just setting off, and there was no blood on his hands then.” (Fenya had noticed this and remembered it.) Fenya’s old grandmother confirmed her evidence as far as she was capable. After asking so…"
+        },
+        {
+          "entityId": "the_envelope_with_three_thousand_roubles",
+          "type": "event",
+          "firstSeenInChapter": 37
+        },
+        {
+          "entityId": "the_event",
+          "type": "event",
+          "firstSeenInChapter": 47
+        },
+        {
+          "entityId": "requiem_service_for_father_zossima",
+          "type": "event",
+          "firstSeenInChapter": 42
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 2,
+          "locationDescription": "In Fenya's kitchen at the widow Morozov's house",
+          "imageDescription": "A dimly lit, humble Russian kitchen with whitewashed walls and simple wooden furniture, reflecting the rural 19th-century setting. Near the entrance, Pyotr Ilyitch, a well-dressed young man in a dark coat and hat, stands with a tense expression, while Fenya, a nervous young servant girl in a plain dress and headscarf, gazes at him anxiously. The old house-porter, sturdy in a well-worn peasant jacket, is present near the door, arms folded. The overall scene feels tense and uneasy.",
+          "characterIds": [
+            "pyotr_fomitch_kalganov",
+            "fenya",
+            "houseporter_at_the_house_of_the_widow_morozov"
+          ]
+        },
+        {
+          "startParagraph": 3,
+          "endParagraph": 3,
+          "locationDescription": "At the gate of the widow Morozov’s house, night street",
+          "imageDescription": "A nighttime exterior of the widow Morozov's gated house, shrouded in darkness. The tall wooden gates are closed tightly, casting heavy shadows across the deserted cobblestone street. Pyotr Ilyitch, coat collar up against the night air, is depicted pausing at the gate in a moment of indecision, alone under a faint glow from a nearby lantern, with anxiety on his face in the cold, silent street.",
+          "characterIds": [
+            "pyotr_fomitch_kalganov"
+          ]
+        },
+        {
+          "startParagraph": 4,
+          "endParagraph": 7,
+          "locationDescription": "Outside Madame Hohlakov’s house, front yard and entrance",
+          "imageDescription": "A stylish two-story Russian town house stands behind an ornate iron gate and snowy yard. The scene is bathed in weak lamplight, and the outlines of Pyotr Ilyitch are seen approaching the entrance, wrapped in a heavy winter coat and hat. The house-porter stands sentinel at the door, bundled in a servant’s uniform, looking out at the unexpected night visitor. The overall atmosphere is one of chilly anticipation.",
+          "characterIds": [
+            "pyotr_fomitch_kalganov",
+            "houseporter_at_the_house_of_the_widow_morozov"
+          ]
+        },
+        {
+          "startParagraph": 8,
+          "endParagraph": 8,
+          "locationDescription": "In the entryway and stair of Madame Hohlakov’s house",
+          "imageDescription": "A grand but silent entryway with polished wooden floors and a sweeping stairway, dimly illuminated by a wall lamp. Pyotr Ilyitch stands waiting at the bottom of the stairs, hat in hand, his expression patient but anxious. A footman in livery stalls at the stair, while a young maid in a modest dress and apron listens to Pyotr Ilyitch’s earnest request before ascending. The space feels formal and expectant.",
+          "characterIds": [
+            "pyotr_fomitch_kalganov",
+            "the_maid_at_madame_hohlakovs"
+          ]
+        },
+        {
+          "startParagraph": 9,
+          "endParagraph": 14,
+          "locationDescription": "In Madame Hohlakov’s drawing-room",
+          "imageDescription": "A luxurious, tastefully decorated drawing-room with elegant Russian furnishings and heavy drapes. Madame Hohlakov, a middle-aged lady in a flowing dressing gown and a fine black shawl, enters with an air of irritation and curiosity. Pyotr Ilyitch stands by a small table, removing his gloves politely, while a faint lamp casts delicate shadows across the ornate rug. The mood is tense and formal, with an undercurrent of emergency.",
+          "characterIds": [
+            "pyotr_fomitch_kalganov",
+            "madame_hohlakov"
+          ]
+        },
+        {
+          "startParagraph": 15,
+          "endParagraph": 29,
+          "locationDescription": "Still in Madame Hohlakov’s drawing-room, continued",
+          "imageDescription": "The same richly appointed drawing-room, now charged with emotion. Madame Hohlakov sits upright in an armchair, agitated, her hands raised in a gesture of distress. Pyotr Ilyitch stands with a composed, diplomatic look, one hand extended in explanation. Both are illuminated by the warm glow of a table lamp, their faces reflecting both anxiety and urgency, surrounded by tastefully framed icons and Russian décor.",
+          "characterIds": [
+            "pyotr_fomitch_kalganov",
+            "madame_hohlakov"
+          ]
+        },
+        {
+          "startParagraph": 30,
+          "endParagraph": 41,
+          "locationDescription": "Madame Hohlakov’s boudoir and passage, as Pyotr Ilyitch leaves",
+          "imageDescription": "A warmly lit private boudoir with a small writing desk and shelves filled with books and icons. Madame Hohlakov, animated and somewhat disheveled, stands by her bureau hastily writing a note. Pyotr Ilyitch stands ready at the door, one foot forward in anticipation of escape, coat over his arm. Madame Hohlakov, note in hand, follows him to the passage, making a cross gesture. The mood is a chaos of gratitude and urgency.",
+          "characterIds": [
+            "pyotr_fomitch_kalganov",
+            "madame_hohlakov"
+          ]
+        },
+        {
+          "startParagraph": 42,
+          "endParagraph": 42,
+          "locationDescription": "Outside Madame Hohlakov’s house, in the street",
+          "imageDescription": "The wintry night street outside Madame Hohlakov’s house is nearly deserted. Pyotr Ilyitch hurries down the steps, head lowered briskly against the cold, his breath visible in the frosty air. Light from the windows glows behind him, and the outlines of the elegant doorway contrast sharply with the dark, silent street. The atmosphere is one of tension, mingled with a touch of relief.",
+          "characterIds": [
+            "pyotr_fomitch_kalganov"
+          ]
+        },
+        {
+          "startParagraph": 43,
+          "endParagraph": 45,
+          "locationDescription": "In Madame Hohlakov's bedroom, alone",
+          "imageDescription": "A softly lit, comfortable bedroom with heavy curtains, embroidered pillows, and a gilded ikon on the wall. Madame Hohlakov prepares for bed, removing her shawl, her expression dreamy and reflective. The mood is calm and restful, a contrast to the preceding tension, with faint moonlight filtering in as she settles into bed, the trappings of wealth and refinement visible.",
+          "characterIds": [
+            "madame_hohlakov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "entities": [
+        {
+          "entityId": "the_captain_of_police_mr_ispravnik",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "<p> Our police captain, Mihail Makarovitch Makarov, a retired lieutenant‐ colonel, was a widower and an excellent man. He had only come to us three years previously, but had won general esteem, chiefly because"
+        },
+        {
+          "entityId": "mihail_makarovitchs_widowed_daughter",
+          "type": "person",
+          "firstSeenInChapter": 55
+        },
+        {
+          "entityId": "mihail_makarovitchs_two_unmarried_granddaughters",
+          "type": "person",
+          "firstSeenInChapter": 55
+        },
+        {
+          "entityId": "olga_mihailovna",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…vitch’s, so to speak casually, so as slyly to startle the eldest granddaughter, Olga Mihailovna, by showing that he knew her secret, that he knew it was her birthday, and that she was trying to conceal it on purpose, so as not to be oblige…"
+        },
+        {
+          "entityId": "ippolit_kirillovitch",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…degree at the Academy of Medicine, were playing whist at the police captain’s. Ippolit Kirillovitch, the prosecutor (he was really the deputy prosecutor, but we always called him the prosecutor), was rather a peculiar man, of about five an…"
+        },
+        {
+          "entityId": "the_deputy_prosecutor",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…degree at the Academy of Medicine, were playing whist at the police captain’s. Ippolit Kirillovitch, the prosecutor (he was really the deputy prosecutor, but we always called him the prosecutor), was rather a peculiar man, of about five an…"
+        },
+        {
+          "entityId": "the_investigating_lawyer",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…t might well be talked about all over Russia.” But I am anticipating. </p>  <p> Nikolay Parfenovitch Nelyudov, the young investigating lawyer, who had only come from Petersburg two months before, was sitting in the next room with the young…"
+        },
+        {
+          "entityId": "the_investigating_lawyer",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…t might well be talked about all over Russia.” But I am anticipating. </p>  <p> Nikolay Parfenovitch Nelyudov, the young investigating lawyer, who had only come from Petersburg two months before, was sitting in the next room with the young…"
+        },
+        {
+          "entityId": "varvinsky",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…g, but he didn’t know which. As it happened, at that moment the prosecutor, and Varvinsky, our district doctor, a young man, who had only just come to us from Petersburg after taking a brilliant degree at the Academy of Medicine, were play…"
+        },
+        {
+          "entityId": "pyotr_fomitch_kalganov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…arily increasing his knowledge by practice. And yet he was himself a landowner. Pyotr Ilyitch knew for certain that he would meet some of Mihail Makarovitch’s visitors there that evening, but he didn’t know which. As it happened, at that m…"
+        },
+        {
+          "entityId": "marya_kondratyevna",
+          "type": "person",
+          "firstSeenInChapter": 33,
+          "excerpt": "…drew the bolt of the big gate and ran headlong by the back way to the neighbor, Marya Kondratyevna. Both mother and daughter were asleep, but they waked up at Marfa’s desperate and persistent screaming and knocking at the shutter. Marfa, s…"
+        },
+        {
+          "entityId": "marfa_ignatyevna",
+          "type": "person",
+          "firstSeenInChapter": 14,
+          "excerpt": "…robbed. The news had only just reached them in the following manner. </p>  <p> Marfa Ignatyevna, the wife of old Grigory, who had been knocked senseless near the fence, was sleeping soundly in her bed and might well have slept till morning…"
+        },
+        {
+          "entityId": "grigory",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…ached them in the following manner. </p>  <p> Marfa Ignatyevna, the wife of old Grigory, who had been knocked senseless near the fence, was sleeping soundly in her bed and might well have slept till morning after the draught she had taken.…"
+        },
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…ll of a sudden she waked up, no doubt roused by a fearful epileptic scream from Smerdyakov, who was lying in the next room unconscious. That scream always preceded his fits, and always terrified and upset Marfa Ignatyevna. She could never …"
+        },
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…this was no doubt Grigory’s scream, “Parricide!” uttered when he caught hold of Mitya’s leg. </p>  <p> “Some one person screamed out and then was silent,” Marya Kondratyevna explained as she ran. Running to the place where Grigory lay, the…"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…would have no dowry, they attracted all the young men of fashion to their grandfather’s house. </p>  <p> Mihail Makarovitch was by no means very efficient in his work, though he performed his duties no worse than many others. To speak plai…"
+        },
+        {
+          "entityId": "lizaveta_smerdyastchaya",
+          "type": "person",
+          "firstSeenInChapter": 14,
+          "excerpt": "…as evident they came from the garden. </p>  <p> “Good Lord! Just as it was with Lizaveta Smerdyastchaya!” she thought distractedly. She went timidly down the steps and saw that the gate into the garden was open. </p>  <p> “He must be out t…"
+        },
+        {
+          "entityId": "foma",
+          "type": "person",
+          "firstSeenInChapter": 18,
+          "excerpt": "…managed to tell them the main fact, and to beg for assistance. It happened that Foma had come back from his wanderings and was staying the night with them. They got him up immediately and all three ran to the scene of the crime. On the way…"
+        },
+        {
+          "entityId": "marya_kondratyevna",
+          "type": "person",
+          "firstSeenInChapter": 33,
+          "excerpt": "…drew the bolt of the big gate and ran headlong by the back way to the neighbor, Marya Kondratyevna. Both mother and daughter were asleep, but they waked up at Marfa’s desperate and persistent screaming and knocking at the shutter. Marfa, s…"
+        },
+        {
+          "entityId": "the_daughter_of_marya_kondratyevna",
+          "type": "person",
+          "firstSeenInChapter": 55
+        },
+        {
+          "entityId": "trifon_borissovitch",
+          "type": "person",
+          "firstSeenInChapter": 51,
+          "excerpt": "…was told, preserving his incognito, and giving no one but his old acquaintance, Trifon Borissovitch, the slightest hint of his secret business. He had spoken to him just before Mitya met the landlord in the balcony, looking for him in the …"
+        },
+        {
+          "entityId": "mavriky_mavrikyevitch",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…before starting, they sent on ahead to Mokroe the officer of the rural police, Mavriky Mavrikyevitch Schmertsov, who had arrived in the town the morning before to get his pay. He was instructed to avoid raising the alarm when he reached Mo…"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…d thick envelope with the inscription: “A present of three thousand roubles for my angel Grushenka, if she is willing to come.” And below had been added by Fyodor Pavlovitch, “For my little chicken.” There were three seals of red sealing‐w…"
+        },
+        {
+          "entityId": "a_merchant_called_olsufyev",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…prosecutor more than ever. </p>  <p> “Do you remember the fellow that murdered a merchant called Olsufyev, gentlemen? He stole fifteen hundred, went at once to have his hair curled, and then, without even hiding the money, carrying it almo…"
+        },
+        {
+          "entityId": "mavriky_mavrikyevitch",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…before starting, they sent on ahead to Mokroe the officer of the rural police, Mavriky Mavrikyevitch Schmertsov, who had arrived in the town the morning before to get his pay. He was instructed to avoid raising the alarm when he reached Mo…"
+        },
+        {
+          "entityId": "police_constables",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…he arrival of the proper authorities, to procure also witnesses for the arrest, police constables, and so on. Mavriky Mavrikyevitch did as he was told, preserving his incognito, and giving no one but his old acquaintance, Trifon Borissovit…"
+        },
+        {
+          "entityId": "witnesses_for_the_arrest",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…over the “criminal” till the arrival of the proper authorities, to procure also witnesses for the arrest, police constables, and so on. Mavriky Mavrikyevitch did as he was told, preserving his incognito, and giving no one but his old acqua…"
+        },
+        {
+          "entityId": "the_police_inspector_deputy_police_inspector_of_the_town",
+          "type": "person",
+          "firstSeenInChapter": 55
+        },
+        {
+          "entityId": "pistols",
+          "type": "event",
+          "firstSeenInChapter": 55,
+          "excerpt": "…reak, that he had resolved to do so, had spoken of it to Ilyitch, had taken the pistols, loaded them before him, written a letter, put it in his pocket, etc. When Pyotr Ilyitch, though still unwilling to believe in it, threatened to tell s…"
+        },
+        {
+          "entityId": "three_thousand_roubles_giftenvelope",
+          "type": "event",
+          "firstSeenInChapter": 55
+        },
+        {
+          "entityId": "death_of_fyodor_pavlovitch_karamazov",
+          "type": "event",
+          "firstSeenInChapter": 1
+        },
+        {
+          "entityId": "parricide_accusation",
+          "type": "event",
+          "firstSeenInChapter": 11,
+          "excerpt": "…d a dreadful scream from their garden, and this was no doubt Grigory’s scream, “Parricide!” uttered when he caught hold of Mitya’s leg. </p>  <p> “Some one person screamed out and then was silent,” Marya Kondratyevna explained as she ran. …"
+        },
+        {
+          "entityId": "mityas_suicide_plan",
+          "type": "event",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "the_brass_mortar_object",
+          "type": "event",
+          "firstSeenInChapter": 48
+        },
+        {
+          "entityId": "the_envelope_with_three_thousand_roubles",
+          "type": "event",
+          "firstSeenInChapter": 37
+        },
+        {
+          "entityId": "the_karamazovs_house",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…would have no dowry, they attracted all the young men of fashion to their grandfather’s house. </p>  <p> Mihail Makarovitch was by no means very efficient in his work, though he performed his duties no worse than many others. To speak plai…"
+        },
+        {
+          "entityId": "the_lodge",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…the place where Grigory lay, the two women with the help of Foma carried him to the lodge. They lighted a candle and saw that Smerdyakov was no better, that he was writhing in convulsions, his eyes fixed in a squint, and that foam was flow…"
+        },
+        {
+          "entityId": "the_fence",
+          "type": "place",
+          "firstSeenInChapter": 22,
+          "excerpt": "…Marfa Ignatyevna, the wife of old Grigory, who had been knocked senseless near the fence, was sleeping soundly in her bed and might well have slept till morning after the draught she had taken. But, all of a sudden she waked up, no doubt r…"
+        },
+        {
+          "entityId": "the_garden",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…m. She got no answer, of course, but she caught the sound of groans far away in the garden in the darkness. She listened. The groans were repeated, and it was evident they came from the garden. </p>  <p> “Good Lord! Just as it was with Liz…"
+        },
+        {
+          "entityId": "the_gate",
+          "type": "place",
+          "firstSeenInChapter": 49,
+          "excerpt": "…tchaya!” she thought distractedly. She went timidly down the steps and saw that the gate into the garden was open. </p>  <p> “He must be out there, poor dear,” she thought. She went up to the gate and all at once she distinctly heard Grigo…"
+        },
+        {
+          "entityId": "the_karamazovs_house",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…would have no dowry, they attracted all the young men of fashion to their grandfather’s house. </p>  <p> Mihail Makarovitch was by no means very efficient in his work, though he performed his duties no worse than many others. To speak plai…"
+        },
+        {
+          "entityId": "the_room_where_fyodor_pavlovitch_was_lying",
+          "type": "place",
+          "firstSeenInChapter": 55,
+          "excerpt": "…ost conspicuous place on the garden path. There were no signs of disturbance in the room where Fyodor Pavlovitch was lying. But by the bed, behind the screen, they picked up from the floor a big and thick envelope with the inscription: “A …"
+        },
+        {
+          "entityId": "the_garden_path",
+          "type": "place",
+          "firstSeenInChapter": 49
+        },
+        {
+          "entityId": "the_street",
+          "type": "place",
+          "firstSeenInChapter": 48
+        },
+        {
+          "entityId": "mokroe",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…, Mitya had answered grinning: “You’ll be too late.” So they must make haste to Mokroe to find the criminal, before he really did shoot himself. </p>  <p> “That’s clear, that’s clear!” repeated the prosecutor in great excitement. “That’s j…"
+        },
+        {
+          "entityId": "our_town",
+          "type": "place",
+          "firstSeenInChapter": 16,
+          "excerpt": "…his house, if only at one table. But at frequent intervals, all the society of our town, with the mammas and young ladies, assembled at his house to dance. Though Mihail Makarovitch was a widower, he did not live alone. His widowed daughte…"
+        },
+        {
+          "entityId": "the_police_captains_house",
+          "type": "place",
+          "firstSeenInChapter": 55
+        },
+        {
+          "entityId": "the_billiardroom",
+          "type": "place",
+          "firstSeenInChapter": 55
+        },
+        {
+          "entityId": "the_dining_room_at_police_captains",
+          "type": "place",
+          "firstSeenInChapter": 55
+        },
+        {
+          "entityId": "the_next_room_of_the_police_captains_house",
+          "type": "place",
+          "firstSeenInChapter": 55
+        },
+        {
+          "entityId": "saint_petersburg",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…Varvinsky, our district doctor, a young man, who had only just come to us from Petersburg after taking a brilliant degree at the Academy of Medicine, were playing whist at the police captain’s. Ippolit Kirillovitch, the prosecutor (he was …"
+        },
+        {
+          "entityId": "the_academy_of_medicine",
+          "type": "place",
+          "firstSeenInChapter": 55
+        },
+        {
+          "entityId": "the_danceball_at_police_captains",
+          "type": "event",
+          "firstSeenInChapter": 55
+        },
+        {
+          "entityId": "the_emancipation_of_the_serfs",
+          "type": "event",
+          "firstSeenInChapter": 14,
+          "excerpt": "…a definite idea of the fundamental principles of the reforms connected with the emancipation of the serfs, and only picked it up, so to speak, from year to year, involuntarily increasing his knowledge by practice. And yet he was himself a …"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 5,
+          "locationDescription": "At Mihail Makarovitch's (the police captain's) house, billiard-room",
+          "imageDescription": "A stately 19th-century Russian billiard-room with dark wooden paneling, warmly lit by chandeliers. The walls are decorated with framed prints of English race-horses. Several gentlemen in military or civilian dress coats, some seated at a card table, others standing with drinks in hand. Two young women in modest, period dresses converse aside. The air is lively, filled with anticipation and social energy.",
+          "characterIds": [
+            "the_captain_of_police_mr_ispravnik",
+            "mihail_makarovitchs_widowed_daughter",
+            "mihail_makarovitchs_two_unmarried_granddaughters",
+            "olga_mihailovna",
+            "ippolit_kirillovitch",
+            "the_deputy_prosecutor",
+            "the_investigating_lawyer",
+            "varvinsky"
+          ]
+        },
+        {
+          "startParagraph": 6,
+          "endParagraph": 6,
+          "locationDescription": "At Mihail Makarovitch's house, arrival of urgent news",
+          "imageDescription": "A brightly lit drawing room in a provincial Russian home, filled with agitated people—some with cards still in hand, others having risen from their seats in alarm. Uniformed men, young ladies in evening gowns, and nervous officials cluster, reacting to the shocking announcement. Shadows flicker as more people rush in, lending an air of confusion and disarray.",
+          "characterIds": [
+            "the_captain_of_police_mr_ispravnik",
+            "mihail_makarovitchs_widowed_daughter",
+            "mihail_makarovitchs_two_unmarried_granddaughters",
+            "olga_mihailovna",
+            "ippolit_kirillovitch",
+            "the_deputy_prosecutor",
+            "the_investigating_lawyer",
+            "varvinsky"
+          ]
+        },
+        {
+          "startParagraph": 7,
+          "endParagraph": 7,
+          "locationDescription": "Grigory and Marfa's cottage and the garden by Fyodor Pavlovitch's house",
+          "imageDescription": "A modest, candle-lit peasant cottage at night, with Marfa Ignatyevna startled awake in a simple nightgown. The sparse room is cast in heavy shadows. Beyond the open doorway, a moonlit garden with deep shadows, broken gate, and overgrown greenery. The atmosphere is tense, as if something tragic has just happened nearby.",
+          "characterIds": [
+            "marfa_ignatyevna",
+            "grigory",
+            "smerdyakov"
+          ]
+        },
+        {
+          "startParagraph": 8,
+          "endParagraph": 8,
+          "locationDescription": "Fyodor Pavlovitch's garden and outside his house",
+          "imageDescription": "Nighttime in a rambling Russian garden, lit faintly by moonlight and the spill of a candle from a house window. Marfa Ignatyevna, still in her nightclothes, reluctantly approaches the open garden gate. The scene is suspenseful, with distant shrubbery, cold dew on the grass, and the sense that peril lurks in the darkness.",
+          "characterIds": [
+            "marfa_ignatyevna",
+            "grigory"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "Outside Fyodor Pavlovitch's window, then to Marya Kondratyevna's house",
+          "imageDescription": "Through a lit window, Fyodor Pavlovitch’s lifeless body is visible on the floor, his clothes stained with blood, an overturned chair nearby. Outside, Marfa Ignatyevna recoils in horror, illuminated by the cold light from the window. Beyond her, darkness engulfs the night. The mood is of horror and dread.",
+          "characterIds": [
+            "marfa_ignatyevna",
+            "fyodor_pavlovitch_karamazov"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 12,
+          "locationDescription": "Marya Kondratyevna's house and the path to Grigory",
+          "imageDescription": "A rustic Russian house; Marya Kondratyevna and her daughter hurriedly dress by lamplight after being awakened. Foma, a sturdy peasant, joins them as they prepare to rush outside. The mood is urgent as the trio gathers, ready to confront the night’s calamity.",
+          "characterIds": [
+            "marya_kondratyevna",
+            "the_daughter_of_marya_kondratyevna",
+            "foma",
+            "marfa_ignatyevna"
+          ]
+        },
+        {
+          "startParagraph": 13,
+          "endParagraph": 15,
+          "locationDescription": "On the path in the garden, Grigory is found and aided",
+          "imageDescription": "In a dimly lit garden, Foma and two women tend to the wounded Grigory, who is bloodied and exhausted. The path is muddy and flanked by wild bushes. Lantern light throws anxious faces into sharp relief as they lift Grigory, dressed in a soiled shirt, towards the small lodge house. The urgency and fear are tangible.",
+          "characterIds": [
+            "grigory",
+            "marfa_ignatyevna",
+            "marya_kondratyevna",
+            "the_daughter_of_marya_kondratyevna",
+            "foma",
+            "smerdyakov"
+          ]
+        },
+        {
+          "startParagraph": 16,
+          "endParagraph": 21,
+          "locationDescription": "Fyodor Pavlovitch's house, police inquiry and search",
+          "imageDescription": "The interior of Fyodor Pavlovitch’s house at night, crowded with uniformed police, the police captain, the prosecutor, the investigating lawyer, and nervous villagers. The room is lit by lanterns and candles, casting shadows on the walls. Officials pore over documents, search through drawers, and speak in hushed tones; a brass pestle sits ominously on a nearby table. The atmosphere is grave and tense.",
+          "characterIds": [
+            "the_captain_of_police_mr_ispravnik",
+            "ippolit_kirillovitch",
+            "the_deputy_prosecutor",
+            "the_investigating_lawyer",
+            "varvinsky",
+            "police_constables",
+            "witnesses_for_the_arrest",
+            "the_police_inspector_deputy_police_inspector_of_the_town",
+            "grigory"
+          ]
+        },
+        {
+          "startParagraph": 22,
+          "endParagraph": 22,
+          "locationDescription": "Mokroe, with Mavriky Mavrikyevitch and Trifon Borissovitch",
+          "imageDescription": "The common room of a rural Russian inn in the gray predawn, Mavriky Mavrikyevitch sits quietly, almost unnoticed, in the shadowy corner, keeping careful watch. The innkeeper, Trifon Borissovitch, fusses behind the bar. The atmosphere is secretive, tense yet outwardly calm, with an air of anticipation.",
+          "characterIds": [
+            "trifon_borissovitch",
+            "mavriky_mavrikyevitch"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 24,
+          "locationDescription": "Back at Fyodor Pavlovitch's house, morning after the murder",
+          "imageDescription": "In the subdued morning light filtering through heavy curtains, the district doctor examines the body of Fyodor Pavlovitch on the floor. Officials linger nearby, some taking notes, others watching gravely. Smerdyakov, pallid and convulsing, lies attended by a woman in a corner. The scene is somber, clinical, charged with the aftermath of violence.",
+          "characterIds": [
+            "varvinsky",
+            "smerdyakov",
+            "fyodor_pavlovitch_karamazov"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "entities": [
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> And so Mitya sat looking wildly at the people round him, not understanding what was said to him. Suddenly he got up, flung up his hands, and shouted aloud: </p>  <p> “I’m n"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…: </p>  <p> “I’m not guilty! I’m not guilty of that blood! I’m not guilty of my father’s blood.... I meant to kill him. But I’m not guilty. Not I.” </p>  <p> But he had hardly said this, before Grushenka rushed from behind the curtain and …"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…him. But I’m not guilty. Not I.” </p>  <p> But he had hardly said this, before Grushenka rushed from behind the curtain and flung herself at the police captain’s feet. </p>  <p> “It was my fault! Mine! My wickedness!” she cried, in a heart…"
+        },
+        {
+          "entityId": "the_captain_of_police_mr_ispravnik",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…said this, before Grushenka rushed from behind the curtain and flung herself at the police captain’s feet. </p>  <p> “It was my fault! Mine! My wickedness!” she cried, in a heartrending voice, bathed in tears, stretching out her clasped ha…"
+        },
+        {
+          "entityId": "ippolit_kirillovitch",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…n, threatening her with his hand. But he was quickly and resolutely suppressed. The prosecutor positively seized hold of him. </p>  <p> “This is absolutely irregular, Mihail Makarovitch!” he cried. “You are positively hindering the inquiry…"
+        },
+        {
+          "entityId": "the_investigating_lawyer",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…tal plates. Facing him on the other side of the table sat Nikolay Parfenovitch, the investigating lawyer. He kept persuading him to drink a little water out of a glass that stood on the table. </p>  <p> “That will refresh you, that will ca…"
+        },
+        {
+          "entityId": "maximov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…t had nothing to do with his position. On Mitya’s left side, in the place where Maximov had been sitting at the beginning of the evening, the prosecutor was now seated, and on Mitya’s right hand, where Grushenka had been, was a rosy‐cheeke…"
+        },
+        {
+          "entityId": "pyotr_fomitch_kalganov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…ice captain was now standing by the window at the other end of the room, beside Kalganov, who was sitting there. </p>  <p> “Drink some water,” said the investigating lawyer softly, for the tenth time. </p>  <p> “I have drunk it, gentlemen,…"
+        },
+        {
+          "entityId": "grigory",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…addressed Mitya. </p>  <p> “You need not worry yourself about the old servant, Grigory Vassilyevitch. He is alive, he has recovered, and in spite of the terrible blows inflicted, according to his own and your evidence, by you, there seems …"
+        },
+        {
+          "entityId": "god",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…Mitya suddenly jumped up from his chair. </p>  <p> “One minute, gentlemen, for God’s sake, one minute; I will run to her—” </p>  <p> “Excuse me, at this moment it’s quite impossible,” Nikolay Parfenovitch almost shrieked. He, too, leapt to…"
+        },
+        {
+          "entityId": "christ",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…her. And so you must be calm, do you understand? I was unfair to her; she is a Christian soul, gentlemen, yes, I tell you, she’s a gentle soul, and not to blame for anything. So what am I to tell her, Dmitri Fyodorovitch? Will you sit quie…"
+        },
+        {
+          "entityId": "elder_zossima",
+          "type": "person",
+          "firstSeenInChapter": 4,
+          "excerpt": "…wn knows about it—every one knows in the tavern. Only lately I declared them in Father Zossima’s cell.... And the very same day, in the evening I beat my father. I nearly killed him, and I swore I’d come again and kill him, before witnesse…"
+        },
+        {
+          "entityId": "the_secretary_of_the_investigating_lawyer",
+          "type": "person",
+          "firstSeenInChapter": 56,
+          "excerpt": "…man in a sort of shabby hunting‐jacket, with ink and paper before him. This was the secretary of the investigating lawyer, who had brought him with him. The police captain was now standing by the window at the other end of the room, beside…"
+        },
+        {
+          "entityId": "the_landlords_daughters",
+          "type": "person",
+          "firstSeenInChapter": 56
+        },
+        {
+          "entityId": "the_landlord",
+          "type": "person",
+          "firstSeenInChapter": 52,
+          "excerpt": "…k your Agrafena Alexandrovna downstairs myself, and confided her to the care of the landlord’s daughters, and that old fellow Maximov is with her all the time. And I soothed her, do you hear? I soothed and calmed her. I impressed on her th…"
+        },
+        {
+          "entityId": "the_queen_of_my_soul",
+          "type": "person",
+          "firstSeenInChapter": 51,
+          "excerpt": "…ayly. We shall laugh at it in the end, shan’t we? But, gentlemen, that woman is the queen of my heart. Oh, let me tell you that. That one thing I’ll tell you now.... I see I’m with honorable men. She is my light, she is my holy one, and if…"
+        },
+        {
+          "entityId": "the_blue_room",
+          "type": "place",
+          "firstSeenInChapter": 51,
+          "excerpt": "…removed, she had not been taken far away, only into the room next but one from the blue room, in which the examination was proceeding. It was a little room with one window, next beyond the large room in which they had danced and feasted so…"
+        },
+        {
+          "entityId": "the_inn",
+          "type": "place",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "the_next_room",
+          "type": "place",
+          "firstSeenInChapter": 29
+        },
+        {
+          "entityId": "the_study",
+          "type": "place",
+          "firstSeenInChapter": 56,
+          "excerpt": "…l me,” he asked quickly, looking at the two lawyers. </p>  <p> “We found him in his study, lying on his back on the floor, with his head battered in,” said the prosecutor. </p>  <p> “That’s horrible!” Mitya shuddered and, putting his elbow…"
+        },
+        {
+          "entityId": "the_room_next_but_one",
+          "type": "place",
+          "firstSeenInChapter": 56,
+          "excerpt": "…. Though Grushenka had been removed, she had not been taken far away, only into the room next but one from the blue room, in which the examination was proceeding. It was a little room with one window, next beyond the large room in which th…"
+        },
+        {
+          "entityId": "the_police_captains_place",
+          "type": "place",
+          "firstSeenInChapter": 56
+        },
+        {
+          "entityId": "the_law",
+          "type": "place",
+          "firstSeenInChapter": 56,
+          "excerpt": "…bout feelings you’ve no right to question me. I know that you are bound by your office, I quite understand that, but that’s my affair, my private, intimate affair, yet ... since I haven’t concealed my feelings in the past ... in the tavern…"
+        },
+        {
+          "entityId": "the_curtain",
+          "type": "place",
+          "firstSeenInChapter": 56,
+          "excerpt": "…I.” </p>  <p> But he had hardly said this, before Grushenka rushed from behind the curtain and flung herself at the police captain’s feet. </p>  <p> “It was my fault! Mine! My wickedness!” she cried, in a heartrending voice, bathed in tear…"
+        },
+        {
+          "entityId": "the_peasants_with_metal_plates",
+          "type": "person",
+          "firstSeenInChapter": 56,
+          "excerpt": "…recovered himself he was sitting at the table. Beside him and behind him stood the men with metal plates. Facing him on the other side of the table sat Nikolay Parfenovitch, the investigating lawyer. He kept persuading him to drink a littl…"
+        },
+        {
+          "entityId": "death_of_fyodor_pavlovitch_karamazov",
+          "type": "event",
+          "firstSeenInChapter": 1,
+          "excerpt": "…igating lawyer. </p>  <p> “So you positively declare that you are not guilty of the death of your father, Fyodor Pavlovitch?” asked the investigating lawyer, softly but insistently. </p>  <p> “I am not guilty. I am guilty of the blood of a…"
+        },
+        {
+          "entityId": "three_thousand_roubles_giftenvelope",
+          "type": "event",
+          "firstSeenInChapter": 55,
+          "excerpt": "…money?” </p>  <p> “Yes, about money, too.” </p>  <p> “There was a dispute about three thousand roubles, I think, which you claimed as part of your inheritance?” </p>  <p> “Three thousand! More, more,” cried Mitya hotly; “more than six thou…"
+        },
+        {
+          "entityId": "parricide_accusation",
+          "type": "event",
+          "firstSeenInChapter": 11,
+          "excerpt": "…nds. </p>  <p> “So, for the present, we will write that you absolutely deny the charge brought against you,” said Nikolay Parfenovitch, impressively, and bending down to the secretary he dictated to him in an undertone what to write. </p> …"
+        },
+        {
+          "entityId": "insult_to_grigory_by_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 22,
+          "excerpt": "…ting lawyer, softly but insistently. </p>  <p> “I am not guilty. I am guilty of the blood of another old man but not of my father’s. And I weep for it! I killed, I killed the old man and knocked him down.... But it’s hard to have to answer…"
+        },
+        {
+          "entityId": "the_interrogation_of_mitya",
+          "type": "event",
+          "firstSeenInChapter": 56
+        },
+        {
+          "entityId": "the_feastdance_in_the_inn",
+          "type": "event",
+          "firstSeenInChapter": 56
+        },
+        {
+          "entityId": "the_separation_of_mitya_and_grushenka_during_interrogation",
+          "type": "event",
+          "firstSeenInChapter": 56
+        },
+        {
+          "entityId": "the_confession_of_love_and_devotion_between_mitya_and_grushenka",
+          "type": "event",
+          "firstSeenInChapter": 56
+        },
+        {
+          "entityId": "the_first_scene_of_mutual_selfaccusation",
+          "type": "event",
+          "firstSeenInChapter": 56
+        },
+        {
+          "entityId": "the_return_and_speech_of_the_police_captain_to_mitya",
+          "type": "event",
+          "firstSeenInChapter": 56
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 8,
+          "locationDescription": "In the blue room during the investigation",
+          "imageDescription": "A dimly lit, somewhat crowded, blue-walled room in a provincial Russian house of the late 19th century; Dmitri Karamazov, disheveled and emotional, stands among a group of sober, formally dressed men—some seated at a table, others standing. Grushenka (Agrafena Alexandrovna) is rushing out from behind a curtain, tears streaming down her face, hurling herself at the feet of the police captain. The faces of the officials — the police captain (Mihail Makarovitch), Ippolit Kirillovitch the prosecutor, and the investigating lawyer — are drawn and tense. Maximov, Kalganov, the secretary, and peasants with metal plates linger in the background, anxiously observing. Shadows fall across the velvet curtains and the polished wooden furniture, the atmosphere electric with distress, guilt, and accusation.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_queen_of_my_soul",
+            "the_captain_of_police_mr_ispravnik",
+            "ippolit_kirillovitch",
+            "the_investigating_lawyer",
+            "the_secretary_of_the_investigating_lawyer",
+            "maximov",
+            "pyotr_fomitch_kalganov",
+            "the_peasants_with_metal_plates"
+          ]
+        },
+        {
+          "startParagraph": 9,
+          "endParagraph": 49,
+          "locationDescription": "Blue room as the questioning resumes",
+          "imageDescription": "A candlelit blue sitting room converted into a scene of police inquiry; Dmitri sits at a table across from the investigating lawyer, who wears a tailored coat and studies him intently, his rings sparkling under the lamplight. The prosecutor sits nearby, a stack of papers before him. The secretary sits at Dmitri's right, ready with pen and ink; peasants with metal plates stand behind Dmitri, maintaining a watchful hold. Kalganov and the police captain are by the window, slightly apart. The air is chilly, punctuated by the rustle of paperwork and tense, close glances among the officials, all dressed in formal 19th-century Russian attire.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "ippolit_kirillovitch",
+            "the_secretary_of_the_investigating_lawyer",
+            "pyotr_fomitch_kalganov",
+            "the_captain_of_police_mr_ispravnik",
+            "the_peasants_with_metal_plates"
+          ]
+        },
+        {
+          "startParagraph": 50,
+          "endParagraph": 50,
+          "locationDescription": "In a small adjacent room near the site of the feast",
+          "imageDescription": "A small, sparsely furnished room with a single window dimly illumined by moonlight; Grushenka sits weeping on a wooden chair, her dress and hair disheveled, hands clasped tightly in her lap. Maximov, pale and anxious, sits close beside her, his face etched with worry. Standing watch at the door, a burly peasant with a metal plate on his chest looks sternly ahead. The furniture is simple and utilitarian, and the mood is one of isolation and emotional exhaustion, with faint sounds of activity drifting from the next room.",
+          "characterIds": [
+            "the_queen_of_my_soul",
+            "maximov",
+            "the_peasants_with_metal_plates"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 51,
+          "locationDescription": "Blue room, immediately after Grushenka's interruption",
+          "imageDescription": "Back in the candlelit blue room, Dmitri is being restrained by several men as he attempts to rise, his desperation palpable. The investigating lawyer and prosecutor watch him closely from the other side of the table, their expressions a mixture of concern and fatigue. Around the room, the secretary prepares to take more notes, while peasants with metal plates remain alert near Dmitri. The air is thick with drama and emotion, underpinned by the heavy furniture, rich curtains, and scattered personal effects from the earlier feast.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "ippolit_kirillovitch",
+            "the_secretary_of_the_investigating_lawyer",
+            "the_peasants_with_metal_plates"
+          ]
+        },
+        {
+          "startParagraph": 52,
+          "endParagraph": 52,
+          "locationDescription": "Blue room, as the police captain returns and reassures Dmitri",
+          "imageDescription": "The blue inquiry room under lamplight, Mihail Makarovitch, the police captain, stands near Dmitri, eyes reddened with emotion, gesturing reassuringly. Dmitri, rising with gratitude, clasps his hands together in a gesture of thanks and desperation. The two lawyers and secretary sit at the table, noting the proceedings, while the peasants linger respectfully at a distance. The landlord’s daughters and Maximov are not present, but their absence is noted in the empty, recently vacated chairs. The emotional clash fills the room with a mix of hope, sorrow, and camaraderie, reflected in the anxious positions of those present.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_captain_of_police_mr_ispravnik",
+            "the_investigating_lawyer",
+            "ippolit_kirillovitch",
+            "the_secretary_of_the_investigating_lawyer"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 60,
+          "locationDescription": "Blue room, as the interrogation continues with renewed determination",
+          "imageDescription": "The mood in the blue-walled room has shifted; Dmitri sits upright and animated at the inquiry table, speaking with a newfound, almost giddy energy to the two lawyers and the secretary, who are quietly attentive. The candlelight is steady and bright, illuminating the polished table and casting elongated shadows on the somber blue walls. The peasants with the metal plates remain in the background, standing guard but slightly more relaxed as the proceedings seem to become less frantic. The aura is now restless but tinged with fleeting optimism.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "ippolit_kirillovitch",
+            "the_secretary_of_the_investigating_lawyer",
+            "the_peasants_with_metal_plates"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "entities": [
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> “You don’t know how you encourage us, Dmitri Fyodorovitch, by your readiness to answer,” said Nikolay Parfenovitch, with an animated air, and obvious satisfaction beaming in his very prominent, short‐sigh"
+        },
+        {
+          "entityId": "the_investigating_lawyer",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…overcame his shame in order to tell the truth. The frigid severity, with which the investigating lawyer, and still more the prosecutor, stared intently at him as he told his story, disconcerted him at last considerably. </p>  <p> “That boy…"
+        },
+        {
+          "entityId": "ippolit_kirillovitch",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…ower, and you can see for yourself how we are conducting the case. You approve, Ippolit Kirillovitch?” He turned to the prosecutor. </p>  <p> “Oh, undoubtedly,” replied the prosecutor. His tone was somewhat cold, compared with Nikolay Parf…"
+        },
+        {
+          "entityId": "pyotr_fomitch_kalganov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…terday at about five o’clock on the security of your pistols, from your friend, Pyotr Ilyitch Perhotin.” </p>  <p> “I pledged them, gentlemen. I pledged them for ten roubles. What more? That’s all about it. As soon as I got back to town I …"
+        },
+        {
+          "entityId": "samsonov",
+          "type": "person",
+          "firstSeenInChapter": 12,
+          "excerpt": "…. I went the day before yesterday, gentlemen, to a merchant of the town, called Samsonov, to borrow three thousand roubles from him on safe security. It was a pressing matter, gentlemen, it was a sudden necessity.” </p>  <p> “Allow me to i…"
+        },
+        {
+          "entityId": "grigory",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…usiness to watch me. I can’t expect you to pat me on the head for what I did to Grigory, for one can’t break old men’s heads with impunity. I suppose you’ll put me away for him for six months, or a year perhaps, in a house of correction. I…"
+        },
+        {
+          "entityId": "marya_kondratyevna",
+          "type": "person",
+          "firstSeenInChapter": 33,
+          "excerpt": "…inquired particularly into the circumstance of his having a place of ambush in Marya Kondratyevna’s house at the back of Fyodor Pavlovitch’s garden to keep watch on Grushenka, and of Smerdyakov’s bringing him information. They laid particu…"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…written down. Mitya waited gloomily, and was beginning to tell how he ran into his father’s garden when the investigating lawyer suddenly stopped him, and opening the big portfolio that lay on the sofa beside him he brought out the brass p…"
+        },
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…se at the back of Fyodor Pavlovitch’s garden to keep watch on Grushenka, and of Smerdyakov’s bringing him information. They laid particular stress on this, and noted it down. Of his jealousy he spoke warmly and at length, and though inward…"
+        },
+        {
+          "entityId": "lyagavy",
+          "type": "person",
+          "firstSeenInChapter": 38,
+          "excerpt": "…by little Mitya began to grow surly. Then, after describing his journey to see Lyagavy, the night spent in the stifling hut, and so on, he came to his return to the town. Here he began, without being particularly urged, to give a minute ac…"
+        },
+        {
+          "entityId": "madame_hohlakov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…pulled himself together to go on again. When he came to telling of his visit to Madame Hohlakov, he regained his spirits and even wished to tell a little anecdote of that lady which had nothing to do with the case. But the investigating la…"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…ularly urged, to give a minute account of the agonies of jealousy he endured on Grushenka’s account. </p>  <p> He was heard with silent attention. They inquired particularly into the circumstance of his having a place of ambush in Marya Ko…"
+        },
+        {
+          "entityId": "fenya",
+          "type": "person",
+          "firstSeenInChapter": 44,
+          "excerpt": "…e had said that she would stay there till midnight. </p>  <p> “If I didn’t kill Fenya then, gentlemen, it was only because I hadn’t time,” broke from him suddenly at that point in his story. That, too, was carefully written down. Mitya wai…"
+        },
+        {
+          "entityId": "the_secretary_of_the_investigating_lawyer",
+          "type": "person",
+          "firstSeenInChapter": 56,
+          "excerpt": "…y no talking to you!” cried Mitya, exasperated beyond endurance, and turning to the secretary, crimson with anger, he said quickly, with a note of fury in his voice: </p>  <p> “Write down at once ... at once ... ‘that I snatched up the pes…"
+        },
+        {
+          "entityId": "the_brass_mortar_object",
+          "type": "event",
+          "firstSeenInChapter": 48
+        },
+        {
+          "entityId": "the_town",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…and where I went. I went the day before yesterday, gentlemen, to a merchant of the town, called Samsonov, to borrow three thousand roubles from him on safe security. It was a pressing matter, gentlemen, it was a sudden necessity.” </p>  <p…"
+        },
+        {
+          "entityId": "mokroe",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…hole world whom our “unappreciated” prosecutor genuinely liked. On their way to Mokroe they had time to come to an understanding about the present case. And now as they sat at the table, the sharp‐witted junior caught and interpreted every…"
+        },
+        {
+          "entityId": "the_garden",
+          "type": "place",
+          "firstSeenInChapter": 14
+        },
+        {
+          "entityId": "marya_kondratyevna",
+          "type": "place",
+          "firstSeenInChapter": 33,
+          "excerpt": "…inquired particularly into the circumstance of his having a place of ambush in Marya Kondratyevna’s house at the back of Fyodor Pavlovitch’s garden to keep watch on Grushenka, and of Smerdyakov’s bringing him information. They laid particu…"
+        },
+        {
+          "entityId": "house_of_correction",
+          "type": "place",
+          "firstSeenInChapter": 57,
+          "excerpt": "…y. I suppose you’ll put me away for him for six months, or a year perhaps, in a house of correction. I don’t know what the punishment is—but it will be without loss of the rights of my rank, without loss of my rank, won’t it? So you see, g…"
+        },
+        {
+          "entityId": "ambush_in_marya_kondratyevnas_house",
+          "type": "event",
+          "firstSeenInChapter": 57,
+          "excerpt": "…tion. They inquired particularly into the circumstance of his having a place of ambush in Marya Kondratyevna’s house at the back of Fyodor Pavlovitch’s garden to keep watch on Grushenka, and of Smerdyakov’s bringing him information. They l…"
+        },
+        {
+          "entityId": "pawnbroking_of_pistols",
+          "type": "event",
+          "firstSeenInChapter": 50
+        },
+        {
+          "entityId": "sale_of_his_watch",
+          "type": "event",
+          "firstSeenInChapter": 57,
+          "excerpt": "…o days before. (He had completely realized by now that he had been fooled.) The sale of his watch for six roubles to obtain money for the journey was something new to the lawyers. They were at once greatly interested, and even, to Mitya’s …"
+        },
+        {
+          "entityId": "attempted_sale_of_the_copse_timber_business",
+          "type": "event",
+          "firstSeenInChapter": 38
+        },
+        {
+          "entityId": "insult_to_grigory_by_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 22
+        },
+        {
+          "entityId": "attack_on_fyodor_pavlovitch_by_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 22
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 62,
+          "locationDescription": "In the investigation room at the police station",
+          "imageDescription": "A sparsely furnished, dimly lit official room in late-19th-century provincial Russia. A sturdy wooden table stands at the center, with papers and a leather portfolio atop it. Dmitri Fyodorovitch Karamazov, in disheveled period attire, sits anxiously at one end, gesturing energetically. Closest to him are two well-dressed, serious officials: the sharp-featured investigating lawyer and the pale, coldly attentive Ippolit Kirillovitch. The air is tense but civil, and the only illumination comes from a single oil lamp casting warm, flickering light on their faces.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "ippolit_kirillovitch"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "entities": [
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> Though Mitya spoke sullenly, it was evident that he was trying more than ever not to forget or miss a single detail of his story. He told them how he had leapt over the fen"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…a single detail of his story. He told them how he had leapt over the fence into his father’s garden; how he had gone up to the window; told them all that had passed under the window. Clearly, precisely, distinctly, he described the feeling…"
+        },
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…ember, it would be just the same. I know it, for no one knew the signals except Smerdyakov, and me, and the dead man. And he wouldn’t have opened the door to any one in the world without the signals.” </p>  <p> “Signals? What signals?” ask…"
+        },
+        {
+          "entityId": "grigory",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…. I remember that very well. I ran across the garden to the fence ... and there Grigory caught me, when I was sitting on the fence.” </p>  <p> At that point he raised his eyes at last and looked at his listeners. They seemed to be staring …"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…m during those moments in the garden when he longed so terribly to know whether Grushenka was with his father or not. But, strange to say, both the lawyers listened now with a sort of awful reserve, looked coldly at him, asked few question…"
+        },
+        {
+          "entityId": "the_investigating_lawyer",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…wall and was aware that their eyes were fixed upon him. </p>  <p> “Well?” said the investigating lawyer. “You pulled out the weapon and ... and what happened then?” </p>  <p> “Then? Why, then I murdered him ... hit him on the head and crac…"
+        },
+        {
+          "entityId": "ippolit_kirillovitch",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…ng round on his chair so that it creaked. </p>  <p> “And did you notice,” asked the prosecutor suddenly, as though not observing Mitya’s excitement, “did you notice when you ran away from the window, whether the door into the garden was op…"
+        },
+        {
+          "entityId": "fedosya_markovna",
+          "type": "person",
+          "firstSeenInChapter": 58,
+          "excerpt": "…diately by Nikolay Parfenovitch. </p>  <p> “How came you to run to the servant, Fedosya Markovna, with your hands so covered with blood, and, as it appears, your face, too?” </p>  <p> “Why, I didn’t notice the blood at all at the time,” an…"
+        },
+        {
+          "entityId": "madame_hohlakov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…s in want of ten roubles and pledged my pistols with Perhotin, and then went to Madame Hohlakov to borrow three thousand which she wouldn’t give me, and so on, and all the rest of it,” Mitya interrupted sharply. “Yes, gentlemen, I was in w…"
+        },
+        {
+          "entityId": "pyotr_fomitch_kalganov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…. How did you manage to get here so quick? It’s marvelous, a dream!” </p>  <p> “Mr. Perhotin informed us that when you came to him, you held in your hands ... your blood‐stained hands ... your money ... a lot of money ... a bundle of hundr…"
+        },
+        {
+          "entityId": "perhotins_servantboy",
+          "type": "person",
+          "firstSeenInChapter": 58
+        },
+        {
+          "entityId": "the_devil",
+          "type": "person",
+          "firstSeenInChapter": 16,
+          "excerpt": "…her prayed to God, or a good angel kissed me at that instant, I don’t know. But the devil was conquered. I rushed from the window and ran to the fence. My father was alarmed and, for the first time, he saw me then, cried out, and sprang ba…"
+        },
+        {
+          "entityId": "god",
+          "type": "person",
+          "firstSeenInChapter": 5,
+          "excerpt": "…his,” he began softly. “Whether it was some one’s tears, or my mother prayed to God, or a good angel kissed me at that instant, I don’t know. But the devil was conquered. I rushed from the window and ran to the fence. My father was alarmed…"
+        },
+        {
+          "entityId": "the_garden",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…d out, and sprang back from the window. I remember that very well. I ran across the garden to the fence ... and there Grigory caught me, when I was sitting on the fence.” </p>  <p> At that point he raised his eyes at last and looked at his…"
+        },
+        {
+          "entityId": "the_fence",
+          "type": "place",
+          "firstSeenInChapter": 22,
+          "excerpt": "…forget or miss a single detail of his story. He told them how he had leapt over the fence into his father’s garden; how he had gone up to the window; told them all that had passed under the window. Clearly, precisely, distinctly, he descri…"
+        },
+        {
+          "entityId": "the_window",
+          "type": "place",
+          "firstSeenInChapter": 58,
+          "excerpt": "…how he had leapt over the fence into his father’s garden; how he had gone up to the window; told them all that had passed under the window. Clearly, precisely, distinctly, he described the feelings that troubled him during those moments in…"
+        },
+        {
+          "entityId": "the_door_to_the_garden",
+          "type": "place",
+          "firstSeenInChapter": 58,
+          "excerpt": "…Mitya’s excitement, “did you notice when you ran away from the window, whether the door into the garden was open?” </p>  <p> “No, it was not open.” </p>  <p> “It was not?” </p>  <p> “It was shut. And who could open it? Bah! the door. Wait …"
+        },
+        {
+          "entityId": "plotnikovs_shop",
+          "type": "place",
+          "firstSeenInChapter": 50
+        },
+        {
+          "entityId": "the_village",
+          "type": "place",
+          "firstSeenInChapter": 58,
+          "excerpt": "…Do make haste and finish it. I meant to shoot myself not far from here, beyond the village, and I’d planned to do it at five o’clock in the morning. And I had a note in my pocket already. I wrote it at Perhotin’s when I loaded my pistols. …"
+        },
+        {
+          "entityId": "the_event",
+          "type": "event",
+          "firstSeenInChapter": 47
+        },
+        {
+          "entityId": "attack_on_fyodor_pavlovitch_by_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 22
+        },
+        {
+          "entityId": "insult_to_grigory_by_dmitri",
+          "type": "event",
+          "firstSeenInChapter": 22
+        },
+        {
+          "entityId": "pawnbroking_of_pistols",
+          "type": "event",
+          "firstSeenInChapter": 50
+        },
+        {
+          "entityId": "his_letter_sentence_of_death",
+          "type": "event",
+          "firstSeenInChapter": 51
+        },
+        {
+          "entityId": "three_thousand_roubles_giftenvelope",
+          "type": "event",
+          "firstSeenInChapter": 55,
+          "excerpt": "…nd pledged my pistols with Perhotin, and then went to Madame Hohlakov to borrow three thousand which she wouldn’t give me, and so on, and all the rest of it,” Mitya interrupted sharply. “Yes, gentlemen, I was in want of it, and suddenly th…"
+        },
+        {
+          "entityId": "blood_on_mityas_handsface",
+          "type": "event",
+          "firstSeenInChapter": 50
+        },
+        {
+          "entityId": "the_interrogation_of_mitya",
+          "type": "event",
+          "firstSeenInChapter": 56
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 25,
+          "locationDescription": "In the interrogation room",
+          "imageDescription": "A dimly lit, austere 19th-century Russian office with somber wooden furniture, faded wallpaper, and heavy curtains. Dmitri Karamazov sits, disheveled and tense, at a table across from two stern legal officials, both in period Russian attire. The scene is tense, with eyes fixed on Dmitri, as an air of suspicion and cold authority fills the room. A few documents and writing implements are scattered on the table.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "ippolit_kirillovitch"
+          ]
+        },
+        {
+          "startParagraph": 26,
+          "endParagraph": 39,
+          "locationDescription": "In the same interrogation room, during signal discussion",
+          "imageDescription": "The same somber Russian office lit by the faint glow of an oil lamp. Dmitri furiously taps on the table to demonstrate signals, mockery on his face. The two officials—one leaning forward eagerly, the other scribbling notes—focus intently on his actions. Shadows cast their features in dramatic relief, heightening the tension and suspicion in the scene.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "ippolit_kirillovitch"
+          ]
+        },
+        {
+          "startParagraph": 40,
+          "endParagraph": 51,
+          "locationDescription": "In the interrogation room, after Smerdyakov is mentioned",
+          "imageDescription": "The modest office, with Dmitri hunched and glowering at the table, as one official questions him gently while the other keeps a watchful, calculating gaze. Anxiety and exhaustion show on Dmitri’s face, with both lawyers exuding a chilly persistence. The mood is somber, with deep shadows pooling in the corners.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "ippolit_kirillovitch"
+          ]
+        },
+        {
+          "startParagraph": 52,
+          "endParagraph": 77,
+          "locationDescription": "In the same interrogation room, after the break",
+          "imageDescription": "The same office, slightly rearranged; Dmitri, now visibly fatigued through posture and pallor, resumes sitting at the table. One lawyer leans back, arms crossed, while the other makes notes, both watching him intently. Light filters weakly through the curtained window, amplifying the mood of weary interrogation.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "ippolit_kirillovitch"
+          ]
+        },
+        {
+          "startParagraph": 78,
+          "endParagraph": 82,
+          "locationDescription": "Continuing in the interrogation room: questions about blood and motives",
+          "imageDescription": "Dmitri sits defensively beneath the scrutiny of the two officials, one of whom is questioning him sternly. The room remains unchanged, but a growing air of frustration and incredulity is evident in their stern body language and Dmitri’s uneasy, slumped pose.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "ippolit_kirillovitch"
+          ]
+        },
+        {
+          "startParagraph": 83,
+          "endParagraph": 91,
+          "locationDescription": "Interrogation room, discussion of the pistols, the note, and the money",
+          "imageDescription": "Lit by midday light leaking through a small window, Dmitri, haggard and agitated, tosses a folded letter onto the table, while the two lawyers read it with intense curiosity. Dmitri stares at the tabletop, hands clenched. The air is thick with suppressed emotion and calculation.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "ippolit_kirillovitch"
+          ]
+        },
+        {
+          "startParagraph": 92,
+          "endParagraph": 118,
+          "locationDescription": "Same interrogation room, confronting the origin of the money",
+          "imageDescription": "The three men remain at the battered desk, Dmitri showing stubborn resolve in his posture, refusing to meet their eyes. The interrogators lean in, one skeptical, the other urging gently. Orderly stacks of banknotes and coins are arrayed on the table, adding a new layer of tension.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "ippolit_kirillovitch"
+          ]
+        },
+        {
+          "startParagraph": 119,
+          "endParagraph": 131,
+          "locationDescription": "Interrogation room, search of Dmitri’s belongings",
+          "imageDescription": "Dmitri empties his pockets onto the table, coins and notes spilling out, as the officials carefully count and record everything. The setting remains oppressive and bleak, with Dmitri’s growing resentment evident in his clenched jaw.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "ippolit_kirillovitch"
+          ]
+        },
+        {
+          "startParagraph": 132,
+          "endParagraph": 140,
+          "locationDescription": "Interrogation room, preparing for bodily search",
+          "imageDescription": "One official, formal and unsmiling, rises from his chair and gestures politely yet firmly towards a curtained-off alcove in the office. Dmitri stands, sullen and resigned, beginning to unbutton his coat, while the other official watches with professional detachment. The heavy curtain, battered floor, and wooden furniture signal institutional gravity.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "ippolit_kirillovitch"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "entities": [
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> Something utterly unexpected and amazing to Mitya followed. He could never, even a minute before, have conceived that any one could behave like that to him, Mitya Karamazov. What was worst of all, there was so"
+        },
+        {
+          "entityId": "the_investigating_lawyer",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…n, too.” </p>  <p> “Well, must I take off my shirt, too?” he asked sharply, but Nikolay Parfenovitch did not answer. He was busily engaged with the prosecutor in examining the coat, the trousers, the waistcoat and the cap; and it was evide…"
+        },
+        {
+          "entityId": "ippolit_kirillovitch",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…ed sharply, but Nikolay Parfenovitch did not answer. He was busily engaged with the prosecutor in examining the coat, the trousers, the waistcoat and the cap; and it was evident that they were both much interested in the scrutiny. “They ma…"
+        },
+        {
+          "entityId": "peasants",
+          "type": "person",
+          "firstSeenInChapter": 50,
+          "excerpt": "…e understood that. From pride and contempt he submitted without a word. Several peasants accompanied the lawyers and remained on the same side of the curtain. “To be ready if force is required,” thought Mitya, “and perhaps for some other r…"
+        },
+        {
+          "entityId": "the_secretary_of_the_investigating_lawyer",
+          "type": "person",
+          "firstSeenInChapter": 56,
+          "excerpt": "…o himself. They communicated their ideas to one another with amazing frankness. The secretary, for instance, who was also behind the curtain, fussing about and listening, called Nikolay Parfenovitch’s attention to the cap, which they were …"
+        },
+        {
+          "entityId": "pyotr_fomitch_kalganov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…e observed airily, seeming well satisfied with the success of his mission. “Mr. Kalganov has kindly provided these for this unusual emergency, as well as a clean shirt. Luckily he had them all in his trunk. You can keep your own socks and …"
+        },
+        {
+          "entityId": "trifon_borissovitch",
+          "type": "person",
+          "firstSeenInChapter": 51,
+          "excerpt": "…n’s clothes he felt himself disgraced, even in the eyes of the peasants, and of Trifon Borissovitch, whose face appeared, for some reason, in the doorway, and vanished immediately. “He’s come to look at me dressed up,” thought Mitya. He sa…"
+        },
+        {
+          "entityId": "gridyenko",
+          "type": "person",
+          "firstSeenInChapter": 59,
+          "excerpt": "…s attention to the cap, which they were also fingering. </p>  <p> “You remember Gridyenko, the copying‐clerk,” observed the secretary. “Last summer he received the wages of the whole office, and pretended to have lost the money when he was…"
+        },
+        {
+          "entityId": "grigory",
+          "type": "person",
+          "firstSeenInChapter": 2,
+          "excerpt": "…<p> Mitya told him how he had got the sleeve stained with blood looking after Grigory, and had turned it inside when he was washing his hands at Perhotin’s. </p>  <p> “You must take off your shirt, too. That’s very important as material ev…"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…rt! Can you suppose that I would conceal it from you, if I had really killed my father, that I would shuffle, lie, and hide myself? No, that’s not like Dmitri Karamazov, that he couldn’t do, and if I were guilty, I swear I shouldn’t have w…"
+        },
+        {
+          "entityId": "smerdyakov",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…or some seconds Mitya stood as though thunderstruck. </p>  <p> “Gentlemen, it’s Smerdyakov!” he shouted suddenly, at the top of his voice. “It’s he who’s murdered him! He’s robbed him! No one else knew where the old man hid the envelope. I…"
+        },
+        {
+          "entityId": "the_envelope_with_three_thousand_roubles",
+          "type": "event",
+          "firstSeenInChapter": 37,
+          "excerpt": "…p> “It ... it must be that envelope of my father’s, the envelope that contained the three thousand roubles ... and if there’s inscribed on it, allow me, ‘For my little chicken’ ... yes—three thousand!” he shouted, “do you see, three thousa…"
+        },
+        {
+          "entityId": "pistols",
+          "type": "event",
+          "firstSeenInChapter": 55,
+          "excerpt": "…our hands, when only three hours earlier, on your own showing, you pledged your pistols for the sake of ten roubles! In view of all these facts, judge for yourself. What are we to believe, and what can we depend upon? And don’t accuse us o…"
+        },
+        {
+          "entityId": "the_door_to_the_garden",
+          "type": "place",
+          "firstSeenInChapter": 58
+        },
+        {
+          "entityId": "the_open_window",
+          "type": "place",
+          "firstSeenInChapter": 59,
+          "excerpt": "…n, before he noticed you running, as you have told us already, in the dark from the open window where you saw your father, he, Grigory, glanced to the left, and, while noticing the open window, observed at the same time, much nearer to him…"
+        },
+        {
+          "entityId": "the_screen_chinese",
+          "type": "place",
+          "firstSeenInChapter": 49
+        },
+        {
+          "entityId": "the_garden",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…to our questions, that when, on coming out to the steps, and hearing a noise in the garden, he made up his mind to go into it through the little gate which stood open, before he noticed you running, as you have told us already, in the dark…"
+        },
+        {
+          "entityId": "the_lodge",
+          "type": "place",
+          "firstSeenInChapter": 14,
+          "excerpt": "…to after his injuries, but before that, as soon as he went into the garden from the lodge.” </p>  <p> “But it’s false, it’s false! It can’t be so! He’s slandering me from spite.... He couldn’t have seen it ... I didn’t come from the door,”…"
+        },
+        {
+          "entityId": "the_fence",
+          "type": "place",
+          "firstSeenInChapter": 22,
+          "excerpt": "…nce he only noticed you first some distance away in the garden, running towards the fence.” </p>  <p> Mitya had leapt up from his chair half‐way through this speech. </p>  <p> “Nonsense!” he yelled, in a sudden frenzy, “it’s a barefaced li…"
+        },
+        {
+          "entityId": "the_pillow",
+          "type": "place",
+          "firstSeenInChapter": 59
+        },
+        {
+          "entityId": "death_of_fyodor_pavlovitch_karamazov",
+          "type": "event",
+          "firstSeenInChapter": 1
+        },
+        {
+          "entityId": "the_interrogation_of_mitya",
+          "type": "event",
+          "firstSeenInChapter": 56
+        },
+        {
+          "entityId": "witnesses_for_the_arrest",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…ns on the trousers, too. Nikolay Parfenovitch, moreover, in the presence of the peasant witnesses, passed his fingers along the collar, the cuffs, and all the seams of the coat and trousers, obviously looking for something—money, of course…"
+        },
+        {
+          "entityId": "parricide_accusation",
+          "type": "event",
+          "firstSeenInChapter": 11
+        },
+        {
+          "entityId": "the_separation_of_mitya_and_grushenka_during_interrogation",
+          "type": "event",
+          "firstSeenInChapter": 56
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 24,
+          "locationDescription": "Behind the curtain in the inn's room",
+          "imageDescription": "A small, starkly lit room in a 19th-century Russian inn, with a thick curtain down the middle. Dmitri Karamazov, muscular and tense, stands partially undressed, surrounded by unsmiling peasants and two well-dressed lawyers who scrutinize his discarded garments. One lawyer examines a blood-stained coat, while the secretary fusses with a cap. The scene is fraught with humiliation and authority, period attire on all but Dmitri, who clutches at his dignity.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "ippolit_kirillovitch",
+            "the_secretary_of_the_investigating_lawyer",
+            "peasants"
+          ]
+        },
+        {
+          "startParagraph": 25,
+          "endParagraph": 35,
+          "locationDescription": "Behind the curtain in the inn's room (changing clothes)",
+          "imageDescription": "The same cramped, dim room where Dmitri stands shivering in only his underclothes, hastily clutching a quilt. A peasant enters bearing a bundle of fine clothing, which is handed to Dmitri. Two lawyers reassure and attempt to persuade him; his expression contorts with indignation. The tense atmosphere is accentuated by contrasting dress—Dmitri nearly naked, the lawyers and peasant in proper 19th-century Russian garb, the secretary in the background.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "ippolit_kirillovitch",
+            "the_secretary_of_the_investigating_lawyer",
+            "peasants",
+            "pyotr_fomitch_kalganov"
+          ]
+        },
+        {
+          "startParagraph": 36,
+          "endParagraph": 46,
+          "locationDescription": "Back in the inn's 'other room'",
+          "imageDescription": "A plainly furnished room with a wooden chair in the center. Dmitri Karamazov, now dressed uncomfortably in another man's too-tight suit, sits sullenly with fists clenched, his features twisted in humiliation and anger. The prosecutor and Nikolay Parfenovitch sit across a table, their faces stern and composed. Several peasants are present, observing quietly. Near the doorway, Trifon Borissovitch appears briefly, peering in, then turns away. The lighting is cool and shadowed, the air thick with tension and wounded pride.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "ippolit_kirillovitch",
+            "peasants",
+            "the_secretary_of_the_investigating_lawyer",
+            "trifon_borissovitch"
+          ]
+        },
+        {
+          "startParagraph": 47,
+          "endParagraph": 72,
+          "locationDescription": "The same room, confrontation about the open door and the envelope",
+          "imageDescription": "The study-like room, furnished with a writing table. Dmitri, tense and desperate, has leapt from his seat, his face flushed with rage and bewilderment, as the prosecutor calmly lays an official envelope on the table. Nikolay Parfenovitch observes gravely, while peasants stand in the background. The atmosphere is thick with accusation and denial. Formal 19th-century Russian dress is worn by all, Dmitri awkwardly squeezed into borrowed clothes.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "ippolit_kirillovitch",
+            "the_secretary_of_the_investigating_lawyer",
+            "peasants"
+          ]
+        },
+        {
+          "startParagraph": 73,
+          "endParagraph": 76,
+          "locationDescription": "The inn room, confession impending",
+          "imageDescription": "A close grouping in the somber inn room: Dmitri, face pale and eyes wild, stands abruptly, as if grasping at resolution; the two lawyers and secretary, seated at the table, watch him expectantly. The moody lighting is softened by oil lamps, casting dramatic shadows on the walls. The peasants remain silent by the wall. Everyone's attire, save for Dmitri's ill-fitting suit, is fastidiously period-correct, with a palpable air of suspense and confession.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "ippolit_kirillovitch",
+            "the_secretary_of_the_investigating_lawyer",
+            "peasants"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "entities": [
+        {
+          "entityId": "dmitri_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…he disgrace, but that I put it apart from the rest of the three thousand,” said Mitya firmly. </p>  <p> “Why?” smiled the prosecutor irritably. “What is there disgraceful, to your thinking, in your having set aside half of the three thousa…"
+        },
+        {
+          "entityId": "the_investigating_lawyer",
+          "type": "person",
+          "firstSeenInChapter": 53,
+          "excerpt": "…. That was not at all what they expected. </p>  <p> “How do you mean?” faltered Nikolay Parfenovitch, “when at five o’clock on the same day, from your own confession—” </p>  <p> “Damn five o’clock on the same day and my own confession! Tha…"
+        },
+        {
+          "entityId": "ippolit_kirillovitch",
+          "type": "person",
+          "firstSeenInChapter": 55,
+          "excerpt": "…on!” </p>  <p> “Katerina Ivanovna!” Nikolay Parfenovitch exclaimed with wonder. The prosecutor, too, stared. </p>  <p> “Oh, don’t take her name in vain! I’m a scoundrel to bring her into it. Yes, I’ve seen that she hated me ... a long whil…"
+        },
+        {
+          "entityId": "katerina_ivanovna",
+          "type": "person",
+          "firstSeenInChapter": 9,
+          "excerpt": "…nterrupting. It’s hard to do, you know. You see, a month ago, I was sent for by Katerina Ivanovna, formerly my betrothed. Do you know her?” </p>  <p> “Yes, of course.” </p>  <p> “I know you know her. She’s a noble creature, noblest of the …"
+        },
+        {
+          "entityId": "the_enchantress",
+          "type": "person",
+          "firstSeenInChapter": 11,
+          "excerpt": "…in fact, when I’d just come to love another, her, she’s sitting down below now, Grushenka. I carried her off here to Mokroe then, and wasted here in two days half that damned three thousand, but the other half I kept on me. Well, I’ve kept…"
+        },
+        {
+          "entityId": "fyodor_pavlovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…d that it’s a month since you ... obtained it?...” </p>  <p> “Yes. But not from my father. Not from my father, don’t be uneasy. I didn’t steal it from my father, but from her. Let me tell you without interrupting. It’s hard to do, you know…"
+        },
+        {
+          "entityId": "alexey_fyodorovitch_karamazov",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…se I felt I was a thief. I couldn’t make up my mind, I didn’t dare even to tell Alyosha, my brother, about that fifteen hundred: I felt I was such a scoundrel and such a pickpocket. But, do you know, while I carried it I said to myself at …"
+        },
+        {
+          "entityId": "samsonov",
+          "type": "person",
+          "firstSeenInChapter": 12,
+          "excerpt": "…d been with some guarantee, or even on the security you offered to the merchant Samsonov, and to Madame Hohlakov? I suppose you still regard that security as of value?” </p>  <p> Mitya suddenly crimsoned. </p>  <p> “Surely you don’t think …"
+        },
+        {
+          "entityId": "madame_hohlakov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…guarantee, or even on the security you offered to the merchant Samsonov, and to Madame Hohlakov? I suppose you still regard that security as of value?” </p>  <p> Mitya suddenly crimsoned. </p>  <p> “Surely you don’t think me such an out an…"
+        },
+        {
+          "entityId": "the_captain_of_police_mr_ispravnik",
+          "type": "person",
+          "firstSeenInChapter": 7,
+          "excerpt": "…t you have spent, and I heard the legend myself, apart from your confession.... Mihail Makarovitch, for instance, had heard it, too, so that indeed, it was scarcely a legend, but the gossip of the whole town. There are indications, too, if…"
+        },
+        {
+          "entityId": "pyotr_fomitch_kalganov",
+          "type": "person",
+          "firstSeenInChapter": 6,
+          "excerpt": "…the morning. The lights had been extinguished long ago. Mihail Makarovitch and Kalganov, who had been continually in and out of the room all the while the interrogation had been going on, had now both gone out again. The lawyers, too, look…"
+        },
+        {
+          "entityId": "lyagavy",
+          "type": "person",
+          "firstSeenInChapter": 38,
+          "excerpt": "…nly the day before yesterday, that night when I was having all that bother with Lyagavy, and afterwards yesterday, all day yesterday, I remember, till that happened ...” </p>  <p> “Till what happened?” put in Nikolay Parfenovitch inquisiti…"
+        },
+        {
+          "entityId": "the_marketplace",
+          "type": "place",
+          "firstSeenInChapter": 16
+        },
+        {
+          "entityId": "mityas_lodgings",
+          "type": "place",
+          "firstSeenInChapter": 46
+        },
+        {
+          "entityId": "the_town",
+          "type": "place",
+          "firstSeenInChapter": 14
+        },
+        {
+          "entityId": "mokroe",
+          "type": "place",
+          "firstSeenInChapter": 18,
+          "excerpt": "…nother, her, she’s sitting down below now, Grushenka. I carried her off here to Mokroe then, and wasted here in two days half that damned three thousand, but the other half I kept on me. Well, I’ve kept that other half, that fifteen hundre…"
+        },
+        {
+          "entityId": "the_road",
+          "type": "place",
+          "firstSeenInChapter": 45
+        },
+        {
+          "entityId": "the_huts_in_the_rain",
+          "type": "place",
+          "firstSeenInChapter": 60
+        },
+        {
+          "entityId": "the_window",
+          "type": "place",
+          "firstSeenInChapter": 58,
+          "excerpt": "…overcast, and the rain streamed down in bucketfuls. Mitya gazed blankly out of the window. </p>  <p> “May I look out of the window?” he asked Nikolay Parfenovitch, suddenly. </p>  <p> “Oh, as much as you like,” the latter replied. </p>  <p…"
+        },
+        {
+          "entityId": "the_room_where_the_interrogation_takes_place",
+          "type": "place",
+          "firstSeenInChapter": 60
+        },
+        {
+          "entityId": "the_rain_weather_event",
+          "type": "event",
+          "firstSeenInChapter": 60,
+          "excerpt": "…oked very tired. It was a wretched morning, the whole sky was overcast, and the rain streamed down in bucketfuls. Mitya gazed blankly out of the window. </p>  <p> “May I look out of the window?” he asked Nikolay Parfenovitch, suddenly. </p…"
+        },
+        {
+          "entityId": "the_opening_of_witness_examination_legal_event",
+          "type": "event",
+          "firstSeenInChapter": 60,
+          "excerpt": "…n the meantime they had to finish what they were about. They had immediately to begin examining the witnesses. It was by now eight o’clock in the morning. The lights had been extinguished long ago. Mihail Makarovitch and Kalganov, who had …"
+        },
+        {
+          "entityId": "siberia",
+          "type": "place",
+          "firstSeenInChapter": 5,
+          "excerpt": "…st you such distress to confess such a secret.... You cried out, just now, that Siberia would be better than confessing it ...” </p>  <p> The prosecutor ceased speaking. He was provoked. He did not conceal his vexation, which was almost an…"
+        },
+        {
+          "entityId": "tea_break_during_investigation",
+          "type": "event",
+          "firstSeenInChapter": 60
+        },
+        {
+          "entityId": "mityas_theft_of_three_thousand_roubles_from_katerina_ivanovna",
+          "type": "event",
+          "firstSeenInChapter": 60
+        },
+        {
+          "entityId": "division_and_concealment_of_the_money_fifteen_hundred_sewn_up",
+          "type": "event",
+          "firstSeenInChapter": 60
+        },
+        {
+          "entityId": "mityas_intention_to_shoot_himself_at_dawn",
+          "type": "event",
+          "firstSeenInChapter": 60
+        },
+        {
+          "entityId": "the_murder_of_the_old_servant",
+          "type": "event",
+          "firstSeenInChapter": 60
+        },
+        {
+          "entityId": "the_interrogation_of_mitya",
+          "type": "event",
+          "firstSeenInChapter": 56
+        },
+        {
+          "entityId": "katerina_ivanovnas_sister_and_another_relation_in_moscow",
+          "type": "person",
+          "firstSeenInChapter": 60
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 101,
+          "locationDescription": "In the interrogation room (early morning, rain outside)",
+          "imageDescription": "A dimly lit 19th-century Russian government room, its windows streaked with rain. Dmitri Fyodorovitch Karamazov sits at a small wooden table, pale and agitated, facing two weary lawyers—one taking notes, the other with a concerned expression. The men wear period-appropriate dark uniforms and waistcoats, while Dmitri appears slightly disheveled, wearing a simple shirt, his face drawn and intense. The overall atmosphere is claustrophobic and tense, shadows pooling around the oil lamp's glow. Papers and evidence are scattered across the table.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "ippolit_kirillovitch"
+          ]
+        },
+        {
+          "startParagraph": 102,
+          "endParagraph": 107,
+          "locationDescription": "At the window of the interrogation room (dawn breaking, rain-swept view)",
+          "imageDescription": "A weary Dmitri stands before a rain-speckled window, his figure silhouetted against the faint, gray dawn. Beyond the glass, muddy streets and a row of dark, shabby Russian huts fade into the mist. The small, government office glimmers with the weak light of morning filtering in, damp shadows lingering. Dmitri, in rumpled shirt and trousers, presses a hand to the foggy pane, gazing outward with an expression of despair and contemplation. The background remains cluttered with papers, the two lawyers visible behind him, tired but attentive.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "ippolit_kirillovitch"
+          ]
+        },
+        {
+          "startParagraph": 108,
+          "endParagraph": 108,
+          "locationDescription": "In the interrogation room, tea is served among exhausted investigators",
+          "imageDescription": "The interrogation room in early morning gloom, populated by three exhausted men—Dmitri, hunched over, clutching a glass of steaming tea, his eyes hollow; the two officials, also holding cups, sit across the scarred table. The remains of an oil lamp and plates with bread suggest a hurried respite. Dressed in 19th-century Russian attire, the scene is cloaked in faded light seeping past threadbare curtains, the atmosphere heavy with fatigue and anxiety. Every figure has the weary, subdued posture of those pushed to their limits by a sleepless night.",
+          "characterIds": [
+            "dmitri_fyodorovitch_karamazov",
+            "the_investigating_lawyer",
+            "ippolit_kirillovitch"
+          ]
+        }
+      ]
     }
   ]
 }
