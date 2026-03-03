@@ -6,7 +6,7 @@ const mockResolveReadingPosition = vi.fn();
 const mockGetChapterSummaryWindowBefore = vi.fn();
 const mockGetStorySoFarBeforeChapter = vi.fn();
 const mockGetSceneSummariesBeforeCurrent = vi.fn();
-const mockGetSceneTextUpToParagraph = vi.fn();
+const mockGetChapterTextUpToParagraph = vi.fn();
 
 vi.mock("@/lib/llm", () => ({
   createFastChatCompletion: (...args: unknown[]) => mockCreateChatCompletion(...args),
@@ -19,7 +19,7 @@ vi.mock("@/lib/reading-context", () => ({
   getChapterSummaryWindowBefore: (...args: unknown[]) => mockGetChapterSummaryWindowBefore(...args),
   getStorySoFarBeforeChapter: (...args: unknown[]) => mockGetStorySoFarBeforeChapter(...args),
   getSceneSummariesBeforeCurrent: (...args: unknown[]) => mockGetSceneSummariesBeforeCurrent(...args),
-  getSceneTextUpToParagraph: (...args: unknown[]) => mockGetSceneTextUpToParagraph(...args),
+  getChapterTextUpToParagraph: (...args: unknown[]) => mockGetChapterTextUpToParagraph(...args),
 }));
 
 import { GET } from "./route";
@@ -31,7 +31,7 @@ describe("app/api/context/current-scene/route", () => {
     mockGetChapterSummaryWindowBefore.mockReset();
     mockGetStorySoFarBeforeChapter.mockReset();
     mockGetSceneSummariesBeforeCurrent.mockReset();
-    mockGetSceneTextUpToParagraph.mockReset();
+    mockGetChapterTextUpToParagraph.mockReset();
   });
 
   it("returns 400 for invalid params", async () => {
@@ -40,7 +40,7 @@ describe("app/api/context/current-scene/route", () => {
     expect(response.status).toBe(400);
   });
 
-  it("returns current scene answer and context metadata", async () => {
+  it("returns chapter-so-far answer and context metadata", async () => {
     mockResolveReadingPosition.mockReturnValue({
       chapterNumber: 3,
       paragraphIndex: 10,
@@ -55,7 +55,7 @@ describe("app/api/context/current-scene/route", () => {
     ]);
     mockGetStorySoFarBeforeChapter.mockReturnValue("Earlier events summarized.");
     mockGetSceneSummariesBeforeCurrent.mockReturnValue(["Scene 1: Setup."]);
-    mockGetSceneTextUpToParagraph.mockReturnValue("Current scene excerpt.");
+    mockGetChapterTextUpToParagraph.mockReturnValue("Chapter text up to checkpoint.");
     mockCreateChatCompletion.mockResolvedValue({
       choices: [
         {
@@ -77,7 +77,7 @@ describe("app/api/context/current-scene/route", () => {
     const paragraphs = String(data.answer).split(/\n\s*\n+/);
 
     expect(response.status).toBe(200);
-    expect(data.answer).toContain("current scene");
+    expect(data.answer).toContain("arrival");
     expect(data.answerSource).toBe("llm");
     expect(paragraphs).toHaveLength(2);
     expect(data.sceneRange).toEqual({ startParagraph: 0, endParagraph: 12 });

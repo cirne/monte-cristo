@@ -1,7 +1,10 @@
 "use client";
 
 import React from "react";
-import { ResponsiveDialog } from "@/app/components/ResponsiveDialog";
+import { AppDrawer } from "@/app/components/AppDrawer";
+import { parseTextForEntityLinks } from "./entityTextSegments";
+import { SummaryDialogContent } from "./SummaryDialogContent";
+import type { XRayEntityData } from "./XRayPanel";
 
 type Mode = "idle" | "loading" | "result" | "error";
 
@@ -12,6 +15,8 @@ interface SummaryButtonProps {
   chapterNumber: number;
   bookSlug: string;
   paragraphIndex: number;
+  entityData?: Record<string, XRayEntityData>;
+  onOpenEntity?: (entityId: string) => void;
 }
 
 export function SummaryButton({
@@ -21,6 +26,8 @@ export function SummaryButton({
   chapterNumber,
   bookSlug,
   paragraphIndex,
+  entityData = {},
+  onOpenEntity,
 }: SummaryButtonProps) {
   const requestIdRef = React.useRef(0);
   const [mode, setMode] = React.useState<Mode>("idle");
@@ -28,6 +35,13 @@ export function SummaryButton({
   const [error, setError] = React.useState<string | undefined>(undefined);
 
   const isOpen = mode === "loading" || mode === "result" || mode === "error";
+
+  const answerSegments = React.useMemo(() => {
+    if (!answer || Object.keys(entityData).length === 0) {
+      return [{ type: "text" as const, content: answer ?? "" }];
+    }
+    return parseTextForEntityLinks(answer, entityData);
+  }, [answer, entityData]);
 
   const close = React.useCallback(() => {
     requestIdRef.current += 1;
@@ -80,68 +94,29 @@ export function SummaryButton({
         {label}
       </button>
 
-      <ResponsiveDialog
+      <AppDrawer
         open={isOpen}
         onOpenChange={(next) => {
-          if (!next) close();
+          if (!next) {
+            close();
+          }
         }}
         ariaLabel={dialogLabel}
         title={dialogLabel}
       >
-        {mode === "loading" && (
-          <div className="flex flex-col items-center justify-center gap-4 py-6">
-            <div
-              className="size-10 rounded-full border-2 border-stone-200 border-t-amber-600 animate-spin"
-              aria-hidden
-            />
-            <div className="text-center">
-              <p className="text-xs uppercase tracking-widest text-stone-400 mb-1">{dialogLabel}</p>
-              <p className="text-sm text-stone-700 dark:text-stone-300">Preparing your summary…</p>
-            </div>
-          </div>
-        )}
-
-        {mode === "result" && (
-          <div className="p-3">
-            <p className="text-xs uppercase tracking-widest text-stone-400 mb-3">{dialogLabel}</p>
-            <p className="text-base text-stone-700 dark:text-stone-300 leading-relaxed whitespace-pre-wrap">
-              {answer}
-            </p>
-            <div className="mt-4 flex items-center justify-end">
-              <button
-                type="button"
-                onClick={close}
-                className="px-2.5 py-1.5 text-xs rounded-md bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 hover:bg-stone-800 dark:hover:bg-stone-200"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        )}
-
-        {mode === "error" && (
-          <div className="p-3">
-            <p className="text-xs uppercase tracking-widest text-red-400 mb-1">Summary unavailable</p>
-            <p className="text-sm text-stone-700 dark:text-stone-300">{error}</p>
-            <div className="mt-4 flex items-center justify-end gap-2">
-              <button
-                type="button"
-                onClick={() => void handleClick()}
-                className="px-2.5 py-1.5 text-xs rounded-md border border-stone-300 dark:border-stone-600 text-stone-600 dark:text-stone-400 hover:bg-stone-50 dark:hover:bg-stone-800"
-              >
-                Try again
-              </button>
-              <button
-                type="button"
-                onClick={close}
-                className="px-2.5 py-1.5 text-xs rounded-md bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 hover:bg-stone-800 dark:hover:bg-stone-200"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        )}
-      </ResponsiveDialog>
+        <SummaryDialogContent
+          title={dialogLabel}
+          segments={answerSegments}
+          onEntityClick={(entityId) => {
+            onOpenEntity?.(entityId);
+            close();
+          }}
+          onClose={close}
+          mode={mode}
+          error={error}
+          onRetry={mode === "error" ? () => void handleClick() : undefined}
+        />
+      </AppDrawer>
     </>
   );
 }

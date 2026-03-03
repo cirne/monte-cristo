@@ -108,6 +108,16 @@ export function getSceneTextUpToParagraph(
   return trimToTokenBudget(text, maxTokens);
 }
 
+export function getChapterTextUpToParagraph(
+  position: ResolvedReadingPosition,
+  maxTokens?: number
+): string {
+  const { paragraphs, paragraphIndex } = position;
+  const text = paragraphs.slice(0, paragraphIndex + 1).join("\n\n");
+  if (typeof maxTokens !== "number") return text;
+  return trimToTokenBudget(text, maxTokens);
+}
+
 export function getSceneSummariesBeforeCurrent(position: ResolvedReadingPosition): string[] {
   return position.scenes
     .slice(0, position.sceneIndex)

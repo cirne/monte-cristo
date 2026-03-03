@@ -1,9 +1,10 @@
 "use client";
 
 import React from "react";
-import { ResponsiveDialog } from "@/app/components/ResponsiveDialog";
+import { AppDrawer } from "@/app/components/AppDrawer";
 import type { XRayEntityData } from "./XRayPanel";
 import { parseTextForEntityLinks } from "./entityTextSegments";
+import { SummaryDialogContent } from "./SummaryDialogContent";
 
 type ContextAction = "current-scene" | "story-so-far";
 type ContextPopoverMode = "menu" | "loading" | "result" | "error";
@@ -238,7 +239,7 @@ export function ParagraphContextMenu({
         </div>
       )}
 
-      <ResponsiveDialog
+      <AppDrawer
         open={isSummaryDialogOpen}
         onOpenChange={(next) => {
           if (!next) closeMenu();
@@ -249,77 +250,43 @@ export function ParagraphContextMenu({
       >
         <div data-testid="paragraph-context-scroll">
           {mode === "loading" && (
-            <div className="flex flex-col items-center justify-center gap-4 py-6">
-              <div
-                className="size-10 rounded-full border-2 border-stone-200 border-t-amber-600 animate-spin"
-                aria-hidden
-              />
-              <div className="text-center">
-                <p className="text-xs uppercase tracking-widest text-stone-400 mb-1">
-                  {actionLabel(action ?? "current-scene")}
-                </p>
-                <p className="text-sm text-stone-700 dark:text-stone-300">Preparing your summary…</p>
-              </div>
-            </div>
+            <SummaryDialogContent
+              title={actionLabel(action ?? "current-scene")}
+              segments={[]}
+              onClose={closeMenu}
+              mode="loading"
+            />
           )}
 
           {mode === "result" && (
-            <div className="p-3">
-              <p className="text-xs uppercase tracking-widest text-stone-400 dark:text-stone-500 mb-1">
-                {actionLabel(action ?? "current-scene")}
-              </p>
-              <p className="text-base text-stone-700 dark:text-stone-300 leading-relaxed whitespace-pre-wrap">
-                {answerSegments.map((segment, index) =>
-                  segment.type === "text" ? (
-                    <React.Fragment key={index}>{segment.content}</React.Fragment>
-                  ) : (
-                    <button
-                      key={index}
-                      type="button"
-                      onClick={() => {
-                        closeMenu();
-                        onOpenEntity?.(segment.entityId);
-                      }}
-                      className="text-amber-700 hover:text-amber-800 dark:text-amber-300 dark:hover:text-amber-200 hover:underline font-medium cursor-pointer bg-transparent border-none p-0 align-baseline"
-                    >
-                      {segment.content}
-                    </button>
-                  )
-                )}
-              </p>
-              <div className="mt-3 flex items-center justify-end gap-2">
-                <button
-                  type="button"
-                  onClick={closeMenu}
-                  className="px-2.5 py-1.5 text-xs rounded-md bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 hover:bg-stone-800 dark:hover:bg-stone-200"
-                >
-                  Close
-                </button>
-              </div>
-            </div>
+            <SummaryDialogContent
+              title={actionLabel(action ?? "current-scene")}
+              segments={answerSegments}
+              onEntityClick={(entityId) => {
+                closeMenu();
+                onOpenEntity?.(entityId);
+              }}
+              onClose={closeMenu}
+              mode="result"
+            />
           )}
 
           {mode === "error" && (
-            <div className="p-3">
-              <p className="text-xs uppercase tracking-widest text-red-400 mb-1">Context unavailable</p>
-              <p className="text-sm text-stone-700 dark:text-stone-300">{error}</p>
-              <div className="mt-3 flex items-center justify-end gap-2">
-                <button
-                  type="button"
-                  onClick={() => {
-                    setMode("menu");
-                    setError(undefined);
-                    setAnswer(undefined);
-                  }}
-                  className="px-2.5 py-1.5 text-xs rounded-md border border-stone-300 dark:border-stone-600 text-stone-600 dark:text-stone-400 hover:bg-stone-50 dark:hover:bg-stone-800"
-                >
-                  Try again
-                </button>
-              </div>
-            </div>
+            <SummaryDialogContent
+              title={actionLabel(action ?? "current-scene")}
+              segments={[]}
+              onClose={closeMenu}
+              mode="error"
+              error={error}
+              onRetry={() => {
+                setMode("menu");
+                setError(undefined);
+                setAnswer(undefined);
+              }}
+            />
           )}
         </div>
-      </ResponsiveDialog>
+      </AppDrawer>
     </div>
   );
 }
