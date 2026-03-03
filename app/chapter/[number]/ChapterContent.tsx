@@ -29,6 +29,38 @@ function isPlaceholderParagraph(segments: Segment[]): boolean {
   return segments.length > 0 && /^[\s\u200B]*$/.test(text);
 }
 
+function EntityLink({
+  segment,
+  onOpenEntity,
+}: {
+  segment: Extract<Segment, { type: "link" }>;
+  onOpenEntity: (entityId: string) => void;
+}) {
+  const linkClassName = [
+    "text-stone-800 dark:text-stone-300",
+    "underline decoration-solid decoration-stone-300 dark:decoration-stone-600 underline-offset-2",
+    "hover:decoration-amber-800 dark:hover:decoration-amber-300",
+    "hover:text-amber-800 dark:hover:text-amber-300",
+    "cursor-pointer bg-transparent border-none p-0 align-baseline",
+  ].join(" ");
+
+  return (
+    <a
+      href="#"
+      role="button"
+      data-entity-link="true"
+      {...(segment.entityType === "person" ? { "data-person-entity-id": segment.entityId } : {})}
+      onClick={(e) => {
+        e.preventDefault();
+        onOpenEntity(segment.entityId);
+      }}
+      className={linkClassName}
+    >
+      {segment.content}
+    </a>
+  );
+}
+
 export function ChapterContent({
   paragraphSegments,
   scenes,
@@ -232,21 +264,14 @@ export function ChapterContent({
               seg.type === "text" ? (
                 <React.Fragment key={j}>{seg.content}</React.Fragment>
               ) : (
-                <a
+                <EntityLink
                   key={j}
-                  href="#"
-                  role="button"
-                  data-entity-link="true"
-                  {...(seg.entityType === "person" ? { "data-person-entity-id": seg.entityId } : {})}
-                  onClick={(e) => {
-                    e.preventDefault();
+                  segment={seg}
+                  onOpenEntity={(entityId) => {
                     setContextMenuAnchor(null);
-                    setOpenEntityId(seg.entityId);
+                    setOpenEntityId(entityId);
                   }}
-                  className="text-stone-800 dark:text-stone-300 underline decoration-dashed decoration-stone-300 dark:decoration-stone-600 underline-offset-2 cursor-pointer bg-transparent border-none p-0 align-baseline hover:decoration-solid hover:decoration-stone-500 dark:hover:decoration-stone-400"
-                >
-                  {seg.content}
-                </a>
+                />
               )
             )}
             </p>
