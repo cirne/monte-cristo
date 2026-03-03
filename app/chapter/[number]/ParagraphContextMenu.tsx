@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { ResponsiveDialog } from "@/app/components/ResponsiveDialog";
 import type { XRayEntityData } from "./XRayPanel";
 import { parseTextForEntityLinks } from "./entityTextSegments";
 
@@ -237,19 +238,17 @@ export function ParagraphContextMenu({
         </div>
       )}
 
-      {isSummaryDialogOpen && (
-        <div
-          className="pointer-events-auto fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/40"
-          onClick={closeMenu}
-        >
-          <div
-            role="dialog"
-            aria-label="Reading context summary"
-            className="bg-white rounded-xl shadow-xl w-full max-w-5xl max-h-[90vh] min-h-[200px] overflow-y-auto border border-stone-200 p-4 sm:p-6"
-            onClick={(e) => e.stopPropagation()}
-            data-testid="paragraph-context-scroll"
-          >
-            {mode === "loading" && (
+      <ResponsiveDialog
+        open={isSummaryDialogOpen}
+        onOpenChange={(next) => {
+          if (!next) closeMenu();
+        }}
+        ariaLabel="Reading context summary"
+        title={actionLabel(action ?? "current-scene")}
+        contentClassName="bg-white dark:bg-stone-900 rounded-xl shadow-xl w-full max-w-5xl max-h-[90vh] min-h-[200px] overflow-y-auto border border-stone-200 dark:border-stone-800 p-4 sm:p-6"
+      >
+        <div data-testid="paragraph-context-scroll">
+          {mode === "loading" && (
             <div className="flex flex-col items-center justify-center gap-4 py-6">
               <div
                 className="size-10 rounded-full border-2 border-stone-200 border-t-amber-600 animate-spin"
@@ -259,17 +258,17 @@ export function ParagraphContextMenu({
                 <p className="text-xs uppercase tracking-widest text-stone-400 mb-1">
                   {actionLabel(action ?? "current-scene")}
                 </p>
-                <p className="text-sm text-stone-700">Preparing your summary…</p>
+                <p className="text-sm text-stone-700 dark:text-stone-300">Preparing your summary…</p>
               </div>
             </div>
-            )}
+          )}
 
-            {mode === "result" && (
+          {mode === "result" && (
             <div className="p-3">
-              <p className="text-xs uppercase tracking-widest text-stone-400 mb-1">
+              <p className="text-xs uppercase tracking-widest text-stone-400 dark:text-stone-500 mb-1">
                 {actionLabel(action ?? "current-scene")}
               </p>
-              <p className="text-base text-stone-700 leading-relaxed whitespace-pre-wrap">
+              <p className="text-base text-stone-700 dark:text-stone-300 leading-relaxed whitespace-pre-wrap">
                 {answerSegments.map((segment, index) =>
                   segment.type === "text" ? (
                     <React.Fragment key={index}>{segment.content}</React.Fragment>
@@ -281,7 +280,7 @@ export function ParagraphContextMenu({
                         closeMenu();
                         onOpenEntity?.(segment.entityId);
                       }}
-                      className="text-amber-700 hover:text-amber-800 hover:underline font-medium cursor-pointer bg-transparent border-none p-0 align-baseline"
+                      className="text-amber-700 hover:text-amber-800 dark:text-amber-300 dark:hover:text-amber-200 hover:underline font-medium cursor-pointer bg-transparent border-none p-0 align-baseline"
                     >
                       {segment.content}
                     </button>
@@ -292,18 +291,18 @@ export function ParagraphContextMenu({
                 <button
                   type="button"
                   onClick={closeMenu}
-                  className="px-2.5 py-1.5 text-xs rounded-md bg-stone-900 text-white hover:bg-stone-800"
+                  className="px-2.5 py-1.5 text-xs rounded-md bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 hover:bg-stone-800 dark:hover:bg-stone-200"
                 >
                   Close
                 </button>
               </div>
             </div>
-            )}
+          )}
 
-            {mode === "error" && (
+          {mode === "error" && (
             <div className="p-3">
               <p className="text-xs uppercase tracking-widest text-red-400 mb-1">Context unavailable</p>
-              <p className="text-sm text-stone-700">{error}</p>
+              <p className="text-sm text-stone-700 dark:text-stone-300">{error}</p>
               <div className="mt-3 flex items-center justify-end gap-2">
                 <button
                   type="button"
@@ -312,16 +311,15 @@ export function ParagraphContextMenu({
                     setError(undefined);
                     setAnswer(undefined);
                   }}
-                  className="px-2.5 py-1.5 text-xs rounded-md border border-stone-300 text-stone-600 hover:bg-stone-50"
+                  className="px-2.5 py-1.5 text-xs rounded-md border border-stone-300 dark:border-stone-600 text-stone-600 dark:text-stone-400 hover:bg-stone-50 dark:hover:bg-stone-800"
                 >
                   Try again
                 </button>
               </div>
             </div>
-            )}
-          </div>
+          )}
         </div>
-      )}
+      </ResponsiveDialog>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { ResponsiveDialog } from "@/app/components/ResponsiveDialog";
 
 type Mode = "idle" | "loading" | "result" | "error";
 
@@ -34,15 +35,6 @@ export function SummaryButton({
     setAnswer(undefined);
     setError(undefined);
   }, []);
-
-  React.useEffect(() => {
-    if (!isOpen) return;
-    const onKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "Escape") close();
-    };
-    document.addEventListener("keydown", onKeyDown);
-    return () => document.removeEventListener("keydown", onKeyDown);
-  }, [isOpen, close]);
 
   const handleClick = React.useCallback(async () => {
     const requestId = requestIdRef.current + 1;
@@ -88,73 +80,68 @@ export function SummaryButton({
         {label}
       </button>
 
-      {isOpen && (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/40"
-          onClick={close}
-        >
-          <div
-            role="dialog"
-            aria-label={dialogLabel}
-            className="bg-white dark:bg-stone-900 rounded-xl shadow-xl w-full max-w-2xl max-h-[90vh] min-h-[200px] overflow-y-auto border border-stone-200 dark:border-stone-700 p-4 sm:p-6"
-            onClick={(e) => e.stopPropagation()}
-          >
-            {mode === "loading" && (
-              <div className="flex flex-col items-center justify-center gap-4 py-6">
-                <div
-                  className="size-10 rounded-full border-2 border-stone-200 border-t-amber-600 animate-spin"
-                  aria-hidden
-                />
-                <div className="text-center">
-                  <p className="text-xs uppercase tracking-widest text-stone-400 mb-1">{dialogLabel}</p>
-                  <p className="text-sm text-stone-700 dark:text-stone-300">Preparing your summary…</p>
-                </div>
-              </div>
-            )}
-
-            {mode === "result" && (
-              <div className="p-3">
-                <p className="text-xs uppercase tracking-widest text-stone-400 mb-3">{dialogLabel}</p>
-                <p className="text-base text-stone-700 dark:text-stone-300 leading-relaxed whitespace-pre-wrap">
-                  {answer}
-                </p>
-                <div className="mt-4 flex items-center justify-end">
-                  <button
-                    type="button"
-                    onClick={close}
-                    className="px-2.5 py-1.5 text-xs rounded-md bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 hover:bg-stone-800 dark:hover:bg-stone-200"
-                  >
-                    Close
-                  </button>
-                </div>
-              </div>
-            )}
-
-            {mode === "error" && (
-              <div className="p-3">
-                <p className="text-xs uppercase tracking-widest text-red-400 mb-1">Summary unavailable</p>
-                <p className="text-sm text-stone-700 dark:text-stone-300">{error}</p>
-                <div className="mt-4 flex items-center justify-end gap-2">
-                  <button
-                    type="button"
-                    onClick={() => void handleClick()}
-                    className="px-2.5 py-1.5 text-xs rounded-md border border-stone-300 dark:border-stone-600 text-stone-600 dark:text-stone-400 hover:bg-stone-50 dark:hover:bg-stone-800"
-                  >
-                    Try again
-                  </button>
-                  <button
-                    type="button"
-                    onClick={close}
-                    className="px-2.5 py-1.5 text-xs rounded-md bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 hover:bg-stone-800 dark:hover:bg-stone-200"
-                  >
-                    Close
-                  </button>
-                </div>
-              </div>
-            )}
+      <ResponsiveDialog
+        open={isOpen}
+        onOpenChange={(next) => {
+          if (!next) close();
+        }}
+        ariaLabel={dialogLabel}
+        title={dialogLabel}
+      >
+        {mode === "loading" && (
+          <div className="flex flex-col items-center justify-center gap-4 py-6">
+            <div
+              className="size-10 rounded-full border-2 border-stone-200 border-t-amber-600 animate-spin"
+              aria-hidden
+            />
+            <div className="text-center">
+              <p className="text-xs uppercase tracking-widest text-stone-400 mb-1">{dialogLabel}</p>
+              <p className="text-sm text-stone-700 dark:text-stone-300">Preparing your summary…</p>
+            </div>
           </div>
-        </div>
-      )}
+        )}
+
+        {mode === "result" && (
+          <div className="p-3">
+            <p className="text-xs uppercase tracking-widest text-stone-400 mb-3">{dialogLabel}</p>
+            <p className="text-base text-stone-700 dark:text-stone-300 leading-relaxed whitespace-pre-wrap">
+              {answer}
+            </p>
+            <div className="mt-4 flex items-center justify-end">
+              <button
+                type="button"
+                onClick={close}
+                className="px-2.5 py-1.5 text-xs rounded-md bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 hover:bg-stone-800 dark:hover:bg-stone-200"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        )}
+
+        {mode === "error" && (
+          <div className="p-3">
+            <p className="text-xs uppercase tracking-widest text-red-400 mb-1">Summary unavailable</p>
+            <p className="text-sm text-stone-700 dark:text-stone-300">{error}</p>
+            <div className="mt-4 flex items-center justify-end gap-2">
+              <button
+                type="button"
+                onClick={() => void handleClick()}
+                className="px-2.5 py-1.5 text-xs rounded-md border border-stone-300 dark:border-stone-600 text-stone-600 dark:text-stone-400 hover:bg-stone-50 dark:hover:bg-stone-800"
+              >
+                Try again
+              </button>
+              <button
+                type="button"
+                onClick={close}
+                className="px-2.5 py-1.5 text-xs rounded-md bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 hover:bg-stone-800 dark:hover:bg-stone-200"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        )}
+      </ResponsiveDialog>
     </>
   );
 }

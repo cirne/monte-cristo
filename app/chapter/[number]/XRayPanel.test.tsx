@@ -44,7 +44,7 @@ describe("app/chapter/[number]/XRayPanel", () => {
         onClose={vi.fn()}
       />
     );
-    expect(screen.getByText("Edmond Dantès")).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Edmond Dantès", level: 3 })).toBeInTheDocument();
     expect(screen.getByText(/A young sailor/)).toBeInTheDocument();
   });
 
