@@ -243,7 +243,7 @@ export function ChapterContent({
                     setContextMenuAnchor(null);
                     setOpenEntityId(seg.entityId);
                   }}
-                  className="text-amber-700 hover:text-amber-800 dark:text-amber-300 dark:hover:text-amber-200 hover:underline font-medium cursor-pointer bg-transparent border-none p-0 align-baseline"
+                  className="text-stone-800 dark:text-stone-300 underline decoration-dashed decoration-stone-300 dark:decoration-stone-600 underline-offset-2 cursor-pointer bg-transparent border-none p-0 align-baseline hover:decoration-solid hover:decoration-stone-500 dark:hover:decoration-stone-400"
                 >
                   {seg.content}
                 </a>
