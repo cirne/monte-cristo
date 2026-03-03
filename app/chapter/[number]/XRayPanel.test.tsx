@@ -78,4 +78,42 @@ describe("app/chapter/[number]/XRayPanel", () => {
     fireEvent.click(screen.getByRole("button", { name: "Mercédès" }));
     expect(onSelectEntity).toHaveBeenCalledWith("mercedes");
   });
+
+  it("stays mounted after close to allow drawer exit animation", () => {
+    const { rerender } = render(
+      <XRayPanel
+        entityId="dantes"
+        entityData={{
+          dantes: {
+            name: "Edmond Dantès",
+            aliases: [],
+            spoilerFreeIntro: "A young sailor.",
+            firstSeenInChapter: 1,
+            type: "person",
+          },
+        }}
+        chapterNumber={1}
+        onClose={vi.fn()}
+      />
+    );
+
+    rerender(
+      <XRayPanel
+        entityId={null}
+        entityData={{
+          dantes: {
+            name: "Edmond Dantès",
+            aliases: [],
+            spoilerFreeIntro: "A young sailor.",
+            firstSeenInChapter: 1,
+            type: "person",
+          },
+        }}
+        chapterNumber={1}
+        onClose={vi.fn()}
+      />
+    );
+
+    expect(screen.getByRole("heading", { name: "Edmond Dantès", level: 3 })).toBeInTheDocument();
+  });
 });

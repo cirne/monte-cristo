@@ -37,12 +37,19 @@ export function XRayPanel({
   onSelectEntity,
   bookSlug,
 }: XRayPanelProps) {
+  const [activeEntityId, setActiveEntityId] = React.useState<string | null>(entityId);
   const [imageError, setImageError] = React.useState(false);
-  React.useEffect(() => setImageError(false), [entityId]);
+  const open = Boolean(entityId);
 
-  if (!entityId) return null;
+  React.useEffect(() => {
+    if (entityId) setActiveEntityId(entityId);
+  }, [entityId]);
 
-  const data = entityData[entityId];
+  React.useEffect(() => setImageError(false), [activeEntityId]);
+
+  if (!activeEntityId) return null;
+
+  const data = entityData[activeEntityId];
   if (!data) return null;
 
   const entitiesBase = `/images/entities/${bookSlug ?? DEFAULT_BOOK_SLUG}`;
@@ -51,12 +58,12 @@ export function XRayPanel({
   const introText = data.spoilerFreeIntro ?? data.name;
   const introSegments =
     onSelectEntity && Object.keys(entityData).length > 1
-      ? parseTextForEntityLinks(introText, entityData, entityId)
+      ? parseTextForEntityLinks(introText, entityData, activeEntityId)
       : [{ type: "text" as const, content: introText }];
 
   return (
     <AppDrawer
-      open={true}
+      open={open}
       onOpenChange={(next) => {
         if (!next) onClose();
       }}
@@ -76,7 +83,7 @@ export function XRayPanel({
           {!imageError && (
             <div className="rounded-lg overflow-hidden bg-stone-100 dark:bg-stone-800 w-52 h-64 flex-shrink-0 relative">
               <Image
-                src={`${entitiesBase}/${entityId}.webp`}
+                src={`${entitiesBase}/${activeEntityId}.webp`}
                 alt=""
                 fill
                 className="object-cover object-top"
@@ -110,7 +117,7 @@ export function XRayPanel({
         {chapterNumber !== data.firstSeenInChapter && (
           <p className="text-xs text-stone-500 dark:text-stone-400 mb-2">
             <Link
-              href={`/book/${bookSlug ?? DEFAULT_BOOK_SLUG}/chapter/${data.firstSeenInChapter}?scrollTo=${encodeURIComponent(entityId)}`}
+              href={`/book/${bookSlug ?? DEFAULT_BOOK_SLUG}/chapter/${data.firstSeenInChapter}?scrollTo=${encodeURIComponent(activeEntityId)}`}
               className="text-amber-600 hover:text-amber-700 dark:text-amber-400 dark:hover:text-amber-300 hover:underline"
             >
               First appears in Chapter {data.firstSeenInChapter}
