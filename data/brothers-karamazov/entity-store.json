@@ -31,7 +31,10 @@
         "his father",
         "father, the old man",
         "the old man, father",
-        "the old man"
+        "the old man",
+        "your Fyodor Pavlovitch",
+        "father, his honor, the old man, your parent",
+        "father, old man"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -42,7 +45,10 @@
         "his father",
         "father, the old man",
         "the old man, father",
-        "the old man"
+        "the old man",
+        "your Fyodor Pavlovitch",
+        "father, his honor, the old man, your parent",
+        "father, old man"
       ],
       "spoilerFreeIntro": "A wealthy landowner known for his scandalous behavior and reputation in the district."
     },
@@ -54,7 +60,11 @@
         "Mitya",
         "Dmitri, Mitya",
         "Dmitri Fyodorovitch, Dmitri",
-        "brother"
+        "brother",
+        "your brother Dmitri Fyodorovitch",
+        "Dmitri, Mitya, your brother, brother",
+        "Dmitri; Mitya",
+        "the elder one; Alyosha's brother"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
@@ -64,7 +74,11 @@
         "Mitya",
         "Dmitri, Mitya",
         "Dmitri Fyodorovitch, Dmitri",
-        "brother"
+        "brother",
+        "your brother Dmitri Fyodorovitch",
+        "Dmitri, Mitya, your brother, brother",
+        "Dmitri; Mitya",
+        "the elder one; Alyosha's brother"
       ],
       "spoilerFreeIntro": "The passionate and impulsive eldest son of Fyodor Pavlovitch, born of his first marriage."
     },
@@ -73,14 +87,16 @@
       "name": "Ivan Fyodorovitch Karamazov",
       "aliases": [
         "Ivan",
-        "brother"
+        "brother",
+        "Ivan; brother Ivan"
       ],
       "type": "person",
       "firstSeenInChapter": 1,
       "searchTerms": [
         "Ivan Fyodorovitch Karamazov",
         "Ivan",
-        "brother"
+        "brother",
+        "Ivan; brother Ivan"
       ],
       "spoilerFreeIntro": "A quiet and intelligent young man, Ivan is the middle son of Fyodor Pavlovitch Karamazov."
     },
@@ -119,13 +135,15 @@
       "name": "Petersburg",
       "aliases": [
         "Petersburg",
-        "Petersburg, where Fyodor Pavlovitch's first wife died"
+        "Petersburg, where Fyodor Pavlovitch's first wife died",
+        "Petersburg, the city Varvara longs to return to"
       ],
       "type": "place",
       "firstSeenInChapter": 1,
       "searchTerms": [
         "Petersburg",
-        "Petersburg, where Fyodor Pavlovitch's first wife died"
+        "Petersburg, where Fyodor Pavlovitch's first wife died",
+        "Petersburg, the city Varvara longs to return to"
       ],
       "spoilerFreeIntro": "Petersburg, a bustling Russian city alive with new ideas and restless seekers of change."
     },
@@ -188,11 +206,14 @@
     "grigory": {
       "id": "grigory",
       "name": "Grigory",
-      "aliases": [],
+      "aliases": [
+        "Grigory Vassilyevitch"
+      ],
       "type": "person",
       "firstSeenInChapter": 2,
       "searchTerms": [
-        "Grigory"
+        "Grigory",
+        "Grigory Vassilyevitch"
       ],
       "spoilerFreeIntro": "A loyal and long-serving family servant, Grigory cares for the children with devoted attention."
     },
@@ -288,14 +309,18 @@
       "aliases": [
         "the river",
         "long, stinking pool",
-        "our stinking little river which runs at the bottom of the garden"
+        "our stinking little river which runs at the bottom of the garden",
+        "great navigable river",
+        "a great navigable river"
       ],
       "type": "place",
       "firstSeenInChapter": 2,
       "searchTerms": [
         "the river",
         "long, stinking pool",
-        "our stinking little river which runs at the bottom of the garden"
+        "our stinking little river which runs at the bottom of the garden",
+        "great navigable river",
+        "a great navigable river"
       ],
       "spoilerFreeIntro": "A quiet river winding through the estate, central to local disputes and rural life."
     },
@@ -375,7 +400,11 @@
         "Father Zossima",
         "the elder",
         "Father Zossima, the elder",
-        "your elder"
+        "your elder",
+        "elder",
+        "Father Zossima, the elder, teacher",
+        "elder Zossima",
+        "I, me, myself (as narrator of the recollections)"
       ],
       "type": "person",
       "firstSeenInChapter": 4,
@@ -385,7 +414,10 @@
         "Father Zossima",
         "the elder",
         "Father Zossima, the elder",
-        "your elder"
+        "your elder",
+        "elder",
+        "Father Zossima, the elder, teacher",
+        "I, me, myself (as narrator of the recollections)"
       ],
       "spoilerFreeIntro": "The elder Zossima is a wise and revered monk living in the monastery hermitage."
     },
@@ -464,11 +496,14 @@
     "russia": {
       "id": "russia",
       "name": "Russia",
-      "aliases": [],
+      "aliases": [
+        "holy Russia"
+      ],
       "type": "place",
       "firstSeenInChapter": 5,
       "searchTerms": [
-        "Russia"
+        "Russia",
+        "holy Russia"
       ],
       "spoilerFreeIntro": "A vast and varied nation, stretching across Europe and Asia, with unique customs and spiritual traditions."
     },
@@ -564,13 +599,15 @@
       "id": "christ",
       "name": "Christ",
       "aliases": [
-        "Our Lord Jesus Christ"
+        "Our Lord Jesus Christ",
+        "He/The Prisoner"
       ],
       "type": "person",
       "firstSeenInChapter": 5,
       "searchTerms": [
         "Christ",
-        "Our Lord Jesus Christ"
+        "Our Lord Jesus Christ",
+        "He/The Prisoner"
       ],
       "spoilerFreeIntro": "A Christian novice, eager to prove his faith, leaves his Syrian monastery for Egypt to seek spiritual guidance."
     },
@@ -590,7 +627,8 @@
       "name": "God",
       "aliases": [
         "God Himself",
-        "the Creator"
+        "the Creator",
+        "God"
       ],
       "type": "person",
       "firstSeenInChapter": 5,
@@ -641,11 +679,16 @@
     "the_hermitage": {
       "id": "the_hermitage",
       "name": "the hermitage",
-      "aliases": [],
+      "aliases": [
+        "the hermitage, hermitage copse",
+        "hermitage copse"
+      ],
       "type": "place",
       "firstSeenInChapter": 5,
       "searchTerms": [
-        "the hermitage"
+        "the hermitage",
+        "the hermitage, hermitage copse",
+        "hermitage copse"
       ],
       "spoilerFreeIntro": "A secluded religious dwelling where the elder lives and receives crowds of pilgrims seeking his blessing."
     },
@@ -1037,13 +1080,17 @@
       "id": "the_virgin",
       "name": "the Virgin",
       "aliases": [
-        "Virgin"
+        "Virgin",
+        "Our Lady",
+        "Our Lady; the Queen of Heaven"
       ],
       "type": "person",
       "firstSeenInChapter": 7,
       "searchTerms": [
         "the Virgin",
-        "Virgin"
+        "Virgin",
+        "Our Lady",
+        "Our Lady; the Queen of Heaven"
       ],
       "spoilerFreeIntro": "The Virgin is depicted as a revered figure in an old icon, before which a lamp silently burns in the corner of the room."
     },
@@ -1346,13 +1393,15 @@
       "id": "woman_from_vyshegorye",
       "name": "woman from Vyshegorye",
       "aliases": [
-        "healthy peasant woman with a baby"
+        "healthy peasant woman with a baby",
+        "good woman from Vishegorye"
       ],
       "type": "person",
       "firstSeenInChapter": 8,
       "searchTerms": [
         "woman from Vyshegorye",
-        "healthy peasant woman with a baby"
+        "healthy peasant woman with a baby",
+        "good woman from Vishegorye"
       ]
     },
     "vyshegorye": {
@@ -1373,13 +1422,15 @@
       "id": "lizaveta",
       "name": "Lizaveta",
       "aliases": [
-        "peasant woman's little girl/babe"
+        "peasant woman's little girl/babe",
+        "little Lizaveta"
       ],
       "type": "person",
       "firstSeenInChapter": 8,
       "searchTerms": [
         "Lizaveta",
-        "peasant woman's little girl/babe"
+        "peasant woman's little girl/babe",
+        "little Lizaveta"
       ],
       "spoilerFreeIntro": "A tiny infant, Lizaveta is the beloved daughter of Grushenka, tenderly introduced to the visiting priest."
     },
@@ -1404,12 +1455,18 @@
       "id": "doctor_herzenstube",
       "name": "Doctor Herzenstube",
       "aliases": [
-        "Doctor Herzenstube"
+        "Doctor Herzenstube",
+        "Herzenstube, the doctor here",
+        "Herzenstube",
+        "the doctor here; Herzenstube"
       ],
       "type": "person",
       "firstSeenInChapter": 9,
       "searchTerms": [
-        "Doctor Herzenstube"
+        "Doctor Herzenstube",
+        "Herzenstube, the doctor here",
+        "Herzenstube",
+        "the doctor here; Herzenstube"
       ],
       "spoilerFreeIntro": "An elderly and compassionate German doctor, known for his long service in the town."
     },
@@ -1580,14 +1637,18 @@
       "name": "Smerdyakov",
       "aliases": [
         "Pavel Fyodorovitch (son of Fyodor), later called Smerdyakov",
-        "the valet"
+        "the valet",
+        "the valet, the valet Smerdyakov, the contemplative, soup-maker",
+        "the valet Smerdyakov; the contemplative"
       ],
       "type": "person",
       "firstSeenInChapter": 11,
       "searchTerms": [
         "Smerdyakov",
         "Pavel Fyodorovitch (son of Fyodor), later called Smerdyakov",
-        "the valet"
+        "the valet",
+        "the valet, the valet Smerdyakov, the contemplative, soup-maker",
+        "the valet Smerdyakov; the contemplative"
       ],
       "spoilerFreeIntro": "Smerdyakov, the enigmatic valet in Fyodor Pavlovitch’s household, enters the scene with an air of quiet reserve."
     },
@@ -1694,7 +1755,8 @@
         "the captain who got into trouble; agent of Fyodor Pavlovitch Karamazov",
         "the captain, father’s agent",
         "that captain, discharged officer, Snegiryov",
-        "Captain Snegiryov"
+        "Captain Snegiryov",
+        "the poor officer"
       ],
       "type": "person",
       "firstSeenInChapter": 11,
@@ -1703,7 +1765,8 @@
         "the captain who got into trouble; agent of Fyodor Pavlovitch Karamazov",
         "the captain, father’s agent",
         "that captain, discharged officer, Snegiryov",
-        "Captain Snegiryov"
+        "Captain Snegiryov",
+        "the poor officer"
       ]
     },
     "the_enchantress": {
@@ -1715,7 +1778,10 @@
         "that rogue Grushenka",
         "the enchantress",
         "Grushenka, Agrafena Alexandrovna",
-        "that—creature (by Katerina Ivanovna),"
+        "that—creature (by Katerina Ivanovna),",
+        "Agrafena Alexandrovna",
+        "Grushenka, the creature, his lady, mistress here, your angel Grushenka, little chicken, she",
+        "she (expected visitor); the incorrigible old man's heart throbbed with excitement"
       ],
       "type": "person",
       "firstSeenInChapter": 11,
@@ -1725,7 +1791,10 @@
         "Grushenka",
         "that rogue Grushenka",
         "Grushenka, Agrafena Alexandrovna",
-        "that—creature (by Katerina Ivanovna),"
+        "that—creature (by Katerina Ivanovna),",
+        "Agrafena Alexandrovna",
+        "Grushenka, the creature, his lady, mistress here, your angel Grushenka, little chicken, she",
+        "she (expected visitor); the incorrigible old man's heart throbbed with excitement"
       ]
     },
     "the_betrothedangel_of_dmitris_heart": {
@@ -1734,7 +1803,8 @@
       "aliases": [
         "the honorable young lady, daughter of a colonel, betrothed to Dmitri",
         "Katya",
-        "Dmitri Fyodorovitch’s betrothed"
+        "Dmitri Fyodorovitch’s betrothed",
+        "his betrothed, noble-hearted girl"
       ],
       "type": "person",
       "firstSeenInChapter": 11,
@@ -1742,7 +1812,8 @@
         "the betrothed/angel of Dmitri's heart",
         "the honorable young lady, daughter of a colonel, betrothed to Dmitri",
         "Katya",
-        "Dmitri Fyodorovitch’s betrothed"
+        "Dmitri Fyodorovitch’s betrothed",
+        "his betrothed, noble-hearted girl"
       ]
     },
     "ladies_gathering": {
@@ -1876,14 +1947,16 @@
       "name": "parricide accusation",
       "aliases": [
         "scene where Fyodor Pavlovitch calls Dmitri a parricide",
-        "murder (potential, hypothetical) of the father"
+        "murder (potential, hypothetical) of the father",
+        "being taken as an accomplice, when he does something crazy to his father"
       ],
       "type": "event",
       "firstSeenInChapter": 11,
       "searchTerms": [
         "parricide accusation",
         "scene where Fyodor Pavlovitch calls Dmitri a parricide",
-        "murder (potential, hypothetical) of the father"
+        "murder (potential, hypothetical) of the father",
+        "being taken as an accomplice, when he does something crazy to his father"
       ]
     },
     "schillers_robbers": {
@@ -1905,13 +1978,17 @@
       "id": "porfiry",
       "name": "Porfiry",
       "aliases": [
-        "the novice Porfiry"
+        "the novice Porfiry",
+        "the novice",
+        "the novice, Porfiry"
       ],
       "type": "person",
       "firstSeenInChapter": 12,
       "searchTerms": [
         "Porfiry",
-        "the novice Porfiry"
+        "the novice Porfiry",
+        "the novice",
+        "the novice, Porfiry"
       ],
       "spoilerFreeIntro": "Porfiry, a servant in the monastery, stands quietly by, ready to assist as needed."
     },
@@ -1921,7 +1998,9 @@
       "aliases": [
         "old merchant, provincial mayor",
         "her old merchant",
-        "old merchant, her protector"
+        "old merchant, her protector",
+        "her merchant, merchant, her protector",
+        "her merchant"
       ],
       "type": "person",
       "firstSeenInChapter": 12,
@@ -1929,7 +2008,9 @@
         "Samsonov",
         "old merchant, provincial mayor",
         "her old merchant",
-        "old merchant, her protector"
+        "old merchant, her protector",
+        "her merchant, merchant, her protector",
+        "her merchant"
       ],
       "spoilerFreeIntro": "Samsonov is a coarse and uneducated old provincial merchant, known for his wealth and connection to Grushenka."
     },
@@ -1991,13 +2072,15 @@
       "id": "neva",
       "name": "Neva",
       "aliases": [
-        "the Neva"
+        "the Neva",
+        "the banks of the Neva"
       ],
       "type": "place",
       "firstSeenInChapter": 12,
       "searchTerms": [
         "Neva",
-        "the Neva"
+        "the Neva",
+        "the banks of the Neva"
       ],
       "spoilerFreeIntro": "The Neva, the great river flowing through Petersburg, glimmers as a central feature of the city’s landscape."
     },
@@ -2020,7 +2103,8 @@
       "name": "Marfa Ignatyevna",
       "aliases": [
         "Marfa, Marfa Ignatyevna, Grigory's wife",
-        "Marfa"
+        "Marfa",
+        "Marfa Ignatyevna"
       ],
       "type": "person",
       "firstSeenInChapter": 14,
@@ -2056,7 +2140,9 @@
         "Fyodor Pavlovitch's house",
         "his father's house",
         "father’s house",
-        "the house"
+        "the house",
+        "Fyodor Pavlovitch’s house, my father’s house",
+        "Fyodor Pavlovitch's house; the Karamazovs’ house"
       ],
       "type": "place",
       "firstSeenInChapter": 14,
@@ -2065,7 +2151,9 @@
         "Fyodor Pavlovitch's house",
         "his father's house",
         "father’s house",
-        "the house"
+        "the house",
+        "Fyodor Pavlovitch’s house, my father’s house",
+        "Fyodor Pavlovitch's house; the Karamazovs’ house"
       ],
       "spoilerFreeIntro": "A pleasant old two-story house, painted gray with a red roof, on the outskirts of town where the Karamazov family lives."
     },
@@ -2121,13 +2209,15 @@
       "name": "the town",
       "aliases": [
         "the town",
-        "where Katerina stayed six weeks and where events occurred"
+        "where Katerina stayed six weeks and where events occurred",
+        "the dark alleys of the town; the town"
       ],
       "type": "place",
       "firstSeenInChapter": 14,
       "searchTerms": [
         "the town",
-        "where Katerina stayed six weeks and where events occurred"
+        "where Katerina stayed six weeks and where events occurred",
+        "the dark alleys of the town; the town"
       ],
       "spoilerFreeIntro": "A provincial Russian town, quiet and old-fashioned, where the Karamazovs live."
     },
@@ -2135,13 +2225,15 @@
       "id": "the_book_of_job",
       "name": "the Book of Job",
       "aliases": [
-        "Book of Job"
+        "Book of Job",
+        "Scripture reading, story of Job"
       ],
       "type": "event",
       "firstSeenInChapter": 14,
       "searchTerms": [
         "the Book of Job",
-        "Book of Job"
+        "Book of Job",
+        "Scripture reading, story of Job"
       ],
       "spoilerFreeIntro": "An ancient Hebrew text from the Bible, often read for its reflections on suffering and faith."
     },
@@ -2242,12 +2334,16 @@
       "id": "the_devil",
       "name": "the devil",
       "aliases": [
-        "the devil"
+        "the devil",
+        "wise and dread spirit / dread spirit / tempter",
+        "the wise and dread spirit; spirit of self‐destruction and non‐ existence; the great spirit; wise and mighty spirit; tempter"
       ],
       "type": "person",
       "firstSeenInChapter": 16,
       "searchTerms": [
-        "the devil"
+        "the devil",
+        "wise and dread spirit / dread spirit / tempter",
+        "the wise and dread spirit; spirit of self‐destruction and non‐ existence; the great spirit; wise and mighty spirit; tempter"
       ],
       "spoilerFreeIntro": "A figure symbolizing temptation and evil, invoked in moments of inner conflict and spiritual struggle."
     },
@@ -2998,11 +3094,14 @@
     "the_general": {
       "id": "the_general",
       "name": "the general",
-      "aliases": [],
+      "aliases": [
+        "our general, relative of my adversary"
+      ],
       "type": "person",
       "firstSeenInChapter": 17,
       "searchTerms": [
-        "the general"
+        "the general",
+        "our general, relative of my adversary"
       ],
       "spoilerFreeIntro": "An imposing and respected military officer, known for his strict sense of honor and discipline."
     },
@@ -3147,13 +3246,15 @@
       "id": "the_backalley",
       "name": "the back-alley",
       "aliases": [
-        "the back‐alley"
+        "the back‐alley",
+        "back‐alley"
       ],
       "type": "place",
       "firstSeenInChapter": 18,
       "searchTerms": [
         "the back-alley",
-        "the back‐alley"
+        "the back‐alley",
+        "back‐alley"
       ],
       "spoilerFreeIntro": "A narrow, shadowy lane in town, known for its unsavory reputation."
     },
@@ -3592,14 +3693,18 @@
       "name": "Mother of God",
       "aliases": [
         "the Mother of God (image referenced by Fyodor Pavlovitch; icon, not an arrival)",
-        "Image of the Mother of God"
+        "Image of the Mother of God",
+        "the Holy Mother of God, our swift defender and helper",
+        "Holy Mother of God, our swift defender and helper"
       ],
       "type": "person",
       "firstSeenInChapter": 22,
       "searchTerms": [
         "Mother of God",
         "the Mother of God (image referenced by Fyodor Pavlovitch; icon, not an arrival)",
-        "Image of the Mother of God"
+        "Image of the Mother of God",
+        "the Holy Mother of God, our swift defender and helper",
+        "Holy Mother of God, our swift defender and helper"
       ],
       "spoilerFreeIntro": "An elderly woman revered for her deep faith and humility."
     },
@@ -3624,13 +3729,15 @@
       "id": "the_fence",
       "name": "the fence",
       "aliases": [
-        "the fence (Alyosha mentions seeing Grushenka by the fence from the lane; not in master list as a unique place to persist)"
+        "the fence (Alyosha mentions seeing Grushenka by the fence from the lane; not in master list as a unique place to persist)",
+        "hurdle"
       ],
       "type": "place",
       "firstSeenInChapter": 22,
       "searchTerms": [
         "the fence",
-        "the fence (Alyosha mentions seeing Grushenka by the fence from the lane; not in master list as a unique place to persist)"
+        "the fence (Alyosha mentions seeing Grushenka by the fence from the lane; not in master list as a unique place to persist)",
+        "hurdle"
       ],
       "spoilerFreeIntro": "A wooden barrier marking the boundary between the lane and the garden."
     },
@@ -3692,7 +3799,8 @@
       "aliases": [
         "Dmitri attacks, beats his father",
         "You almost killed him—cursed him",
-        "what he did yesterday"
+        "what he did yesterday",
+        "beating of his father by Dmitri, what he did yesterday"
       ],
       "type": "event",
       "firstSeenInChapter": 22,
@@ -3700,20 +3808,23 @@
         "attack on Fyodor Pavlovitch by Dmitri",
         "Dmitri attacks, beats his father",
         "You almost killed him—cursed him",
-        "what he did yesterday"
+        "what he did yesterday",
+        "beating of his father by Dmitri, what he did yesterday"
       ]
     },
     "insult_to_grigory_by_dmitri": {
       "id": "insult_to_grigory_by_dmitri",
       "name": "insult to Grigory by Dmitri",
       "aliases": [
-        "Dmitri strikes Grigory"
+        "Dmitri strikes Grigory",
+        "Fyodor Pavlovitch said very truly yesterday"
       ],
       "type": "event",
       "firstSeenInChapter": 22,
       "searchTerms": [
         "insult to Grigory by Dmitri",
-        "Dmitri strikes Grigory"
+        "Dmitri strikes Grigory",
+        "Fyodor Pavlovitch said very truly yesterday"
       ]
     },
     "maid_at_katerina_ivanovnas": {
@@ -3735,14 +3846,16 @@
       "name": "the aunts of Katerina Ivanovna",
       "aliases": [
         "her two aunts",
-        "her aunts"
+        "her aunts",
+        "the aunts"
       ],
       "type": "person",
       "firstSeenInChapter": 23,
       "searchTerms": [
         "the aunts of Katerina Ivanovna",
         "her two aunts",
-        "her aunts"
+        "her aunts",
+        "the aunts"
       ]
     },
     "maid_second_appears_at_the_end": {
@@ -3776,14 +3889,16 @@
       "name": "death of Father Zossima",
       "aliases": [
         "Father Zossima's dying/illness",
-        "He may die to-day"
+        "He may die to-day",
+        "Father Zossima's dying"
       ],
       "type": "event",
       "firstSeenInChapter": 24,
       "searchTerms": [
         "death of Father Zossima",
         "Father Zossima's dying/illness",
-        "He may die to-day"
+        "He may die to-day",
+        "Father Zossima's dying"
       ]
     },
     "father_ferapont": {
@@ -4064,11 +4179,14 @@
     "lake_street": {
       "id": "lake_street",
       "name": "Lake Street",
-      "aliases": [],
+      "aliases": [
+        "Dmitri's lodging in Lake Street"
+      ],
       "type": "place",
       "firstSeenInChapter": 29,
       "searchTerms": [
-        "Lake Street"
+        "Lake Street",
+        "Dmitri's lodging in Lake Street"
       ],
       "spoilerFreeIntro": "A central thoroughfare in the town, lined with houses and home to various townsfolk."
     },
@@ -4123,13 +4241,17 @@
       "id": "arina_petrovna",
       "name": "Arina Petrovna",
       "aliases": [
-        "the captain's wife (referred to as a cripple, mad woman)"
+        "the captain's wife (referred to as a cripple, mad woman)",
+        "mamma",
+        "mamma, Ilusha's mother"
       ],
       "type": "person",
       "firstSeenInChapter": 30,
       "searchTerms": [
         "Arina Petrovna",
-        "the captain's wife (referred to as a cripple, mad woman)"
+        "the captain's wife (referred to as a cripple, mad woman)",
+        "mamma",
+        "mamma, Ilusha's mother"
       ],
       "spoilerFreeIntro": "Arina Petrovna, a woman of humble origin and limited mobility, is introduced as the wife of the household’s master."
     },
@@ -4137,13 +4259,15 @@
       "id": "nina",
       "name": "Nina",
       "aliases": [
-        "crippled, hunchbacked daughter of the captain"
+        "crippled, hunchbacked daughter of the captain",
+        "Nina, hunchback daughter"
       ],
       "type": "person",
       "firstSeenInChapter": 30,
       "searchTerms": [
         "Nina",
-        "crippled, hunchbacked daughter of the captain"
+        "crippled, hunchbacked daughter of the captain",
+        "Nina, hunchback daughter"
       ],
       "spoilerFreeIntro": "A gentle and angelic young woman, Nina is introduced as the daughter of the speaker."
     },
@@ -4165,13 +4289,16 @@
       "id": "the_metropolis",
       "name": "The Metropolis",
       "aliases": [
-        "the tavern where captain suggests Dmitri might go on his knees"
+        "the tavern where captain suggests Dmitri might go on his knees",
+        "The Metropolis",
+        "The Metropolis tavern"
       ],
       "type": "place",
       "firstSeenInChapter": 30,
       "searchTerms": [
         "The Metropolis",
-        "the tavern where captain suggests Dmitri might go on his knees"
+        "the tavern where captain suggests Dmitri might go on his knees",
+        "The Metropolis tavern"
       ]
     },
     "the_deacons_wife": {
@@ -4280,7 +4407,3071 @@
         "elderly daughter of the landlady, also deaf"
       ],
       "spoilerFreeIntro": "The old daughter, seemingly deaf like her mother, lives quietly beside her in the house."
+    },
+    "ilusha": {
+      "id": "ilusha",
+      "name": "Ilusha",
+      "aliases": [
+        "the captain's son; Ilusha"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 31,
+      "searchTerms": [
+        "Ilusha",
+        "the captain's son; Ilusha"
+      ],
+      "spoilerFreeIntro": "A kind-hearted schoolboy, Ilusha is the devoted son of Captain Snegiryov."
+    },
+    "the_mansion": {
+      "id": "the_mansion",
+      "name": "the mansion",
+      "aliases": [
+        "our mansion"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 31,
+      "searchTerms": [
+        "the mansion",
+        "our mansion"
+      ],
+      "spoilerFreeIntro": "A grand but somber family estate inhabited by three very different women."
+    },
+    "the_school": {
+      "id": "the_school",
+      "name": "the school",
+      "aliases": [
+        "school"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 31,
+      "searchTerms": [
+        "the school",
+        "school"
+      ],
+      "spoilerFreeIntro": "A local school frequently mentioned in town, often attended by mischievous boys who give nicknames and stir up small-town gossip."
+    },
+    "the_pasturestone_under_the_hurdle": {
+      "id": "the_pasturestone_under_the_hurdle",
+      "name": "the pasture/stone under the hurdle",
+      "aliases": [
+        "great stone which lies alone in the road under the hurdle"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 31,
+      "searchTerms": [
+        "the pasture/stone under the hurdle",
+        "great stone which lies alone in the road under the hurdle"
+      ],
+      "spoilerFreeIntro": "A large, solitary stone lying beneath a fence at the edge of the town pasture."
+    },
+    "province_k": {
+      "id": "province_k",
+      "name": "Province K.",
+      "aliases": [
+        "K. province",
+        "town of K; our town"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 31,
+      "searchTerms": [
+        "Province K.",
+        "K. province",
+        "town of K; our town"
+      ],
+      "spoilerFreeIntro": "A remote Russian province where the unnamed narrator considers seeking employment."
+    },
+    "the_letter_from_lise": {
+      "id": "the_letter_from_lise",
+      "name": "the letter from Lise",
+      "aliases": [
+        "the letter"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 32,
+      "searchTerms": [
+        "the letter from Lise",
+        "the letter"
+      ],
+      "spoilerFreeIntro": "A personal letter written by Lise, whose contents reveal her feelings and have a significant emotional impact on the characters."
+    },
+    "sorrow_from_wit": {
+      "id": "sorrow_from_wit",
+      "name": "Sorrow from Wit",
+      "aliases": [
+        "Sorrow from Wit (play)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 32,
+      "searchTerms": [
+        "Sorrow from Wit",
+        "Sorrow from Wit (play)"
+      ],
+      "spoilerFreeIntro": "An elderly Moscow nobleman, Famusov is Sofya's father and the head of the household whose beliefs reflect traditional society."
+    },
+    "famusov": {
+      "id": "famusov",
+      "name": "Famusov",
+      "aliases": [
+        "Famusov (character from Sorrow from Wit)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 32,
+      "searchTerms": [
+        "Famusov",
+        "Famusov (character from Sorrow from Wit)"
+      ],
+      "spoilerFreeIntro": "A character from Russian literature, Famusov is a distinguished, traditional gentleman from the play _Sorrow from Wit_."
+    },
+    "tchatsky": {
+      "id": "tchatsky",
+      "name": "Tchatsky",
+      "aliases": [
+        "Tchatsky (character from Sorrow from Wit)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 32,
+      "searchTerms": [
+        "Tchatsky",
+        "Tchatsky (character from Sorrow from Wit)"
+      ],
+      "spoilerFreeIntro": "A witty and outspoken young man known for his sharp intellect and independent views."
+    },
+    "sofya": {
+      "id": "sofya",
+      "name": "Sofya",
+      "aliases": [
+        "Sofya (character from Sorrow from Wit)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 32,
+      "searchTerms": [
+        "Sofya",
+        "Sofya (character from Sorrow from Wit)"
+      ],
+      "spoilerFreeIntro": "A young woman whose emotions and loyalties are keenly observed by those around her."
+    },
+    "marya_kondratyevna": {
+      "id": "marya_kondratyevna",
+      "name": "Marya Kondratyevna",
+      "aliases": [
+        "the daughter of the house, the young woman in the blue dress",
+        "the daughter of the house; woman with blue dress and train"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 33,
+      "searchTerms": [
+        "Marya Kondratyevna",
+        "the daughter of the house, the young woman in the blue dress",
+        "the daughter of the house; woman with blue dress and train"
+      ],
+      "spoilerFreeIntro": "A middle-aged, insinuating woman, Marya Kondratyevna is quick to join in conversation with keen curiosity."
+    },
+    "napoleon": {
+      "id": "napoleon",
+      "name": "Napoleon",
+      "aliases": [
+        "Napoleon, first Emperor of the French",
+        "Emperor Napoleon"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 33,
+      "searchTerms": [
+        "Napoleon",
+        "Napoleon, first Emperor of the French",
+        "Emperor Napoleon"
+      ],
+      "spoilerFreeIntro": "Napoleon, the first Emperor of the French, is mentioned as a powerful and influential historical figure."
+    },
+    "petrovka": {
+      "id": "petrovka",
+      "name": "Petrovka",
+      "aliases": [
+        "Petrovka, in Moscow"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 33,
+      "searchTerms": [
+        "Petrovka",
+        "Petrovka, in Moscow"
+      ],
+      "spoilerFreeIntro": "A lively district in Moscow known for its busy streets and local businesses."
+    },
+    "the_french": {
+      "id": "the_french",
+      "name": "the French",
+      "aliases": [
+        "the present emperor (Napoleon's son, mentioned)",
+        "father of the present emperor"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 33,
+      "searchTerms": [
+        "the French",
+        "the present emperor (Napoleon's son, mentioned)",
+        "father of the present emperor"
+      ],
+      "spoilerFreeIntro": "The French are introduced as a clever and formidable nation, once led by the ambitious Emperor Napoleon."
+    },
+    "catastrophe_alyoshas_foreboding": {
+      "id": "catastrophe_alyoshas_foreboding",
+      "name": "catastrophe (Alyosha's foreboding)",
+      "aliases": [
+        "inevitable catastrophe about to happen",
+        "great inevitable catastrophe"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 33,
+      "searchTerms": [
+        "catastrophe (Alyosha's foreboding)",
+        "inevitable catastrophe about to happen",
+        "great inevitable catastrophe"
+      ]
+    },
+    "threats_against_smerdyakov_by_dmitri": {
+      "id": "threats_against_smerdyakov_by_dmitri",
+      "name": "threats against Smerdyakov (by Dmitri)",
+      "aliases": [
+        "Dmitri threatens Smerdyakov",
+        "threats by Dmitri, ‘I’ll kill you, you rogue’",
+        "Twice already he's threatened me with death"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 33,
+      "searchTerms": [
+        "threats against Smerdyakov (by Dmitri)",
+        "Dmitri threatens Smerdyakov",
+        "threats by Dmitri, ‘I’ll kill you, you rogue’",
+        "Twice already he's threatened me with death"
+      ]
+    },
+    "duel": {
+      "id": "duel",
+      "name": "duel",
+      "aliases": [
+        "a duel/vivid discussion of duels for ladies"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 33,
+      "searchTerms": [
+        "duel",
+        "a duel/vivid discussion of duels for ladies"
+      ],
+      "spoilerFreeIntro": "A formal, often deadly, contest of honor between two individuals, typically fought with pistols or swords."
+    },
+    "cain": {
+      "id": "cain",
+      "name": "Cain",
+      "aliases": [
+        "Cain"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 34,
+      "searchTerms": [
+        "Cain"
+      ],
+      "spoilerFreeIntro": "Cain, the biblical figure infamous for becoming the first murderer, serves here as a symbol of fraternal guilt."
+    },
+    "retired_military_man_in_tavern": {
+      "id": "retired_military_man_in_tavern",
+      "name": "retired military man in tavern",
+      "aliases": [
+        "old retired military man drinking tea",
+        "old retired military man drinking tea in a corner"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 34,
+      "searchTerms": [
+        "retired military man in tavern",
+        "old retired military man drinking tea",
+        "old retired military man drinking tea in a corner"
+      ]
+    },
+    "waiters": {
+      "id": "waiters",
+      "name": "waiters",
+      "aliases": [
+        "waiters in the tavern"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 34,
+      "searchTerms": [
+        "waiters",
+        "waiters in the tavern"
+      ],
+      "spoilerFreeIntro": "Waiters, busy and attentive, move quickly through the room, serving the needs of the guests."
+    },
+    "russian_boys": {
+      "id": "russian_boys",
+      "name": "Russian boys",
+      "aliases": [
+        "Russian boys"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 34,
+      "searchTerms": [
+        "Russian boys"
+      ],
+      "spoilerFreeIntro": "A group of young Russian boys, gathered quietly in a corner of the tavern."
+    },
+    "russian_professors": {
+      "id": "russian_professors",
+      "name": "Russian professors",
+      "aliases": [
+        "Russian professors"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 34,
+      "searchTerms": [
+        "Russian professors"
+      ],
+      "spoilerFreeIntro": "A group of young-spirited Russian professors, more like their students than strict teachers."
+    },
+    "euclid": {
+      "id": "euclid",
+      "name": "Euclid",
+      "aliases": [
+        "Euclid"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 34,
+      "searchTerms": [
+        "Euclid"
+      ],
+      "spoilerFreeIntro": "A renowned ancient Greek mathematician, famed for his work in geometry."
+    },
+    "the_word": {
+      "id": "the_word",
+      "name": "the Word",
+      "aliases": [
+        "the Word to Which the universe is striving"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 34,
+      "searchTerms": [
+        "the Word",
+        "the Word to Which the universe is striving"
+      ],
+      "spoilerFreeIntro": "A mysterious concept, the Word is alluded to as a divine principle at the heart of the universe."
+    },
+    "the_tavern": {
+      "id": "the_tavern",
+      "name": "the tavern",
+      "aliases": [
+        "tavern, in which Ivan meets Alyosha"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 34,
+      "searchTerms": [
+        "the tavern",
+        "tavern, in which Ivan meets Alyosha"
+      ],
+      "spoilerFreeIntro": "A lively tavern filled with noise, games, and the bustle of its patrons."
+    },
+    "conversation_between_ivan_and_alyosha_at_the_tavern": {
+      "id": "conversation_between_ivan_and_alyosha_at_the_tavern",
+      "name": "conversation between Ivan and Alyosha at the tavern",
+      "aliases": [
+        "this meeting in the tavern"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 34,
+      "searchTerms": [
+        "conversation between Ivan and Alyosha at the tavern",
+        "this meeting in the tavern"
+      ]
+    },
+    "ivans_confession_of_his_creed": {
+      "id": "ivans_confession_of_his_creed",
+      "name": "Ivan's confession of his 'creed'",
+      "aliases": [
+        "Ivan's philosophical confession to Alyosha"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 34,
+      "searchTerms": [
+        "Ivan's confession of his 'creed'",
+        "Ivan's philosophical confession to Alyosha"
+      ]
+    },
+    "ivans_breakup_with_katerina_ivanovna": {
+      "id": "ivans_breakup_with_katerina_ivanovna",
+      "name": "Ivan's break-up with Katerina Ivanovna",
+      "aliases": [
+        "Ivan breaking off with Katerina Ivanovna",
+        "Ivan's business with Katerina Ivanovna"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 34,
+      "searchTerms": [
+        "Ivan's break-up with Katerina Ivanovna",
+        "Ivan breaking off with Katerina Ivanovna",
+        "Ivan's business with Katerina Ivanovna"
+      ]
+    },
+    "alyoshas_visit_to_smerdyakov_earlier": {
+      "id": "alyoshas_visit_to_smerdyakov_earlier",
+      "name": "Alyosha's visit to Smerdyakov earlier",
+      "aliases": [
+        "Alyosha's meeting with Smerdyakov"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 34,
+      "searchTerms": [
+        "Alyosha's visit to Smerdyakov earlier",
+        "Alyosha's meeting with Smerdyakov"
+      ]
+    },
+    "john_the_merciful": {
+      "id": "john_the_merciful",
+      "name": "John the Merciful",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "John the Merciful"
+      ],
+      "spoilerFreeIntro": "John the Merciful, a saint renowned for his compassion and generosity toward the needy."
+    },
+    "polonius": {
+      "id": "polonius",
+      "name": "Polonius",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "Polonius"
+      ],
+      "spoilerFreeIntro": "A verbose and meddlesome courtier in Shakespeare's _Hamlet_."
+    },
+    "richard": {
+      "id": "richard",
+      "name": "Richard",
+      "aliases": [
+        "murderer executed in Geneva"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "Richard",
+        "murderer executed in Geneva"
+      ],
+      "spoilerFreeIntro": "A young man of about twenty-three, known for a recent and well-publicized execution in France, whose repentance at the scaffold is remembered."
+    },
+    "the_prodigal_son": {
+      "id": "the_prodigal_son",
+      "name": "the Prodigal Son",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "the Prodigal Son"
+      ],
+      "spoilerFreeIntro": "A once-privileged young man who has fallen into poverty and now suffers hunger and rejection."
+    },
+    "nekrassov": {
+      "id": "nekrassov",
+      "name": "Nekrassov",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "Nekrassov"
+      ],
+      "spoilerFreeIntro": "A Russian writer, Nekrassov is known for his vivid and compassionate depictions of peasant life and suffering."
+    },
+    "the_karamazovs": {
+      "id": "the_karamazovs",
+      "name": "the Karamazovs",
+      "aliases": [
+        "the Karamazovs",
+        "the Karamazovs; Karamazov baseness; strength of the Karamazovs"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 32,
+      "searchTerms": [
+        "the Karamazovs",
+        "the Karamazovs; Karamazov baseness; strength of the Karamazovs"
+      ],
+      "spoilerFreeIntro": "The Karamazovs are a passionate and tumultuous family known for their intense emotions and unpredictable natures."
+    },
+    "the_turks": {
+      "id": "the_turks",
+      "name": "the Turks",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "the Turks"
+      ],
+      "spoilerFreeIntro": "A people from a distant land, known for their distinct customs and foreign ways."
+    },
+    "the_circassians": {
+      "id": "the_circassians",
+      "name": "the Circassians",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "the Circassians"
+      ]
+    },
+    "the_slavs": {
+      "id": "the_slavs",
+      "name": "the Slavs",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "the Slavs"
+      ],
+      "spoilerFreeIntro": "A collective group of people living in Bulgaria, known for their shared Slavic heritage and customs."
+    },
+    "a_criminal_in_prison_burglar": {
+      "id": "a_criminal_in_prison_burglar",
+      "name": "a criminal in prison (burglar)",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "a criminal in prison (burglar)"
+      ]
+    },
+    "the_general_aristocratic_landowner_story_of_the_hound_and_child": {
+      "id": "the_general_aristocratic_landowner_story_of_the_hound_and_child",
+      "name": "the general (aristocratic landowner, story of the hound and child)",
+      "aliases": [
+        "a general of aristocratic connections, the owner of great estates"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "the general (aristocratic landowner, story of the hound and child)",
+        "a general of aristocratic connections, the owner of great estates"
+      ],
+      "spoilerFreeIntro": "A distinguished general of noble birth and vast estates, known for his commanding presence and storied past."
+    },
+    "the_mother_of_the_child_torn_by_dogs": {
+      "id": "the_mother_of_the_child_torn_by_dogs",
+      "name": "the mother of the child (torn by dogs)",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "the mother of the child (torn by dogs)"
+      ]
+    },
+    "dogboys": {
+      "id": "dogboys",
+      "name": "Dog-boys",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "Dog-boys"
+      ]
+    },
+    "geneva": {
+      "id": "geneva",
+      "name": "Geneva",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "Geneva"
+      ],
+      "spoilerFreeIntro": "A city in Switzerland where the savage sought work and struggled to survive."
+    },
+    "bulgaria": {
+      "id": "bulgaria",
+      "name": "Bulgaria",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "Bulgaria"
+      ],
+      "spoilerFreeIntro": "A distant country in Eastern Europe, often mentioned for its troubled state and recent sufferings."
+    },
+    "switzerland": {
+      "id": "switzerland",
+      "name": "Switzerland",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "Switzerland"
+      ]
+    },
+    "russian_antiquities_collectionbook": {
+      "id": "russian_antiquities_collectionbook",
+      "name": "Russian antiquities (collection/book)",
+      "aliases": [
+        "collection of Russian antiquities (source of anecdote)",
+        "some collection of Russian antiquities"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "Russian antiquities (collection/book)",
+        "collection of Russian antiquities (source of anecdote)",
+        "some collection of Russian antiquities"
+      ],
+      "spoilerFreeIntro": "A collection or book mentioned by a character, containing curious stories from Russia’s past."
+    },
+    "hamlet": {
+      "id": "hamlet",
+      "name": "Hamlet",
+      "aliases": [
+        "the play Hamlet"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "Hamlet",
+        "the play Hamlet"
+      ],
+      "spoilerFreeIntro": "A counselor to the king in Denmark, known for his long-winded advice."
+    },
+    "the_time_of_serfdom_in_russia": {
+      "id": "the_time_of_serfdom_in_russia",
+      "name": "the time of serfdom in Russia",
+      "aliases": [
+        "the darkest days of serfdom at the beginning of the century"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "the time of serfdom in Russia",
+        "the darkest days of serfdom at the beginning of the century"
+      ],
+      "spoilerFreeIntro": "A period in Russian history when peasants were legally bound to serve landowning nobles."
+    },
+    "the_case_of_richard_execution_in_geneva": {
+      "id": "the_case_of_richard_execution_in_geneva",
+      "name": "the case of Richard (execution in Geneva)",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "the case of Richard (execution in Geneva)"
+      ]
+    },
+    "pamphlet_about_richard": {
+      "id": "pamphlet_about_richard",
+      "name": "pamphlet about Richard",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "pamphlet about Richard"
+      ]
+    },
+    "the_story_of_the_general_and_the_serf_child_child_torn_by_dogs": {
+      "id": "the_story_of_the_general_and_the_serf_child_child_torn_by_dogs",
+      "name": "the story of the general and the serf child (child torn by dogs)",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "the story of the general and the serf child (child torn by dogs)"
+      ]
+    },
+    "the_execution_with_the_guillotine": {
+      "id": "the_execution_with_the_guillotine",
+      "name": "the execution with the guillotine",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "the execution with the guillotine"
+      ]
+    },
+    "the_poem_the_grand_inquisitor": {
+      "id": "the_poem_the_grand_inquisitor",
+      "name": "the poem 'The Grand Inquisitor'",
+      "aliases": [
+        "poem Ivan made in prose; mentioned at end",
+        "Ivan's poem (central event of the chapter, retold and discussed)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "the poem 'The Grand Inquisitor'",
+        "poem Ivan made in prose; mentioned at end",
+        "Ivan's poem (central event of the chapter, retold and discussed)"
+      ]
+    },
+    "the_schismreligious_movement_among_russian_aristocrats": {
+      "id": "the_schismreligious_movement_among_russian_aristocrats",
+      "name": "the schism/religious movement among Russian aristocrats",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "the schism/religious movement among Russian aristocrats"
+      ]
+    },
+    "prodigal_son_in_the_gospel": {
+      "id": "prodigal_son_in_the_gospel",
+      "name": "Prodigal Son in the Gospel",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "Prodigal Son in the Gospel"
+      ],
+      "spoilerFreeIntro": "A figure from Jesus’s parable who, after squandering his inheritance, suffers great poverty and hunger."
+    },
+    "scene_of_the_turkish_atrocities": {
+      "id": "scene_of_the_turkish_atrocities",
+      "name": "scene of the Turkish atrocities",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "scene of the Turkish atrocities"
+      ]
+    },
+    "scene_of_the_peasant_beating_the_horse_nekrassov": {
+      "id": "scene_of_the_peasant_beating_the_horse_nekrassov",
+      "name": "scene of the peasant beating the horse (Nekrassov)",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "scene of the peasant beating the horse (Nekrassov)"
+      ]
+    },
+    "scene_of_the_little_girl_of_five_tortured_by_her_parents": {
+      "id": "scene_of_the_little_girl_of_five_tortured_by_her_parents",
+      "name": "scene of the little girl of five (tortured by her parents)",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "scene of the little girl of five (tortured by her parents)"
+      ]
+    },
+    "scene_of_the_beating_of_a_sevenyearold_girl_by_parents": {
+      "id": "scene_of_the_beating_of_a_sevenyearold_girl_by_parents",
+      "name": "scene of the beating of a seven-year-old girl (by parents)",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "scene of the beating of a seven-year-old girl (by parents)"
+      ]
+    },
+    "the_question_of_harmony_and_rebellion_ivans_philosophical_argument": {
+      "id": "the_question_of_harmony_and_rebellion_ivans_philosophical_argument",
+      "name": "the question of harmony and rebellion (Ivan's philosophical argument)",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "the question of harmony and rebellion (Ivan's philosophical argument)"
+      ]
+    },
+    "the_question_to_alyosha_about_being_architect_of_happiness_on_a_childs_suffering": {
+      "id": "the_question_to_alyosha_about_being_architect_of_happiness_on_a_childs_suffering",
+      "name": "the question to Alyosha about being architect of happiness on a child's suffering",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "the question to Alyosha about being architect of happiness on a child's suffering"
+      ]
+    },
+    "the_biblical_vision_of_the_lion_and_the_lamb": {
+      "id": "the_biblical_vision_of_the_lion_and_the_lamb",
+      "name": "the biblical vision of the lion and the lamb",
+      "aliases": [
+        "hind lie down with the lion"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "the biblical vision of the lion and the lamb",
+        "hind lie down with the lion"
+      ],
+      "spoilerFreeIntro": "A prophetic image of ultimate peace, where natural enemies—like the lion and the lamb—coexist in harmony."
+    },
+    "serfboy_who_threw_a_stone_at_the_generals_hound": {
+      "id": "serfboy_who_threw_a_stone_at_the_generals_hound",
+      "name": "serf-boy who threw a stone (at the general's hound)",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "serf-boy who threw a stone (at the general's hound)"
+      ]
+    },
+    "angels": {
+      "id": "angels",
+      "name": "angels",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "angels"
+      ],
+      "spoilerFreeIntro": "A heavenly being, often depicted as a messenger or servant of God."
+    },
+    "archangel_michael": {
+      "id": "archangel_michael",
+      "name": "Archangel Michael",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "Archangel Michael"
+      ],
+      "spoilerFreeIntro": "The mighty Archangel Michael, a celestial guide and warrior, appears to lead and protect through spiritual realms."
+    },
+    "the_grand_inquisitor": {
+      "id": "the_grand_inquisitor",
+      "name": "the Grand Inquisitor",
+      "aliases": [
+        "the cardinal; the old man"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "the Grand Inquisitor",
+        "the cardinal; the old man"
+      ]
+    },
+    "cardinal": {
+      "id": "cardinal",
+      "name": "cardinal",
+      "aliases": [
+        "the cardinal, Grand Inquisitor"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "cardinal",
+        "the cardinal, Grand Inquisitor"
+      ],
+      "spoilerFreeIntro": "A powerful church leader who presides over solemn and grand public ceremonies."
+    },
+    "the_king": {
+      "id": "the_king",
+      "name": "the king",
+      "aliases": [
+        "the king (of Spain, present at the auto-da-fé)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "the king",
+        "the king (of Spain, present at the auto-da-fé)"
+      ],
+      "spoilerFreeIntro": "The king, a majestic and commanding figure, presides over the grand assembly in Seville."
+    },
+    "knights": {
+      "id": "knights",
+      "name": "knights",
+      "aliases": [
+        "knights (present at the auto-da-fé)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "knights",
+        "knights (present at the auto-da-fé)"
+      ],
+      "spoilerFreeIntro": "A group of noblemen, distinguished by their impressive armor and dignity."
+    },
+    "ladies_of_the_court": {
+      "id": "ladies_of_the_court",
+      "name": "ladies of the court",
+      "aliases": [
+        "the most charming ladies of the court"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "ladies of the court",
+        "the most charming ladies of the court"
+      ],
+      "spoilerFreeIntro": "Elegant and graceful, the most charming ladies of the court are present among the nobility, adding brilliance to the grand occasion."
+    },
+    "the_people_of_seville": {
+      "id": "the_people_of_seville",
+      "name": "the people of Seville",
+      "aliases": [
+        "the whole population of Seville"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "the people of Seville",
+        "the whole population of Seville"
+      ],
+      "spoilerFreeIntro": "The people of Seville are a vibrant and diverse crowd, gathered in anticipation and awe at an extraordinary event."
+    },
+    "the_mother_of_the_dead_child": {
+      "id": "the_mother_of_the_dead_child",
+      "name": "the mother of the dead child",
+      "aliases": [
+        "mother of the dead child"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "the mother of the dead child",
+        "mother of the dead child"
+      ],
+      "spoilerFreeIntro": "A grieving mother, desperate with sorrow, clings to hope as her child is carried in the funeral procession."
+    },
+    "the_dead_child": {
+      "id": "the_dead_child",
+      "name": "the dead child",
+      "aliases": [
+        "seven-year-old girl in coffin"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "the dead child",
+        "seven-year-old girl in coffin"
+      ],
+      "spoilerFreeIntro": "A seven-year-old girl, the only daughter of a well-known citizen, lies peacefully in her flower-covered coffin."
+    },
+    "the_priest_from_the_cathedral_in_seville": {
+      "id": "the_priest_from_the_cathedral_in_seville",
+      "name": "the priest (from the cathedral in Seville)",
+      "aliases": [
+        "the priest"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "the priest (from the cathedral in Seville)",
+        "the priest"
+      ],
+      "spoilerFreeIntro": "A solemn priest from the Seville cathedral, he approaches the crowd with a troubled expression."
+    },
+    "the_guardsassistants_and_slaves_of_the_inquisitor": {
+      "id": "the_guardsassistants_and_slaves_of_the_inquisitor",
+      "name": "the guards/assistants and slaves (of the Inquisitor)",
+      "aliases": [
+        "his gloomy assistants and slaves and the 'holy guard'"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "the guards/assistants and slaves (of the Inquisitor)",
+        "his gloomy assistants and slaves and the 'holy guard'"
+      ]
+    },
+    "the_roman_popes": {
+      "id": "the_roman_popes",
+      "name": "the Roman Popes",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "the Roman Popes"
+      ],
+      "spoilerFreeIntro": "A reference to the succession of leaders of the Catholic Church, the Roman Popes are the heads of the Vatican and represent the highest authority in Roman Catholicism."
+    },
+    "the_roman_church": {
+      "id": "the_roman_church",
+      "name": "the Roman Church",
+      "aliases": [
+        "Roman Catholic Church"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "the Roman Church",
+        "Roman Catholic Church"
+      ]
+    },
+    "the_masons": {
+      "id": "the_masons",
+      "name": "the Masons",
+      "aliases": [
+        "the Masons (referenced as organizational counterpart to Catholics)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "the Masons",
+        "the Masons (referenced as organizational counterpart to Catholics)"
+      ],
+      "spoilerFreeIntro": "A secretive fraternity, known for their mysterious rituals and close-knit brotherhood."
+    },
+    "louis_xi": {
+      "id": "louis_xi",
+      "name": "Louis XI",
+      "aliases": [
+        "Louis XI (King of France, historical)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "Louis XI",
+        "Louis XI (King of France, historical)"
+      ],
+      "spoilerFreeIntro": "The shrewd and powerful king of France, known for his cunning and political acumen."
+    },
+    "the_dauphin": {
+      "id": "the_dauphin",
+      "name": "the dauphin",
+      "aliases": [
+        "the dauphin (son of Louis XI)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "the dauphin",
+        "the dauphin (son of Louis XI)"
+      ],
+      "spoilerFreeIntro": "The dauphin, the young heir to the French throne, is celebrated with a grand festival in Paris."
+    },
+    "victor_hugo": {
+      "id": "victor_hugo",
+      "name": "Victor Hugo",
+      "aliases": [
+        "Victor Hugo (author of Notre Dame de Paris)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "Victor Hugo",
+        "Victor Hugo (author of Notre Dame de Paris)"
+      ],
+      "spoilerFreeIntro": "Victor Hugo, a celebrated French author known for his vivid historical novels, is referenced here as the writer of _Notre Dame de Paris_."
+    },
+    "dante": {
+      "id": "dante",
+      "name": "Dante",
+      "aliases": [
+        "Dante (Dante Alighieri)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "Dante",
+        "Dante (Dante Alighieri)"
+      ],
+      "spoilerFreeIntro": "A renowned Italian poet, famous for his richly imaginative and influential works."
+    },
+    "tyutchev": {
+      "id": "tyutchev",
+      "name": "Tyutchev",
+      "aliases": [
+        "Tyutchev (Russian poet)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "Tyutchev",
+        "Tyutchev (Russian poet)"
+      ],
+      "spoilerFreeIntro": "A devout and zealous individual, Tyutchev speaks with unwavering conviction about matters of faith."
+    },
+    "peter_the_great": {
+      "id": "peter_the_great",
+      "name": "Peter the Great",
+      "aliases": [
+        "Peter the Great (Russian emperor)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "Peter the Great",
+        "Peter the Great (Russian emperor)"
+      ],
+      "spoilerFreeIntro": "A Russian tsar famed for his sweeping reforms and modernization of the country."
+    },
+    "timur": {
+      "id": "timur",
+      "name": "Timur",
+      "aliases": [
+        "Timour/Timur (Tamerlane, historical conqueror)",
+        "Timour"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "Timur",
+        "Timour/Timur (Tamerlane, historical conqueror)",
+        "Timour"
+      ],
+      "spoilerFreeIntro": "Timur, also known as Tamerlane, was a formidable conqueror renowned for his vast Asian empire and legendary ambition."
+    },
+    "genghis_khan": {
+      "id": "genghis_khan",
+      "name": "Genghis Khan",
+      "aliases": [
+        "Ghenghis‐Khans"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "Genghis Khan",
+        "Ghenghis‐Khans"
+      ],
+      "spoilerFreeIntro": "A legendary Mongol conqueror, renowned for uniting vast territories under his rule."
+    },
+    "alyoshas_nickname_for_father_zossima": {
+      "id": "alyoshas_nickname_for_father_zossima",
+      "name": "Alyosha's nickname for Father Zossima",
+      "aliases": [
+        "Pater Seraphicus"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "Alyosha's nickname for Father Zossima",
+        "Pater Seraphicus"
+      ],
+      "spoilerFreeIntro": "Alyosha affectionately refers to Father Zossima as \"Pater Seraphicus,\" a name that reflects his deep reverence for the elder."
+    },
+    "notre_dame_de_paris": {
+      "id": "notre_dame_de_paris",
+      "name": "Notre Dame de Paris",
+      "aliases": [
+        "Notre Dame de Paris (the novel, not the cathedral, by Victor Hugo)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "Notre Dame de Paris",
+        "Notre Dame de Paris (the novel, not the cathedral, by Victor Hugo)"
+      ],
+      "spoilerFreeIntro": "Notre Dame de Paris, the grand medieval cathedral at the heart of Paris."
+    },
+    "france": {
+      "id": "france",
+      "name": "France",
+      "aliases": [
+        "France"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "France"
+      ],
+      "spoilerFreeIntro": "France, a country renowned for its rich history of literature, faith, and artistic tradition."
+    },
+    "the_htel_de_ville_of_paris": {
+      "id": "the_htel_de_ville_of_paris",
+      "name": "the Hôtel de Ville of Paris",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "the Hôtel de Ville of Paris"
+      ],
+      "spoilerFreeIntro": "The Hôtel de Ville of Paris, the city’s grand town hall, stands as a center for civic gatherings and official celebrations."
+    },
+    "germany": {
+      "id": "germany",
+      "name": "Germany",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "Germany"
+      ],
+      "spoilerFreeIntro": "A country in northern Europe, soon to be the birthplace of a powerful religious upheaval."
+    },
+    "spain": {
+      "id": "spain",
+      "name": "Spain",
+      "aliases": [
+        "Spain"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "Spain"
+      ],
+      "spoilerFreeIntro": "A country in southwestern Europe, rich in history and tradition, where the story unfolds amid the shadows of the Inquisition."
+    },
+    "seville": {
+      "id": "seville",
+      "name": "Seville",
+      "aliases": [
+        "Seville"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "Seville"
+      ],
+      "spoilerFreeIntro": "A vibrant and historic Spanish city, Seville is marked by grandeur and shadowed by the intensity of the Inquisition."
+    },
+    "the_seville_cathedral": {
+      "id": "the_seville_cathedral",
+      "name": "the Seville cathedral",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "the Seville cathedral"
+      ]
+    },
+    "the_inquisition": {
+      "id": "the_inquisition",
+      "name": "the Inquisition",
+      "aliases": [
+        "the Inquisition"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "the Inquisition"
+      ],
+      "spoilerFreeIntro": "The Inquisition is a powerful religious tribunal in Spain, feared for its harsh pursuit and punishment of heresy."
+    },
+    "auto_da_f": {
+      "id": "auto_da_f",
+      "name": "auto da fé",
+      "aliases": [
+        "auto da fé"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "auto da fé"
+      ],
+      "spoilerFreeIntro": "An \"auto da fé\" is a public ceremony in which the sentences of the Inquisition were carried out, often involving religious rituals and the punishment of heretics."
+    },
+    "the_firesburnings_of_heretics": {
+      "id": "the_firesburnings_of_heretics",
+      "name": "the fires/burnings of heretics",
+      "aliases": [
+        "fires were lighted every day to the glory of God"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "the fires/burnings of heretics",
+        "fires were lighted every day to the glory of God"
+      ],
+      "spoilerFreeIntro": "The public executions of accused heretics in Seville, held during the height of the Spanish Inquisition."
+    },
+    "age_of_the_inquisition_in_spain": {
+      "id": "age_of_the_inquisition_in_spain",
+      "name": "age of the Inquisition in Spain",
+      "aliases": [
+        "the most terrible time of the Inquisition"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "age of the Inquisition in Spain",
+        "the most terrible time of the Inquisition"
+      ]
+    },
+    "the_grand_inquisitors_interview_with_christ": {
+      "id": "the_grand_inquisitors_interview_with_christ",
+      "name": "the Grand Inquisitor's interview with Christ",
+      "aliases": [
+        "Ivan's poem"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "the Grand Inquisitor's interview with Christ",
+        "Ivan's poem"
+      ]
+    },
+    "the_temptation_of_christ_in_the_wilderness": {
+      "id": "the_temptation_of_christ_in_the_wilderness",
+      "name": "the temptation of Christ in the wilderness",
+      "aliases": [
+        "the three temptations"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "the temptation of Christ in the wilderness",
+        "the three temptations"
+      ]
+    },
+    "good_friday": {
+      "id": "good_friday",
+      "name": "Good Friday",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "Good Friday"
+      ],
+      "spoilerFreeIntro": "Good Friday, the solemn Christian holiday commemorating the crucifixion of Jesus, is mentioned as a time of sacred significance."
+    },
+    "trinity_day": {
+      "id": "trinity_day",
+      "name": "Trinity Day",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "Trinity Day"
+      ],
+      "spoilerFreeIntro": "Trinity Day is a Christian feast celebrated after Pentecost, marking the first appearance of this event as a significant date in religious tradition."
+    },
+    "the_coming_of_christ": {
+      "id": "the_coming_of_christ",
+      "name": "the coming of Christ",
+      "aliases": [
+        "the coming in which He will appear according to His promise at the end of time"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "the coming of Christ",
+        "the coming in which He will appear according to His promise at the end of time"
+      ]
+    },
+    "peters_building_of_the_new_tower_of_babel": {
+      "id": "peters_building_of_the_new_tower_of_babel",
+      "name": "Peter's building of the new tower of Babel",
+      "aliases": [
+        "the terrible tower of Babel will be built again"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "Peter's building of the new tower of Babel",
+        "the terrible tower of Babel will be built again"
+      ],
+      "spoilerFreeIntro": "A radical thinker who envisions the construction of a new tower of Babel as a symbol of human ambition and rebellion."
+    },
+    "the_roman_catholic_church": {
+      "id": "the_roman_catholic_church",
+      "name": "the Roman Catholic Church",
+      "aliases": [
+        "Roman Church, Rome",
+        "Rome; Catholics"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "the Roman Catholic Church",
+        "Roman Church, Rome",
+        "Rome; Catholics"
+      ]
+    },
+    "monasteries": {
+      "id": "monasteries",
+      "name": "monasteries",
+      "aliases": [
+        "monasteries"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "monasteries"
+      ],
+      "spoilerFreeIntro": "Austere and secluded places where monks live, pray, and study in devotion."
+    },
+    "america": {
+      "id": "america",
+      "name": "America",
+      "aliases": [
+        "America"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "America"
+      ],
+      "spoilerFreeIntro": "A distant and unfamiliar land across the ocean from Russia."
+    },
+    "the_restaurant_tavernrestaurant_from_previous_scene": {
+      "id": "the_restaurant_tavernrestaurant_from_previous_scene",
+      "name": "the restaurant (tavern/restaurant from previous scene)",
+      "aliases": [
+        "restaurant",
+        "restaurant here, in the market-place",
+        "restaurant; entrance of the restaurant"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 33,
+      "searchTerms": [
+        "the restaurant (tavern/restaurant from previous scene)",
+        "restaurant",
+        "restaurant here, in the market-place",
+        "restaurant; entrance of the restaurant"
+      ],
+      "spoilerFreeIntro": "A modest restaurant on the main street, where townsfolk and travelers alike pause for a meal and quiet conversation."
+    },
+    "the_mystery": {
+      "id": "the_mystery",
+      "name": "the mystery",
+      "aliases": [
+        "the secret/the mystery (of miracle, mystery, and authority)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "the mystery",
+        "the secret/the mystery (of miracle, mystery, and authority)"
+      ],
+      "spoilerFreeIntro": "A profound and burdensome secret guarded by a select few."
+    },
+    "the_garret": {
+      "id": "the_garret",
+      "name": "the garret",
+      "aliases": [
+        "garret"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 37,
+      "searchTerms": [
+        "the garret",
+        "garret"
+      ],
+      "spoilerFreeIntro": "A cramped, upper-floor attic room in Fyodor Pavlovitch’s house."
+    },
+    "the_cellar": {
+      "id": "the_cellar",
+      "name": "the cellar",
+      "aliases": [
+        "cellar"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 37,
+      "searchTerms": [
+        "the cellar",
+        "cellar"
+      ],
+      "spoilerFreeIntro": "A dark, confined space beneath the house, often accessed by a flight of steps."
+    },
+    "the_envelope_with_three_thousand_roubles": {
+      "id": "the_envelope_with_three_thousand_roubles",
+      "name": "the envelope with three thousand roubles",
+      "aliases": [
+        "the big envelope with three thousand roubles, ‘To my angel Grushenka, if she will come’, ‘for my little chicken’"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 37,
+      "searchTerms": [
+        "the envelope with three thousand roubles",
+        "the big envelope with three thousand roubles, ‘To my angel Grushenka, if she will come’, ‘for my little chicken’"
+      ]
+    },
+    "maslovs": {
+      "id": "maslovs",
+      "name": "Maslovs",
+      "aliases": [
+        "Maslovs, an old merchant and his son"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "Maslovs",
+        "Maslovs, an old merchant and his son"
+      ],
+      "spoilerFreeIntro": "The Maslovs are an old merchant and his son known in the region for buying timber."
+    },
+    "the_priest_at_ilyinskoe": {
+      "id": "the_priest_at_ilyinskoe",
+      "name": "the priest at Ilyinskoe",
+      "aliases": [
+        "the priest at Ilyinskoe"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "the priest at Ilyinskoe"
+      ]
+    },
+    "gorstkin": {
+      "id": "gorstkin",
+      "name": "Gorstkin",
+      "aliases": [
+        "merchant interested in buying the copse; real name Lyagavy"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "Gorstkin",
+        "merchant interested in buying the copse; real name Lyagavy"
+      ],
+      "spoilerFreeIntro": "A merchant from out of town, unafraid of local influences, known to the priest at Ilyinskoe."
+    },
+    "lyagavy": {
+      "id": "lyagavy",
+      "name": "Lyagavy",
+      "aliases": [
+        "real name of Gorstkin"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "Lyagavy",
+        "real name of Gorstkin"
+      ],
+      "spoilerFreeIntro": "A landowner known as Gorstkin, whose real name is Lyagavy, and who is sensitive about his true name."
+    },
+    "the_overseers_wife": {
+      "id": "the_overseers_wife",
+      "name": "the overseer's wife",
+      "aliases": [
+        "the overseer's wife"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "the overseer's wife"
+      ]
+    },
+    "mitri": {
+      "id": "mitri",
+      "name": "Mitri",
+      "aliases": [
+        "driver at Volovya station"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "Mitri",
+        "driver at Volovya station"
+      ],
+      "spoilerFreeIntro": "Mitri is a quiet and reserved presence, whose emotions and thoughts are not easily read by those around him."
+    },
+    "the_neighbors": {
+      "id": "the_neighbors",
+      "name": "the neighbors",
+      "aliases": [
+        "neighbors who helped get Smerdyakov out of the cellar"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "the neighbors",
+        "neighbors who helped get Smerdyakov out of the cellar"
+      ],
+      "spoilerFreeIntro": "A small group of local residents, called in to lend a hand during an urgent and difficult moment."
+    },
+    "the_laundress": {
+      "id": "the_laundress",
+      "name": "the laundress",
+      "aliases": [
+        "the laundress (who returned Ivan's linen)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "the laundress",
+        "the laundress (who returned Ivan's linen)"
+      ],
+      "spoilerFreeIntro": "The laundress is the woman responsible for washing and returning Ivan's linen."
+    },
+    "the_drivers_at_volovya": {
+      "id": "the_drivers_at_volovya",
+      "name": "the drivers at Volovya",
+      "aliases": [
+        "drivers at Volovya station"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "the drivers at Volovya",
+        "drivers at Volovya station"
+      ]
+    },
+    "the_household_at_fyodor_pavlovitchs": {
+      "id": "the_household_at_fyodor_pavlovitchs",
+      "name": "the household at Fyodor Pavlovitch's",
+      "aliases": [
+        "the whole household (came to say goodbye to Ivan)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "the household at Fyodor Pavlovitch's",
+        "the whole household (came to say goodbye to Ivan)"
+      ]
+    },
+    "the_invalid": {
+      "id": "the_invalid",
+      "name": "the invalid",
+      "aliases": [
+        "Smerdyakov (when described as 'the invalid' after the fit)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "the invalid",
+        "Smerdyakov (when described as 'the invalid' after the fit)"
+      ],
+      "spoilerFreeIntro": "A frail individual in poor health, recently brought to the lodge for care."
+    },
+    "the_cook": {
+      "id": "the_cook",
+      "name": "the cook",
+      "aliases": [
+        "Marfa Ignatyevna (when described as not a trained cook)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "the cook",
+        "Marfa Ignatyevna (when described as not a trained cook)"
+      ]
+    },
+    "ivans_room": {
+      "id": "ivans_room",
+      "name": "Ivan's room",
+      "aliases": [
+        "his room (Ivan's upstairs room)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "Ivan's room",
+        "his room (Ivan's upstairs room)"
+      ]
+    },
+    "the_drawingroom": {
+      "id": "the_drawingroom",
+      "name": "the drawing‐room",
+      "aliases": [
+        "the drawing‐room (in the Karamazovs’ house)",
+        "drawing-room"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "the drawing‐room",
+        "the drawing‐room (in the Karamazovs’ house)",
+        "drawing-room"
+      ],
+      "spoilerFreeIntro": "A furnished room in the house where guests are received and social gatherings are held."
+    },
+    "the_kitchen": {
+      "id": "the_kitchen",
+      "name": "the kitchen",
+      "aliases": [
+        "the kitchen (where Marfa prepares food)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "the kitchen",
+        "the kitchen (where Marfa prepares food)"
+      ]
+    },
+    "the_carriage": {
+      "id": "the_carriage",
+      "name": "the carriage",
+      "aliases": [
+        "Ivan's carriage on the journey"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "the carriage",
+        "Ivan's carriage on the journey"
+      ],
+      "spoilerFreeIntro": "A horse-drawn vehicle waiting to take Ivan away from his family home."
+    },
+    "the_staircase": {
+      "id": "the_staircase",
+      "name": "the staircase",
+      "aliases": [
+        "the staircase (in the Karamazovs’ house)",
+        "the steps (at the Karamazov house)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "the staircase",
+        "the staircase (in the Karamazovs’ house)",
+        "the steps (at the Karamazov house)"
+      ],
+      "spoilerFreeIntro": "A dimly lit staircase connecting the upper rooms of Fyodor Pavlovitch’s house to the floor below."
+    },
+    "volovya_station": {
+      "id": "volovya_station",
+      "name": "Volovya station",
+      "aliases": [
+        "Volovya/the railway station"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "Volovya station",
+        "Volovya/the railway station"
+      ],
+      "spoilerFreeIntro": "A remote railway outpost in the Russian countryside."
+    },
+    "the_town_to_which_the_drivers_travel": {
+      "id": "the_town_to_which_the_drivers_travel",
+      "name": "the town to which the drivers travel",
+      "aliases": [
+        "the town (where the driver Mitri will go)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "the town to which the drivers travel",
+        "the town (where the driver Mitri will go)"
+      ]
+    },
+    "the_province": {
+      "id": "the_province",
+      "name": "the province",
+      "aliases": [
+        "the province (where Doctor Herzenstube is most careful doctor)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 31,
+      "searchTerms": [
+        "the province",
+        "the province (where Doctor Herzenstube is most careful doctor)"
+      ],
+      "spoilerFreeIntro": "A large rural district in Russia, home to many of the novel’s characters and villages."
+    },
+    "the_station_house": {
+      "id": "the_station_house",
+      "name": "the station house",
+      "aliases": [
+        "station house at Volovya"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "the station house",
+        "station house at Volovya"
+      ],
+      "spoilerFreeIntro": "A modest outpost along the road, where travelers pause to rest and arrange for horses."
+    },
+    "the_railway": {
+      "id": "the_railway",
+      "name": "the railway",
+      "aliases": [
+        "the railway (Ivan's route to Moscow)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "the railway",
+        "the railway (Ivan's route to Moscow)"
+      ],
+      "spoilerFreeIntro": "The railway—a distant line connecting the countryside to Moscow—marks the modern world’s reach into rural life."
+    },
+    "ilyinskoe": {
+      "id": "ilyinskoe",
+      "name": "Ilyinskoe",
+      "aliases": [
+        "Ilyinskoe (location of the priest involved with the copse sale)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "Ilyinskoe",
+        "Ilyinskoe (location of the priest involved with the copse sale)"
+      ],
+      "spoilerFreeIntro": "A small village, known for its quiet priest and infrequent visitors."
+    },
+    "ivan_leaves_for_moscow_departure_of_ivan": {
+      "id": "ivan_leaves_for_moscow_departure_of_ivan",
+      "name": "Ivan leaves for Moscow (departure of Ivan)",
+      "aliases": [
+        "Ivan's departure for Moscow"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "Ivan leaves for Moscow (departure of Ivan)",
+        "Ivan's departure for Moscow"
+      ]
+    },
+    "attempted_sale_of_the_copse_timber_business": {
+      "id": "attempted_sale_of_the_copse_timber_business",
+      "name": "Attempted sale of the copse (timber business)",
+      "aliases": [
+        "negotiations for sale of copse (Maslovs, Gorstkin/Lyagavy, the priest, and the Karamazovs)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "Attempted sale of the copse (timber business)",
+        "negotiations for sale of copse (Maslovs, Gorstkin/Lyagavy, the priest, and the Karamazovs)"
+      ]
+    },
+    "ivans_infamous_listening_episode": {
+      "id": "ivans_infamous_listening_episode",
+      "name": "Ivan's 'infamous' listening episode",
+      "aliases": [
+        "Ivan stealthily listens to his father at night"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "Ivan's 'infamous' listening episode",
+        "Ivan stealthily listens to his father at night"
+      ]
+    },
+    "smerdyakovs_epileptic_fitfall_in_the_cellar": {
+      "id": "smerdyakovs_epileptic_fitfall_in_the_cellar",
+      "name": "Smerdyakov's epileptic fit/fall in the cellar",
+      "aliases": [
+        "Smerdyakov's fall/fit in the cellar"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "Smerdyakov's epileptic fit/fall in the cellar",
+        "Smerdyakov's fall/fit in the cellar"
+      ]
+    },
+    "departure_scene_household_sees_off_ivan": {
+      "id": "departure_scene_household_sees_off_ivan",
+      "name": "Departure scene (household sees off Ivan)",
+      "aliases": [
+        "The household comes out to see Ivan off"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 38,
+      "searchTerms": [
+        "Departure scene (household sees off Ivan)",
+        "The household comes out to see Ivan off"
+      ]
+    },
+    "preparation_for_grushenkas_expected_visit": {
+      "id": "preparation_for_grushenkas_expected_visit",
+      "name": "Preparation for Grushenka's expected visit",
+      "aliases": [
+        "Fyodor Pavlovitch's expectation of Grushenka's visit"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 37,
+      "searchTerms": [
+        "Preparation for Grushenka's expected visit",
+        "Fyodor Pavlovitch's expectation of Grushenka's visit"
+      ]
+    },
+    "grigorys_lumbago": {
+      "id": "grigorys_lumbago",
+      "name": "Grigory's lumbago",
+      "aliases": [
+        "Grigory falls ill with lumbago"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 37,
+      "searchTerms": [
+        "Grigory's lumbago",
+        "Grigory falls ill with lumbago"
+      ]
+    },
+    "smerdyakovs_previous_fall_from_the_garret": {
+      "id": "smerdyakovs_previous_fall_from_the_garret",
+      "name": "Smerdyakov's previous fall from the garret",
+      "aliases": [
+        "precedent epileptic attack (previous fall from garret)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 37,
+      "searchTerms": [
+        "Smerdyakov's previous fall from the garret",
+        "precedent epileptic attack (previous fall from garret)"
+      ]
+    },
+    "father_mihal": {
+      "id": "father_mihal",
+      "name": "Father Mihaïl",
+      "aliases": [
+        "Father Mihaïl"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Father Mihaïl"
+      ],
+      "spoilerFreeIntro": "Father Mihaïl, the warden of the hermitage, was a man of humble origin, strong will, and steadfast faith."
+    },
+    "father_anfim": {
+      "id": "father_anfim",
+      "name": "Father Anfim",
+      "aliases": [
+        "Father Anfim"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Father Anfim"
+      ],
+      "spoilerFreeIntro": "Father Anfim is a very old and humble monk of peasant background, quiet and almost illiterate."
+    },
+    "widow_whose_house_was_burnt_down": {
+      "id": "widow_whose_house_was_burnt_down",
+      "name": "widow whose house was burnt down",
+      "aliases": [
+        "widow whose house was burnt down"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "widow whose house was burnt down"
+      ]
+    },
+    "alyoshas_brother": {
+      "id": "alyoshas_brother",
+      "name": "Alyosha's brother",
+      "aliases": [
+        "his brother, the elder one (context indicates either Dmitri or Ivan—uncertain here)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Alyosha's brother",
+        "his brother, the elder one (context indicates either Dmitri or Ivan—uncertain here)"
+      ]
+    },
+    "markel": {
+      "id": "markel",
+      "name": "Markel",
+      "aliases": [
+        "elder brother of Father Zossima",
+        "Father Zossima's brother",
+        "my brother"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Markel",
+        "elder brother of Father Zossima",
+        "Father Zossima's brother",
+        "my brother"
+      ],
+      "spoilerFreeIntro": "Markel, my elder brother, was a quiet and kind-hearted man, known for his quick temper and reserved nature."
+    },
+    "father_zossimas_mother": {
+      "id": "father_zossimas_mother",
+      "name": "Father Zossima's mother",
+      "aliases": [
+        "mother of Zossima and Markel",
+        "my mother; Zossima's mother"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Father Zossima's mother",
+        "mother of Zossima and Markel",
+        "my mother; Zossima's mother"
+      ]
+    },
+    "afimya": {
+      "id": "afimya",
+      "name": "Afimya",
+      "aliases": [
+        "the cook"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Afimya",
+        "the cook"
+      ],
+      "spoilerFreeIntro": "Afimya, the lame and elderly cook, was one of the family's four serf servants."
+    },
+    "eisenschmidt": {
+      "id": "eisenschmidt",
+      "name": "Eisenschmidt",
+      "aliases": [
+        "the doctor, old German called Eisenschmidt"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Eisenschmidt",
+        "the doctor, old German called Eisenschmidt"
+      ],
+      "spoilerFreeIntro": "An old German doctor who visits the bedside of the sick."
+    },
+    "the_political_exile": {
+      "id": "the_political_exile",
+      "name": "the political exile",
+      "aliases": [
+        "political exile (friend of Markel)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "the political exile",
+        "political exile (friend of Markel)"
+      ]
+    },
+    "the_servant_old_nurse": {
+      "id": "the_servant_old_nurse",
+      "name": "the servant (old nurse)",
+      "aliases": [
+        "old nurse"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "the servant (old nurse)",
+        "old nurse"
+      ],
+      "spoilerFreeIntro": "The old nurse, a devoted and gentle servant, tended lovingly to her master's needs with care and simple faith."
+    },
+    "the_servants_household_of_zossimas_family": {
+      "id": "the_servants_household_of_zossimas_family",
+      "name": "the servants (household of Zossima's family)",
+      "aliases": [
+        "the four servants, all serfs"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "the servants (household of Zossima's family)",
+        "the four servants, all serfs"
+      ]
+    },
+    "the_peasantsfishermen_by_the_river": {
+      "id": "the_peasantsfishermen_by_the_river",
+      "name": "the peasants/fishermen by the river",
+      "aliases": [
+        "fishermen and peasant lad by river"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "the peasants/fishermen by the river",
+        "fishermen and peasant lad by river"
+      ]
+    },
+    "peasant_lad_birdcatcher": {
+      "id": "peasant_lad_birdcatcher",
+      "name": "peasant lad (bird-catcher)",
+      "aliases": [
+        "good‐looking peasant lad, bird‐catcher",
+        "good-looking peasant lad, bird-catcher"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "peasant lad (bird-catcher)",
+        "good‐looking peasant lad, bird‐catcher",
+        "good-looking peasant lad, bird-catcher"
+      ]
+    },
+    "monastery_at_kostroma": {
+      "id": "monastery_at_kostroma",
+      "name": "monastery at Kostroma",
+      "aliases": [
+        "poor and little monastery at Kostroma"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "monastery at Kostroma",
+        "poor and little monastery at Kostroma"
+      ],
+      "spoilerFreeIntro": "A humble and impoverished monastery in Kostroma, where Father Zossima began his monastic life."
+    },
+    "cadet_corps": {
+      "id": "cadet_corps",
+      "name": "Cadet Corps",
+      "aliases": [
+        "the Cadet Corps in Petersburg",
+        "military cadet school"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Cadet Corps",
+        "the Cadet Corps in Petersburg",
+        "military cadet school"
+      ],
+      "spoilerFreeIntro": "A prestigious military school in St. Petersburg for training young boys to become officers."
+    },
+    "imperial_guard": {
+      "id": "imperial_guard",
+      "name": "Imperial Guard",
+      "aliases": [
+        "Imperial Guard"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Imperial Guard"
+      ],
+      "spoilerFreeIntro": "An elite military unit serving as the personal guard of the Russian Emperor."
+    },
+    "markel_and_zossimas_childhood_home": {
+      "id": "markel_and_zossimas_childhood_home",
+      "name": "Markel and Zossima's childhood home",
+      "aliases": [
+        "small wooden house left by Zossima's father"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Markel and Zossima's childhood home",
+        "small wooden house left by Zossima's father"
+      ]
+    },
+    "the_garden_zossimas_childhood_home": {
+      "id": "the_garden_zossimas_childhood_home",
+      "name": "the garden (Zossima's childhood home)",
+      "aliases": [
+        "the garden"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "the garden (Zossima's childhood home)",
+        "the garden"
+      ],
+      "spoilerFreeIntro": "A peaceful, verdant garden at Zossima’s childhood home, filled with memories of innocence and cherished family moments."
+    },
+    "the_town_of_v": {
+      "id": "the_town_of_v",
+      "name": "the town of V.",
+      "aliases": [
+        "town of V. (northern province)"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "the town of V.",
+        "town of V. (northern province)"
+      ],
+      "spoilerFreeIntro": "A small provincial town in the north, known only as V., where the narrator was born."
+    },
+    "bible": {
+      "id": "bible",
+      "name": "Bible",
+      "aliases": [
+        "the Bible, Scripture, God's word",
+        "the Bible"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Bible",
+        "the Bible, Scripture, God's word",
+        "the Bible"
+      ],
+      "spoilerFreeIntro": "A book treasured by the narrator in childhood, filled with Scripture stories and memorable illustrations."
+    },
+    "a_hundred_and_four_stories_from_the_old_and_new_testament": {
+      "id": "a_hundred_and_four_stories_from_the_old_and_new_testament",
+      "name": "A Hundred and Four Stories from the Old and New Testament",
+      "aliases": [
+        "Scripture history book (with excellent pictures)"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "A Hundred and Four Stories from the Old and New Testament",
+        "Scripture history book (with excellent pictures)"
+      ]
+    },
+    "mass_service_monday_before_easter": {
+      "id": "mass_service_monday_before_easter",
+      "name": "mass (service Monday before Easter)",
+      "aliases": [
+        "mass on Monday before Easter"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "mass (service Monday before Easter)",
+        "mass on Monday before Easter"
+      ]
+    },
+    "easter": {
+      "id": "easter",
+      "name": "Easter",
+      "aliases": [
+        "Easter"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Easter"
+      ],
+      "spoilerFreeIntro": "A religious holiday marking the arrival of spring, celebrated with bright days and fragrant air."
+    },
+    "holy_week": {
+      "id": "holy_week",
+      "name": "Holy Week",
+      "aliases": [
+        "Holy Week"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Holy Week"
+      ],
+      "spoilerFreeIntro": "A sacred week in the Christian calendar, marked by church attendance and reflection for many characters."
+    },
+    "lent": {
+      "id": "lent",
+      "name": "Lent",
+      "aliases": [
+        "Lent"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Lent"
+      ],
+      "spoilerFreeIntro": "Lent, the solemn period of fasting and spiritual reflection in the Orthodox Christian calendar, is observed by the monastery’s inhabitants."
+    },
+    "gospel_reading_by_father_passy": {
+      "id": "gospel_reading_by_father_passy",
+      "name": "Gospel reading by Father Païssy",
+      "aliases": [
+        "Father Païssy’s reading the Gospel"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Gospel reading by Father Païssy",
+        "Father Païssy’s reading the Gospel"
+      ],
+      "spoilerFreeIntro": "Father Païssy, a gentle monk, quietly reads passages from the Gospel to those gathered around the ailing elder."
+    },
+    "fundraising_pilgrimage_with_father_anfim": {
+      "id": "fundraising_pilgrimage_with_father_anfim",
+      "name": "fund-raising pilgrimage with Father Anfim",
+      "aliases": [
+        "pilgrimage to collect alms for monastery"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "fund-raising pilgrimage with Father Anfim",
+        "pilgrimage to collect alms for monastery"
+      ]
+    },
+    "the_death_of_markel_zossimas_brother": {
+      "id": "the_death_of_markel_zossimas_brother",
+      "name": "the death of Markel (Zossima's brother)",
+      "aliases": [
+        "Markel's death"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "the death of Markel (Zossima's brother)",
+        "Markel's death"
+      ]
+    },
+    "the_death_of_zossimas_mother": {
+      "id": "the_death_of_zossimas_mother",
+      "name": "the death of Zossima's mother",
+      "aliases": [
+        "death of Zossima’s mother"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "the death of Zossima's mother",
+        "death of Zossima’s mother"
+      ]
+    },
+    "the_parables_of_our_lord": {
+      "id": "the_parables_of_our_lord",
+      "name": "the parables of Our Lord",
+      "aliases": [
+        "the parables of Our Lord"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "the parables of Our Lord"
+      ],
+      "spoilerFreeIntro": "The parables of Our Lord—stories told by Jesus in the Gospels to teach spiritual and moral lessons."
+    },
+    "the_gospel_of_st_luke": {
+      "id": "the_gospel_of_st_luke",
+      "name": "the Gospel of St. Luke",
+      "aliases": [
+        "Gospel of St. Luke"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "the Gospel of St. Luke",
+        "Gospel of St. Luke"
+      ],
+      "spoilerFreeIntro": "The Gospel of St. Luke is one of the four New Testament Gospels, known for its parables and accounts of Jesus's teachings and life."
+    },
+    "the_acts_of_the_apostles": {
+      "id": "the_acts_of_the_apostles",
+      "name": "the Acts of the Apostles",
+      "aliases": [
+        "Acts of the Apostles"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "the Acts of the Apostles",
+        "Acts of the Apostles"
+      ],
+      "spoilerFreeIntro": "An account from the New Testament describing the actions and early history of Christ’s apostles following His resurrection."
+    },
+    "conversion_of_st_paul": {
+      "id": "conversion_of_st_paul",
+      "name": "conversion of St. Paul",
+      "aliases": [
+        "conversion of St. Paul"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "conversion of St. Paul"
+      ],
+      "spoilerFreeIntro": "The dramatic transformation of Saul, a persecutor of Christians, into St. Paul, a devoted apostle, after a profound spiritual experience."
+    },
+    "the_lives_of_the_saints": {
+      "id": "the_lives_of_the_saints",
+      "name": "the Lives of the Saints",
+      "aliases": [
+        "Lives of the Saints"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "the Lives of the Saints",
+        "Lives of the Saints"
+      ]
+    },
+    "mary_of_egypt": {
+      "id": "mary_of_egypt",
+      "name": "Mary of Egypt",
+      "aliases": [
+        "Mary of Egypt"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Mary of Egypt"
+      ],
+      "spoilerFreeIntro": "Mary of Egypt, a revered penitent and ascetic saint known for her life of deep repentance and holiness."
+    },
+    "esther": {
+      "id": "esther",
+      "name": "Esther",
+      "aliases": [
+        "Esther (from the Book of Esther)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Esther",
+        "Esther (from the Book of Esther)"
+      ],
+      "spoilerFreeIntro": "A Jewish queen renowned for her courage and beauty in ancient Persian history."
+    },
+    "vashti": {
+      "id": "vashti",
+      "name": "Vashti",
+      "aliases": [
+        "Vashti (from the Book of Esther)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Vashti",
+        "Vashti (from the Book of Esther)"
+      ],
+      "spoilerFreeIntro": "A proud and beautiful queen from ancient Persia, known for her refusal to obey King Ahasuerus."
+    },
+    "jonah": {
+      "id": "jonah",
+      "name": "Jonah",
+      "aliases": [
+        "Jonah (from the Book of Jonah, in the whale)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Jonah",
+        "Jonah (from the Book of Jonah, in the whale)"
+      ],
+      "spoilerFreeIntro": "A prophet from the Old Testament, known for being swallowed by a great fish."
+    },
+    "joseph": {
+      "id": "joseph",
+      "name": "Joseph",
+      "aliases": [
+        "Joseph (the dreamer, son of Jacob)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Joseph",
+        "Joseph (the dreamer, son of Jacob)"
+      ],
+      "spoilerFreeIntro": "A favored son known for his dreams, Joseph is envied by his brothers."
+    },
+    "jacob": {
+      "id": "jacob",
+      "name": "Jacob",
+      "aliases": [
+        "Jacob"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Jacob"
+      ],
+      "spoilerFreeIntro": "Jacob, a biblical patriarch, is remembered for his journey to Laban and his visionary dream marking a place as holy."
+    },
+    "benjamin": {
+      "id": "benjamin",
+      "name": "Benjamin",
+      "aliases": [
+        "Benjamin (Joseph's brother)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Benjamin",
+        "Benjamin (Joseph's brother)"
+      ],
+      "spoilerFreeIntro": "The youngest brother, gentle Benjamin, appears quietly among his siblings."
+    },
+    "judah": {
+      "id": "judah",
+      "name": "Judah",
+      "aliases": [
+        "Judah"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Judah"
+      ],
+      "spoilerFreeIntro": "Judah, an ancestor of great significance in the ancient lineage, is quietly introduced as the father from whom hope for the world is foretold."
+    },
+    "the_messiah_and_saviour": {
+      "id": "the_messiah_and_saviour",
+      "name": "the Messiah and Saviour",
+      "aliases": [
+        "the Messiah and Saviour (reference to Christ)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "the Messiah and Saviour",
+        "the Messiah and Saviour (reference to Christ)"
+      ],
+      "spoilerFreeIntro": "A figure awaited by the people as the promised Redeemer and bringer of hope."
+    },
+    "sarah": {
+      "id": "sarah",
+      "name": "Sarah",
+      "aliases": [
+        "Sarah (wife of Abraham)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Sarah",
+        "Sarah (wife of Abraham)"
+      ],
+      "spoilerFreeIntro": "Sarah, the devoted wife of Abraham, is introduced as a central matriarch in the traditions of faith."
+    },
+    "rebecca": {
+      "id": "rebecca",
+      "name": "Rebecca",
+      "aliases": [
+        "Rebecca"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Rebecca"
+      ],
+      "spoilerFreeIntro": "Rebecca is a figure from the Bible, known as the wife of Isaac and the mother of Jacob and Esau."
+    },
+    "abraham": {
+      "id": "abraham",
+      "name": "Abraham",
+      "aliases": [
+        "Abraham"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Abraham"
+      ],
+      "spoilerFreeIntro": "An important patriarch in ancient Hebrew tradition, Abraham is revered for his faith and for being the husband of Sarah and father of Isaac."
+    },
+    "st_paul": {
+      "id": "st_paul",
+      "name": "St. Paul",
+      "aliases": [
+        "St. Paul"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "St. Paul"
+      ],
+      "spoilerFreeIntro": "St. Paul, once known as Saul, is a pivotal figure in Christian history celebrated for his profound conversion and later teachings."
+    },
+    "afanasy": {
+      "id": "afanasy",
+      "name": "Afanasy",
+      "aliases": [
+        "the cook Afimya (full name revealed here is Afimya)",
+        "my orderly"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Afanasy",
+        "the cook Afimya (full name revealed here is Afimya)",
+        "my orderly"
+      ],
+      "spoilerFreeIntro": "Afanasy, the narrator’s recently hired orderly, is introduced as a servant who has suffered his master’s violent temper."
+    },
+    "the_mysterious_visitor_mihail": {
+      "id": "the_mysterious_visitor_mihail",
+      "name": "the mysterious visitor (Mihail)",
+      "aliases": [
+        "my mysterious visitor, my friend, the official, Mihail"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 40,
+      "searchTerms": [
+        "the mysterious visitor (Mihail)",
+        "my mysterious visitor, my friend, the official, Mihail"
+      ]
+    },
+    "the_young_lady": {
+      "id": "the_young_lady",
+      "name": "the young lady",
+      "aliases": [
+        "the daughter of people much respected, the young lady on whose account the duel had been fought",
+        "the young lady, daughter of people much respected"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 40,
+      "searchTerms": [
+        "the young lady",
+        "the daughter of people much respected, the young lady on whose account the duel had been fought",
+        "the young lady, daughter of people much respected"
+      ],
+      "spoilerFreeIntro": "A gentle and gracious young woman who receives the narrator with kindness."
+    },
+    "the_young_landowner_her_husband": {
+      "id": "the_young_landowner_her_husband",
+      "name": "the young landowner (her husband)",
+      "aliases": [
+        "the young landowner, her husband, my rival",
+        "her husband, my rival"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 40,
+      "searchTerms": [
+        "the young landowner (her husband)",
+        "the young landowner, her husband, my rival",
+        "her husband, my rival"
+      ]
+    },
+    "the_comradeensign_second_at_duel": {
+      "id": "the_comradeensign_second_at_duel",
+      "name": "the comrade/ensign (second at duel)",
+      "aliases": [
+        "the ensign of our regiment, my second",
+        "ensign, my second, comrade"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 40,
+      "searchTerms": [
+        "the comrade/ensign (second at duel)",
+        "the ensign of our regiment, my second",
+        "ensign, my second, comrade"
+      ]
+    },
+    "society_of_the_town": {
+      "id": "society_of_the_town",
+      "name": "society of the town",
+      "aliases": [
+        "company/town society"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 40,
+      "searchTerms": [
+        "society of the town",
+        "company/town society"
+      ],
+      "spoilerFreeIntro": "A newcomer to town, he suddenly finds himself the center of society’s attention."
+    },
+    "the_hostess": {
+      "id": "the_hostess",
+      "name": "the hostess",
+      "aliases": [
+        "my hostess (at the gathering after the duel)"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 40,
+      "searchTerms": [
+        "the hostess",
+        "my hostess (at the gathering after the duel)"
+      ]
+    },
+    "the_widow_murder_victim": {
+      "id": "the_widow_murder_victim",
+      "name": "the widow (murder victim)",
+      "aliases": [
+        "widow of a landowner, wealthy and handsome young woman, murdered woman",
+        "the widow of a landowner, a wealthy and handsome young woman, murdered woman"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 40,
+      "searchTerms": [
+        "the widow (murder victim)",
+        "widow of a landowner, wealthy and handsome young woman, murdered woman",
+        "the widow of a landowner, a wealthy and handsome young woman, murdered woman"
+      ]
+    },
+    "the_murdered_womans_maids": {
+      "id": "the_murdered_womans_maids",
+      "name": "the murdered woman's maids",
+      "aliases": [
+        "her maids"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 40,
+      "searchTerms": [
+        "the murdered woman's maids",
+        "her maids"
+      ],
+      "spoilerFreeIntro": "The murdered woman's maids, absent from the house that evening, had gone out together to a nearby birthday party."
+    },
+    "the_officer_the_murdered_womans_belovedbetrothed": {
+      "id": "the_officer_the_murdered_womans_belovedbetrothed",
+      "name": "the officer (the murdered woman's beloved/betrothed)",
+      "aliases": [
+        "officer of noble birth and high rank, her betrothed, the murdered woman's beloved",
+        "her betrothed, officer of noble birth and high rank, the murdered woman's beloved"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 40,
+      "searchTerms": [
+        "the officer (the murdered woman's beloved/betrothed)",
+        "officer of noble birth and high rank, her betrothed, the murdered woman's beloved",
+        "her betrothed, officer of noble birth and high rank, the murdered woman's beloved"
+      ]
+    },
+    "pyotr_the_serf_falsely_accused_of_murder": {
+      "id": "pyotr_the_serf_falsely_accused_of_murder",
+      "name": "Pyotr (the serf falsely accused of murder)",
+      "aliases": [
+        "Pyotr, the serf, innocent servant"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 40,
+      "searchTerms": [
+        "Pyotr (the serf falsely accused of murder)",
+        "Pyotr, the serf, innocent servant"
+      ]
+    },
+    "the_widow_of_a_government_clerk_zossimas_landlady_after_duel": {
+      "id": "the_widow_of_a_government_clerk_zossimas_landlady_after_duel",
+      "name": "the widow of a government clerk (Zossima's landlady after duel)",
+      "aliases": [
+        "my landlady, old lady"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 40,
+      "searchTerms": [
+        "the widow of a government clerk (Zossima's landlady after duel)",
+        "my landlady, old lady"
+      ]
+    },
+    "the_landladys_servant_after_duel": {
+      "id": "the_landladys_servant_after_duel",
+      "name": "the landlady's servant (after duel)",
+      "aliases": [
+        "my landlady’s servant"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 40,
+      "searchTerms": [
+        "the landlady's servant (after duel)",
+        "my landlady’s servant"
+      ],
+      "spoilerFreeIntro": "The landlady’s servant, a quiet and diligent presence in the household, attends to the narrator during his convalescence."
+    },
+    "the_wife_of_the_mysterious_visitor": {
+      "id": "the_wife_of_the_mysterious_visitor",
+      "name": "the wife of the mysterious visitor",
+      "aliases": [
+        "his wife, young wife of the official",
+        "his wife"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 40,
+      "searchTerms": [
+        "the wife of the mysterious visitor",
+        "his wife, young wife of the official",
+        "his wife"
+      ],
+      "spoilerFreeIntro": "The wife of the mysterious visitor is a reserved and graceful woman whose presence hints at untold stories beneath her composed exterior."
+    },
+    "the_children_of_the_mysterious_visitor": {
+      "id": "the_children_of_the_mysterious_visitor",
+      "name": "the children of the mysterious visitor",
+      "aliases": [
+        "his children, the children",
+        "his children"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 40,
+      "searchTerms": [
+        "the children of the mysterious visitor",
+        "his children, the children",
+        "his children"
+      ]
+    },
+    "the_chief_priest": {
+      "id": "the_chief_priest",
+      "name": "the chief priest",
+      "aliases": [
+        "chief priest at the funeral"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 40,
+      "searchTerms": [
+        "the chief priest",
+        "chief priest at the funeral"
+      ],
+      "spoilerFreeIntro": "The chief priest, a respected spiritual leader in the town, was known for his heartfelt words and compassion."
+    },
+    "saint_john_the_evangelist": {
+      "id": "saint_john_the_evangelist",
+      "name": "Saint John (the Evangelist)",
+      "aliases": [
+        "St. John, the Gospel of St. John",
+        "Gospel of St. John, chapter xii. verse 24"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 40,
+      "searchTerms": [
+        "Saint John (the Evangelist)",
+        "St. John, the Gospel of St. John",
+        "Gospel of St. John, chapter xii. verse 24"
+      ]
+    },
+    "epistle_to_the_hebrews": {
+      "id": "epistle_to_the_hebrews",
+      "name": "Epistle to the Hebrews",
+      "aliases": [
+        "the Epistle to the Hebrews, the Bible reference"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 40,
+      "searchTerms": [
+        "Epistle to the Hebrews",
+        "the Epistle to the Hebrews, the Bible reference"
+      ],
+      "spoilerFreeIntro": "A letter found in the New Testament, addressed to early Christian believers."
+    },
+    "the_grave_of_the_mysterious_visitor": {
+      "id": "the_grave_of_the_mysterious_visitor",
+      "name": "the grave of the mysterious visitor",
+      "aliases": [
+        "the grave"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 40,
+      "searchTerms": [
+        "the grave of the mysterious visitor",
+        "the grave"
+      ],
+      "spoilerFreeIntro": "The grave of the mysterious visitor—a somber resting place quietly watched by the curious townspeople."
+    },
+    "the_almshouse": {
+      "id": "the_almshouse",
+      "name": "the Almshouse",
+      "aliases": [
+        "almshouse in the town"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 40,
+      "searchTerms": [
+        "the Almshouse",
+        "almshouse in the town"
+      ],
+      "spoilerFreeIntro": "The Almshouse—a charitable institution in the city, providing shelter and care for the poor."
+    },
+    "the_servants_quarters_kitchen_of_the_murdered_woman": {
+      "id": "the_servants_quarters_kitchen_of_the_murdered_woman",
+      "name": "the servants’ quarters / kitchen of the murdered woman",
+      "aliases": [
+        "servants’ quarters, kitchen"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 40,
+      "searchTerms": [
+        "the servants’ quarters / kitchen of the murdered woman",
+        "servants’ quarters, kitchen"
+      ]
+    },
+    "the_garret_of_the_murdered_womans_house": {
+      "id": "the_garret_of_the_murdered_womans_house",
+      "name": "the garret (of the murdered woman's house)",
+      "aliases": [
+        "the garret, garret",
+        "the garret, the roof"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 40,
+      "searchTerms": [
+        "the garret (of the murdered woman's house)",
+        "the garret, garret",
+        "the garret, the roof"
+      ]
+    },
+    "the_chief_of_the_department": {
+      "id": "the_chief_of_the_department",
+      "name": "the chief of the department",
+      "aliases": [
+        "chief of his department"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 40,
+      "searchTerms": [
+        "the chief of the department",
+        "chief of his department"
+      ]
+    },
+    "the_epistle_to_the_hebrews": {
+      "id": "the_epistle_to_the_hebrews",
+      "name": "the Epistle to the Hebrews",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 40,
+      "searchTerms": [
+        "the Epistle to the Hebrews"
+      ],
+      "spoilerFreeIntro": "A passage from the New Testament, the Epistle to the Hebrews is a book of the Christian Bible."
+    },
+    "the_tsar": {
+      "id": "the_tsar",
+      "name": "the Tsar",
+      "aliases": [
+        "Tsar"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 31,
+      "searchTerms": [
+        "the Tsar",
+        "Tsar"
+      ],
+      "spoilerFreeIntro": "The Tsar—the distant, powerful ruler of all Russia—is spoken of with awe and longing by those who dream of greatness."
+    },
+    "the_lawyer_friend_of_the_captain_in_k_province": {
+      "id": "the_lawyer_friend_of_the_captain_in_k_province",
+      "name": "the lawyer (friend of the Captain in K. province)",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 31,
+      "searchTerms": [
+        "the lawyer (friend of the Captain in K. province)"
+      ]
+    },
+    "the_chemists": {
+      "id": "the_chemists",
+      "name": "the chemist's",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 31,
+      "searchTerms": [
+        "the chemist's"
+      ]
+    },
+    "the_student": {
+      "id": "the_student",
+      "name": "the student",
+      "aliases": [
+        "student (Varvara, referred to in context as 'student dying to get back to Petersburg'); likely Varvara"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 31,
+      "searchTerms": [
+        "the student",
+        "student (Varvara, referred to in context as 'student dying to get back to Petersburg'); likely Varvara"
+      ]
+    },
+    "two_hundred_roubles": {
+      "id": "two_hundred_roubles",
+      "name": "two hundred roubles",
+      "aliases": [
+        "the transaction of giving the money to the Captain"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 31,
+      "searchTerms": [
+        "two hundred roubles",
+        "the transaction of giving the money to the Captain"
+      ],
+      "spoilerFreeIntro": "A sum of money offered in secretive generosity as part of a difficult conversation."
+    },
+    "the_sign_of_the_cross": {
+      "id": "the_sign_of_the_cross",
+      "name": "the sign of the cross",
+      "aliases": [
+        "she made the sign of the cross over him"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 32,
+      "searchTerms": [
+        "the sign of the cross",
+        "she made the sign of the cross over him"
+      ],
+      "spoilerFreeIntro": "A traditional religious gesture, made here as a blessing for Alyosha as he departs."
+    },
+    "mans_disillusionment": {
+      "id": "mans_disillusionment",
+      "name": "man's disillusionment",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 34,
+      "searchTerms": [
+        "man's disillusionment"
+      ]
+    },
+    "the_eternal_questions": {
+      "id": "the_eternal_questions",
+      "name": "the eternal questions",
+      "aliases": [
+        "questions of God's existence and immortality, socialism, anarchism"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 34,
+      "searchTerms": [
+        "the eternal questions",
+        "questions of God's existence and immortality, socialism, anarchism"
+      ],
+      "spoilerFreeIntro": "The eternal questions—profound philosophical and moral dilemmas—preoccupy the thoughts and conversations of Russia’s younger generation."
+    },
+    "swiss_mountains": {
+      "id": "swiss_mountains",
+      "name": "Swiss mountains",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 35,
+      "searchTerms": [
+        "Swiss mountains"
+      ],
+      "spoilerFreeIntro": "A remote and rugged region where shepherds tend their flocks high in the Swiss mountains."
+    },
+    "jesus_christ": {
+      "id": "jesus_christ",
+      "name": "Jesus Christ",
+      "aliases": [
+        "Christ; He/The Prisoner; the Heavenly King; Prisoner; He"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "Jesus Christ",
+        "Christ; He/The Prisoner; the Heavenly King; Prisoner; He"
+      ]
+    },
+    "the_poem_the_wanderings_of_our_lady_through_hell": {
+      "id": "the_poem_the_wanderings_of_our_lady_through_hell",
+      "name": "the poem The Wanderings of Our Lady through Hell",
+      "aliases": [
+        "The Wanderings of Our Lady through Hell"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 36,
+      "searchTerms": [
+        "the poem The Wanderings of Our Lady through Hell",
+        "The Wanderings of Our Lady through Hell"
+      ],
+      "spoilerFreeIntro": "A powerful old poem, said to be based on a Greek original, in which Our Lady, guided by the Archangel Michael, journeys through Hell to witness the torments of the damned."
+    },
+    "job": {
+      "id": "job",
+      "name": "Job",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Job"
+      ],
+      "spoilerFreeIntro": "A figure from the Bible, renowned for his unwavering faith and endurance amid suffering."
+    },
+    "isaac": {
+      "id": "isaac",
+      "name": "Isaac",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Isaac"
+      ],
+      "spoilerFreeIntro": "Isaac, the promised son of Abraham and Sarah, is a patriarch whose life and faith are central to biblical tradition."
+    },
+    "laban": {
+      "id": "laban",
+      "name": "Laban",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Laban"
+      ],
+      "spoilerFreeIntro": "Laban is an important figure from the Old Testament, known as the brother of Rebecca and uncle to Jacob in biblical stories."
+    },
+    "rural_priestsvillage_priests": {
+      "id": "rural_priestsvillage_priests",
+      "name": "rural priests/village priests",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "rural priests/village priests"
+      ]
+    },
+    "lutherans": {
+      "id": "lutherans",
+      "name": "Lutherans",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "Lutherans"
+      ],
+      "spoilerFreeIntro": "A group of Christians following the teachings of Martin Luther."
+    },
+    "heretics": {
+      "id": "heretics",
+      "name": "heretics",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "heretics"
+      ],
+      "spoilerFreeIntro": "A religious leader speaks of \"heretics,\" referring to those considered to hold beliefs contrary to the accepted faith."
+    },
+    "churchsouls_thirst_for_the_word": {
+      "id": "churchsouls_thirst_for_the_word",
+      "name": "church/soul's thirst for the Word",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 39,
+      "searchTerms": [
+        "church/soul's thirst for the Word"
+      ]
     }
   },
-  "lastIndexedChapter": 30
+  "lastIndexedChapter": 40
 }
