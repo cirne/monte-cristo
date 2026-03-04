@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { HeaderNav } from "./components/HeaderNav";
-import { HeaderProgressBar } from "./components/HeaderProgressBar";
+import { Footer } from "./components/Footer";
 
 export const metadata: Metadata = {
   title: "The Count of Monte Cristo",
@@ -17,29 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className="antialiased min-h-screen bg-stone-50 text-stone-900"
+        className="antialiased min-h-screen bg-stone-50 text-stone-900 dark:bg-stone-950 dark:text-stone-100"
       >
-        <header className="border-b border-stone-200 bg-white sticky top-0 z-10 flex flex-col">
-          <HeaderNav />
-          <HeaderProgressBar />
-        </header>
+        <HeaderNav />
         {children}
-        <footer className="border-t border-stone-200 mt-16 py-6 text-center text-xs text-stone-400">
-          <p>
-            <em>The Count of Monte Cristo</em> by Alexandre Dumas, père — Public Domain
-          </p>
-          <p className="mt-1">
-            Source:{" "}
-            <a
-              href="https://www.gutenberg.org/ebooks/1184"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline"
-            >
-              Project Gutenberg #1184
-            </a>
-          </p>
-        </footer>
+        <Footer />
       </body>
     </html>
   );

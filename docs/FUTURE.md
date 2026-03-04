@@ -9,9 +9,9 @@
   1. **Find entities**: LLM extracts people, places, events from the chapter text.
   2. **Generate content**: Spoiler-free intro (on first appearance) and excerpt ("in this chapter") from the text.
   3. **Update if referenced previously**: Entity store (`data/entity-store.json`) keeps canonical entities; names are matched so the same character/place is reused and `firstSeenInChapter` / aliases are updated instead of duplicating.
-- **Scenes** are written into each chapter index entry (`scenes: [{ startParagraph, endParagraph }]`) for downstream use (e.g. per-scene context or viewport-based "current scene").
+- **Scenes** are written into each chapter index entry (`scenes: [{ startParagraph, endParagraph, locationDescription?, imageDescription?, characterIds? }]`) for downstream use (e.g. per-scene context or viewport-based "current scene").
 
-**Usage:** `bun run index-chapter --chapter=1` or `bun run index-chapter --all`. Optional `--seed-from-curated` initializes the entity store from `lib/characters` and `lib/entities` so existing IDs stay stable.
+**Usage:** `bun run index-chapter --chapter=1` or `bun run index-chapter --all`. The indexer passes known entity IDs from the current store into the LLM prompt so it reuses IDs; deduplication is name-based via `lib/canonical-entities`.
 
 ## Scenes (viewport-based current scene)
 

@@ -1,15 +1,12 @@
 /**
- * Canonical entity ID mapping: index/store IDs → curated IDs.
- * Used to consolidate data and make linkify work without re-running the LLM.
+ * Canonical entity ID mapping: deduplicate by (type, normalized name) using only the entity store.
+ * Used to merge duplicate entities (e.g. "edmond_dants" vs "dantes") so linkify and chapter index stay consistent.
  */
 
-import { CHARACTERS, getCharacter } from "./characters";
-import { PLACES_AND_EVENTS, getPlaceOrEvent } from "./entities";
 import { normalizeNameForMatch } from "./entity-store";
-import type { EntityType } from "./chapter-index";
 import type { StoredEntity } from "./entity-store";
 
-/** Explicit overrides for known slug variations that don't match by name */
+/** Overrides for known slug variations that don't match by name (e.g. LLM used different id). */
 const ID_OVERRIDES: Record<string, string> = {
   edmond_dants: "dantes",
   m_danglars: "danglars",
@@ -20,56 +17,63 @@ const ID_OVERRIDES: Record<string, string> = {
   the_pharaon: "pharaon",
 };
 
-/**
- * Resolve an index/store entity ID to the canonical (curated) ID when possible.
- * Returns the canonical id if we have a curated person/place/event for it; otherwise returns undefined (keep original).
- */
-export function getCanonicalId(
-  entityId: string,
-  type: EntityType,
-  storeEntity?: StoredEntity | null
-): string | undefined {
-  if (!entityId || typeof entityId !== "string") return undefined;
-  const lower = entityId.toLowerCase().trim();
-
-  if (ID_OVERRIDES[lower]) return ID_OVERRIDES[lower];
-
-  if (getCharacter(entityId) || getPlaceOrEvent(entityId)) return entityId;
-
-  const name = storeEntity?.name?.trim();
-  if (!name) return undefined;
-
-  if (type === "person") {
-    const norm = normalizeNameForMatch(name);
-    for (const c of CHARACTERS) {
-      if (normalizeNameForMatch(c.name) === norm) return c.id;
-      for (const a of c.aliases || []) {
-        if (normalizeNameForMatch(a) === norm) return c.id;
-      }
-    }
+function pickCanonicalIdInGroup(entities: StoredEntity[]): string {
+  if (entities.length === 0) return "";
+  if (entities.length === 1) return entities[0].id;
+  const byId = new Map(entities.map((e) => [e.id, e]));
+  for (const e of entities) {
+    const override = ID_OVERRIDES[e.id.toLowerCase()];
+    if (override && byId.has(override)) return override;
   }
-
-  if (type === "place" || type === "event") {
-    const norm = normalizeNameForMatch(name);
-    for (const e of PLACES_AND_EVENTS) {
-      if (normalizeNameForMatch(e.name) === norm) return e.id;
-      for (const t of e.searchTerms || []) {
-        if (normalizeNameForMatch(t) === norm) return e.id;
-      }
-    }
-  }
-
-  return undefined;
+  const sorted = [...entities].sort(
+    (a, b) =>
+      a.firstSeenInChapter - b.firstSeenInChapter || a.id.localeCompare(b.id)
+  );
+  return sorted[0].id;
 }
 
 /**
- * Build full mapping from all store entity IDs to canonical IDs.
+ * Build mapping from every store entity ID to the canonical ID for its (type, normalized name) group.
+ * Canonical = one id per group (earliest firstSeenInChapter, then lexicographic id; overrides applied when present).
  */
-export function buildCanonicalMapping(store: { entities: Record<string, StoredEntity> }): Map<string, string> {
+export function buildCanonicalMapping(
+  store: { entities: Record<string, StoredEntity> }
+): Map<string, string> {
   const map = new Map<string, string>();
-  for (const [id, e] of Object.entries(store.entities)) {
-    const canonical = getCanonicalId(id, e.type, e);
-    if (canonical) map.set(id, canonical);
+  const groups = new Map<string, StoredEntity[]>();
+  for (const e of Object.values(store.entities)) {
+    const key = `${e.type}:${normalizeNameForMatch(e.name)}`;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key)!.push(e);
+  }
+
+  const canonicalByEntity = new Map<string, string>();
+  for (const group of groups.values()) {
+    const canonical = pickCanonicalIdInGroup(group);
+    for (const e of group) {
+      canonicalByEntity.set(e.id, canonical);
+    }
+  }
+
+  for (const id of Object.keys(store.entities)) {
+    const canonical = canonicalByEntity.get(id) ?? id;
+    const override = ID_OVERRIDES[id.toLowerCase()];
+    const resolved = override && store.entities[override] ? override : canonical;
+    if (resolved !== id) map.set(id, resolved);
   }
   return map;
+}
+
+/**
+ * Resolve an index/store entity ID to the canonical ID.
+ * Prefer buildCanonicalMapping(store) for batch resolution.
+ */
+export function getCanonicalId(
+  store: { entities: Record<string, StoredEntity> },
+  entityId: string
+): string | undefined {
+  if (!entityId || typeof entityId !== "string") return undefined;
+  if (!store.entities[entityId]) return undefined;
+  const mapping = buildCanonicalMapping(store);
+  return mapping.get(entityId) ?? entityId;
 }

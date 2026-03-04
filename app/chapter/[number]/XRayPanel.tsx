@@ -1,7 +1,12 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 import type { EntityType } from "@/lib/chapter-index";
+import { DEFAULT_BOOK_SLUG } from "@/lib/books";
+import { AppDrawer } from "@/app/components/AppDrawer";
+import { parseTextForEntityLinks } from "./entityTextSegments";
 
 export interface XRayEntityData {
   name: string;
@@ -12,67 +17,6 @@ export interface XRayEntityData {
   type: EntityType;
 }
 
-/** Segment of the intro paragraph: plain text or a link to another entity */
-type IntroSegment =
-  | { type: "text"; content: string }
-  | { type: "entity"; content: string; entityId: string };
-
-/** Split intro text into segments, with entity names/aliases as linkable segments */
-function parseIntroForEntityLinks(
-  intro: string,
-  entityData: Record<string, XRayEntityData>,
-  currentEntityId: string
-): IntroSegment[] {
-  const segments: IntroSegment[] = [];
-  const patterns: { pattern: string; entityId: string }[] = [];
-  for (const [id, data] of Object.entries(entityData)) {
-    if (id === currentEntityId) continue;
-    if (data.name) patterns.push({ pattern: data.name, entityId: id });
-    for (const alias of data.aliases) {
-      if (alias) patterns.push({ pattern: alias, entityId: id });
-    }
-  }
-  patterns.sort((a, b) => b.pattern.length - a.pattern.length);
-
-  let i = 0;
-  while (i < intro.length) {
-    let matched: { pattern: string; entityId: string } | null = null;
-    for (const { pattern, entityId } of patterns) {
-      if (
-        intro.slice(i, i + pattern.length) === pattern &&
-        (matched === null || pattern.length > matched.pattern.length)
-      ) {
-        matched = { pattern, entityId };
-      }
-    }
-    if (matched) {
-      segments.push({
-        type: "entity",
-        content: matched.pattern,
-        entityId: matched.entityId,
-      });
-      i += matched.pattern.length;
-    } else {
-      segments.push({ type: "text", content: intro[i] });
-      i += 1;
-    }
-  }
-
-  const merged: IntroSegment[] = [];
-  for (const seg of segments) {
-    if (seg.type === "text") {
-      if (merged.length > 0 && merged[merged.length - 1].type === "text") {
-        (merged[merged.length - 1] as { content: string }).content += seg.content;
-      } else {
-        merged.push(seg);
-      }
-    } else {
-      merged.push(seg);
-    }
-  }
-  return merged;
-}
-
 interface XRayPanelProps {
   entityId: string | null;
   entityData: Record<string, XRayEntityData>;
@@ -80,6 +24,8 @@ interface XRayPanelProps {
   baselineIntro?: string;
   onClose: () => void;
   onSelectEntity?: (entityId: string) => void;
+  /** When set (e.g. from /book/[slug]/chapter), entity images load from /images/entities/<bookSlug>/. */
+  bookSlug?: string;
 }
 
 export function XRayPanel({
@@ -89,96 +35,107 @@ export function XRayPanel({
   baselineIntro,
   onClose,
   onSelectEntity,
+  bookSlug,
 }: XRayPanelProps) {
+  const [activeEntityId, setActiveEntityId] = React.useState<string | null>(entityId);
   const [imageError, setImageError] = React.useState(false);
-  React.useEffect(() => setImageError(false), [entityId]);
+  const open = Boolean(entityId);
 
-  if (!entityId) return null;
+  React.useEffect(() => {
+    if (entityId) setActiveEntityId(entityId);
+  }, [entityId]);
 
-  const data = entityData[entityId];
+  React.useEffect(() => setImageError(false), [activeEntityId]);
+
+  if (!activeEntityId) return null;
+
+  const data = entityData[activeEntityId];
   if (!data) return null;
+
+  const entitiesBase = `/images/entities/${bookSlug ?? DEFAULT_BOOK_SLUG}`;
 
   const isFirstChapter = chapterNumber === 1;
   const introText = data.spoilerFreeIntro ?? data.name;
   const introSegments =
     onSelectEntity && Object.keys(entityData).length > 1
-      ? parseIntroForEntityLinks(introText, entityData, entityId)
-      : ([{ type: "text" as const, content: introText }] as IntroSegment[]);
+      ? parseTextForEntityLinks(introText, entityData, activeEntityId)
+      : [{ type: "text" as const, content: introText }];
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/40" onClick={onClose}>
-      <div
-        className="bg-white rounded-xl shadow-xl max-w-md w-full max-h-[85vh] overflow-y-auto border border-stone-200"
-        onClick={(e) => e.stopPropagation()}
-      >
-        <div className="p-5">
-          <div className="flex items-start justify-between gap-2 mb-3">
-            <h3 className="text-lg font-semibold text-stone-900">{data.name}</h3>
-            <button
-              type="button"
-              onClick={onClose}
-              className="text-stone-400 hover:text-stone-600 p-1 -m-1"
-              aria-label="Close"
-            >
-              ×
-            </button>
-          </div>
+    <AppDrawer
+      open={open}
+      onOpenChange={(next) => {
+        if (!next) onClose();
+      }}
+      ariaLabel={data.name}
+      title={data.name}
+      contentClassName="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 shadow-xl w-full max-h-[85vh] overflow-y-auto rounded-xl"
+    >
+      <div className="px-5 pb-5">
+        <div className="flex items-start justify-center gap-2 mb-3">
+          <h3 className="text-lg font-semibold text-stone-900 dark:text-stone-100 text-center">
+            {data.name}
+          </h3>
+        </div>
 
-          {/* Entity portrait when image exists (convention: /images/entities/{id}.webp) */}
-          <div className="flex justify-center mb-4">
-            {!imageError && (
-              <div className="rounded-lg overflow-hidden bg-stone-100 w-52 h-64 flex-shrink-0">
-                <img
-                  src={`/images/entities/${entityId}.webp`}
-                  alt=""
-                  className="w-full h-full object-cover object-top"
-                  onError={() => setImageError(true)}
-                />
-              </div>
-            )}
-          </div>
-
-          {data.aliases.length > 0 && (
-            <p className="text-xs text-stone-500 mb-2">
-              Also known as: {data.aliases.join(", ")}
-            </p>
-          )}
-
-          <p className="text-base text-stone-700 leading-relaxed mb-3">
-            {introSegments.map((seg, idx) =>
-              seg.type === "text" ? (
-                <React.Fragment key={idx}>{seg.content}</React.Fragment>
-              ) : (
-                <button
-                  key={idx}
-                  type="button"
-                  onClick={() => onSelectEntity?.(seg.entityId)}
-                  className="text-amber-700 hover:text-amber-800 hover:underline font-medium cursor-pointer bg-transparent border-none p-0 align-baseline"
-                >
-                  {seg.content}
-                </button>
-              )
-            )}
-          </p>
-
-          {isFirstChapter && baselineIntro && (
-            <p className="text-sm text-stone-600 mb-3 italic">{baselineIntro}</p>
-          )}
-
-          <p className="text-xs text-stone-500 mb-2">
-            First appears in Chapter {data.firstSeenInChapter}
-          </p>
-
-          {data.excerpt && (
-            <div className="mt-3 pt-3 border-t border-stone-100">
-              <p className="text-xs font-semibold uppercase tracking-widest text-stone-400 mb-1">
-                In this chapter
-              </p>
-              <p className="text-sm text-stone-600 italic">&ldquo;{data.excerpt}&rdquo;</p>
+        {/* Entity portrait when image exists (convention: /images/entities/<book>/{id}.webp) */}
+        <div className="flex justify-center mb-4">
+          {!imageError && (
+            <div className="rounded-lg overflow-hidden bg-stone-100 dark:bg-stone-800 w-52 h-64 flex-shrink-0 relative">
+              <Image
+                src={`${entitiesBase}/${activeEntityId}.webp`}
+                alt=""
+                fill
+                className="object-cover object-top"
+                onError={() => setImageError(true)}
+              />
             </div>
           )}
         </div>
+
+        <p className="text-base text-stone-700 dark:text-stone-300 leading-relaxed mb-3">
+          {introSegments.map((seg, idx) =>
+            seg.type === "text" ? (
+              <React.Fragment key={idx}>{seg.content}</React.Fragment>
+            ) : (
+              <button
+                key={idx}
+                type="button"
+                onClick={() => onSelectEntity?.(seg.entityId)}
+                className="text-amber-700 hover:text-amber-800 dark:text-amber-300 dark:hover:text-amber-200 hover:underline font-medium cursor-pointer bg-transparent border-none p-0 align-baseline"
+              >
+                {seg.content}
+              </button>
+            )
+          )}
+        </p>
+
+        {isFirstChapter && baselineIntro && (
+          <p className="text-sm text-stone-600 dark:text-stone-400 mb-3 italic">{baselineIntro}</p>
+        )}
+
+        {chapterNumber !== data.firstSeenInChapter && (
+          <p className="text-xs text-stone-500 dark:text-stone-400 mb-2">
+            <Link
+              href={`/book/${bookSlug ?? DEFAULT_BOOK_SLUG}/chapter/${data.firstSeenInChapter}?scrollTo=${encodeURIComponent(activeEntityId)}`}
+              className="text-amber-600 hover:text-amber-700 dark:text-amber-400 dark:hover:text-amber-300 hover:underline"
+            >
+              First appears in Chapter {data.firstSeenInChapter}
+            </Link>
+          </p>
+        )}
+
+        {data.excerpt && (
+          <div className="mt-3 pt-3 border-t border-stone-100 dark:border-stone-800">
+            <p className="text-xs font-semibold uppercase tracking-widest text-stone-400 dark:text-stone-500 mb-1">
+              In this chapter
+            </p>
+            <p className="text-sm text-stone-600 dark:text-stone-400 italic">
+              &ldquo;{data.excerpt}&rdquo;
+            </p>
+          </div>
+        )}
       </div>
-    </div>
+    </AppDrawer>
   );
 }

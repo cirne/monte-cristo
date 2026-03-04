@@ -1,11 +1,15 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import type { Segment } from "@/lib/linkify";
 import type { SceneWithDetails } from "@/lib/scenes";
+import { DEFAULT_BOOK_SLUG } from "@/lib/books";
 import { XRayPanel } from "./XRayPanel";
 import type { XRayEntityData } from "./XRayPanel";
 import { ReaderFooter } from "./ReaderFooter";
+import { ParagraphContextMenu, type ParagraphContextAnchor } from "./ParagraphContextMenu";
+import { EntityLink } from "./EntityLink";
 
 export interface ChapterContentProps {
   paragraphSegments: Segment[][];
@@ -14,6 +18,10 @@ export interface ChapterContentProps {
   chapterNumber: number;
   xrayData: Record<string, XRayEntityData>;
   baselineIntro?: string;
+  /** When set, context API requests use this book (e.g. /book/[slug]/chapter/[number]) */
+  bookSlug?: string;
+  /** When set, scroll to the first in-chapter link for this entity (e.g. from character guide ?scrollTo=id). */
+  scrollToEntityId?: string | null;
 }
 
 /** True if this paragraph is only a placeholder (e.g. stripped PG page marker). */
@@ -28,12 +36,37 @@ export function ChapterContent({
   chapterNumber,
   xrayData,
   baselineIntro,
+  bookSlug,
+  scrollToEntityId,
 }: ChapterContentProps) {
   const [openEntityId, setOpenEntityId] = React.useState<string | null>(null);
   const articleRef = React.useRef<HTMLDivElement>(null);
   const [visibleParagraphIndices, setVisibleParagraphIndices] = React.useState<Set<number>>(() => new Set());
+  const [contextMenuAnchor, setContextMenuAnchor] = React.useState<ParagraphContextAnchor | null>(null);
+  const menuClosedAtRef = React.useRef<number | null>(null);
 
-  /** Track which paragraphs intersect the viewport; current scene = earliest scene that overlaps any visible paragraph. */
+  /** When scrollToEntityId is set (e.g. from character guide link), scroll to the first occurrence of that entity in the chapter and run a highlight animation. */
+  React.useEffect(() => {
+    if (!scrollToEntityId || !articleRef.current) return;
+    const id = scrollToEntityId;
+    const el = articleRef.current.querySelector<HTMLElement>(
+      `[data-person-entity-id="${CSS.escape(id)}"]`
+    );
+    if (!el) return;
+    const rafId = requestAnimationFrame(() => {
+      el.scrollIntoView({ behavior: "smooth", block: "center" });
+      el.setAttribute("data-scroll-to-highlight", "true");
+      const onEnd = () => {
+        el.removeAttribute("data-scroll-to-highlight");
+        el.removeEventListener("animationend", onEnd);
+      };
+      el.addEventListener("animationend", onEnd);
+    });
+    return () => cancelAnimationFrame(rafId);
+  }, [scrollToEntityId, paragraphSegments.length]);
+
+  /** Track which paragraphs intersect the viewport; current scene = earliest scene that overlaps any visible paragraph.
+   * Depends on chapterNumber so the observer is recreated when switching chapters (DOM nodes change even if paragraph count is unchanged). */
   React.useEffect(() => {
     const el = articleRef.current;
     if (!el) return;
@@ -58,7 +91,7 @@ export function ChapterContent({
     );
     paragraphs.forEach((p) => observer.observe(p));
     return () => paragraphs.forEach((p) => observer.unobserve(p));
-  }, [paragraphSegments.length]);
+  }, [chapterNumber, paragraphSegments.length]);
 
   /** Earliest scene (by startParagraph) that contains at least one visible paragraph. */
   const currentScene = React.useMemo(() => {
@@ -70,23 +103,83 @@ export function ChapterContent({
     return overlapping[0] ?? null;
   }, [scenes, visibleParagraphIndices]);
 
-  /** Character entity IDs linked in the visible paragraphs (order: alphabetical by id). */
-  const visibleCharacterIds = React.useMemo(() => {
-    const seen = new Set<string>();
-    const ids: string[] = [];
-    const sortedIndices = Array.from(visibleParagraphIndices).sort((a, b) => a - b);
-    for (const i of sortedIndices) {
-      const segments = paragraphSegments[i];
-      if (!segments) continue;
-      for (const seg of segments) {
-        if (seg.type === "link" && seg.entityType === "person" && !seen.has(seg.entityId)) {
-          seen.add(seg.entityId);
-          ids.push(seg.entityId);
-        }
+  /** Character entity IDs whose link is in the viewport. Re-scanned from scratch on debounced scroll/resize. */
+  const [visibleCharacterIds, setVisibleCharacterIds] = React.useState<string[]>([]);
+
+  React.useEffect(() => {
+    const el = articleRef.current;
+    if (!el) return;
+
+    function scanVisibleCharacterIds(): string[] {
+      if (!el) return [];
+      const personLinks = el.querySelectorAll<HTMLElement>("[data-person-entity-id]");
+      const viewportBottom = typeof window !== "undefined" ? window.innerHeight : 0;
+      const ids: string[] = [];
+      for (let i = 0; i < personLinks.length; i++) {
+        const link = personLinks[i];
+        const id = link.getAttribute("data-person-entity-id");
+        if (!id) continue;
+        const rect = link.getBoundingClientRect();
+        if (rect.bottom > 0 && rect.top < viewportBottom) ids.push(id);
       }
+      const deduped = [...new Set(ids)];
+      return deduped.length === 0 ? [] : deduped.sort((a, b) => a.localeCompare(b));
     }
-    return ids.sort((a, b) => a.localeCompare(b));
-  }, [paragraphSegments, visibleParagraphIndices]);
+
+    let debounceId: ReturnType<typeof setTimeout> | null = null;
+    const DEBOUNCE_MS = 120;
+
+    function onScrollOrResize() {
+      if (debounceId != null) clearTimeout(debounceId);
+      debounceId = setTimeout(() => {
+        debounceId = null;
+        setVisibleCharacterIds(scanVisibleCharacterIds());
+      }, DEBOUNCE_MS);
+    }
+
+    setVisibleCharacterIds(scanVisibleCharacterIds());
+    window.addEventListener("scroll", onScrollOrResize, { passive: true });
+    window.addEventListener("resize", onScrollOrResize);
+    return () => {
+      window.removeEventListener("scroll", onScrollOrResize);
+      window.removeEventListener("resize", onScrollOrResize);
+      if (debounceId != null) clearTimeout(debounceId);
+      setVisibleCharacterIds([]);
+    };
+  }, [chapterNumber, paragraphSegments]);
+
+  const openContextMenu = React.useCallback(
+    (event: React.MouseEvent<HTMLParagraphElement>, paragraphIndex: number) => {
+      const target = event.target as HTMLElement | null;
+      if (!target) return;
+      if (target.closest("[data-entity-link='true']")) return;
+      if (isPlaceholderParagraph(paragraphSegments[paragraphIndex] ?? [])) return;
+
+      const selection = window.getSelection();
+      if (selection && selection.toString().trim().length > 0) return;
+
+      // If menu was just closed via pointerdown (within last 150ms), don't reopen it
+      // This prevents the menu from reopening when clicking on a paragraph while it's open
+      if (menuClosedAtRef.current !== null && Date.now() - menuClosedAtRef.current < 150) {
+        menuClosedAtRef.current = null;
+        return;
+      }
+
+      const rect = event.currentTarget.getBoundingClientRect();
+      const x = event.clientX > 0 ? event.clientX : rect.left + rect.width / 2;
+      const y = event.clientY > 0 ? event.clientY : rect.top + 16;
+      const clampedX = Math.max(20, Math.min(x, window.innerWidth - 20));
+      const clampedY = Math.max(12, Math.min(y + 8, window.innerHeight - 16));
+
+      menuClosedAtRef.current = null;
+      setContextMenuAnchor({
+        x: clampedX,
+        y: clampedY,
+        paragraphIndex,
+      });
+    },
+    [paragraphSegments]
+  );
 
   /** Map: paragraph index -> scene image key (e.g. ch1-scene0). Matches index format: scenes[i].startParagraph -> ch{N}-scene{i}. */
   const sceneKeyByParagraphStart = React.useMemo(() => {
@@ -101,44 +194,71 @@ export function ChapterContent({
     return map;
   }, [scenes, chapterNumber]);
 
+  /** Map: paragraph index -> scene object (for accessing imageSubtitle). */
+  const sceneByParagraphStart = React.useMemo(() => {
+    const map: Record<number, SceneWithDetails> = {};
+    if (!Array.isArray(scenes)) return map;
+    scenes.forEach((scene) => {
+      const start = scene?.startParagraph;
+      if (typeof start === "number" && start >= 0) {
+        map[start] = scene;
+      }
+    });
+    return map;
+  }, [scenes]);
+
+  /** Scene images: /images/scenes/<bookSlug>/ */
+  const scenesBase = `/images/scenes/${bookSlug ?? DEFAULT_BOOK_SLUG}`;
+
   return (
     <>
-      <div ref={articleRef} className="prose prose-stone prose-xl max-w-none pb-20">
+      <div
+        ref={articleRef}
+        className="prose prose-stone prose-xl dark:prose-invert max-w-none pb-20"
+      >
         {paragraphSegments.map((segments, i) => (
           <React.Fragment key={i}>
             {sceneKeyByParagraphStart[i] != null && (
               <figure className="my-6 -mx-2 rounded-lg overflow-hidden">
-                <img
-                  src={`/images/scenes/${sceneKeyByParagraphStart[i]}.webp`}
+                <Image
+                  src={`${scenesBase}/${sceneKeyByParagraphStart[i]}.webp`}
                   alt=""
+                  width={800}
+                  height={450}
                   className="w-full h-auto max-w-full"
                   onError={(e) => {
                     const fig = e.currentTarget.closest("figure");
                     if (fig) (fig as HTMLElement).style.display = "none";
                   }}
                 />
+                {sceneByParagraphStart[i]?.imageSubtitle && (
+                  <figcaption className="text-center italic text-stone-600 dark:text-stone-400 text-sm mt-2 px-2">
+                    {sceneByParagraphStart[i].imageSubtitle}
+                  </figcaption>
+                )}
               </figure>
             )}
             <p
               data-paragraph-index={i}
+              onClick={(event) => openContextMenu(event, i)}
               className={
                 isPlaceholderParagraph(segments)
-                  ? "text-xl leading-relaxed text-stone-800 mb-0 min-h-0 overflow-hidden"
-                  : "text-xl mb-4 leading-relaxed text-stone-800"
+                  ? "text-xl leading-relaxed text-stone-800 dark:text-stone-300 mb-0 min-h-0 overflow-hidden"
+                  : "text-xl mb-4 leading-relaxed text-stone-800 dark:text-stone-300"
               }
             >
             {segments.map((seg, j) =>
               seg.type === "text" ? (
                 <React.Fragment key={j}>{seg.content}</React.Fragment>
               ) : (
-                <button
+                <EntityLink
                   key={j}
-                  type="button"
-                  onClick={() => setOpenEntityId(seg.entityId)}
-                  className="text-amber-700 hover:text-amber-800 hover:underline font-medium cursor-pointer bg-transparent border-none p-0 align-baseline"
-                >
-                  {seg.content}
-                </button>
+                  segment={seg}
+                  onOpenEntity={(entityId) => {
+                    setContextMenuAnchor(null);
+                    setOpenEntityId(entityId);
+                  }}
+                />
               )
             )}
             </p>
@@ -153,12 +273,25 @@ export function ChapterContent({
         baselineIntro={baselineIntro}
         onClose={() => setOpenEntityId(null)}
         onSelectEntity={setOpenEntityId}
+        bookSlug={bookSlug}
       />
       <ReaderFooter
         locationLabel={currentScene?.locationDescription ?? null}
         visibleCharacterIds={visibleCharacterIds}
         xrayData={xrayData}
         onOpenEntity={setOpenEntityId}
+        bookSlug={bookSlug}
+      />
+      <ParagraphContextMenu
+        anchor={contextMenuAnchor}
+        chapterNumber={chapterNumber}
+        onClose={() => {
+          menuClosedAtRef.current = Date.now();
+          setContextMenuAnchor(null);
+        }}
+        entityData={xrayData}
+        onOpenEntity={setOpenEntityId}
+        bookSlug={bookSlug}
       />
     </>
   );

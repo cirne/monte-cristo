@@ -1,0 +1,9 @@
+{
+  "watch": ["data"],
+  "ext": "json,html,ts,tsx,js,jsx",
+  "ignore": ["data/**/*.lock", "data/**/.index.lock"],
+  "exec": "next dev --turbopack",
+  "delay": 1000,
+  "signal": "SIGTERM",
+  "killDelay": 5000
+}
