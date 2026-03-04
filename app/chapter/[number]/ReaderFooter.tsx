@@ -1,8 +1,14 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { MapPin } from "lucide-react";
+import { DEFAULT_BOOK_SLUG } from "@/lib/books";
 import type { XRayEntityData } from "./XRayPanel";
+
+// -----------------------------------------------------------------------------
+// Public API
+// -----------------------------------------------------------------------------
 
 export interface ReaderFooterProps {
   /** Scene location label (from current scene in view). */
@@ -11,51 +17,134 @@ export interface ReaderFooterProps {
   visibleCharacterIds: string[];
   xrayData: Record<string, XRayEntityData>;
   onOpenEntity: (entityId: string) => void;
+  /** Entity avatars: /images/entities/<bookSlug>/ */
+  bookSlug?: string;
 }
 
-const FOOTER_EXIT_DELAY_MS = 500;
-/** Breakpoint for "large enough for both": same as Tailwind md (768px). */
+export function ReaderFooter({
+  locationLabel,
+  visibleCharacterIds,
+  xrayData,
+  onOpenEntity,
+  bookSlug,
+}: ReaderFooterProps) {
+  const { displayedIds, isExiting, onExitComplete } = useFooterAvatarList(visibleCharacterIds);
+  const { isLargeScreen, isSmallScreen, showLocationExpanded, setShowLocationExpanded } =
+    useFooterViewport();
+
+  const entitiesBase = `/images/entities/${bookSlug ?? DEFAULT_BOOK_SLUG}`;
+
+  const hasLocation = Boolean(locationLabel?.trim());
+  const hasContent = hasLocation || displayedIds.length > 0;
+  if (!hasContent) return null;
+
+  // Small: View A = avatars expanded + map button on right (no location). View B = location right + avatars collapsed.
+  const showLocationTextRight =
+    hasLocation && (isLargeScreen || showLocationExpanded);
+  const showMapButtonRight =
+    isSmallScreen && hasLocation && !showLocationExpanded;
+
+  return (
+    <footer
+      className="fixed bottom-0 left-0 right-0 z-40 border-t border-stone-200 bg-stone-50/95 backdrop-blur supports-[backdrop-filter]:bg-stone-50/90 dark:border-stone-800 dark:bg-stone-950/95 dark:supports-[backdrop-filter]:bg-stone-950/90"
+      role="contentinfo"
+      aria-label="Current scene"
+    >
+      <div className="max-w-3xl mx-auto px-4 py-2 flex items-center justify-between gap-4 flex-wrap min-h-10">
+        <FooterAvatarSection
+          isLargeScreen={isLargeScreen}
+          isSmallScreen={isSmallScreen}
+          displayedIds={displayedIds}
+          xrayData={xrayData}
+          isExiting={isExiting}
+          onExitComplete={onExitComplete}
+          onOpenEntity={onOpenEntity}
+          showLocationExpanded={showLocationExpanded}
+          onCollapseLocation={() => setShowLocationExpanded(false)}
+          entitiesBase={entitiesBase}
+        />
+        {showMapButtonRight && (
+          <LocationExpandButton onExpand={() => setShowLocationExpanded(true)} />
+        )}
+        {showLocationTextRight && (
+          <FooterLocationLabel label={locationLabel!} variant="right" />
+        )}
+      </div>
+    </footer>
+  );
+}
+
+// -----------------------------------------------------------------------------
+// Hooks
+// -----------------------------------------------------------------------------
+
+const EXIT_DELAY_MS = 400; // fallback if transitionend doesn't fire
 const LARGE_SCREEN_MQ = "(min-width: 768px)";
-/** Max avatars to show in the stacked (location-expanded) view on small screens. */
-const MAX_STACKED_AVATARS = 3;
 
-function dedupeIds(ids: string[]): string[] {
-  return [...new Set(ids)];
-}
+/** Source of truth is visibleCharacterIds (regen from parent). We only track ids that just left
+ * so we can animate them out. Remove from list when slot's transition ends (or EXIT_DELAY_MS fallback).
+ * Do NOT cancel exit when id comes back in view — avoids flicker from list fluctuation. */
+function useFooterAvatarList(visibleCharacterIds: string[]) {
+  const visibleSet = React.useMemo(
+    () => new Set(visibleCharacterIds),
+    [visibleCharacterIds]
+  );
+  const visibleSorted = React.useMemo(
+    () => [...visibleSet].sort((a, b) => a.localeCompare(b)),
+    [visibleSet]
+  );
 
-function sortIdsAlphabetically(ids: string[]): string[] {
-  return [...ids].sort((a, b) => a.localeCompare(b));
-}
-
-/** Merge `toAdd` into `current` following the order of `order`. Skips ids already in current. */
-function mergeIdsFollowingOrder(current: string[], toAdd: string[], order: string[]): string[] {
-  const result = [...current];
-  const toInsert = order.filter((id) => toAdd.includes(id));
-  for (const newId of toInsert) {
-    if (result.includes(newId)) continue;
-    const insertAfter = order[order.indexOf(newId) - 1];
-    const at = insertAfter == null ? 0 : result.indexOf(insertAfter) + 1;
-    result.splice(at, 0, newId);
-  }
-  return result;
-}
-
-function clearAllTimeouts(timeoutsRef: React.MutableRefObject<ReturnType<typeof setTimeout>[]>) {
-  timeoutsRef.current.forEach(clearTimeout);
-  timeoutsRef.current = [];
-}
-
-export function ReaderFooter({ locationLabel, visibleCharacterIds, xrayData, onOpenEntity }: ReaderFooterProps) {
-  /** IDs we still render for exit animation (fade/shrink out then remove). */
   const [exitingIds, setExitingIds] = React.useState<string[]>([]);
-  /** Display order: keeps exiting items in place so they shrink and others slide. */
-  const [displayedIds, setDisplayedIds] = React.useState<string[]>([]);
-  /** On small screens: true = show location text (replacing avatars); false = show avatars + location icon. Reverts on scroll. */
-  const [showLocationExpanded, setShowLocationExpanded] = React.useState(false);
-  /** Large viewport: show both avatars and location; small: use icon + expand. */
-  const [isLargeScreen, setIsLargeScreen] = React.useState(true);
-  const timeoutsRef = React.useRef<ReturnType<typeof setTimeout>[]>([]);
   const prevVisibleRef = React.useRef<string[]>([]);
+  const timeoutsRef = React.useRef<Map<string, ReturnType<typeof setTimeout>>>(new Map());
+
+  const removeFromExiting = React.useCallback((id: string) => {
+    const t = timeoutsRef.current.get(id);
+    if (t != null) {
+      clearTimeout(t);
+      timeoutsRef.current.delete(id);
+    }
+    setExitingIds((ex) => ex.filter((x) => x !== id));
+  }, []);
+
+  React.useEffect(() => {
+    const prev = prevVisibleRef.current;
+    prevVisibleRef.current = visibleSorted;
+
+    const removed = prev.filter((id) => !visibleSet.has(id));
+
+    // Do NOT cancel timeouts when id is back in view — prevents flicker from debounce/scroll jitter
+
+    if (removed.length > 0) {
+      setExitingIds((e) => [...new Set([...e, ...removed])]);
+      removed.forEach((id) => {
+        if (timeoutsRef.current.has(id)) return;
+        const t = setTimeout(() => removeFromExiting(id), EXIT_DELAY_MS);
+        timeoutsRef.current.set(id, t);
+      });
+    }
+  }, [visibleCharacterIds, visibleSet, visibleSorted, removeFromExiting]);
+
+  const displayedIds = React.useMemo(
+    () => [...new Set([...visibleSorted, ...exitingIds])].sort((a, b) => a.localeCompare(b)),
+    [visibleSorted, exitingIds]
+  );
+  const isExiting = (id: string) => exitingIds.includes(id);
+
+  React.useEffect(() => {
+    const timeouts = timeoutsRef.current;
+    return () => {
+      timeouts.forEach((t) => clearTimeout(t));
+      timeouts.clear();
+    };
+  }, []);
+
+  return { displayedIds, isExiting, onExitComplete: removeFromExiting };
+}
+
+function useFooterViewport() {
+  const [isLargeScreen, setIsLargeScreen] = React.useState(true);
+  const [showLocationExpanded, setShowLocationExpanded] = React.useState(false);
 
   React.useEffect(() => {
     const mql = window.matchMedia(LARGE_SCREEN_MQ);
@@ -65,181 +154,226 @@ export function ReaderFooter({ locationLabel, visibleCharacterIds, xrayData, onO
     return () => mql.removeEventListener("change", handle);
   }, []);
 
-  /** Revert to avatar mode when user scrolls (small screens only). */
   React.useEffect(() => {
-    const handleScroll = () => setShowLocationExpanded((prev) => (prev ? false : prev));
+    const handleScroll = () =>
+      setShowLocationExpanded((prev) => (prev ? false : prev));
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  React.useEffect(() => {
-    const prev = prevVisibleRef.current;
-    const next = dedupeIds(visibleCharacterIds);
-    const nextSet = new Set(next);
-    prevVisibleRef.current = next;
+  return {
+    isLargeScreen,
+    isSmallScreen: !isLargeScreen,
+    showLocationExpanded,
+    setShowLocationExpanded,
+  };
+}
 
-    clearAllTimeouts(timeoutsRef);
+// -----------------------------------------------------------------------------
+// Footer sections & UI blocks
+// -----------------------------------------------------------------------------
 
-    const removed = prev.filter((id) => !nextSet.has(id));
-    if (removed.length > 0) {
-      setExitingIds((c) => dedupeIds([...removed, ...c]));
-      removed.forEach((id) => {
-        const t = setTimeout(() => {
-          setExitingIds((e) => e.filter((x) => x !== id));
-          setDisplayedIds((d) => d.filter((x) => x !== id));
-        }, FOOTER_EXIT_DELAY_MS);
-        timeoutsRef.current.push(t);
-      });
-    } else {
-      setExitingIds((c) => c.filter((id) => nextSet.has(id)));
-    }
+const MAX_STACKED_AVATARS = 3;
+const STACK_OVERLAP_PX = 32;
 
-    const added = next.filter((id) => !prev.includes(id));
-    if (added.length > 0) {
-      setDisplayedIds((current) => mergeIdsFollowingOrder(current, added, next));
-    } else if (prev.length === 0 && next.length > 0) {
-      setDisplayedIds(sortIdsAlphabetically(next));
-    }
+interface FooterAvatarSectionProps {
+  isLargeScreen: boolean;
+  isSmallScreen: boolean;
+  displayedIds: string[];
+  xrayData: Record<string, XRayEntityData>;
+  isExiting: (id: string) => boolean;
+  onExitComplete: (id: string) => void;
+  onOpenEntity: (entityId: string) => void;
+  showLocationExpanded: boolean;
+  onCollapseLocation: () => void;
+  entitiesBase: string;
+}
 
-    return () => clearAllTimeouts(timeoutsRef);
-  }, [visibleCharacterIds]);
-
-  const isExiting = (id: string) => exitingIds.includes(id) && !visibleCharacterIds.includes(id);
-
-  const hasContent = (locationLabel?.trim()?.length ?? 0) > 0 || displayedIds.length > 0;
-  if (!hasContent) return null;
-
-  const uniqueDisplayedIds = dedupeIds(displayedIds);
-  const hasLocation = Boolean(locationLabel?.trim());
-
-  /** Small screen: show either avatars+icon or stacked avatars + location. Large: always avatars + location. */
-  const showLocationTextLarge = isLargeScreen && hasLocation;
-  const showLocationTextSmall = !isLargeScreen && showLocationExpanded && hasLocation;
-  const showLocationIcon = !isLargeScreen && hasLocation && !showLocationExpanded;
-
-  /** On small screens we use a single avatar list that animates between row and stacked so expand and collapse both animate. */
-  const isSmallScreen = !isLargeScreen;
-  const overlapPx = 32; // each avatar shows 8px when stacked (40 - 32)
-
+function FooterAvatarSection({
+  isLargeScreen,
+  isSmallScreen,
+  displayedIds,
+  xrayData,
+  isExiting,
+  onExitComplete,
+  onOpenEntity,
+  showLocationExpanded,
+  onCollapseLocation,
+  entitiesBase,
+}: FooterAvatarSectionProps) {
   return (
-    <footer
-      className="fixed bottom-0 left-0 right-0 z-40 border-t border-stone-200 bg-stone-50/95 backdrop-blur supports-[backdrop-filter]:bg-stone-50/90"
-      role="contentinfo"
-      aria-label="Current scene"
-    >
-      <div className="max-w-3xl mx-auto px-4 py-2 flex items-center justify-between gap-4 flex-wrap min-h-10">
-        <div className="flex items-center gap-2 flex-wrap overflow-hidden min-w-0 flex-1 min-w-0 justify-center md:justify-start">
-          {isLargeScreen &&
-            uniqueDisplayedIds.map((entityId) => {
-              const data = xrayData[entityId];
-              const name = data?.name ?? entityId;
-              const leaving = isExiting(entityId);
-              return (
-                <FooterAvatar key={entityId} entityId={entityId} name={name} leaving={leaving} onOpenEntity={onOpenEntity} />
-              );
-            })}
-          {isSmallScreen && uniqueDisplayedIds.length > 0 && (
-            <>
-              <SmallScreenAvatarBlock
-                uniqueDisplayedIds={uniqueDisplayedIds}
-                xrayData={xrayData}
-                isStacked={showLocationExpanded}
-                maxStacked={MAX_STACKED_AVATARS}
-                onStackClick={() => setShowLocationExpanded(false)}
-                onAvatarClick={onOpenEntity}
-                overlapPx={overlapPx}
-                isExiting={isExiting}
-              />
-              {showLocationTextSmall && (
-                <span className="text-sm text-stone-600 truncate min-w-0 h-10 flex items-center justify-center leading-10 shrink" title="Scene location">
-                  {locationLabel}
-                </span>
-              )}
-              {showLocationIcon && (
-                <button
-                  type="button"
-                  onClick={() => setShowLocationExpanded(true)}
-                  className="shrink-0 h-10 w-10 flex items-center justify-center rounded-full border border-stone-200 bg-stone-100 hover:ring-2 hover:ring-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-500 transition-all"
-                  title="Show scene location"
-                  aria-label="Show scene location"
-                >
-                  <MapPin className="w-5 h-5 text-stone-600" aria-hidden />
-                </button>
-              )}
-            </>
-          )}
-        </div>
-        {showLocationTextLarge && (
-          <span className="text-sm text-stone-600 text-right shrink-0" title="Scene location">
-            {locationLabel}
-          </span>
-        )}
-      </div>
-    </footer>
+    <div className="flex items-center flex-wrap overflow-hidden min-w-0 shrink-0 justify-start">
+      {isLargeScreen &&
+        displayedIds.map((entityId) => (
+          <FooterAvatarSlot
+            key={entityId}
+            entityId={entityId}
+            isExiting={isExiting(entityId)}
+            onExitComplete={onExitComplete}
+          >
+            <FooterAvatar
+              entityId={entityId}
+              name={xrayData[entityId]?.name ?? entityId}
+              leaving={isExiting(entityId)}
+              onOpenEntity={onOpenEntity}
+              entitiesBase={entitiesBase}
+            />
+          </FooterAvatarSlot>
+        ))}
+      {isSmallScreen && displayedIds.length > 0 && (
+        <SmallScreenAvatarBlock
+          displayedIds={displayedIds}
+          xrayData={xrayData}
+          isExiting={isExiting}
+          onExitComplete={onExitComplete}
+          isStacked={showLocationExpanded}
+          maxStacked={MAX_STACKED_AVATARS}
+          overlapPx={STACK_OVERLAP_PX}
+          onStackClick={onCollapseLocation}
+          onAvatarClick={onOpenEntity}
+          entitiesBase={entitiesBase}
+        />
+      )}
+    </div>
   );
 }
 
-/** Small-screen only: one avatar list that animates between row and stacked so expand/collapse both animate. */
+function FooterLocationLabel({
+  label,
+  variant,
+}: {
+  label: string;
+  variant: "inline" | "right";
+}) {
+  const className =
+    variant === "inline"
+      ? "text-sm text-stone-600 dark:text-stone-400 truncate min-w-0 h-10 flex items-center justify-center leading-10 shrink"
+      : "text-sm text-stone-600 dark:text-stone-400 text-right flex-1 min-w-0 truncate";
+  return (
+    <span className={className} title="Scene location">
+      {label}
+    </span>
+  );
+}
+
+function LocationExpandButton({ onExpand }: { onExpand: () => void }) {
+  return (
+    <button
+      type="button"
+      onClick={onExpand}
+      className="shrink-0 h-10 w-10 flex items-center justify-center rounded-full border border-stone-200 bg-stone-100 hover:ring-2 hover:ring-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-500 dark:border-stone-700 dark:bg-stone-800 dark:hover:ring-amber-300 dark:focus:ring-amber-300 transition-all"
+      title="Show scene location"
+      aria-label="Show scene location"
+    >
+      <MapPin className="w-5 h-5 text-stone-600 dark:text-stone-300" aria-hidden />
+    </button>
+  );
+}
+
+// -----------------------------------------------------------------------------
+// Avatar components
+// -----------------------------------------------------------------------------
+
+function FooterAvatarSlot({
+  entityId,
+  isExiting,
+  onExitComplete,
+  children,
+}: {
+  entityId: string;
+  isExiting: boolean;
+  onExitComplete: (id: string) => void;
+  children: React.ReactNode;
+}) {
+  const handleTransitionEnd = (e: React.TransitionEvent) => {
+    if (e.propertyName === "width" && isExiting) onExitComplete(entityId);
+  };
+  // w-12 = 48px = 40px avatar + 8px gap; no parent gap so unmount doesn't cause layout jump
+  return (
+    <div
+      onTransitionEnd={handleTransitionEnd}
+      className={
+        "overflow-hidden transition-[width] duration-[280ms] ease-out " +
+        (isExiting ? "w-0 min-w-0" : "w-12")
+      }
+    >
+      {children}
+    </div>
+  );
+}
+
 function SmallScreenAvatarBlock({
-  uniqueDisplayedIds,
+  displayedIds,
   xrayData,
+  isExiting,
+  onExitComplete,
   isStacked,
   maxStacked,
+  overlapPx,
   onStackClick,
   onAvatarClick,
-  overlapPx,
-  isExiting,
+  entitiesBase,
 }: {
-  uniqueDisplayedIds: string[];
+  displayedIds: string[];
   xrayData: Record<string, XRayEntityData>;
+  isExiting: (id: string) => boolean;
+  onExitComplete: (id: string) => void;
   isStacked: boolean;
   maxStacked: number;
+  overlapPx: number;
   onStackClick: () => void;
   onAvatarClick: (entityId: string) => void;
-  overlapPx: number;
-  isExiting: (id: string) => boolean;
+  entitiesBase: string;
 }) {
-  const handleContainerClick = (e: React.MouseEvent) => {
+  const handleClick = (e: React.MouseEvent) => {
     if (isStacked) {
       onStackClick();
       return;
     }
-    const target = e.target as HTMLElement;
-    const cell = target.closest("[data-entity-id]");
+    const cell = (e.target as HTMLElement).closest("[data-entity-id]");
     if (cell) {
       const id = (cell as HTMLElement).getAttribute("data-entity-id");
       if (id && !isExiting(id)) onAvatarClick(id);
     }
   };
 
-  const idsToShow = isStacked ? uniqueDisplayedIds.slice(-maxStacked) : uniqueDisplayedIds;
+  const idsToShow = isStacked
+    ? displayedIds.slice(-maxStacked)
+    : displayedIds;
 
   return (
     <div
       role={isStacked ? "button" : undefined}
       tabIndex={isStacked ? 0 : undefined}
-      onClick={handleContainerClick}
+      onClick={handleClick}
       onKeyDown={isStacked ? (e) => e.key === "Enter" && onStackClick() : undefined}
-      className={`flex items-center shrink-0 ${isStacked ? "cursor-pointer focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2 rounded-full" : ""}`}
+      className={`flex items-center shrink-0 ${isStacked ? "cursor-pointer focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2 rounded-full dark:focus:ring-amber-300 dark:focus:ring-offset-stone-950" : ""}`}
       aria-label={isStacked ? "Show characters" : undefined}
       title={isStacked ? "Show characters" : undefined}
     >
       {idsToShow.map((entityId, i) => {
-        const data = xrayData[entityId];
-        const name = data?.name ?? entityId;
+        const name = xrayData[entityId]?.name ?? entityId;
         const stackedOffset = isStacked ? -i * overlapPx : 0;
         return (
           <div
             key={entityId}
             data-entity-id={entityId}
-            className="h-10 w-10 flex-shrink-0 rounded-full border-2 border-stone-50 overflow-hidden bg-stone-100 ring-1 ring-stone-200/80 transition-transform duration-300 ease-out"
+            className="flex-shrink-0 transition-transform duration-300 ease-out"
             style={{ transform: `translateX(${stackedOffset}px)` }}
-            title={!isStacked ? name : undefined}
-            role={!isStacked ? "button" : undefined}
-            tabIndex={!isStacked ? 0 : undefined}
-            aria-label={!isStacked ? `View ${name}` : undefined}
           >
-            <CharacterAvatar entityId={entityId} name={name} />
+            <FooterAvatarSlot
+              entityId={entityId}
+              isExiting={isExiting(entityId)}
+              onExitComplete={onExitComplete}
+            >
+              <FooterAvatar
+                entityId={entityId}
+                name={name}
+                leaving={isExiting(entityId)}
+                onOpenEntity={isStacked ? undefined : onAvatarClick}
+                entitiesBase={entitiesBase}
+              />
+            </FooterAvatarSlot>
           </div>
         );
       })}
@@ -247,53 +381,79 @@ function SmallScreenAvatarBlock({
   );
 }
 
-/** Single avatar in footer: fades/slides in on mount, fades/slides out when leaving. */
 function FooterAvatar({
   entityId,
   name,
   leaving,
   onOpenEntity,
+  entitiesBase,
 }: {
   entityId: string;
   name: string;
-  leaving: boolean;
-  onOpenEntity: (entityId: string) => void;
+  leaving?: boolean;
+  onOpenEntity?: (entityId: string) => void;
+  entitiesBase: string;
 }) {
-  const [mounted, setMounted] = React.useState(false);
+  const [entered, setEntered] = React.useState(false);
   React.useEffect(() => {
-    if (mounted) return;
-    const t = requestAnimationFrame(() => setMounted(true));
+    const t = requestAnimationFrame(() => setEntered(true));
     return () => cancelAnimationFrame(t);
-  }, [mounted]);
+  }, []);
 
-  const visible = mounted && !leaving;
-  return (
-    <button
-      type="button"
-      onClick={() => !leaving && onOpenEntity(entityId)}
-      disabled={leaving}
-      className={`h-10 min-w-0 overflow-hidden rounded-full border border-stone-200 bg-stone-100 hover:ring-2 hover:ring-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-500 transition-[opacity,width] duration-500 ${visible ? "w-10 opacity-100" : "w-0 opacity-0 pointer-events-none border-0"}`}
-      title={name}
-      aria-label={`View ${name}`}
-    >
-      <CharacterAvatar entityId={entityId} name={name} />
-    </button>
-  );
+  const content = <CharacterAvatar entityId={entityId} name={name} entitiesBase={entitiesBase} />;
+  const interactiveClass =
+    "hover:ring-2 hover:ring-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-500 dark:hover:ring-amber-300 dark:focus:ring-amber-300";
+  const baseClass =
+    "h-10 w-10 flex-shrink-0 overflow-hidden rounded-full border border-stone-200 bg-stone-100 dark:border-stone-700 dark:bg-stone-800 transition-[transform,opacity] duration-[280ms] ease-out " +
+    (leaving
+      ? "opacity-0 -translate-x-10 pointer-events-none"
+      : !entered
+        ? "opacity-0 translate-x-3"
+        : "opacity-100 translate-x-0");
+
+  if (onOpenEntity != null) {
+    return (
+      <button
+        type="button"
+        onClick={(e) => {
+          e.stopPropagation();
+          if (!leaving) onOpenEntity(entityId);
+        }}
+        disabled={!!leaving}
+        className={`${baseClass} ${interactiveClass}`}
+        title={name}
+        aria-label={`View ${name}`}
+      >
+        {content}
+      </button>
+    );
+  }
+  return <div className={baseClass} aria-hidden>{content}</div>;
 }
 
-function CharacterAvatar({ entityId, name }: { entityId: string; name: string }) {
+function CharacterAvatar({
+  entityId,
+  name,
+  entitiesBase,
+}: {
+  entityId: string;
+  name: string;
+  entitiesBase: string;
+}) {
   const [imgError, setImgError] = React.useState(false);
   if (imgError) {
     return (
-      <span className="w-full h-full flex items-center justify-center text-xs font-medium text-stone-500">
+      <span className="w-full h-full flex items-center justify-center text-xs font-medium text-stone-500 dark:text-stone-300">
         {name.charAt(0).toUpperCase()}
       </span>
     );
   }
   return (
-    <img
-      src={`/images/entities/${entityId}.webp`}
+    <Image
+      src={`${entitiesBase}/${entityId}.webp`}
       alt=""
+      width={40}
+      height={40}
       className="w-full h-full object-cover object-top"
       onError={() => setImgError(true)}
     />

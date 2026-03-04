@@ -11,6 +11,7 @@ Built with **Next.js 16** + **Bun** runtime. Book text sourced from [Project Gut
 - 🗺️ **Character Guide** — X-Ray style character index showing every chapter each character appears in
 - 🔍 **Full-Text Search** — Search across all chapters with highlighted excerpts
 - 📊 **Reading Progress** — Visual progress bar as you read
+- 🧠 **Reading Context APIs** — Paragraph-indexed APIs for "current scene" and "story so far"
 
 ## Getting Started
 
@@ -25,9 +26,16 @@ cp .env.example .env
 
 # (Optional) Re-parse the book data from the raw text
 bun run parse-book
+# Or for a specific book: bun run scripts/books/monte-cristo/parse.ts
 
-# (Optional) Rebuild chapter index for X-Ray links (persons, places, events). Run after parse-book.
-bun run build-chapter-index
+# (Optional) Rebuild chapter index for X-Ray links (persons, places, events) and scene metadata.
+bun run index-chapter --book=monte-cristo --all
+
+# (Optional) Add chapter/scene summaries + rolling "story so far" metadata
+bun run index-chapter --book=monte-cristo --all --with-summaries
+
+# (Optional) Refresh only summary metadata (non-destructive patch mode by default)
+bun run index-chapter --book=monte-cristo --all --summaries-only
 
 # Start development server
 bun run dev
@@ -44,28 +52,24 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 │   ├── chapter/[number]/ # Individual chapter reader
 │   ├── characters/    # Character X-Ray guide
 │   ├── search/        # Full-text search
-│   └── api/search/    # Search API route
+│   └── api/           # API routes (search + reading-context endpoints)
 ├── data/
-│   ├── book.json      # Parsed book with full chapter text
-│   ├── book-index.json # Lightweight chapter index (no content)
-│   └── chapter-index.json # Entity index per chapter (X-Ray links; run build-chapter-index)
+│   ├── <book>/       # Per-book data (e.g. monte-cristo/, gatsby/)
+│   │   ├── book-index.json
+│   │   ├── chapters/      # One canonical HTML fragment file per chapter (e.g. 1.html)
+│   │   └── chapter-index.json # Entity + scene index (run index-chapter --book=<slug> --all)
 ├── lib/
 │   ├── book.ts        # Server-side book data access
-│   ├── characters.ts  # Character definitions and metadata
+│   ├── books.ts       # Book registry (slugs, config, volume labels, storage keys)
 │   ├── chapter-index.ts # Chapter index loader (persons, places, events)
-│   ├── constants.ts   # Shared constants (volume labels, etc.)
-│   ├── entities.ts   # Places and events (X-Ray)
 │   ├── linkify.ts    # Turn paragraph text into clickable entity links
 │   ├── env.ts        # Dev-time env (OPENAI_API_KEY from .env)
 │   └── openai.ts     # OpenAI client for LLM indexing, characters, images
 └── scripts/
-    ├── parse-book.ts # Book parser (Gutenberg text → JSON)
-    └── build-chapter-index.ts # Build chapter-index.json (run after parse-book)
+    ├── parse-book.ts # Book parser (Gutenberg source → canonical chapter HTML + book index)
+    ├── index-chapter.ts # Canonical chapter indexer (LLM entities/scenes; supports --chapter / --all)
+    ├── generate-images.ts # Generate entity and scene images (--chapter=N for all; --scenes-only / --entities-only)
 ```
-
-## Planned: Scenes
-
-A **scenes** feature is planned: at any point in the book the user will be able to click a button and get a sense of the **current scene** based on the text visible at the top of the viewport. See [docs/FUTURE.md](docs/FUTURE.md) for notes.
 
 ## Tech Stack
 
@@ -74,3 +78,14 @@ A **scenes** feature is planned: at any point in the book the user will be able 
 - [Tailwind CSS v4](https://tailwindcss.com/)
 - TypeScript
 - [OpenAI](https://github.com/openai/openai-node) for LLM features (indexing, characters, images) — set `OPENAI_API_KEY` in `.env` at dev time
+
+## Reading context APIs
+
+Both APIs accept `chapter` and `paragraph` (0-based paragraph index inside chapter text):
+
+- `GET /api/context/current-scene?chapter=12&paragraph=34`
+  - Returns a spoiler-safe answer for "what's going on right now in this scene?"
+- `GET /api/context/story-so-far?chapter=12&paragraph=34`
+  - Returns a spoiler-safe recap up to that exact reading checkpoint.
+
+Optional query param: `maxInputTokens` (default `40000`). Optional: `book=<slug>` (default: first book in registry).

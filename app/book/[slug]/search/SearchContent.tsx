@@ -1,0 +1,160 @@
+"use client";
+
+import { useState, useEffect, useCallback } from "react";
+import Link from "next/link";
+
+interface SearchResult {
+  number: number;
+  title: string;
+  volume: string;
+  excerpt: string;
+}
+
+interface SearchResponse {
+  results: SearchResult[];
+  query: string;
+  total: number;
+}
+
+function useDebounce<T>(value: T, delay: number): T {
+  const [debounced, setDebounced] = useState(value);
+  useEffect(() => {
+    const timer = setTimeout(() => setDebounced(value), delay);
+    return () => clearTimeout(timer);
+  }, [value, delay]);
+  return debounced;
+}
+
+interface SearchContentProps {
+  slug: string;
+  volumeLabels: Record<string, string>;
+  totalChapters: number;
+}
+
+export function SearchContent({ slug, volumeLabels, totalChapters }: SearchContentProps) {
+  const [query, setQuery] = useState("");
+  const [results, setResults] = useState<SearchResult[]>([]);
+  const [total, setTotal] = useState(0);
+  const [loading, setLoading] = useState(false);
+  const debouncedQuery = useDebounce(query, 300);
+
+  const search = useCallback(
+    async (q: string) => {
+      if (q.length < 2) {
+        setResults([]);
+        setTotal(0);
+        return;
+      }
+      setLoading(true);
+      try {
+        const res = await fetch(
+          `/api/search?q=${encodeURIComponent(q)}&book=${encodeURIComponent(slug)}`
+        );
+        const data: SearchResponse = await res.json();
+        setResults(data.results);
+        setTotal(data.total);
+      } finally {
+        setLoading(false);
+      }
+    },
+    [slug]
+  );
+
+  useEffect(() => {
+    search(debouncedQuery);
+  }, [debouncedQuery, search]);
+
+  function highlight(text: string, q: string) {
+    if (!q) return text;
+    const parts = text.split(
+      new RegExp(`(${q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})`, "gi")
+    );
+    return parts.map((part, i) =>
+      part.toLowerCase() === q.toLowerCase() ? (
+        <mark
+          key={i}
+          className="bg-amber-200 text-amber-900 dark:bg-amber-800 dark:text-amber-100 rounded px-0.5"
+        >
+          {part}
+        </mark>
+      ) : (
+        part
+      )
+    );
+  }
+
+  return (
+    <>
+      <div className="mb-8">
+        <Link
+          href={`/book/${slug}`}
+          className="text-xs text-stone-400 hover:text-stone-600 dark:text-stone-500 dark:hover:text-stone-300 mb-4 inline-block"
+        >
+          ← Back to Home
+        </Link>
+        <h1 className="text-3xl font-bold text-stone-900 dark:text-stone-100 mb-4">Search</h1>
+
+        <div className="relative">
+          <input
+            type="text"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Search chapters, characters, places…"
+            autoFocus
+            className="w-full px-4 py-3 pr-10 border border-stone-300 bg-white rounded-xl text-stone-900 placeholder-stone-400 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-100 dark:placeholder-stone-500 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:border-transparent dark:focus:ring-amber-300 text-base"
+          />
+          {loading && (
+            <div className="absolute right-3 top-1/2 -translate-y-1/2">
+              <div className="w-4 h-4 border-2 border-amber-400 dark:border-amber-300 border-t-transparent rounded-full animate-spin" />
+            </div>
+          )}
+        </div>
+
+        {query.length >= 2 && !loading && (
+          <p className="text-sm text-stone-500 dark:text-stone-400 mt-2">
+            {total === 0
+              ? "No chapters found"
+              : `Found in ${total} chapter${total !== 1 ? "s" : ""}`}
+          </p>
+        )}
+      </div>
+
+      {results.length > 0 && (
+        <div className="space-y-4">
+          {results.map((result) => (
+            <Link
+              key={result.number}
+              href={`/book/${slug}/chapter/${result.number}`}
+              className="block p-4 bg-white border border-stone-200 dark:bg-stone-900 dark:border-stone-800 rounded-xl hover:border-amber-300 dark:hover:border-amber-700 hover:shadow-sm transition-all group"
+            >
+              <div className="flex items-start justify-between gap-2 mb-2">
+                <div>
+                  <span className="text-xs text-stone-400 dark:text-stone-500 font-mono mr-2">
+                    Ch. {result.number}
+                  </span>
+                  <span className="text-base font-semibold text-stone-800 dark:text-stone-200 group-hover:text-amber-700 dark:group-hover:text-amber-300">
+                    {highlight(result.title, query)}
+                  </span>
+                </div>
+                <span className="text-xs text-stone-400 dark:text-stone-500 flex-shrink-0">
+                  {volumeLabels[result.volume] ?? result.volume}
+                </span>
+              </div>
+              <p className="text-sm text-stone-600 dark:text-stone-400 leading-relaxed">
+                {highlight(result.excerpt, query)}
+              </p>
+            </Link>
+          ))}
+        </div>
+      )}
+
+      {query.length < 2 && (
+        <div className="text-center text-stone-400 dark:text-stone-500 mt-16">
+          <p className="text-4xl mb-3">🔍</p>
+          <p className="text-sm">Type at least 2 characters to search</p>
+          <p className="text-xs mt-1">Search across all {totalChapters} chapters</p>
+        </div>
+      )}
+    </>
+  );
+}

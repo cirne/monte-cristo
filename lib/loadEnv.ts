@@ -1,6 +1,6 @@
 /**
  * Load .env from project root so OPENAI_API_KEY (and other vars) are available
- * when running scripts (e.g. parse-book, build-chapter-index). Use at dev time
+ * when running scripts (e.g. parse-book, index-chapter, image generation). Use at dev time
  * only; .env is never committed to the repo.
  */
 

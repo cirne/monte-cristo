@@ -16,6 +16,7 @@ interface LLMSceneItem {
   locationDescription: string;
   startTextFragment: string;
   imageDescription: string;
+  imageSubtitle?: string;
   characterIds?: string[];
 }
 
@@ -79,12 +80,19 @@ function tryRepairTruncatedJson(raw: string, errMsg: string): string | null {
  * Returns scenes with startParagraph/endParagraph resolved from startTextFragment.
  * entityRefs: list of { id, name, type } for entities in this chapter so the LLM
  * can return characterIds that match our canonical IDs.
+ * bookTitle and imageStyleHint make prompts book-agnostic (used for scene location examples and image description style).
  */
 export async function getScenesFromLLM(
   chapterNumber: number,
   content: string,
-  entityRefs: EntityRefForScenes[]
+  entityRefs: EntityRefForScenes[],
+  opts: { bookTitle: string; imageStyleHint?: string }
 ): Promise<SceneWithDetails[]> {
+  const { bookTitle, imageStyleHint } = opts;
+  const styleHint =
+    imageStyleHint?.trim() ||
+    "period-appropriate to the story; fine-art illustration style, dignified, like a classic novel.";
+
   const text = content.slice(0, MAX_CHAPTER_CHARS);
   if (content.length > MAX_CHAPTER_CHARS) {
     console.warn(
@@ -98,16 +106,17 @@ export async function getScenesFromLLM(
       ? personList.map((e) => `- ${e.id}: ${e.name}`).join("\n")
       : "No character list provided.";
 
-  const systemPrompt = `You analyze a single chapter of "The Count of Monte Cristo" and split it into logical scenes.
-A new scene usually starts when the location or setting changes (e.g. moving from ship to shore, or to a different room), or when there is a clear time jump.
+  const systemPrompt = `You analyze a single chapter of "${bookTitle}" and split it into logical scenes.
+A new scene usually starts when the location or setting changes (e.g. moving from one place to another, or to a different room), or when there is a clear time jump.
 
 For each scene you must provide:
 1. locationDescription: A short phrase for the setting (e.g. "On the deck of the Pharaon", "In Dantès' father's room"). Keep under 60 characters.
 2. startTextFragment: The exact first 6–12 words that begin this scene in the chapter text. This must appear verbatim (or nearly so) in the chapter so we can locate the scene. Use the opening sentence of the scene.
-3. imageDescription: A concise 2–3 sentence description for DALL·E: setting, lighting, who is present and their positions, period-appropriate dress, atmosphere. No dialogue. Fine-art illustration style, 19th-century novel aesthetic. Keep under 100 words.
-4. characterIds: An array of entity IDs from the list below for characters (persons) who appear or are clearly present in this scene. Use only IDs from the list. Omit if none apply.
+3. imageDescription: A visually explicit description for DALL·E (2–3 sentences, under 100 words). CRITICAL: Never use character names—always describe people visually (e.g., "A 22-year-old handsome man in tattered prison garb" not "Dantes"). Include: age/appearance, clothing, setting details (time period, location specifics), lighting, positions, atmosphere. Be explicit and visually descriptive—assume the image generator knows nothing about the story. No dialogue or character names. Fine-art illustration style, 19th-century novel aesthetic.
+4. imageSubtitle: A brief caption (1 short sentence, under 80 characters) suitable to display under the scene image. This should be spoiler-free and descriptive of what's happening in the scene. Can use character names here since it's for human readers. Examples: "Dantès receives news of his promotion" or "The Pharaon docks in Marseille".
+5. characterIds: An array of entity IDs from the list below for characters (persons) who appear or are clearly present in this scene. Use only IDs from the list. Omit if none apply.
 
-JSON rules: Return valid JSON only. Escape any double-quotes inside strings with backslash (e.g. \\"). Do not include newlines inside string values. Return a JSON object with a single key "scenes" whose value is an array of objects, each with: locationDescription, startTextFragment, imageDescription, characterIds (array of strings). Order scenes in the same order they appear in the chapter.`;
+JSON rules: Return valid JSON only. Escape any double-quotes inside strings with backslash (e.g. \\"). Do not include newlines inside string values. Return a JSON object with a single key "scenes" whose value is an array of objects, each with: locationDescription, startTextFragment, imageDescription, imageSubtitle (optional), characterIds (array of strings). Order scenes in the same order they appear in the chapter.`;
 
   const userPrompt = `Chapter ${chapterNumber} — entities to reference by ID in characterIds (use only these exact IDs):
 ${entityListText}
@@ -124,7 +133,7 @@ ${text}`;
       { role: "user", content: userPrompt },
     ],
     response_format: { type: "json_object" },
-    max_tokens: 8000,
+    max_tokens: 16384,
   });
 
   const raw = response.choices[0]?.message?.content;
@@ -179,6 +188,7 @@ ${text}`;
       endParagraph: Math.min(paragraphs.length - 1, Math.max(startParagraph, endParagraph)),
       locationDescription: item.locationDescription?.trim() || undefined,
       imageDescription: item.imageDescription?.trim() || undefined,
+      imageSubtitle: item.imageSubtitle?.trim() || undefined,
       characterIds: characterIds?.length ? characterIds : undefined,
     });
   }
