@@ -275,7 +275,8 @@
             "nick_carraways_greatuncle",
             "nick_carraways_family",
             "the_dukes_of_buccleuch"
-          ]
+          ],
+          "imageSubtitle": "Nick reflects on his father's advice about reserving judgment."
         },
         {
           "startParagraph": 6,
@@ -286,7 +287,8 @@
             "nick_carraway",
             "nick_carraways_finnish_housekeeper",
             "jay_gatsby"
-          ]
+          ],
+          "imageSubtitle": "Nick settles into his modest West Egg bungalow, ready for a new summer."
         },
         {
           "startParagraph": 17,
@@ -296,7 +298,8 @@
           "characterIds": [
             "nick_carraway",
             "thomas_buchanan"
-          ]
+          ],
+          "imageSubtitle": "Nick arrives at the Buchanan mansion as Tom greets him on the sunny front porch."
         },
         {
           "startParagraph": 25,
@@ -308,7 +311,8 @@
             "thomas_buchanan",
             "daisy_buchanan",
             "jordan_baker"
-          ]
+          ],
+          "imageSubtitle": "Daisy and Jordan lounge in the breezy, sunlit living room as Nick enters."
         },
         {
           "startParagraph": 62,
@@ -320,7 +324,8 @@
             "thomas_buchanan",
             "daisy_buchanan",
             "jordan_baker"
-          ]
+          ],
+          "imageSubtitle": "Daisy and Jordan lounge on the porch as sunset glows and candles flicker."
         },
         {
           "startParagraph": 108,
@@ -332,7 +337,8 @@
             "thomas_buchanan",
             "daisy_buchanan",
             "jordan_baker"
-          ]
+          ],
+          "imageSubtitle": "Daisy confides in Nick as twilight settles on the Buchanan porch."
         },
         {
           "startParagraph": 143,
@@ -343,7 +349,8 @@
             "nick_carraway",
             "thomas_buchanan",
             "daisy_buchanan"
-          ]
+          ],
+          "imageSubtitle": "Nick says goodbye as Tom and Daisy linger in the doorway, bathed in light."
         },
         {
           "startParagraph": 150,
@@ -353,7 +360,8 @@
           "characterIds": [
             "nick_carraway",
             "jay_gatsby"
-          ]
+          ],
+          "imageSubtitle": "Nick observes Gatsby reaching out toward a distant green light across the bay."
         },
         {
           "startParagraph": 90,
@@ -367,7 +375,8 @@
             "thomas_buchanan",
             "the_butler_at_buchanan_house",
             "the_man_in_new_york_toms_mistress"
-          ]
+          ],
+          "imageSubtitle": "Daisy and Jordan listen in as Tom is called away from the dinner table."
         },
         {
           "startParagraph": 108,
@@ -377,7 +386,8 @@
           "characterIds": [
             "nick_carraway",
             "daisy_buchanan"
-          ]
+          ],
+          "imageSubtitle": "Nick and Daisy share a quiet, emotional conversation on the shadowy veranda."
         },
         {
           "startParagraph": 120,
@@ -389,7 +399,8 @@
             "daisy_buchanan",
             "jordan_baker",
             "thomas_buchanan"
-          ]
+          ],
+          "imageSubtitle": "Jordan Baker bids goodnight as Daisy jokes about matchmaking with Nick."
         },
         {
           "startParagraph": 143,
@@ -400,7 +411,8 @@
             "nick_carraway",
             "daisy_buchanan",
             "thomas_buchanan"
-          ]
+          ],
+          "imageSubtitle": "Nick says goodbye to Daisy and Tom outside the glowing Buchanan mansion."
         },
         {
           "startParagraph": 150,
@@ -410,7 +422,8 @@
           "characterIds": [
             "nick_carraway",
             "jay_gatsby"
-          ]
+          ],
+          "imageSubtitle": "Nick watches Gatsby reaching out toward the distant green light across the bay."
         }
       ]
     },
@@ -656,7 +669,8 @@
           "characterIds": [
             "ashgrey_men",
             "doctor_t_j_eckleburg"
-          ]
+          ],
+          "imageSubtitle": "Nick and Tom approach the bleak valley of ashes under Dr. T. J. Eckleburg’s gaze."
         },
         {
           "startParagraph": 6,
@@ -668,7 +682,8 @@
             "thomas_buchanan",
             "george_b_wilson",
             "myrtle_wilson"
-          ]
+          ],
+          "imageSubtitle": "Tom and Nick enter George Wilson’s garage beneath Dr. Eckleburg’s gaze."
         },
         {
           "startParagraph": 21,
@@ -681,7 +696,8 @@
             "myrtle_wilson",
             "doctor_t_j_eckleburg",
             "unnamed_italian_child"
-          ]
+          ],
+          "imageSubtitle": "Tom, Nick, and Myrtle prepare to travel to New York by train."
         },
         {
           "startParagraph": 28,
@@ -692,7 +708,8 @@
             "nick_carraway",
             "thomas_buchanan",
             "myrtle_wilson"
-          ]
+          ],
+          "imageSubtitle": "Myrtle selects a taxi as Tom and Nick accompany her through bustling streets."
         },
         {
           "startParagraph": 30,
@@ -705,7 +722,8 @@
             "myrtle_wilson",
             "dog_seller",
             "dog_airedale_puppy"
-          ]
+          ],
+          "imageSubtitle": "Mrs. Wilson excitedly buys a puppy from a street vendor on Fifth Avenue."
         },
         {
           "startParagraph": 48,
@@ -718,7 +736,8 @@
             "myrtle_wilson",
             "elevator_boy",
             "dog_airedale_puppy"
-          ]
+          ],
+          "imageSubtitle": "Myrtle and Tom arrive at their city apartment with Nick in tow."
         },
         {
           "startParagraph": 50,
@@ -731,7 +750,8 @@
             "myrtle_wilson",
             "elevator_boy",
             "dog_airedale_puppy"
-          ]
+          ],
+          "imageSubtitle": "Nick waits alone in Myrtle’s crowded apartment, reading and feeling dizzy."
         },
         {
           "startParagraph": 52,
@@ -746,7 +766,8 @@
             "mr_mckee",
             "mrs_mckee",
             "dog_airedale_puppy"
-          ]
+          ],
+          "imageSubtitle": "Catherine, Mr. and Mrs. McKee join the lively gathering at Myrtle's apartment."
         },
         {
           "startParagraph": 55,
@@ -761,7 +782,8 @@
             "mr_mckee",
             "mrs_mckee",
             "dog_airedale_puppy"
-          ]
+          ],
+          "imageSubtitle": "Myrtle commands the room in her cream dress as guests admire her dramatic pose."
         },
         {
           "startParagraph": 118,
@@ -777,7 +799,8 @@
             "mrs_mckee",
             "janitor",
             "dog_airedale_puppy"
-          ]
+          ],
+          "imageSubtitle": "Nick observes the lively party as midnight approaches in Myrtle's apartment."
         },
         {
           "startParagraph": 0,
@@ -792,7 +815,8 @@
             "mr_mckee",
             "mrs_mckee",
             "dog_airedale_puppy"
-          ]
+          ],
+          "imageSubtitle": "Tom, Myrtle, and Nick argue as tensions rise in Myrtle’s crowded apartment."
         },
         {
           "startParagraph": 128,
@@ -803,7 +827,8 @@
             "nick_carraway",
             "mr_mckee",
             "elevator_boy"
-          ]
+          ],
+          "imageSubtitle": "Nick visits Mr. McKee's apartment to see his photography portfolio."
         },
         {
           "startParagraph": 136,
@@ -812,7 +837,8 @@
           "imageDescription": "A cavernous, deserted Pennsylvania Station in the small hours—long shadows, grand marble columns, and a handful of weary travelers. Nick sits on a bench in his rumpled suit, newspaper in hand, dozing as he waits for the four o’clock train. Faint pre-dawn light filters through high windows, casting blue-grey reflections across the vast, empty space. The scene is quiet, lonely, and drained after the previous night’s chaos.",
           "characterIds": [
             "nick_carraway"
-          ]
+          ],
+          "imageSubtitle": "Nick waits for the early train at Pennsylvania Station, reading the morning paper."
         },
         {
           "startParagraph": 119,
@@ -827,7 +853,8 @@
             "mr_mckee",
             "mrs_mckee",
             "dog_airedale_puppy"
-          ]
+          ],
+          "imageSubtitle": "Myrtle confides in Nick about her first meeting with Tom."
         },
         {
           "startParagraph": 0,
@@ -842,7 +869,8 @@
             "mr_mckee",
             "mrs_mckee",
             "dog_airedale_puppy"
-          ]
+          ],
+          "imageSubtitle": "Tom and Myrtle’s heated argument erupts in their cluttered city apartment."
         },
         {
           "startParagraph": 128,
@@ -853,7 +881,8 @@
             "nick_carraway",
             "mr_mckee",
             "elevator_boy"
-          ]
+          ],
+          "imageSubtitle": "Nick visits Mr. McKee’s flat to view his photography portfolio."
         },
         {
           "startParagraph": 136,
@@ -862,7 +891,8 @@
           "imageDescription": "Before dawn in the cavernous, barren lower level of Pennsylvania Station, Nick sits slouched on a hard wooden bench, his coat drawn around him for warmth. The dim bluish-gray light of early morning streams in through grimy skylights. A discarded copy of the Tribune lies in his lap. Around him, shadowy figures drift past, the vast emptiness underscoring his exhaustion and solitude. The setting is cold and industrial, evoking a mood of languid resignation.",
           "characterIds": [
             "nick_carraway"
-          ]
+          ],
+          "imageSubtitle": "Nick waits alone in the chilly station before dawn, reading the morning paper."
         }
       ]
     },
@@ -1176,7 +1206,8 @@
           "imageDescription": "A grand 1920s Long Island mansion glitters with hundreds of colored lights as evening falls. The blue gardens overflow with elegantly dressed men and women in evening attire—flapper dresses, tuxedos, bobbed hair, and beaded headbands. Some guests lounge on beach chairs by the sand, others dance on the lit-up lawn, and servers in smart uniforms pass with trays of cocktails. Motorboats can be glimpsed on the Sound beyond. The air is lively with celebration and the vibrant energy of the Jazz Age.",
           "characterIds": [
             "gatsbys_staff_servants_caterers_orchestra_etc"
-          ]
+          ],
+          "imageSubtitle": "Gatsby’s lavish summer party fills the night with music and dazzling guests."
         },
         {
           "startParagraph": 7,
@@ -1186,7 +1217,8 @@
           "characterIds": [
             "nick_carraway",
             "gatsbys_chauffeur"
-          ]
+          ],
+          "imageSubtitle": "Nick receives a formal party invitation delivered by Gatsby’s chauffeur."
         },
         {
           "startParagraph": 8,
@@ -1196,7 +1228,8 @@
           "characterIds": [
             "nick_carraway",
             "gatsbys_staff_servants_caterers_orchestra_etc"
-          ]
+          ],
+          "imageSubtitle": "Nick arrives at Gatsby’s lavish party, searching for his mysterious host."
         },
         {
           "startParagraph": 10,
@@ -1207,7 +1240,8 @@
             "nick_carraway",
             "jordan_baker",
             "girls_in_yellow"
-          ]
+          ],
+          "imageSubtitle": "Nick joins Jordan and the girls in yellow at Gatsby's lively garden party."
         },
         {
           "startParagraph": 0,
@@ -1220,7 +1254,8 @@
             "girls_in_yellow",
             "lucille",
             "mr_mumble"
-          ]
+          ],
+          "imageSubtitle": "Nick and Jordan join lively party guests as rumors about Gatsby swirl around."
         },
         {
           "startParagraph": 36,
@@ -1230,7 +1265,8 @@
           "characterIds": [
             "jordan_baker",
             "jordans_undergraduate_escort"
-          ]
+          ],
+          "imageSubtitle": "Nick joins Jordan and her East Egg friends for supper at Gatsby’s garden party."
         },
         {
           "startParagraph": 39,
@@ -1242,7 +1278,8 @@
             "jordan_baker",
             "owl_eyes",
             "mrs_claud_roosevelt"
-          ]
+          ],
+          "imageSubtitle": "Nick and Jordan meet Owl Eyes, who marvels at Gatsby’s real books."
         },
         {
           "startParagraph": 58,
@@ -1257,7 +1294,8 @@
             "notorious_contralto",
             "stage_twins",
             "gatsbys_staff_servants_caterers_orchestra_etc"
-          ]
+          ],
+          "imageSubtitle": "Guests dance and celebrate as the lively party fills Gatsby’s garden with music."
         },
         {
           "startParagraph": 59,
@@ -1269,7 +1307,8 @@
             "jordan_baker",
             "jay_gatsby",
             "rowdy_little_girl"
-          ]
+          ],
+          "imageSubtitle": "Nick meets Gatsby for the first time at the garden party table."
         },
         {
           "startParagraph": 76,
@@ -1281,7 +1320,8 @@
             "jordan_baker",
             "jay_gatsby",
             "butler_gatsbys_house"
-          ]
+          ],
+          "imageSubtitle": "Gatsby departs as Nick and Jordan speculate about his mysterious past."
         },
         {
           "startParagraph": 89,
@@ -1295,7 +1335,8 @@
             "nick_carraway",
             "jordan_baker",
             "gatsbys_staff_servants_caterers_orchestra_etc"
-          ]
+          ],
+          "imageSubtitle": "The orchestra plays Tostoff’s new jazz piece as Gatsby surveys his lively guests."
         },
         {
           "startParagraph": 93,
@@ -1306,7 +1347,8 @@
             "jordan_baker",
             "nick_carraway",
             "butler_gatsbys_house"
-          ]
+          ],
+          "imageSubtitle": "Gatsby’s butler invites Jordan inside, leaving Nick alone in the garden."
         },
         {
           "startParagraph": 100,
@@ -1318,7 +1360,8 @@
             "tall_redhaired_young_lady",
             "chorus_girls",
             "nick_carraway"
-          ]
+          ],
+          "imageSubtitle": "As the party wanes, tensions flare and couples quarrel amid fading music."
         },
         {
           "startParagraph": 110,
@@ -1330,7 +1373,8 @@
             "jordan_baker",
             "sigourney_howard",
             "nick_carraway"
-          ]
+          ],
+          "imageSubtitle": "Guests depart as Jordan and Gatsby emerge, exchanging secretive words."
         },
         {
           "startParagraph": 122,
@@ -1341,7 +1385,8 @@
             "owl_eyes",
             "man_in_duster",
             "pale_dangling_individual"
-          ]
+          ],
+          "imageSubtitle": "Owl Eyes and the crowd inspect a crashed car outside Gatsby’s gate at night."
         },
         {
           "startParagraph": 152,
@@ -1351,7 +1396,8 @@
           "characterIds": [
             "nick_carraway",
             "jay_gatsby"
-          ]
+          ],
+          "imageSubtitle": "Nick glances back at Gatsby, alone on his porch, as the party winds down."
         },
         {
           "startParagraph": 154,
@@ -1360,7 +1406,8 @@
           "imageDescription": "Nick walks briskly along the bustling, skyscraper-lined streets of 1920s Manhattan, passing bond offices and dark restaurants teeming with young men in business suits. He is sometimes alone, sometimes in conversation, always with a sense of urban restlessness and late-day golden light casting long shadows over the scenes. Fifth Avenue and 33rd Street, the Yale Club, and the Pennsylvania Station all appear in flashes as Nick wanders, solitary but observant.",
           "characterIds": [
             "nick_carraway"
-          ]
+          ],
+          "imageSubtitle": "Nick reflects on city life during his daily routines in bustling New York."
         },
         {
           "startParagraph": 160,
@@ -1370,7 +1417,8 @@
           "characterIds": [
             "nick_carraway",
             "jordan_baker"
-          ]
+          ],
+          "imageSubtitle": "Nick and Jordan discuss honesty and careful driving after a close call on the road."
         },
         {
           "startParagraph": 115,
@@ -1382,7 +1430,8 @@
             "jay_gatsby",
             "gatsbys_butler",
             "gatsbys_telephone_callers_chicago_philadelphia"
-          ]
+          ],
+          "imageSubtitle": "Nick bids Gatsby good night on the porch after the party ends."
         },
         {
           "startParagraph": 122,
@@ -1393,7 +1442,8 @@
             "owl_eyes",
             "man_in_duster",
             "pale_dangling_individual"
-          ]
+          ],
+          "imageSubtitle": "A crowd gathers as Owl Eyes emerges from a wrecked car in Gatsby's driveway."
         },
         {
           "startParagraph": 152,
@@ -1403,7 +1453,8 @@
           "characterIds": [
             "nick_carraway",
             "jay_gatsby"
-          ]
+          ],
+          "imageSubtitle": "Nick gazes back at Gatsby standing alone on his moonlit porch."
         },
         {
           "startParagraph": 154,
@@ -1412,7 +1463,8 @@
           "imageDescription": "A montage of 1920s Manhattan locations: Nick Carraway walks through the bright canyons of Wall Street, lunches at a bustling, shadowy restaurant with young bond-salesmen, then sits at a dark wood-paneled Yale Club library, studying by lamplight. Later, he strolls in the neon twilight of Madison Avenue, watching the crowds and imagining their lives. The atmosphere shifts from busy optimism to reflective solitude and urban romance.",
           "characterIds": [
             "nick_carraway"
-          ]
+          ],
+          "imageSubtitle": "Nick navigates New York's bustling streets, lost in daydreams and solitude."
         },
         {
           "startParagraph": 160,
@@ -1422,7 +1474,8 @@
           "characterIds": [
             "nick_carraway",
             "jordan_baker"
-          ]
+          ],
+          "imageSubtitle": "Nick and Jordan discuss honesty and driving as they cruise through the countryside."
         }
       ]
     },
@@ -1766,7 +1819,8 @@
           "startParagraph": 0,
           "endParagraph": 9,
           "locationDescription": "Gatsby's lawn and mansion exterior",
-          "imageDescription": "A vibrant 1920s garden party scene on the sweeping lawn of Gatsby’s palatial Long Island mansion. Dozens of fashionable men and women in Jazz Age formalwear mingle between flowerbeds, sipping cocktails and laughing under bright morning sunlight. Waiters circulate with trays, and sleek automobiles are parked in the drive. The atmosphere is lively, colorful, and luxurious."
+          "imageDescription": "A vibrant 1920s garden party scene on the sweeping lawn of Gatsby’s palatial Long Island mansion. Dozens of fashionable men and women in Jazz Age formalwear mingle between flowerbeds, sipping cocktails and laughing under bright morning sunlight. Waiters circulate with trays, and sleek automobiles are parked in the drive. The atmosphere is lively, colorful, and luxurious.",
+          "imageSubtitle": "Gatsby's lawn bustles with glamorous guests enjoying another lively Sunday party."
         },
         {
           "startParagraph": 10,
@@ -1776,7 +1830,8 @@
           "characterIds": [
             "nick_carraway",
             "jay_gatsby"
-          ]
+          ],
+          "imageSubtitle": "Gatsby arrives at Nick's house in his luxurious car early one morning."
         },
         {
           "startParagraph": 0,
@@ -1786,7 +1841,8 @@
           "characterIds": [
             "nick_carraway",
             "jay_gatsby"
-          ]
+          ],
+          "imageSubtitle": "Nick rides with Gatsby through the bustling streets of Long Island and Queens."
         },
         {
           "startParagraph": 54,
@@ -1797,7 +1853,8 @@
             "nick_carraway",
             "jay_gatsby",
             "meyer_wolfshiem"
-          ]
+          ],
+          "imageSubtitle": "Nick and Gatsby cross the Queensboro Bridge, entering Manhattan’s promise and mystery."
         },
         {
           "startParagraph": 58,
@@ -1808,7 +1865,8 @@
             "nick_carraway",
             "jay_gatsby",
             "thomas_buchanan"
-          ]
+          ],
+          "imageSubtitle": "Nick meets Gatsby and Mr. Wolfshiem for lunch in a dimly lit Manhattan restaurant."
         },
         {
           "startParagraph": 119,
@@ -1819,7 +1877,8 @@
             "jordan_baker",
             "daisy_buchanan",
             "jay_gatsby"
-          ]
+          ],
+          "imageSubtitle": "Tom and Gatsby meet for the first time in the busy restaurant lobby."
         },
         {
           "startParagraph": 129,
@@ -1830,7 +1889,8 @@
             "daisy_buchanan",
             "jordan_baker",
             "daisys_mothers_maid"
-          ]
+          ],
+          "imageSubtitle": "Jordan recalls a summer stroll in Louisville, 1917, during Gatsby and Daisy's past."
         },
         {
           "startParagraph": 131,
@@ -1841,7 +1901,8 @@
             "daisy_buchanan",
             "thomas_buchanan",
             "daisy_buchanans_daughter"
-          ]
+          ],
+          "imageSubtitle": "Daisy sits in her white roadster, captivated by a young officer, Jay Gatsby."
         },
         {
           "startParagraph": 137,
@@ -1851,19 +1912,22 @@
           "characterIds": [
             "nick_carraway",
             "jordan_baker"
-          ]
+          ],
+          "imageSubtitle": "Daisy lies on her bed, clutching a letter and pearls on the eve of her wedding."
         },
         {
           "startParagraph": 144,
           "endParagraph": 146,
           "locationDescription": "Santa Barbara beach, after Daisy and Tom's wedding (flashback)",
-          "imageDescription": "A sun-bathed Santa Barbara beach in the early 1920s. Daisy, in a stylish white bathing dress, sits in the sand with Tom Buchanan’s head cradled in her lap. He lounges, eyes closed, his arm over his face, while she gazes at him affectionately. Couples stroll nearby, the Pacific sparkles, and the mood is tender yet tinged with irony."
+          "imageDescription": "A sun-bathed Santa Barbara beach in the early 1920s. Daisy, in a stylish white bathing dress, sits in the sand with Tom Buchanan’s head cradled in her lap. He lounges, eyes closed, his arm over his face, while she gazes at him affectionately. Couples stroll nearby, the Pacific sparkles, and the mood is tender yet tinged with irony.",
+          "imageSubtitle": "Daisy lovingly watches over Tom on the beach after their wedding."
         },
         {
           "startParagraph": 147,
           "endParagraph": 169,
           "locationDescription": "Central Park in a victoria carriage, sunset (contemporary, after Jordan's story)",
-          "imageDescription": "A horse-drawn victoria carriage moves along a path in Central Park at sunset. Nick and Jordan ride seated together in 1920s finery: Nick in suit and fedora, Jordan in a cloche hat and silk dress. Behind them, Manhattan’s tall apartment buildings rise, their windows glowing in the twilight. Children play on the grass, and the city’s energy softens under the deepening evening sky."
+          "imageDescription": "A horse-drawn victoria carriage moves along a path in Central Park at sunset. Nick and Jordan ride seated together in 1920s finery: Nick in suit and fedora, Jordan in a cloche hat and silk dress. Behind them, Manhattan’s tall apartment buildings rise, their windows glowing in the twilight. Children play on the grass, and the city’s energy softens under the deepening evening sky.",
+          "imageSubtitle": "Nick and Jordan ride through Central Park at sunset, discussing Gatsby’s request."
         }
       ]
     },
@@ -2064,7 +2128,8 @@
           "characterIds": [
             "nick_carraway",
             "jay_gatsby"
-          ]
+          ],
+          "imageSubtitle": "Gatsby’s mansion glows brightly in the night as Nick returns home."
         },
         {
           "startParagraph": 0,
@@ -2075,7 +2140,8 @@
             "nick_carraway",
             "nick_carraways_finnish_housekeeper",
             "gatsbys_staff_servants_caterers_orchestra_etc"
-          ]
+          ],
+          "imageSubtitle": "Nick and Gatsby discuss plans for Daisy’s visit as Gatsby’s house glows brightly."
         },
         {
           "startParagraph": 33,
@@ -2087,7 +2153,8 @@
             "jay_gatsby",
             "daisy_buchanan",
             "chauffeur_taxi_driver_in_the_village"
-          ]
+          ],
+          "imageSubtitle": "Gatsby anxiously waits with Nick as Daisy arrives in the rain for tea."
         },
         {
           "startParagraph": 59,
@@ -2099,7 +2166,8 @@
             "jay_gatsby",
             "daisy_buchanan",
             "nick_carraways_finnish_housekeeper"
-          ]
+          ],
+          "imageSubtitle": "Gatsby and Daisy meet again in Nick’s living room, tense and uncertain."
         },
         {
           "startParagraph": 75,
@@ -2109,7 +2177,8 @@
           "characterIds": [
             "nick_carraway",
             "jay_gatsby"
-          ]
+          ],
+          "imageSubtitle": "Gatsby confides in Nick, doubting his reunion with Daisy in the kitchen."
         },
         {
           "startParagraph": 84,
@@ -2120,7 +2189,8 @@
             "nick_carraway",
             "gatsbys_staff_servants_caterers_orchestra_etc",
             "kant"
-          ]
+          ],
+          "imageSubtitle": "Nick waits under a tree in the rain, gazing at Gatsby’s grand, empty house."
         },
         {
           "startParagraph": 86,
@@ -2131,7 +2201,8 @@
             "nick_carraway",
             "jay_gatsby",
             "daisy_buchanan"
-          ]
+          ],
+          "imageSubtitle": "Gatsby and Daisy sit together, their reunion warming Nick's rain-soaked room."
         },
         {
           "startParagraph": 91,
@@ -2142,7 +2213,8 @@
             "nick_carraway",
             "jay_gatsby",
             "daisy_buchanan"
-          ]
+          ],
+          "imageSubtitle": "Gatsby gives Daisy and Nick a grand tour of his mansion and gardens."
         },
         {
           "startParagraph": 108,
@@ -2154,7 +2226,8 @@
             "jay_gatsby",
             "daisy_buchanan",
             "ewing_klipspringer"
-          ]
+          ],
+          "imageSubtitle": "Nick and Daisy explore Gatsby’s lavish mansion with Gatsby as their guide."
         },
         {
           "startParagraph": 0,
@@ -2165,7 +2238,8 @@
             "nick_carraway",
             "jay_gatsby",
             "daisy_buchanan"
-          ]
+          ],
+          "imageSubtitle": "Gatsby anxiously discusses plans for tea with Daisy while his house glows at night."
         },
         {
           "startParagraph": 114,
@@ -2176,7 +2250,8 @@
             "nick_carraway",
             "jay_gatsby",
             "daisy_buchanan"
-          ]
+          ],
+          "imageSubtitle": "Gatsby displays his lavish collection of shirts to Daisy and Nick."
         },
         {
           "startParagraph": 121,
@@ -2188,7 +2263,8 @@
             "jay_gatsby",
             "daisy_buchanan",
             "dan_cody"
-          ]
+          ],
+          "imageSubtitle": "Daisy admires Gatsby’s collection as they explore his study together."
         },
         {
           "startParagraph": 137,
@@ -2200,7 +2276,8 @@
             "jay_gatsby",
             "daisy_buchanan",
             "ewing_klipspringer"
-          ]
+          ],
+          "imageSubtitle": "Klipspringer hesitantly plays piano as Gatsby and Daisy sit together listening."
         },
         {
           "startParagraph": 152,
@@ -2211,7 +2288,8 @@
             "nick_carraway",
             "jay_gatsby",
             "daisy_buchanan"
-          ]
+          ],
+          "imageSubtitle": "Nick leaves Gatsby and Daisy inside as rain falls on the mansion steps."
         }
       ]
     },
@@ -2440,7 +2518,8 @@
           "imageDescription": "A bright 1920s morning at the grand entrance of Gatsby’s palatial West Egg mansion. A determined young reporter stands on the wide stone steps, notebook in hand, facing Jay Gatsby, who greets him politely. Gatsby is impeccably dressed in a light-colored suit, standing with the poise of a host. The lush lawns and ornate architecture suggest wealth and new money. The scene is crisp and slightly formal, with sunlight glinting off the windows and the touring car parked nearby.",
           "characterIds": [
             "jay_gatsby"
-          ]
+          ],
+          "imageSubtitle": "A reporter questions Gatsby at his mansion about his growing notoriety."
         },
         {
           "startParagraph": 5,
@@ -2450,7 +2529,8 @@
           "characterIds": [
             "jay_gatsby",
             "dan_cody"
-          ]
+          ],
+          "imageSubtitle": "Young James Gatz spots Dan Cody’s yacht from the Lake Superior shore."
         },
         {
           "startParagraph": 12,
@@ -2461,7 +2541,8 @@
             "jay_gatsby",
             "dan_cody",
             "ella_kaye"
-          ]
+          ],
+          "imageSubtitle": "Gatsby serves Dan Cody aboard his yacht, learning from his mentor at sea."
         },
         {
           "startParagraph": 16,
@@ -2474,7 +2555,8 @@
             "thomas_buchanan",
             "mr_sloane",
             "unnamed_woman_in_brown_ridinghabit"
-          ]
+          ],
+          "imageSubtitle": "Tom, Mr. Sloane, and a lady visit Gatsby's house after a Sunday ride."
         },
         {
           "startParagraph": 52,
@@ -2487,7 +2569,8 @@
             "thomas_buchanan",
             "mr_sloane",
             "unnamed_woman_in_brown_ridinghabit"
-          ]
+          ],
+          "imageSubtitle": "Gatsby steps onto the porch as Tom and guests ride away into the night."
         },
         {
           "startParagraph": 59,
@@ -2504,7 +2587,8 @@
             "unnamed_movie_director",
             "unnamed_small_producer",
             "unnamed_celebrities_movie_people_society_etc"
-          ]
+          ],
+          "imageSubtitle": "Tom and Daisy arrive at Gatsby’s dazzling evening party, escorted by Gatsby himself."
         },
         {
           "startParagraph": 78,
@@ -2515,7 +2599,8 @@
             "nick_carraway",
             "jay_gatsby",
             "daisy_buchanan"
-          ]
+          ],
+          "imageSubtitle": "Daisy and Gatsby sit quietly on Nick’s steps during the party."
         },
         {
           "startParagraph": 81,
@@ -2531,7 +2616,8 @@
             "doctor_webster_civet",
             "baedeker_girls",
             "unnamed_celebrities_movie_people_society_etc"
-          ]
+          ],
+          "imageSubtitle": "Revelers gossip and laugh by the pool as Gatsby’s party carries on late into the night."
         },
         {
           "startParagraph": 96,
@@ -2542,7 +2628,8 @@
             "nick_carraway",
             "thomas_buchanan",
             "daisy_buchanan"
-          ]
+          ],
+          "imageSubtitle": "Nick, Tom, and Daisy linger on Gatsby's steps as the night winds down."
         },
         {
           "startParagraph": 116,
@@ -2552,7 +2639,8 @@
           "characterIds": [
             "nick_carraway",
             "jay_gatsby"
-          ]
+          ],
+          "imageSubtitle": "Gatsby paces his deserted garden, longing to reclaim the past with Daisy."
         },
         {
           "startParagraph": 132,
@@ -2562,7 +2650,8 @@
           "characterIds": [
             "jay_gatsby",
             "daisy_buchanan"
-          ]
+          ],
+          "imageSubtitle": "Gatsby and Daisy share a moment under the moonlit autumn sky in Louisville."
         }
       ]
     },
@@ -2972,7 +3061,8 @@
           "characterIds": [
             "nick_carraway",
             "gatsbys_new_servants_wolfshiems_people"
-          ]
+          ],
+          "imageSubtitle": "Nick visits Gatsby's mansion and is turned away by a new, unfriendly butler."
         },
         {
           "startParagraph": 8,
@@ -2982,7 +3072,8 @@
           "characterIds": [
             "nick_carraway",
             "nick_carraways_finnish_housekeeper"
-          ]
+          ],
+          "imageSubtitle": "Nick learns that Gatsby has mysteriously replaced all his household staff."
         },
         {
           "startParagraph": 9,
@@ -2992,7 +3083,8 @@
           "characterIds": [
             "nick_carraway",
             "jay_gatsby"
-          ]
+          ],
+          "imageSubtitle": "Nick and Gatsby discuss recent changes and lunch plans over the phone."
         },
         {
           "startParagraph": 18,
@@ -3003,7 +3095,8 @@
             "nick_carraway",
             "the_conductor",
             "the_woman_in_white_on_train"
-          ]
+          ],
+          "imageSubtitle": "Nick endures the sweltering train ride to East Egg on a blistering summer day."
         },
         {
           "startParagraph": 23,
@@ -3014,7 +3107,8 @@
             "nick_carraway",
             "jay_gatsby",
             "the_butler_at_buchanan_house"
-          ]
+          ],
+          "imageSubtitle": "Gatsby and Nick wait in the hall as the butler announces their arrival."
         },
         {
           "startParagraph": 28,
@@ -3026,7 +3120,8 @@
             "jordan_baker",
             "jay_gatsby",
             "nick_carraway"
-          ]
+          ],
+          "imageSubtitle": "Daisy and Jordan lounge on the couch as Tom argues on the hall telephone."
         },
         {
           "startParagraph": 38,
@@ -3039,7 +3134,8 @@
             "daisy_buchanan",
             "jordan_baker",
             "nick_carraway"
-          ]
+          ],
+          "imageSubtitle": "Daisy kisses Gatsby as Tom and the others gather in the Buchanan salon."
         },
         {
           "startParagraph": 47,
@@ -3053,7 +3149,8 @@
             "jay_gatsby",
             "nick_carraway",
             "jordan_baker"
-          ]
+          ],
+          "imageSubtitle": "Daisy embraces her daughter as Gatsby meets her for the first time."
         },
         {
           "startParagraph": 67,
@@ -3064,7 +3161,8 @@
             "jay_gatsby",
             "thomas_buchanan",
             "nick_carraway"
-          ]
+          ],
+          "imageSubtitle": "Gatsby, Nick, and Tom watch a lone sail drift on the shimmering Sound."
         },
         {
           "startParagraph": 72,
@@ -3077,7 +3175,8 @@
             "jay_gatsby",
             "jordan_baker",
             "nick_carraway"
-          ]
+          ],
+          "imageSubtitle": "Tension rises as Daisy insists on going to town during a heated lunch."
         },
         {
           "startParagraph": 86,
@@ -3090,7 +3189,8 @@
             "thomas_buchanan",
             "jay_gatsby",
             "nick_carraway"
-          ]
+          ],
+          "imageSubtitle": "The group prepares for their drive to the city on a blistering summer afternoon."
         },
         {
           "startParagraph": 134,
@@ -3104,7 +3204,8 @@
             "george_b_wilson",
             "myrtle_wilson",
             "doctor_t_j_eckleburg"
-          ]
+          ],
+          "imageSubtitle": "Tom, Jordan, and Nick stop for gas at Wilson's garage in the Valley of Ashes."
         },
         {
           "startParagraph": 170,
@@ -3117,7 +3218,8 @@
             "jay_gatsby",
             "jordan_baker",
             "nick_carraway"
-          ]
+          ],
+          "imageSubtitle": "Nick, Gatsby, Tom, Daisy, and Jordan arrive at the Plaza Hotel together."
         },
         {
           "startParagraph": 172,
@@ -3132,7 +3234,8 @@
             "nick_carraway",
             "clerk_plaza_hotel",
             "waiter_plaza_hotel"
-          ]
+          ],
+          "imageSubtitle": "The group gathers in the sweltering Plaza Hotel suite, trying to escape the heat."
         },
         {
           "startParagraph": 224,
@@ -3145,7 +3248,8 @@
             "jay_gatsby",
             "jordan_baker",
             "nick_carraway"
-          ]
+          ],
+          "imageSubtitle": "Gatsby and Tom confront each other as Daisy pleads for calm in the hotel suite."
         },
         {
           "startParagraph": 306,
@@ -3156,7 +3260,8 @@
             "thomas_buchanan",
             "nick_carraway",
             "jordan_baker"
-          ]
+          ],
+          "imageSubtitle": "Tom, Jordan, and Nick drive into the twilight, leaving the city behind."
         },
         {
           "startParagraph": 316,
@@ -3174,7 +3279,8 @@
             "negro_witness",
             "the_crowd",
             "doctor"
-          ]
+          ],
+          "imageSubtitle": "A shocked crowd gathers at Wilson’s garage after a tragic accident."
         },
         {
           "startParagraph": 367,
@@ -3186,7 +3292,8 @@
             "nick_carraway",
             "jordan_baker",
             "the_butler_at_buchanan_house"
-          ]
+          ],
+          "imageSubtitle": "Nick waits alone outside the Buchanans' house on a quiet, moonlit night."
         },
         {
           "startParagraph": 379,
@@ -3196,7 +3303,8 @@
           "characterIds": [
             "nick_carraway",
             "jay_gatsby"
-          ]
+          ],
+          "imageSubtitle": "Nick finds Gatsby waiting anxiously in the moonlit driveway."
         },
         {
           "startParagraph": 407,
@@ -3207,7 +3315,8 @@
             "daisy_buchanan",
             "thomas_buchanan",
             "nick_carraway"
-          ]
+          ],
+          "imageSubtitle": "Nick observes Daisy and Tom quietly confiding at the kitchen table."
         },
         {
           "startParagraph": 409,
@@ -3217,7 +3326,8 @@
           "characterIds": [
             "jay_gatsby",
             "nick_carraway"
-          ]
+          ],
+          "imageSubtitle": "Gatsby stands alone in the moonlight, keeping watch over Daisy’s house."
         }
       ]
     },
@@ -3431,7 +3541,8 @@
           "characterIds": [
             "nick_carraway",
             "jay_gatsby"
-          ]
+          ],
+          "imageSubtitle": "Nick visits a weary Gatsby at dawn after a restless, anxious night."
         },
         {
           "startParagraph": 3,
@@ -3441,7 +3552,8 @@
           "characterIds": [
             "nick_carraway",
             "jay_gatsby"
-          ]
+          ],
+          "imageSubtitle": "Nick and Gatsby search the dark, dusty rooms of Gatsby’s empty mansion at night."
         },
         {
           "startParagraph": 9,
@@ -3451,7 +3563,8 @@
           "characterIds": [
             "jay_gatsby",
             "daisy_buchanan"
-          ]
+          ],
+          "imageSubtitle": "Gatsby visits Daisy’s elegant home, captivated by her world and presence."
         },
         {
           "startParagraph": 28,
@@ -3460,7 +3573,8 @@
           "imageDescription": "A crowded 1920s train platform under the pale light of a setting sun. Gatsby, now older, in a worn suit with an army duffle bag, stands forlornly near a departing train. The city skyline looms in the background, echoed in Gatsby’s wistful gaze. Travelers bustle nearby in period dress—cloche hats, three-piece suits—while Gatsby clings to a final glance at the city Daisy made magical. The mood is bittersweet, tinged with loss and longing.",
           "characterIds": [
             "jay_gatsby"
-          ]
+          ],
+          "imageSubtitle": "Gatsby departs Louisville by train, memories of Daisy lingering behind."
         },
         {
           "startParagraph": 20,
@@ -3470,7 +3584,8 @@
           "characterIds": [
             "nick_carraway",
             "jay_gatsby"
-          ]
+          ],
+          "imageSubtitle": "Gatsby and Nick open windows at dawn, filling the house with morning light."
         },
         {
           "startParagraph": 48,
@@ -3479,7 +3594,8 @@
           "imageDescription": "A cramped, high-ceilinged 1920s office filled with ticking ticker tape machines and green-shaded desk lamps. Nick, in a suit and rolled shirtsleeves, slumps drowsily at a cluttered wooden desk, sunlight slanting in through grimy windows. The space buzzes with the low background activity of other stockbrokers in crisp shirts and narrow ties. The mood is weary, with morning light and the fatigue of sleeplessness etched in Nick's posture.",
           "characterIds": [
             "nick_carraway"
-          ]
+          ],
+          "imageSubtitle": "Nick is startled awake by a midday call from Jordan at his office."
         },
         {
           "startParagraph": 48,
@@ -3489,7 +3605,8 @@
           "characterIds": [
             "nick_carraway",
             "jordan_baker"
-          ]
+          ],
+          "imageSubtitle": "Nick receives an uneasy phone call from Jordan at his office before noon."
         },
         {
           "startParagraph": 63,
@@ -3501,7 +3618,8 @@
             "george_b_wilson",
             "michaelis",
             "doctor_t_j_eckleburg"
-          ]
+          ],
+          "imageSubtitle": "Michaelis keeps vigil with a grieving Wilson in the garage until dawn arrives."
         },
         {
           "startParagraph": 106,
@@ -3510,7 +3628,8 @@
           "imageDescription": "A series of nearly empty roads winding through sunbaked fields and fringe towns of Long Island. George Wilson, haggard and disheveled in work-stained clothes, trudges alone beside traffic, his face gaunt with obsession and exhaustion. He pauses at a grimy roadside diner for coffee, ignored by passing motorists. Youths on bicycles gaze at him warily from a distance. The light is harsh and pitiless, the landscape bleak, underscoring Wilson’s isolation.",
           "characterIds": [
             "george_b_wilson"
-          ]
+          ],
+          "imageSubtitle": "Wilson wanders Long Island searching for answers, driven and exhausted."
         },
         {
           "startParagraph": 107,
@@ -3521,7 +3640,8 @@
             "jay_gatsby",
             "butler_gatsbys_house",
             "gatsbys_new_servants_wolfshiems_people"
-          ]
+          ],
+          "imageSubtitle": "Gatsby heads to his pool for a swim on a quiet, reflective afternoon."
         },
         {
           "startParagraph": 110,
@@ -3534,7 +3654,8 @@
             "george_b_wilson",
             "butler_gatsbys_house",
             "gatsbys_new_servants_wolfshiems_people"
-          ]
+          ],
+          "imageSubtitle": "Nick, the butler, chauffeur, and gardener discover tragedy by Gatsby’s pool."
         }
       ]
     },
@@ -3896,7 +4017,8 @@
             "nick_carraway",
             "police_various_eg_detective_policeman_at_gate",
             "reporters_and_newspaper_men"
-          ]
+          ],
+          "imageSubtitle": "Police and reporters swarm Gatsby's house while neighbors and children watch."
         },
         {
           "startParagraph": 1,
@@ -3909,7 +4031,8 @@
             "gatsbys_butler",
             "police_various_eg_detective_policeman_at_gate",
             "reporters_and_newspaper_men"
-          ]
+          ],
+          "imageSubtitle": "Catherine tearfully denies any connection between her sister and Gatsby."
         },
         {
           "startParagraph": 2,
@@ -3920,7 +4043,8 @@
             "nick_carraway",
             "daisy_buchanan",
             "thomas_buchanan"
-          ]
+          ],
+          "imageSubtitle": "Nick makes phone calls trying to reach Daisy after the tragedy."
         },
         {
           "startParagraph": 10,
@@ -3930,7 +4054,8 @@
           "characterIds": [
             "nick_carraway",
             "gatsbys_butler"
-          ]
+          ],
+          "imageSubtitle": "Nick desperately tries to contact Wolfshiem as Gatsby lies alone upstairs."
         },
         {
           "startParagraph": 18,
@@ -3943,7 +4068,8 @@
             "meyer_wolfshiem",
             "reporters_and_newspaper_men",
             "police_various_eg_detective_policeman_at_gate"
-          ]
+          ],
+          "imageSubtitle": "Nick searches for clues in Gatsby's parlor as reporters gather downstairs."
         },
         {
           "startParagraph": 24,
@@ -3953,7 +4079,8 @@
           "characterIds": [
             "nick_carraway",
             "slagle"
-          ]
+          ],
+          "imageSubtitle": "Nick receives a mysterious call about Gatsby from a stranger named Slagle."
         },
         {
           "startParagraph": 32,
@@ -3963,7 +4090,8 @@
           "characterIds": [
             "nick_carraway",
             "henry_c_gatz"
-          ]
+          ],
+          "imageSubtitle": "Gatsby’s father, Henry C. Gatz, arrives at the house, overcome with emotion."
         },
         {
           "startParagraph": 0,
@@ -3973,7 +4101,8 @@
           "characterIds": [
             "nick_carraway",
             "henry_c_gatz"
-          ]
+          ],
+          "imageSubtitle": "Journalists and police swarm Gatsby’s house as curious onlookers gather outside."
         },
         {
           "startParagraph": 0,
@@ -3983,7 +4112,8 @@
           "characterIds": [
             "nick_carraway",
             "henry_c_gatz"
-          ]
+          ],
+          "imageSubtitle": "Nick endures a stream of reporters and police at Gatsby's guarded home."
         },
         {
           "startParagraph": 55,
@@ -3993,7 +4123,8 @@
           "characterIds": [
             "nick_carraway",
             "ewing_klipspringer"
-          ]
+          ],
+          "imageSubtitle": "Klipspringer calls Nick asking for his shoes, not to attend Gatsby’s funeral."
         },
         {
           "startParagraph": 70,
@@ -4004,7 +4135,8 @@
             "nick_carraway",
             "meyer_wolfshiem",
             "stella_wolfshiems_secretary"
-          ]
+          ],
+          "imageSubtitle": "Nick visits Wolfshiem’s office to ask about Gatsby’s past and his connections."
         },
         {
           "startParagraph": 100,
@@ -4014,7 +4146,8 @@
           "characterIds": [
             "nick_carraway",
             "henry_c_gatz"
-          ]
+          ],
+          "imageSubtitle": "Mr. Gatz proudly shares Gatsby’s childhood schedule and a treasured photo."
         },
         {
           "startParagraph": 120,
@@ -4026,7 +4159,8 @@
             "henry_c_gatz",
             "lutheran_minister_from_flushing",
             "gatsbys_servants"
-          ]
+          ],
+          "imageSubtitle": "Nick waits alone at Gatsby's house as the day of the funeral arrives."
         },
         {
           "startParagraph": 121,
@@ -4040,7 +4174,8 @@
             "lutheran_minister_from_flushing",
             "gatsbys_servants",
             "postman_from_west_egg"
-          ]
+          ],
+          "imageSubtitle": "Nick stands solemnly at Gatsby’s sparsely attended funeral."
         },
         {
           "startParagraph": 124,
@@ -4050,7 +4185,8 @@
           "characterIds": [
             "nick_carraway",
             "owl_eyes"
-          ]
+          ],
+          "imageSubtitle": "Nick reflects on leaving Gatsby’s empty mansion behind in the winter snow."
         },
         {
           "startParagraph": 130,
@@ -4062,7 +4198,8 @@
             "ordways",
             "herseys",
             "schultzes"
-          ]
+          ],
+          "imageSubtitle": "Nick and Jordan have a tense conversation about their breakup."
         },
         {
           "startParagraph": 131,
@@ -4071,7 +4208,8 @@
           "imageDescription": "Inside an old-fashioned Pullman railway car, young men and women in wool coats and cloche hats sit by frosted windows, gazing out at snow-covered fields. The lights of small towns flash past outside beneath a twinkling night sky. The air is festive; illuminated luggage racks and elegant train decor evoke a sense of adventure and nostalgia.",
           "characterIds": [
             "nick_carraway"
-          ]
+          ],
+          "imageSubtitle": "Nick and Gatsby part ways on a snowy train platform."
         },
         {
           "startParagraph": 0,
@@ -4080,7 +4218,8 @@
           "imageDescription": "A surreal, moonlit West Egg street: gaudy, oversized Gatsby-esque mansions crouch under a brooding sky. In the foreground, four men in tuxedos carry a stretcher with a glamorous, bejeweled woman in a white evening gown, her hand limp. The colors and shadows are elongated; the scene is both grotesque and alluring—a Jazz Age dream in the style of El Greco.",
           "characterIds": [
             "nick_carraway"
-          ]
+          ],
+          "imageSubtitle": "Newsmen and police swarm Gatsby’s mansion as rumors swirl outside the gate."
         },
         {
           "startParagraph": 134,
@@ -4090,7 +4229,8 @@
           "characterIds": [
             "nick_carraway",
             "jordan_baker"
-          ]
+          ],
+          "imageSubtitle": "Nick confronts Tom on Fifth Avenue about what happened after Gatsby’s death."
         },
         {
           "startParagraph": 144,
@@ -4100,7 +4240,8 @@
           "characterIds": [
             "nick_carraway",
             "thomas_buchanan"
-          ]
+          ],
+          "imageSubtitle": "Nick and Tom meet on Fifth Avenue to say a final, uneasy goodbye."
         },
         {
           "startParagraph": 155,
@@ -4110,7 +4251,8 @@
           "characterIds": [
             "nick_carraway",
             "chauffeur_taxi_driver_in_the_village"
-          ]
+          ],
+          "imageSubtitle": "Nick stands alone in Gatsby’s empty mansion before leaving West Egg."
         },
         {
           "startParagraph": 155,
@@ -4120,7 +4262,8 @@
           "characterIds": [
             "nick_carraway",
             "dutch_sailors"
-          ]
+          ],
+          "imageSubtitle": "Nick says goodbye to Gatsby’s empty mansion by the shore."
         }
       ]
     }

@@ -146,7 +146,8 @@
           "characterIds": [
             "raskolnikov",
             "the_young_mans_landlady"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov slips out of his garret, anxious to avoid his landlady."
         },
         {
           "startParagraph": 5,
@@ -156,7 +157,8 @@
           "characterIds": [
             "raskolnikov",
             "the_drunk_man_in_the_waggon"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov navigates the crowded, stifling streets of Petersburg in shabby clothes."
         },
         {
           "startParagraph": 9,
@@ -168,7 +170,8 @@
             "the_porters",
             "the_german_clerk",
             "the_german_clerks_family"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov quietly ascends the back staircase to Alyona Ivanovna's apartment."
         },
         {
           "startParagraph": 0,
@@ -178,7 +181,8 @@
           "characterIds": [
             "raskolnikov",
             "alyona-ivanovna"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov leaves his garret, avoiding his landlady on the stairs."
         },
         {
           "startParagraph": 44,
@@ -187,7 +191,8 @@
           "imageDescription": "Raskolnikov stumbles dazedly down the dim, narrow stairwell of a crowded Petersburg tenement, the shadows broken by slivers of fading daylight from a stairwell window. Emerging onto the busy street, he lurches among indifferent passersby, his expression twisted with agitation and self-loathing. The evening is humid and oppressive, with the city's squalor pressed into every cobblestone and facade.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov, distraught, escapes into a tavern seeking relief from his turmoil."
         },
         {
           "startParagraph": 0,
@@ -200,7 +205,8 @@
             "artisans_companion",
             "the_retired_government_clerk",
             "group_with_a_girl_with_a_concertina"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov hesitates outside his garret, weighed down by anxiety and debt."
         }
       ]
     },
@@ -368,7 +374,8 @@
             "boy_at_the_counter",
             "younger_boy_serving_in_tavern",
             "other_drinkersrevellers_in_the_tavern"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov quietly observes a mysterious clerk in the crowded tavern."
         },
         {
           "startParagraph": 23,
@@ -383,7 +390,8 @@
             "younger_boy_serving_in_tavern",
             "other_drinkersrevellers_in_the_tavern",
             "party_with_girl_and_concertina_group_arriving_at_tavern"
-          ]
+          ],
+          "imageSubtitle": "A rowdy party enters the tavern as Marmeladov continues telling his story."
         },
         {
           "startParagraph": 40,
@@ -393,7 +401,8 @@
           "characterIds": [
             "raskolnikov",
             "semyon_zaharovitch_marmeladov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov helps Marmeladov up to his family's cramped apartment."
         },
         {
           "startParagraph": 44,
@@ -408,7 +417,8 @@
             "marmeladovs_eldest_son_by_katerina_ivanovna",
             "marmeladovs_youngest_daughter_by_katerina_ivanovna",
             "amalia_lippevechsels_tenants_people_in_inner_rooms"
-          ]
+          ],
+          "imageSubtitle": "Katerina Ivanovna paces anxiously in her cramped, candle-lit room."
         },
         {
           "startParagraph": 52,
@@ -417,7 +427,8 @@
           "imageDescription": "A shadowed stairwell in a dark, run-down St. Petersburg tenement. Raskolnikov, thin and still in his worn clothing, descends alone, his face tense with conflicted emotion. The lantern-light from below casts long, dramatic shadows on the grimy walls. Outside, the street is nearly empty as dusk falls, with the faint glow of the northern night sky. The atmosphere is somber and reflective, encapsulating his troubled thoughts as he walks away.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov leaves the building, lost in troubling thoughts as he walks home."
         }
       ]
     },
@@ -559,7 +570,8 @@
           "characterIds": [
             "raskolnikov",
             "nastasya"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov wakes in his cramped, neglected room, lost in restless thoughts."
         },
         {
           "startParagraph": 35,
@@ -568,7 +580,8 @@
           "imageDescription": "Inside the same small, dingy room, Raskolnikov sits alone on the worn sofa, letter in hand. His expression turns from anxious anticipation to distress as he raises the envelope to his lips before opening it. Faded daylight spills over scattered books and neglected belongings, emphasizing the isolation of the scene. The sense is heavy with emotion and expectation, typical of 1860s St. Petersburg impoverished lodgings.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov anxiously receives and opens a letter from his mother."
         },
         {
           "startParagraph": 38,
@@ -585,7 +598,8 @@
             "vassily_ivanovitch_vahrushin",
             "afanasy_ivanovitch",
             "our_lady"
-          ]
+          ],
+          "imageSubtitle": "Pulcheria writes to Rodya, recalling hardships faced by her and Dounia."
         },
         {
           "startParagraph": 42,
@@ -594,7 +608,8 @@
           "imageDescription": "The cramped, dim garret at midday, Raskolnikov slumped, brow furrowed and tear-stained, alone on the squalid sofa. His fists clench the crumpled letter on his lap. Light streams weakly through the window, illuminating the dirty pillow beneath his head and casting long shadows that intensify the room’s oppressive, suffocating feel. The atmosphere is heavy, inward, and troubled.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov, troubled after reading a letter, wanders the streets in distress."
         },
         {
           "startParagraph": 0,
@@ -603,7 +618,8 @@
           "imageDescription": "Raskolnikov, haggard and distracted, walks briskly along the wide, bustling Vassilyevsky Prospect amid crowds in 1860s Petersburg. He mutters to himself, oblivious to the curious or wary glances of passing townsfolk—men in coats and caps, women in shawls, vendors, and shopkeepers. The summer sky is overcast, rendering the city’s facades pale and gloomy; energy and anxiety hang in the air.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov wakes in his cramped, untidy room, feeling restless and withdrawn."
         }
       ]
     },
@@ -766,7 +782,8 @@
             "sofya_semyonovna_soniasonya",
             "darya_frantsovna",
             "vassily_ivanovitch_vahrushin"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov broods over his family's plans for Dounia's marriage."
         },
         {
           "startParagraph": 11,
@@ -776,7 +793,8 @@
           "characterIds": [
             "raskolnikov",
             "unnamed_drunken_girl"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov notices a distressed young girl staggering along the boulevard."
         },
         {
           "startParagraph": 12,
@@ -787,7 +805,8 @@
             "raskolnikov",
             "unnamed_drunken_girl",
             "unnamed_stout_gentlemandandy"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov confronts a stranger shadowing a young girl on the boulevard."
         },
         {
           "startParagraph": 17,
@@ -799,7 +818,8 @@
             "unnamed_drunken_girl",
             "unnamed_stout_gentlemandandy",
             "unnamed_policemanconstable"
-          ]
+          ],
+          "imageSubtitle": "A policeman interrupts as Raskolnikov confronts a gentleman on the boulevard."
         },
         {
           "startParagraph": 21,
@@ -811,7 +831,8 @@
             "unnamed_drunken_girl",
             "unnamed_policemanconstable",
             "unnamed_stout_gentlemandandy"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov and the policeman help a distressed girl on the boulevard bench."
         },
         {
           "startParagraph": 37,
@@ -823,7 +844,8 @@
             "unnamed_drunken_girl",
             "unnamed_policemanconstable",
             "unnamed_stout_gentlemandandy"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov intervenes as a drunken girl walks away, pursued by a stranger."
         },
         {
           "startParagraph": 46,
@@ -832,7 +854,8 @@
           "imageDescription": "Raskolnikov sits in dejection alone on the empty boulevard bench, hands clasped and head bowed. The long corridor of the boulevard stretches empty, haunted by the heat and bathed in the dull glare of the sun. The sense of isolation and anguish pervades the air, with only Raskolnikov's ragged form punctuating the desolate scene.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov sits alone on the bench, lost in troubled, restless thoughts."
         },
         {
           "startParagraph": 49,
@@ -842,7 +865,8 @@
           "characterIds": [
             "raskolnikov",
             "razumihin"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov pauses on the boulevard, lost in thought about visiting Razumihin."
         }
       ]
     },
@@ -1043,7 +1067,8 @@
           "imageDescription": "A gaunt young man, Rodion Raskolnikov, walks aimlessly through the dusty, winding streets of St. Petersburg beneath the pale afternoon sun. He is disheveled in dark, threadbare clothes, his expression tense and feverish. The city looms with tall, oppressive buildings, narrow alleys, and occasional passersby in 19th-century dress. The mood is restless and anxious, flecks of city grime under drifting clouds, with Raskolnikov pausing near stone fences and vacant lots.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov wanders the city, lost in anxious thoughts about his future."
         },
         {
           "startParagraph": 0,
@@ -1052,7 +1077,8 @@
           "imageDescription": "Raskolnikov collapses among wild grasses beneath sparse birch trees on a remote spot on Petrovsky Island. Dappled late-afternoon sunlight filters through the leaves, casting patchy shadows over his huddled form. His clothes are wrinkled, his hair moist with sweat, and his face is pale. The landscape is lush and quiet, removed from the city’s bustle, with an atmosphere of stillness and exhaustion.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov paces in the bushes, lost in troubled thoughts about his future."
         },
         {
           "startParagraph": 9,
@@ -1063,7 +1089,8 @@
             "raskolnikov",
             "the_young_mans_father",
             "various_townspeople_and_peasants_dream_crowd"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov dreams of walking with his father through his childhood town."
         },
         {
           "startParagraph": 0,
@@ -1082,7 +1109,8 @@
             "various_townspeople_and_peasants_dream_crowd",
             "various_ladsyoung_men_in_the_dream",
             "the_sorrel_mare"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov wanders the streets, lost in uneasy thoughts and indecision."
         },
         {
           "startParagraph": 35,
@@ -1101,7 +1129,8 @@
             "various_townspeople_and_peasants_dream_crowd",
             "various_ladsyoung_men_in_the_dream",
             "the_sorrel_mare"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov dreams of a helpless mare tormented by a jeering crowd."
         },
         {
           "startParagraph": 54,
@@ -1110,7 +1139,8 @@
           "imageDescription": "Morning light glimmers through the sparse canopy over Raskolnikov, now awake, huddled and trembling on the dew-damp grass beneath a slender birch. His face is pale, hair matted, and clothes askew, deeply shaken by his nightmare. The surroundings are hushed and fresh, the air heavy with an uneasy peace after delirium, while Raskolnikov clutches his head, alone and haunted.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov wakes from a nightmare, shaken and tormented by his thoughts."
         },
         {
           "startParagraph": 61,
@@ -1119,7 +1149,8 @@
           "imageDescription": "Raskolnikov, gaunt and wan, leans weakly over the balustrade of a bridge spanning the Neva. The sun is low and blood-red in a glowing sky, its reflections gilding the river. The city skyline of St. Petersburg rises indistinctly beyond, bathed in luminescent dusk. He stands alone with tired yet luminous eyes, the breeze stirring his threadbare coat. The atmosphere is redemptive yet somber—a turning point suffused with a strange sense of relief.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov pauses on the bridge at sunset, feeling a sudden sense of relief."
         },
         {
           "startParagraph": 64,
@@ -1131,7 +1162,8 @@
             "lizaveta-ivanovna",
             "the_huckster",
             "the_hucksters_wife"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov observes Lizaveta speaking with a huckster at the busy market."
         },
         {
           "startParagraph": 74,
@@ -1140,7 +1172,8 @@
           "imageDescription": "Raskolnikov, drawn and pale, steps through the dim entrance of a decrepit St. Petersburg tenement as nighttime settles in. The hall is shrouded in shadow, with peeling wallpaper and a creaking staircase leading up into darkness. He walks in a trance-like state, overwhelmed, his posture sunken in defeat. The mood is heavy with inevitability and isolation, illuminated only by a weak candle or lantern glow from a distant door.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov returns home, overwhelmed by the weight of his decision."
         }
       ]
     },
@@ -1310,7 +1343,8 @@
             "raskolnikov",
             "an_unnamed_student_in_the_tavern",
             "an_unnamed_young_officer_in_the_tavern"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov overhears a student discussing the pawnbroker in a crowded tavern."
         },
         {
           "startParagraph": 23,
@@ -1319,7 +1353,8 @@
           "imageDescription": "A shabby attic room lit only by the greyish twilight of an early St. Petersburg evening seeping through a small window. Raskolnikov, exhausted and feverish, collapses onto a narrow sofa without removing his clothes. Dusty shelves, chipped crockery, and a threadbare blanket evoke poverty. The atmosphere is heavy, silent, and oppressive with a palpable sense of isolation. The faint outlines of 19th-century furnishings barely illuminate the gloom.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov collapses in exhaustion on his sofa as night falls in his garret."
         },
         {
           "startParagraph": 24,
@@ -1329,7 +1364,8 @@
           "characterIds": [
             "raskolnikov",
             "nastasya"
-          ]
+          ],
+          "imageSubtitle": "Nastasya tries to wake Raskolnikov in his garret as he lies weak and silent."
         },
         {
           "startParagraph": 39,
@@ -1338,7 +1374,8 @@
           "imageDescription": "The cramped, shadowed attic as the afternoon wanes. Raskolnikov sits hunched over in his worn overcoat, nervously sewing a cloth noose inside it. On a battered table lies a cleaned, folded shirt, a needle and thread, and a small, carefully wrapped parcel. His expression is strained and haunted. The setting is sparse, every corner showing neglect typical of impoverished student quarters in 19th-century St. Petersburg.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov prepares nervously for his fateful task in his small room."
         },
         {
           "startParagraph": 49,
@@ -1348,7 +1385,8 @@
           "characterIds": [
             "nastasya",
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov is foiled when Nastasya unexpectedly appears in the kitchen."
         },
         {
           "startParagraph": 52,
@@ -1358,7 +1396,8 @@
           "characterIds": [
             "raskolnikov",
             "the_porter"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov discovers the axe hidden in the porter’s empty room."
         },
         {
           "startParagraph": 53,
@@ -1367,7 +1406,8 @@
           "imageDescription": "Raskolnikov passes along a dingy street bordered by high tenement buildings, carriages and carts passing in the dusk. He moves carefully through the shadows cast by hulking wagons of hay, blending with the crowd, his coat tightly fastened. The city is alive but indifferent, bathed in the dusty golden light of evening. The sense of anticipation and anxiety is heightened by the narrow, labyrinthine alleys and the press of pedestrians in 19th-century attire.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov walks through the streets, lost in thought as he nears his destination."
         },
         {
           "startParagraph": 58,
@@ -1377,7 +1417,8 @@
           "characterIds": [
             "raskolnikov",
             "alyona-ivanovna"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov waits anxiously outside Alyona Ivanovna’s door, listening for movement."
         }
       ]
     },
@@ -1535,7 +1576,8 @@
           "characterIds": [
             "raskolnikov",
             "alyona-ivanovna"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov hesitates as Alyona Ivanovna nervously opens her door."
         },
         {
           "startParagraph": 3,
@@ -1545,7 +1587,8 @@
           "characterIds": [
             "raskolnikov",
             "alyona-ivanovna"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov nervously offers a pledge to Alyona Ivanovna in her flat."
         },
         {
           "startParagraph": 18,
@@ -1555,7 +1598,8 @@
           "characterIds": [
             "raskolnikov",
             "alyona-ivanovna"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov nervously waits as Alyona struggles to untie the hidden pledge."
         },
         {
           "startParagraph": 20,
@@ -1565,7 +1609,8 @@
           "characterIds": [
             "raskolnikov",
             "alyona-ivanovna"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov strikes Alyona Ivanovna as she clings to the pawned pledge."
         },
         {
           "startParagraph": 22,
@@ -1575,7 +1620,8 @@
           "characterIds": [
             "raskolnikov",
             "alyona-ivanovna"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov searches Alyona’s flat for valuables, keys jingling in his hands."
         },
         {
           "startParagraph": 23,
@@ -1584,7 +1630,8 @@
           "imageDescription": "In a cramped bedroom lined with Orthodox icons, Raskolnikov, pale and sweating, fumbles with a ring of keys before a red-leather-covered trunk under the bed. Blood stains are visible on his hands and coat. Silk dresses and clothes are tossed aside, gold trinkets and small cases scattered about. Weak daylight filters through thick curtains, heightening the sense of claustrophobia and anxiety.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov frantically searches Alyona’s box for valuables to steal."
         },
         {
           "startParagraph": 26,
@@ -1594,7 +1641,8 @@
           "characterIds": [
             "raskolnikov",
             "lizaveta-ivanovna"
-          ]
+          ],
+          "imageSubtitle": "Lizaveta enters the room and is frozen in fear at the sight before her."
         },
         {
           "startParagraph": 28,
@@ -1603,7 +1651,8 @@
           "imageDescription": "In the shadowy, cramped kitchen of the flat, Raskolnikov frantically washes blood from his hands and an axe in a battered metal pail atop a wooden bench, soap and rag beside him. The air is thick with dread and the ghostly gleam of lamp light. In the small adjacent entryway, discarded belongings and blood stains heighten the sense of disorder and panic.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov frantically cleans himself and the axe, then discovers the door ajar."
         },
         {
           "startParagraph": 32,
@@ -1612,7 +1661,8 @@
           "imageDescription": "A worn wooden staircase winding up the narrow, enclosed stairwell of an old St. Petersburg tenement. Raskolnikov, tense and pale, stands at the door of Alyona’s flat, peering down the dimly lit stairs, his form half-concealed by shadows. Faint voices and heavy footsteps echo from below, the cracked walls and faded railings bathed in the sickly gleam of a single sconce.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov listens anxiously on the staircase as footsteps approach."
         },
         {
           "startParagraph": 35,
@@ -1623,7 +1673,8 @@
             "raskolnikov",
             "koch",
             "the_young_man_visitor_with_koch_student_of_law"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov hides inside as Koch and a young man knock impatiently at the door."
         },
         {
           "startParagraph": 72,
@@ -1633,7 +1684,8 @@
           "characterIds": [
             "raskolnikov",
             "koch"
-          ]
+          ],
+          "imageSubtitle": "Koch inspects Alyona's locked door while Raskolnikov waits tensely inside."
         },
         {
           "startParagraph": 77,
@@ -1643,7 +1695,8 @@
           "characterIds": [
             "raskolnikov",
             "the_painters"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov ducks into the painters’ flat to evade pursuers on the stairs."
         },
         {
           "startParagraph": 84,
@@ -1652,7 +1705,8 @@
           "imageDescription": "A shadowy street near the canal in St. Petersburg, cobbles slick with recent rain, lamplight flickering off the water. Raskolnikov moves swiftly through the crowd, sweating and exhausted, pulling his battered coat tightly around him. Passersby in shabby peasant and working-class dress pay him little heed; distant outlines of carriages and crumbling tenement facades form the backdrop. The night is dense, muggy with a sense of pursuit.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov flees through the city, blending into the crowd by the canal."
         },
         {
           "startParagraph": 88,
@@ -1662,7 +1716,8 @@
           "characterIds": [
             "raskolnikov",
             "the_porter"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov returns the axe and collapses in exhaustion on his sofa."
         }
       ]
     },
@@ -1826,7 +1881,8 @@
           "imageDescription": "A narrow, dimly lit garret with peeling wallpaper and sparse, threadbare furnishings. Early morning light creeps through a dirty window, illuminating Rodion Raskolnikov lying disheveled on a worn sofa, his coat draped over him, various items scattered in disarray around him. The scene is fraught with tension and feverish energy, set in St. Petersburg circa 1860s. The air is heavy, conveying Raskolnikov's restless turmoil and anxiety.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov awakens at dawn, shaken and feverish, searching his clothes in panic."
         },
         {
           "startParagraph": 26,
@@ -1837,7 +1893,8 @@
             "raskolnikov",
             "nastasya",
             "the_porter"
-          ]
+          ],
+          "imageSubtitle": "Nastasya and the porter wake Raskolnikov with a summons to the police office."
         },
         {
           "startParagraph": 61,
@@ -1846,7 +1903,8 @@
           "imageDescription": "A dim and narrow staircase leads down from the cheap tenement, the wood worn from traffic. Raskolnikov, pale and unsteady, descends the steps, one hand on the railing, the other clutching his hat. Outside, a bustling city street bathes in harsh, summery light reflecting off the dust. People in 19th-century Russian attire move past drays, cabs, and market stalls; the air vibrates with city life yet feels oppressive for the feverish young man making his way through the crowd.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov, feverish and anxious, steps into the oppressive city streets."
         },
         {
           "startParagraph": 67,
@@ -1855,7 +1913,8 @@
           "imageDescription": "Inside the police station of a newly built St. Petersburg apartment block, a dreary, low-ceilinged hallway is filled with waiting peasants, porters with books under their arms, and tired clerks in modest coats. Raskolnikov, gaunt and anxious, stands uncertainly among the crowd. The walls are freshly painted, the air stuffy with heat and the pungent scent of oil and perspiration. Period police uniforms and worn peasant dress offer visual contrast in this cramped, bureaucratic setting.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov waits nervously in the crowded, stifling police station."
         },
         {
           "startParagraph": 78,
@@ -1867,7 +1926,8 @@
             "luise_ivanovna",
             "the_widow_of_the_assessor_zarnitsyn",
             "alexandr_grigorievitch"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov waits anxiously as the head clerk attends to others in the crowded office."
         },
         {
           "startParagraph": 86,
@@ -1879,7 +1939,8 @@
             "luise_ivanovna",
             "alexandr_grigorievitch",
             "unnamed_policemanconstable"
-          ]
+          ],
+          "imageSubtitle": "The assistant superintendent enters the office, eyeing Raskolnikov coldly."
         },
         {
           "startParagraph": 0,
@@ -1891,7 +1952,8 @@
             "luise_ivanovna",
             "alexandr_grigorievitch",
             "unnamed_policemanconstable"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov wakes at dawn, shaken and feverish, searching his clothes in panic."
         },
         {
           "startParagraph": 122,
@@ -1904,7 +1966,8 @@
             "nikodim_fomitch",
             "alexandr_grigorievitch",
             "unnamed_policemanconstable"
-          ]
+          ],
+          "imageSubtitle": "Nikodim Fomitch enters the office during a heated exchange with Raskolnikov."
         },
         {
           "startParagraph": 127,
@@ -1916,7 +1979,8 @@
             "nikodim_fomitch",
             "alexandr_grigorievitch",
             "unnamed_policemanconstable"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov tries to explain his financial troubles to the police officials."
         },
         {
           "startParagraph": 138,
@@ -1928,7 +1992,8 @@
             "nikodim_fomitch",
             "alexandr_grigorievitch",
             "unnamed_policemanconstable"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov writes his declaration as the head clerk dictates the terms."
         },
         {
           "startParagraph": 0,
@@ -1940,7 +2005,8 @@
             "nikodim_fomitch",
             "alexandr_grigorievitch",
             "unnamed_policemanconstable"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov wakes at dawn, feverish and anxious, scanning his clothes for traces."
         },
         {
           "startParagraph": 152,
@@ -1952,7 +2018,8 @@
             "nikodim_fomitch",
             "alexandr_grigorievitch",
             "unnamed_policemanconstable"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov is questioned by officials after fainting in the clerk’s office."
         },
         {
           "startParagraph": 171,
@@ -1961,7 +2028,8 @@
           "imageDescription": "On the bustling St. Petersburg street outside the police station, Raskolnikov emerges, pale but somewhat steadier, into the afternoon sunlight. The street is alive with 19th-century pedestrians—workmen, clerks, and city dwellers going about their business. The new stone façade of the police building towers behind him, symbolizing the omnipresent authority. The urban background is dusty and noisy, reinforcing Raskolnikov's sense of anxiety and growing panic as he heads home.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov anxiously hurries home after leaving the police station."
         }
       ]
     },
@@ -2167,7 +2235,8 @@
           "imageDescription": "A dingy, small garret room with faded wallpaper, sparse old furniture, and a narrow bed. The midday light filters dimly through a small window, casting pale rectangles across the worn floorboards. Raskolnikov, gaunt and disheveled in rumpled 19th-century Russian attire, hastily stuffs small objects into the pockets of his overcoat, his expression anxious and frantic. The mood is tense, the setting cramped, and no one else is present.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov anxiously checks his untouched room for hidden evidence."
         },
         {
           "startParagraph": 0,
@@ -2177,7 +2246,8 @@
           "characterIds": [
             "raskolnikov",
             "various_passersby_on_the_bridge"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov nervously walks along the canal, deep in anxious thought."
         },
         {
           "startParagraph": 0,
@@ -2186,7 +2256,8 @@
           "imageDescription": "A grimy, secluded yard surrounded by high, blank stone walls and a wooden hoarding, the ground dirty and littered with rubbish. At one end, a soot-blackened stone shed, likely part of a workshop, can be glimpsed. Against the wall, a large unhewn stone sits beside a crude wooden sink with a comic warning chalked above. Raskolnikov, alone and tense, bends down to lift the stone and hurriedly deposits small items into the hollow earth. The industrial atmosphere is shabby and shadowed, the only figure present is Raskolnikov.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov nervously searches for a safe place to dispose of stolen items."
         },
         {
           "startParagraph": 8,
@@ -2196,7 +2267,8 @@
           "characterIds": [
             "raskolnikov",
             "various_passersby_on_the_bridge"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov paces the boulevard, agitated by a sudden wave of self-doubt."
         },
         {
           "startParagraph": 16,
@@ -2205,7 +2277,8 @@
           "imageDescription": "At the stone bridge over the bright blue Neva beneath a late afternoon sky, Raskolnikov stands near the balustrade, pausing and looking across the water towards ornate rooftops and the shining cupola of the distant cathedral. The quiet stretch of the embankment contrasts with the lively city in the background. Raskolnikov, haggard and thin in his dark coat, contemplates the water, appearing isolated against the vast cityscape.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov pauses by the Neva, debating whether to visit Razumihin."
         },
         {
           "startParagraph": 17,
@@ -2215,7 +2288,8 @@
           "characterIds": [
             "raskolnikov",
             "razumihin"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov visits Razumihin, who worries about his friend’s pale appearance."
         },
         {
           "startParagraph": 32,
@@ -2226,7 +2300,8 @@
             "raskolnikov",
             "razumihin",
             "various_passersby_on_the_bridge"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov silently refuses Razumihin’s help and leaves without a word."
         },
         {
           "startParagraph": 39,
@@ -2239,7 +2314,8 @@
             "elderly_woman_in_a_kerchief",
             "girl_with_green_parasol",
             "various_passersby_on_the_bridge"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov is struck by a coachman and mistaken for a beggar on the bridge."
         },
         {
           "startParagraph": 47,
@@ -2248,7 +2324,8 @@
           "imageDescription": "Raskolnikov stands alone at the center of the bridge, gripping a small coin in his fist, facing the broad river and ornate domes of St. Petersburg's skyline. The declining sun glints off the water and the gilded dome of the distant cathedral, details crisp in the clear air. Raskolnikov's figure is solitary and thin, lost in thought as he prepares to cast the coin into the river, surrounded by the serenity and grandeur of 19th-century St. Petersburg.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov pauses on the bridge, gazing at the Neva lost in thought."
         },
         {
           "startParagraph": 48,
@@ -2257,7 +2334,8 @@
           "imageDescription": "The small, darkening room is cloaked in shadow as dusk deepens outside the single window. Raskolnikov, exhausted and pale, lies on his narrow sofa, his overcoat over him, in disarray after a long day. The atmosphere is one of fatigue and gloom, the objects in the room barely discernible in the fading light, deepening the air of isolation.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov collapses on his sofa, exhausted after wandering the city."
         },
         {
           "startParagraph": 49,
@@ -2268,7 +2346,8 @@
             "raskolnikov",
             "the_young_mans_landlady",
             "other_tenants_of_the_lodging_house"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov awakens to terrifying screams and chaos in the stairwell."
         },
         {
           "startParagraph": 0,
@@ -2278,7 +2357,8 @@
           "characterIds": [
             "raskolnikov",
             "nastasya"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov hurriedly gathers hidden items in his room as dusk settles."
         }
       ]
     },
@@ -2487,7 +2567,8 @@
           "characterIds": [
             "raskolnikov",
             "nastasya"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov lies feverish and delirious in his sickroom as Nastasya tends him."
         },
         {
           "startParagraph": 1,
@@ -2499,7 +2580,8 @@
             "nastasya",
             "the_young_mans_landlady",
             "messenger_from_the_merchant_shelopaev"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov wakes to visitors in his sunlit room, puzzled by a stranger’s presence."
         },
         {
           "startParagraph": 6,
@@ -2512,7 +2594,8 @@
             "the_young_mans_landlady",
             "messenger_from_the_merchant_shelopaev",
             "razumihin"
-          ]
+          ],
+          "imageSubtitle": "Razumihin visits Raskolnikov’s room, bringing news and lively conversation."
         },
         {
           "startParagraph": 45,
@@ -2523,7 +2606,8 @@
             "raskolnikov",
             "nastasya",
             "razumihin"
-          ]
+          ],
+          "imageSubtitle": "Razumihin cares for a weak Raskolnikov during breakfast in his small room."
         },
         {
           "startParagraph": 61,
@@ -2534,7 +2618,8 @@
             "raskolnikov",
             "nastasya",
             "razumihin"
-          ]
+          ],
+          "imageSubtitle": "Razumihin entertains Raskolnikov and Nastasya with lively tales and good cheer."
         },
         {
           "startParagraph": 88,
@@ -2544,7 +2629,8 @@
           "characterIds": [
             "raskolnikov",
             "nastasya"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov anxiously searches his room after Razumihin and Nastasya leave."
         },
         {
           "startParagraph": 94,
@@ -2555,7 +2641,8 @@
             "raskolnikov",
             "razumihin",
             "nastasya"
-          ]
+          ],
+          "imageSubtitle": "Razumihin brings a parcel and fresh clothes to a waking Raskolnikov."
         }
       ]
     },
@@ -2768,7 +2855,8 @@
             "zossimov",
             "razumihin",
             "nastasya"
-          ]
+          ],
+          "imageSubtitle": "Zossimov examines Raskolnikov as Razumihin discusses his recovery."
         }
       ]
     },
@@ -2943,7 +3031,8 @@
             "zossimov",
             "pyotr_petrovitch_luzhin",
             "nastasya"
-          ]
+          ],
+          "imageSubtitle": "A stiff, cautious visitor surveys Raskolnikov’s cramped, shabby room in silence."
         },
         {
           "startParagraph": 0,
@@ -2956,7 +3045,8 @@
             "zossimov",
             "pyotr_petrovitch_luzhin",
             "nastasya"
-          ]
+          ],
+          "imageSubtitle": "Luzhin surveys Raskolnikov's small room as Razumihin and Zossimov look on."
         },
         {
           "startParagraph": 24,
@@ -2968,7 +3058,8 @@
             "razumihin",
             "zossimov",
             "pyotr_petrovitch_luzhin"
-          ]
+          ],
+          "imageSubtitle": "Luzhin boasts of his views as Razumihin argues in Raskolnikov's cramped room."
         },
         {
           "startParagraph": 0,
@@ -2980,7 +3071,8 @@
             "razumihin",
             "zossimov",
             "pyotr_petrovitch_luzhin"
-          ]
+          ],
+          "imageSubtitle": "Luzhin surveys Raskolnikov's modest room before making his exit."
         },
         {
           "startParagraph": 0,
@@ -2990,7 +3082,8 @@
           "characterIds": [
             "razumihin",
             "zossimov"
-          ]
+          ],
+          "imageSubtitle": "A stern visitor surveys Raskolnikov’s cramped room, questioning his identity."
         },
         {
           "startParagraph": 112,
@@ -3000,7 +3093,8 @@
           "characterIds": [
             "raskolnikov",
             "nastasya"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov turns away as Nastasya offers him tea in his cramped room."
         }
       ]
     },
@@ -3425,7 +3519,8 @@
           "characterIds": [
             "raskolnikov",
             "nastasya"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov quietly leaves his room in new clothes, determined and calm."
         },
         {
           "startParagraph": 1,
@@ -3434,7 +3529,8 @@
           "imageDescription": "The narrow, dusty street glows with the orange hue of late sunset. Raskolnikov steps outside amidst the bustle of St. Petersburg, surrounded by shabby tenements, with smoke and dust thick in the air. The atmosphere is oppressive and stifling, with a faint, feverish energy emanating from the protagonist as he begins his purposeful stride into the evening.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov wanders the streets, tormented and determined to change his fate."
         },
         {
           "startParagraph": 2,
@@ -3445,7 +3541,8 @@
             "raskolnikov",
             "darkhaired_young_man_with_barrel_organ",
             "girl_singer_with_the_barrel_organ"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov listens to a street singer and chats with a passerby at dusk."
         },
         {
           "startParagraph": 6,
@@ -3455,7 +3552,8 @@
           "characterIds": [
             "raskolnikov",
             "young_fellow_in_a_red_shirt"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov questions a passerby near the bustling Hay Market corner."
         },
         {
           "startParagraph": 16,
@@ -3465,7 +3563,8 @@
           "characterIds": [
             "raskolnikov",
             "passersbycrowd_on_the_bridge_and_canal_bank"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov wanders through a crowd of peasants in the Hay Market square."
         },
         {
           "startParagraph": 18,
@@ -3481,7 +3580,8 @@
             "tipsy_peasant_in_a_loose_coat",
             "duclida",
             "pockmarked_wench"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov pauses outside a lively tavern, drawn by music and laughter."
         },
         {
           "startParagraph": 42,
@@ -3493,7 +3593,8 @@
             "zametov",
             "waiter_at_palais_de_cristal",
             "people_drinking_tea_and_champagne_at_restaurant"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov nervously searches old newspapers in the restaurant."
         },
         {
           "startParagraph": 122,
@@ -3503,7 +3604,8 @@
           "characterIds": [
             "raskolnikov",
             "razumihin"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov and Razumihin argue heatedly on the restaurant steps."
         },
         {
           "startParagraph": 146,
@@ -3516,7 +3618,8 @@
             "passersbycrowd_on_the_bridge_and_canal_bank",
             "woman_claiming_afrosinya",
             "unnamed_policemanconstable"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov witnesses a desperate woman leap into the canal at dusk."
         },
         {
           "startParagraph": 0,
@@ -3529,7 +3632,8 @@
             "unnamed_policemanconstable",
             "raskolnikov",
             "passersbycrowd_on_the_bridge_and_canal_bank"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov slips out at sunset, resolute to change his fate that evening."
         },
         {
           "startParagraph": 154,
@@ -3538,7 +3642,8 @@
           "imageDescription": "Raskolnikov wanders in the gloom along narrow cobblestone streets, lined with fading stucco buildings and gas lamps flickering to life. The atmosphere is somber, almost airless, with deepening shadow and few passersby. He pauses, staring dazedly at the entrance of a dark, familiar tenement—Alyona Ivanovna's house—drawn by an existential compulsion.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov returns to the old woman’s flat, now under renovation by workmen."
         },
         {
           "startParagraph": 0,
@@ -3548,7 +3653,8 @@
           "characterIds": [
             "raskolnikov",
             "workmen_in_the_old_womans_flat"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov dresses with sudden resolve and slips out into the evening streets."
         },
         {
           "startParagraph": 176,
@@ -3563,7 +3669,8 @@
             "peasant_woman_at_the_entrance",
             "man_in_a_long_coat",
             "workmen_in_the_old_womans_flat"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov is questioned by neighbors at the tenement entrance."
         },
         {
           "startParagraph": 209,
@@ -3574,7 +3681,8 @@
             "raskolnikov",
             "passersbycrowd_on_the_bridge_and_canal_bank",
             "carriage_and_coachman"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov pauses at the crossroads, uncertain which path to take."
         }
       ]
     },
@@ -3831,7 +3939,8 @@
             "coachman",
             "unnamed_policemanconstable",
             "the_crowd"
-          ]
+          ],
+          "imageSubtitle": "A crowd gathers as Raskolnikov witnesses an accident beside an elegant carriage."
         },
         {
           "startParagraph": 14,
@@ -3843,7 +3952,8 @@
             "marmeladovs_eldest_daughter_by_katerina_ivanovna",
             "marmeladovs_eldest_son_by_katerina_ivanovna",
             "marmeladovs_youngest_daughter_by_katerina_ivanovna"
-          ]
+          ],
+          "imageSubtitle": "Polenka gently cares for her ailing brother as Katerina paces the room."
         },
         {
           "startParagraph": 0,
@@ -3858,7 +3968,8 @@
             "marmeladovs_eldest_daughter_by_katerina_ivanovna",
             "marmeladovs_eldest_son_by_katerina_ivanovna",
             "marmeladovs_youngest_daughter_by_katerina_ivanovna"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov arrives as Marmeladov is carried into his family's crowded room."
         },
         {
           "startParagraph": 31,
@@ -3877,7 +3988,8 @@
             "marmeladovs_eldest_daughter_by_katerina_ivanovna",
             "marmeladovs_eldest_son_by_katerina_ivanovna",
             "marmeladovs_youngest_daughter_by_katerina_ivanovna"
-          ]
+          ],
+          "imageSubtitle": "Katerina Ivanovna confronts the crowd as the room fills with curious onlookers."
         },
         {
           "startParagraph": 53,
@@ -3893,7 +4005,8 @@
             "marmeladovs_eldest_daughter_by_katerina_ivanovna",
             "marmeladovs_eldest_son_by_katerina_ivanovna",
             "marmeladovs_youngest_daughter_by_katerina_ivanovna"
-          ]
+          ],
+          "imageSubtitle": "The doctor examines Marmeladov as Raskolnikov and Katerina Ivanovna look on."
         },
         {
           "startParagraph": 62,
@@ -3911,7 +4024,8 @@
             "marmeladovs_eldest_son_by_katerina_ivanovna",
             "marmeladovs_youngest_daughter_by_katerina_ivanovna",
             "the_crowd"
-          ]
+          ],
+          "imageSubtitle": "The priest arrives for Marmeladov's last rites as Sonia enters the crowded room."
         },
         {
           "startParagraph": 88,
@@ -3922,7 +4036,8 @@
             "raskolnikov",
             "nikodim_fomitch",
             "priest_attending_marmeladov"
-          ]
+          ],
+          "imageSubtitle": "Polenka chases after Raskolnikov as he leaves Kozel's house at night."
         },
         {
           "startParagraph": 94,
@@ -3932,7 +4047,8 @@
           "characterIds": [
             "raskolnikov",
             "marmeladovs_eldest_daughter_by_katerina_ivanovna"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov meets a smiling girl with a message on the stairwell."
         },
         {
           "startParagraph": 0,
@@ -3941,7 +4057,8 @@
           "imageDescription": "A moonlit, deserted St. Petersburg bridge arches over inky water under a lamplit sky. Raskolnikov stands motionless, staring down contemplatively at the river, the city night stretching behind him. His silhouette is gaunt and solitary, framed by the empty expanse and chill air, embodying newfound resolution.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "A crowd gathers as Raskolnikov witnesses a carriage accident on the bridge."
         },
         {
           "startParagraph": 116,
@@ -3952,7 +4069,8 @@
             "raskolnikov",
             "razumihin",
             "zossimov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov pauses in the entry as Razumihin greets him amid a lively gathering."
         },
         {
           "startParagraph": 125,
@@ -3962,7 +4080,8 @@
           "characterIds": [
             "raskolnikov",
             "razumihin"
-          ]
+          ],
+          "imageSubtitle": "Razumihin reassures Raskolnikov as they walk through the nighttime streets."
         },
         {
           "startParagraph": 139,
@@ -3972,7 +4091,8 @@
           "characterIds": [
             "raskolnikov",
             "razumihin"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov and Razumihin discover unexpected visitors in the garret."
         },
         {
           "startParagraph": 149,
@@ -3985,7 +4105,8 @@
             "pulcheria_raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia",
             "nastasya"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov faints upon reuniting with his mother and sister in his room."
         }
       ]
     },
@@ -4106,7 +4227,8 @@
             "razumihin",
             "pulcheria_raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov struggles to speak with his worried mother and sister in his room."
         },
         {
           "startParagraph": 32,
@@ -4118,7 +4240,8 @@
             "pulcheria_raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia",
             "nastasya"
-          ]
+          ],
+          "imageSubtitle": "Razumihin enthusiastically reassures Raskolnikov’s mother and sister on the landing."
         },
         {
           "startParagraph": 37,
@@ -4129,7 +4252,8 @@
             "razumihin",
             "pulcheria_raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Razumihin hurries alongside Pulcheria and Dunya, rambling cheerfully in the street."
         },
         {
           "startParagraph": 50,
@@ -4140,7 +4264,8 @@
             "razumihin",
             "pulcheria_raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Razumihin reassures the women as he escorts them to their lodgings upstairs."
         },
         {
           "startParagraph": 51,
@@ -4150,7 +4275,8 @@
           "characterIds": [
             "pulcheria_raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Dounia paces in thought as her anxious mother waits for Razumihin’s return."
         },
         {
           "startParagraph": 60,
@@ -4161,7 +4287,8 @@
             "razumihin",
             "pulcheria_raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Razumihin reassures the family about Raskolnikov's condition before hurrying off."
         },
         {
           "startParagraph": 65,
@@ -4172,7 +4299,8 @@
             "zossimov",
             "pulcheria_raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Zossimov reassures Raskolnikov’s mother and sister about his condition."
         },
         {
           "startParagraph": 66,
@@ -4182,7 +4310,8 @@
           "characterIds": [
             "razumihin",
             "zossimov"
-          ]
+          ],
+          "imageSubtitle": "Razumihin confronts Zossimov on the street after a careless remark."
         },
         {
           "startParagraph": 72,
@@ -4192,7 +4321,8 @@
           "characterIds": [
             "razumihin",
             "zossimov"
-          ]
+          ],
+          "imageSubtitle": "Razumihin teases Zossimov outside Raskolnikov’s door about his landlady."
         }
       ]
     },
@@ -4335,7 +4465,8 @@
           "imageDescription": "A small, plainly furnished room typical of a St. Petersburg student’s dwelling in the 1860s, cluttered yet reasonably tidy. Early morning light filters through the grimy window onto Razumihin who sits pensively on his bed, partially dressed, with a look of deep reflection. The atmosphere is introspective and tense, hinting at emotional turmoil. Period-appropriate men’s shirt and trousers are visible, and the stove, battered furniture, and books complete the impoverished setting.",
           "characterIds": [
             "razumihin"
-          ]
+          ],
+          "imageSubtitle": "Razumihin wakes at dawn, wrestling with self-doubt and yesterday's regrets."
         },
         {
           "startParagraph": 6,
@@ -4345,7 +4476,8 @@
           "characterIds": [
             "razumihin",
             "zossimov"
-          ]
+          ],
+          "imageSubtitle": "Razumihin and Zossimov quietly discuss Raskolnikov’s health at dawn."
         },
         {
           "startParagraph": 23,
@@ -4356,7 +4488,8 @@
             "razumihin",
             "pulcheria_raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Razumihin arrives nervously as Pulcheria and Dounia greet him warmly."
         },
         {
           "startParagraph": 24,
@@ -4367,7 +4500,8 @@
             "razumihin",
             "pulcheria_raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Razumihin describes Raskolnikov’s recent life over tea with his mother and sister."
         },
         {
           "startParagraph": 57,
@@ -4378,7 +4512,8 @@
             "razumihin",
             "pulcheria_raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Razumihin reads Luzhin’s letter aloud to Raskolnikov’s family."
         },
         {
           "startParagraph": 66,
@@ -4389,7 +4524,8 @@
             "razumihin",
             "pulcheria_raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Pulcheria and Dounia anxiously prepare to visit Raskolnikov with Razumihin."
         },
         {
           "startParagraph": 72,
@@ -4400,7 +4536,8 @@
             "razumihin",
             "pulcheria_raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Pulcheria and Dounia worry as they arrive at Raskolnikov's cramped lodgings."
         },
         {
           "startParagraph": 83,
@@ -4412,7 +4549,8 @@
             "pulcheria_raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia",
             "the_young_mans_landlady"
-          ]
+          ],
+          "imageSubtitle": "Pulcheria and Dounia arrive as the landlady spies on them nervously."
         }
       ]
     },
@@ -4562,7 +4700,8 @@
             "pulcheria_raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia",
             "razumihin"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov greets his mother and sister as Zossimov assesses his health."
         }
       ]
     },
@@ -4716,7 +4855,8 @@
             "razumihin",
             "pulcheria_raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Sonya enters Raskolnikov's crowded room, uncertain and shy."
         },
         {
           "startParagraph": 0,
@@ -4726,7 +4866,8 @@
           "characterIds": [
             "pulcheria_raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Sonia timidly enters the crowded room, surprising Raskolnikov and the others."
         },
         {
           "startParagraph": 0,
@@ -4737,7 +4878,8 @@
             "raskolnikov",
             "sofya_semyonovna_soniasonya",
             "razumihin"
-          ]
+          ],
+          "imageSubtitle": "Sonia enters Raskolnikov’s room, shy and overwhelmed by the gathering."
         },
         {
           "startParagraph": 74,
@@ -4748,7 +4890,8 @@
             "raskolnikov",
             "sofya_semyonovna_soniasonya",
             "razumihin"
-          ]
+          ],
+          "imageSubtitle": "Sonia and Raskolnikov speak quietly outside his building before parting ways."
         },
         {
           "startParagraph": 83,
@@ -4758,7 +4901,8 @@
           "characterIds": [
             "sofya_semyonovna_soniasonya",
             "the_unknown_gentleman"
-          ]
+          ],
+          "imageSubtitle": "Sonia is quietly followed through the streets by a mysterious gentleman."
         },
         {
           "startParagraph": 87,
@@ -4770,7 +4914,8 @@
             "kapernaumov",
             "madame_resslich",
             "the_unknown_gentleman"
-          ]
+          ],
+          "imageSubtitle": "Sonia and a mysterious man arrive as neighbors at their lodgings."
         },
         {
           "startParagraph": 92,
@@ -4780,7 +4925,8 @@
           "characterIds": [
             "raskolnikov",
             "razumihin"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov and Razumihin walk together, discussing the visit to Porfiry."
         },
         {
           "startParagraph": 124,
@@ -4790,7 +4936,8 @@
           "characterIds": [
             "raskolnikov",
             "razumihin"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov and Razumihin enter Porfiry’s flat, laughing loudly together."
         }
       ]
     },
@@ -4977,7 +5124,8 @@
             "razumihin",
             "porfiry_petrovitch",
             "zametov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov and Razumihin arrive at Porfiry's, disrupting the room with laughter."
         },
         {
           "startParagraph": 15,
@@ -4989,7 +5137,8 @@
             "razumihin",
             "porfiry_petrovitch",
             "zametov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov explains his business to Porfiry as Razumihin listens intently."
         },
         {
           "startParagraph": 60,
@@ -5000,7 +5149,8 @@
             "raskolnikov",
             "razumihin",
             "zametov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov sits anxiously as Porfiry steps out to order tea."
         },
         {
           "startParagraph": 64,
@@ -5012,7 +5162,8 @@
             "razumihin",
             "porfiry_petrovitch",
             "zametov"
-          ]
+          ],
+          "imageSubtitle": "Porfiry sparks a lively debate on crime and society with Razumihin and Raskolnikov."
         },
         {
           "startParagraph": 138,
@@ -5024,7 +5175,8 @@
             "razumihin",
             "porfiry_petrovitch",
             "zametov"
-          ]
+          ],
+          "imageSubtitle": "Porfiry pointedly questions Raskolnikov about extraordinary men before his departure."
         },
         {
           "startParagraph": 164,
@@ -5034,7 +5186,8 @@
           "characterIds": [
             "raskolnikov",
             "razumihin"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov and Razumikhin leave Porfiry’s apartment in tense silence."
         }
       ]
     },
@@ -5248,7 +5401,8 @@
           "characterIds": [
             "raskolnikov",
             "razumihin"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov and Razumihin debate suspicions as they near Bakaleyev’s lodgings."
         },
         {
           "startParagraph": 23,
@@ -5258,7 +5412,8 @@
           "characterIds": [
             "razumihin",
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov abruptly leaves Razumihin on the steps outside Bakaleyev’s lodgings."
         },
         {
           "startParagraph": 28,
@@ -5267,7 +5422,8 @@
           "imageDescription": "A small, sparse garret room with peeling wallpaper and a rickety bed, bathed in harsh afternoon light streaming through a grimy window. Raskolnikov, sweat-soaked and anxious, kneels by a wall, urgently checking beneath loose wallpaper at a low corner. The room feels cramped, oppressive, and tense; outside distant street noise is muffled.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov anxiously checks his hiding place before leaving his room in a daze."
         },
         {
           "startParagraph": 30,
@@ -5278,7 +5434,8 @@
             "raskolnikov",
             "the_porter",
             "man_in_a_long_coat"
-          ]
+          ],
+          "imageSubtitle": "A mysterious stranger quietly inquires about Raskolnikov at his building."
         },
         {
           "startParagraph": 38,
@@ -5288,7 +5445,8 @@
           "characterIds": [
             "raskolnikov",
             "man_in_a_long_coat"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov is confronted by a mysterious stranger on a busy street."
         },
         {
           "startParagraph": 50,
@@ -5297,7 +5455,8 @@
           "imageDescription": "In the small, sparsely furnished attic room, Raskolnikov collapses onto a narrow sofa, exhausted and pale. The light is fading, dusk pooling in corners and edging his haggard features. The atmosphere is oppressive, with an almost physical weight of anxiety and isolation.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov collapses in exhaustion, lost in restless, fragmented memories."
         },
         {
           "startParagraph": 52,
@@ -5308,7 +5467,8 @@
             "raskolnikov",
             "razumihin",
             "nastasya"
-          ]
+          ],
+          "imageSubtitle": "Razumihin and Nastasya quietly check on a resting Raskolnikov."
         },
         {
           "startParagraph": 55,
@@ -5320,7 +5480,8 @@
             "napoleon",
             "alyona-ivanovna",
             "lizaveta-ivanovna"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov grapples with feverish doubts and haunting dreams in his garret."
         },
         {
           "startParagraph": 61,
@@ -5332,7 +5493,8 @@
             "alyona-ivanovna",
             "lizaveta-ivanovna",
             "the_painters"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov follows a mysterious figure up a moonlit staircase in a strange dream."
         },
         {
           "startParagraph": 62,
@@ -5342,7 +5504,8 @@
           "characterIds": [
             "raskolnikov",
             "mr_svidrigalov"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov quietly enters Raskolnikov's room as he pretends to sleep."
         }
       ]
     },
@@ -5571,7 +5734,8 @@
           "characterIds": [
             "raskolnikov",
             "mr_svidrigalov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov is startled by an unexpected visit from Svidrigaïlov."
         },
         {
           "startParagraph": 129,
@@ -5581,7 +5745,8 @@
           "characterIds": [
             "mr_svidrigalov",
             "razumihin"
-          ]
+          ],
+          "imageSubtitle": "Razumihin and Svidrigaïlov cross paths in Raskolnikov's doorway."
         }
       ]
     },
@@ -5719,7 +5884,8 @@
           "characterIds": [
             "raskolnikov",
             "razumihin"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov confides his fears to Razumihin as they hurry through the street."
         },
         {
           "startParagraph": 20,
@@ -5730,7 +5896,8 @@
             "raskolnikov",
             "razumihin",
             "pyotr_petrovitch_luzhin"
-          ]
+          ],
+          "imageSubtitle": "The family gathers around the samovar as Luzhin arrives for the meeting."
         },
         {
           "startParagraph": 0,
@@ -5743,7 +5910,8 @@
             "pyotr_petrovitch_luzhin",
             "razumihin",
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov and Razumihin discuss Svidrigaïlov and their concerns for Dounia."
         },
         {
           "startParagraph": 21,
@@ -5756,7 +5924,8 @@
             "pyotr_petrovitch_luzhin",
             "razumihin",
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Tension rises as Luzhin questions Dounia and her mother over tea."
         },
         {
           "startParagraph": 45,
@@ -5769,7 +5938,8 @@
             "pyotr_petrovitch_luzhin",
             "razumihin",
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov reveals Svidrigaïlov's visit as tensions mount at the family table."
         },
         {
           "startParagraph": 64,
@@ -5782,7 +5952,8 @@
             "pyotr_petrovitch_luzhin",
             "razumihin",
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Dounia and Luzhin argue heatedly as tensions rise at the family table."
         },
         {
           "startParagraph": 96,
@@ -5795,7 +5966,8 @@
             "pyotr_petrovitch_luzhin",
             "razumihin",
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Luzhin angrily leaves after Dounia firmly ends their engagement."
         }
       ]
     },
@@ -5870,7 +6042,8 @@
           "imageDescription": "A dimly lit, modestly furnished room typical of mid-19th-century St. Petersburg, with dark wooden furniture and a mirror on the wall. Pyotr Petrovitch Luzhin stands alone near a window, sharply dressed in a well-kept, somber suit reflecting his self-importance. The evening light filters through heavy curtains, casting deep shadows and lending an atmosphere of introspection and injured pride.",
           "characterIds": [
             "pyotr_petrovitch_luzhin"
-          ]
+          ],
+          "imageSubtitle": "Luzhin broods alone, nursing wounded pride and plotting his next move."
         },
         {
           "startParagraph": 4,
@@ -5882,7 +6055,8 @@
             "pulcheria_raskolnikov",
             "razumihin",
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "The family discusses Luzhin's departure and Svidrigaïlov's strange offer."
         },
         {
           "startParagraph": 24,
@@ -5894,7 +6068,8 @@
             "pulcheria_raskolnikov",
             "razumihin",
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Razumihin eagerly shares his publishing business idea with the group."
         },
         {
           "startParagraph": 36,
@@ -5906,7 +6081,8 @@
             "pulcheria_raskolnikov",
             "razumihin",
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov bids a troubled farewell to his mother and sister in the hallway."
         },
         {
           "startParagraph": 50,
@@ -5916,7 +6092,8 @@
           "characterIds": [
             "razumihin",
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov and Razumihin exchange tense words in the dim corridor."
         },
         {
           "startParagraph": 58,
@@ -5927,7 +6104,8 @@
             "avdotya_romanovna_raskolnikov_dounia",
             "pulcheria_raskolnikov",
             "razumihin"
-          ]
+          ],
+          "imageSubtitle": "Razumihin promises to care for Raskolnikov and reassures his family."
         }
       ]
     },
@@ -6163,7 +6341,8 @@
           "characterIds": [
             "raskolnikov",
             "the_porter"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov searches for Sonia's apartment in the dark stairwell."
         },
         {
           "startParagraph": 0,
@@ -6173,7 +6352,8 @@
           "characterIds": [
             "raskolnikov",
             "sofya_semyonovna_soniasonya"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov searches for Sonia’s room in the dimly lit gallery."
         },
         {
           "startParagraph": 1,
@@ -6183,7 +6363,8 @@
           "characterIds": [
             "raskolnikov",
             "sofya_semyonovna_soniasonya"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov visits Sonia in her modest, dimly lit room."
         },
         {
           "startParagraph": 8,
@@ -6193,7 +6374,8 @@
           "characterIds": [
             "raskolnikov",
             "sofya_semyonovna_soniasonya"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov questions Sonia about her room as tension fills the air."
         },
         {
           "startParagraph": 78,
@@ -6203,7 +6385,8 @@
           "characterIds": [
             "raskolnikov",
             "sofya_semyonovna_soniasonya"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov lashes out as Sonia is overcome with grief in her small room."
         },
         {
           "startParagraph": 108,
@@ -6214,7 +6397,8 @@
             "raskolnikov",
             "sofya_semyonovna_soniasonya",
             "lizaveta-ivanovna"
-          ]
+          ],
+          "imageSubtitle": "Sonia and Raskolnikov discuss faith as she clutches her worn New Testament."
         },
         {
           "startParagraph": 154,
@@ -6230,7 +6414,8 @@
             "mary",
             "the_jews_of_the_bethany_scene",
             "god"
-          ]
+          ],
+          "imageSubtitle": "Sonia struggles to read the story of Lazarus aloud to Raskolnikov."
         },
         {
           "startParagraph": 190,
@@ -6240,7 +6425,8 @@
           "characterIds": [
             "raskolnikov",
             "sofya_semyonovna_soniasonya"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov desperately confides in Sonia, seeking her understanding and support."
         },
         {
           "startParagraph": 208,
@@ -6249,7 +6435,8 @@
           "imageDescription": "Sonia stands alone in the gloom of her meager room. The last candle stub flares weakly, casting a flickering glow over her anguished, bewildered face as she stares at the closed door. The room is cast in deep shadow, highlighting the oppressive poverty and the emotional storm within her. Her hands are raised anxiously to her head, the chest of drawers and narrow bed stand forlorn beneath the slanting walls, all suffused with an atmosphere of dread and loneliness.",
           "characterIds": [
             "sofya_semyonovna_soniasonya"
-          ]
+          ],
+          "imageSubtitle": "Sonia sits alone, troubled and feverish after Raskolnikov’s strange visit."
         },
         {
           "startParagraph": 211,
@@ -6258,7 +6445,8 @@
           "imageDescription": "The perspective shifts to the unlit, shabby empty room adjoining Sonia’s. In the darkness, Mr. Svidrigaïlov stands by the door with his ear pressed to the wood, listening intently to the muffled sounds from Sonia’s side. A thin beam of candlelight seeps under the connecting door. Svidrigaïlov’s face, sharp-featured and alert, is partly illuminated from the gloom. The setting exudes clandestine tension, secrecy, and voyeurism, with period-appropriate overcoat and cravat on Svidrigaïlov.",
           "characterIds": [
             "mr_svidrigalov"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov quietly listens in on Sonia and Raskolnikov's conversation next door."
         }
       ]
     },
@@ -6478,7 +6666,8 @@
           "imageDescription": "A cramped, bureaucratic waiting room inside a St. Petersburg police department, morning light faintly illuminating the dusty windows. Several government clerks in plain, mid-19th-century attire sit at desks writing, others walk purposefully to and fro. Raskolnikov, thin and haggard, stands anxiously near the door, his posture tense, dressed in a worn coat and cap. The room feels indifferent, busy, with no one paying special attention to him.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov waits anxiously in the police department, watched by indifferent clerks."
         },
         {
           "startParagraph": 1,
@@ -6488,7 +6677,8 @@
           "characterIds": [
             "raskolnikov",
             "porfiry_petrovitch"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov visits Porfiry Petrovitch for a tense conversation in his study."
         }
       ]
     },
@@ -6618,7 +6808,8 @@
             "nikolay_dementyev",
             "the_porters",
             "mitka"
-          ]
+          ],
+          "imageSubtitle": "Nikolay bursts in and confesses as Porfiry and others look on in shock."
         },
         {
           "startParagraph": 46,
@@ -6629,7 +6820,8 @@
             "raskolnikov",
             "porfiry_petrovitch",
             "the_porters"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov and Porfiry share a tense exchange on the office staircase."
         },
         {
           "startParagraph": 66,
@@ -6638,7 +6830,8 @@
           "imageDescription": "A small, shabby St. Petersburg garret with peeling wallpaper and sparse furnishings—a narrow wooden bed, a battered desk, a threadbare rug. Raskolnikov sits hunched on a sofa, face in hands, gaunt and lost in grim contemplation, his coat still on. Daylight filters weakly through a grimy window, accentuating the gloom and isolation of the room, adding an air of bleak tension.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov sits alone, troubled by his encounter with Porfiry."
         },
         {
           "startParagraph": 73,
@@ -6648,7 +6841,8 @@
           "characterIds": [
             "raskolnikov",
             "the_man_of_yesterdayphantom"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov is confronted by the remorseful man from the previous night's scene."
         },
         {
           "startParagraph": 103,
@@ -6657,7 +6851,8 @@
           "imageDescription": "The man of yesterday is departing through the open door, head bowed. Raskolnikov stands in his small, dimly lit room, posture now straighter, a subtle look of grim resolve on his face. The remnants of the humble, threadbare furnishings and the heavy, stagnant air maintain the oppressive, 19th-century urban Russian mood.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov steels himself after the mysterious visitor leaves his room."
         }
       ]
     },
@@ -6840,7 +7035,8 @@
           "characterIds": [
             "pyotr_petrovitch_luzhin",
             "mr_lebeziatnikov"
-          ]
+          ],
+          "imageSubtitle": "Luzhin broods over his failed engagement as Lebeziatnikov watches in silence."
         },
         {
           "startParagraph": 4,
@@ -6850,7 +7046,8 @@
           "characterIds": [
             "pyotr_petrovitch_luzhin",
             "amalia_fyodorovna_lippevechsel"
-          ]
+          ],
+          "imageSubtitle": "Pyotr Petrovitch learns of the upcoming funeral dinner preparations."
         },
         {
           "startParagraph": 5,
@@ -6860,7 +7057,8 @@
           "characterIds": [
             "pyotr_petrovitch_luzhin",
             "mr_lebeziatnikov"
-          ]
+          ],
+          "imageSubtitle": "Luzhin discusses politics and his ambitions with Lebeziatnikov in their shared lodgings."
         },
         {
           "startParagraph": 9,
@@ -6870,7 +7068,8 @@
           "characterIds": [
             "pyotr_petrovitch_luzhin",
             "mr_lebeziatnikov"
-          ]
+          ],
+          "imageSubtitle": "Lebeziatnikov and Luzhin debate progress amid tensions over a neighbor’s gathering."
         },
         {
           "startParagraph": 24,
@@ -6880,7 +7079,8 @@
           "characterIds": [
             "pyotr_petrovitch_luzhin",
             "mr_lebeziatnikov"
-          ]
+          ],
+          "imageSubtitle": "Lebeziatnikov defends Sofya and discusses societal roles with Luzhin."
         },
         {
           "startParagraph": 46,
@@ -6890,7 +7090,8 @@
           "characterIds": [
             "pyotr_petrovitch_luzhin",
             "mr_lebeziatnikov"
-          ]
+          ],
+          "imageSubtitle": "Lebeziatnikov reluctantly agrees to summon Sonia at Luzhin's request."
         },
         {
           "startParagraph": 52,
@@ -6901,7 +7102,8 @@
             "pyotr_petrovitch_luzhin",
             "mr_lebeziatnikov",
             "sofya_semyonovna_soniasonya"
-          ]
+          ],
+          "imageSubtitle": "Sonia arrives nervously as Luzhin prepares to speak with her and Lebeziatnikov."
         },
         {
           "startParagraph": 57,
@@ -6912,7 +7114,8 @@
             "pyotr_petrovitch_luzhin",
             "mr_lebeziatnikov",
             "sofya_semyonovna_soniasonya"
-          ]
+          ],
+          "imageSubtitle": "Luzhin corners Sonia, speaking to her with calculated politeness and hidden motives."
         },
         {
           "startParagraph": 83,
@@ -6923,7 +7126,8 @@
             "pyotr_petrovitch_luzhin",
             "mr_lebeziatnikov",
             "sofya_semyonovna_soniasonya"
-          ]
+          ],
+          "imageSubtitle": "Sonia hurriedly leaves Lebeziatnikov’s room after receiving money from Luzhin."
         },
         {
           "startParagraph": 84,
@@ -6933,7 +7137,8 @@
           "characterIds": [
             "pyotr_petrovitch_luzhin",
             "mr_lebeziatnikov"
-          ]
+          ],
+          "imageSubtitle": "Lebeziatnikov praises Luzhin's charity as they discuss marriage and social ideas."
         }
       ]
     },
@@ -7149,7 +7354,8 @@
             "katerina_ivanovna",
             "amalia_fyodorovna_lippevechsel",
             "the_unfortunate_little_pole"
-          ]
+          ],
+          "imageSubtitle": "Katerina Ivanovna hosts a memorial dinner for Marmeladov in their small lodgings."
         },
         {
           "startParagraph": 3,
@@ -7168,7 +7374,8 @@
             "the_deaf_and_almost_blind_old_man",
             "the_retired_clerk_of_the_commissariat_department",
             "the_visitor_in_a_dressinggown"
-          ]
+          ],
+          "imageSubtitle": "Katerina Ivanovna surveys the assembled, disappointed by the absent guests."
         },
         {
           "startParagraph": 7,
@@ -7179,7 +7386,8 @@
             "raskolnikov",
             "katerina_ivanovna",
             "amalia_fyodorovna_lippevechsel"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov joins Katerina Ivanovna at the lively, chaotic memorial dinner."
         },
         {
           "startParagraph": 10,
@@ -7191,7 +7399,8 @@
             "katerina_ivanovna",
             "sofya_semyonovna_soniasonya",
             "amalia_fyodorovna_lippevechsel"
-          ]
+          ],
+          "imageSubtitle": "Sonia arrives late and takes her seat beside Raskolnikov during the funeral meal."
         },
         {
           "startParagraph": 30,
@@ -7208,7 +7417,8 @@
             "the_wretchedlooking_clerk_with_a_spotty_face",
             "the_deaf_and_almost_blind_old_man",
             "the_retired_clerk_of_the_commissariat_department"
-          ]
+          ],
+          "imageSubtitle": "Katerina Ivanovna proudly shares her plans for a future girls’ school at dinner."
         },
         {
           "startParagraph": 34,
@@ -7219,7 +7429,8 @@
             "katerina_ivanovna",
             "amalia_fyodorovna_lippevechsel",
             "sofya_semyonovna_soniasonya"
-          ]
+          ],
+          "imageSubtitle": "Katerina Ivanovna and Amalia Ivanovna trade heated insults at the dinner table."
         },
         {
           "startParagraph": 39,
@@ -7231,7 +7442,8 @@
             "amalia_fyodorovna_lippevechsel",
             "sofya_semyonovna_soniasonya",
             "pyotr_petrovitch_luzhin"
-          ]
+          ],
+          "imageSubtitle": "Luzhin arrives at the gathering as Katerina Ivanovna hurries to greet him."
         }
       ]
     },
@@ -7409,7 +7621,8 @@
             "raskolnikov",
             "the_children_of_katerina_ivanovna",
             "amalia_lippevechsels_tenants_people_in_inner_rooms"
-          ]
+          ],
+          "imageSubtitle": "Pyotr Petrovitch arrives at the Marmeladovs', causing tension and curiosity."
         },
         {
           "startParagraph": 4,
@@ -7424,7 +7637,8 @@
             "raskolnikov",
             "the_children_of_katerina_ivanovna",
             "amalia_lippevechsels_tenants_people_in_inner_rooms"
-          ]
+          ],
+          "imageSubtitle": "Luzhin publicly accuses Sonia of stealing a banknote in front of everyone."
         },
         {
           "startParagraph": 14,
@@ -7439,7 +7653,8 @@
             "raskolnikov",
             "the_children_of_katerina_ivanovna",
             "amalia_lippevechsels_tenants_people_in_inner_rooms"
-          ]
+          ],
+          "imageSubtitle": "Katerina Ivanovna fiercely defends Sonia as accusations of theft escalate."
         },
         {
           "startParagraph": 36,
@@ -7455,7 +7670,8 @@
             "raskolnikov",
             "the_children_of_katerina_ivanovna",
             "amalia_lippevechsels_tenants_people_in_inner_rooms"
-          ]
+          ],
+          "imageSubtitle": "Lebeziatnikov confronts Luzhin, exposing his attempt to frame Sonia."
         },
         {
           "startParagraph": 62,
@@ -7473,7 +7689,8 @@
             "amalia_lippevechsels_tenants_people_in_inner_rooms",
             "the_retired_clerk_of_the_commissariat_department",
             "the_two_poles_brought_by_the_pole"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov confronts Luzhin before the gathered crowd in the Marmeladovs' room."
         },
         {
           "startParagraph": 72,
@@ -7491,7 +7708,8 @@
             "amalia_lippevechsels_tenants_people_in_inner_rooms",
             "the_retired_clerk_of_the_commissariat_department",
             "the_two_poles_brought_by_the_pole"
-          ]
+          ],
+          "imageSubtitle": "Chaos erupts in the Marmeladovs’ room as Luzhin hastily retreats."
         },
         {
           "startParagraph": 73,
@@ -7503,7 +7721,8 @@
             "amalia_fyodorovna_lippevechsel",
             "the_children_of_katerina_ivanovna",
             "amalia_lippevechsels_tenants_people_in_inner_rooms"
-          ]
+          ],
+          "imageSubtitle": "Katerina Ivanovna and her children are evicted by Amalia Ivanovna."
         },
         {
           "startParagraph": 76,
@@ -7514,7 +7733,8 @@
             "katerina_ivanovna",
             "the_children_of_katerina_ivanovna",
             "amalia_lippevechsels_tenants_people_in_inner_rooms"
-          ]
+          ],
+          "imageSubtitle": "Katerina Ivanovna rushes into the street, desperate to seek justice."
         },
         {
           "startParagraph": 77,
@@ -7526,7 +7746,8 @@
             "amalia_fyodorovna_lippevechsel",
             "the_children_of_katerina_ivanovna",
             "amalia_lippevechsels_tenants_people_in_inner_rooms"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov quietly leaves the Marmeladovs' room, heading to see Sonia."
         }
       ]
     },
@@ -7709,7 +7930,8 @@
           "imageDescription": "A dim corridor in a shabby Petersburg tenement, flickering candlelight casting long shadows. A gaunt young man in threadbare student attire (Raskolnikov) stands frozen, hesitating before a closed door, his face pale and anxious. The hallway appears squalid, woodwork worn with age, emphasizing a tense and uncertain atmosphere typical of 19th-century St. Petersburg.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov hesitates at Sonia’s door, weighed down by what he must confess."
         },
         {
           "startParagraph": 0,
@@ -7719,7 +7941,8 @@
           "characterIds": [
             "raskolnikov",
             "sofya_semyonovna_soniasonya"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov hesitates before confessing something important to Sonia."
         },
         {
           "startParagraph": 35,
@@ -7729,7 +7952,8 @@
           "characterIds": [
             "raskolnikov",
             "sofya_semyonovna_soniasonya"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov sits beside Sonia, struggling to confess what burdens his soul."
         },
         {
           "startParagraph": 67,
@@ -7739,7 +7963,8 @@
           "characterIds": [
             "raskolnikov",
             "sofya_semyonovna_soniasonya"
-          ]
+          ],
+          "imageSubtitle": "Sonia weeps as Raskolnikov confesses, her compassion overwhelming them both."
         },
         {
           "startParagraph": 114,
@@ -7752,7 +7977,8 @@
             "napoleon",
             "god",
             "the_devil"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov confides in Sonia, grappling with guilt and moral questions."
         },
         {
           "startParagraph": 142,
@@ -7762,7 +7988,8 @@
           "characterIds": [
             "raskolnikov",
             "sofya_semyonovna_soniasonya"
-          ]
+          ],
+          "imageSubtitle": "Sonia urges Raskolnikov to confess and seek redemption for his actions."
         },
         {
           "startParagraph": 161,
@@ -7774,7 +8001,8 @@
             "sofya_semyonovna_soniasonya",
             "the_copper_cross_belonging_to_lizaveta",
             "ikon"
-          ]
+          ],
+          "imageSubtitle": "Sonia offers Raskolnikov her wooden cross in a quiet moment of support."
         },
         {
           "startParagraph": 167,
@@ -7785,7 +8013,8 @@
             "raskolnikov",
             "sofya_semyonovna_soniasonya",
             "mr_lebeziatnikov"
-          ]
+          ],
+          "imageSubtitle": "Mr. Lebeziatnikov arrives unexpectedly at Sonia's room."
         }
       ]
     },
@@ -8075,7 +8304,8 @@
             "mr_lebeziatnikov",
             "sofya_semyonovna_soniasonya",
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Lebeziatnikov brings alarming news about Katerina Ivanovna's behavior."
         },
         {
           "startParagraph": 5,
@@ -8085,7 +8315,8 @@
           "characterIds": [
             "mr_lebeziatnikov",
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov and Lebeziatnikov discuss Katerina’s distress as they walk outside."
         },
         {
           "startParagraph": 11,
@@ -8094,7 +8325,8 @@
           "imageDescription": "A cramped, poorly decorated room with yellowed wallpaper and a simple sofa, bathed in the dull light of late afternoon. Raskolnikov stands alone at the center of the room, tense and brooding, dressed in shabby student attire. The room is marked by neglect and isolation, evoking a mood of deep solitude and despair.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov sits alone in his small room, overwhelmed by isolation and doubt."
         },
         {
           "startParagraph": 18,
@@ -8104,7 +8336,8 @@
           "characterIds": [
             "raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Dounia visits Raskolnikov to offer comfort and support in his troubled time."
         },
         {
           "startParagraph": 37,
@@ -8113,7 +8346,8 @@
           "imageDescription": "Wide, cobbled city streets under a dramatic sunset sky. Raskolnikov wanders alone, head bowed, lost in thought. The city around him is busy with pedestrians and horse-drawn carriages, the golden light casting long shadows. Everything feels cold and heavy, underlining Raskolnikov’s isolation amid the bustling urban life.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov learns from Lebeziatnikov about Katerina’s troubled street scene."
         },
         {
           "startParagraph": 43,
@@ -8131,7 +8365,8 @@
             "unnamed_policemanconstable",
             "the_solidlooking_official_with_a_decoration",
             "passersbycrowd_on_the_bridge_and_canal_bank"
-          ]
+          ],
+          "imageSubtitle": "Katerina Ivanovna urges her children to perform for a crowd by the canal."
         },
         {
           "startParagraph": 62,
@@ -8149,7 +8384,8 @@
             "the_solidlooking_official_with_a_decoration",
             "unnamed_policemanconstable",
             "passersbycrowd_on_the_bridge_and_canal_bank"
-          ]
+          ],
+          "imageSubtitle": "Katerina Ivanovna collapses in the street as Sonia and others rush to help."
         },
         {
           "startParagraph": 72,
@@ -8170,7 +8406,8 @@
             "kapernaumov",
             "kapernaumovs_wife",
             "the_kapernaumovs_children"
-          ]
+          ],
+          "imageSubtitle": "Katerina Ivanovna is carried into Sonia’s room, surrounded by worried onlookers."
         },
         {
           "startParagraph": 96,
@@ -8187,7 +8424,8 @@
             "mr_lebeziatnikov",
             "mr_svidrigalov",
             "the_solidlooking_official_with_a_decoration"
-          ]
+          ],
+          "imageSubtitle": "Sonia grieves beside Katerina Ivanovna as the children mourn around her bed."
         },
         {
           "startParagraph": 100,
@@ -8198,7 +8436,8 @@
             "raskolnikov",
             "mr_svidrigalov",
             "mr_lebeziatnikov"
-          ]
+          ],
+          "imageSubtitle": "Svidrigailov offers unexpected help to Raskolnikov in Sonia's room."
         }
       ]
     },
@@ -8423,7 +8662,8 @@
           "imageDescription": "A gaunt young man, Raskolnikov, wanders through misty, deserted St. Petersburg streets and into dim, shabby taverns or woods under cloudy skies. The city is bleak, pavements wet, and the lighting is gray and subdued. Raskolnikov wears threadbare, dark 19th-century Russian clothing and appears distracted, shoulders hunched, lost in thought amid his isolation.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov wanders alone through the city, lost in troubled thoughts."
         },
         {
           "startParagraph": 2,
@@ -8433,7 +8673,8 @@
           "characterIds": [
             "raskolnikov",
             "mr_svidrigalov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov and Svidrigaïlov meet briefly outside Sonia’s lodging."
         },
         {
           "startParagraph": 4,
@@ -8444,7 +8685,8 @@
             "raskolnikov",
             "mr_svidrigalov",
             "priest_attending_marmeladov"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov and Raskolnikov speak quietly on the stairs during the funeral preparations."
         },
         {
           "startParagraph": 5,
@@ -8459,7 +8701,8 @@
             "marmeladovs_eldest_son_by_katerina_ivanovna",
             "marmeladovs_youngest_daughter_by_katerina_ivanovna",
             "priest_attending_marmeladov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov attends the mournful requiem as Sonia quietly weeps by the coffin."
         },
         {
           "startParagraph": 7,
@@ -8469,7 +8712,8 @@
           "characterIds": [
             "raskolnikov",
             "the_crowd"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov searches for solitude but finds himself tormented by inner unrest."
         },
         {
           "startParagraph": 8,
@@ -8479,7 +8723,8 @@
           "characterIds": [
             "raskolnikov",
             "nastasya"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov quietly eats as Nastasya brings him food after the funeral."
         },
         {
           "startParagraph": 9,
@@ -8489,7 +8734,8 @@
           "characterIds": [
             "raskolnikov",
             "razumihin"
-          ]
+          ],
+          "imageSubtitle": "Razumihin confronts Raskolnikov, worried about his strange behavior."
         },
         {
           "startParagraph": 44,
@@ -8499,7 +8745,8 @@
           "characterIds": [
             "raskolnikov",
             "razumihin"
-          ]
+          ],
+          "imageSubtitle": "Razumihin leaves Raskolnikov’s room after sharing surprising news from Porfiry."
         },
         {
           "startParagraph": 57,
@@ -8508,7 +8755,8 @@
           "imageDescription": "Raskolnikov paces his small, worn room in restless agitation, sunlight slanting through the dirty window. He sits heavily on a narrow sofa, hands clasped as he stares into space. The room is sparsely furnished, reflecting his poverty and isolation. The mood is tense with internal struggle.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov paces anxiously in his small room, lost in troubled thought."
         },
         {
           "startParagraph": 64,
@@ -8518,7 +8766,8 @@
           "characterIds": [
             "raskolnikov",
             "porfiry_petrovitch"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov unexpectedly meets Porfiry in the hallway outside his room."
         }
       ]
     },
@@ -8703,7 +8952,8 @@
           "characterIds": [
             "porfiry_petrovitch",
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Porfiry chats with Raskolnikov about cigarettes and recent visits to his room."
         },
         {
           "startParagraph": 4,
@@ -8713,7 +8963,8 @@
           "characterIds": [
             "porfiry_petrovitch",
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Porfiry visits Raskolnikov for an open and honest conversation."
         },
         {
           "startParagraph": 13,
@@ -8723,7 +8974,8 @@
           "characterIds": [
             "porfiry_petrovitch",
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Porfiry discusses his early suspicions with Raskolnikov in the cramped room."
         },
         {
           "startParagraph": 26,
@@ -8733,7 +8985,8 @@
           "characterIds": [
             "porfiry_petrovitch",
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Porfiry confronts Raskolnikov alone, quietly revealing his suspicions."
         },
         {
           "startParagraph": 37,
@@ -8743,7 +8996,8 @@
           "characterIds": [
             "porfiry_petrovitch",
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Porfiry urges Raskolnikov to confess during a tense philosophical exchange."
         },
         {
           "startParagraph": 69,
@@ -8753,7 +9007,8 @@
           "characterIds": [
             "porfiry_petrovitch",
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov and Porfiry exchange uneasy farewells in the tense sitting room."
         }
       ]
     },
@@ -8887,7 +9142,8 @@
           "imageDescription": "A gloomy, bustling St. Petersburg street in the early afternoon with overcast skies. Rodion Romanovich Raskolnikov, a young man in modest, threadbare 19th-century Russian attire, paces anxiously along the uneven pavement, lost in thought. Horse-drawn carts and busy townsfolk in period dress pass by. The surrounding buildings are worn and gray, their facades reflecting the poverty and somber mood of the city. The faint sound of music and laughter wafts from the open windows of a nearby tavern, contrasting with Raskolnikov's brooding demeanor.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov walks the busy streets, deep in troubled thought about Svidrigaïlov."
         },
         {
           "startParagraph": 12,
@@ -8897,7 +9153,8 @@
           "characterIds": [
             "raskolnikov",
             "mr_svidrigalov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov spots Svidrigaïlov watching him from a crowded tavern window."
         },
         {
           "startParagraph": 14,
@@ -8910,7 +9167,8 @@
             "philip",
             "katia",
             "boy_with_a_little_hand_organ"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov finds Svidrigaïlov entertaining guests in a crowded tavern back room."
         },
         {
           "startParagraph": 20,
@@ -8920,7 +9178,8 @@
           "characterIds": [
             "raskolnikov",
             "mr_svidrigalov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov and Svidrigaïlov converse privately in a dingy tavern room."
         }
       ]
     },
@@ -9097,7 +9356,8 @@
           "characterIds": [
             "mr_svidrigalov",
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov shares details of his strange marriage with Raskolnikov."
         },
         {
           "startParagraph": 17,
@@ -9108,7 +9368,8 @@
             "mr_svidrigalov",
             "raskolnikov",
             "philip"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov demands water as Razumikhin reacts to his sudden outburst."
         },
         {
           "startParagraph": 0,
@@ -9122,7 +9383,8 @@
             "svidrigalovs_betrotheds_father",
             "svidrigalovs_betrotheds_married_sister",
             "the_two_little_nephews_of_svidrigalovs_betrotheds_family"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov reveals details of his unusual marriage arrangement."
         },
         {
           "startParagraph": 0,
@@ -9132,7 +9394,8 @@
           "characterIds": [
             "mr_svidrigalov",
             "the_mother_and_girl_from_the_dancing_den"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov describes his unusual marital contract with Marfa Petrovna."
         },
         {
           "startParagraph": 30,
@@ -9143,7 +9406,8 @@
             "mr_svidrigalov",
             "raskolnikov",
             "philip"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov and Raskolnikov exchange sharp words after their tense conversation."
         },
         {
           "startParagraph": 34,
@@ -9153,7 +9417,8 @@
           "characterIds": [
             "mr_svidrigalov",
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov decides to follow Svidrigaïlov as they part ways outside the restaurant."
         }
       ]
     },
@@ -9357,7 +9622,8 @@
           "characterIds": [
             "raskolnikov",
             "mr_svidrigalov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov confronts Svidrigaïlov outside his lodgings on a tense evening."
         },
         {
           "startParagraph": 22,
@@ -9369,7 +9635,8 @@
             "mr_svidrigalov",
             "madame_resslich",
             "kapernaumovs_wife"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov reluctantly tours Svidrigaïlov's rooms and declines a carriage ride."
         },
         {
           "startParagraph": 26,
@@ -9379,7 +9646,8 @@
           "characterIds": [
             "raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov, lost in thought, unknowingly passes Dounia on the bridge."
         },
         {
           "startParagraph": 28,
@@ -9389,7 +9657,8 @@
           "characterIds": [
             "mr_svidrigalov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Dounia hesitantly meets Svidrigaïlov on a quiet street corner."
         },
         {
           "startParagraph": 39,
@@ -9399,7 +9668,8 @@
           "characterIds": [
             "mr_svidrigalov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov reveals his adjoining rooms and explains how he eavesdropped."
         },
         {
           "startParagraph": 45,
@@ -9409,7 +9679,8 @@
           "characterIds": [
             "mr_svidrigalov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Dounia confronts Svidrigaïlov in his sitting room about his troubling letter."
         },
         {
           "startParagraph": 78,
@@ -9419,7 +9690,8 @@
           "characterIds": [
             "mr_svidrigalov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Dounia confronts Svidrigaïlov as he blocks her escape from his room."
         },
         {
           "startParagraph": 93,
@@ -9429,7 +9701,8 @@
           "characterIds": [
             "mr_svidrigalov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Dounia confronts Svidrigaïlov, armed with a revolver, demanding he keep his distance."
         },
         {
           "startParagraph": 105,
@@ -9439,7 +9712,8 @@
           "characterIds": [
             "mr_svidrigalov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Dounia confronts Svidrigaïlov with a revolver in his sitting room."
         },
         {
           "startParagraph": 115,
@@ -9449,7 +9723,8 @@
           "characterIds": [
             "mr_svidrigalov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Dounia escapes Svidrigaïlov's room after a tense confrontation and refusal."
         },
         {
           "startParagraph": 127,
@@ -9458,7 +9733,8 @@
           "imageDescription": "Svidrigaïlov stands solitary at the window, his profile framed by pallid daylight. The room is empty and still, with the revolver on the floor and a towel in his bloodied hand. The sense of defeat and exhaustion permeates as he surveys the lonely space, the trappings of 19th-century St. Petersburg life now underscoring his isolation and despair.",
           "characterIds": [
             "mr_svidrigalov"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov quietly contemplates alone, then leaves with the revolver."
         }
       ]
     },
@@ -9877,7 +10153,8 @@
             "german_clown_from_munich",
             "jew",
             "mr_svidrigalov"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov mingles with clerks and entertainers at a shabby pleasure garden."
         },
         {
           "startParagraph": 3,
@@ -9886,7 +10163,8 @@
           "imageDescription": "A nighttime St. Petersburg street under a lashing, pouring thunderstorm. Bolt flashes illuminate slick cobblestones and faceless pedestrians hurrying for shelter. Svidrigaïlov walks alone, hatless and soaked, his coat clinging to his frame as water streams down from the darkened, brooding sky. Gas lamps give a feeble, watery glow. The sense is isolated and oppressive.",
           "characterIds": [
             "mr_svidrigalov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov hurries through stormy streets as lightning flashes overhead."
         },
         {
           "startParagraph": 4,
@@ -9895,7 +10173,8 @@
           "imageDescription": "A cramped, modest 19th-century apartment room; Svidrigaïlov stands near a battered bureau, illuminated by a single candle. His clothes drip onto the worn wooden floor. The window gives onto dark, rain-streaked night. Documents are being torn beside a pile of banknotes. The air is tense, impersonal, and practical.",
           "characterIds": [
             "mr_svidrigalov"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov hurriedly gathers his money and leaves for Sonia's lodgings."
         },
         {
           "startParagraph": 0,
@@ -9906,7 +10185,8 @@
             "mr_svidrigalov",
             "sofya_semyonovna_soniasonya",
             "the_kapernaumovs_children"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov leaves the pleasure garden as a thunderstorm erupts overhead."
         },
         {
           "startParagraph": 6,
@@ -9916,7 +10196,8 @@
           "characterIds": [
             "mr_svidrigalov",
             "sofya_semyonovna_soniasonya"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov offers Sonia financial help and urges her to accept it quietly."
         },
         {
           "startParagraph": 15,
@@ -9925,7 +10206,8 @@
           "imageDescription": "Sonia is left alone near the dimly lit table, her face twisted in concern, hands resting on the pile of money and papers Svidrigaïlov has given her. Behind her, the door is open, rain-soaked darkness beyond. The furnishings are poor, giving a feeling of anxiety and uncertainty in the pale morning light.",
           "characterIds": [
             "sofya_semyonovna_soniasonya"
-          ]
+          ],
+          "imageSubtitle": "Sonia anxiously watches Svidrigaïlov leave her small room."
         },
         {
           "startParagraph": 16,
@@ -9939,7 +10221,8 @@
             "svidrigalovs_betrotheds_mother",
             "svidrigalovs_betrotheds_father",
             "fedosya"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov visits his fiancée’s family to deliver a mysterious farewell gift."
         },
         {
           "startParagraph": 18,
@@ -9948,7 +10231,8 @@
           "imageDescription": "A windy, deserted St. Petersburg night: Svidrigaïlov stands on a wooden bridge over the surging Little Neva. The city’s stone and wooden buildings loom through gusting mist. The wind ruffles Svidrigaïlov’s coat and hat, his face lit by streetlamps. The environment is cold and foreboding.",
           "characterIds": [
             "mr_svidrigalov"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov searches for a late-night room at a shabby hotel in the rain."
         },
         {
           "startParagraph": 0,
@@ -9958,7 +10242,8 @@
           "characterIds": [
             "mr_svidrigalov",
             "ragged_fellowattendant"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov wanders through stormy streets after an evening of strange company."
         },
         {
           "startParagraph": 28,
@@ -9969,7 +10254,8 @@
             "mr_svidrigalov",
             "curlyheaded_man_with_red_inflamed_face",
             "the_other_unnamed_man_in_the_next_room_sneeze"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov spies through a crack, watching neighbors argue in the next room."
         },
         {
           "startParagraph": 36,
@@ -9978,7 +10264,8 @@
           "imageDescription": "The small hotel room is close, dim, and stuffy as Svidrigaïlov, feverish and disheveled, tosses in the creased, blanket-wrapped bed. Candlelight casts nervous shadows. The surroundings are untidy, and the blanket is thrown back as he searches anxiously for the source of disturbance—a mouse skitters away. The oppressive air is heavy with discomfort, loneliness, and delirium.",
           "characterIds": [
             "mr_svidrigalov"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov awakens from a feverish dream of a mouse in his hotel room."
         },
         {
           "startParagraph": 0,
@@ -9987,7 +10274,8 @@
           "imageDescription": "A dreamlike, radiant country garden modeled with English taste; bright with flowers, open windows, hay-strewn polished floors, and floral arrangements everywhere. In the room's center is a white-draped coffin surrounded by wreaths of roses. Within, a pale, youthful blonde girl in muslin lies with crossed arms, a rose wreath on her head, lips parted in a sorrowful smile. Sunlight floods the air, amplifying the peace and tragic beauty of the vision.",
           "characterIds": [
             "mr_svidrigalov"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov shelters in a noisy pleasure garden as a storm begins outside."
         },
         {
           "startParagraph": 39,
@@ -9996,7 +10284,8 @@
           "imageDescription": "Dawn creeps through the dirty window of the tiny room as Svidrigaïlov, pale and exhausted in his shirt, leans out into the rain-wet garden outside. Wisps of mist, a few blurred tea tables below, and tangled bushes suggest the garden’s presence. He then dresses in his West European overcoat and hat, preparing to leave. The lighting reveals soft morning blues beginning to replace the darkness.",
           "characterIds": [
             "mr_svidrigalov"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov wakes at dawn, gazing out his window before preparing to leave."
         },
         {
           "startParagraph": 42,
@@ -10006,7 +10295,8 @@
           "characterIds": [
             "mr_svidrigalov",
             "the_little_girl_in_the_hotel"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov discovers a lost, shivering girl hiding in the hotel corridor."
         },
         {
           "startParagraph": 0,
@@ -10016,7 +10306,8 @@
           "characterIds": [
             "mr_svidrigalov",
             "the_little_girl_in_the_hotel"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov wanders through rain-soaked streets after a night of strange company."
         },
         {
           "startParagraph": 44,
@@ -10026,7 +10317,8 @@
           "characterIds": [
             "mr_svidrigalov",
             "flies"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov wakes at dawn and absentmindedly tries to catch a fly."
         },
         {
           "startParagraph": 46,
@@ -10038,7 +10330,8 @@
             "man_in_a_greatcoat",
             "dog",
             "shop_signs"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov wanders alone through the misty streets towards the Little Neva."
         },
         {
           "startParagraph": 47,
@@ -10049,7 +10342,8 @@
             "mr_svidrigalov",
             "achilles",
             "official_witness"
-          ]
+          ],
+          "imageSubtitle": "Svidrigaïlov encounters Achilles outside the large gated house at dawn."
         }
       ]
     },
@@ -10174,7 +10468,8 @@
           "imageDescription": "A rain-slicked street at dusk in 19th-century St. Petersburg, with gray stone buildings and wooden stairs leading up from the street to a modest doorway. Raskolnikov, in torn and muddy clothes suited to a poor student, ascends slowly. The setting glows with the orangish tint of sunset, but the overall mood is somber and reflective; the street is quiet and nearly empty.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov hesitates on the stairs outside his family's new lodging."
         },
         {
           "startParagraph": 3,
@@ -10184,7 +10479,8 @@
           "characterIds": [
             "raskolnikov",
             "pulcheria_raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Pulcheria welcomes Raskolnikov home with joy and shows him his published article."
         },
         {
           "startParagraph": 19,
@@ -10194,7 +10490,8 @@
           "characterIds": [
             "raskolnikov",
             "pulcheria_raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Pulcheria embraces Raskolnikov as they share a tearful farewell."
         },
         {
           "startParagraph": 41,
@@ -10203,7 +10500,8 @@
           "imageDescription": "An early evening street in St. Petersburg, with Raskolnikov alone, walking quickly past wooden and stucco houses, his shoulders hunched and face brooding. The sky is clear but the street is still damp from rain. A faint pink and gold sunset illuminates the wet cobblestones, and a few distant passersby in period dress, unaware of his presence. The mood is tense and anticipatory.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov finds Dounia waiting for him in his room, her eyes full of grief."
         },
         {
           "startParagraph": 0,
@@ -10213,7 +10511,8 @@
           "characterIds": [
             "raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov returns home and is warmly welcomed by his mother."
         },
         {
           "startParagraph": 46,
@@ -10223,7 +10522,8 @@
           "characterIds": [
             "raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov tells Dounia he is going to give himself up."
         },
         {
           "startParagraph": 75,
@@ -10233,7 +10533,8 @@
           "characterIds": [
             "raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov and Dounia part ways on the street, exchanging a final glance."
         }
       ]
     },
@@ -10718,7 +11019,8 @@
             "sofya_semyonovna_soniasonya",
             "raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia"
-          ]
+          ],
+          "imageSubtitle": "Sonia and Dounia sit together in quiet support as evening falls."
         },
         {
           "startParagraph": 0,
@@ -10728,7 +11030,8 @@
           "characterIds": [
             "sofya_semyonovna_soniasonya",
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov enters Sonia's room at dusk as she anxiously awaits him."
         },
         {
           "startParagraph": 0,
@@ -10737,7 +11040,8 @@
           "imageDescription": "A cramped, darkened stairwell in a shabby Petersburg building. Raskolnikov, distressed and distracted, descends the spiral stairs, his hand trailing along the peeling wall. The stairwell is littered with rubbish and faintly illumined by the light seeping in through a dirty window. The mood is anxious and uncertain.",
           "characterIds": [
             "raskolnikov"
-          ]
+          ],
+          "imageSubtitle": "Sonia and Dounia wait in anxious silence as evening falls over the city."
         },
         {
           "startParagraph": 21,
@@ -10753,7 +11057,8 @@
             "the_youth_in_the_square",
             "the_workman_who_commented_in_the_square",
             "the_strangerthird_bystander_crowd_participants"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov wanders through the crowded market, lost in anxious thoughts."
         },
         {
           "startParagraph": 26,
@@ -10767,7 +11072,8 @@
             "the_youth_in_the_square",
             "the_workman_who_commented_in_the_square",
             "the_strangerthird_bystander_crowd_participants"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov kneels and kisses the ground in the busy Hay Market square."
         },
         {
           "startParagraph": 34,
@@ -10778,7 +11084,8 @@
             "raskolnikov",
             "the_porter",
             "the_peasant_in_the_police_office"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov hesitates before entering the police station, anxious and uncertain."
         },
         {
           "startParagraph": 39,
@@ -10789,7 +11096,8 @@
             "raskolnikov",
             "nil_pavlitch",
             "mr_svidrigalov"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov nervously faces Ilya Petrovitch at the police station."
         },
         {
           "startParagraph": 74,
@@ -10800,7 +11108,8 @@
             "raskolnikov",
             "sofya_semyonovna_soniasonya",
             "the_porter"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov reels outside the police office as Sonia waits anxiously in the yard."
         },
         {
           "startParagraph": 75,
@@ -10811,7 +11120,8 @@
             "raskolnikov",
             "the_peasant_in_the_police_office",
             "unnamed_policemanconstable"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov stands before Ilya Petrovitch, overcome and ready to confess."
         },
         {
           "startParagraph": 88,
@@ -10826,7 +11136,8 @@
             "pulcheria_raskolnikov",
             "zossimov",
             "porfiry_petrovitch"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov is questioned in court as details of his crime are examined."
         },
         {
           "startParagraph": 93,
@@ -10837,7 +11148,8 @@
             "pulcheria_raskolnikov",
             "avdotya_romanovna_raskolnikov_dounia",
             "razumihin"
-          ]
+          ],
+          "imageSubtitle": "Pulcheria falls ill as Dounia and Razumihin arrange her departure from Petersburg."
         },
         {
           "startParagraph": 87,
@@ -10850,7 +11162,8 @@
             "prisoners_in_siberia",
             "polish_exiles_political_prisoners",
             "russian_prisoners_officer_and_two_seminarists"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov sits in a Siberian prison, serving his sentence in silence."
         },
         {
           "startParagraph": 129,
@@ -10863,7 +11176,8 @@
             "the_guardguards",
             "nomads",
             "the_party_of_convicts"
-          ]
+          ],
+          "imageSubtitle": "Raskolnikov and Sonia sit quietly together by the riverbank in the early morning."
         }
       ]
     }
