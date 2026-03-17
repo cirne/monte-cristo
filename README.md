@@ -43,6 +43,16 @@ bun run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
+### ⚠️ Repository History Rewrite (March 2026)
+
+The Git history was rewritten to remove large image files (moved to DigitalOcean Spaces). If you have this repo on other machines, you must reset your local `main` branch:
+
+```bash
+git fetch origin
+git checkout main
+git reset --hard origin/main
+```
+
 ## Project Structure
 
 ```
