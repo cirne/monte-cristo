@@ -25,7 +25,7 @@ Images are served via DigitalOcean Spaces CDN to keep the repository size small.
 
 - **CDN URL:** `https://monte-cristo.sfo3.cdn.digitaloceanspaces.com`
 - **Bucket:** `monte-cristo` (SFO3 region)
-- **Environment:** Set `NEXT_PUBLIC_IMAGE_CDN` in `.env` to the CDN URL to serve images from Spaces. If unset, the app falls back to `/images` (local).
+- **Configuration:** The CDN URL is hardcoded in `lib/env.ts`. No environment variables are needed to serve images.
 - **Uploads:** The `generate-images.ts` script automatically uploads new images to Spaces if `SPACES_*` credentials are set in `.env`.
 - **Manual Migration:** Use `bun run scripts/upload-images-to-spaces.ts` to upload all existing local images to Spaces.
 

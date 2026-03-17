@@ -23,7 +23,7 @@ export function requireOpenAIApiKey(): string {
   return key;
 }
 
-/** Get the image CDN base URL. Defaults to '/images' for local development. */
+/** Get the image CDN base URL. */
 export function getImageBase(): string {
-  return process.env.NEXT_PUBLIC_IMAGE_CDN || "/images";
+  return "https://monte-cristo.sfo3.cdn.digitaloceanspaces.com";
 }
