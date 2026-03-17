@@ -23,6 +23,7 @@
 import "../lib/loadEnv";
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "fs";
 import { join } from "path";
+import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
 import { requireOpenAIClient } from "../lib/openai";
 import { createChatCompletion } from "../lib/llm";
 import { loadStyle, buildFullPrompt, generateImageToWebPBuffer, ContentPolicyError } from "../lib/image-gen";
@@ -34,6 +35,43 @@ import type { SceneWithDetails } from "../lib/scenes";
 
 const ROOT = join(import.meta.dir, "..");
 const MAX_SCENE_TEXT_CHARS = 4000;
+
+const SPACES_ENDPOINT = process.env.SPACES_ENDPOINT;
+const SPACES_BUCKET = process.env.SPACES_BUCKET || "monte-cristo";
+const SPACES_ACCESS_KEY_ID = process.env.SPACES_ACCESS_KEY_ID;
+const SPACES_SECRET_ACCESS_KEY = process.env.SPACES_SECRET_ACCESS_KEY;
+
+const s3Client =
+  SPACES_ENDPOINT && SPACES_ACCESS_KEY_ID && SPACES_SECRET_ACCESS_KEY
+    ? new S3Client({
+        endpoint: "https://sfo3.digitaloceanspaces.com",
+        region: "us-east-1",
+        credentials: {
+          accessKeyId: SPACES_ACCESS_KEY_ID,
+          secretAccessKey: SPACES_SECRET_ACCESS_KEY,
+        },
+        forcePathStyle: false,
+      })
+    : null;
+
+async function uploadToSpaces(key: string, body: Buffer) {
+  if (!s3Client) return;
+  try {
+    await s3Client.send(
+      new PutObjectCommand({
+        Bucket: SPACES_BUCKET,
+        Key: key,
+        Body: body,
+        ContentType: "image/webp",
+        CacheControl: "public, max-age=31536000, immutable",
+        ACL: "public-read",
+      })
+    );
+    console.log(`Uploaded to Spaces: ${key}`);
+  } catch (e) {
+    console.error(`Failed to upload to Spaces: ${key}`, e);
+  }
+}
 
 function dataDirFor(slug: string): string {
   return join(ROOT, "data", slug);
@@ -341,6 +379,7 @@ async function runEntityImages(
           const outPath = join(publicEntitiesDir, `${id}.webp`);
           writeFileSync(outPath, webp);
           console.log(`Wrote ${outPath}`);
+          await uploadToSpaces(`entities/${bookSlug}/${id}.webp`, webp);
         } catch (e) {
           const isContentPolicy =
             e instanceof ContentPolicyError ||
@@ -521,6 +560,7 @@ async function runSceneImages(
           const outPath = join(publicScenesDir, `${key}.webp`);
           writeFileSync(outPath, webp);
           console.log(`Wrote ${outPath}`);
+          await uploadToSpaces(`scenes/${bookSlug}/${key}.webp`, webp);
         } catch (e) {
           const isContentPolicy =
             e instanceof ContentPolicyError ||

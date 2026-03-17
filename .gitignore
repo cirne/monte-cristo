@@ -41,3 +41,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# images (moved to DigitalOcean Spaces)
+/public/images/entities/
+/public/images/scenes/

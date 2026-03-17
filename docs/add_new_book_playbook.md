@@ -40,11 +40,11 @@ Goal: a new book is selectable from `/`, is readable at `/book/<slug>`, and **Ch
 
 ## 6) Generate images for Chapter 1 (entities + scenes) with 32 workers
 
-Prereq: `OPENAI_API_KEY` available in the environment (never commit `.env`).
+Prereq: `OPENAI_API_KEY` and `SPACES_*` credentials available in the environment (never commit `.env`).
 
 - Run (both entities + scenes): `bun run generate-images --book=<slug> --chapter=1 --workers=32`
-  - Entity images write to: `public/images/entities/<slug>/<entityId>.webp`
-  - Scene images write to: `public/images/scenes/<slug>/ch1-scene0.webp`, etc.
+  - Entity images write to: `public/images/entities/<slug>/<entityId>.webp` (local) and upload to Spaces.
+  - Scene images write to: `public/images/scenes/<slug>/ch1-scene0.webp` (local) and upload to Spaces.
 
 ## 7) Verify in a browser
 

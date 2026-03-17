@@ -5,6 +5,7 @@ import Image from "next/image";
 import type { Segment } from "@/lib/linkify";
 import type { SceneWithDetails } from "@/lib/scenes";
 import { DEFAULT_BOOK_SLUG } from "@/lib/books";
+import { getImageBase } from "@/lib/env";
 import { XRayPanel } from "./XRayPanel";
 import type { XRayEntityData } from "./XRayPanel";
 import { ReaderFooter } from "./ReaderFooter";
@@ -208,7 +209,7 @@ export function ChapterContent({
   }, [scenes]);
 
   /** Scene images: /images/scenes/<bookSlug>/ */
-  const scenesBase = `/images/scenes/${bookSlug ?? DEFAULT_BOOK_SLUG}`;
+  const scenesBase = `${getImageBase()}/scenes/${bookSlug ?? DEFAULT_BOOK_SLUG}`;
 
   return (
     <>

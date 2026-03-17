@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { MapPin } from "lucide-react";
 import { DEFAULT_BOOK_SLUG } from "@/lib/books";
+import { getImageBase } from "@/lib/env";
 import type { XRayEntityData } from "./XRayPanel";
 
 // -----------------------------------------------------------------------------
@@ -32,7 +33,7 @@ export function ReaderFooter({
   const { isLargeScreen, isSmallScreen, showLocationExpanded, setShowLocationExpanded } =
     useFooterViewport();
 
-  const entitiesBase = `/images/entities/${bookSlug ?? DEFAULT_BOOK_SLUG}`;
+  const entitiesBase = `${getImageBase()}/entities/${bookSlug ?? DEFAULT_BOOK_SLUG}`;
 
   const hasLocation = Boolean(locationLabel?.trim());
   const hasContent = hasLocation || displayedIds.length > 0;

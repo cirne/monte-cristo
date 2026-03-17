@@ -22,3 +22,8 @@ export function requireOpenAIApiKey(): string {
   }
   return key;
 }
+
+/** Get the image CDN base URL. Defaults to '/images' for local development. */
+export function getImageBase(): string {
+  return process.env.NEXT_PUBLIC_IMAGE_CDN || "/images";
+}

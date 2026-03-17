@@ -16,8 +16,18 @@ This doc describes how entity and scene images are generated, stored, and used i
 | Shared style | `data/image-style.txt` |
 | Entity prompts | `data/entity-image-prompts.json` (keyed by entity id, e.g. `dantes`) |
 | Scene prompts | `data/scene-image-prompts.json` (keyed by `ch{N}-scene{M}`) |
-| Entity images | `public/images/entities/<book>/{id}.webp` |
-| Scene images | `public/images/scenes/<book>/ch{N}-scene{M}.webp` |
+| Entity images | `public/images/entities/<book>/{id}.webp` (local) / `entities/<book>/{id}.webp` (Spaces) |
+| Scene images | `public/images/scenes/<book>/ch{N}-scene{M}.webp` (local) / `scenes/<book>/ch{N}-scene{M}.webp` (Spaces) |
+
+## DigitalOcean Spaces (CDN)
+
+Images are served via DigitalOcean Spaces CDN to keep the repository size small.
+
+- **CDN URL:** `https://monte-cristo.sfo3.cdn.digitaloceanspaces.com`
+- **Bucket:** `monte-cristo` (SFO3 region)
+- **Environment:** Set `NEXT_PUBLIC_IMAGE_CDN` in `.env` to the CDN URL to serve images from Spaces. If unset, the app falls back to `/images` (local).
+- **Uploads:** The `generate-images.ts` script automatically uploads new images to Spaces if `SPACES_*` credentials are set in `.env`.
+- **Manual Migration:** Use `bun run scripts/upload-images-to-spaces.ts` to upload all existing local images to Spaces.
 
 ## Shared library: `lib/image-gen.ts`
 

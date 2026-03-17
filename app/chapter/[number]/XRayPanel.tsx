@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { EntityType } from "@/lib/chapter-index";
 import { DEFAULT_BOOK_SLUG } from "@/lib/books";
+import { getImageBase } from "@/lib/env";
 import { AppDrawer } from "@/app/components/AppDrawer";
 import { parseTextForEntityLinks } from "./entityTextSegments";
 
@@ -52,7 +53,7 @@ export function XRayPanel({
   const data = entityData[activeEntityId];
   if (!data) return null;
 
-  const entitiesBase = `/images/entities/${bookSlug ?? DEFAULT_BOOK_SLUG}`;
+  const entitiesBase = `${getImageBase()}/entities/${bookSlug ?? DEFAULT_BOOK_SLUG}`;
 
   const isFirstChapter = chapterNumber === 1;
   const introText = data.spoilerFreeIntro ?? data.name;

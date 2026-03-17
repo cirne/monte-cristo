@@ -11,7 +11,9 @@ interface CharacterCardProps {
   firstAppearance: { number: number; title: string } | null;
 }
 
-const entitiesBaseFor = (slug: string) => `/images/entities/${slug}`;
+import { getImageBase } from "@/lib/env";
+
+const entitiesBaseFor = (slug: string) => `${getImageBase()}/entities/${slug}`;
 
 export function CharacterCard({ entity, slug, firstAppearance }: CharacterCardProps) {
   const [imageError, setImageError] = React.useState(false);

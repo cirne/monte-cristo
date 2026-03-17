@@ -4,31 +4,16 @@ Move entity and scene images from `public/images/` (in-repo) to a DigitalOcean S
 
 ---
 
-## CRITICAL: Where the migration runs
-
-**The one-time upload of existing images must NOT run from a developer’s local machine.** Local bandwidth is a bottleneck for ~1 GB and thousands of files.
-
-**Run the upload from a cloud agent only**, for example:
-
-- A **GitHub Actions** workflow (recommended), or
-- A **short-lived cloud VM** (e.g. DigitalOcean Droplet, GitHub Codespaces, or similar) that has the repo (with images) checked out and the Spaces credentials in the environment.
-
-The cloud agent should follow the steps in [Phase 1: One-time upload](#phase-1-one-time-upload) and [Cloud agent: run the upload](#cloud-agent-run-the-upload) below.
-
----
-
 ## Prerequisites
 
 - **Spaces bucket:** `monte-cristo` in region SFO3.
 - **Endpoint (origin):** `https://monte-cristo.sfo3.digitaloceanspaces.com`
 - **CDN URL (for the app):** `https://monte-cristo.sfo3.cdn.digitaloceanspaces.com`
-- **Credentials:** In the **cloud** environment where the migration runs, set:
+- **Credentials:** In `.env` (copy from `.env.example` and add the secret):
   - `SPACES_ENDPOINT=https://monte-cristo.sfo3.digitaloceanspaces.com`
   - `SPACES_BUCKET=monte-cristo`
   - `SPACES_ACCESS_KEY_ID` (from DigitalOcean Spaces API keys)
   - `SPACES_SECRET_ACCESS_KEY` (secret; do not commit)
-
-Repo already has `.env.example` with `SPACES_ENDPOINT` and `SPACES_ACCESS_KEY_ID`; the secret is configured only in the cloud environment.
 
 ---
 
@@ -58,21 +43,13 @@ Add a script that:
 
 Suggested path: `scripts/upload-images-to-spaces.ts`. Usage: `bun run scripts/upload-images-to-spaces.ts`.
 
-### 1.2 Cloud agent: run the upload
+### 1.2 Run the upload
 
-The **cloud agent** (GitHub Actions job or cloud VM) must:
-
-1. **Checkout the repo** at a commit where `public/images/entities/` and `public/images/scenes/` still exist (i.e. before they are removed from git).
-2. **Install dependencies:** `bun install` (or `npm ci`).
-3. **Set environment variables** (from GitHub Actions secrets or cloud env):
-   - `SPACES_ENDPOINT=https://monte-cristo.sfo3.digitaloceanspaces.com`
-   - `SPACES_BUCKET=monte-cristo`
-   - `SPACES_ACCESS_KEY_ID`
-   - `SPACES_SECRET_ACCESS_KEY`
-4. **Run the upload:** `bun run scripts/upload-images-to-spaces.ts`.
-5. **Verify:** e.g. list bucket prefix `entities/` and `scenes/` and confirm object count/size, or open a few CDN URLs in a browser.
-
-Do **not** run this script from a local machine; use the cloud agent only.
+1. Repo at a commit where `public/images/entities/` and `public/images/scenes/` still exist (before they are removed from git).
+2. `bun install` (or `npm ci`).
+3. `.env` with `SPACES_ACCESS_KEY_ID`, `SPACES_SECRET_ACCESS_KEY`, and optionally `SPACES_ENDPOINT` / `SPACES_BUCKET`.
+4. Run: `bun run scripts/upload-images-to-spaces.ts`.
+5. Verify: list bucket prefix `entities/` and `scenes/` and confirm object count/size, or open a few CDN URLs in a browser.
 
 ---
 
@@ -117,11 +94,11 @@ After the app is deployed and serving images from the CDN:
 
 ---
 
-## Summary for the cloud agent
+## Summary
 
 - **Input:** Repo checkout that still contains `public/images/entities/` and `public/images/scenes/`.
-- **Env:** `SPACES_ENDPOINT`, `SPACES_BUCKET`, `SPACES_ACCESS_KEY_ID`, `SPACES_SECRET_ACCESS_KEY` (secret in cloud env only).
+- **Env:** `.env` with `SPACES_ENDPOINT`, `SPACES_BUCKET`, `SPACES_ACCESS_KEY_ID`, `SPACES_SECRET_ACCESS_KEY`.
 - **Command:** `bun run scripts/upload-images-to-spaces.ts`
 - **Success:** All existing entity and scene WebP files are in the bucket under `entities/<bookSlug>/` and `scenes/<bookSlug>/`, and CDN URL `https://monte-cristo.sfo3.cdn.digitaloceanspaces.com/<key>` serves them.
 
-After that, proceed with Phase 2 (app changes) and Phase 3 (repo cleanup) as separate work, not necessarily on the same runner.
+Then proceed with Phase 2 (app changes) and Phase 3 (repo cleanup).
