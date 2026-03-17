@@ -3784,6 +3784,12 @@
       "number": 21,
       "entities": [
         {
+          "entityId": "jacopo",
+          "type": "person",
+          "firstSeenInChapter": 21,
+          "excerpt": "“It was I,” said a sailor of a frank and manly appearance; “and it was time, for you were sinking.”"
+        },
+        {
           "entityId": "dantes",
           "type": "person",
           "firstSeenInChapter": 1,
@@ -3949,7 +3955,8 @@
           "locationDescription": "On the deck of a Genoese tartan ship",
           "imageDescription": "Inside the wooden deck of a small early 19th-century Genoese tartan sailing ship, Edmond Dantès lies exhausted on the floor as three sailors tend to him. One sailor, standing at Dantès’ head, rubs his limbs with a woollen cloth; another offers a gourd of rum; and an older captain looks on with cautious concern. The ship’s rigging and sails are visible behind them with soft daylight filtering in, conveying a scene of rescue and tentative hope in period sailor attire.",
           "characterIds": [
-            "dantes"
+            "dantes",
+            "jacopo"
           ],
           "imageSubtitle": "Dantès, rescued at sea, thanks the sailors aboard the Genoese tartan."
         },
@@ -3989,7 +3996,7 @@
         {
           "entityId": "jacopo",
           "type": "person",
-          "firstSeenInChapter": 22,
+          "firstSeenInChapter": 21,
           "excerpt": "…s in this costume, and bringing back to Jacopo the shirt and trousers he had lent him, that Edmond reappeared before th…"
         },
         {

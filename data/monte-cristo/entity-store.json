@@ -1459,12 +1459,12 @@
         "Jacopo, captain of the yacht"
       ],
       "type": "person",
-      "firstSeenInChapter": 22,
+      "firstSeenInChapter": 21,
       "searchTerms": [
         "Jacopo",
         "Jacopo, captain of the yacht"
       ],
-      "spoilerFreeIntro": "Jacopo, a seasoned sailor navigating the waters with quiet confidence."
+      "spoilerFreeIntro": "A frank and manly sailor on the Genoese tartan who saves Dantès from drowning."
     },
     "captain_baldi": {
       "id": "captain_baldi",
