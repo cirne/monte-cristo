@@ -88,6 +88,11 @@ export default async function BookChapterPage({ params, searchParams }: Props) {
   const sp = await searchParams;
   const scrollToEntityId =
     typeof sp?.scrollTo === "string" && sp.scrollTo.trim() ? sp.scrollTo.trim() : undefined;
+  const scrollToParagraphIndex = (() => {
+    if (typeof sp?.paragraph !== "string") return undefined;
+    const n = parseInt(sp.paragraph, 10);
+    return Number.isNaN(n) || n < 0 ? undefined : n;
+  })();
   if (!isBookSlug(slug)) notFound();
   const config = getBookConfig(slug);
   if (!config) notFound();
@@ -148,6 +153,7 @@ export default async function BookChapterPage({ params, searchParams }: Props) {
             baselineIntro={baselineIntro}
             bookSlug={slug}
             scrollToEntityId={scrollToEntityId}
+            scrollToParagraphIndex={scrollToParagraphIndex}
           />
         </article>
       </div>

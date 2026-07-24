@@ -23,6 +23,7 @@ X-Ray style reader for **The Count of Monte Cristo**: read chapters, click peopl
 | `data/` | Generated canonical data (book-index, chapters HTML, chapter index, entity store). Do not hand-edit. |
 | `lib/` | Data loading, book/chapter/entity logic, linkify |
 | `scripts/` | parse-book, index-chapter (canonical), image generation |
+| `extension/` | Chrome extension POC: one click from Kindle Cloud Reader to the companion reader (see `extension/README.md`) |
 
 ## Data flow
 

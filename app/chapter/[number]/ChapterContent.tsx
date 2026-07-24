@@ -23,6 +23,8 @@ export interface ChapterContentProps {
   bookSlug?: string;
   /** When set, scroll to the first in-chapter link for this entity (e.g. from character guide ?scrollTo=id). */
   scrollToEntityId?: string | null;
+  /** When set, scroll to this paragraph index (e.g. from companion deep link ?paragraph=N). */
+  scrollToParagraphIndex?: number | null;
 }
 
 /** True if this paragraph is only a placeholder (e.g. stripped PG page marker). */
@@ -39,6 +41,7 @@ export function ChapterContent({
   baselineIntro,
   bookSlug,
   scrollToEntityId,
+  scrollToParagraphIndex,
 }: ChapterContentProps) {
   const [openEntityId, setOpenEntityId] = React.useState<string | null>(null);
   const articleRef = React.useRef<HTMLDivElement>(null);
@@ -65,6 +68,25 @@ export function ChapterContent({
     });
     return () => cancelAnimationFrame(rafId);
   }, [scrollToEntityId, paragraphSegments.length]);
+
+  /** When scrollToParagraphIndex is set (e.g. from a companion deep link), scroll to that paragraph and highlight it. */
+  React.useEffect(() => {
+    if (scrollToParagraphIndex == null || scrollToParagraphIndex < 0 || !articleRef.current) return;
+    const el = articleRef.current.querySelector<HTMLElement>(
+      `[data-paragraph-index="${scrollToParagraphIndex}"]`
+    );
+    if (!el) return;
+    const rafId = requestAnimationFrame(() => {
+      el.scrollIntoView({ behavior: "smooth", block: "center" });
+      el.setAttribute("data-scroll-to-highlight", "true");
+      const onEnd = () => {
+        el.removeAttribute("data-scroll-to-highlight");
+        el.removeEventListener("animationend", onEnd);
+      };
+      el.addEventListener("animationend", onEnd);
+    });
+    return () => cancelAnimationFrame(rafId);
+  }, [scrollToParagraphIndex, paragraphSegments.length]);
 
   /** Track which paragraphs intersect the viewport; current scene = earliest scene that overlaps any visible paragraph.
    * Depends on chapterNumber so the observer is recreated when switching chapters (DOM nodes change even if paragraph count is unchanged). */

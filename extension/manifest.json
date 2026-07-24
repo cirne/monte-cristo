@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Monte Cristo Companion (POC)",
+  "version": "0.1.0",
+  "description": "One click from Kindle Cloud Reader to the Monte Cristo-style X-Ray reader for the same book, synced to your reading position.",
+  "permissions": ["storage"],
+  "host_permissions": ["http://localhost/*", "http://127.0.0.1/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://read.amazon.com/*",
+        "http://localhost:8080/*",
+        "http://127.0.0.1:8080/*"
+      ],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  }
+}

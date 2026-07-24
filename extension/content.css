@@ -1,0 +1,90 @@
+#mc-companion-pill {
+  position: fixed;
+  right: 20px;
+  bottom: 24px;
+  z-index: 2147483646;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 11px 18px 11px 14px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #b45309, #92400e);
+  color: #fef3c7;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  box-shadow:
+    0 4px 14px rgba(146, 64, 14, 0.4),
+    0 1px 3px rgba(0, 0, 0, 0.2);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    opacity 0.15s ease;
+}
+
+#mc-companion-pill:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    0 6px 20px rgba(146, 64, 14, 0.5),
+    0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#mc-companion-pill:active {
+  transform: translateY(0);
+}
+
+#mc-companion-pill.mc-busy {
+  opacity: 0.75;
+  cursor: wait;
+}
+
+#mc-companion-pill .mc-companion-icon {
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+}
+
+#mc-companion-pill .mc-companion-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+#mc-companion-pill.mc-busy .mc-companion-icon {
+  animation: mc-companion-spin 1s linear infinite;
+}
+
+@keyframes mc-companion-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#mc-companion-toast {
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+  z-index: 2147483646;
+  max-width: 320px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: rgba(28, 25, 23, 0.95);
+  color: #fafaf9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 13px;
+  line-height: 1.45;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transform: translateY(6px);
+  pointer-events: none;
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}
+
+#mc-companion-toast.mc-visible {
+  opacity: 1;
+  transform: translateY(0);
+}

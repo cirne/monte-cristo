@@ -10,6 +10,8 @@ Related:
 
 This doc is exploratory product/architecture notes, not an implementation plan or legal advice.
 
+**Proof of concept:** a desktop Chrome extension implementing the "single click from Kindle Cloud Reader to the companion reader" flow lives in [`extension/`](../extension/README.md), backed by `GET /api/companion/locate` (`lib/companion-locate.ts`).
+
 ## Problem
 
 This repo today assumes:
