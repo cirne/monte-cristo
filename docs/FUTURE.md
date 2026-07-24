@@ -1,5 +1,7 @@
 # Planned Features
 
+Related exploration (any-book / Kindle companion, outside this hosted reader): [`docs/any-book-reading-companion.md`](./any-book-reading-companion.md).
+
 ## Chapter indexing (LLM) and scene delineation
 
 **Implemented:**
@@ -20,3 +22,4 @@ At any point in the book, the user will be able to click a button and get a sens
 - **Scope**: Not yet designed or implemented.
 - **Direction**: Viewport-based (e.g. Intersection Observer or scroll position) to determine which paragraph(s) are "current", then surface a short scene summary or context (e.g. location, characters present) without spoilers.
 - **Data / DOM**: When implementing the chapter index and X-Ray links, avoid choices that would make viewport-based scene detection harder later (e.g. keep paragraph boundaries and semantic structure clear).
+- **Related**: A Kindle / external-reader companion would use an analogous “what’s on screen” position model; see [`docs/any-book-reading-companion.md`](./any-book-reading-companion.md).

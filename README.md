@@ -99,3 +99,9 @@ Both APIs accept `chapter` and `paragraph` (0-based paragraph index inside chapt
   - Returns a spoiler-safe recap up to that exact reading checkpoint.
 
 Optional query param: `maxInputTokens` (default `40000`). Optional: `book=<slug>` (default: first book in registry).
+
+## Docs
+
+- [`docs/FUTURE.md`](docs/FUTURE.md) — planned in-app features
+- [`docs/add_new_book_playbook.md`](docs/add_new_book_playbook.md) — add a public-domain book to this reader
+- [`docs/any-book-reading-companion.md`](docs/any-book-reading-companion.md) — exploration: Monte Cristo–like features for any owned book (e.g. Kindle companion)

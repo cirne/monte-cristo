@@ -46,10 +46,15 @@ When you change schema or scripts that write to `data/`, run the relevant script
 
 - Add a new book: `docs/add_new_book_playbook.md`
 
+## Docs
+
+- Planned features: `docs/FUTURE.md`
+- Any-book / Kindle reading companion (exploration): `docs/any-book-reading-companion.md`
+
 ## Conventions
 
 - Types from `lib/` (`Chapter`, `StoredEntity`, `EntityType`, etc.). Data loading is server-side only.
 - Don’t change `data/*.json` shape without updating `lib/` loaders and scripts that write them.
 - Don’t assume `data/*.json` exists in CI; docs/scripts should mention running parse-book / index-chapter.
 
-More: `README.md`, `docs/FUTURE.md`.
+More: `README.md`, `docs/FUTURE.md`, `docs/any-book-reading-companion.md`.

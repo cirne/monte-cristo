@@ -2,6 +2,8 @@
 
 Goal: a new book is selectable from `/`, is readable at `/book/<slug>`, and **Chapter 1** has extracted entities + scenes and has **both entity images and scene images**.
 
+This playbook is for books you can host in this app (typically **public domain**). For applying the same X-Ray / context ideas to a purchased non–public-domain book without republishing (e.g. Kindle companion), see [`docs/any-book-reading-companion.md`](./any-book-reading-companion.md).
+
 ## 1) Discover a source + download
 
 - Find a public-domain source (typically Project Gutenberg). Prefer stable URLs like:
