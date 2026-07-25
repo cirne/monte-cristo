@@ -3,18 +3,26 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>The Count of Monte Cristo: Kindle Cloud Reader (mock)</title>
+    <title>A Prisoner's Reverie: Kindle Cloud Reader (mock)</title>
     <style>
       * {
         box-sizing: border-box;
       }
+      html,
       body {
+        height: 100%;
         margin: 0;
+        overflow: hidden;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
         background: #fafafa;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
         color: #111;
       }
       header {
+        flex: 0 0 auto;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -38,13 +46,21 @@
         white-space: nowrap;
         max-width: 50%;
       }
-      main {
+      .reader {
+        flex: 1 1 auto;
+        min-height: 0;
+        overflow: auto;
+        padding: 36px 20px;
+      }
+      .page {
         max-width: 660px;
-        margin: 36px auto 80px;
-        padding: 48px 56px;
+        margin: 0 auto;
         background: #fff;
         box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
         border-radius: 2px;
+      }
+      main {
+        padding: 48px 56px 24px;
       }
       main p {
         font-family: "Bookerly", Georgia, "Times New Roman", serif;
@@ -54,12 +70,7 @@
         text-align: justify;
       }
       footer {
-        max-width: 660px;
-        margin: -60px auto 40px;
         padding: 0 56px 24px;
-        background: #fff;
-        border-radius: 0 0 2px 2px;
-        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
         font-size: 12px;
         color: #777;
         display: flex;
@@ -70,43 +81,47 @@
   <body>
     <header>
       <div class="brand">kindle <span>cloud reader</span> (mock)</div>
-      <div class="book" data-kindle-mock-title="The Count of Monte Cristo (AmazonClassics Edition)">
-        The Count of Monte Cristo (AmazonClassics Edition)
+      <div class="book" data-kindle-mock-title="A Prisoner's Reverie (Demo Edition)">
+        A Prisoner's Reverie (Demo Edition)
       </div>
     </header>
 
-    <main>
-      <p>
-        On the bed, at full length, and faintly illuminated by the pale light that came from the
-        window, lay a sack of canvas, and under its rude folds was stretched a long and stiffened
-        form; it was Faria’s last winding-sheet,—a winding-sheet which, as the turnkey said, cost so
-        little. Everything was in readiness. A barrier had been placed between Dantès and his old
-        friend. No longer could Edmond look into those wide- open eyes which had seemed to be
-        penetrating the mysteries of death; no longer could he clasp the hand which had done so much
-        to make his existence blessed. Faria, the beneficent and cheerful companion, with whom he
-        was accustomed to live so intimately, no longer breathed. He seated himself on the edge of
-        that terrible bed, and fell into melancholy and gloomy reverie.
-      </p>
-      <p>
-        Alone! he was alone again! again condemned to silence—again face to face with nothingness!
-        Alone!—never again to see the face, never again to hear the voice of the only human being
-        who united him to earth! Was not Faria’s fate the better, after all—to solve the problem of
-        life at its source, even at the risk of horrible suffering?
-      </p>
-      <p>
-        The idea of suicide, which his friend had driven away and kept away by his cheerful
-        presence, now hovered like a phantom over the abbé’s dead body.
-      </p>
-      <p>
-        “If I could die,” he said, “I should go where he goes, and should assuredly find him again.
-        But how to die? It is very easy,” he went on with a smile; “I will remain here, rush on the
-        first person that opens the door, strangle him, and then they will guillotine me.”
-      </p>
-    </main>
+    <div class="reader">
+      <div class="page">
+        <main>
+          <p>
+            On the bed, at full length, and faintly illuminated by the pale light that came from the
+            window, lay a sack of canvas, and under its rude folds was stretched a long and stiffened
+            form; it was Faria’s last winding-sheet,—a winding-sheet which, as the turnkey said, cost so
+            little. Everything was in readiness. A barrier had been placed between Dantès and his old
+            friend. No longer could Edmond look into those wide- open eyes which had seemed to be
+            penetrating the mysteries of death; no longer could he clasp the hand which had done so much
+            to make his existence blessed. Faria, the beneficent and cheerful companion, with whom he
+            was accustomed to live so intimately, no longer breathed. He seated himself on the edge of
+            that terrible bed, and fell into melancholy and gloomy reverie.
+          </p>
+          <p>
+            Alone! he was alone again! again condemned to silence—again face to face with nothingness!
+            Alone!—never again to see the face, never again to hear the voice of the only human being
+            who united him to earth! Was not Faria’s fate the better, after all—to solve the problem of
+            life at its source, even at the risk of horrible suffering?
+          </p>
+          <p>
+            The idea of suicide, which his friend had driven away and kept away by his cheerful
+            presence, now hovered like a phantom over the abbé’s dead body.
+          </p>
+          <p>
+            “If I could die,” he said, “I should go where he goes, and should assuredly find him again.
+            But how to die? It is very easy,” he went on with a smile; “I will remain here, rush on the
+            first person that opens the door, strangle him, and then they will guillotine me.”
+          </p>
+        </main>
 
-    <footer>
-      <span>Page 213 of 1,462</span>
-      <span>14%</span>
-    </footer>
+        <footer>
+          <span>Page 213 of 1,462</span>
+          <span>14%</span>
+        </footer>
+      </div>
+    </div>
   </body>
 </html>

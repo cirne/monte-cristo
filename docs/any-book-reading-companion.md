@@ -10,7 +10,17 @@ Related:
 
 This doc is exploratory product/architecture notes, not an implementation plan or legal advice.
 
-**Proof of concept:** a desktop Chrome extension implementing the "single click from Kindle Cloud Reader to the companion reader" flow lives in [`extension/`](../extension/README.md), backed by `GET /api/companion/locate` (`lib/companion-locate.ts`).
+**Proof of concept:** a desktop Chrome extension implementing the side-panel flow lives in [`extension/`](../extension/README.md). Visible page chunks go to `POST /api/companion/ingest` (`lib/companion-ingest.ts`, `lib/companion-brain.ts`); optional hosted deep-link via `GET /api/companion/locate` when the title matches a public-domain book already in `data/`.
+
+## POC findings (2026-07)
+
+Validated against real Kindle Cloud Reader (`read.amazon.com`) and the local mock:
+
+1. **Progressive companion brain works** when page text is available (mock / DOM text): ingest → entities / current page / story so far under `data/companion/` without adding copyrighted books to the hosted library.
+2. **Current Cloud Reader often paints pages to canvas** — no selectable DOM text. Title/ASIN still work; visible-page indexing does not.
+3. **There is no reliable supported non-OCR path** to the visible page text on canvas Kindle (no stable public API; network payloads are typically encrypted; in-memory hooks are fragile/ToS-risky). Accessibility-tree probes are worth a quick check per build but are often empty.
+4. **In-page “split pane” that shrinks Kindle’s DOM does not reflow canvas layout** — Kindle sizes to the browser viewport. A real Chrome **Side Panel** or a **separate companion window** is required if the UI must not cover the book.
+5. **Verdict for “just work on Kindle web without OCR”:** not technically feasible with current Cloud Reader. Next honest paths: OCR/accessibility capture, or index from a text-exposing source the user legally has (DRM-free EPUB, etc.) — not silent whole-book scrape from Kindle web.
 
 ## Problem
 
@@ -145,5 +155,5 @@ Questions for counsel if this moves beyond personal experimentation: (1) Cloud R
 
 ## Out of scope for this doc
 
-- Implementing an extension or changing the hosted multi-book registry for copyrighted uploads.
+- Changing the hosted multi-book registry for copyrighted uploads (companion indexes stay in `data/companion/`).
 - Replacing the public-domain playbook; PD books still follow [`docs/add_new_book_playbook.md`](./add_new_book_playbook.md).

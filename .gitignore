@@ -25,6 +25,9 @@
 *.pem
 **/.index.lock
 
+# Progressive companion indexes (personal Kindle sessions — do not commit)
+/data/companion/
+
 # debug
 npm-debug.log*
 yarn-debug.log*
