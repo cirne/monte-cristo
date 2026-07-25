@@ -3,6 +3,7 @@ import {
   getEntityStore,
   getStoredEntity,
   slugifyEntityName,
+  isFlatEntityId,
   normalizeNameForMatch,
 } from "./entity-store";
 
@@ -45,6 +46,20 @@ describe("lib/entity-store", () => {
 
     it("returns 'entity' for empty result", () => {
       expect(slugifyEntityName("---")).toBe("entity");
+    });
+  });
+
+  describe("isFlatEntityId", () => {
+    it("accepts underscore and hyphen slugs", () => {
+      expect(isFlatEntityId("ogilvy")).toBe(true);
+      expect(isFlatEntityId("lick-observatory")).toBe(true);
+      expect(isFlatEntityId("the_narrators_wife")).toBe(true);
+    });
+
+    it("rejects type-prefixed or path-like ids", () => {
+      expect(isFlatEntityId("person/ogilvy")).toBe(false);
+      expect(isFlatEntityId("place/mars")).toBe(false);
+      expect(isFlatEntityId("")).toBe(false);
     });
   });
 

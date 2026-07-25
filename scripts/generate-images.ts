@@ -22,7 +22,7 @@
 
 import "../lib/loadEnv";
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "fs";
-import { join } from "path";
+import { dirname, join } from "path";
 import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
 import { requireOpenAIClient } from "../lib/openai";
 import { createChatCompletion } from "../lib/llm";
@@ -377,6 +377,7 @@ async function runEntityImages(
         try {
           const webp = await generateImageToWebPBuffer(fullPrompt);
           const outPath = join(publicEntitiesDir, `${id}.webp`);
+          mkdirSync(dirname(outPath), { recursive: true });
           writeFileSync(outPath, webp);
           console.log(`Wrote ${outPath}`);
           await uploadToSpaces(`entities/${bookSlug}/${id}.webp`, webp);

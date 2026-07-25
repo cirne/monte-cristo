@@ -3,7 +3,13 @@
  * Scripts and app use this to resolve slug → config (volume labels, storage key, etc.).
  */
 
-export const BOOK_SLUGS = ["monte-cristo", "gatsby", "crime-punishment", "brothers-karamazov"] as const;
+export const BOOK_SLUGS = [
+  "monte-cristo",
+  "gatsby",
+  "crime-punishment",
+  "brothers-karamazov",
+  "war-of-the-worlds",
+] as const;
 export type BookSlug = (typeof BOOK_SLUGS)[number];
 
 export const DEFAULT_BOOK_SLUG: BookSlug = "monte-cristo";
@@ -29,6 +35,22 @@ export interface BookConfig {
 }
 
 const CONFIG: Record<BookSlug, BookConfig> = {
+  "war-of-the-worlds": {
+    title: "The War of the Worlds",
+    author: "H. G. Wells",
+    icon: "🪐",
+    storageKey: "war-of-the-worlds-last-chapter",
+    volumeLabels: {
+      "BOOK ONE": "Book One",
+      "BOOK TWO": "Book Two",
+    },
+    baselineIntro:
+      "The story opens in late-nineteenth-century England as astronomers watch Mars. The following people, places, and events appear in this chapter.",
+    imageStyleHint:
+      "late Victorian / early Edwardian England; 1890s scientific romance; Surrey and London; period dress and settings; realistic fine-art illustration.",
+    summaryPromptFragment:
+      "The unnamed narrator is a scientific journalist in England; refer to him as \"the narrator\" (not by a made-up name). Keep summaries grounded in late-19th/early-20th-century England and the Martian invasion as presented in the chapter text only.",
+  },
   "brothers-karamazov": {
     title: "The Brothers Karamazov",
     author: "Fyodor Dostoyevsky (trans. Constance Garnett)",
