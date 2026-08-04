@@ -72,6 +72,14 @@ export function slugifyEntityName(name: string): string {
 }
 
 /**
+ * True when an LLM-proposed entity id is a flat slug safe for image paths / URLs.
+ * Rejects type-prefixed ids like "person/ogilvy".
+ */
+export function isFlatEntityId(id: string): boolean {
+  return /^[a-z0-9]+(?:[_-][a-z0-9]+)*$/i.test(id.trim());
+}
+
+/**
  * Normalize name for matching: trim, collapse spaces, optional lowercase.
  * Used to match "M. de Villefort" to "de Villefort" etc.
  */

@@ -55,13 +55,13 @@ export async function generateImageToWebPBuffer(fullPrompt: string): Promise<Buf
   const openai = requireOpenAIClient();
   let response;
   try {
+    // gpt-image-* returns b64_json by default; response_format is not supported.
     response = await openai.images.generate({
-      model: "dall-e-3",
+      model: "gpt-image-1",
       prompt: fullPrompt,
       n: 1,
       size: "1024x1024",
-      response_format: "b64_json",
-      quality: "standard",
+      quality: "medium",
     });
   } catch (err) {
     if (isContentPolicyRejection(err)) {

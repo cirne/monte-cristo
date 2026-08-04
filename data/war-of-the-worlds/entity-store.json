@@ -1,0 +1,386 @@
+{
+  "entities": {
+    "ogilvy": {
+      "id": "ogilvy",
+      "name": "Ogilvy",
+      "aliases": [
+        "the well-known astronomer"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Ogilvy",
+        "the well-known astronomer"
+      ],
+      "spoilerFreeIntro": "Ogilvy, a well-known and enthusiastic astronomer, is first encountered at Ottershaw."
+    },
+    "markham": {
+      "id": "markham",
+      "name": "Markham",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Markham"
+      ],
+      "spoilerFreeIntro": "Markham, an enthusiastic editor of an illustrated paper, delights in acquiring new photographs for publication."
+    },
+    "chertsey": {
+      "id": "chertsey",
+      "name": "Chertsey",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Chertsey"
+      ],
+      "spoilerFreeIntro": "Chertsey, a quiet town lying peacefully in the darkness below, unaware of the coming events."
+    },
+    "ottershaw": {
+      "id": "ottershaw",
+      "name": "Ottershaw",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Ottershaw"
+      ],
+      "spoilerFreeIntro": "A quiet village near Woking, home to Ogilvy the astronomer."
+    },
+    "martians": {
+      "id": "martians",
+      "name": "Martians",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Martians"
+      ],
+      "spoilerFreeIntro": "Mysterious beings from Mars, possessed of advanced intelligence and technology far beyond that of humans."
+    },
+    "mars": {
+      "id": "mars",
+      "name": "Mars",
+      "aliases": [
+        "the red planet"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Mars",
+        "the red planet"
+      ],
+      "spoilerFreeIntro": "A distant red planet, long speculated by Earth’s thinkers to hold life and mystery."
+    },
+    "earth": {
+      "id": "earth",
+      "name": "Earth",
+      "aliases": [
+        "this world"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Earth",
+        "this world"
+      ],
+      "spoilerFreeIntro": "Earth, home to an unsuspecting humanity on the eve of extraordinary events."
+    },
+    "lick-observatory": {
+      "id": "lick-observatory",
+      "name": "Lick Observatory",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Lick Observatory"
+      ],
+      "spoilerFreeIntro": "A renowned astronomical observatory perched on Mount Hamilton in California, known for its powerful telescopes and keen-eyed astronomers."
+    },
+    "nice": {
+      "id": "nice",
+      "name": "Nice",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Nice"
+      ],
+      "spoilerFreeIntro": "The Lick Observatory, a renowned astronomical research center perched atop California’s Mount Hamilton, surveys the stars with powerful telescopes."
+    },
+    "perrotin": {
+      "id": "perrotin",
+      "name": "Perrotin",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Perrotin"
+      ],
+      "spoilerFreeIntro": "Perrotin, an astronomer based in Nice, is among the early observers to notice unusual activity on Mars."
+    },
+    "lavelle": {
+      "id": "lavelle",
+      "name": "Lavelle of Java",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Lavelle of Java"
+      ],
+      "spoilerFreeIntro": "Lavelle of Java, an astronomer, is the first to observe strange activity on the surface of Mars."
+    },
+    "java": {
+      "id": "java",
+      "name": "Java",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Java"
+      ],
+      "spoilerFreeIntro": "Java, home to the observatory where Lavelle first detects a strange eruption on Mars."
+    },
+    "schiaparelli": {
+      "id": "schiaparelli",
+      "name": "Schiaparelli",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Schiaparelli"
+      ],
+      "spoilerFreeIntro": "An astronomer renowned for observing the surface of Mars through his telescope."
+    },
+    "punch": {
+      "id": "punch",
+      "name": "Punch",
+      "aliases": [
+        "the seriocomic periodical"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Punch",
+        "the seriocomic periodical"
+      ],
+      "spoilerFreeIntro": "A celebrated British satirical magazine known for its humorous takes on current events."
+    },
+    "nature": {
+      "id": "nature",
+      "name": "Nature",
+      "aliases": [
+        "the issue of _Nature_"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Nature",
+        "the issue of _Nature_"
+      ],
+      "spoilerFreeIntro": "Nature, a respected scientific journal read by English audiences."
+    },
+    "daily-telegraph": {
+      "id": "daily-telegraph",
+      "name": "Daily Telegraph",
+      "aliases": [
+        "the _Daily Telegraph_"
+      ],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Daily Telegraph",
+        "the _Daily Telegraph_"
+      ],
+      "spoilerFreeIntro": "A British newspaper known for its wide readership and timely reporting."
+    },
+    "isleworth": {
+      "id": "isleworth",
+      "name": "Isleworth",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Isleworth"
+      ],
+      "spoilerFreeIntro": "A riverside town, known for its excursions and lively evening parties."
+    },
+    "sun": {
+      "id": "sun",
+      "name": "Sun",
+      "aliases": [],
+      "type": "place",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Sun"
+      ],
+      "spoilerFreeIntro": "The sun, distant and vital, is the giver of light and heat to Mars."
+    },
+    "war-martians-earth": {
+      "id": "war-martians-earth",
+      "name": "the War of the Martians Against Earth",
+      "aliases": [
+        "the Martians warred in the same spirit"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the War of the Martians Against Earth",
+        "the Martians warred in the same spirit"
+      ],
+      "spoilerFreeIntro": "A cataclysmic conflict between Martians and humanity."
+    },
+    "opposition_of_1894": {
+      "id": "opposition_of_1894",
+      "name": "opposition of 1894",
+      "aliases": [],
+      "type": "event",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "opposition of 1894"
+      ],
+      "spoilerFreeIntro": "The opposition of 1894 is an astronomical event when Mars was especially close and visible from Earth, drawing the attention of observatories."
+    },
+    "eruption_on_mars": {
+      "id": "eruption_on_mars",
+      "name": "eruption on Mars",
+      "aliases": [
+        "the huge outbreak of incandescent gas upon the planet"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "eruption on Mars",
+        "the huge outbreak of incandescent gas upon the planet"
+      ]
+    },
+    "the_storm_burst_upon_us": {
+      "id": "the_storm_burst_upon_us",
+      "name": "the storm burst upon us",
+      "aliases": [
+        "the storm burst upon us six years ago now"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the storm burst upon us",
+        "the storm burst upon us six years ago now"
+      ],
+      "spoilerFreeIntro": "A sudden and powerful Martian storm, spoken of by the narrator, marks the beginning of extraordinary events."
+    },
+    "casting_of_the_huge_gun": {
+      "id": "casting_of_the_huge_gun",
+      "name": "casting of the huge gun",
+      "aliases": [
+        "the casting of the huge gun"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "casting of the huge gun",
+        "the casting of the huge gun"
+      ],
+      "spoilerFreeIntro": "The mysterious casting of a giant weapon in a vast pit on Mars, signaling the Martians' ominous preparations."
+    },
+    "first_martian_missile_launch": {
+      "id": "first_martian_missile_launch",
+      "name": "first Martian missile launch",
+      "aliases": [
+        "first missile"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "first Martian missile launch",
+        "first missile"
+      ],
+      "spoilerFreeIntro": "The first cylinder-shaped missile from Mars quietly speeds through space toward Earth."
+    },
+    "series_of_martian_shots": {
+      "id": "series_of_martian_shots",
+      "name": "series of Martian shots",
+      "aliases": [
+        "a flame each night... for ten nights"
+      ],
+      "type": "event",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "series of Martian shots",
+        "a flame each night... for ten nights"
+      ]
+    },
+    "bison": {
+      "id": "bison",
+      "name": "bison",
+      "aliases": [
+        "the vanished bison"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "bison",
+        "the vanished bison"
+      ],
+      "spoilerFreeIntro": "A large, shaggy wild animal of the plains, now extinct, once abundant in vast herds."
+    },
+    "dodo": {
+      "id": "dodo",
+      "name": "dodo",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "dodo"
+      ],
+      "spoilerFreeIntro": "The dodo, a large flightless bird once native to Mauritius, is mentioned as an example of a vanished species."
+    },
+    "tasmanians": {
+      "id": "tasmanians",
+      "name": "Tasmanians",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "Tasmanians"
+      ],
+      "spoilerFreeIntro": "A people native to the island of Tasmania, known for their tragic history following the arrival of European settlers."
+    },
+    "european_immigrants": {
+      "id": "european_immigrants",
+      "name": "European immigrants",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "European immigrants"
+      ],
+      "spoilerFreeIntro": "A people newly arrived from Europe who, within fifty years, transformed the land through relentless conquest."
+    },
+    "excursionists_from_chertsey_or_isleworth": {
+      "id": "excursionists_from_chertsey_or_isleworth",
+      "name": "excursionists from Chertsey or Isleworth",
+      "aliases": [],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "excursionists from Chertsey or Isleworth"
+      ],
+      "spoilerFreeIntro": "A cheerful group, returning from their outing with music and song."
+    },
+    "the_narrators_wife": {
+      "id": "the_narrators_wife",
+      "name": "the narrator's wife",
+      "aliases": [
+        "my wife"
+      ],
+      "type": "person",
+      "firstSeenInChapter": 1,
+      "searchTerms": [
+        "the narrator's wife",
+        "my wife"
+      ],
+      "spoilerFreeIntro": "The narrator’s wife, a curious and attentive companion, enjoys an evening walk under the stars with her husband."
+    }
+  },
+  "lastIndexedChapter": 1
+}

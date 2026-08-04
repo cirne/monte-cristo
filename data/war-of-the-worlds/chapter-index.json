@@ -1,0 +1,269 @@
+{
+  "chapters": [
+    {
+      "number": 1,
+      "baselineIntro": "The story opens in late-nineteenth-century England as astronomers watch Mars. The following people, places, and events appear in this chapter.",
+      "entities": [
+        {
+          "entityId": "ogilvy",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ned the human race. I might not have heard of the eruption at all had I not met Ogilvy, the well-known astronomer, at Ottershaw. He was immensely excited at the news, and in the excess of his feelings invited me up to take a turn with him …"
+        },
+        {
+          "entityId": "markham",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…s, men could go about their petty concerns as they did. I remember how jubilant Markham was at securing a new photograph of the planet for the illustrated paper he edited in those days. People in these latter times scarcely realise the abu…"
+        },
+        {
+          "entityId": "chertsey",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ern and walked over to his house. Down below in the darkness were Ottershaw and Chertsey and all their hundreds of people, sleeping in peace. </p>  <p> He was full of speculation that night about the condition of Mars, and scoffed at the v…"
+        },
+        {
+          "entityId": "ottershaw",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…eard of the eruption at all had I not met Ogilvy, the well-known astronomer, at Ottershaw. He was immensely excited at the news, and in the excess of his feelings invited me up to take a turn with him that night in a scrutiny of the red pl…"
+        },
+        {
+          "entityId": "martians",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…n the space of fifty years. Are we such apostles of mercy as to complain if the Martians warred in the same spirit? </p>  <p> The Martians seem to have calculated their descent with amazing subtlety—their mathematical learning is evidently…"
+        },
+        {
+          "entityId": "mars",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…se departed days. At most terrestrial men fancied there might be other men upon Mars, perhaps inferior to themselves and ready to welcome a missionary enterprise. Yet across the gulf of space, minds that are to our minds as ours are to tho…"
+        },
+        {
+          "entityId": "earth",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "<p> No one would have believed in the last years of the nineteenth century that this world was being watched keenly and closely by intelligences greater than man’s and yet as mortal as his own; that as men busied themselves about their var…"
+        },
+        {
+          "entityId": "lick-observatory",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…f 1894 a great light was seen on the illuminated part of the disk, first at the Lick Observatory, then by Perrotin of Nice, and then by other observers. English readers heard of it first in the issue of _Nature_ dated August 2. I am inclin…"
+        },
+        {
+          "entityId": "nice",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…lluminated part of the disk, first at the Lick Observatory, then by Perrotin of Nice, and then by other observers. English readers heard of it first in the issue of _Nature_ dated August 2. I am inclined to think that this blaze may have b…"
+        },
+        {
+          "entityId": "perrotin",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…een on the illuminated part of the disk, first at the Lick Observatory, then by Perrotin of Nice, and then by other observers. English readers heard of it first in the issue of _Nature_ dated August 2. I am inclined to think that this blaz…"
+        },
+        {
+          "entityId": "lavelle",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…<p> The storm burst upon us six years ago now. As Mars approached opposition, Lavelle of Java set the wires of the astronomical exchange palpitating with the amazing intelligence of a huge outbreak of incandescent gas upon the planet. It h…"
+        },
+        {
+          "entityId": "java",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…torm burst upon us six years ago now. As Mars approached opposition, Lavelle of Java set the wires of the astronomical exchange palpitating with the amazing intelligence of a huge outbreak of incandescent gas upon the planet. It had occurr…"
+        },
+        {
+          "entityId": "schiaparelli",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ht have seen the gathering trouble far back in the nineteenth century. Men like Schiaparelli watched the red planet—it is odd, by-the-bye, that for countless centuries Mars has been the star of war—but failed to interpret the fluctuating a…"
+        },
+        {
+          "entityId": "punch",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…notes appeared here, there, and everywhere concerning the volcanoes upon Mars. The seriocomic periodical _Punch_, I remember, made a happy use of it in the political cartoon. And, all unsuspected, those missiles the Martians had fired at u…"
+        },
+        {
+          "entityId": "nature",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…otin of Nice, and then by other observers. English readers heard of it first in the issue of _Nature_ dated August 2. I am inclined to think that this blaze may have been the casting of the huge gun, in the vast pit sunk into their planet,…"
+        },
+        {
+          "entityId": "daily-telegraph",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…et the next day there was nothing of this in the papers except a little note in the _Daily Telegraph_, and the world went in ignorance of one of the gravest dangers that ever threatened the human race. I might not have heard of the eruptio…"
+        },
+        {
+          "entityId": "isleworth",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ed. It was a warm night. Coming home, a party of excursionists from Chertsey or Isleworth passed us singing and playing music. There were lights in the upper windows of the houses as the people went to bed. From the railway station in the …"
+        },
+        {
+          "entityId": "sun",
+          "type": "place",
+          "firstSeenInChapter": 1,
+          "excerpt": "…/p>  <p> The planet Mars, I scarcely need remind the reader, revolves about the sun at a mean distance of 140,000,000 miles, and the light and heat it receives from the sun is barely half of that received by this world. It must be, if the …"
+        },
+        {
+          "entityId": "war-martians-earth",
+          "type": "event",
+          "firstSeenInChapter": 1,
+          "excerpt": "…s, in the space of fifty years. Are we such apostles of mercy as to complain if the Martians warred in the same spirit? </p>  <p> The Martians seem to have calculated their descent with amazing subtlety—their mathematical learning is evide…"
+        },
+        {
+          "entityId": "opposition_of_1894",
+          "type": "event",
+          "firstSeenInChapter": 1,
+          "excerpt": "…. All that time the Martians must have been getting ready. </p>  <p> During the opposition of 1894 a great light was seen on the illuminated part of the disk, first at the Lick Observatory, then by Perrotin of Nice, and then by other obser…"
+        },
+        {
+          "entityId": "eruption_on_mars",
+          "type": "event",
+          "firstSeenInChapter": 1
+        },
+        {
+          "entityId": "the_storm_burst_upon_us",
+          "type": "event",
+          "firstSeenInChapter": 1,
+          "excerpt": "…seen near the site of that outbreak during the next two oppositions. </p>  <p> The storm burst upon us six years ago now. As Mars approached opposition, Lavelle of Java set the wires of the astronomical exchange palpitating with the amazin…"
+        },
+        {
+          "entityId": "casting_of_the_huge_gun",
+          "type": "event",
+          "firstSeenInChapter": 1,
+          "excerpt": "…f _Nature_ dated August 2. I am inclined to think that this blaze may have been the casting of the huge gun, in the vast pit sunk into their planet, from which their shots were fired at us. Peculiar markings, as yet unexplained, were seen …"
+        },
+        {
+          "entityId": "first_martian_missile_launch",
+          "type": "event",
+          "firstSeenInChapter": 1,
+          "excerpt": "…evelopments of moral ideas as civilisation progressed. </p>  <p> One night (the first missile then could scarcely have been 10,000,000 miles away) I went for a walk with my wife. It was starlight and I explained the Signs of the Zodiac to …"
+        },
+        {
+          "entityId": "series_of_martian_shots",
+          "type": "event",
+          "firstSeenInChapter": 1
+        },
+        {
+          "entityId": "bison",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…d utter destruction our own species has wrought, not only upon animals, such as the vanished bison and the dodo, but upon its inferior races. The Tasmanians, in spite of their human likeness, were entirely swept out of existence in a war o…"
+        },
+        {
+          "entityId": "dodo",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…species has wrought, not only upon animals, such as the vanished bison and the dodo, but upon its inferior races. The Tasmanians, in spite of their human likeness, were entirely swept out of existence in a war of extermination waged by Eur…"
+        },
+        {
+          "entityId": "tasmanians",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…mals, such as the vanished bison and the dodo, but upon its inferior races. The Tasmanians, in spite of their human likeness, were entirely swept out of existence in a war of extermination waged by European immigrants, in the space of fift…"
+        },
+        {
+          "entityId": "european_immigrants",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…keness, were entirely swept out of existence in a war of extermination waged by European immigrants, in the space of fifty years. Are we such apostles of mercy as to complain if the Martians warred in the same spirit? </p>  <p> The Martian…"
+        },
+        {
+          "entityId": "excursionists_from_chertsey_or_isleworth",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…h so many telescopes were pointed. It was a warm night. Coming home, a party of excursionists from Chertsey or Isleworth passed us singing and playing music. There were lights in the upper windows of the houses as the people went to bed. F…"
+        },
+        {
+          "entityId": "the_narrators_wife",
+          "type": "person",
+          "firstSeenInChapter": 1,
+          "excerpt": "…ile then could scarcely have been 10,000,000 miles away) I went for a walk with my wife. It was starlight and I explained the Signs of the Zodiac to her, and pointed out Mars, a bright dot of light creeping zenithward, towards which so man…"
+        }
+      ],
+      "scenes": [
+        {
+          "startParagraph": 0,
+          "endParagraph": 0,
+          "locationDescription": "General view of late 19th-century Earth",
+          "imageDescription": "An illustration showing busy late 19th-century townsfolk—men and women in Victorian dress bustle through a lamp-lit street beneath a cloudy night sky. Above, faintly visible through the clouds, is the ominous shape of Mars shimmering red in the heavens, casting an eerie glow upon the crowded scene. The earth appears serene and unaware, contrasted with the looming threat afar, in a fine-art 19th-century style.",
+          "imageSubtitle": "Humanity remains oblivious to the looming threat from Mars."
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 4,
+          "locationDescription": "Imaginative view from Mars towards Earth",
+          "imageDescription": "A dramatic scene from the imagined perspective of a Martian observatory, with shadowed figures of indistinct, otherworldly forms gazing through large, elaborate telescopic machines at a distant, glowing Earth. The reddish, desolate Martian landscape is partly visible outside polished glass windows, with cold, blue-tinted lighting illuminating the alien technology in a 19th-century illustration style.",
+          "imageSubtitle": "Martian intelligences gaze at Earth from afar.",
+          "characterIds": [
+            "martians"
+          ]
+        },
+        {
+          "startParagraph": 5,
+          "endParagraph": 5,
+          "locationDescription": "Retrospective: Earth's history and conflicts",
+          "imageDescription": "A historical montage: Victorian-era hunters stand over a fallen bison on a prairie, while explorers in 19th-century attire gaze sorrowfully at a museum exhibit of a dodo. In the background, a somber scene depicts European settlers clashing with an indigenous Tasmanian group amid subdued, sepia lighting—each group rendered in period-appropriate dress and appearance, evoking the moral weight of human conquests.",
+          "imageSubtitle": "Contemplating human history of conquest and extinction.",
+          "characterIds": [
+            "bison",
+            "dodo",
+            "tasmanians",
+            "european_immigrants"
+          ]
+        },
+        {
+          "startParagraph": 6,
+          "endParagraph": 6,
+          "locationDescription": "19th-century observatories and astronomers",
+          "imageDescription": "A series of venerable astronomers—distinguished European men with beards, wearing late 19th-century suits—observe the red planet through large refractor telescopes housed inside domed observatories. Night sky and stars are visible through observation slits. The scene is thoughtful and diligent, with charts and celestial maps on desks, rendered in the style of a classic scientific illustration.",
+          "imageSubtitle": "Astronomers track mysterious activity on Mars.",
+          "characterIds": [
+            "schiaparelli",
+            "perrotin",
+            "lavelle"
+          ]
+        },
+        {
+          "startParagraph": 0,
+          "endParagraph": 9,
+          "locationDescription": "Ottershaw observatory interior, late night",
+          "imageDescription": "A dimly-lit Victorian observatory at night: a middle-aged man with sharp features and wire-rim spectacles (Ogilvy), in tweed, gestures excitedly beside a younger man in formal attire. A large telescope dominates the center, casting deep shadows; the lantern in the corner gives a small, golden pool of light. Through the opened roof, stars are visible in a moody, tense atmosphere.",
+          "imageSubtitle": "Ogilvy invites the narrator to observe Mars.",
+          "characterIds": [
+            "ogilvy"
+          ]
+        },
+        {
+          "startParagraph": 10,
+          "endParagraph": 18,
+          "locationDescription": "At the telescope in nighttime observatory",
+          "imageDescription": "Inside a shadowy observatory, a dark-haired Victorian man peers through a mounted telescope under the dim glow of a lantern. The room's floor is cluttered with scientific equipment and notes. The telescope is focused skyward through a slit in the domed roof, revealing a small, glimmering red dot of Mars in the deep indigo sky. The mood is one of awe and suspense.",
+          "imageSubtitle": "The narrator and Ogilvy observe the planet Mars.",
+          "characterIds": [
+            "ogilvy"
+          ]
+        },
+        {
+          "startParagraph": 19,
+          "endParagraph": 19,
+          "locationDescription": "Night walk near Ottershaw, peaceful village setting",
+          "imageDescription": "A tranquil, lamplit evening street in a village, featuring a young Victorian couple strolling under a star-strewn sky. The man gestures upwards toward Mars—a bright ruby among the stars. In the distance, a jovial group of excursionists in everyday late 1800s attire walks past with lanterns and instruments. Railway lights and nearby cottages glow warmly, conveying a sense of safety and simplicity.",
+          "imageSubtitle": "The narrator and his wife walk under the starry sky.",
+          "characterIds": [
+            "the_narrators_wife",
+            "excursionists_from_chertsey_or_isleworth"
+          ]
+        }
+      ]
+    }
+  ]
+}

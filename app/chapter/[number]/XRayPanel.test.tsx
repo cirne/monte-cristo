@@ -2,6 +2,22 @@ import { describe, it, expect, vi } from "vitest";
 import { fireEvent, render, screen } from "@testing-library/react";
 import { XRayPanel } from "./XRayPanel";
 
+vi.mock("@/app/components/AppDrawer", () => ({
+  AppDrawer: ({
+    open,
+    children,
+    ariaLabel,
+  }: {
+    open: boolean;
+    children: React.ReactNode;
+    ariaLabel: string;
+  }) => (
+    <div data-testid="app-drawer" data-open={String(open)} aria-label={ariaLabel}>
+      {children}
+    </div>
+  ),
+}));
+
 describe("app/chapter/[number]/XRayPanel", () => {
   it("returns null when entityId is null", () => {
     const { container } = render(
@@ -97,6 +113,9 @@ describe("app/chapter/[number]/XRayPanel", () => {
       />
     );
 
+    expect(screen.getByRole("heading", { name: "Edmond Dantès", level: 3 })).toBeInTheDocument();
+    expect(screen.getByTestId("app-drawer")).toHaveAttribute("data-open", "true");
+
     rerender(
       <XRayPanel
         entityId={null}
@@ -114,6 +133,10 @@ describe("app/chapter/[number]/XRayPanel", () => {
       />
     );
 
+    // Keep last entity content mounted while open=false so the drawer can animate out.
+    expect(screen.getByTestId("app-drawer")).toHaveAttribute("data-open", "false");
     expect(screen.getByRole("heading", { name: "Edmond Dantès", level: 3 })).toBeInTheDocument();
   });
 });
+
+

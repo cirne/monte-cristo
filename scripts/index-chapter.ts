@@ -34,6 +34,7 @@ import {
   type EntityStoreData,
   type StoredEntity,
   slugifyEntityName,
+  isFlatEntityId,
   normalizeNameForMatch,
 } from "../lib/entity-store";
 import { getSingleScene, getParagraphs, normalizeScenes, type SceneWithDetails } from "../lib/scenes";
@@ -555,7 +556,12 @@ async function indexChapter(
         existingByName.searchTerms = [...new Set([...existingByName.searchTerms, ex.alias.trim()])];
       }
     } else {
-      entityId = ex.id && !store.entities[ex.id] ? ex.id : slugifyEntityName(ex.name);
+      // Prefer LLM-provided id only when it is a flat slug (no path separators / type prefixes).
+      const proposedId = ex.id?.trim() ?? "";
+      entityId =
+        isFlatEntityId(proposedId) && !store.entities[proposedId]
+          ? proposedId
+          : slugifyEntityName(ex.name);
       if (store.entities[entityId]) {
         let suffix = 1;
         while (store.entities[entityId + "_" + suffix]) suffix++;
