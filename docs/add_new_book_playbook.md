@@ -49,7 +49,7 @@ Prereq: `OPENAI_API_KEY` and `SPACES_*` credentials available in the environment
 ## 7) Verify in a browser
 
 - Run: `bun run dev`
-- In `http://localhost:3000`:
+- In `http://localhost:3005`:
   - Select the new book card → `/book/<slug>` loads
   - Open Chapter 1 → `/book/<slug>/chapter/1` loads
   - Click multiple linked entity names → X-Ray shows description + **entity images**

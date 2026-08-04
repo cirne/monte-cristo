@@ -35,7 +35,7 @@ When you change schema or scripts that write to `data/`, run the relevant script
 ## Scripts
 
 - `bun run test` / `npm run test` — Run test suite (Vitest)
-- `bun run dev` — Dev server (restarts when `data/` changes, via nodemon)
+- `bun run dev` — Dev server on **:3005** (restarts when `data/` changes, via nodemon)
 - `bun run parse-book` — Regenerate canonical chapter HTML + book index
 - `bun run index-chapter --all` — Canonical full chapter index rebuild
 - `bun run index-chapter --chapter=N` — Incremental chapter patch/reindex (non-destructive by default)

@@ -2,7 +2,7 @@
   "watch": ["data"],
   "ext": "json,html,ts,tsx,js,jsx",
   "ignore": ["data/**/*.lock", "data/**/.index.lock"],
-  "exec": "next dev --turbopack",
+  "exec": "next dev --turbopack -p 3005",
   "delay": 1000,
   "signal": "SIGTERM",
   "killDelay": 5000

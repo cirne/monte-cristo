@@ -41,7 +41,7 @@ bun run index-chapter --book=monte-cristo --all --summaries-only
 bun run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3005](http://localhost:3005) in your browser.
 
 ### ⚠️ Repository History Rewrite (March 2026)
 
